@@ -1,0 +1,127 @@
+:root {
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  color: #d6f5ff;
+  background: #030916;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: radial-gradient(circle at 15% 10%, #144a72 0%, transparent 35%),
+    radial-gradient(circle at 85% 30%, #1e8fb0 0%, transparent 25%),
+    linear-gradient(140deg, #01030a 0%, #021a2b 35%, #03243b 100%);
+}
+
+.app-shell {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 2rem;
+  position: relative;
+}
+
+.aurora {
+  position: absolute;
+  inset: 12% 20%;
+  background: linear-gradient(120deg, rgba(0, 255, 255, 0.2), rgba(66, 139, 255, 0.14), rgba(0, 211, 173, 0.2));
+  filter: blur(60px);
+  z-index: 0;
+  border-radius: 999px;
+}
+
+.panel {
+  position: relative;
+  z-index: 1;
+  max-width: 900px;
+  width: min(95vw, 900px);
+  padding: 2rem;
+  background: rgba(5, 24, 44, 0.72);
+  border: 1px solid rgba(130, 229, 255, 0.25);
+  border-radius: 1.2rem;
+  backdrop-filter: blur(14px);
+  box-shadow: 0 0 20px rgba(65, 220, 255, 0.2), inset 0 0 10px rgba(122, 247, 255, 0.08);
+}
+
+.eyebrow {
+  margin: 0;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #7be8ff;
+  font-size: 0.78rem;
+}
+
+h1 {
+  margin: 0.45rem 0 0.75rem;
+}
+
+.subtitle {
+  margin: 0;
+  opacity: 0.9;
+}
+
+.search-row {
+  margin-top: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.7rem;
+}
+
+input,
+button {
+  border-radius: 0.7rem;
+  border: 1px solid rgba(132, 234, 255, 0.25);
+  font-size: 1rem;
+}
+
+input {
+  background: rgba(8, 24, 41, 0.85);
+  color: #dbfdff;
+  padding: 0.85rem 1rem;
+}
+
+button {
+  background: linear-gradient(90deg, #00d9ff, #1189d8);
+  color: #001624;
+  font-weight: 700;
+  padding: 0.85rem 1.2rem;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.7;
+  cursor: wait;
+}
+
+.message {
+  margin-top: 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+}
+
+.error {
+  background: rgba(249, 80, 80, 0.18);
+  border: 1px solid rgba(249, 80, 80, 0.5);
+}
+
+.result-card {
+  margin-top: 1.25rem;
+  padding: 1.1rem;
+  border-radius: 0.9rem;
+  background: rgba(7, 36, 61, 0.8);
+  border: 1px solid rgba(134, 240, 255, 0.22);
+}
+
+.exchange {
+  margin: 0;
+  color: #89dbff;
+}
+
+article {
+  margin-top: 0.75rem;
+  white-space: pre-wrap;
+  line-height: 1.55;
+}

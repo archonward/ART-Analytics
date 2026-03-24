@@ -1,0 +1,6 @@
+node_modules
+.env
+backend/.env
+backend/private-pdfs/*.pdf
+frontend/dist
+.DS_Store
