@@ -1,13 +1,13 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { getCoverageByTicker } from '../data/coverageRegistry.js';
-import ibmReport from '../data/reports/IBM.js';
-import koReport from '../data/reports/KO.js';
 
-const reportRegistry = {
-  IBM: ibmReport,
-  KO: koReport
-};
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const reportsDirectory = path.resolve(__dirname, '../data/reports');
 
-export function getPublishedReportByTicker(ticker) {
+export async function getPublishedReportByTicker(ticker) {
   const coverage = getCoverageByTicker(ticker);
 
   if (!coverage || coverage.status !== 'published') {
@@ -17,18 +17,25 @@ export function getPublishedReportByTicker(ticker) {
     };
   }
 
-  const report = reportRegistry[ticker];
+  const reportFilePath = path.join(reportsDirectory, `${ticker}.json`);
 
-  if (!report) {
+  try {
+    const fileContent = await fs.readFile(reportFilePath, 'utf-8');
+    const report = JSON.parse(fileContent);
+
     return {
-      found: false,
-      reason: 'missing_report_content'
+      found: true,
+      coverage,
+      report
     };
-  }
+  } catch (error) {
+    if (error.code === 'ENOENT') {
+      return {
+        found: false,
+        reason: 'missing_report_content'
+      };
+    }
 
-  return {
-    found: true,
-    coverage,
-    report
-  };
+    throw error;
+  }
 }

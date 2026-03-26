@@ -1,0 +1,243 @@
+{
+  "meta": {
+    "ticker": "IBM",
+    "companyName": "International Business Machines Corporation",
+    "exchange": "NYSE",
+    "sector": "Technology",
+    "industry": "Enterprise Technology",
+    "reportDate": "2026-03-25",
+    "author": "ART Analytics",
+    "rating": "BUY",
+    "targetPrice": "$255",
+    "currentPrice": "$228",
+    "impliedUpsidePct": "+11.8%",
+    "marketDataAsOf": "Mar 25, 2026, 4:00 PM",
+    "estimatedReadMinutes": 8,
+    "coverageStatus": "published"
+  },
+  "executiveAtAGlance": {
+    "thesisHeadline": "IBM is a mature enterprise technology platform whose upside depends on software execution, hybrid cloud resilience, and AI-related monetisation.",
+    "snapshotMetrics": [
+      { "label": "Market Cap", "value": "$208B" },
+      { "label": "Enterprise Value", "value": "$230B" },
+      { "label": "Revenue (TTM)", "value": "$63B" },
+      { "label": "FCF (TTM)", "value": "$11B" },
+      { "label": "P/E", "value": "26.4x" },
+      { "label": "Next Earnings", "value": "Apr 2026" }
+    ]
+  },
+  "executiveSummary": {
+    "summaryParagraphs": [
+      "IBM is best understood as a steadier enterprise technology business rather than a high-growth software disruptor. The investment case rests on whether management can keep expanding higher-quality software and services revenue while preserving cash generation.",
+      "The stock may appeal to investors who value recurring enterprise relationships, relative defensiveness, and improving business mix more than rapid top-line expansion."
+    ],
+    "catalysts": [
+      "Higher software mix could support margins and earnings quality.",
+      "Hybrid cloud and AI-related enterprise demand may improve sentiment.",
+      "Stable free cash flow can support shareholder confidence."
+    ],
+    "primaryRisks": [
+      "Legacy business drag may offset progress in strategic areas.",
+      "Enterprise IT budgets may soften in a weaker macro environment.",
+      "Execution missteps could delay margin improvement."
+    ],
+    "valuationBridge": "The valuation case depends less on aggressive growth and more on confidence that IBM deserves a steadier quality multiple if software mix and cash conversion improve."
+  },
+  "financialPerformanceHealth": {
+    "incomeStatementAnalysis": {
+      "summaryParagraphs": [
+        "IBM’s income profile is driven by a mix shift toward software and higher-value enterprise solutions.",
+        "The central analytical question is whether revenue quality improves faster than legacy pressures fade."
+      ],
+      "highlights": [
+        "Margins should benefit if software and recurring revenue become a larger share of the mix.",
+        "Revenue growth is likely to remain moderate relative to faster-growing peers."
+      ],
+      "tables": [
+        {
+          "title": "Illustrative Financial Overview",
+          "columns": ["Metric", "FY2023", "FY2024", "FY2025", "FY2026E"],
+          "rows": [
+            ["Revenue", "$61B", "$62B", "$63B", "$65B"],
+            ["Gross Margin", "55%", "56%", "57%", "57.5%"],
+            ["Operating Income", "$9.8B", "$10.4B", "$10.9B", "$11.5B"],
+            ["Free Cash Flow", "$10.2B", "$10.6B", "$11.0B", "$11.4B"]
+          ]
+        }
+      ]
+    },
+    "balanceSheetAnalysis": {
+      "summaryParagraphs": [
+        "IBM’s balance sheet remains manageable for a mature cash-generating business.",
+        "Debt levels matter, but the more important issue is whether cash generation remains consistently strong enough to preserve flexibility."
+      ],
+      "tables": []
+    },
+    "cashFlowReturns": {
+      "summaryParagraphs": [
+        "Free cash flow is one of the most important pillars of the IBM thesis.",
+        "Investors are likely to focus on whether recurring revenue and margin discipline translate into durable cash conversion."
+      ],
+      "highlights": [
+        "FCF stability is central to valuation support.",
+        "Capital discipline remains important for long-term investor confidence."
+      ],
+      "tables": []
+    }
+  },
+  "valuation": {
+    "multiplesAnalysis": {
+      "summaryParagraphs": [
+        "IBM is more likely to be valued as a mature enterprise quality name than as a high-growth technology stock.",
+        "Any rerating would likely come from confidence in mix improvement and steadier earnings quality."
+      ],
+      "tables": [
+        {
+          "title": "Scenario Framework",
+          "columns": ["Scenario", "Revenue CAGR", "WACC", "Terminal Growth", "Implied Price"],
+          "rows": [
+            ["Bull", "6%", "8.5%", "2.5%", "$275"],
+            ["Base", "4%", "9.0%", "2.0%", "$255"],
+            ["Bear", "2%", "10.0%", "1.5%", "$210"]
+          ]
+        }
+      ]
+    },
+    "dcfAnalysis": {
+      "summaryParagraphs": [
+        "A DCF for IBM is highly sensitive to modest changes in terminal assumptions because the business is mature and cash-flow based."
+      ],
+      "assumptions": [
+        "Moderate revenue growth",
+        "Stable-to-improving operating margins",
+        "Durable free cash flow conversion"
+      ],
+      "projectionTable": null,
+      "scenarioTable": null
+    },
+    "valuationConclusion": "IBM’s upside case depends on quality rerating rather than explosive growth. The stock works best if investors gain confidence in software mix, cash generation, and execution consistency."
+  },
+  "businessModelMoat": {
+    "segmentProfile": {
+      "summaryParagraphs": [
+        "IBM’s business model is built around enterprise relationships, software, consulting, and infrastructure-adjacent offerings."
+      ],
+      "segmentTable": {
+        "title": "Illustrative Segment View",
+        "columns": ["Segment", "Role in Thesis"],
+        "rows": [
+          ["Software", "Supports recurring revenue and margin quality"],
+          ["Consulting", "Anchors enterprise relationships"],
+          ["Infrastructure", "Provides scale but may face slower growth"]
+        ]
+      }
+    },
+    "economicMoatAssessment": {
+      "summaryParagraphs": [
+        "IBM’s moat is more likely to come from switching friction, enterprise integration, and long-standing client relationships than from consumer network effects."
+      ],
+      "moatTable": {
+        "title": "Moat Assessment",
+        "columns": ["Moat Source", "Strength", "Assessment"],
+        "rows": [
+          ["Switching Costs", "Moderate", "Enterprise processes and integration create friction"],
+          ["Brand & Reputation", "Moderate", "Trusted name in enterprise technology"],
+          ["Scale", "Moderate", "Large installed base and service footprint"],
+          ["Network Effects", "Weak", "Limited platform-style lock-in"]
+        ]
+      },
+      "overallMoatConclusion": "IBM appears to have a moderate enterprise moat rooted in relationships and operational embedding rather than high-growth ecosystem dominance."
+    }
+  },
+  "growthStrategyOutlook": {
+    "nearTermCatalysts": [
+      "Software mix improvement",
+      "AI-linked enterprise demand commentary",
+      "Margin resilience"
+    ],
+    "mediumTermDrivers": [
+      "Recurring revenue expansion",
+      "Hybrid cloud positioning",
+      "Better earnings quality from business mix"
+    ],
+    "longTermOpportunities": [
+      "AI services monetisation",
+      "Deeper enterprise workflow integration",
+      "Potential improvement in strategic business relevance"
+    ],
+    "tamPositioning": {
+      "summaryParagraphs": [
+        "IBM’s opportunity is less about dominating a single explosive market and more about defending and deepening relevance across enterprise spending pools."
+      ],
+      "highlights": [
+        "Large enterprise installed base remains strategically useful.",
+        "Incremental upside depends on better monetisation of modern software and AI demand."
+      ]
+    }
+  },
+  "managementGovernance": {
+    "leadership": {
+      "summaryParagraphs": [
+        "Management credibility depends on execution discipline, margin management, and the ability to shift the company toward better-quality revenue sources."
+      ]
+    },
+    "capitalAllocation": {
+      "summaryParagraphs": [
+        "For IBM, capital allocation should be judged mainly by whether it preserves strategic relevance and supports durable cash returns."
+      ],
+      "acquisitionTable": null
+    },
+    "alignment": {
+      "summaryParagraphs": [
+        "Investor trust is likely to come more from consistent execution than from any single insider-ownership story."
+      ]
+    }
+  },
+  "riskAnalysis": {
+    "riskTable": {
+      "title": "Risk Analysis",
+      "columns": ["Risk Factor", "Type", "Probability", "Impact", "Mitigation"],
+      "rows": [
+        ["Legacy business drag", "Business", "Medium", "Medium", "Accelerate software mix improvement"],
+        ["Enterprise spending slowdown", "Macro", "Medium", "High", "Recurring revenue resilience"],
+        ["Execution miss in strategic areas", "Execution", "Medium", "High", "Stronger operating discipline"]
+      ]
+    }
+  },
+  "finalRecommendation": {
+    "rating": "BUY",
+    "priceTarget": "$255",
+    "impliedUpsidePct": "+11.8%",
+    "bullBaseBear": {
+      "bull": "$275",
+      "base": "$255",
+      "bear": "$210"
+    },
+    "valuationMethodology": "Illustrative blended framework using scenario-based valuation logic.",
+    "fiveKeyMetricsToWatch": [
+      "Software revenue mix",
+      "Free cash flow delivery",
+      "Operating margin trend",
+      "Consulting demand resilience",
+      "AI-related enterprise bookings"
+    ],
+    "ratingChangeTriggers": [
+      {
+        "action": "Upgrade",
+        "direction": "↑",
+        "trigger": "Sustained mix improvement and stronger-than-expected cash conversion"
+      },
+      {
+        "action": "Downgrade",
+        "direction": "↓",
+        "trigger": "Weak software momentum or deterioration in free cash flow"
+      }
+    ],
+    "closingParagraph": "IBM looks investable mainly as a steadier enterprise technology name. The thesis depends on consistent execution, improving revenue quality, and sustained cash generation."
+  },
+  "openQuestions": [
+    "How much of IBM’s AI narrative will convert into measurable revenue?",
+    "Can software mix improve quickly enough to outweigh slower legacy areas?",
+    "Will enterprise budgets remain supportive for consulting and transformation spending?"
+  ]
+}

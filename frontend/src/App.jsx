@@ -2,6 +2,90 @@ import { useEffect, useRef, useState } from 'react';
 
 const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:4000';
 
+function MetricGrid({ items }) {
+  if (!items || items.length === 0) {
+    return null;
+  }
+
+  return (
+    <div className="metric-grid">
+      {items.map((item) => (
+        <div key={item.label} className="metric-card">
+          <p className="metric-label">{item.label}</p>
+          <p className="metric-value">{item.value}</p>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function BulletList({ items }) {
+  if (!items || items.length === 0) {
+    return null;
+  }
+
+  return (
+    <ul>
+      {items.map((item) => (
+        <li key={item}>{item}</li>
+      ))}
+    </ul>
+  );
+}
+
+function ParagraphBlock({ paragraphs }) {
+  if (!paragraphs || paragraphs.length === 0) {
+    return null;
+  }
+
+  return (
+    <>
+      {paragraphs.map((paragraph) => (
+        <p key={paragraph}>{paragraph}</p>
+      ))}
+    </>
+  );
+}
+
+function DataTable({ table }) {
+  if (!table || !table.columns || !table.rows) {
+    return null;
+  }
+
+  return (
+    <div className="table-wrap">
+      {table.title && <h4 className="table-title">{table.title}</h4>}
+      <table className="report-table">
+        <thead>
+          <tr>
+            {table.columns.map((column) => (
+              <th key={column}>{column}</th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {table.rows.map((row, rowIndex) => (
+            <tr key={`${table.title || 'table'}-${rowIndex}`}>
+              {row.map((cell, cellIndex) => (
+                <td key={`${rowIndex}-${cellIndex}`}>{cell}</td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
+function SectionCard({ title, children }) {
+  return (
+    <div className="report-section">
+      <h3>{title}</h3>
+      {children}
+    </div>
+  );
+}
+
 export default function App() {
   const [ticker, setTicker] = useState('');
   const [loading, setLoading] = useState(false);
@@ -92,18 +176,19 @@ export default function App() {
   }
 
   function renderCoveredReport(reportData) {
+    const { meta } = reportData;
+
     return (
       <section className="result-card" ref={resultRef}>
         <div className="result-header-row">
           <div>
             <h2>
-              {reportData.companyName} ({reportData.ticker})
+              {meta.companyName} ({meta.ticker})
             </h2>
-            <p className="exchange">Exchange: {reportData.exchange}</p>
-            {reportData.sector && <p className="meta-line">Sector: {reportData.sector}</p>}
-            {reportData.lastUpdated && (
-              <p className="meta-line">Research Updated: {reportData.lastUpdated}</p>
-            )}
+            <p className="exchange">Exchange: {meta.exchange}</p>
+            {meta.sector && <p className="meta-line">Sector: {meta.sector}</p>}
+            {meta.industry && <p className="meta-line">Industry: {meta.industry}</p>}
+            {meta.reportDate && <p className="meta-line">Report Date: {meta.reportDate}</p>}
           </div>
 
           <button type="button" className="secondary-button" onClick={handleResetView}>
@@ -111,41 +196,162 @@ export default function App() {
           </button>
         </div>
 
-        <div className="report-section">
-          <h3>{reportData.report.title}</h3>
-        </div>
+        <SectionCard title="Executive At-a-Glance">
+          <p className="thesis-headline">{reportData.executiveAtAGlance.thesisHeadline}</p>
+          <MetricGrid items={reportData.executiveAtAGlance.snapshotMetrics} />
+        </SectionCard>
 
-        <div className="report-section">
-          <h3>Investment Thesis</h3>
+        <SectionCard title="Executive Summary">
+          <ParagraphBlock paragraphs={reportData.executiveSummary.summaryParagraphs} />
+
+          <h4>Top Catalysts</h4>
+          <BulletList items={reportData.executiveSummary.catalysts} />
+
+          <h4>Primary Risks</h4>
+          <BulletList items={reportData.executiveSummary.primaryRisks} />
+
+          <h4>Valuation Bridge</h4>
+          <p>{reportData.executiveSummary.valuationBridge}</p>
+        </SectionCard>
+
+        <SectionCard title="Financial Performance & Health">
+          <h4>Income Statement Analysis</h4>
+          <ParagraphBlock
+            paragraphs={reportData.financialPerformanceHealth.incomeStatementAnalysis.summaryParagraphs}
+          />
+          <BulletList items={reportData.financialPerformanceHealth.incomeStatementAnalysis.highlights} />
+          {reportData.financialPerformanceHealth.incomeStatementAnalysis.tables.map((table) => (
+            <DataTable key={table.title} table={table} />
+          ))}
+
+          <h4>Balance Sheet Analysis</h4>
+          <ParagraphBlock
+            paragraphs={reportData.financialPerformanceHealth.balanceSheetAnalysis.summaryParagraphs}
+          />
+
+          <h4>Cash Flow & Returns</h4>
+          <ParagraphBlock
+            paragraphs={reportData.financialPerformanceHealth.cashFlowReturns.summaryParagraphs}
+          />
+          <BulletList items={reportData.financialPerformanceHealth.cashFlowReturns.highlights} />
+        </SectionCard>
+
+        <SectionCard title="Valuation">
+          <h4>Multiples Analysis</h4>
+          <ParagraphBlock paragraphs={reportData.valuation.multiplesAnalysis.summaryParagraphs} />
+          {reportData.valuation.multiplesAnalysis.tables.map((table) => (
+            <DataTable key={table.title} table={table} />
+          ))}
+
+          <h4>DCF Analysis</h4>
+          <ParagraphBlock paragraphs={reportData.valuation.dcfAnalysis.summaryParagraphs} />
+          <BulletList items={reportData.valuation.dcfAnalysis.assumptions} />
+
+          <h4>Valuation Conclusion</h4>
+          <p>{reportData.valuation.valuationConclusion}</p>
+        </SectionCard>
+
+        <SectionCard title="Business Model & Competitive Moat">
+          <h4>Segment Profile</h4>
+          <ParagraphBlock paragraphs={reportData.businessModelMoat.segmentProfile.summaryParagraphs} />
+          <DataTable table={reportData.businessModelMoat.segmentProfile.segmentTable} />
+
+          <h4>Economic Moat Assessment</h4>
+          <ParagraphBlock
+            paragraphs={reportData.businessModelMoat.economicMoatAssessment.summaryParagraphs}
+          />
+          <DataTable table={reportData.businessModelMoat.economicMoatAssessment.moatTable} />
+          <p>{reportData.businessModelMoat.economicMoatAssessment.overallMoatConclusion}</p>
+        </SectionCard>
+
+        <SectionCard title="Growth Strategy & Future Outlook">
+          <h4>Near-Term Catalysts</h4>
+          <BulletList items={reportData.growthStrategyOutlook.nearTermCatalysts} />
+
+          <h4>Medium-Term Drivers</h4>
+          <BulletList items={reportData.growthStrategyOutlook.mediumTermDrivers} />
+
+          <h4>Long-Term Opportunities</h4>
+          <BulletList items={reportData.growthStrategyOutlook.longTermOpportunities} />
+
+          <h4>TAM & Positioning</h4>
+          <ParagraphBlock paragraphs={reportData.growthStrategyOutlook.tamPositioning.summaryParagraphs} />
+          <BulletList items={reportData.growthStrategyOutlook.tamPositioning.highlights} />
+        </SectionCard>
+
+        <SectionCard title="Management & Governance">
+          <h4>Leadership</h4>
+          <ParagraphBlock paragraphs={reportData.managementGovernance.leadership.summaryParagraphs} />
+
+          <h4>Capital Allocation</h4>
+          <ParagraphBlock paragraphs={reportData.managementGovernance.capitalAllocation.summaryParagraphs} />
+          <DataTable table={reportData.managementGovernance.capitalAllocation.acquisitionTable} />
+
+          <h4>Alignment</h4>
+          <ParagraphBlock paragraphs={reportData.managementGovernance.alignment.summaryParagraphs} />
+        </SectionCard>
+
+        <SectionCard title="Risk Analysis">
+          <DataTable table={reportData.riskAnalysis.riskTable} />
+        </SectionCard>
+
+        <SectionCard title="Final Recommendation">
+          <div className="metric-grid">
+            <div className="metric-card">
+              <p className="metric-label">Rating</p>
+              <p className="metric-value">{reportData.finalRecommendation.rating}</p>
+            </div>
+            <div className="metric-card">
+              <p className="metric-label">Price Target</p>
+              <p className="metric-value">{reportData.finalRecommendation.priceTarget}</p>
+            </div>
+            <div className="metric-card">
+              <p className="metric-label">Implied Upside</p>
+              <p className="metric-value">{reportData.finalRecommendation.impliedUpsidePct}</p>
+            </div>
+          </div>
+
+          <h4>Bull / Base / Bear</h4>
           <ul>
-            {reportData.report.investmentThesis.map((item) => (
-              <li key={item}>{item}</li>
-            ))}
+            <li>Bull: {reportData.finalRecommendation.bullBaseBear.bull}</li>
+            <li>Base: {reportData.finalRecommendation.bullBaseBear.base}</li>
+            <li>Bear: {reportData.finalRecommendation.bullBaseBear.bear}</li>
           </ul>
-        </div>
 
-        <div className="report-section">
-          <h3>Key Points</h3>
-          <ul>
-            {reportData.report.keyPoints.map((item) => (
-              <li key={item}>{item}</li>
-            ))}
-          </ul>
-        </div>
+          <h4>Valuation Methodology</h4>
+          <p>{reportData.finalRecommendation.valuationMethodology}</p>
 
-        <div className="report-section">
-          <h3>Risks</h3>
-          <ul>
-            {reportData.report.risks.map((item) => (
-              <li key={item}>{item}</li>
-            ))}
-          </ul>
-        </div>
+          <h4>Five Key Metrics to Watch</h4>
+          <BulletList items={reportData.finalRecommendation.fiveKeyMetricsToWatch} />
 
-        <div className="report-section">
-          <h3>Conclusion</h3>
-          <p>{reportData.report.conclusion}</p>
-        </div>
+          <h4>What Would Change the Rating</h4>
+          <div className="table-wrap">
+            <table className="report-table">
+              <thead>
+                <tr>
+                  <th>Action</th>
+                  <th>Direction</th>
+                  <th>Specific Trigger</th>
+                </tr>
+              </thead>
+              <tbody>
+                {reportData.finalRecommendation.ratingChangeTriggers.map((item, index) => (
+                  <tr key={`${item.action}-${index}`}>
+                    <td>{item.action}</td>
+                    <td>{item.direction}</td>
+                    <td>{item.trigger}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <p>{reportData.finalRecommendation.closingParagraph}</p>
+        </SectionCard>
+
+        <SectionCard title="Open Questions & Narrative Checkpoints">
+          <BulletList items={reportData.openQuestions} />
+        </SectionCard>
       </section>
     );
   }
@@ -214,12 +420,7 @@ export default function App() {
         </div>
 
         {coverageLoading && <p className="coverage-message">Loading covered tickers...</p>}
-
         {coverageError && <p className="coverage-message coverage-error">{coverageError}</p>}
-
-        {!coverageLoading && !coverageError && coveredTickers.length === 0 && (
-          <p className="coverage-message">No published reports are currently available.</p>
-        )}
 
         {!coverageLoading && !coverageError && coveredTickers.length > 0 && (
           <div className="coverage-grid">
@@ -239,9 +440,7 @@ export default function App() {
                   </div>
                   <p className="coverage-company">{item.companyName}</p>
                   {item.sector && <p className="coverage-sector">{item.sector}</p>}
-                  {item.lastUpdated && (
-                    <p className="coverage-updated">Updated: {item.lastUpdated}</p>
-                  )}
+                  {item.lastUpdated && <p className="coverage-updated">Updated: {item.lastUpdated}</p>}
                 </button>
               );
             })}
@@ -277,7 +476,6 @@ export default function App() {
         {error && <div className="message error">{error}</div>}
 
         {renderCoverageSection()}
-
         {renderResult()}
       </main>
     </div>

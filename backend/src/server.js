@@ -29,7 +29,7 @@ app.get('/api/coverage', (_, res) => {
   });
 });
 
-app.get('/api/stock-summary', (req, res) => {
+app.get('/api/stock-summary', async (req, res) => {
   try {
     const tickerRaw = String(req.query.ticker || '').toUpperCase().trim();
 
@@ -38,7 +38,7 @@ app.get('/api/stock-summary', (req, res) => {
       return res.status(400).json(buildErrorResponse(formatCheck.reason));
     }
 
-    const reportResult = getPublishedReportByTicker(tickerRaw);
+    const reportResult = await getPublishedReportByTicker(tickerRaw);
 
     if (!reportResult.found && reportResult.reason === 'not_researched') {
       return res.status(200).json(

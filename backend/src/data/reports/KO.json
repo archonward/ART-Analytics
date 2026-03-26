@@ -1,0 +1,239 @@
+{
+  "meta": {
+    "ticker": "KO",
+    "companyName": "The Coca-Cola Company",
+    "exchange": "NYSE",
+    "sector": "Consumer Defensive",
+    "industry": "Beverages",
+    "reportDate": "2026-03-25",
+    "author": "ART Analytics",
+    "rating": "BUY",
+    "targetPrice": "$78",
+    "currentPrice": "$71",
+    "impliedUpsidePct": "+9.9%",
+    "marketDataAsOf": "Mar 25, 2026, 4:00 PM",
+    "estimatedReadMinutes": 8,
+    "coverageStatus": "published"
+  },
+  "executiveAtAGlance": {
+    "thesisHeadline": "Coca-Cola remains a durable defensive franchise whose appeal depends on brand strength, pricing power, and cash-generation consistency.",
+    "snapshotMetrics": [
+      { "label": "Market Cap", "value": "$306B" },
+      { "label": "Enterprise Value", "value": "$331B" },
+      { "label": "Revenue (TTM)", "value": "$47B" },
+      { "label": "FCF (TTM)", "value": "$10B" },
+      { "label": "P/E", "value": "24.8x" },
+      { "label": "Next Earnings", "value": "May 2026" }
+    ]
+  },
+  "executiveSummary": {
+    "summaryParagraphs": [
+      "Coca-Cola is best viewed as a defensive global consumer franchise rather than a rapid-growth stock.",
+      "The thesis is supported by brand equity, global distribution, pricing power, and relatively dependable cash generation."
+    ],
+    "catalysts": [
+      "Steady pricing execution can support margins.",
+      "Global brand and distribution advantages reinforce resilience.",
+      "Defensive investor positioning may support valuation in weaker macro conditions."
+    ],
+    "primaryRisks": [
+      "Volume weakness could offset pricing gains.",
+      "Input cost inflation may pressure profitability.",
+      "Currency and international exposure can distort headline results."
+    ],
+    "valuationBridge": "KO does not need aggressive growth assumptions to justify its value; it mainly needs durable cash flow, brand resilience, and credible pricing power."
+  },
+  "financialPerformanceHealth": {
+    "incomeStatementAnalysis": {
+      "summaryParagraphs": [
+        "Coca-Cola’s financial story is built more on consistency and margin resilience than on aggressive top-line acceleration."
+      ],
+      "highlights": [
+        "Pricing power is central to protecting margin structure.",
+        "Revenue quality matters more than high growth."
+      ],
+      "tables": [
+        {
+          "title": "Illustrative Financial Overview",
+          "columns": ["Metric", "FY2023", "FY2024", "FY2025", "FY2026E"],
+          "rows": [
+            ["Revenue", "$44B", "$45B", "$47B", "$48B"],
+            ["Gross Margin", "60%", "60.5%", "61%", "61%"],
+            ["Operating Income", "$12.1B", "$12.8B", "$13.4B", "$13.8B"],
+            ["Free Cash Flow", "$9.1B", "$9.5B", "$10.0B", "$10.3B"]
+          ]
+        }
+      ]
+    },
+    "balanceSheetAnalysis": {
+      "summaryParagraphs": [
+        "KO’s balance sheet should be interpreted in the context of a stable, mature, cash-generative consumer business."
+      ],
+      "tables": []
+    },
+    "cashFlowReturns": {
+      "summaryParagraphs": [
+        "Cash generation remains one of the strongest supports for the Coca-Cola investment case."
+      ],
+      "highlights": [
+        "Stable cash flow helps support shareholder returns.",
+        "Defensive characteristics depend partly on reliable conversion of earnings into cash."
+      ],
+      "tables": []
+    }
+  },
+  "valuation": {
+    "multiplesAnalysis": {
+      "summaryParagraphs": [
+        "Coca-Cola usually commands a quality premium because of its durability, branding, and perceived defensiveness."
+      ],
+      "tables": [
+        {
+          "title": "Scenario Framework",
+          "columns": ["Scenario", "Revenue CAGR", "WACC", "Terminal Growth", "Implied Price"],
+          "rows": [
+            ["Bull", "6%", "7.5%", "2.5%", "$82"],
+            ["Base", "4%", "8.0%", "2.0%", "$78"],
+            ["Bear", "2%", "9.0%", "1.5%", "$66"]
+          ]
+        }
+      ]
+    },
+    "dcfAnalysis": {
+      "summaryParagraphs": [
+        "For KO, valuation is highly sensitive to terminal quality assumptions because the business is mature and stable."
+      ],
+      "assumptions": [
+        "Moderate organic growth",
+        "Stable margins",
+        "High cash conversion"
+      ],
+      "projectionTable": null,
+      "scenarioTable": null
+    },
+    "valuationConclusion": "Coca-Cola’s valuation is supported more by durability than by aggressive growth. The stock works best when markets value resilience and cash stability."
+  },
+  "businessModelMoat": {
+    "segmentProfile": {
+      "summaryParagraphs": [
+        "KO’s business model benefits from global brand assets, distribution reach, and an ecosystem built around beverage scale."
+      ],
+      "segmentTable": {
+        "title": "Illustrative Business Profile",
+        "columns": ["Area", "Role in Thesis"],
+        "rows": [
+          ["Brand Portfolio", "Supports pricing power and consumer loyalty"],
+          ["Distribution", "Creates scale and global execution advantage"],
+          ["Global Footprint", "Improves diversification across markets"]
+        ]
+      }
+    },
+    "economicMoatAssessment": {
+      "summaryParagraphs": [
+        "Coca-Cola’s moat appears strongest in brand, distribution, and category presence rather than in technological lock-in."
+      ],
+      "moatTable": {
+        "title": "Moat Assessment",
+        "columns": ["Moat Source", "Strength", "Assessment"],
+        "rows": [
+          ["Brand & Reputation", "Strong", "Global recognition and durable consumer relevance"],
+          ["Distribution Scale", "Strong", "Deep global system reach"],
+          ["Switching Costs", "Weak", "Consumers can substitute among beverages"],
+          ["Network Effects", "Weak", "Moat is not platform based"]
+        ]
+      },
+      "overallMoatConclusion": "KO appears to have a strong consumer-brand moat driven by scale, brand power, and distribution durability."
+    }
+  },
+  "growthStrategyOutlook": {
+    "nearTermCatalysts": [
+      "Pricing resilience",
+      "Margin protection",
+      "Continued global execution"
+    ],
+    "mediumTermDrivers": [
+      "Portfolio mix improvement",
+      "International volume support",
+      "Brand-led category expansion"
+    ],
+    "longTermOpportunities": [
+      "New beverage category expansion",
+      "Premiumisation",
+      "Stronger monetisation of global brand portfolio"
+    ],
+    "tamPositioning": {
+      "summaryParagraphs": [
+        "Coca-Cola’s growth opportunity is broad but mature. Expansion is more likely to come from execution, mix, and category extension than from a single disruptive driver."
+      ],
+      "highlights": [
+        "Large global installed demand base",
+        "Durable category presence across geographies"
+      ]
+    }
+  },
+  "managementGovernance": {
+    "leadership": {
+      "summaryParagraphs": [
+        "Management quality should be assessed on brand stewardship, capital discipline, and pricing execution."
+      ]
+    },
+    "capitalAllocation": {
+      "summaryParagraphs": [
+        "KO’s capital allocation story is closely tied to sustaining shareholder-return credibility while preserving long-term brand investment."
+      ],
+      "acquisitionTable": null
+    },
+    "alignment": {
+      "summaryParagraphs": [
+        "Governance credibility depends mainly on long-term execution consistency and capital discipline."
+      ]
+    }
+  },
+  "riskAnalysis": {
+    "riskTable": {
+      "title": "Risk Analysis",
+      "columns": ["Risk Factor", "Type", "Probability", "Impact", "Mitigation"],
+      "rows": [
+        ["Input cost inflation", "Cost", "Medium", "Medium", "Pricing and mix management"],
+        ["Consumer volume weakness", "Demand", "Medium", "Medium", "Geographic diversification"],
+        ["Currency volatility", "Macro", "High", "Medium", "Global diversification and hedging"]
+      ]
+    }
+  },
+  "finalRecommendation": {
+    "rating": "BUY",
+    "priceTarget": "$78",
+    "impliedUpsidePct": "+9.9%",
+    "bullBaseBear": {
+      "bull": "$82",
+      "base": "$78",
+      "bear": "$66"
+    },
+    "valuationMethodology": "Illustrative blended framework using scenario-based valuation logic.",
+    "fiveKeyMetricsToWatch": [
+      "Organic revenue growth",
+      "Pricing versus volume balance",
+      "Operating margin resilience",
+      "Free cash flow consistency",
+      "International performance"
+    ],
+    "ratingChangeTriggers": [
+      {
+        "action": "Upgrade",
+        "direction": "↑",
+        "trigger": "Stronger-than-expected pricing durability and margin expansion"
+      },
+      {
+        "action": "Downgrade",
+        "direction": "↓",
+        "trigger": "Sustained volume pressure or weaker cash conversion"
+      }
+    ],
+    "closingParagraph": "KO remains investable mainly as a durable defensive franchise. The case depends on pricing power, brand strength, and sustained cash-generation reliability."
+  },
+  "openQuestions": [
+    "How durable is volume performance if pricing remains elevated?",
+    "Can Coca-Cola keep expanding margins without weakening demand?",
+    "How much additional upside can come from portfolio mix and premiumisation?"
+  ]
+}

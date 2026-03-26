@@ -335,3 +335,79 @@ article {
     align-items: flex-start;
   }
 }
+
+.metric-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.metric-card {
+  padding: 0.9rem;
+  border-radius: 0.8rem;
+  background: rgba(8, 24, 41, 0.88);
+  border: 1px solid rgba(130, 229, 255, 0.18);
+}
+
+.metric-label {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #99daff;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.metric-value {
+  margin: 0.45rem 0 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #dffcff;
+}
+
+.thesis-headline {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: #e5fbff;
+}
+
+.table-wrap {
+  margin-top: 0.9rem;
+  overflow-x: auto;
+}
+
+.table-title {
+  margin: 0 0 0.65rem;
+  color: #9aefff;
+}
+
+.report-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  min-width: 620px;
+}
+
+.report-table th,
+.report-table td {
+  padding: 0.8rem 0.75rem;
+  border: 1px solid rgba(130, 229, 255, 0.16);
+  text-align: left;
+  vertical-align: top;
+}
+
+.report-table th {
+  background: rgba(10, 37, 58, 0.95);
+  color: #98eeff;
+}
+
+.report-table td {
+  background: rgba(7, 27, 44, 0.76);
+  color: #def8ff;
+}
+
+.report-section h4 {
+  margin: 1rem 0 0.45rem;
+  color: #9feaff;
+}
