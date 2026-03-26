@@ -125,3 +125,289 @@ article {
   white-space: pre-wrap;
   line-height: 1.55;
 }
+
+.meta-line {
+  margin: 0.35rem 0 0;
+  color: #9fe8ff;
+}
+
+.report-section {
+  margin-top: 1.2rem;
+}
+
+.report-section h3 {
+  margin-bottom: 0.55rem;
+  color: #92ecff;
+}
+
+.report-section ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  line-height: 1.6;
+}
+
+.report-section p {
+  margin: 0;
+  line-height: 1.65;
+}
+
+.not-researched-card {
+  border: 1px solid rgba(255, 214, 102, 0.35);
+  background: rgba(52, 39, 8, 0.32);
+}
+
+.not-researched-message {
+  margin-top: 0.9rem;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.not-researched-subtext {
+  margin-top: 0.65rem;
+  color: #d7eefe;
+  opacity: 0.85;
+  line-height: 1.55;
+}
+
+.coverage-card {
+  margin-top: 1.5rem;
+  padding: 1.15rem;
+  border-radius: 0.95rem;
+  background: rgba(6, 30, 52, 0.78);
+  border: 1px solid rgba(120, 226, 255, 0.2);
+}
+
+.coverage-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.section-label {
+  margin: 0;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #88ebff;
+  font-size: 0.76rem;
+}
+
+.coverage-header h2 {
+  margin: 0.3rem 0 0;
+  font-size: 1.4rem;
+}
+
+.coverage-count {
+  margin: 0;
+  color: #9fe8ff;
+  white-space: nowrap;
+}
+
+.coverage-message {
+  margin: 0;
+  color: #d7f7ff;
+}
+
+.coverage-error {
+  color: #ffd5d5;
+}
+
+.coverage-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.85rem;
+}
+
+.coverage-ticker-card {
+  text-align: left;
+  padding: 1rem;
+  border-radius: 0.85rem;
+  border: 1px solid rgba(130, 229, 255, 0.2);
+  background: rgba(8, 24, 41, 0.85);
+  color: #dbfdff;
+  cursor: pointer;
+  transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.coverage-ticker-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(130, 229, 255, 0.45);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18);
+}
+
+.coverage-ticker-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.coverage-ticker {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #8ff0ff;
+}
+
+.coverage-exchange {
+  font-size: 0.78rem;
+  color: #99daff;
+  text-transform: uppercase;
+}
+
+.coverage-company {
+  margin: 0.7rem 0 0;
+  line-height: 1.45;
+  font-weight: 600;
+}
+
+.coverage-sector {
+  margin: 0.45rem 0 0;
+  color: #b6eeff;
+  font-size: 0.95rem;
+}
+
+.coverage-updated {
+  margin: 0.55rem 0 0;
+  color: #9acfe6;
+  font-size: 0.88rem;
+}
+.result-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.secondary-button {
+  border-radius: 0.7rem;
+  border: 1px solid rgba(130, 229, 255, 0.25);
+  background: rgba(10, 30, 48, 0.88);
+  color: #d9f9ff;
+  font-weight: 600;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.secondary-button:hover {
+  border-color: rgba(130, 229, 255, 0.5);
+}
+
+.empty-state-card {
+  background: rgba(8, 24, 41, 0.72);
+  border: 1px dashed rgba(135, 233, 255, 0.28);
+}
+
+.empty-state-message {
+  margin-top: 0.85rem;
+  line-height: 1.65;
+  color: #d7f3ff;
+}
+
+.loading-card {
+  border: 1px solid rgba(130, 229, 255, 0.28);
+}
+
+.loading-message {
+  margin-top: 0.85rem;
+  line-height: 1.6;
+  color: #d7f3ff;
+}
+
+.coverage-ticker-card-active {
+  border-color: rgba(130, 229, 255, 0.7);
+  box-shadow: 0 0 0 1px rgba(130, 229, 255, 0.28), 0 8px 18px rgba(0, 0, 0, 0.18);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 700px) {
+  .result-header-row {
+    flex-direction: column;
+  }
+
+  .secondary-button {
+    width: 100%;
+  }
+
+  .coverage-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.metric-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.metric-card {
+  padding: 0.9rem;
+  border-radius: 0.8rem;
+  background: rgba(8, 24, 41, 0.88);
+  border: 1px solid rgba(130, 229, 255, 0.18);
+}
+
+.metric-label {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #99daff;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.metric-value {
+  margin: 0.45rem 0 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #dffcff;
+}
+
+.thesis-headline {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: #e5fbff;
+}
+
+.table-wrap {
+  margin-top: 0.9rem;
+  overflow-x: auto;
+}
+
+.table-title {
+  margin: 0 0 0.65rem;
+  color: #9aefff;
+}
+
+.report-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  min-width: 620px;
+}
+
+.report-table th,
+.report-table td {
+  padding: 0.8rem 0.75rem;
+  border: 1px solid rgba(130, 229, 255, 0.16);
+  text-align: left;
+  vertical-align: top;
+}
+
+.report-table th {
+  background: rgba(10, 37, 58, 0.95);
+  color: #98eeff;
+}
+
+.report-table td {
+  background: rgba(7, 27, 44, 0.76);
+  color: #def8ff;
+}
+
+.report-section h4 {
+  margin: 1rem 0 0.45rem;
+  color: #9feaff;
+}
