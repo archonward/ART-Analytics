@@ -136,8 +136,13 @@ article {
 }
 
 .report-section h3 {
-  margin-bottom: 0.55rem;
-  color: #92ecff;
+  margin: 0 0 0.85rem;
+  color: #b6f4ff;
+  font-size: 1.55rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid rgba(130, 229, 255, 0.22);
 }
 
 .report-section ul {
@@ -410,4 +415,106 @@ article {
 .report-section h4 {
   margin: 1rem 0 0.45rem;
   color: #9feaff;
+}
+
+.audit-card {
+  margin-top: 1.5rem;
+  padding: 1.15rem;
+  border-radius: 0.95rem;
+  background: rgba(7, 28, 47, 0.78);
+  border: 1px solid rgba(120, 226, 255, 0.18);
+}
+
+.audit-header {
+  margin-bottom: 1rem;
+}
+
+.audit-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.audit-summary-item {
+  padding: 0.85rem;
+  border-radius: 0.8rem;
+  background: rgba(8, 24, 41, 0.88);
+  border: 1px solid rgba(130, 229, 255, 0.14);
+}
+
+.audit-summary-label {
+  margin: 0;
+  font-size: 0.78rem;
+  color: #98ddf8;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.audit-summary-value {
+  margin: 0.45rem 0 0;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #e2fcff;
+}
+
+.audit-list {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.audit-report-card {
+  padding: 0.95rem 1rem;
+  border-radius: 0.85rem;
+  background: rgba(8, 24, 41, 0.85);
+  border: 1px solid rgba(130, 229, 255, 0.14);
+}
+
+.audit-report-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.audit-report-ticker {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #8eeeff;
+}
+
+.audit-report-company {
+  margin: 0.35rem 0 0;
+  color: #dbf8ff;
+}
+
+.audit-badge {
+  padding: 0.35rem 0.65rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.audit-badge-ok {
+  background: rgba(66, 211, 146, 0.18);
+  color: #90ffcb;
+  border: 1px solid rgba(66, 211, 146, 0.35);
+}
+
+.audit-badge-invalid_schema,
+.audit-badge-invalid_json,
+.audit-badge-missing_file,
+.audit-badge-error {
+  background: rgba(255, 108, 108, 0.16);
+  color: #ffd7d7;
+  border: 1px solid rgba(255, 108, 108, 0.32);
+}
+
+.audit-issues-list {
+  margin: 0.75rem 0 0;
+  padding-left: 1.2rem;
+  color: #ffd8d8;
+  line-height: 1.55;
 }

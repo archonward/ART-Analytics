@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "ticker": "",
+    "companyName": "",
+    "exchange": "NYSE",
+    "sector": "",
+    "industry": "",
+    "reportDate": "",
+    "author": "ART Analytics",
+    "rating": "",
+    "targetPrice": "",
+    "currentPrice": "",
+    "impliedUpsidePct": "",
+    "marketDataAsOf": "",
+    "estimatedReadMinutes": 0,
+    "coverageStatus": "published"
+  },
+  "executiveAtAGlance": {
+    "thesisHeadline": "",
+    "snapshotMetrics": [
+      { "label": "Market Cap", "value": "" },
+      { "label": "Enterprise Value", "value": "" },
+      { "label": "Revenue (TTM)", "value": "" },
+      { "label": "FCF (TTM)", "value": "" },
+      { "label": "P/E", "value": "" },
+      { "label": "Next Earnings", "value": "" }
+    ]
+  },
+  "executiveSummary": {
+    "summaryParagraphs": [],
+    "catalysts": [],
+    "primaryRisks": [],
+    "valuationBridge": ""
+  },
+  "financialPerformanceHealth": {
+    "incomeStatementAnalysis": {
+      "summaryParagraphs": [],
+      "highlights": [],
+      "tables": []
+    },
+    "balanceSheetAnalysis": {
+      "summaryParagraphs": [],
+      "tables": []
+    },
+    "cashFlowReturns": {
+      "summaryParagraphs": [],
+      "highlights": [],
+      "tables": []
+    }
+  },
+  "valuation": {
+    "multiplesAnalysis": {
+      "summaryParagraphs": [],
+      "tables": []
+    },
+    "dcfAnalysis": {
+      "summaryParagraphs": [],
+      "assumptions": [],
+      "projectionTable": null,
+      "scenarioTable": null
+    },
+    "valuationConclusion": ""
+  },
+  "businessModelMoat": {
+    "segmentProfile": {
+      "summaryParagraphs": [],
+      "segmentTable": null
+    },
+    "economicMoatAssessment": {
+      "summaryParagraphs": [],
+      "moatTable": null,
+      "overallMoatConclusion": ""
+    }
+  },
+  "growthStrategyOutlook": {
+    "nearTermCatalysts": [],
+    "mediumTermDrivers": [],
+    "longTermOpportunities": [],
+    "tamPositioning": {
+      "summaryParagraphs": [],
+      "highlights": []
+    }
+  },
+  "managementGovernance": {
+    "leadership": {
+      "summaryParagraphs": []
+    },
+    "capitalAllocation": {
+      "summaryParagraphs": [],
+      "acquisitionTable": null
+    },
+    "alignment": {
+      "summaryParagraphs": []
+    }
+  },
+  "riskAnalysis": {
+    "riskTable": null
+  },
+  "finalRecommendation": {
+    "rating": "",
+    "priceTarget": "",
+    "impliedUpsidePct": "",
+    "bullBaseBear": {
+      "bull": "",
+      "base": "",
+      "bear": ""
+    },
+    "valuationMethodology": "",
+    "fiveKeyMetricsToWatch": [],
+    "ratingChangeTriggers": [
+      {
+        "action": "Upgrade",
+        "direction": "↑",
+        "trigger": ""
+      },
+      {
+        "action": "Downgrade",
+        "direction": "↓",
+        "trigger": ""
+      }
+    ],
+    "closingParagraph": ""
+  },
+  "openQuestions": []
+}

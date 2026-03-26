@@ -9,6 +9,8 @@ import {
   buildErrorResponse,
   buildNotResearchedResponse
 } from './utils/responseBuilders.js';
+import reportTemplate from './data/reportTemplate.json' with { type: 'json' };
+import { auditPublishedReports } from './services/reportAuditService.js';
 
 dotenv.config();
 
@@ -27,6 +29,29 @@ app.get('/api/coverage', (_, res) => {
     status: 'ok',
     coveredTickers: listCoveredTickers()
   });
+});
+
+app.get('/api/report-template', (_, res) => {
+  res.json({
+    status: 'ok',
+    template: reportTemplate
+  });
+});
+
+app.get('/api/report-audit', async (_, res) => {
+  try {
+    const auditResult = await auditPublishedReports();
+
+    res.json({
+      status: 'ok',
+      ...auditResult
+    });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json(
+      buildErrorResponse('Failed to audit published reports.')
+    );
+  }
 });
 
 app.get('/api/stock-summary', async (req, res) => {
@@ -52,6 +77,22 @@ app.get('/api/stock-summary', async (req, res) => {
       return res.status(500).json(
         buildErrorResponse(
           `Coverage exists for ${tickerRaw}, but the published report content is missing.`
+        )
+      );
+    }
+
+    if (!reportResult.found && reportResult.reason === 'invalid_json') {
+      return res.status(500).json(
+        buildErrorResponse(
+          `The published report file for ${tickerRaw} contains invalid JSON.`
+        )
+      );
+    }
+
+    if (!reportResult.found && reportResult.reason === 'invalid_report_schema') {
+      return res.status(500).json(
+        buildErrorResponse(
+          `The published report file for ${tickerRaw} does not match the required report schema.`
         )
       );
     }
