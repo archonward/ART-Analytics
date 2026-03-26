@@ -2,6 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { getCoverageByTicker } from '../data/coverageRegistry.js';
+import { validateReportSchema } from '../utils/reportValidator.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -23,6 +24,16 @@ export async function getPublishedReportByTicker(ticker) {
     const fileContent = await fs.readFile(reportFilePath, 'utf-8');
     const report = JSON.parse(fileContent);
 
+    const validation = validateReportSchema(report);
+
+    if (!validation.valid) {
+      return {
+        found: false,
+        reason: 'invalid_report_schema',
+        details: validation.errors
+      };
+    }
+
     return {
       found: true,
       coverage,
@@ -33,6 +44,13 @@ export async function getPublishedReportByTicker(ticker) {
       return {
         found: false,
         reason: 'missing_report_content'
+      };
+    }
+
+    if (error instanceof SyntaxError) {
+      return {
+        found: false,
+        reason: 'invalid_json'
       };
     }
 
