@@ -136,8 +136,13 @@ article {
 }
 
 .report-section h3 {
-  margin-bottom: 0.55rem;
-  color: #92ecff;
+  margin: 0 0 0.85rem;
+  color: #b6f4ff;
+  font-size: 1.55rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid rgba(130, 229, 255, 0.22);
 }
 
 .report-section ul {

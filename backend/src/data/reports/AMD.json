@@ -1,0 +1,325 @@
+{
+  "meta": {
+    "ticker": "AMD",
+    "companyName": "Advanced Micro Devices, Inc.",
+    "exchange": "NYSE",
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "reportDate": "2026-03-16",
+    "author": "ART Analytics",
+    "rating": "BUY",
+    "targetPrice": "$290",
+    "currentPrice": "$196.58",
+    "impliedUpsidePct": "+47.5%",
+    "marketDataAsOf": "Mar 16, 2026, 8:00 PM",
+    "estimatedReadMinutes": 13,
+    "coverageStatus": "published"
+  },
+  "executiveAtAGlance": {
+    "thesisHeadline": "AMD's AI acceleration platform is gaining enterprise traction beyond hyperscaler accounts, with margin expansion and market share gains creating 40%+ upside at current valuations despite cyclical PC headwinds.",
+    "snapshotMetrics": [
+      { "label": "Market Cap", "value": "$320.5B" },
+      { "label": "Enterprise Value", "value": "$314.0B" },
+      { "label": "FCF (TTM)", "value": "$4.6B" },
+      { "label": "EV/EBITDA", "value": "46.5x" },
+      { "label": "Net Margin", "value": "12.5%" },
+      { "label": "Revenue (TTM)", "value": "$34.6B" },
+      { "label": "Net Income (TTM)", "value": "$4.3B" },
+      { "label": "P/E", "value": "75.3x" },
+      { "label": "Revenue Growth YoY", "value": "+34.1%" },
+      { "label": "ROIC", "value": "15.2%" }
+    ]
+  },
+  "executiveSummary": {
+    "summaryParagraphs": [
+      "AMD has emerged as the clearest AI acceleration alternative to NVIDIA, with data center revenue up 34.1% year over year as MI300-series adoption broadens. Enterprise partnerships such as Celestica's “Helios” platform and expanded manufacturing ties with Flex support the view that AMD is moving beyond a purely hyperscaler-driven AI story.",
+      "The central investment case is that AMD still trades below the valuation level implied by its improving mix, stronger margins, and expanding role in enterprise AI infrastructure. The shares remain exposed to cyclical PC weakness and a forceful NVIDIA response, but current valuation still leaves room for material upside if execution remains solid."
+    ],
+    "catalysts": [
+      "MI455X ramp could drive data center revenue toward $9.8B in Q1 2026E, up sharply from $6.0B in FY2025.",
+      "Enterprise AI deployment widens the addressable market through rack-scale solutions aimed at Fortune 500 adoption.",
+      "Client CPU market share gains versus Intel continue in both commercial and consumer channels."
+    ],
+    "primaryRisks": [
+      "NVIDIA may respond aggressively on pricing, product features, and software ecosystem lock-in.",
+      "Cyclical PC demand may pressure client processor volumes through the first half of 2026.",
+      "Execution risk remains around the transition to 3nm for future RDNA and CDNA architectures."
+    ],
+    "valuationBridge": "AMD appears to trade below the value implied by its stronger mix, improving margins, and expanding role in enterprise AI infrastructure, leaving room for material upside if execution remains solid."
+  },
+  "financialPerformanceHealth": {
+    "incomeStatementAnalysis": {
+      "summaryParagraphs": [
+        "FY2025 marked a step-change in AMD's earnings profile. Revenue rose to $34.6B from $25.8B in FY2024, while operating income climbed to $3.7B from $2.1B. The primary driver was stronger data center mix as MI300 shipments ramped across the year."
+      ],
+      "highlights": [
+        "Gross margin expanded 180 basis points to 52.5% as higher-ASP data center products contributed a larger share of revenue.",
+        "Operating margin improved to 17.1% with operating expenses growing more slowly than revenue.",
+        "Net income more than doubled to $4.3B, helped by stronger operating leverage and a lower effective tax rate."
+      ],
+      "tables": [
+        {
+          "title": "Income Statement ($M)",
+          "columns": ["Metric", "FY2021", "FY2022", "FY2023", "FY2024", "FY2025"],
+          "rows": [
+            ["Total Revenue", "$21,809", "$23,601", "$22,680", "$25,785", "$34,639"],
+            ["Gross Profit", "$10,120", "$10,603", "$10,460", "$12,725", "$17,152"],
+            ["Operating Income", "$1,010", "$1,264", "$401", "$2,086", "$3,694"],
+            ["Net Income", "$979", "$1,320", "$854", "$1,641", "$4,335"]
+          ]
+        },
+        {
+          "title": "Margin Analysis",
+          "columns": ["Metric", "FY2022", "FY2023", "FY2024", "FY2025"],
+          "rows": [
+            ["Gross Margin", "44.9%", "46.1%", "49.4%", "52.5%"],
+            ["Operating Margin", "5.4%", "1.8%", "8.1%", "17.1%"],
+            ["Net Margin", "5.6%", "3.8%", "6.4%", "12.5%"],
+            ["Revenue Growth YoY", "6.1%", "-3.9%", "+13.7%", "+34.1%"]
+          ]
+        }
+      ]
+    },
+    "balanceSheetAnalysis": {
+      "summaryParagraphs": [
+        "AMD entered 2026 with a stronger balance sheet, maintaining net cash of roughly $1.7B and preserving flexibility for R&D and selective acquisitions. Liquidity remained healthy, and leverage stayed modest relative to the company's scale and growth ambitions."
+      ],
+      "tables": [
+        {
+          "title": "Balance Sheet ($M)",
+          "columns": ["Metric", "FY2023", "FY2024", "FY2025"],
+          "rows": [
+            ["Total Assets", "$67,885", "$69,226", "$76,926"],
+            ["Total Liabilities", "$11,993", "$11,658", "$13,927"],
+            ["Total Equity", "$55,892", "$57,568", "$62,999"],
+            ["Cash & Equivalents", "$3,933", "$3,787", "$5,539"],
+            ["Total Debt", "$3,003", "$2,212", "$3,847"],
+            ["Net Cash (Debt)", "$930", "$1,575", "$1,692"],
+            ["Debt-to-Equity", "5.4%", "3.8%", "6.1%"]
+          ]
+        }
+      ]
+    },
+    "cashFlowReturns": {
+      "summaryParagraphs": [
+        "Operating cash flow rose 153% year over year to $7.7B in FY2025, while free cash flow reached $6.7B, or 19.4% of revenue. This is a meaningful improvement and supports the argument that AI-related growth is translating into real cash generation rather than only accounting profits."
+      ],
+      "highlights": [
+        "CapEx intensity remained low at 2.8%, below the broader semiconductor industry average.",
+        "Three-year free cash flow CAGR of 82% highlights how sharply the data center business has changed the company's economics.",
+        "ROIC rose to 15.2%, above AMD's estimated 10.5% WACC, suggesting value-creating capital deployment."
+      ],
+      "tables": [
+        {
+          "title": "Cash Flow ($M)",
+          "columns": ["Metric", "FY2022", "FY2023", "FY2024", "FY2025"],
+          "rows": [
+            ["Operating Cash Flow", "$3,565", "$1,667", "$3,041", "$7,709"],
+            ["Capital Expenditures", "($450)", "($546)", "($636)", "($974)"],
+            ["Free Cash Flow", "$3,115", "$1,121", "$2,405", "$6,735"],
+            ["FCF Margin", "13.2%", "4.9%", "9.3%", "19.4%"]
+          ]
+        }
+      ]
+    }
+  },
+  "valuation": {
+    "multiplesAnalysis": {
+      "summaryParagraphs": [
+        "AMD still screens attractively on a forward basis. The stock trades at 18.3x forward P/E versus its own five-year average of 24.5x, and still at a sizeable discount to NVIDIA, despite clear evidence of faster AI-related mix improvement."
+      ],
+      "tables": [
+        {
+          "title": "Valuation Multiples",
+          "columns": ["Metric", "AMD Current", "AMD 5-Yr Avg", "NVIDIA", "Intel", "Broadcom", "Sector Avg"],
+          "rows": [
+            ["P/E (TTM)", "75.3x", "45.2x", "65.4x", "18.9x", "23.1x", "28.7x"],
+            ["Forward P/E", "18.3x", "24.5x", "35.2x", "15.6x", "19.8x", "21.4x"],
+            ["P/S (TTM)", "9.2x", "6.8x", "22.1x", "2.4x", "8.9x", "7.1x"],
+            ["P/B", "5.1x", "4.2x", "15.8x", "1.3x", "4.6x", "3.8x"],
+            ["EV/EBITDA", "46.5x", "32.1x", "58.2x", "12.4x", "16.7x", "19.2x"],
+            ["EV/Revenue", "9.1x", "6.5x", "21.8x", "2.3x", "8.7x", "6.9x"]
+          ]
+        }
+      ]
+    },
+    "dcfAnalysis": {
+      "summaryParagraphs": [
+        "The base-case DCF assumes 18% revenue CAGR through FY2030, driven mainly by data center growth and gradual improvement in operating margins as AI accelerator mix deepens. A 10.2% WACC and 2.5% terminal growth rate produce a base-case fair value of $285, while the blended methodology supports a rounded 12-month target of $290."
+      ],
+      "assumptions": [
+        "Revenue CAGR through FY2030: 18%",
+        "WACC: 10.2%",
+        "Terminal growth rate: 2.5%",
+        "Primary growth driver: data center expansion",
+        "Margin path: gradual operating margin improvement as AI accelerator mix deepens"
+      ],
+      "projectionTable": {
+        "title": "DCF Projections ($B)",
+        "columns": ["Metric", "FY2026E", "FY2027E", "FY2028E", "FY2029E", "FY2030E"],
+        "rows": [
+          ["Revenue", "$42.5", "$50.2", "$58.8", "$68.1", "$78.2"],
+          ["EBITDA", "$9.8", "$12.6", "$15.9", "$19.7", "$23.8"],
+          ["Free Cash Flow", "$7.2", "$9.4", "$12.1", "$15.2", "$18.7"]
+        ]
+      },
+      "scenarioTable": {
+        "title": "DCF Scenario Analysis",
+        "columns": ["Scenario", "Revenue CAGR", "Terminal Growth", "WACC", "Implied Price", "Upside/Downside"],
+        "rows": [
+          ["Bull Case", "22%", "3.0%", "9.8%", "$365", "+85.6%"],
+          ["Base Case", "18%", "2.5%", "10.2%", "$285", "+45.0%"],
+          ["Bear Case", "12%", "2.0%", "11.0%", "$220", "+11.9%"]
+        ]
+      }
+    },
+    "valuationConclusion": "AMD appears undervalued on both absolute and relative measures. The market still seems cautious about the durability of AMD's AI gains, but if the company can defend pricing and maintain margin progress, there is room for both earnings growth and multiple re-rating."
+  },
+  "businessModelMoat": {
+    "segmentProfile": {
+      "summaryParagraphs": [
+        "AMD operates across four main segments. Data center remains the most important strategic engine, but embedded and client businesses still matter because they diversify cash flows and reduce dependence on any single end market."
+      ],
+      "segmentTable": {
+        "title": "Business Segments",
+        "columns": ["Segment", "FY2024 Revenue", "FY2025 Revenue", "% of Total", "YoY Growth"],
+        "rows": [
+          ["Data Center", "$4.2B", "$6.0B", "17%", "+42.8%"],
+          ["Client (PC/Laptop)", "$10.5B", "$11.8B", "34%", "+12.4%"],
+          ["Gaming", "$3.8B", "$4.6B", "13%", "+21.1%"],
+          ["Embedded", "$7.3B", "$12.2B", "35%", "+67.1%"]
+        ]
+      }
+    },
+    "economicMoatAssessment": {
+      "summaryParagraphs": [
+        "AMD's moat is narrower than NVIDIA's, but it is still meaningful. The company benefits from x86 cross-licensing with Intel, deep chip design expertise, and increasing economies of scale in advanced-node manufacturing and chiplet architecture. The main limitation is weaker software lock-in relative to NVIDIA's CUDA ecosystem."
+      ],
+      "moatTable": {
+        "columns": ["Moat Source", "Strength", "Assessment"],
+        "rows": [
+          ["Brand & Reputation", "Moderate", "Growing recognition in AI acceleration versus Intel legacy"],
+          ["Network Effects", "Weak", "Limited ecosystem lock-in versus software-centric competitors"],
+          ["Switching Costs", "Moderate", "Enterprise validation cycles create 12-18 month replacement friction"],
+          ["Cost Advantages/Scale", "Strong", "Advanced node access and chiplet architecture efficiency"],
+          ["Intellectual Property", "Strong", "x86 duopoly with Intel plus GPU and AI accelerator IP portfolio"],
+          ["Regulatory Barriers", "Strong", "x86 cross-licensing creates meaningful entry barriers"]
+        ]
+      },
+      "overallMoatConclusion": "AMD appears to have a narrow but meaningful moat. Its strongest advantages come from intellectual property, x86 cross-licensing, and scale benefits in advanced-node and chiplet design, while its main weakness remains a less entrenched software ecosystem than NVIDIA's. Overall, AMD has defensible competitive positioning, but sustaining that edge depends on continued execution in AI and enterprise infrastructure."
+    }
+  },
+  "growthStrategyOutlook": {
+    "nearTermCatalysts": [
+      "MI455X volume production ramp aiming for a $12B+ annual run rate by Q4 2026.",
+      "Celestica “Helios” platform and related partnerships may drive broader Fortune 500 AI adoption.",
+      "Commercial PC refresh cycle in the second half of 2026 could support further client CPU share gains."
+    ],
+    "mediumTermDrivers": [
+      "RDNA4 GPU launch in 2027 for gaming and professional markets.",
+      "Data center APU integration expands the company beyond standalone accelerators.",
+      "Automotive semiconductor content rises through ADAS and autonomous-driving partnerships."
+    ],
+    "longTermOpportunities": [
+      "Edge AI inference as workloads move away from purely centralized data centers.",
+      "Quantum computing research as long-duration optionality rather than a near-term earnings driver.",
+      "Custom silicon design services built on AMD's chiplet expertise for hyperscaler customers."
+    ],
+    "tamPositioning": {
+      "summaryParagraphs": [
+        "AMD operates across semiconductor markets that could total roughly $350B by 2028. The AI accelerator opportunity is especially important: management is effectively trying to turn AMD from a cyclical CPU/GPU name into a broader AI infrastructure platform. The current company-wide market share remains low enough to leave meaningful room for expansion if execution continues."
+      ],
+      "highlights": [
+        "Data center AI accelerator TAM could reach $95B by 2028, with AMD targeting 15–20% share.",
+        "Client processor TAM remains large at about $85B, where AMD already holds meaningful x86 share.",
+        "Gaming GPU TAM of about $35B still offers room for share gains, especially in mid-range products."
+      ]
+    }
+  },
+  "managementGovernance": {
+    "leadership": {
+      "summaryParagraphs": [
+        "CEO Dr. Lisa Su has been the key architect of AMD's turnaround since 2014. Her tenure has been defined by disciplined product focus, better positioning in high-performance computing, and a credible long-term push into AI acceleration. CFO Jean Hu and CTO Mark Papermaster add operational and technical depth to the leadership bench."
+      ]
+    },
+    "capitalAllocation": {
+      "summaryParagraphs": [
+        "Management has largely prioritized growth investment over immediate shareholder distributions. That approach has been sensible given the company's opportunity set. The Xilinx acquisition broadened the portfolio meaningfully, while ongoing R&D spending is critical to sustaining competitiveness."
+      ],
+      "acquisitionTable": {
+        "title": "Major Acquisitions",
+        "columns": ["Acquisition", "Year", "Deal Value", "Strategic Rationale", "Outcome Assessment"],
+        "rows": [
+          ["Xilinx", "2022", "$35.0B", "FPGA/adaptive computing expansion", "Positive – enhanced data center portfolio"],
+          ["Pensando", "2022", "$1.9B", "Data processing unit (DPU) capabilities", "TBD – integration ongoing"]
+        ]
+      }
+    },
+    "alignment": {
+      "summaryParagraphs": [
+        "Insider ownership is modest at roughly 0.8% of shares outstanding. That is enough to suggest some alignment, but not enough to be a major pillar of the thesis. Confidence in management rests more on execution history than on insider ownership alone."
+      ]
+    }
+  },
+  "riskAnalysis": {
+    "riskTable": {
+      "columns": ["Risk Factor", "Type", "Probability", "Impact", "Mitigation"],
+      "rows": [
+        ["NVIDIA competitive response in enterprise AI", "Competitive", "High", "High", "Software ecosystem development; pricing flexibility"],
+        ["3nm manufacturing node transition delays", "Execution", "Medium", "High", "TSMC partnership diversification; design flexibility"],
+        ["Customer concentration in hyperscaler accounts", "Business", "Medium", "Medium", "Enterprise market expansion; geographic diversification"],
+        ["Integration execution risk from Xilinx acquisition", "M&A", "Low", "Medium", "Dedicated integration management; cultural alignment"],
+        ["Key talent retention in competitive labor market", "Human Capital", "Medium", "Medium", "Competitive compensation; equity incentives"],
+        ["AI infrastructure spending slowdown", "Macro", "Medium", "High", "Diversified end markets; flexible cost structure"],
+        ["US-China trade restrictions", "Geopolitical", "High", "Medium", "Geographic diversification; compliance programs"],
+        ["Global semiconductor cycle downturn", "Industry", "Low", "High", "Market-share gains; balance-sheet strength"]
+      ]
+    }
+  },
+  "finalRecommendation": {
+    "rating": "BUY",
+    "priceTarget": "$290",
+    "impliedUpsidePct": "+47.5%",
+    "bullBaseBear": {
+      "bull": "$365",
+      "base": "$285",
+      "bear": "$220"
+    },
+    "valuationMethodology": "60% DCF base case + 40% peer NTM EV/EBITDA",
+    "fiveKeyMetricsToWatch": [
+      "Data Center Revenue Growth: progress toward a $3B+ quarterly run rate.",
+      "MI300 Series ASPs: pricing durability above roughly $25k per unit.",
+      "Operating Margin Expansion: path toward 22% margins.",
+      "Client Segment Share Gains: x86 share above 25% in commercial refresh cycles.",
+      "R&D Efficiency: improvement in revenue generated per R&D dollar."
+    ],
+    "ratingChangeTriggers": [
+      {
+        "action": "Upgrade to Strong Buy",
+        "direction": "↑",
+        "trigger": "Data center revenue exceeds an $8B quarterly run rate with sustained 50%+ YoY growth"
+      },
+      {
+        "action": "Downgrade to Hold",
+        "direction": "↓",
+        "trigger": "Operating margins fall below 15% or data center growth slows below 20% YoY"
+      },
+      {
+        "action": "Downgrade to Sell",
+        "direction": "↓↓",
+        "trigger": "NVIDIA pricing pressure forces MI300 ASP cuts above 30% or AMD loses x86 CPU share"
+      }
+    ],
+    "closingParagraph": "Overall, AMD offers compelling risk-adjusted upside as the most credible large-scale alternative to NVIDIA in enterprise AI infrastructure. The thesis does, however, depend on AMD preserving pricing power, executing product transitions smoothly, and broadening adoption beyond a relatively concentrated hyperscaler customer base."
+  },
+  "openQuestions": [
+    "Can Helios platform partnerships convert pilot programs into meaningful Fortune 500 deployments?",
+    "How aggressively will NVIDIA respond on pricing and features as AMD pushes into enterprise AI?",
+    "When will Xilinx FPGA capabilities become more visible inside AMD's AI roadmap?",
+    "Can data center gross margins stay above 60% as volumes rise and competition intensifies?",
+    "How smoothly will 3nm-based architectures roll out across 2027–2028?",
+    "Can AMD diversify manufacturing support beyond TSMC fast enough to meet demand?",
+    "What is the monetization path for edge AI inference opportunities?",
+    "Can AMD sustain 20%+ R&D intensity while still expanding margins?"
+  ]
+}

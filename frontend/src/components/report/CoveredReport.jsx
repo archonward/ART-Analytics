@@ -89,7 +89,10 @@ export default function CoveredReport({ reportData, resultRef, onResetView }) {
         <ParagraphBlock
           paragraphs={reportData.businessModelMoat.economicMoatAssessment.summaryParagraphs}
         />
-        <DataTable table={reportData.businessModelMoat.economicMoatAssessment.moatTable} />
+        <DataTable
+          table={reportData.businessModelMoat.economicMoatAssessment.moatTable}
+          suppressTitle
+        />
         <p>{reportData.businessModelMoat.economicMoatAssessment.overallMoatConclusion}</p>
       </SectionCard>
 
@@ -121,7 +124,7 @@ export default function CoveredReport({ reportData, resultRef, onResetView }) {
       </SectionCard>
 
       <SectionCard title="Risk Analysis">
-        <DataTable table={reportData.riskAnalysis.riskTable} />
+        <DataTable table={reportData.riskAnalysis.riskTable} suppressTitle />
       </SectionCard>
 
       <SectionCard title="Final Recommendation">

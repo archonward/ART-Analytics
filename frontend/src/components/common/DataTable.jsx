@@ -1,11 +1,13 @@
-export default function DataTable({ table }) {
+export default function DataTable({ table, suppressTitle = false }) {
   if (!table || !table.columns || !table.rows) {
     return null;
   }
 
+  const shouldShowTitle = !suppressTitle && table.title && table.title.trim() !== '';
+
   return (
     <div className="table-wrap">
-      {table.title && <h4 className="table-title">{table.title}</h4>}
+      {shouldShowTitle && <h4 className="table-title">{table.title}</h4>}
       <table className="report-table">
         <thead>
           <tr>

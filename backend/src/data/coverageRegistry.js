@@ -14,6 +14,14 @@ const coverageRegistry = {
     sector: 'Consumer Defensive',
     lastUpdated: '2026-03-25',
     status: 'published'
+  },
+  AMD: {
+    ticker: 'AMD',
+    companyName: 'Advanced Micro Devices, Inc.',
+    exchange: 'NYSE',
+    sector: 'Technology',
+    lastUpdated: '2026-03-16',
+    status: 'published'
   }
 };
 

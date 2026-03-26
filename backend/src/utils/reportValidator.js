@@ -19,6 +19,10 @@ function isMetricArray(value) {
   );
 }
 
+function isOptionalString(value) {
+  return value === undefined || value === null || typeof value === 'string';
+}
+
 function isTable(value) {
   if (value === null) {
     return true;
@@ -27,7 +31,7 @@ function isTable(value) {
   return (
     value &&
     typeof value === 'object' &&
-    isNonEmptyString(value.title) &&
+    isOptionalString(value.title) &&
     Array.isArray(value.columns) &&
     value.columns.every((column) => typeof column === 'string') &&
     Array.isArray(value.rows) &&
