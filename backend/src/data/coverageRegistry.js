@@ -30,7 +30,31 @@ const coverageRegistry = {
     sector: 'Technology',
     lastUpdated: '2026-03-24',
     status: 'published'
-  }
+  },
+  AAPL: {
+      ticker: 'AAPL',
+      companyName: 'Apple, Inc',
+      exchange: 'NYSE',
+      sector: 'Technology',
+      lastUpdated: '2026-03-24',
+      status: 'published'
+    },
+  MSFT: {
+      ticker: 'MSFT',
+      companyName: 'Microsoft Corporation',
+      exchange: 'NYSE',
+      sector: 'Technology',
+      lastUpdated: '2026-03-24',
+      status: 'published'
+    },
+  AMZN: {
+        ticker: 'AMZN',
+        companyName: 'Amazon, Inc',
+        exchange: 'NYSE',
+        sector: 'Consumer cyclical',
+        lastUpdated: '2026-03-24',
+        status: 'published'
+      }
 };
 
 export function getCoverageByTicker(ticker) {
