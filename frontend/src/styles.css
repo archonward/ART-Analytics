@@ -518,3 +518,113 @@ article {
   color: #ffd8d8;
   line-height: 1.55;
 }
+
+.coverage-list-scroll,
+.audit-list-scroll {
+  max-height: 320px;
+  overflow-y: auto;
+  padding-right: 0.25rem;
+}
+
+.coverage-list,
+.compact-audit-list {
+  display: grid;
+  gap: 0.65rem;
+}
+
+.coverage-list-item {
+  width: 100%;
+  text-align: left;
+  padding: 0.85rem 1rem;
+  border-radius: 0.8rem;
+  border: 1px solid rgba(130, 229, 255, 0.18);
+  background: rgba(8, 24, 41, 0.82);
+  color: #dbfdff;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.coverage-list-item:hover {
+  transform: translateY(-1px);
+  border-color: rgba(130, 229, 255, 0.4);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.16);
+}
+
+.coverage-list-item-active {
+  border-color: rgba(130, 229, 255, 0.7);
+  box-shadow: 0 0 0 1px rgba(130, 229, 255, 0.24), 0 8px 18px rgba(0, 0, 0, 0.18);
+}
+
+.coverage-list-left {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85rem;
+  min-width: 0;
+}
+
+.coverage-list-ticker {
+  min-width: 56px;
+  font-size: 1rem;
+  font-weight: 800;
+  color: #8ff0ff;
+}
+
+.coverage-list-text {
+  min-width: 0;
+}
+
+.coverage-list-company {
+  margin: 0;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.coverage-list-meta {
+  margin: 0.35rem 0 0;
+  color: #9fdcf5;
+  font-size: 0.92rem;
+}
+
+.coverage-list-updated {
+  white-space: nowrap;
+  color: #99cfe6;
+  font-size: 0.88rem;
+}
+
+.compact-audit-summary-grid {
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+}
+
+.audit-list-item {
+  padding: 0.85rem 1rem;
+  border-radius: 0.8rem;
+  background: rgba(8, 24, 41, 0.82);
+  border: 1px solid rgba(130, 229, 255, 0.14);
+}
+
+.audit-list-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.compact-audit-issues-list {
+  margin-top: 0.65rem;
+}
+
+@media (max-width: 700px) {
+  .coverage-list-item,
+  .audit-list-main {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .coverage-list-updated {
+    white-space: normal;
+  }
+}

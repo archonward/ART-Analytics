@@ -33,7 +33,7 @@ export default function AuditSection({ auditData, auditLoading, auditError }) {
 
       {!auditLoading && !auditError && auditData?.summary && (
         <>
-          <div className="audit-summary-grid">
+          <div className="audit-summary-grid compact-audit-summary-grid">
             <div className="audit-summary-item">
               <p className="audit-summary-label">Total Covered</p>
               <p className="audit-summary-value">{auditData.summary.total}</p>
@@ -50,38 +50,32 @@ export default function AuditSection({ auditData, auditLoading, auditError }) {
               <p className="audit-summary-label">Invalid JSON</p>
               <p className="audit-summary-value">{auditData.summary.invalid_json}</p>
             </div>
-            <div className="audit-summary-item">
-              <p className="audit-summary-label">Missing Files</p>
-              <p className="audit-summary-value">{auditData.summary.missing_file}</p>
-            </div>
-            <div className="audit-summary-item">
-              <p className="audit-summary-label">Other Errors</p>
-              <p className="audit-summary-value">{auditData.summary.error}</p>
-            </div>
           </div>
 
-          <div className="audit-list">
-            {auditData.reports.map((item) => (
-              <div key={item.ticker} className="audit-report-card">
-                <div className="audit-report-top">
-                  <div>
-                    <p className="audit-report-ticker">{item.ticker}</p>
-                    <p className="audit-report-company">{item.companyName}</p>
+          <div className="audit-list-scroll">
+            <div className="audit-list compact-audit-list">
+              {auditData.reports.map((item) => (
+                <div key={item.ticker} className="audit-list-item">
+                  <div className="audit-list-main">
+                    <div>
+                      <p className="audit-report-ticker">{item.ticker}</p>
+                      <p className="audit-report-company">{item.companyName}</p>
+                    </div>
+                    <span className={`audit-badge audit-badge-${item.status}`}>
+                      {getAuditStatusLabel(item.status)}
+                    </span>
                   </div>
-                  <span className={`audit-badge audit-badge-${item.status}`}>
-                    {getAuditStatusLabel(item.status)}
-                  </span>
-                </div>
 
-                {item.issues.length > 0 && (
-                  <ul className="audit-issues-list">
-                    {item.issues.map((issue) => (
-                      <li key={issue}>{issue}</li>
-                    ))}
-                  </ul>
-                )}
-              </div>
-            ))}
+                  {item.issues.length > 0 && (
+                    <ul className="audit-issues-list compact-audit-issues-list">
+                      {item.issues.map((issue) => (
+                        <li key={issue}>{issue}</li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
+              ))}
+            </div>
           </div>
         </>
       )}

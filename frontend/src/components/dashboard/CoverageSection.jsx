@@ -21,29 +21,35 @@ export default function CoverageSection({
       {coverageError && <p className="coverage-message coverage-error">{coverageError}</p>}
 
       {!coverageLoading && !coverageError && coveredTickers.length > 0 && (
-        <div className="coverage-grid">
-          {coveredTickers.map((item) => {
-            const isSelected = selectedTicker === item.ticker;
+        <div className="coverage-list-scroll">
+          <div className="coverage-list">
+            {coveredTickers.map((item) => {
+              const isSelected = selectedTicker === item.ticker;
 
-            return (
-              <button
-                key={item.ticker}
-                type="button"
-                className={`coverage-ticker-card ${isSelected ? 'coverage-ticker-card-active' : ''}`}
-                onClick={() => onTickerClick(item.ticker)}
-              >
-                <div className="coverage-ticker-top">
-                  <span className="coverage-ticker">{item.ticker}</span>
-                  <span className="coverage-exchange">{item.exchange}</span>
-                </div>
-                <p className="coverage-company">{item.companyName}</p>
-                {item.sector && <p className="coverage-sector">{item.sector}</p>}
-                {item.lastUpdated && (
-                  <p className="coverage-updated">Updated: {item.lastUpdated}</p>
-                )}
-              </button>
-            );
-          })}
+              return (
+                <button
+                  key={item.ticker}
+                  type="button"
+                  className={`coverage-list-item ${isSelected ? 'coverage-list-item-active' : ''}`}
+                  onClick={() => onTickerClick(item.ticker)}
+                >
+                  <div className="coverage-list-left">
+                    <span className="coverage-list-ticker">{item.ticker}</span>
+                    <div className="coverage-list-text">
+                      <p className="coverage-list-company">{item.companyName}</p>
+                      <p className="coverage-list-meta">
+                        {item.sector} • {item.exchange}
+                      </p>
+                    </div>
+                  </div>
+
+                  {item.lastUpdated && (
+                    <span className="coverage-list-updated">Updated: {item.lastUpdated}</span>
+                  )}
+                </button>
+              );
+            })}
+          </div>
         </div>
       )}
     </section>
