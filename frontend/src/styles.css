@@ -649,3 +649,41 @@ article {
 .rating-direction-cell {
   text-align: center;
 }
+
+.collapsible-table-section {
+  margin-top: 0.9rem;
+}
+
+.collapsible-table-toggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.85rem 1rem;
+  border-radius: 0.8rem;
+  border: 1px solid rgba(130, 229, 255, 0.18);
+  background: rgba(8, 24, 41, 0.82);
+  color: #dffbff;
+  font-size: 0.98rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: left;
+}
+
+.collapsible-table-toggle:hover {
+  border-color: rgba(130, 229, 255, 0.4);
+}
+
+.collapsible-table-chevron {
+  font-size: 1rem;
+  transition: transform 0.18s ease;
+}
+
+.collapsible-table-chevron-open {
+  transform: rotate(180deg);
+}
+
+.collapsible-table-content {
+  margin-top: 0.75rem;
+}
