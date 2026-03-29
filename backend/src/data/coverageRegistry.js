@@ -55,6 +55,14 @@ const coverageRegistry = {
         lastUpdated: '2026-03-25',
         status: 'published'
   },
+  AVGO: {
+        ticker: 'AVGO',
+        companyName: 'Broadcom Inc',
+        exchange: 'NYSE',
+        sector: 'Technology',
+        lastUpdated: '2026-03-25',
+        status: 'published'
+    },
   IBM: {
       ticker: 'IBM',
       companyName: 'International Business Machines Corporation',
