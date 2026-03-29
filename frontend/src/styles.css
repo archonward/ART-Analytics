@@ -628,3 +628,25 @@ article {
     white-space: normal;
   }
 }
+
+.rating-direction-arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 3.5rem;
+  font-size: 1.85rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.rating-direction-arrow-up {
+  color: #5cff9d;
+}
+
+.rating-direction-arrow-down {
+  color: #ff6b6b;
+}
+.rating-direction-cell {
+  text-align: center;
+}
+

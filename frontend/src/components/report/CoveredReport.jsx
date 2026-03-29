@@ -167,13 +167,30 @@ export default function CoveredReport({ reportData, resultRef, onResetView }) {
               </tr>
             </thead>
             <tbody>
-              {reportData.finalRecommendation.ratingChangeTriggers.map((item, index) => (
-                <tr key={`${item.action}-${index}`}>
-                  <td>{item.action}</td>
-                  <td>{item.direction}</td>
-                  <td>{item.trigger}</td>
-                </tr>
-              ))}
+              {reportData.finalRecommendation.ratingChangeTriggers.map((item, index) => {
+                const isUpgrade = item.direction === '↑';
+                const isDowngrade = item.direction === '↓' || item.direction === '↓↓';
+
+                return (
+                  <tr key={`${item.action}-${index}`}>
+                    <td>{item.action}</td>
+                    <td className="rating-direction-cell">
+                      <span
+                        className={`rating-direction-arrow ${
+                          isUpgrade
+                            ? 'rating-direction-arrow-up'
+                            : isDowngrade
+                              ? 'rating-direction-arrow-down'
+                              : ''
+                        }`}
+                      >
+                        {item.direction}
+                      </span>
+                    </td>
+                    <td>{item.trigger}</td>
+                  </tr>
+                );
+              })}
             </tbody>
           </table>
         </div>
