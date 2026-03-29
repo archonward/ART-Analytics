@@ -16,8 +16,23 @@ dotenv.config();
 
 const PORT = Number(process.env.PORT || 4000);
 
+const allowedOrigins = [
+  'http://localhost:5173',
+  process.env.FRONTEND_ORIGIN
+].filter(Boolean);
+
 const app = express();
-app.use(cors());
+
+app.use(cors({
+  origin(origin, callback) {
+    if (!origin || allowedOrigins.includes(origin)) {
+      return callback(null, true);
+    }
+
+    return callback(new Error('CORS not allowed from this origin.'));
+  }
+}));
+
 app.use(express.json({ limit: '2mb' }));
 
 app.get('/api/health', (_, res) => {
@@ -107,5 +122,5 @@ app.get('/api/stock-summary', async (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`ART Analytics backend listening on http://localhost:${PORT}`);
+  console.log(`ART Analytics backend listening on port ${PORT}`);
 });
