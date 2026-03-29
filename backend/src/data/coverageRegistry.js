@@ -1,26 +1,10 @@
 const coverageRegistry = {
-  IBM: {
-    ticker: 'IBM',
-    companyName: 'International Business Machines Corporation',
-    exchange: 'NYSE',
-    sector: 'Technology',
-    lastUpdated: '2026-03-25',
-    status: 'published'
-  },
-  KO: {
-    ticker: 'KO',
-    companyName: 'The Coca-Cola Company',
-    exchange: 'NYSE',
-    sector: 'Consumer Defensive',
-    lastUpdated: '2026-03-25',
-    status: 'published'
-  },
   AMD: {
     ticker: 'AMD',
     companyName: 'Advanced Micro Devices, Inc.',
     exchange: 'NYSE',
     sector: 'Technology',
-    lastUpdated: '2026-03-16',
+    lastUpdated: '2026-03-24',
     status: 'published'
   },
   NVDA: {
@@ -38,7 +22,7 @@ const coverageRegistry = {
       sector: 'Technology',
       lastUpdated: '2026-03-24',
       status: 'published'
-    },
+  },
   MSFT: {
       ticker: 'MSFT',
       companyName: 'Microsoft Corporation',
@@ -46,7 +30,7 @@ const coverageRegistry = {
       sector: 'Technology',
       lastUpdated: '2026-03-24',
       status: 'published'
-    },
+  },
   AMZN: {
         ticker: 'AMZN',
         companyName: 'Amazon, Inc',
@@ -54,7 +38,39 @@ const coverageRegistry = {
         sector: 'Consumer cyclical',
         lastUpdated: '2026-03-24',
         status: 'published'
-      }
+  },
+  TSM: {
+          ticker: 'TSM',
+          companyName: 'Taiwan Semiconductor Manufacturing Company Limited',
+          exchange: 'NYSE',
+          sector: 'Technology',
+          lastUpdated: '2026-03-24',
+          status: 'published'
+  },
+  META: {
+        ticker: 'META',
+        companyName: 'Meta Platforms',
+        exchange: 'NYSE',
+        sector: 'Technology',
+        lastUpdated: '2026-03-25',
+        status: 'published'
+  },
+  IBM: {
+      ticker: 'IBM',
+      companyName: 'International Business Machines Corporation',
+      exchange: 'NYSE',
+      sector: 'Technology',
+      lastUpdated: '2026-03-25',
+      status: 'published'
+  },
+    KO: {
+      ticker: 'KO',
+      companyName: 'The Coca-Cola Company',
+      exchange: 'NYSE',
+      sector: 'Consumer Defensive',
+      lastUpdated: '2026-03-25',
+      status: 'published'
+  }
 };
 
 export function getCoverageByTicker(ticker) {
