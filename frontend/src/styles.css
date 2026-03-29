@@ -348,13 +348,6 @@ article {
   margin-top: 1rem;
 }
 
-.metric-card {
-  padding: 0.9rem;
-  border-radius: 0.8rem;
-  background: rgba(8, 24, 41, 0.88);
-  border: 1px solid rgba(130, 229, 255, 0.18);
-}
-
 .metric-label {
   margin: 0;
   font-size: 0.8rem;
@@ -436,6 +429,7 @@ article {
   margin-bottom: 1rem;
 }
 
+.metric-card,
 .audit-summary-item {
   padding: 0.85rem;
   border-radius: 0.8rem;
@@ -517,13 +511,6 @@ article {
   padding-left: 1.2rem;
   color: #ffd8d8;
   line-height: 1.55;
-}
-
-.coverage-list-scroll,
-.audit-list-scroll {
-  max-height: 320px;
-  overflow-y: auto;
-  padding-right: 0.25rem;
 }
 
 .coverage-list,
@@ -648,5 +635,43 @@ article {
 }
 .rating-direction-cell {
   text-align: center;
+}
+
+.collapsible-table-section {
+  margin-top: 0.9rem;
+}
+
+.collapsible-table-toggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.85rem 1rem;
+  border-radius: 0.8rem;
+  border: 1px solid rgba(130, 229, 255, 0.18);
+  background: rgba(8, 24, 41, 0.82);
+  color: #dffbff;
+  font-size: 0.98rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: left;
+}
+
+.collapsible-table-toggle:hover {
+  border-color: rgba(130, 229, 255, 0.4);
+}
+
+.collapsible-table-chevron {
+  font-size: 1rem;
+  transition: transform 0.18s ease;
+}
+
+.collapsible-table-chevron-open {
+  transform: rotate(180deg);
+}
+
+.collapsible-table-content {
+  margin-top: 0.75rem;
 }
 

@@ -1,4 +1,5 @@
 import BulletList from '../common/BulletList';
+import CollapsibleTableSection from '../common/CollapsibleTableSection';
 import DataTable from '../common/DataTable';
 import MetricGrid from '../common/MetricGrid';
 import ParagraphBlock from '../common/ParagraphBlock';
@@ -49,9 +50,20 @@ export default function CoveredReport({ reportData, resultRef, onResetView }) {
           paragraphs={reportData.financialPerformanceHealth.incomeStatementAnalysis.summaryParagraphs}
         />
         <BulletList items={reportData.financialPerformanceHealth.incomeStatementAnalysis.highlights} />
-        {reportData.financialPerformanceHealth.incomeStatementAnalysis.tables.map((table) => (
-          <DataTable key={table.title} table={table} />
-        ))}
+
+        {reportData.financialPerformanceHealth.incomeStatementAnalysis.tables[0] && (
+          <CollapsibleTableSection
+            title="Income Statement"
+            table={reportData.financialPerformanceHealth.incomeStatementAnalysis.tables[0]}
+          />
+        )}
+
+        {reportData.financialPerformanceHealth.incomeStatementAnalysis.tables[1] && (
+          <CollapsibleTableSection
+            title="Margin Analysis"
+            table={reportData.financialPerformanceHealth.incomeStatementAnalysis.tables[1]}
+          />
+        )}
 
         <h4>Balance Sheet Analysis</h4>
         <ParagraphBlock
@@ -68,9 +80,13 @@ export default function CoveredReport({ reportData, resultRef, onResetView }) {
       <SectionCard title="Valuation">
         <h4>Multiples Analysis</h4>
         <ParagraphBlock paragraphs={reportData.valuation.multiplesAnalysis.summaryParagraphs} />
-        {reportData.valuation.multiplesAnalysis.tables.map((table) => (
-          <DataTable key={table.title} table={table} />
-        ))}
+
+        {reportData.valuation.multiplesAnalysis.tables[0] && (
+          <CollapsibleTableSection
+            title="Valuation Multiple"
+            table={reportData.valuation.multiplesAnalysis.tables[0]}
+          />
+        )}
 
         <h4>DCF Analysis</h4>
         <ParagraphBlock paragraphs={reportData.valuation.dcfAnalysis.summaryParagraphs} />
@@ -89,7 +105,8 @@ export default function CoveredReport({ reportData, resultRef, onResetView }) {
         <ParagraphBlock
           paragraphs={reportData.businessModelMoat.economicMoatAssessment.summaryParagraphs}
         />
-        <DataTable
+        <CollapsibleTableSection
+          title="Economic Moat Assessment"
           table={reportData.businessModelMoat.economicMoatAssessment.moatTable}
           suppressTitle
         />
