@@ -65,7 +65,7 @@ export default function App() {
           <input
             value={ticker}
             onChange={(e) => setTicker(e.target.value.toUpperCase())}
-            placeholder="Enter ticker (e.g., IBM)"
+            placeholder="Enter ticker (e.g., NVDA)"
             maxLength={5}
             required
           />
