@@ -1,0 +1,697 @@
+{
+  "meta": {
+    "ticker": "WMT",
+    "companyName": "Walmart Inc.",
+    "exchange": "NYSE",
+    "sector": "Consumer Staples",
+    "industry": "Retail & Wholesale",
+    "reportDate": "2026-03-24",
+    "author": "ART Analytics",
+    "rating": "BUY",
+    "targetPrice": "$136.00",
+    "currentPrice": "$123.95",
+    "impliedUpsidePct": "+9.7%",
+    "marketDataAsOf": "Mar 24, 2026, 3:47 PM",
+    "estimatedReadMinutes": 15,
+    "coverageStatus": "published"
+  },
+  "executiveAtAGlance": {
+    "thesisHeadline": "Walmart's transformation from pure retailer to retail media and logistics platform creates multiple expansion opportunities while the core business remains recession-resilient and market-share accretive.",
+    "snapshotMetrics": [
+      {
+        "label": "Market Cap",
+        "value": "$988.2B"
+      },
+      {
+        "label": "Enterprise Value",
+        "value": "$1.03T"
+      },
+      {
+        "label": "Revenue (TTM)",
+        "value": "$713.2B"
+      },
+      {
+        "label": "Net Income (TTM)",
+        "value": "$21.9B"
+      },
+      {
+        "label": "FCF (TTM)",
+        "value": "$14.9B"
+      },
+      {
+        "label": "P/E",
+        "value": "45.4x"
+      },
+      {
+        "label": "EV/EBITDA",
+        "value": "23.3x"
+      },
+      {
+        "label": "Revenue Growth YoY",
+        "value": "+5.6%"
+      },
+      {
+        "label": "Net Margin",
+        "value": "3.1%"
+      },
+      {
+        "label": "ROIC",
+        "value": "12.8%"
+      }
+    ]
+  },
+  "executiveSummary": {
+    "summaryParagraphs": [
+      "Walmart continues to demonstrate the durability of its low-cost operating model while successfully pivoting toward higher-margin revenue streams including advertising and e-commerce. The retailer delivered 5.6% revenue growth in FY26 to $713.2B while expanding its advertising business, positioning the company for sustained outperformance despite macro headwinds.",
+      "We maintain a BUY view with a $136 price target. The central question is whether Walmart can monetize 240M+ weekly customer visits through higher-margin adjacencies while preserving its low-price retail moat."
+    ],
+    "catalysts": [
+      "Advertising Revenue Acceleration: Walmart's advertising platform grew 37% year over year as of March 2026, supporting a higher-margin revenue mix and a path toward 4.5%+ operating margins.",
+      "E-commerce Scale Benefits: Digital transformation investments are reaching critical mass, with supply chain automation and logistics optimization reducing fulfillment cost per order.",
+      "Market Share Gains: Low-price positioning continues to capture wallet share during inflationary periods, especially in grocery and essentials."
+    ],
+    "primaryRisks": [
+      "Margin Pressure from Wage Inflation: Labor costs represent more than 10% of revenue, creating structural headwinds.",
+      "Amazon Competition Intensification: AMZN's grocery delivery expansion and Prime benefits directly target Walmart's core customer base.",
+      "Capital Intensity of Automation: $26.6B in FY26 capex may constrain free cash flow if automation ROI disappoints."
+    ],
+    "valuationBridge": "Walmart appears modestly undervalued if advertising, automation, and omnichannel execution gradually lift margins while the core low-price model continues to take share across essential retail categories."
+  },
+  "financialPerformanceHealth": {
+    "incomeStatementAnalysis": {
+      "summaryParagraphs": [
+        "Walmart's revenue trajectory demonstrates consistent mid-single-digit growth with improving operational efficiency. FY26 revenue reached $713.2B, maintaining the company's position as the world's largest retailer by sales volume."
+      ],
+      "highlights": [
+        "Gross margin held at 24.9% in FY26, reflecting pricing discipline and product mix optimization.",
+        "Operating margin improved over time, indicating steady operating leverage.",
+        "Revenue growth has continued to outpace SG&A increases, supporting efficiency gains.",
+        "Financial Health Assessment: Walmart combines consistent cash generation, conservative leverage, and improving returns on invested capital, providing a stable base for dividend growth and buybacks."
+      ],
+      "tables": [
+        {
+          "title": "Income Statement ($B)",
+          "columns": [
+            "Fiscal Year",
+            "Revenue ($B)",
+            "Gross Profit ($B)",
+            "Operating Income ($B)",
+            "Net Income ($B)"
+          ],
+          "rows": [
+            [
+              "FY26",
+              "$713.2",
+              "$177.8",
+              "$29.8",
+              "$21.9"
+            ],
+            [
+              "FY25",
+              "$681.0",
+              "$169.2",
+              "$29.3",
+              "$19.4"
+            ],
+            [
+              "FY24",
+              "$648.1",
+              "$158.0",
+              "$27.0",
+              "$15.5"
+            ],
+            [
+              "FY23",
+              "$611.3",
+              "$147.6",
+              "$20.4",
+              "$11.7"
+            ],
+            [
+              "FY22",
+              "On file",
+              "On file",
+              "On file",
+              "On file"
+            ]
+          ]
+        },
+        {
+          "title": "Margin Analysis",
+          "columns": [
+            "Fiscal Year",
+            "Gross Margin %",
+            "Operating Margin %",
+            "Net Margin %",
+            "Revenue Growth %"
+          ],
+          "rows": [
+            [
+              "FY26",
+              "24.9%",
+              "4.2%",
+              "3.1%",
+              "4.7%"
+            ],
+            [
+              "FY25",
+              "24.9%",
+              "4.3%",
+              "2.9%",
+              "5.1%"
+            ],
+            [
+              "FY24",
+              "24.4%",
+              "4.2%",
+              "2.4%",
+              "6.0%"
+            ],
+            [
+              "FY23",
+              "24.1%",
+              "3.3%",
+              "1.9%",
+              "On file"
+            ],
+            [
+              "FY22",
+              "On file",
+              "On file",
+              "On file",
+              "On file"
+            ]
+          ]
+        }
+      ]
+    },
+    "balanceSheetAnalysis": {
+      "summaryParagraphs": [
+        "Walmart maintains a fortress balance sheet with moderate leverage and substantial liquidity. Total assets of $284.7B in FY26 reflect continued investment in technology infrastructure and store modernization."
+      ],
+      "tables": [
+        {
+          "title": "Balance Sheet ($B)",
+          "columns": [
+            "Fiscal Year",
+            "Total Assets ($B)",
+            "Total Liabilities ($B)",
+            "Total Equity ($B)",
+            "Cash ($B)",
+            "Debt-to-Equity"
+          ],
+          "rows": [
+            [
+              "FY26",
+              "$284.7",
+              "$178.5",
+              "$99.6",
+              "$10.7",
+              "0.67x"
+            ],
+            [
+              "FY25",
+              "$260.8",
+              "$163.1",
+              "$91.0",
+              "$9.0",
+              "0.66x"
+            ],
+            [
+              "FY24",
+              "$252.4",
+              "$161.8",
+              "$83.9",
+              "$9.9",
+              "0.73x"
+            ],
+            [
+              "FY23",
+              "$243.2",
+              "$159.2",
+              "$76.7",
+              "$8.6",
+              "0.77x"
+            ]
+          ]
+        }
+      ]
+    },
+    "cashFlowReturns": {
+      "summaryParagraphs": [
+        "Free cash flow generation remains robust despite elevated capex for automation and digital initiatives. FY26 free cash flow of $14.9B was up 17.8% from FY25."
+      ],
+      "highlights": [
+        "Operating cash flow reached $41.6B in FY26, up 14.1% from FY25.",
+        "Capex intensity rose to 3.7% of revenue as automation accelerated.",
+        "FCF margin improved to 2.1% in FY26 from 1.9% in FY25.",
+        "Capital allocation efficiency is improving as automation investments begin generating returns, with estimated ROIC of 12.8% above the company\u2019s estimated 8\u20139% WACC."
+      ],
+      "tables": [
+        {
+          "title": "Cash Flow ($B)",
+          "columns": [
+            "Fiscal Year",
+            "Operating Cash Flow ($B)",
+            "CapEx ($B)",
+            "Free Cash Flow ($B)",
+            "FCF Margin %"
+          ],
+          "rows": [
+            [
+              "FY26",
+              "$41.6",
+              "$26.6",
+              "$14.9",
+              "2.1%"
+            ],
+            [
+              "FY25",
+              "$36.4",
+              "$23.8",
+              "$12.7",
+              "1.9%"
+            ],
+            [
+              "FY24",
+              "$35.7",
+              "$20.6",
+              "$15.1",
+              "2.3%"
+            ],
+            [
+              "FY23",
+              "$28.8",
+              "$16.9",
+              "$12.0",
+              "2.0%"
+            ],
+            [
+              "FY22",
+              "On file",
+              "On file",
+              "On file",
+              "On file"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "valuation": {
+    "multiplesAnalysis": {
+      "summaryParagraphs": [
+        "Walmart trades at a moderate discount to its historical averages while still commanding a premium to traditional retail peers. That premium reflects its defensive characteristics and optionality in advertising, logistics, and omnichannel retail."
+      ],
+      "tables": [
+        {
+          "title": "Valuation Multiple",
+          "columns": [
+            "Metric",
+            "WMT (Current)",
+            "WMT (5-Yr Avg)",
+            "Target",
+            "Costco",
+            "Home Depot"
+          ],
+          "rows": [
+            [
+              "P/E (TTM)",
+              "45.4x",
+              "41.0x",
+              "13.2x",
+              "55.1x",
+              "26.4x"
+            ],
+            [
+              "Forward P/E",
+              "37.7x",
+              "35.0x",
+              "12.8x",
+              "49.2x",
+              "24.1x"
+            ],
+            [
+              "P/S (TTM)",
+              "1.39x",
+              "1.25x",
+              "0.71x",
+              "1.18x",
+              "2.85x"
+            ],
+            [
+              "EV/EBITDA",
+              "23.3x",
+              "20.5x",
+              "9.8x",
+              "31.2x",
+              "18.7x"
+            ],
+            [
+              "FCF Yield",
+              "1.5%",
+              "2.1%",
+              "6.8%",
+              "2.9%",
+              "3.2%"
+            ]
+          ]
+        }
+      ]
+    },
+    "dcfAnalysis": {
+      "summaryParagraphs": [
+        "The DCF framework assumes continued mid-single-digit revenue growth, gradual operating margin expansion as automation benefits mature, an 8.5% WACC, and 2.5% terminal growth."
+      ],
+      "assumptions": [
+        "Continued mid-single-digit revenue growth.",
+        "Gradual operating margin expansion as automation benefits mature.",
+        "WACC: 8.5%.",
+        "Terminal growth: 2.5%."
+      ],
+      "projectionTable": {
+        "title": "DCF Projections ($B)",
+        "columns": [
+          "Year",
+          "Revenue ($B)",
+          "EBITDA ($B)",
+          "Free Cash Flow ($B)"
+        ],
+        "rows": [
+          [
+            "FY27E",
+            "$741.0",
+            "$47.2",
+            "$16.8"
+          ],
+          [
+            "FY28E",
+            "$775.1",
+            "$51.5",
+            "$19.2"
+          ],
+          [
+            "FY29E",
+            "$810.8",
+            "$56.2",
+            "$21.8"
+          ],
+          [
+            "FY30E",
+            "$848.3",
+            "$61.4",
+            "$24.7"
+          ],
+          [
+            "FY31E",
+            "$887.5",
+            "$67.1",
+            "$27.9"
+          ]
+        ]
+      },
+      "scenarioTable": {
+        "title": "DCF Scenario Analysis",
+        "columns": [
+          "Scenario",
+          "Revenue CAGR",
+          "Terminal Growth",
+          "WACC",
+          "Implied Price"
+        ],
+        "rows": [
+          [
+            "Bull",
+            "6.5%",
+            "3.0%",
+            "8.0%",
+            "$158"
+          ],
+          [
+            "Base",
+            "5.0%",
+            "2.5%",
+            "8.5%",
+            "$136"
+          ],
+          [
+            "Bear",
+            "3.5%",
+            "2.0%",
+            "9.0%",
+            "$115"
+          ]
+        ]
+      }
+    },
+    "valuationConclusion": "Based on blended DCF and multiples analysis, Walmart appears modestly undervalued at current levels. The $136 price target reflects 60% weighting on the DCF base case and 40% weighting on peer forward EV/EBITDA."
+  },
+  "businessModelMoat": {
+    "segmentProfile": {
+      "summaryParagraphs": [
+        "Walmart operates through three primary segments: Walmart U.S., Walmart International, and Sam's Club. The U.S. business drives the majority of profits, while international operations and membership economics provide diversification and growth optionality."
+      ],
+      "segmentTable": {
+        "title": "Business Segment",
+        "columns": [
+          "Segment",
+          "Revenue ($B)",
+          "% of Total",
+          "Growth Rate",
+          "Operating Margin"
+        ],
+        "rows": [
+          [
+            "Walmart U.S.",
+            "$542.0",
+            "76%",
+            "5.2%",
+            "4.1%"
+          ],
+          [
+            "Walmart International",
+            "$128.4",
+            "18%",
+            "4.8%",
+            "3.2%"
+          ],
+          [
+            "Sam's Club",
+            "$42.8",
+            "6%",
+            "7.1%",
+            "3.8%"
+          ]
+        ]
+      }
+    },
+    "economicMoatAssessment": {
+      "summaryParagraphs": [
+        "Walmart's moat stems primarily from scale economies and operational efficiency rather than switching costs or intellectual property. Its procurement power and logistics density remain the core barriers to replication."
+      ],
+      "moatTable": {
+        "columns": [
+          "Moat Source",
+          "Strength",
+          "Explanation"
+        ],
+        "rows": [
+          [
+            "Cost Advantages / Scale",
+            "Strong",
+            "Purchasing power and operational leverage create 2-3% cost advantages."
+          ],
+          [
+            "Network Effects",
+            "Moderate",
+            "Store density and logistics network create local market advantages."
+          ],
+          [
+            "Brand & Reputation",
+            "Moderate",
+            "Low prices positioning supports acquisition and retention."
+          ],
+          [
+            "Switching Costs",
+            "Weak",
+            "Limited lock-in beyond convenience and price."
+          ],
+          [
+            "Regulatory Barriers",
+            "Weak",
+            "Retail has limited regulatory protection."
+          ],
+          [
+            "Intellectual Property",
+            "Weak",
+            "Minimal proprietary technology or patent protection."
+          ]
+        ]
+      },
+      "overallMoatConclusion": "Walmart appears to have a narrow moat. Its scale advantages and operational efficiency create meaningful competitive barriers, but retail remains intensely competitive and requires continuous reinvestment to defend share and profitability."
+    }
+  },
+  "growthStrategyOutlook": {
+    "nearTermCatalysts": [
+      "Advertising acceleration above 40% growth in the Connect platform.",
+      "Automation rollout reaching 65% of fulfillment centers by end of FY27.",
+      "Grocery market share gains as consumers continue to trade down."
+    ],
+    "mediumTermDrivers": [
+      "Same-day delivery expanding to more than 80% of the U.S. population.",
+      "Healthcare services buildout toward 1,000+ clinic locations.",
+      "Third-party logistics, financial services, and B2B marketplace monetization."
+    ],
+    "longTermOpportunities": [],
+    "tamPositioning": {
+      "summaryParagraphs": [
+        "Management's growth strategy centers on retail media monetization, supply chain automation, and international expansion. These initiatives aim to sustain mid-single-digit revenue growth while gradually lifting margins."
+      ],
+      "highlights": [
+        "U.S. Retail: TAM $1.2T, Walmart share 20%, $240B current and $300B target opportunity.",
+        "Retail Media: TAM $45B, Walmart share 6%, $2.7B current and $4.5B target opportunity.",
+        "Healthcare Services: TAM $200B, Walmart share 1%, $2B current and $10B target opportunity.",
+        "Financial Services: TAM $100B, Walmart share 2%, $2B current and $6B target opportunity."
+      ]
+    }
+  },
+  "managementGovernance": {
+    "leadership": {
+      "summaryParagraphs": [
+        "Doug McMillon has served as CEO since 2014 and brings more than three decades of Walmart operating experience. His tenure has been marked by digital transformation, international expansion, and continued emphasis on low-cost culture. CFO John David Rainey joined from PayPal in 2022 and adds payments and technology expertise, while the board includes 11 directors spanning retail, technology, and international business."
+      ]
+    },
+    "capitalAllocation": {
+      "summaryParagraphs": [
+        "Capital Allocation Rating: Good. Management continues to balance automation investment, dividends, and repurchases with discipline."
+      ],
+      "acquisitionTable": {
+        "title": "Major Acquisition",
+        "columns": [
+          "Acquisition",
+          "Year",
+          "Deal Value",
+          "Strategic Rationale",
+          "Outcome"
+        ],
+        "rows": [
+          [
+            "Flipkart",
+            "2018",
+            "$16.0B",
+            "India e-commerce entry",
+            "Good - market leadership"
+          ],
+          [
+            "Jet.com",
+            "2016",
+            "$3.3B",
+            "E-commerce acceleration",
+            "Fair - integrated capabilities"
+          ],
+          [
+            "Cornershop",
+            "2020",
+            "$225M",
+            "Delivery capabilities",
+            "Good - LatAm expansion"
+          ]
+        ]
+      }
+    },
+    "alignment": {
+      "summaryParagraphs": [
+        "The report does not provide a separate insider-ownership discussion, but governance appears anchored by experienced leadership, balanced capital allocation, and a board mix spanning retail, technology, and international business."
+      ]
+    }
+  },
+  "riskAnalysis": {
+    "riskTable": {
+      "columns": [
+        "Risk",
+        "Type",
+        "Probability",
+        "Impact"
+      ],
+      "rows": [
+        [
+          "Automation Execution Shortfall",
+          "Company",
+          "Medium",
+          "High"
+        ],
+        [
+          "Labor Cost Inflation",
+          "Company",
+          "High",
+          "Medium"
+        ],
+        [
+          "Regulatory / Antitrust Action",
+          "Company",
+          "Medium",
+          "Medium"
+        ],
+        [
+          "Amazon Grocery Competition",
+          "Industry",
+          "High",
+          "High"
+        ],
+        [
+          "Consumer Spending Slowdown",
+          "Macro",
+          "Medium",
+          "Medium"
+        ],
+        [
+          "Supply Chain Disruption",
+          "Macro",
+          "Medium",
+          "Medium"
+        ]
+      ]
+    }
+  },
+  "finalRecommendation": {
+    "rating": "BUY",
+    "priceTarget": "$136.00",
+    "impliedUpsidePct": "+9.7%",
+    "bullBaseBear": {
+      "bull": "$158",
+      "base": "$136",
+      "bear": "$115"
+    },
+    "valuationMethodology": "Blended 60% DCF base case (8.5% WACC, 2.5% terminal growth) and 40% peer forward EV/EBITDA of 25x applied to FY27E EBITDA of $47.2B.",
+    "fiveKeyMetricsToWatch": [
+      "Advertising Revenue Growth: currently 37% year over year, with 40%+ needed to reinforce the platform thesis.",
+      "Operating Margin Trajectory: progress toward the 4.8% target as automation benefits mature.",
+      "Same-Store Sales Growth: sustain 3%+ comps to confirm market share gains.",
+      "Free Cash Flow Generation: maintain $15B+ annually despite elevated capex.",
+      "E-commerce Penetration: track digital sales mix toward 15%+ with positive unit economics."
+    ],
+    "ratingChangeTriggers": [
+      {
+        "action": "Upgrade",
+        "direction": "↑",
+        "trigger": "Advertising and membership revenue scale faster than modeled, e-commerce profitability inflects positively, and the high-margin digital ecosystem demonstrates sustained operating leverage beyond the core low-margin grocery business."
+      },
+      {
+        "action": "Downgrade",
+        "direction": "↓",
+        "trigger": "Tariff escalation compresses merchandise margins, FY27 growth guidance of 3.5–4.5% disappoints relative to expectations, or heavy capex spend constrains free cash flow recovery at a valuation near 46x trailing earnings."
+      }
+    ],
+    "closingParagraph": "The major underwriting questions center on automation ROI, advertising scalability, durability of current same-store sales gains, and the pace of Amazon's grocery response. Even so, the current valuation still looks modestly favorable if management continues to scale higher-margin adjacencies without eroding the core low-price moat."
+  },
+  "openQuestions": [
+    "Can advertising revenue sustain 40%+ growth rates as the platform matures and competition intensifies?",
+    "Will automation investments generate the promised 15-20% labor cost savings across fulfillment operations?",
+    "How sustainable are current same-store sales gains if inflationary pressures moderate?",
+    "Can management expand international digital penetration without margin dilution?",
+    "What is the competitive response timeline from Amazon's grocery delivery expansion?",
+    "How will consumer behavior normalize post-inflation regarding trade-down preferences?",
+    "Can third-party logistics monetization achieve $5B+ revenue targets by 2030?",
+    "What is the path to healthcare services profitability with 1,000+ clinic expansion?"
+  ]
+}

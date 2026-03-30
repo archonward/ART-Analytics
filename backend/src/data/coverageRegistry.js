@@ -63,6 +63,22 @@ const coverageRegistry = {
         lastUpdated: '2026-03-25',
         status: 'published'
     },
+  TSLA: {
+             ticker: 'TSLA',
+             companyName: 'Tesla Inc',
+             exchange: 'NYSE',
+             sector: 'Technology',
+             lastUpdated: '2026-03-26',
+             status: 'published'
+   },
+  WMT: {
+               ticker: 'WMT',
+               companyName: 'Walmart Inc',
+               exchange: 'NYSE',
+               sector: 'Consumer Staples',
+               lastUpdated: '2026-03-26',
+               status: 'published'
+  },
   IBM: {
       ticker: 'IBM',
       companyName: 'International Business Machines Corporation',
