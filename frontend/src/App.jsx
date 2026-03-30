@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react';
 import CoverageSection from './components/dashboard/CoverageSection';
 import AuditSection from './components/dashboard/AuditSection';
 import ResultPanel from './components/report/ResultPanel';
+import { SHOW_AUDIT_SECTION } from './config/features';
 import useCoverage from './hooks/useCoverage';
 import useReportAudit from './hooks/useReportAudit';
 import useStockSearch from './hooks/useStockSearch';
@@ -28,7 +29,7 @@ export default function App() {
     auditData,
     auditLoading,
     auditError
-  } = useReportAudit();
+  } = useReportAudit(SHOW_AUDIT_SECTION);
 
   const resultRef = useRef(null);
 
@@ -84,11 +85,13 @@ export default function App() {
           onTickerClick={handleCoveredTickerClick}
         />
 
-        <AuditSection
-          auditData={auditData}
-          auditLoading={auditLoading}
-          auditError={auditError}
-        />
+        {SHOW_AUDIT_SECTION && (
+          <AuditSection
+            auditData={auditData}
+            auditLoading={auditLoading}
+            auditError={auditError}
+          />
+        )}
 
         <ResultPanel
           result={result}

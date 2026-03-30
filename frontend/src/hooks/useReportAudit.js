@@ -1,12 +1,18 @@
 import { useEffect, useState } from 'react';
 import { API_BASE } from '../config/api';
 
-export default function useReportAudit() {
+export default function useReportAudit(enabled = true) {
   const [auditData, setAuditData] = useState(null);
-  const [auditLoading, setAuditLoading] = useState(true);
+  const [auditLoading, setAuditLoading] = useState(enabled);
   const [auditError, setAuditError] = useState('');
 
   useEffect(() => {
+    if (!enabled) {
+      setAuditLoading(false);
+      setAuditError('');
+      return;
+    }
+
     async function loadAudit() {
       try {
         setAuditLoading(true);
@@ -28,7 +34,7 @@ export default function useReportAudit() {
     }
 
     loadAudit();
-  }, []);
+  }, [enabled]);
 
   return {
     auditData,
