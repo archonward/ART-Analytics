@@ -119,6 +119,22 @@ const coverageRegistry = {
        lastUpdated: '2026-03-26',
        status: 'published'
   },
+  BAC: {
+         ticker: 'BAC',
+         companyName: 'Bank of America Corporation',
+         exchange: 'NYSE',
+         sector: 'Financials',
+         lastUpdated: '2026-03-26',
+         status: 'published'
+    },
+  COST: {
+       ticker: 'COST',
+       companyName: 'Costco Wholesale Corporation',
+       exchange: 'NYSE',
+       sector: 'Consumer Staples',
+       lastUpdated: '2026-03-26',
+       status: 'published'
+      },
   IBM: {
       ticker: 'IBM',
       companyName: 'International Business Machines Corporation',
