@@ -79,6 +79,22 @@ const coverageRegistry = {
                lastUpdated: '2026-03-26',
                status: 'published'
   },
+  JPM: {
+                 ticker: 'JPM',
+                 companyName: 'JPMorgan Chase & Co.',
+                 exchange: 'NYSE',
+                 sector: 'Financials',
+                 lastUpdated: '2026-03-26',
+                 status: 'published'
+  },
+  XOM: {
+                   ticker: 'XOM',
+                   companyName: 'Exxon Mobil Corporation',
+                   exchange: 'NYSE',
+                   sector: 'Energy',
+                   lastUpdated: '2026-03-26',
+                   status: 'published'
+  },
   IBM: {
       ticker: 'IBM',
       companyName: 'International Business Machines Corporation',
