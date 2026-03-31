@@ -3,10 +3,13 @@ import dotenv from 'dotenv';
 import express from 'express';
 import { listCoveredTickers } from './data/coverageRegistry.js';
 import { getPublishedReportByTicker } from './services/reportService.js';
+import { getLiveMarketDataByTicker } from './services/marketDataService.js';
 import { validateTickerFormat } from './services/tickerService.js';
 import {
   buildCoveredResponse,
   buildErrorResponse,
+  buildMarketDataResponse,
+  buildMarketDataUnavailableResponse,
   buildNotResearchedResponse
 } from './utils/responseBuilders.js';
 import reportTemplate from './data/reportTemplate.json' with { type: 'json' };
@@ -65,6 +68,44 @@ app.get('/api/report-audit', async (_, res) => {
     console.error(error);
     res.status(500).json(
       buildErrorResponse('Failed to audit published reports.')
+    );
+  }
+});
+
+app.get('/api/market-data', async (req, res) => {
+  try {
+    const tickerRaw = String(req.query.ticker || '').toUpperCase().trim();
+
+    const formatCheck = validateTickerFormat(tickerRaw);
+    if (!formatCheck.valid) {
+      return res.status(400).json(buildErrorResponse(formatCheck.reason));
+    }
+
+    const marketResult = await getLiveMarketDataByTicker(tickerRaw);
+
+    if (!marketResult.found && marketResult.reason === 'no_market_data') {
+      return res.status(200).json(
+        buildMarketDataUnavailableResponse({
+          ticker: tickerRaw,
+          message: `Live market data is currently unavailable for ${tickerRaw}.`
+        })
+      );
+    }
+
+    if (!marketResult.found && marketResult.reason === 'market_data_unavailable') {
+      return res.status(200).json(
+        buildMarketDataUnavailableResponse({
+          ticker: tickerRaw,
+          message: `Could not load live market data for ${tickerRaw} right now.`
+        })
+      );
+    }
+
+    return res.json(buildMarketDataResponse(marketResult.marketData));
+  } catch (error) {
+    console.error(error);
+    return res.status(500).json(
+      buildErrorResponse('Failed to load live market data.')
     );
   }
 });

@@ -19,3 +19,18 @@ export function buildCoveredResponse(report) {
     ...report
   };
 }
+
+export function buildMarketDataResponse(marketData) {
+  return {
+    status: 'ok',
+    ...marketData
+  };
+}
+
+export function buildMarketDataUnavailableResponse({ ticker, message }) {
+  return {
+    status: 'unavailable',
+    ticker,
+    message
+  };
+}

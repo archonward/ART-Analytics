@@ -1,23 +1,42 @@
 import BulletList from '../common/BulletList';
 import CollapsibleTableSection from '../common/CollapsibleTableSection';
 import DataTable from '../common/DataTable';
+import LiveTickerBadge from '../common/LiveTickerBadge';
 import MetricGrid from '../common/MetricGrid';
 import ParagraphBlock from '../common/ParagraphBlock';
 import SectionCard from '../common/SectionCard';
 import RevenueEarningsChart from '../charts/RevenueEarningsChart';
 import MarginTrendChart from '../charts/MarginTrendChart';
 import ValuationMultiplesChart from '../charts/ValuationMultiplesChart';
+import useMarketData from '../../hooks/useMarketData';
 
 export default function CoveredReport({ reportData, resultRef, onResetView }) {
   const { meta } = reportData;
+
+  const {
+    marketData,
+    marketLoading,
+    marketError,
+    marketUnavailable
+  } = useMarketData(meta.ticker, true);
 
   return (
     <section className="result-card" ref={resultRef}>
       <div className="result-header-row">
         <div>
-          <h2>
-            {meta.companyName} ({meta.ticker})
-          </h2>
+          <div className="report-title-row">
+            <h2>
+              {meta.companyName} ({meta.ticker})
+            </h2>
+
+            <LiveTickerBadge
+              marketData={marketData}
+              marketLoading={marketLoading}
+              marketError={marketError}
+              marketUnavailable={marketUnavailable}
+            />
+          </div>
+
           <p className="exchange">Exchange: {meta.exchange}</p>
           {meta.sector && <p className="meta-line">Sector: {meta.sector}</p>}
           {meta.industry && <p className="meta-line">Industry: {meta.industry}</p>}
