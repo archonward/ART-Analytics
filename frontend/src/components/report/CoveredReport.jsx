@@ -4,6 +4,9 @@ import DataTable from '../common/DataTable';
 import MetricGrid from '../common/MetricGrid';
 import ParagraphBlock from '../common/ParagraphBlock';
 import SectionCard from '../common/SectionCard';
+import RevenueEarningsChart from '../charts/RevenueEarningsChart';
+import MarginTrendChart from '../charts/MarginTrendChart';
+import ValuationMultiplesChart from '../charts/ValuationMultiplesChart';
 
 export default function CoveredReport({ reportData, resultRef, onResetView }) {
   const { meta } = reportData;
@@ -51,6 +54,14 @@ export default function CoveredReport({ reportData, resultRef, onResetView }) {
         />
         <BulletList items={reportData.financialPerformanceHealth.incomeStatementAnalysis.highlights} />
 
+        <RevenueEarningsChart
+          table={reportData.financialPerformanceHealth.incomeStatementAnalysis.tables[0]}
+        />
+
+        <MarginTrendChart
+          table={reportData.financialPerformanceHealth.incomeStatementAnalysis.tables[1]}
+        />
+
         {reportData.financialPerformanceHealth.incomeStatementAnalysis.tables[0] && (
           <CollapsibleTableSection
             title="Income Statement"
@@ -80,6 +91,8 @@ export default function CoveredReport({ reportData, resultRef, onResetView }) {
       <SectionCard title="Valuation">
         <h4>Multiples Analysis</h4>
         <ParagraphBlock paragraphs={reportData.valuation.multiplesAnalysis.summaryParagraphs} />
+
+        <ValuationMultiplesChart table={reportData.valuation.multiplesAnalysis.tables[0]} />
 
         {reportData.valuation.multiplesAnalysis.tables[0] && (
           <CollapsibleTableSection
@@ -187,7 +200,6 @@ export default function CoveredReport({ reportData, resultRef, onResetView }) {
               {reportData.finalRecommendation.ratingChangeTriggers.map((item, index) => {
                 const isUpgrade = item.direction === '↑';
                 const isDowngrade = item.direction === '↓' || item.direction === '↓↓';
-
                 return (
                   <tr key={`${item.action}-${index}`}>
                     <td>{item.action}</td>

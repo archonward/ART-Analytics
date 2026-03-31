@@ -687,3 +687,40 @@ article {
 .collapsible-table-content {
   margin-top: 0.75rem;
 }
+
+/* ── Charts ─────────────────────────────────────────────────────────────── */
+
+.chart-container {
+  margin: 1.4rem 0 0.4rem;
+  padding: 1.2rem 1rem 0.8rem;
+  background: rgba(4, 16, 28, 0.55);
+  border: 1px solid rgba(130, 229, 255, 0.14);
+  border-radius: 0.9rem;
+}
+
+.chart-title {
+  margin: 0 0 1rem;
+  font-size: 0.88rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #7be8ff;
+}
+
+.chart-tooltip {
+  background: rgba(4, 16, 30, 0.96);
+  border: 1px solid rgba(130, 229, 255, 0.3);
+  border-radius: 0.6rem;
+  padding: 0.6rem 0.9rem;
+  font-size: 0.88rem;
+  color: #dbfdff;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+}
+
+.chart-tooltip-label {
+  margin: 0 0 0.4rem;
+  font-weight: 700;
+  color: #7be8ff;
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+}
