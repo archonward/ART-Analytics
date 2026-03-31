@@ -1,0 +1,717 @@
+{
+  "meta": {
+    "ticker": "ASML",
+    "companyName": "ASML Holding N.V.",
+    "exchange": "NYSE",
+    "sector": "Technology",
+    "industry": "Semiconductor Equipment & Materials",
+    "reportDate": "2026-03-26",
+    "author": "ART Analytics",
+    "rating": "BUY",
+    "targetPrice": "$1,485",
+    "currentPrice": "$1,352.96",
+    "impliedUpsidePct": "+9.8%",
+    "marketDataAsOf": "Mar 26, 2026, 4:08 PM",
+    "estimatedReadMinutes": 12,
+    "coverageStatus": "published"
+  },
+  "executiveAtAGlance": {
+    "thesisHeadline": "ASML's monopolistic EUV position and the coming High-NA upgrade cycle create an unusual combination of pricing power, structural growth, and strategic scarcity inside the global semiconductor supply chain.",
+    "snapshotMetrics": [
+      {
+        "label": "Market Cap",
+        "value": "$531.3B"
+      },
+      {
+        "label": "Enterprise Value",
+        "value": "$528.6B"
+      },
+      {
+        "label": "Revenue (TTM)",
+        "value": "$32.7B"
+      },
+      {
+        "label": "Net Income (TTM)",
+        "value": "$9.6B"
+      },
+      {
+        "label": "FCF (TTM)",
+        "value": "$10.9B"
+      },
+      {
+        "label": "P/E",
+        "value": "47.1x"
+      },
+      {
+        "label": "Consensus Upside",
+        "value": "+8.4%"
+      },
+      {
+        "label": "Next Earnings",
+        "value": "Apr 2026"
+      }
+    ]
+  },
+  "executiveSummary": {
+    "summaryParagraphs": [
+      "ASML maintains its monopolistic position in extreme ultraviolet lithography equipment that is essential for advanced semiconductor manufacturing. The company sits at the center of AI-driven leading-edge chip demand, and the next major leg of value creation is increasingly tied to High-NA EUV adoption beginning in 2026.",
+      "The core debate is not whether ASML has a moat, but whether geopolitics or memory-capex cyclicality can delay realization of the next upgrade cycle. ASML trades at 31.0x forward earnings, a discount to its own historical premium despite strengthening strategic importance. Our base case supports a $1,485 target price, reflecting modest multiple expansion as the market grows more comfortable underwriting High-NA EUV and normalized order momentum."
+    ],
+    "catalysts": [
+      "High-NA EUV adoption is accelerating, supported by a reported $7.9B SK hynix order that provides roughly 18 months of visibility.",
+      "AI chip demand is driving 15%+ growth in EUV systems as hyperscalers and foundries expand advanced-capacity buildouts.",
+      "China-related inventory normalization is expected to complete by Q2 to Q3 2026, reducing a major near-term overhang."
+    ],
+    "primaryRisks": [
+      "Geopolitical tensions could expand export controls beyond current China limits and impair revenue visibility.",
+      "A cyclical downturn in memory capital expenditure could delay High-NA EUV deployments and push out the revenue curve.",
+      "Customer concentration remains material, with the top five foundries representing more than 80% of revenue."
+    ],
+    "valuationBridge": "ASML trades below its own historical premium despite strengthening strategic importance, and the base case still supports $1,485 per share as the market grows more comfortable underwriting High-NA EUV adoption and normalized order momentum."
+  },
+  "financialPerformanceHealth": {
+    "incomeStatementAnalysis": {
+      "summaryParagraphs": [
+        "ASML delivered strong revenue growth through 2025 despite broader semiconductor headwinds. Its pricing power and operational leverage allowed margins to expand even as the industry moved through uneven demand conditions."
+      ],
+      "highlights": [
+        "Revenue increased from $21.2B in 2022 to $32.7B in 2025, representing roughly a 15.5% CAGR.",
+        "Gross margin expanded to 52.8% in 2025, up about 210 basis points from 2024.",
+        "Net income nearly doubled from $5.6B in 2022 to $9.6B in 2025, reflecting scalability and mix benefits."
+      ],
+      "tables": [
+        {
+          "title": "Income Statement ($B)",
+          "columns": [
+            "Fiscal Year",
+            "Revenue",
+            "Gross Profit",
+            "Operating Income",
+            "Net Income"
+          ],
+          "rows": [
+            [
+              "2025",
+              "$32.7B",
+              "$17.3B",
+              "$11.3B",
+              "$9.6B"
+            ],
+            [
+              "2024",
+              "$28.3B",
+              "$14.5B",
+              "$9.0B",
+              "$7.6B"
+            ],
+            [
+              "2023",
+              "$27.6B",
+              "$14.1B",
+              "$9.0B",
+              "$7.8B"
+            ],
+            [
+              "2022",
+              "$21.2B",
+              "$10.7B",
+              "$6.5B",
+              "$5.6B"
+            ]
+          ]
+        },
+        {
+          "title": "Margin Analysis",
+          "columns": [
+            "Fiscal Year",
+            "Gross Margin %",
+            "Operating Margin %",
+            "Net Margin %",
+            "Revenue Growth %"
+          ],
+          "rows": [
+            [
+              "2025",
+              "52.8%",
+              "34.6%",
+              "29.4%",
+              "+15.6%"
+            ],
+            [
+              "2024",
+              "51.3%",
+              "31.9%",
+              "26.8%",
+              "+2.6%"
+            ],
+            [
+              "2023",
+              "51.3%",
+              "32.8%",
+              "28.4%",
+              "+30.1%"
+            ],
+            [
+              "2022",
+              "50.5%",
+              "30.7%",
+              "26.6%",
+              "On file"
+            ]
+          ]
+        }
+      ]
+    },
+    "balanceSheetAnalysis": {
+      "summaryParagraphs": [
+        "The balance sheet is unusually strong for a capital-equipment supplier. Net cash, modest leverage, and rising equity give ASML strategic flexibility to fund R&D, customer support, and opportunistic capital returns."
+      ],
+      "tables": [
+        {
+          "title": "Balance Sheet ($B)",
+          "columns": [
+            "Period End",
+            "Total Assets",
+            "Total Equity",
+            "Cash",
+            "Total Debt",
+            "Net Cash"
+          ],
+          "rows": [
+            [
+              "2025",
+              "$50.6B",
+              "$19.6B",
+              "$12.9B",
+              "$4.4B",
+              "$8.5B"
+            ],
+            [
+              "2024",
+              "$48.6B",
+              "$18.5B",
+              "$12.7B",
+              "$4.7B",
+              "$8.0B"
+            ],
+            [
+              "2023",
+              "$40.0B",
+              "$13.5B",
+              "$7.0B",
+              "$4.6B",
+              "$2.4B"
+            ],
+            [
+              "2022",
+              "$36.3B",
+              "$8.8B",
+              "$7.3B",
+              "$4.3B",
+              "$3.0B"
+            ]
+          ]
+        }
+      ]
+    },
+    "cashFlowReturns": {
+      "summaryParagraphs": [
+        "ASML remains a strong cash compounder despite lumpy delivery timing. Free cash flow margins above 30% in normal years indicate a business with both high pricing power and efficient reinvestment demands. Returns on capital remain extraordinary and well above any reasonable estimate of cost of capital, underscoring just how unusual ASML\u2019s economic position is."
+      ],
+      "highlights": [
+        "Free cash flow reached $11.0B in 2025 with a 33.7% margin.",
+        "Cash generation remained strong even though delivery timing can be lumpy from year to year.",
+        "Return metrics remained extraordinary, with 2025 ROE at 49.0%, ROA at 19.0%, and ROIC at 48.9%."
+      ],
+      "tables": [
+        {
+          "title": "Cash Flow ($B)",
+          "columns": [
+            "Fiscal Year",
+            "Operating CF",
+            "CapEx",
+            "Free Cash Flow",
+            "FCF Margin %"
+          ],
+          "rows": [
+            [
+              "2025",
+              "$12.7B",
+              "($1.6B)",
+              "$11.0B",
+              "33.7%"
+            ],
+            [
+              "2024",
+              "$11.2B",
+              "($2.1B)",
+              "$9.1B",
+              "32.1%"
+            ],
+            [
+              "2023",
+              "$5.4B",
+              "($2.2B)",
+              "$3.2B",
+              "11.8%"
+            ],
+            [
+              "2022",
+              "$8.5B",
+              "($1.3B)",
+              "$7.2B",
+              "33.8%"
+            ]
+          ]
+        },
+        {
+          "title": "Return on Capital",
+          "columns": [
+            "Fiscal Year",
+            "ROE",
+            "ROA",
+            "ROIC"
+          ],
+          "rows": [
+            [
+              "2025",
+              "49.0%",
+              "19.0%",
+              "48.9%"
+            ],
+            [
+              "2024",
+              "41.0%",
+              "15.6%",
+              "n/a"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "valuation": {
+    "multiplesAnalysis": {
+      "summaryParagraphs": [
+        "ASML trades at a premium to semiconductor-equipment peers, but that premium reflects monopoly economics and a unique strategic role. More important, current multiples remain below the company\u2019s own historical averages despite a strengthening structural narrative."
+      ],
+      "tables": [
+        {
+          "title": "Valuation Multiple",
+          "columns": [
+            "Metric",
+            "ASML Current",
+            "ASML 5-Yr Avg",
+            "Industry Avg",
+            "Applied Materials",
+            "KLA / Lam"
+          ],
+          "rows": [
+            [
+              "P/E",
+              "47.1x",
+              "65.4x",
+              "28.3x",
+              "22.1x",
+              "31.4x / 26.8x"
+            ],
+            [
+              "Forward P/E",
+              "31.0x",
+              "42.8x",
+              "21.5x",
+              "18.9x",
+              "24.2x / 20.3x"
+            ],
+            [
+              "P/S",
+              "16.3x",
+              "18.1x",
+              "4.2x",
+              "4.1x",
+              "6.8x / 5.9x"
+            ],
+            [
+              "EV/EBITDA",
+              "43.1x",
+              "51.2x",
+              "19.4x",
+              "16.8x",
+              "23.1x / 18.9x"
+            ],
+            [
+              "EV/Revenue",
+              "16.2x",
+              "17.9x",
+              "4.1x",
+              "4.0x",
+              "6.7x / 5.8x"
+            ],
+            [
+              "FCF Yield",
+              "2.0%",
+              "1.8%",
+              "5.2%",
+              "6.8%",
+              "4.1% / 4.9%"
+            ]
+          ]
+        }
+      ]
+    },
+    "dcfAnalysis": {
+      "summaryParagraphs": [
+        "The DCF framework assumes High-NA EUV adoption, AI-driven capacity expansion, and normalized cyclical behavior. We use a 10.2% WACC and a 2.5% terminal growth rate in the base case."
+      ],
+      "assumptions": [
+        "High-NA EUV adoption drives the next leg of growth.",
+        "AI-driven capacity expansion supports demand.",
+        "Normalized cyclical behavior is assumed through the forecast period.",
+        "WACC of 10.2%.",
+        "Terminal growth of 2.5%."
+      ],
+      "projectionTable": {
+        "title": "DCF Projections ($B)",
+        "columns": [
+          "Year",
+          "Revenue",
+          "EBITDA",
+          "Free Cash Flow"
+        ],
+        "rows": [
+          [
+            "2026E",
+            "$37.6B",
+            "$14.1B",
+            "$12.8B"
+          ],
+          [
+            "2027E",
+            "$44.0B",
+            "$16.7B",
+            "$15.2B"
+          ],
+          [
+            "2028E",
+            "$49.3B",
+            "$19.2B",
+            "$17.8B"
+          ],
+          [
+            "2029E",
+            "$53.8B",
+            "$21.4B",
+            "$20.1B"
+          ],
+          [
+            "2030E",
+            "$57.2B",
+            "$23.1B",
+            "$21.8B"
+          ]
+        ]
+      },
+      "scenarioTable": {
+        "title": "DCF Scenario Analysis",
+        "columns": [
+          "Scenario",
+          "Revenue CAGR",
+          "WACC",
+          "Terminal Growth",
+          "Implied Price"
+        ],
+        "rows": [
+          [
+            "Bull",
+            "12%",
+            "9.8%",
+            "3.0%",
+            "$1,680"
+          ],
+          [
+            "Base",
+            "10%",
+            "10.2%",
+            "2.5%",
+            "$1,485"
+          ],
+          [
+            "Bear",
+            "6%",
+            "10.8%",
+            "2.0%",
+            "$1,210"
+          ]
+        ]
+      }
+    },
+    "valuationConclusion": "ASML appears modestly undervalued. The stock offers a sensible entry point into a scarce, monopolistic franchise just ahead of a potentially important product-cycle transition."
+  },
+  "businessModelMoat": {
+    "segmentProfile": {
+      "summaryParagraphs": [
+        "EUV is the core growth and margin engine, DUV provides breadth and installed-base support, and service revenue adds resilience plus better mix over time."
+      ],
+      "segmentTable": {
+        "title": "Business Segment",
+        "columns": [
+          "Business Segment",
+          "2025 Revenue",
+          "% of Total",
+          "YoY Growth",
+          "Key Products"
+        ],
+        "rows": [
+          [
+            "EUV Systems",
+            "$18.2B",
+            "56%",
+            "+22%",
+            "EUV, High-NA EUV"
+          ],
+          [
+            "DUV Systems",
+            "$9.8B",
+            "30%",
+            "+8%",
+            "ArF immersion, KrF"
+          ],
+          [
+            "Service & Support",
+            "$4.7B",
+            "14%",
+            "+12%",
+            "Maintenance, upgrades"
+          ]
+        ]
+      }
+    },
+    "economicMoatAssessment": {
+      "summaryParagraphs": [
+        "Overall moat rating: Wide. The combination of IP, engineering complexity, switching costs, and ecosystem entrenchment makes replication exceptionally unlikely on any normal investment horizon."
+      ],
+      "moatTable": {
+        "columns": [
+          "Moat Source",
+          "Strength",
+          "Explanation"
+        ],
+        "rows": [
+          [
+            "Intellectual Property",
+            "Strong",
+            "15,000+ patents and a 20+ year development lead."
+          ],
+          [
+            "Switching Costs",
+            "Strong",
+            "$200M+ systems and deep fab integration make switching impractical."
+          ],
+          [
+            "Scale Advantages",
+            "Strong",
+            "Only viable EUV supplier with unmatched manufacturing scale."
+          ],
+          [
+            "Network Effects",
+            "Moderate",
+            "Dense ecosystem of suppliers, fabs, and co-development partners."
+          ],
+          [
+            "Regulatory Barriers",
+            "Moderate",
+            "Export controls create operational friction but also reinforce barriers."
+          ],
+          [
+            "Brand Reputation",
+            "Strong",
+            "Mission-critical quality reputation in advanced manufacturing."
+          ]
+        ]
+      },
+      "overallMoatConclusion": "ASML appears to have a wide moat. Its strongest defenses come from intellectual property, engineering complexity, switching costs, and ecosystem entrenchment, while its singular EUV position makes replication exceptionally unlikely over any normal investment horizon."
+    }
+  },
+  "growthStrategyOutlook": {
+    "nearTermCatalysts": [
+      "High-NA EUV shipments begin in Q2 2026.",
+      "China inventory normalizes.",
+      "AI chip demand drives foundry capex."
+    ],
+    "mediumTermDrivers": [
+      "High-NA adoption broadens beyond memory into logic.",
+      "Service revenue scales with the installed base."
+    ],
+    "longTermOpportunities": [
+      "Hyper-NA or adjacent process technologies could extend ASML\u2019s relevance.",
+      "Deeper customer dependence could emerge as process complexity rises."
+    ],
+    "tamPositioning": {
+      "summaryParagraphs": [
+        "ASML operates in a roughly $65B semiconductor-equipment market, with lithography comprising a $20B+ opportunity today. High-NA EUV may add another $15B to $20B of incremental addressable market through 2030, with ASML positioned to capture the overwhelming majority."
+      ],
+      "highlights": [
+        "ASML remains the dominant lithography supplier with more than 90% share in EUV.",
+        "The company also holds more than 60% share in DUV.",
+        "Overall lithography share is around 85%, with no visible EUV competitor.",
+        "Canon and Nikon remain present only in mature-node segments."
+      ]
+    }
+  },
+  "managementGovernance": {
+    "leadership": {
+      "summaryParagraphs": [
+        "ASML benefits from a deeply experienced leadership bench. Peter Wennink, Roger Dassen, and Martin van den Brink collectively represent strong financial, strategic, and technical continuity through a critical product-cycle transition."
+      ]
+    },
+    "capitalAllocation": {
+      "summaryParagraphs": [
+        "Capital allocation assessment: excellent. Management continues to prioritize high-ROI R&D while maintaining a net-cash balance sheet and returning excess cash through buybacks and dividends."
+      ],
+      "acquisitionTable": {
+        "title": "Major Acquisition",
+        "columns": [
+          "Major Acquisitions (2020-2025)",
+          "Deal Value",
+          "Strategic Rationale",
+          "Outcome"
+        ],
+        "rows": [
+          [
+            "Berlin startup (undisclosed)",
+            "$150M",
+            "Advanced metrology",
+            "Successful integration"
+          ],
+          [
+            "Mapper Lithography assets",
+            "$320M",
+            "Multi-beam technology",
+            "Value accretive"
+          ],
+          [
+            "Various technology acquisitions",
+            "$1.6B",
+            "Component capabilities",
+            "Mixed results"
+          ]
+        ]
+      }
+    },
+    "alignment": {
+      "summaryParagraphs": [
+        "Executive ownership remains meaningful in dollar terms, compensation is heavily equity-based, and incentive structures emphasize durable growth, profitability, and strategic execution."
+      ]
+    }
+  },
+  "riskAnalysis": {
+    "riskTable": {
+      "columns": [
+        "Risk Factor",
+        "Type",
+        "Probability",
+        "Impact",
+        "Mitigation"
+      ],
+      "rows": [
+        [
+          "Customer concentration",
+          "Idiosyncratic",
+          "Medium",
+          "High",
+          "Broaden customer base and deepen multi-year relationships"
+        ],
+        [
+          "Technology disruption",
+          "Idiosyncratic",
+          "Low",
+          "High",
+          "Sustain heavy R&D and monitor alternatives"
+        ],
+        [
+          "Key talent retention",
+          "Idiosyncratic",
+          "Medium",
+          "Medium",
+          "Competitive pay and equity participation"
+        ],
+        [
+          "Supply chain disruption",
+          "Idiosyncratic",
+          "Medium",
+          "Medium",
+          "Supplier diversification and inventory buffers"
+        ],
+        [
+          "Execution on High-NA ramp",
+          "Idiosyncratic",
+          "Low",
+          "High",
+          "Extensive testing and customer collaboration"
+        ],
+        [
+          "Geopolitical escalation",
+          "Systemic",
+          "High",
+          "High",
+          "Compliance systems and market diversification"
+        ],
+        [
+          "Semiconductor downcycle",
+          "Systemic",
+          "Medium",
+          "High",
+          "Service revenue stability and product breadth"
+        ],
+        [
+          "Trade-war intensification",
+          "Systemic",
+          "Medium",
+          "Medium",
+          "Government engagement and alternative markets"
+        ]
+      ]
+    }
+  },
+  "finalRecommendation": {
+    "rating": "BUY",
+    "priceTarget": "$1,485",
+    "impliedUpsidePct": "+9.8%",
+    "bullBaseBear": {
+      "bull": "$1,680",
+      "base": "$1,485",
+      "bear": "$1,210"
+    },
+    "valuationMethodology": "Scenario-Based Analysis",
+    "fiveKeyMetricsToWatch": [
+      "High-NA EUV order follow-through from Samsung and Micron after the SK hynix order.",
+      "Sustainability of 90%+ EUV market share as Chinese domestic alternatives receive support.",
+      "Evolution of export-control policy and the amount of China revenue structurally at risk.",
+      "High-NA gross margin profile and whether it can exceed 35% despite greater manufacturing complexity.",
+      "Production scale-up toward 20+ High-NA systems annually by 2027 without delivery or quality issues."
+    ],
+    "ratingChangeTriggers": [
+      {
+        "action": "Upgrade",
+        "direction": "↑",
+        "trigger": "High-NA EUV adoption accelerates ahead of the 2027 timeline with Intel and TSMC pulling forward orders, AI-driven wafer fab spending sustains beyond peak cycle fears, and ASML's 2030 revenue targets of €44–60 billion at 56–60% gross margins prove credible as bookings compound."
+      },
+      {
+        "action": "Downgrade",
+        "direction": "↓",
+        "trigger": "China export restrictions deepen and UV revenue declines exceed management guidance, High-NA EUV ramp remains margin-dilutive through 2027 without offsetting volume, or AI capex spending peaks earlier than expected and semiconductor equipment demand deteriorates into a prolonged down-cycle."
+      }
+    ],
+    "closingParagraph": "ASML looks investable now for long-term investors seeking exposure to the scarce infrastructure behind advanced semiconductors. A downgrade would be warranted if revenue growth falls below 5% for two consecutive quarters, operating margins compress below 28%, or export restrictions spread materially beyond current assumptions."
+  },
+  "openQuestions": [
+    "Will the SK hynix High-NA order trigger follow-on orders from Samsung and Micron within six months?",
+    "Can ASML maintain 90%+ EUV share if Chinese domestic alternatives receive sustained state backing?",
+    "How will U.S. export-control policy evolve, and how much additional China revenue is structurally at risk?",
+    "Will High-NA systems achieve 35%+ gross margins despite greater manufacturing complexity?",
+    "Can production scale to 20+ High-NA systems annually by 2027 without delivery or quality issues?",
+    "How will foundries pace adoption if the industry slows in 2026 to 2027?",
+    "Could alternative lithography approaches become commercially relevant earlier than expected?",
+    "Can service revenue continue growing above 10% annually as the installed base matures?"
+  ]
+}

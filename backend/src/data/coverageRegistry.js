@@ -72,28 +72,52 @@ const coverageRegistry = {
              status: 'published'
    },
   WMT: {
-               ticker: 'WMT',
-               companyName: 'Walmart Inc',
-               exchange: 'NYSE',
-               sector: 'Consumer Staples',
-               lastUpdated: '2026-03-26',
-               status: 'published'
+       ticker: 'WMT',
+       companyName: 'Walmart Inc',
+       exchange: 'NYSE',
+       sector: 'Consumer Staples',
+       lastUpdated: '2026-03-26',
+       status: 'published'
   },
   JPM: {
-                 ticker: 'JPM',
-                 companyName: 'JPMorgan Chase & Co.',
-                 exchange: 'NYSE',
-                 sector: 'Financials',
-                 lastUpdated: '2026-03-26',
-                 status: 'published'
+         ticker: 'JPM',
+         companyName: 'JPMorgan Chase & Co.',
+         exchange: 'NYSE',
+         sector: 'Financials',
+         lastUpdated: '2026-03-26',
+         status: 'published'
   },
   XOM: {
-                   ticker: 'XOM',
-                   companyName: 'Exxon Mobil Corporation',
-                   exchange: 'NYSE',
-                   sector: 'Energy',
-                   lastUpdated: '2026-03-26',
-                   status: 'published'
+       ticker: 'XOM',
+       companyName: 'Exxon Mobil Corporation',
+       exchange: 'NYSE',
+       sector: 'Energy',
+       lastUpdated: '2026-03-26',
+       status: 'published'
+  },
+  V: {
+         ticker: 'V',
+         companyName: 'Visa Inc',
+         exchange: 'NYSE',
+         sector: 'Financials',
+         lastUpdated: '2026-03-26',
+         status: 'published'
+    },
+  JNJ: {
+       ticker: 'JNJ',
+       companyName: 'Johnson & Johnson',
+       exchange: 'NYSE',
+       sector: 'Healthcare',
+       lastUpdated: '2026-03-26',
+       status: 'published'
+  },
+  ASML: {
+       ticker: 'ASML',
+       companyName: 'ASML Holding N.V.',
+       exchange: 'NYSE',
+       sector: 'Technology',
+       lastUpdated: '2026-03-26',
+       status: 'published'
   },
   IBM: {
       ticker: 'IBM',
