@@ -1,3 +1,5 @@
+import CoverageTickerLiveBadge from './CoverageTickerLiveBadge';
+
 export default function CoverageSection({
   coveredTickers,
   coverageLoading,
@@ -43,9 +45,12 @@ export default function CoverageSection({
                     </div>
                   </div>
 
-                  {item.lastUpdated && (
-                    <span className="coverage-list-updated">Updated: {item.lastUpdated}</span>
-                  )}
+                  <div className="coverage-list-right">
+                    <CoverageTickerLiveBadge ticker={item.ticker} />
+                    {item.lastUpdated && (
+                      <span className="coverage-list-updated">Updated: {item.lastUpdated}</span>
+                    )}
+                  </div>
                 </button>
               );
             })}
