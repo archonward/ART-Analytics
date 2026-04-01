@@ -6,9 +6,6 @@
     "frontend",
     "backend"
   ],
-  "engines": {
-    "node": ">=22 <23"
-  },
   "scripts": {
     "dev": "concurrently \"npm run dev --workspace backend\" \"npm run dev --workspace frontend\"",
     "build": "npm run build --workspace backend && npm run build --workspace frontend"
