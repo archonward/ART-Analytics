@@ -2,6 +2,9 @@ import YahooFinance from 'yahoo-finance2';
 
 const yahooFinance = new YahooFinance();
 
+const MARKET_DATA_CACHE_TTL_MS = 15_000;
+const marketDataCache = new Map();
+
 function formatTimestamp(value) {
   if (!value) {
     return null;
@@ -59,29 +62,72 @@ function buildNormalizedMarketData(quote, fallbackTicker) {
   };
 }
 
-export async function getLiveMarketDataByTicker(ticker) {
+function getCacheEntry(ticker) {
+  const entry = marketDataCache.get(ticker);
+
+  if (!entry) {
+    return null;
+  }
+
+  const isExpired = Date.now() - entry.cachedAt > MARKET_DATA_CACHE_TTL_MS;
+
+  if (isExpired) {
+    marketDataCache.delete(ticker);
+    return null;
+  }
+
+  return entry;
+}
+
+function setCacheEntry(ticker, payload) {
+  marketDataCache.set(ticker, {
+    ...payload,
+    cachedAt: Date.now()
+  });
+}
+
+async function fetchAndCacheTicker(ticker) {
   try {
     const quote = await yahooFinance.quote(ticker);
     const marketData = buildNormalizedMarketData(quote, ticker);
 
     if (!marketData) {
-      return {
+      const unavailableResult = {
         found: false,
         reason: 'no_market_data'
       };
+
+      setCacheEntry(ticker, unavailableResult);
+      return unavailableResult;
     }
 
-    return {
+    const successResult = {
       found: true,
       marketData
     };
+
+    setCacheEntry(ticker, successResult);
+    return successResult;
   } catch (error) {
-    return {
+    const unavailableResult = {
       found: false,
       reason: 'market_data_unavailable',
       details: error.message
     };
+
+    setCacheEntry(ticker, unavailableResult);
+    return unavailableResult;
   }
+}
+
+export async function getLiveMarketDataByTicker(ticker) {
+  const cachedEntry = getCacheEntry(ticker);
+
+  if (cachedEntry) {
+    return cachedEntry;
+  }
+
+  return fetchAndCacheTicker(ticker);
 }
 
 export async function getLiveMarketDataBatchByTickers(tickers) {
@@ -89,34 +135,44 @@ export async function getLiveMarketDataBatchByTickers(tickers) {
 
   const results = await Promise.all(
     uniqueTickers.map(async (ticker) => {
-      try {
-        const quote = await yahooFinance.quote(ticker);
-        const marketData = buildNormalizedMarketData(quote, ticker);
+      const result = await getLiveMarketDataByTicker(ticker);
 
-        if (!marketData) {
-          return {
-            ticker,
-            status: 'unavailable',
-            message: `Live market data is currently unavailable for ${ticker}.`
-          };
-        }
-
+      if (!result.found && result.reason === 'no_market_data') {
         return {
           ticker,
-          status: 'ok',
-          data: marketData
+          status: 'unavailable',
+          message: `Live market data is currently unavailable for ${ticker}.`
         };
-      } catch (error) {
+      }
+
+      if (!result.found) {
         return {
           ticker,
           status: 'unavailable',
           message: `Could not load live market data for ${ticker} right now.`
         };
       }
+
+      return {
+        ticker,
+        status: 'ok',
+        data: result.marketData
+      };
     })
   );
 
   return {
     results
+  };
+}
+
+export function clearMarketDataCache() {
+  marketDataCache.clear();
+}
+
+export function getMarketDataCacheStats() {
+  return {
+    size: marketDataCache.size,
+    ttlMs: MARKET_DATA_CACHE_TTL_MS
   };
 }

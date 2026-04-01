@@ -3,8 +3,10 @@ import dotenv from 'dotenv';
 import express from 'express';
 import { listCoveredTickers } from './data/coverageRegistry.js';
 import {
+  clearMarketDataCache,
   getLiveMarketDataBatchByTickers,
-  getLiveMarketDataByTicker
+  getLiveMarketDataByTicker,
+  getMarketDataCacheStats
 } from './services/marketDataService.js';
 import { auditPublishedReports } from './services/reportAuditService.js';
 import { getPublishedReportByTicker } from './services/reportService.js';
@@ -44,6 +46,22 @@ app.use(express.json({ limit: '2mb' }));
 
 app.get('/api/health', (_, res) => {
   res.json({ ok: true });
+});
+
+app.get('/api/market-data/cache', (_, res) => {
+  res.json({
+    status: 'ok',
+    cache: getMarketDataCacheStats()
+  });
+});
+
+app.delete('/api/market-data/cache', (_, res) => {
+  clearMarketDataCache();
+
+  res.json({
+    status: 'ok',
+    message: 'Market data cache cleared.'
+  });
 });
 
 app.get('/api/coverage', (_, res) => {
