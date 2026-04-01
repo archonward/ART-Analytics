@@ -1,3 +1,19 @@
+function formatPrice(value, currency = 'USD') {
+  if (typeof value !== 'number') {
+    return '—';
+  }
+
+  try {
+    return new Intl.NumberFormat('en-US', {
+      style: 'currency',
+      currency,
+      maximumFractionDigits: 2
+    }).format(value);
+  } catch {
+    return `$${value.toFixed(2)}`;
+  }
+}
+
 function formatPercent(value) {
   if (typeof value !== 'number') {
     return '—';
@@ -17,6 +33,18 @@ function getDisplayChangePercent(marketData) {
   }
 
   return marketData.regularMarketChangePercent;
+}
+
+function getDisplayPrice(marketData) {
+  if (marketData.marketState === 'PRE' && typeof marketData.preMarketPrice === 'number') {
+    return marketData.preMarketPrice;
+  }
+
+  if (marketData.marketState === 'POST' && typeof marketData.postMarketPrice === 'number') {
+    return marketData.postMarketPrice;
+  }
+
+  return marketData.regularMarketPrice;
 }
 
 function getCompactLabel(marketState) {
@@ -61,6 +89,7 @@ export default function CompactTickerBadge({
     );
   }
 
+  const displayPrice = getDisplayPrice(marketData);
   const displayChangePercent = getDisplayChangePercent(marketData);
 
   const isPositive = typeof displayChangePercent === 'number' && displayChangePercent > 0;
@@ -77,7 +106,15 @@ export default function CompactTickerBadge({
 
   return (
     <span className={badgeClassName}>
-      {getCompactLabel(marketData.marketState)} {formatPercent(displayChangePercent)}
+      <span className="compact-ticker-market-label">
+        {getCompactLabel(marketData.marketState)}
+      </span>
+      <span className="compact-ticker-price">
+        {formatPrice(displayPrice, marketData.currency || 'USD')}
+      </span>
+      <span className="compact-ticker-change">
+        ({formatPercent(displayChangePercent)})
+      </span>
     </span>
   );
 }

@@ -1,4 +1,5 @@
 import YahooFinance from 'yahoo-finance2';
+import { marketOverviewRegistry } from '../data/marketOverviewRegistry.js';
 
 const yahooFinance = new YahooFinance();
 
@@ -184,6 +185,36 @@ export async function getLiveMarketDataBatchByTickers(tickers) {
 
   return {
     results
+  };
+}
+
+export async function getMarketOverview() {
+  const results = await Promise.all(
+    marketOverviewRegistry.map(async (item) => {
+      const result = await getOrCreateTickerRequest(item.symbol);
+
+      if (!result.found) {
+        return {
+          symbol: item.symbol,
+          displaySymbol: item.displaySymbol,
+          name: item.name,
+          status: 'unavailable',
+          message: `Could not load market data for ${item.displaySymbol}.`
+        };
+      }
+
+      return {
+        symbol: item.symbol,
+        displaySymbol: item.displaySymbol,
+        name: item.name,
+        status: 'ok',
+        data: result.marketData
+      };
+    })
+  );
+
+  return {
+    items: results
   };
 }
 

@@ -6,6 +6,7 @@ import { SHOW_AUDIT_SECTION } from './config/features';
 import useCoverage from './hooks/useCoverage';
 import useReportAudit from './hooks/useReportAudit';
 import useStockSearch from './hooks/useStockSearch';
+import MarketOverviewSection from './components/dashboard/MarketOverviewSection';
 
 export default function App() {
   const {
@@ -84,6 +85,10 @@ export default function App() {
           selectedTicker={selectedTicker}
           onTickerClick={handleCoveredTickerClick}
         />
+
+        {!result && (
+          <MarketOverviewSection />
+        )}
 
         {SHOW_AUDIT_SECTION && (
           <AuditSection
