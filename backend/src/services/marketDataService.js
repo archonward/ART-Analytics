@@ -4,6 +4,7 @@ const yahooFinance = new YahooFinance();
 
 const MARKET_DATA_CACHE_TTL_MS = 15_000;
 const marketDataCache = new Map();
+const inFlightMarketDataRequests = new Map();
 
 function formatTimestamp(value) {
   if (!value) {
@@ -120,14 +121,34 @@ async function fetchAndCacheTicker(ticker) {
   }
 }
 
-export async function getLiveMarketDataByTicker(ticker) {
+async function getOrCreateTickerRequest(ticker) {
   const cachedEntry = getCacheEntry(ticker);
 
   if (cachedEntry) {
     return cachedEntry;
   }
 
-  return fetchAndCacheTicker(ticker);
+  const existingInFlightRequest = inFlightMarketDataRequests.get(ticker);
+
+  if (existingInFlightRequest) {
+    return existingInFlightRequest;
+  }
+
+  const requestPromise = (async () => {
+    try {
+      return await fetchAndCacheTicker(ticker);
+    } finally {
+      inFlightMarketDataRequests.delete(ticker);
+    }
+  })();
+
+  inFlightMarketDataRequests.set(ticker, requestPromise);
+
+  return requestPromise;
+}
+
+export async function getLiveMarketDataByTicker(ticker) {
+  return getOrCreateTickerRequest(ticker);
 }
 
 export async function getLiveMarketDataBatchByTickers(tickers) {
@@ -135,7 +156,7 @@ export async function getLiveMarketDataBatchByTickers(tickers) {
 
   const results = await Promise.all(
     uniqueTickers.map(async (ticker) => {
-      const result = await getLiveMarketDataByTicker(ticker);
+      const result = await getOrCreateTickerRequest(ticker);
 
       if (!result.found && result.reason === 'no_market_data') {
         return {
@@ -173,6 +194,7 @@ export function clearMarketDataCache() {
 export function getMarketDataCacheStats() {
   return {
     size: marketDataCache.size,
-    ttlMs: MARKET_DATA_CACHE_TTL_MS
+    ttlMs: MARKET_DATA_CACHE_TTL_MS,
+    inFlight: inFlightMarketDataRequests.size
   };
 }
