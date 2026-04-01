@@ -6,7 +6,8 @@ import {
   clearMarketDataCache,
   getLiveMarketDataBatchByTickers,
   getLiveMarketDataByTicker,
-  getMarketDataCacheStats
+  getMarketDataCacheStats,
+  getMarketOverview
 } from './services/marketDataService.js';
 import { auditPublishedReports } from './services/reportAuditService.js';
 import { getPublishedReportByTicker } from './services/reportService.js';
@@ -17,6 +18,7 @@ import {
   buildErrorResponse,
   buildMarketDataResponse,
   buildMarketDataUnavailableResponse,
+  buildMarketOverviewResponse,
   buildNotResearchedResponse
 } from './utils/responseBuilders.js';
 import reportTemplate from './data/reportTemplate.json' with { type: 'json' };
@@ -218,6 +220,20 @@ app.get('/api/stock-summary', async (req, res) => {
   }
 });
 
+app.get('/api/market-overview', async (_, res) => {
+  try {
+    const overviewResult = await getMarketOverview();
+
+    return res.json(
+      buildMarketOverviewResponse(overviewResult.items)
+    );
+  } catch (error) {
+    console.error(error);
+    return res.status(500).json(
+      buildErrorResponse('Failed to load market overview.')
+    );
+  }
+});
 app.listen(PORT, () => {
   console.log(`ART Analytics backend listening on port ${PORT}`);
 });

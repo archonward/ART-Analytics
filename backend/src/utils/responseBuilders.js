@@ -41,3 +41,10 @@ export function buildBatchMarketDataResponse(results) {
     results
   };
 }
+
+export function buildMarketOverviewResponse(items) {
+  return {
+    status: 'ok',
+    items
+  };
+}
