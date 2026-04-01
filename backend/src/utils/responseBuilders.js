@@ -34,3 +34,10 @@ export function buildMarketDataUnavailableResponse({ ticker, message }) {
     message
   };
 }
+
+export function buildBatchMarketDataResponse(results) {
+  return {
+    status: 'ok',
+    results
+  };
+}

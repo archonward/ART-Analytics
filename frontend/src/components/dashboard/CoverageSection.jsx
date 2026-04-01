@@ -1,4 +1,5 @@
-import CoverageTickerLiveBadge from './CoverageTickerLiveBadge';
+import CompactTickerBadge from '../common/CompactTickerBadge';
+import useBatchMarketData from '../../hooks/useBatchMarketData';
 
 export default function CoverageSection({
   coveredTickers,
@@ -7,6 +8,14 @@ export default function CoverageSection({
   selectedTicker,
   onTickerClick
 }) {
+  const tickerSymbols = coveredTickers.map((item) => item.ticker);
+
+  const {
+    marketDataMap,
+    marketLoading,
+    marketError
+  } = useBatchMarketData(tickerSymbols, coveredTickers.length > 0);
+
   return (
     <section className="coverage-card">
       <div className="coverage-header">
@@ -27,6 +36,12 @@ export default function CoverageSection({
           <div className="coverage-list">
             {coveredTickers.map((item) => {
               const isSelected = selectedTicker === item.ticker;
+              const batchItem = marketDataMap[item.ticker];
+
+              const badgeMarketData = batchItem?.status === 'ok' ? batchItem.data : null;
+              const badgeUnavailable = batchItem?.status === 'unavailable';
+              const badgeLoading = marketLoading && !batchItem;
+              const badgeError = marketError;
 
               return (
                 <button
@@ -46,7 +61,12 @@ export default function CoverageSection({
                   </div>
 
                   <div className="coverage-list-right">
-                    <CoverageTickerLiveBadge ticker={item.ticker} />
+                    <CompactTickerBadge
+                      marketData={badgeMarketData}
+                      marketLoading={badgeLoading}
+                      marketError={badgeError}
+                      marketUnavailable={badgeUnavailable}
+                    />
                     {item.lastUpdated && (
                       <span className="coverage-list-updated">Updated: {item.lastUpdated}</span>
                     )}

@@ -2,10 +2,15 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import express from 'express';
 import { listCoveredTickers } from './data/coverageRegistry.js';
+import {
+  getLiveMarketDataBatchByTickers,
+  getLiveMarketDataByTicker
+} from './services/marketDataService.js';
+import { auditPublishedReports } from './services/reportAuditService.js';
 import { getPublishedReportByTicker } from './services/reportService.js';
-import { getLiveMarketDataByTicker } from './services/marketDataService.js';
 import { validateTickerFormat } from './services/tickerService.js';
 import {
+  buildBatchMarketDataResponse,
   buildCoveredResponse,
   buildErrorResponse,
   buildMarketDataResponse,
@@ -13,7 +18,6 @@ import {
   buildNotResearchedResponse
 } from './utils/responseBuilders.js';
 import reportTemplate from './data/reportTemplate.json' with { type: 'json' };
-import { auditPublishedReports } from './services/reportAuditService.js';
 
 dotenv.config();
 
@@ -106,6 +110,40 @@ app.get('/api/market-data', async (req, res) => {
     console.error(error);
     return res.status(500).json(
       buildErrorResponse('Failed to load live market data.')
+    );
+  }
+});
+
+app.get('/api/market-data/batch', async (req, res) => {
+  try {
+    const tickersRaw = String(req.query.tickers || '')
+      .split(',')
+      .map((ticker) => ticker.toUpperCase().trim())
+      .filter(Boolean);
+
+    if (tickersRaw.length === 0) {
+      return res.status(400).json(
+        buildErrorResponse('Please provide at least one ticker.')
+      );
+    }
+
+    const invalidTicker = tickersRaw.find((ticker) => !validateTickerFormat(ticker).valid);
+
+    if (invalidTicker) {
+      return res.status(400).json(
+        buildErrorResponse(
+          `Invalid ticker in batch request: ${invalidTicker}. Use 1-5 uppercase letters only.`
+        )
+      );
+    }
+
+    const batchResult = await getLiveMarketDataBatchByTickers(tickersRaw);
+
+    return res.json(buildBatchMarketDataResponse(batchResult.results));
+  } catch (error) {
+    console.error(error);
+    return res.status(500).json(
+      buildErrorResponse('Failed to load batch live market data.')
     );
   }
 });
