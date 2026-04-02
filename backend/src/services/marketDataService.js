@@ -3,7 +3,7 @@ import { marketOverviewRegistry } from '../data/marketOverviewRegistry.js';
 
 const yahooFinance = new YahooFinance();
 
-const MARKET_DATA_CACHE_TTL_MS = 15_000;
+const MARKET_DATA_CACHE_TTL_MS = 30_000;
 const marketDataCache = new Map();
 const inFlightMarketDataRequests = new Map();
 
