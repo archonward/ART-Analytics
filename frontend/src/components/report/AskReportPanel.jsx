@@ -46,7 +46,6 @@ export default function AskReportPanel({ ticker, companyName, onCitationClick })
   return (
     <aside className="ask-report-panel">
       <div className="ask-report-header">
-        <p className="section-label">Ask-the-Report</p>
         <h3>Ask the Report</h3>
         <p className="ask-report-helper">
           Ask questions grounded in this company&apos;s research report.

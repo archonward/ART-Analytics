@@ -78,7 +78,7 @@ export default function App() {
   return (
     <div className="app-shell">
       <div className="aurora" aria-hidden="true" />
-      <div className="app-layout">
+      <div className={`app-layout ${activeReport ? 'app-layout-with-rail' : 'app-layout-main-only'}`}>
         <main className="panel">
           <p className="eyebrow">ART Analytics</p>
           <h1>Curated NYSE Research Summaries</h1>

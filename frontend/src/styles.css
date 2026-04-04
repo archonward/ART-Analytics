@@ -28,10 +28,17 @@ body {
   width: min(100%, 1320px);
   margin: 0 auto;
   display: grid;
-  grid-template-columns: minmax(0, 900px) 360px;
   gap: 1.5rem;
   align-items: start;
   justify-content: center;
+}
+
+.app-layout-main-only {
+  grid-template-columns: minmax(0, 900px);
+}
+
+.app-layout-with-rail {
+  grid-template-columns: minmax(0, 900px) 360px;
 }
 
 .aurora {
