@@ -1,0 +1,812 @@
+{
+  "meta": {
+    "ticker": "RTX",
+    "companyName": "RTX Corporation",
+    "exchange": "NYSE",
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense",
+    "reportDate": "2026-04-02",
+    "author": "ART Analytics",
+    "rating": "BUY",
+    "targetPrice": "$225",
+    "currentPrice": "$196.21",
+    "impliedUpsidePct": "+14.7%",
+    "marketDataAsOf": "Apr 2, 2026, 8:00 PM",
+    "estimatedReadMinutes": 24,
+    "coverageStatus": "published"
+  },
+  "executiveAtAGlance": {
+    "thesisHeadline": "RTX is the rare defense prime with equal-weight commercial aerospace exposure, giving it a dual-cycle growth engine.",
+    "snapshotMetrics": [
+      {
+        "label": "Market Cap",
+        "value": "$264.1B"
+      },
+      {
+        "label": "Enterprise Value",
+        "value": "$297.8B"
+      },
+      {
+        "label": "FCF (TTM)",
+        "value": "$6.5B"
+      },
+      {
+        "label": "EV/EBITDA",
+        "value": "20.2x"
+      },
+      {
+        "label": "Net Margin",
+        "value": "7.6%"
+      },
+      {
+        "label": "Revenue (TTM)",
+        "value": "$88.6B"
+      },
+      {
+        "label": "Net Income (TTM)",
+        "value": "$6.7B"
+      },
+      {
+        "label": "P/E",
+        "value": "39.6x"
+      },
+      {
+        "label": "Revenue Growth YoY",
+        "value": "+12.1%"
+      },
+      {
+        "label": "ROIC",
+        "value": "8.5%"
+      },
+      {
+        "label": "Consensus Upside",
+        "value": "+10.3%"
+      },
+      {
+        "label": "Next Earnings",
+        "value": "Apr 2026"
+      }
+    ]
+  },
+  "executiveSummary": {
+    "summaryParagraphs": [
+      "RTX Corporation is the world's largest aerospace and defense contractor by revenue, operating across three segments: Pratt & Whitney, Collins Aerospace, and Raytheon. After completing the divestiture of legacy Raytheon Intelligence & Space and resolving major 2023 restructuring charges, the company has entered a cleaner earnings phase characterized by accelerating top-line growth and meaningful margin expansion.",
+      "At $196.21, RTX trades at 26.1x FY26E earnings, a premium to its own history but justified by the strongest organic growth cycle in the company's post-merger life. Our $225 price target is derived from a 60/40 blend of DCF and NTM peer EV/EBITDA, with our target modestly above the 22-analyst consensus because of stronger defense-demand conviction."
+    ],
+    "catalysts": [
+      "Pratt & Whitney's $6.6B F135 production contract awarded in March 2026 strengthens multi-year defense propulsion revenue visibility.",
+      "European and allied defense rearmament is driving strong order intake across Raytheon's missile and air-defense portfolio.",
+      "Four consecutive EPS beats through FY2025 demonstrate that the operating-leverage thesis is executing."
+    ],
+    "primaryRisks": [
+      "U.S. defense budget sequestration or continuing resolutions could delay multi-year awards and compress Raytheon bookings.",
+      "The Pratt & Whitney GTF powder-metal inspection program remains an ongoing liability overhang.",
+      "Commercial aerospace exposure creates cyclicality risk if air-traffic growth slows materially."
+    ],
+    "valuationBridge": "Our $225 price target comes from a 60/40 blend of DCF and peer EV/EBITDA, implying 14.7% upside from the April 2, 2026 close."
+  },
+  "financialPerformanceHealth": {
+    "incomeStatementAnalysis": {
+      "summaryParagraphs": [
+        "RTX delivered $88.6B in FY2025 revenue, up 12.1% YoY from $80.7B in FY2024, the strongest organic growth rate since the United Technologies and Raytheon merger. Gross profit expanded to $17.8B while operating income surged to $9.3B, reflecting the absence of the large 2023 impairments and improving program execution across all three segments."
+      ],
+      "highlights": [
+        "FY2025 net income of $6.7B rose from $4.8B in FY2024, a 41.0% YoY increase.",
+        "Operating margin recovered from 5.2% in FY2023 to 10.5% in FY2025, with TTM at 11.0%.",
+        "Q4 2025 revenue of $24.2B was the strongest quarter on record, signaling momentum into FY2026.",
+        "FY2023 results were materially distorted by non-cash charges, making FY2024 and FY2025 a cleaner view of normalized earnings power."
+      ],
+      "tables": [
+        {
+          "title": "Income Statement ($M)",
+          "columns": [
+            "Metric ($M)",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025",
+            "TTM"
+          ],
+          "rows": [
+            [
+              "Total Revenue",
+              "$67,074",
+              "$68,920",
+              "$80,738",
+              "$88,603",
+              "$88,603"
+            ],
+            [
+              "Gross Profit",
+              "$13,668",
+              "$12,089",
+              "$15,410",
+              "$17,789",
+              "$17,789"
+            ],
+            [
+              "Operating Income",
+              "$5,504",
+              "$3,561",
+              "$6,538",
+              "$9,300",
+              "$9,300"
+            ],
+            [
+              "Net Income",
+              "$5,197",
+              "$3,195",
+              "$4,774",
+              "$6,732",
+              "$6,732"
+            ]
+          ]
+        },
+        {
+          "title": "Margin Analysis",
+          "columns": [
+            "Margin / Growth",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025",
+            "TTM"
+          ],
+          "rows": [
+            [
+              "Gross Margin %",
+              "20.4%",
+              "17.5%",
+              "19.1%",
+              "20.1%",
+              "20.1%"
+            ],
+            [
+              "Operating Margin %",
+              "8.2%",
+              "5.2%",
+              "8.1%",
+              "10.5%",
+              "11.0%"
+            ],
+            [
+              "Net Margin %",
+              "7.7%",
+              "4.6%",
+              "5.9%",
+              "7.6%",
+              "7.6%"
+            ],
+            [
+              "YoY Revenue Growth",
+              "\u2014",
+              "+2.8%",
+              "+17.1%",
+              "+9.7%",
+              "+12.1%"
+            ]
+          ]
+        }
+      ]
+    },
+    "balanceSheetAnalysis": {
+      "summaryParagraphs": [
+        "RTX's balance sheet reflects a company in active deleveraging mode. Total debt declined from $45.2B at year-end 2023 to $39.5B at year-end 2025, while the net debt position improved to $32.1B. Cash rose to $7.4B in FY2025, providing liquidity headroom for working capital, dividends, and eventual buyback acceleration."
+      ],
+      "tables": [
+        {
+          "title": "Balance Sheet ($M)",
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025"
+          ],
+          "rows": [
+            [
+              "Total Assets",
+              "$158,864",
+              "$161,869",
+              "$162,861",
+              "$171,079"
+            ],
+            [
+              "Total Liabilities",
+              "$84,650",
+              "$100,424",
+              "$100,903",
+              "$103,941"
+            ],
+            [
+              "Total Equity",
+              "$72,632",
+              "$59,798",
+              "$60,156",
+              "$65,245"
+            ],
+            [
+              "Total Debt",
+              "$33,500",
+              "$45,239",
+              "$42,893",
+              "$39,506"
+            ],
+            [
+              "Cash & Equivalents",
+              "$6,220",
+              "$6,587",
+              "$5,578",
+              "$7,435"
+            ],
+            [
+              "Net Debt",
+              "$27,280",
+              "$38,652",
+              "$37,315",
+              "$32,071"
+            ],
+            [
+              "Debt-to-Equity",
+              "0.46x",
+              "0.76x",
+              "0.71x",
+              "0.61x"
+            ]
+          ]
+        }
+      ]
+    },
+    "cashFlowReturns": {
+      "summaryParagraphs": [
+        "The single most important development in RTX's recent financial history is the free-cash-flow inflection in FY2025. Operating cash flow surged to $10.6B and free cash flow rose to $7.4B versus $3.9B in the prior year, reflecting normalized working capital and the end of the heaviest GTF-related cash outflows. Returns on capital are still modest versus top-tier peers, but the direction is clearly improving."
+      ],
+      "highlights": [
+        "FY2025 FCF of $7.4B represented a sharp improvement from $3.9B in FY2024.",
+        "CapEx remained stable at about $3.1B to $3.2B annually, or roughly 3.5% of revenue in FY2025.",
+        "TTM FCF of $6.5B shows some normalization from the FY2025 peak but remains strong.",
+        "ROE improved to 10.3% in FY2025, while ROIC improved to 8.5%."
+      ],
+      "tables": [
+        {
+          "title": "Cash Flow ($M)",
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025",
+            "TTM"
+          ],
+          "rows": [
+            [
+              "Operating Cash Flow",
+              "$7,168",
+              "$7,883",
+              "$7,159",
+              "$10,567",
+              "$10,567"
+            ],
+            [
+              "Capital Expenditures",
+              "($2,775)",
+              "($3,166)",
+              "($3,236)",
+              "($3,119)",
+              "($3,119)"
+            ],
+            [
+              "Free Cash Flow",
+              "$4,393",
+              "$4,717",
+              "$3,923",
+              "$7,448",
+              "$6,456"
+            ],
+            [
+              "FCF Margin %",
+              "6.5%",
+              "6.8%",
+              "4.9%",
+              "8.4%",
+              "7.3%"
+            ],
+            [
+              "CapEx as % of Revenue",
+              "4.1%",
+              "4.6%",
+              "4.0%",
+              "3.5%",
+              "3.5%"
+            ]
+          ]
+        },
+        {
+          "title": "Return on Capital",
+          "columns": [
+            "Return Metric",
+            "FY2023",
+            "FY2024",
+            "FY2025"
+          ],
+          "rows": [
+            [
+              "Return on Equity (ROE)",
+              "5.3%",
+              "7.9%",
+              "10.3%"
+            ],
+            [
+              "Return on Assets (ROA)",
+              "2.0%",
+              "2.9%",
+              "3.9%"
+            ],
+            [
+              "ROIC",
+              "5.5%",
+              "7.0%",
+              "8.5%"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "valuation": {
+    "multiplesAnalysis": {
+      "summaryParagraphs": [
+        "RTX's current trading multiples appear elevated on a trailing basis because of the FY2023 earnings trough, but the forward picture is more compelling. At 26.1x FY26E earnings and 20.2x EV/EBITDA, RTX trades at a premium to traditional defense primes but below commercial-aerospace-weighted peers on a growth-adjusted basis."
+      ],
+      "tables": [
+        {
+          "title": "Valuation Multiple",
+          "columns": [
+            "Metric",
+            "RTX Current",
+            "RTX 5-Yr Avg",
+            "Industry Avg",
+            "LMT",
+            "LHX",
+            "GE Aerospace"
+          ],
+          "rows": [
+            [
+              "P/E (Trailing)",
+              "39.6x",
+              "28x",
+              "25x",
+              "18x",
+              "22x",
+              "35x"
+            ],
+            [
+              "Forward P/E",
+              "26.1x",
+              "22x",
+              "21x",
+              "17x",
+              "19x",
+              "28x"
+            ],
+            [
+              "P/S",
+              "3.0x",
+              "2.3x",
+              "2.0x",
+              "1.8x",
+              "2.1x",
+              "4.5x"
+            ],
+            [
+              "P/B",
+              "4.0x",
+              "3.5x",
+              "4.0x",
+              "N/M",
+              "2.8x",
+              "6.5x"
+            ],
+            [
+              "EV/EBITDA",
+              "20.2x",
+              "17x",
+              "16x",
+              "13x",
+              "14x",
+              "21x"
+            ],
+            [
+              "EV/Revenue",
+              "3.4x",
+              "2.5x",
+              "2.2x",
+              "1.8x",
+              "2.2x",
+              "4.8x"
+            ],
+            [
+              "PEG Ratio",
+              "1.6x",
+              "2.0x",
+              "1.8x",
+              "2.1x",
+              "1.7x",
+              "1.9x"
+            ],
+            [
+              "FCF Yield",
+              "2.4%",
+              "2.8%",
+              "3.0%",
+              "4.5%",
+              "4.1%",
+              "2.0%"
+            ]
+          ]
+        }
+      ]
+    },
+    "dcfAnalysis": {
+      "summaryParagraphs": [
+        "Our DCF assumes RTX sustains mid-single-digit revenue growth anchored by defense contract backlog and commercial aftermarket expansion, with operating margins expanding as mix shifts toward higher-margin services. CapEx is modeled at 3.3% of revenue throughout."
+      ],
+      "assumptions": [
+        "Revenue CAGR of 6.5% from FY2026E to FY2030E.",
+        "EBITDA margin expands from 16.5% in FY2026E to 18.5% in FY2030E.",
+        "CapEx held at 3.3% of revenue.",
+        "WACC of 9.5%.",
+        "Terminal growth rate of 3.0%.",
+        "Tax rate of 18.5%."
+      ],
+      "projectionTable": {
+        "title": "DCF Projections ($B)",
+        "columns": [
+          "Year",
+          "Revenue ($B)",
+          "EBITDA ($B)",
+          "FCF ($B)"
+        ],
+        "rows": [
+          [
+            "FY2026E",
+            "$93.5",
+            "$15.4",
+            "$8.2"
+          ],
+          [
+            "FY2027E",
+            "$99.8",
+            "$17.0",
+            "$9.1"
+          ],
+          [
+            "FY2028E",
+            "$106.3",
+            "$18.6",
+            "$10.0"
+          ],
+          [
+            "FY2029E",
+            "$113.2",
+            "$20.3",
+            "$10.9"
+          ],
+          [
+            "FY2030E",
+            "$120.5",
+            "$22.3",
+            "$11.8"
+          ]
+        ]
+      },
+      "scenarioTable": {
+        "title": "DCF Scenario Analysis",
+        "columns": [
+          "Scenario",
+          "Revenue CAGR",
+          "Terminal Growth",
+          "WACC",
+          "Implied Price",
+          "Upside/Downside"
+        ],
+        "rows": [
+          [
+            "Bull Case",
+            "8.5%",
+            "3.5%",
+            "8.5%",
+            "$258",
+            "+31.5%"
+          ],
+          [
+            "Base Case",
+            "6.5%",
+            "3.0%",
+            "9.5%",
+            "$220",
+            "+12.1%"
+          ],
+          [
+            "Bear Case",
+            "4.0%",
+            "2.0%",
+            "10.5%",
+            "$165",
+            "-15.9%"
+          ]
+        ]
+      }
+    },
+    "valuationConclusion": "Blending the DCF base case at 60% weight and peer EV/EBITDA at 40% weight yields a $225 12-month price target. That suggests RTX is modestly undervalued, with acceptable downside given the visibility of its backlog and the improving free-cash-flow profile."
+  },
+  "businessModelMoat": {
+    "segmentProfile": {
+      "summaryParagraphs": [
+        "RTX operates three reportable segments with broadly balanced revenue contributions. Pratt & Whitney provides commercial and military propulsion, Collins Aerospace supplies systems and avionics, and Raytheon develops missiles and defense electronics. This structure gives RTX both defense resilience and commercial-aerospace cyclicality, which together form a rare dual-cycle growth profile."
+      ],
+      "segmentTable": {
+        "title": "Business Segments",
+        "columns": [
+          "Segment",
+          "FY2025 Revenue ($B)",
+          "% of Total",
+          "Estimated YoY Growth",
+          "Growth Engine"
+        ],
+        "rows": [
+          [
+            "Pratt & Whitney",
+            "$27.5",
+            "31%",
+            "14%",
+            "Yes \u2014 GTF ramp and aftermarket"
+          ],
+          [
+            "Collins Aerospace",
+            "$27.0",
+            "30%",
+            "9%",
+            "Steady \u2014 commercial recovery"
+          ],
+          [
+            "Raytheon",
+            "$34.0",
+            "38%",
+            "13%",
+            "Yes \u2014 defense spending surge"
+          ]
+        ]
+      }
+    },
+    "economicMoatAssessment": {
+      "summaryParagraphs": [
+        "RTX possesses a wide economic moat driven by switching costs, intellectual property, and regulatory barriers. Its engine franchises, avionics platforms, and missile systems are deeply embedded in long-cycle certification and procurement structures that are difficult to disrupt."
+      ],
+      "moatTable": {
+        "title": "Economic Moat Assessment",
+        "columns": [
+          "Moat Source",
+          "Strength",
+          "Rationale"
+        ],
+        "rows": [
+          [
+            "Brand & Reputation",
+            "Strong",
+            "Trusted supplier to DoD, commercial airlines, and allied governments."
+          ],
+          [
+            "Network Effects",
+            "Weak",
+            "Limited classic network effects, though installed base creates indirect stickiness."
+          ],
+          [
+            "Switching Costs",
+            "Strong",
+            "Aircraft engine and avionics certification cycles span 5 to 10 years."
+          ],
+          [
+            "Cost Advantages / Scale",
+            "Moderate",
+            "Scale in propulsion manufacturing provides meaningful cost advantages."
+          ],
+          [
+            "Intellectual Property",
+            "Strong",
+            "Thousands of patents across propulsion, radar, guided weapons, and avionics."
+          ],
+          [
+            "Regulatory Barriers",
+            "Strong",
+            "ITAR restrictions, DoD security clearances, and FAA certification create near-impenetrable barriers."
+          ]
+        ]
+      },
+      "overallMoatConclusion": "RTX appears to have a wide moat. Its strongest defenses come from certification barriers, proprietary aerospace and defense technology, and deep customer entrenchment across both government and commercial programs."
+    }
+  },
+  "growthStrategyOutlook": {
+    "nearTermCatalysts": [
+      "Q1 2026 earnings and the potential for a beat-and-raise.",
+      "F135 Lots 18-19 contract revenue ramp at Pratt & Whitney.",
+      "Gross-margin expansion as execution improves across the portfolio."
+    ],
+    "mediumTermDrivers": [
+      "NATO and allied defense spending expansion.",
+      "GTF engine fleet scaling and aftermarket monetization.",
+      "Collins Aerospace participation in the ongoing commercial-aerospace recovery."
+    ],
+    "longTermOpportunities": [
+      "Hypersonic weapons programs.",
+      "NGAD propulsion programs.",
+      "Advanced defense systems and adjacent next-generation aerospace applications."
+    ],
+    "tamPositioning": {
+      "summaryParagraphs": [
+        "RTX operates across large and growing defense and commercial-aerospace addressable markets. Pratt & Whitney, Raytheon, and Collins each participate in sizable end markets with multi-year demand visibility driven by defense spending, air traffic growth, and long-cycle platform adoption."
+      ],
+      "highlights": [
+        "Pratt & Whitney's engine market is about $30B annually.",
+        "Raytheon's defense electronics and missiles market exceeds $60B annually.",
+        "Collins Aerospace participates in an avionics and interiors market of about $40B annually.",
+        "RTX's mix gives it a dual-cycle growth engine that most pure-play defense primes do not possess."
+      ]
+    }
+  },
+  "managementGovernance": {
+    "leadership": {
+      "summaryParagraphs": [
+        "Christopher Calio has led RTX since May 2023 after serving as President and holding prior operating roles within Pratt & Whitney. His operational background is particularly relevant because the company's most material near-term risk and opportunity set sit inside that segment. CFO Neil Mitchill Jr. has overseen balance-sheet deleveraging and the recent free-cash-flow improvement."
+      ]
+    },
+    "capitalAllocation": {
+      "summaryParagraphs": [
+        "RTX's capital allocation since the 2020 merger has prioritized sustaining the dividend, deleveraging the balance sheet, and funding organic growth through R&D and CapEx. Management has avoided major post-merger acquisitions and focused instead on program execution and balance-sheet repair."
+      ],
+      "acquisitionTable": {
+        "title": "Capital Allocation Track Record",
+        "columns": [
+          "Transaction / Program",
+          "Year",
+          "Value",
+          "Outcome Assessment"
+        ],
+        "rows": [
+          [
+            "Divestiture: Raytheon Intelligence & Space assets to L3Harris",
+            "2023",
+            "$4.7B",
+            "Positive \u2014 streamlined portfolio"
+          ],
+          [
+            "Divestiture: Raytheon Missiles & Defense legacy assets",
+            "2023",
+            "Various",
+            "Positive \u2014 sharpened portfolio focus"
+          ],
+          [
+            "F135 Engine Enhancement Program investment",
+            "2022\u2013ongoing",
+            "Multi-year internal program",
+            "Positive \u2014 secures long-duration propulsion franchise"
+          ]
+        ]
+      }
+    },
+    "alignment": {
+      "summaryParagraphs": [
+        "Insider ownership is modest but typical for a defense prime of this scale. Compensation structures are heavily weighted toward long-term equity awards tied to EPS, free cash flow, and total shareholder return, creating reasonable alignment with long-term shareholders."
+      ]
+    }
+  },
+  "riskAnalysis": {
+    "riskTable": {
+      "title": "Risk Analysis",
+      "columns": [
+        "Risk Factor",
+        "Type",
+        "Probability",
+        "Impact",
+        "Mitigation"
+      ],
+      "rows": [
+        [
+          "GTF inspection scope expansion / cost overrun",
+          "Idiosyncratic",
+          "Medium",
+          "High",
+          "Cost reserves established and airline compensation negotiations ongoing"
+        ],
+        [
+          "Fixed-price defense contract write-down",
+          "Idiosyncratic",
+          "Medium",
+          "Medium",
+          "Portfolio shift toward cost-plus contracts and quarterly EAC reviews"
+        ],
+        [
+          "Supply chain disruption",
+          "Idiosyncratic",
+          "Medium",
+          "Medium",
+          "Multi-source supplier strategy and strategic inventory"
+        ],
+        [
+          "Emerging defense-tech disruption",
+          "Idiosyncratic",
+          "Low",
+          "High",
+          "Investment in open-source cyber and autonomous systems"
+        ],
+        [
+          "U.S. defense budget sequestration / CR",
+          "Systemic",
+          "Medium",
+          "Medium",
+          "Meaningful allied and international exposure reduces pure DoD dependency"
+        ],
+        [
+          "Commercial aerospace demand shock",
+          "Systemic",
+          "Low",
+          "High",
+          "Defense revenues provide a natural hedge"
+        ],
+        [
+          "Tariff escalation / trade-war impact",
+          "Systemic",
+          "Medium",
+          "Medium",
+          "Large U.S. manufacturing base and supply-chain management"
+        ]
+      ]
+    }
+  },
+  "finalRecommendation": {
+    "rating": "BUY",
+    "priceTarget": "$225",
+    "impliedUpsidePct": "+14.7%",
+    "bullBaseBear": {
+      "bull": "$258",
+      "base": "$225",
+      "bear": "$165"
+    },
+    "valuationMethodology": "Our $225 price target is derived from a 60/40 blend of DCF intrinsic value and peer NTM EV/EBITDA.",
+    "fiveKeyMetricsToWatch": [
+      "GTF inspection cash costs each quarter.",
+      "Raytheon book-to-bill ratio.",
+      "Consolidated operating-margin trajectory.",
+      "Free cash flow conversion relative to net income.",
+      "Defense order backlog growth."
+    ],
+    "ratingChangeTriggers": [
+      {
+        "action": "Upgrade to Strong Buy",
+        "direction": "\u2191",
+        "trigger": "Stock pulls back below $180 on macro noise without fundamental deterioration, or FY26E EPS guidance rises above $7.20 on the Q1 2026 earnings call."
+      },
+      {
+        "action": "Downgrade to Hold",
+        "direction": "\u2193",
+        "trigger": "Two consecutive quarters of operating margin below 10.5%, GTF inspection total cost estimate above $8B, or Raytheon book-to-bill below 1.0x for two quarters."
+      },
+      {
+        "action": "Downgrade to Sell",
+        "direction": "\u2193\u2193",
+        "trigger": "FCF drops below $5.0B in FY2026, or U.S. defense spending falls sharply while allied demand reverses, or the stock rises above $245 with limited remaining upside."
+      }
+    ],
+    "closingParagraph": "RTX enters FY2026 as one of the best-positioned aerospace and defense primes for the current macro environment because both its commercial and defense exposures are accelerating simultaneously. The central underwriting question is whether the FY2025 free-cash-flow inflection marks a durable improvement in earnings quality; current evidence strongly suggests that it does."
+  },
+  "openQuestions": [
+    "What is the final total cash cost and timeline for GTF powder-metal inspections, and will management provide a definitive liability ceiling on the Q1 2026 call?",
+    "Will Q1 2026 revenue exceed consensus, and will management raise full-year FY2026 guidance above the current $93.5B expectation?",
+    "Is Raytheon's order intake sustainable at current post-rearmament levels, or has demand been pulled forward?",
+    "How extensive are RTX's open-source cyber defense and digital capabilities investments, and how do they position Raytheon against software-defined defense entrants?",
+    "At what pace will RTX accelerate share buybacks as net leverage approaches 1.5x?",
+    "How are tariff escalation and trade restrictions affecting supply-chain costs, especially in Pratt & Whitney programs?",
+    "What is the status of the F135 Engine Enhancement Program schedule, and do Lots 18-19 include upgraded units?",
+    "Are Collins Aerospace commercial aftermarket volumes tracking ahead of, in line with, or below air-traffic recovery expectations?"
+  ]
+}
