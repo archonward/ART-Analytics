@@ -48,6 +48,10 @@ app.use(cors({
 
 app.use(express.json({ limit: '2mb' }));
 
+app.get('/', (req, res) => {
+  res.send('ART Analytics Backend is Live!');
+});
+
 app.get('/api/health', (_, res) => {
   res.json({ ok: true });
 });
