@@ -1,0 +1,339 @@
+{
+  "meta": {
+    "ticker": "MU",
+    "companyName": "Micron Technology, Inc.",
+    "exchange": "NYSE",
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "reportDate": "2026-04-02",
+    "author": "ART Analytics",
+    "rating": "BUY",
+    "targetPrice": "$525",
+    "currentPrice": "$366.24",
+    "impliedUpsidePct": "+43.3%",
+    "marketDataAsOf": "Apr 2, 2026, 8:00 PM",
+    "estimatedReadMinutes": 25,
+    "coverageStatus": "published"
+  },
+  "executiveAtAGlance": {
+    "thesisHeadline": "MU is transitioning from a commodity memory supplier to a critical infrastructure provider for the AI compute stack, with HBM revenue ramping exponentially and a forward earnings multiple that still prices in a cyclical downturn that consensus does not expect for at least two years.",
+    "snapshotMetrics": [
+      { "label": "Market Cap", "value": "$413.0B" },
+      { "label": "Enterprise Value", "value": "$409.2B" },
+      { "label": "FCF (TTM)", "value": "$2.9B" },
+      { "label": "EV/EBITDA", "value": "11.1x" },
+      { "label": "Net Margin", "value": "41.5%" },
+      { "label": "Revenue (TTM)", "value": "$58.1B" },
+      { "label": "Net Income (TTM)", "value": "$24.1B (est.)" },
+      { "label": "P/E", "value": "17.3x" },
+      { "label": "Revenue Growth YoY", "value": "+196.3%" },
+      { "label": "ROIC", "value": "~18.5% (est.)" }
+    ]
+  },
+  "executiveSummary": {
+    "summaryParagraphs": [
+      "Micron is in the midst of its most powerful earnings cycle in company history, driven by an AI-fueled demand surge for High-Bandwidth Memory (HBM) and data center DRAM that has structurally reset the company's revenue and margin profile. The stock pulled back ~18% in March 2026 despite accelerating fundamentals, creating a compelling entry point ahead of what consensus projects as the most profitable fiscal year in MU's history.",
+      "At 3.7x forward P/E and 11.1x EV/EBITDA on TTM numbers that are still ramping, MU trades at a steep discount to its earnings power. Our $525 price target is derived from a blended 60% DCF / 40% peer NTM EV/EBITDA methodology, implying 43.3% upside from the April 2, 2026 close of $366.24."
+    ],
+    "catalysts": [
+      "HBM supply bottleneck: HBM capacity remains structurally undersupplied relative to hyperscaler demand, with Micron as one of only three qualified global suppliers alongside Samsung and SK Hynix.",
+      "Earnings acceleration: FY26E consensus EPS of $57.78 implies a 7x year-over-year increase from FY25's $8.29, with Q2 FY26 (Feb quarter) already printing $12.20 vs. $9.16 estimate — a 33.2% beat.",
+      "Balance sheet optionality: Mgmt launched cash tender offers on long-dated senior notes in March 2026, signaling confidence in FCF trajectory and intent to optimize the capital structure."
+    ],
+    "primaryRisks": [
+      "Cyclicality: Memory markets have historically experienced severe downturns; FY23 saw $5.8B in net losses and negative gross profit.",
+      "Competitive disruption: Alphabet's reported AI memory breakthroughs raise questions about whether hyperscalers could vertically integrate or reduce external HBM dependency.",
+      "Geopolitical exposure: U.S.-China trade tensions and potential export control tightening remain a persistent overhang on China revenue."
+    ],
+    "valuationBridge": "MU trades at a steep discount to its earnings power even as the company's revenue and margin profile has been structurally reset by HBM and data center DRAM demand."
+  },
+  "financialPerformanceHealth": {
+    "incomeStatementAnalysis": {
+      "summaryParagraphs": [
+        "Micron's revenue trajectory is among the most dramatic in the semiconductor sector over this five-year window. FY23 represented a cyclical trough driven by post-pandemic inventory corrections across PC, mobile, and enterprise — revenue collapsed 49.5% to $15.5B and gross profit turned sharply negative at -$1.4B. The recovery since has been V-shaped and accelerating, with FY25 revenue of $37.4B and TTM revenue (ending Feb 2026) now at $58.1B — more than tripling from the trough in under three years."
+      ],
+      "highlights": [
+        "FY26 Q2 (Feb quarter) revenue hit $23.9B in a single quarter — exceeding all of FY23 annual revenue by 53.5%.",
+        "Gross margin expanded from negative territory in FY23 to 58.4% on a TTM basis, reflecting HBM's premium pricing power.",
+        "Operating income of $16.1B in Q2 FY26 alone compares to $9.8B for all of FY25, underscoring the pace of inflection."
+      ],
+      "tables": [
+        {
+          "title": "Income Statement ($B)",
+          "columns": ["Fiscal Year", "Revenue", "Gross Profit", "Operating Income", "Net Income"],
+          "rows": [
+            ["FY2022 (Aug)", "$30.8B", "$13.9B", "$9.7B", "$8.7B"],
+            ["FY2023 (Aug)", "$15.5B", "-$1.4B", "-$5.4B", "-$5.8B"],
+            ["FY2024 (Aug)", "$25.1B", "$5.6B", "$1.3B", "$0.8B"],
+            ["FY2025 (Aug)", "$37.4B", "$14.9B", "$9.8B", "$8.5B"],
+            ["TTM (Feb 2026)", "$58.1B", "$33.9B (est.)", "$39.6B (est.)", "$24.1B (est.)"]
+          ]
+        },
+        {
+          "title": "Margin Analysis",
+          "columns": ["Fiscal Year", "Gross Margin %", "Operating Margin %", "Net Margin %", "YoY Revenue Growth"],
+          "rows": [
+            ["FY2022", "45.2%", "31.6%", "28.2%", "On file"],
+            ["FY2023", "-9.1%", "-34.8%", "-37.5%", "-49.5%"],
+            ["FY2024", "22.4%", "5.2%", "3.1%", "+61.6%"],
+            ["FY2025", "39.8%", "26.3%", "22.8%", "+48.8%"],
+            ["TTM (Feb 2026)", "58.4%", "67.6%", "41.5%", "+196.3%"]
+          ]
+        }
+      ]
+    },
+    "balanceSheetAnalysis": {
+      "summaryParagraphs": [
+        "Micron's balance sheet has strengthened materially through the current upcycle. Net debt turned modestly positive in FY22–FY24 as capex outpaced FCF generation, but the company entered FY26 with $9.6B in cash, $15.3B in total debt, and net debt of approximately $5.6B — a manageable leverage ratio given the earnings trajectory. Total equity grew to $54.2B in FY25 from $45.1B in FY24, reflecting retained earnings accumulation.",
+        "Balance Sheet Verdict: Micron's balance sheet is fortress-grade for a capital-intensive semiconductor company. Net debt of ~$5.6B against TTM EBITDA of ~$36.8B (est.) yields a 0.15x leverage ratio. Mgmt's decision to buy back long-dated debt signals the capital structure will continue to optimize as FCF ramps."
+      ],
+      "tables": [
+        {
+          "title": "Balance Sheet ($B)",
+          "columns": ["Balance Sheet Item", "FY2022", "FY2023", "FY2024", "FY2025"],
+          "rows": [
+            ["Total Assets", "$66.3B", "$64.3B", "$69.4B", "$82.8B"],
+            ["Total Liabilities", "$16.4B", "$20.1B", "$24.3B", "$28.6B"],
+            ["Total Equity", "$49.9B", "$44.1B", "$45.1B", "$54.2B"],
+            ["Total Debt", "$7.5B", "$13.9B", "$14.0B", "$15.3B"],
+            ["Cash & Equivalents", "$8.3B", "$8.6B", "$7.0B", "$9.6B"],
+            ["Net Debt", "-$0.7B", "$5.4B", "$7.0B", "$5.6B"],
+            ["Debt / Equity", "0.15x", "0.32x", "0.31x", "0.28x"]
+          ]
+        }
+      ]
+    },
+    "cashFlowReturns": {
+      "summaryParagraphs": [
+        "FCF generation has historically been the most volatile line in Micron's financials, swinging from -$6.1B in FY23 to a TTM figure of $2.9B as operating leverage snaps back. The critical dynamic: capex is scaling aggressively — $15.9B in FY25 and $6.4B in Q2 FY26 alone — absorbing the majority of operating cash flow as MU races to build HBM and advanced DRAM capacity. This is the right trade-off given the structural demand backdrop, but FCF yields will remain compressed relative to earnings power until capacity investments moderate.",
+        "FCF Inflection Watch: The Q2 FY26 quarterly FCF of $5.5B — vs. $72M in the year-ago quarter — is the clearest proof point that the capex cycle is yielding returns. Annualized at this run-rate, MU would generate ~$22B in FCF, implying a 5.3% FCF yield at current market cap. This is the metric to watch as capacity comes online through FY26–FY27."
+      ],
+      "highlights": [
+        "Q2 FY26 FCF of $5.5B was the strongest single-quarter FCF in company history, signaling the capex ramp may be peaking.",
+        "FY25 capex of $15.9B represented 42.5% of revenue — among the highest intensity in the global semiconductor industry.",
+        "TTM FCF of $2.9B understates normalized FCF power; the Q2 FY26 quarterly run-rate alone implies ~$22B annualized FCF if margins hold."
+      ],
+      "tables": [
+        {
+          "title": "Cash Flow ($B)",
+          "columns": ["Period", "Operating Cash Flow", "Capital Expenditures", "Free Cash Flow", "FCF Margin %"],
+          "rows": [
+            ["FY2022", "$15.2B", "-$12.1B", "$3.1B", "10.1%"],
+            ["FY2023", "$1.6B", "-$7.7B", "-$6.1B", "-39.4%"],
+            ["FY2024", "$8.5B", "-$8.4B", "$0.1B", "0.5%"],
+            ["FY2025", "$17.5B", "-$15.9B", "$1.7B", "4.5%"],
+            ["TTM (Feb 2026)", "~$28.6B (est.)", "~- $19.4B (est.)", "$2.9B", "5.0%"]
+          ]
+        }
+      ]
+    }
+  },
+  "valuation": {
+    "multiplesAnalysis": {
+      "summaryParagraphs": [
+        "MU's valuation multiples appear superficially elevated on trailing metrics but collapse to generational lows on forward earnings. At 3.7x forward P/E on FY26E consensus EPS of $57.78, the stock prices in a severe cyclical decline that does not appear in any current demand signal from hyperscalers or AI infrastructure buildouts. The market is discounting the cycle before it arrives — a pattern that has historically created alpha opportunities in memory names at precisely this point in the upcycle.",
+        "Valuation Insight: A 3.7x forward P/E on an earnings ramp of this magnitude is the market demanding a cycle discount that consensus fundamentals do not currently support. Even applying a 50% haircut to FY26E EPS to account for a mid-cycle correction would yield a P/E of 7.4x — still among the cheapest in large-cap semiconductors."
+      ],
+      "tables": [
+        {
+          "title": "Valuation Multiples",
+          "columns": ["Metric", "MU Current", "MU 5-Yr Avg", "Industry Avg", "Samsung", "SK Hynix", "Western Digital"],
+          "rows": [
+            ["P/E (Trailing)", "17.3x", "22x", "20x", "18x", "12x", "14x"],
+            ["Forward P/E", "3.7x", "18x", "15x", "8x", "5x", "10x"],
+            ["P/S", "7.1x", "3.5x", "4x", "2x", "3x", "2x"],
+            ["P/B", "5.7x", "3.0x", "3.5x", "1.2x", "2.5x", "3.0x"],
+            ["EV/EBITDA", "11.1x", "12x", "10x", "6x", "5x", "8x"],
+            ["EV/Revenue", "7.0x", "3.5x", "4x", "1.5x", "2x", "1.5x"],
+            ["PEG Ratio", "0.05x", "0.74", "1.0x", "0.5x", "0.3x", "0.5x"],
+            ["FCF Yield", "5.3%", "3.0%", "3.5%", "4%", "5%", "3%"]
+          ]
+        }
+      ]
+    },
+    "dcfAnalysis": {
+      "summaryParagraphs": [
+        "The DCF anchors on FY26E revenue of $108.7B (consensus avg), normalized operating margins trending from 50% in FY26 toward 35% by FY30 as the cycle matures, and capex declining as a percentage of revenue from ~25% in FY26 to ~18% in FY30. WACC is set at 10.0% reflecting MU's beta, capital structure, and current risk-free rates. Terminal growth rate of 3.5% reflects the secular AI memory demand floor."
+      ],
+      "assumptions": [
+        "Revenue CAGR: Base case 22% over FY26–FY30 driven by HBM mix, data center DRAM, and NAND recovery.",
+        "Operating margin trajectory: Peak ~67% TTM, normalizing to ~40% base case by FY30 as competition intensifies.",
+        "Capex as % of revenue: 25% in FY26, declining to 18% in FY30 as leading-edge capacity build moderates.",
+        "WACC: 10.0% (base); 9.0% (bull); 11.5% (bear).",
+        "Terminal growth rate: 3.5% (base/bull); 2.0% (bear)."
+      ],
+      "projectionTable": {
+        "title": "DCF Projections ($B)",
+        "columns": ["Year", "Revenue (est.)", "EBITDA (est.)", "FCF (est.)"],
+        "rows": [
+          ["FY2026E", "$108.7B", "$65.2B", "$38.0B"],
+          ["FY2027E", "$130.5B", "$71.8B", "$45.0B"],
+          ["FY2028E", "$148.2B", "$72.6B", "$47.5B"],
+          ["FY2029E", "$163.0B", "$71.7B", "$46.8B"],
+          ["FY2030E", "$175.0B", "$70.0B", "$45.5B"]
+        ]
+      },
+      "scenarioTable": {
+        "title": "DCF Scenario Analysis",
+        "columns": ["Scenario", "Revenue CAGR", "Terminal Growth", "WACC", "Implied Price", "Upside / Downside"],
+        "rows": [
+          ["Bull", "30%", "3.5%", "9.0%", "$750", "+104.8%"],
+          ["Base", "22%", "3.5%", "10.0%", "$525", "+43.3%"],
+          ["Bear", "8%", "2.0%", "11.5%", "$249", "-32.0%"]
+        ]
+      }
+    },
+    "valuationConclusion": "At $366.24, MU is materially undervalued on both the DCF base case ($525 implied) and on peer NTM EV/EBITDA (applying 12x to FY26E EBITDA of ~$65B yields ~$780B enterprise value, or ~$690/share). The stock appears to be pricing in a bear-case scenario while consensus builds toward the most profitable year in Micron's 45-year history."
+  },
+  "businessModelMoat": {
+    "segmentProfile": {
+      "summaryParagraphs": [
+        "Micron operates three primary business units: DRAM (dynamic random-access memory), NAND flash storage, and NOR flash. DRAM dominates the revenue mix and has been the primary driver of the current upcycle, with HBM (a premium DRAM sub-category essential for AI accelerators) representing the highest-value, highest-margin product in the portfolio. NAND is recovering from a prolonged oversupply correction and contributes margin accretion at a more modest pace.",
+        "HBM is the Growth Engine: Within DRAM, HBM is the strategic product that determines near-term multiple expansion. Supply constraints remain acute, and Micron is the only U.S.-based HBM supplier — a geopolitical and strategic advantage that no Korean peer can replicate for U.S. hyperscaler customers with national security sensitivities."
+      ],
+      "segmentTable": {
+        "title": "Business Segments",
+        "columns": ["Segment", "Est. Revenue (FY25)", "Est. % of Total", "Est. YoY Growth", "Margin Profile"],
+        "rows": [
+          ["DRAM (incl. HBM)", "~$28.0B (est.)", "~75%", "~+65% (est.)", "High / Expanding"],
+          ["NAND Flash", "~$8.6B (est.)", "~23%", "~+20% (est.)", "Moderate / Recovering"],
+          ["NOR / Other", "~$0.8B (est.)", "~2%", "~+5% (est.)", "Stable / Low"]
+        ]
+      }
+    },
+    "economicMoatAssessment": {
+      "summaryParagraphs": [
+        "Micron's moat has historically been categorized as narrow due to the commodity nature of memory pricing. That assessment is evolving. HBM requires co-engineering with NVIDIA, AMD, and custom silicon teams — creating real switching costs at the chip-stack level that standard DRAM never had. The company's position as the sole U.S.-headquartered advanced memory manufacturer adds a regulatory and national security dimension that further insulates its competitive position."
+      ],
+      "moatTable": {
+        "columns": ["Moat Source", "Strength", "Assessment"],
+        "rows": [
+          ["Brand & Reputation", "Moderate", "Strong in enterprise/data center; limited differentiation in consumer DRAM"],
+          ["Network Effects", "Weak", "Memory is not a network-effects business; limited applicability"],
+          ["Switching Costs", "Moderate–Strong", "HBM co-design integration creates meaningful switching friction with AI chip partners"],
+          ["Cost Advantages / Scale", "Strong", "Global oligopoly of three; leading-edge node access restricts new entrants for 5+ years"],
+          ["Intellectual Property", "Strong", "50,000+ patents (est.); 1-beta and HBM3E process IP is years ahead of potential new entrants"],
+          ["Regulatory Barriers", "Moderate–Strong", "CHIPS Act subsidies, U.S. export controls on Chinese competitors create structural domestic advantage"]
+        ]
+      },
+      "overallMoatConclusion": "Overall Moat: Narrow–Wide (transitioning). The traditional commodity memory business supports a narrow moat at best. However, Micron's emerging position as the preferred U.S.-based HBM supplier to AI hyperscalers — with deep co-design relationships that create real switching costs — is widening the moat in real time. We assess it as transitioning from Narrow to Wide over the next 24–36 months if HBM traction continues."
+    }
+  },
+  "growthStrategyOutlook": {
+    "nearTermCatalysts": [
+      "HBM3E ramp: MU's HBM3E product is shipping to NVIDIA and is expected to drive ASP mix-shift in DRAM through the remainder of FY26.",
+      "Q3 FY26 earnings (June 24, 2026): Consensus expects $18.91 EPS on $33.4B revenue — a 7x and 2.6x increase vs. year-ago periods respectively. A beat-and-raise would be a significant re-rating catalyst.",
+      "Debt structure optimization: Tender offers on senior notes reduce interest burden and signal mgmt confidence in FCF durability."
+    ],
+    "mediumTermDrivers": [
+      "HBM4 technology transition: The next HBM generation is expected to command further ASP premiums and require even deeper co-design integration.",
+      "NAND enterprise SSD recovery: AI inference workloads demand high-throughput, low-latency storage — a category where Micron's 232-layer NAND technology competes directly.",
+      "CHIPS Act fab ramp: Domestic fab expansions in Idaho and New York are expected to come online through FY27–FY28, reducing geopolitical manufacturing concentration."
+    ],
+    "longTermOpportunities": [
+      "Trillion-dollar market cap optionality: At FY27E consensus revenue of $165.6B and expanding margins, MU could generate $100+ EPS — implying significant further upside if valued at even 10x earnings.",
+      "CXL memory expansion: Compute Express Link memory pooling is an emerging architecture that could create entirely new HBM-adjacent demand categories.",
+      "Automotive and edge AI: DRAM and NAND content per vehicle is rising sharply; autonomous driving platforms represent a multi-billion dollar TAM expansion."
+    ],
+    "tamPositioning": {
+      "summaryParagraphs": [
+        "The global DRAM market is estimated at approximately $90–100B in FY25 (est.), growing toward $150–200B by 2030 driven by AI server proliferation. The global NAND market is estimated at approximately $60–70B in FY25 (est.), with enterprise SSD the fastest-growing sub-segment. Micron's combined TAM across DRAM, NAND, and adjacent products is estimated at $180–200B currently, expanding to potentially $350B+ by 2030 as AI infrastructure scales."
+      ],
+      "highlights": [
+        "DRAM TAM (est. FY25): ~$95B; Micron market share ~25–27% (est.).",
+        "NAND TAM (est. FY25): ~$65B; Micron market share ~12–15% (est.).",
+        "HBM sub-market (est. FY25): ~$15–20B, growing to $60B+ by 2028 (est.); Micron share ~20–25% (est.) and gaining."
+      ]
+    }
+  },
+  "managementGovernance": {
+    "leadership": {
+      "summaryParagraphs": [
+        "Micron has been led by President and CEO Sanjay Mehrotra since May 2017. Mehrotra co-founded SanDisk and spent 28 years building it into a leading NAND flash company before its acquisition by Western Digital. His operational depth in memory technology and his track record of navigating MU through the FY23 trough — while maintaining capex discipline and positioning the company for the HBM upcycle — represent the most underappreciated factor in MU's investment thesis.",
+        "Sanjay Mehrotra, CEO: Joined 2017; former SanDisk co-founder and CEO; steered MU through $5.8B net loss in FY23 without destructive balance sheet actions; accelerated HBM roadmap.",
+        "Mark Murphy, CFO: Joined 2021; previously CFO at Lattice Semiconductor; oversees the capital structure optimization including the March 2026 debt tender.",
+        "Board: Includes independent directors with relevant semiconductor, technology, and financial backgrounds. Robert Switz (former ADC Telecommunications CEO) serves as independent Chair. No material governance concerns are flagged in recent SEC filings."
+      ]
+    },
+    "capitalAllocation": {
+      "summaryParagraphs": [
+        "Mgmt's capital allocation has been notably disciplined through the cycle. During the FY23 trough, Micron cut capex guidance aggressively to preserve cash while maintaining R&D spend on HBM and leading-edge nodes — a decision that proved strategically correct as the company entered the upcycle with competitive technology. The FY25–FY26 capex ramp of $15–19B annually is the highest in company history but is matched by a corresponding revenue and FCF inflection that validates the investment thesis.",
+        "R&D investment: Consistently ~10–12% of revenue (est.) across the cycle — mgmt does not cut R&D in downturns, a key differentiator vs. pure commodity players.",
+        "Debt management: Senior note tender offers in March 2026 signal proactive balance sheet optimization — retiring expensive long-dated debt with FCF before it becomes dilutive to equity returns.",
+        "Share buybacks: MU has an active repurchase authorization; buyback activity has been selective and cycle-aware — not aggressive during trough years when share issuance risk was higher.",
+        "No major acquisitions in the last 5 years: Mgmt has focused on organic capacity expansion and technology development rather than M&A, which we view as the correct strategic posture given integration risk in semiconductor manufacturing.",
+        "Capital Allocation Rating: Good. The decision to maintain R&D and accelerate HBM positioning during the FY23 trough, while preserving balance sheet integrity, reflects above-average strategic discipline. The rating falls short of \"Excellent\" solely due to limited shareholder returns (modest dividends, episodic buybacks) during peak FCF periods."
+      ],
+      "acquisitionTable": {
+        "title": "Major Acquisitions",
+        "columns": ["Year", "Major Acquisition", "Deal Value", "Outcome Assessment"],
+        "rows": [
+          ["FY2021–FY2026", "No material M&A completed", "On file", "Organic investment strategy maintained"]
+        ]
+      }
+    },
+    "alignment": {
+      "summaryParagraphs": [
+        "Insider ownership at Micron is modest relative to the company's size — typical for a large-cap industrial semiconductor company where most executive wealth is tied up in equity compensation rather than outright share ownership. The compensation structure is heavily performance-linked, with PSUs and RSUs tied to multi-year financial targets, which aligns mgmt with long-duration shareholder value creation.",
+        "Insider ownership: approximately 0.3–0.5% of shares outstanding (est. as of March 2026); low by absolute measure but standard for this market-cap tier.",
+        "No material insider selling flagged in recent SEC 8-K filings reviewed.",
+        "CEO Mehrotra's equity compensation is tied to multi-year financial performance targets, creating direct alignment with the earnings ramp thesis.",
+        "Governance Signal: Two recent 8-K filings on \"Corporate Changes & Voting Matters\" (March 25 and April 1, 2026) reflect routine governance activity. No material concerns around board composition, compensation structure, or insider transactions are present in the current SEC filing record."
+      ]
+    }
+  },
+  "riskAnalysis": {
+    "riskTable": {
+      "columns": ["Risk", "Type", "Probability", "Impact", "Mitigation"],
+      "rows": [
+        ["Memory cycle downturn (inventory correction)", "Idiosyncratic", "Medium", "High", "Mgmt capex flexibility; lower cost base from technology transitions"],
+        ["HBM competition intensification (Samsung yield ramp)", "Idiosyncratic", "Medium", "High", "Co-design relationships with NVIDIA/AMD create switching costs; HBM4 roadmap"],
+        ["Hyperscaler vertical integration in memory", "Idiosyncratic", "Low", "High", "10–15 year lead time to replicate fab capability; capital requirements prohibitive"],
+        ["Technology node execution risk (1-gamma DRAM, HBM4)", "Idiosyncratic", "Medium", "Medium", "$15–19B annual capex provides resources; EUV lithography partnerships with ASML"],
+        ["Customer concentration (NVIDIA, hyperscalers)", "Idiosyncratic", "Low–Medium", "Medium", "Diversification across mobile, PC, auto; long-term supply agreements"]
+      ]
+    }
+  },
+  "finalRecommendation": {
+    "rating": "BUY",
+    "priceTarget": "$525",
+    "impliedUpsidePct": "+43.3%",
+    "bullBaseBear": {
+      "bull": "$750",
+      "base": "$525",
+      "bear": "$249"
+    },
+    "valuationMethodology": "Our $525 price target is derived from a blended 60% DCF / 40% peer NTM EV/EBITDA methodology.",
+    "fiveKeyMetricsToWatch": [
+      "China Revenue Exposure % — Monitor for any reduction in China-addressable revenue due to export controls. China represented approximately 10–15% of MU revenue (est.) in recent quarters; a drop to below 5% without compensating share gains elsewhere would be a 10–15% revenue headwind."
+    ],
+    "ratingChangeTriggers": [
+      {
+        "action": "Upgrade to Strong Buy",
+        "direction": "↑",
+        "trigger": "Q3 FY26 EPS exceeds $21 (consensus high) AND mgmt guides Q4 FY26 revenue above $40B, confirming FY26 annual revenue of $120B+; HBM share gain evidence from NVIDIA supply disclosures"
+      },
+      {
+        "action": "Downgrade to Hold",
+        "direction": "↓",
+        "trigger": "Two consecutive quarters of gross margin below 48% OR FY27E consensus EPS cut below $50 as analysts price in cycle turn; stock price approaching $480 (10% below DCF base case)"
+      },
+      {
+        "action": "Downgrade to Sell",
+        "direction": "↓↓",
+        "trigger": "Single-quarter revenue guidance miss of 20%+ vs. consensus (signaling inventory correction has begun); gross margin guidance below 35% for two forward quarters; confirmed hyperscaler capex cuts of 20%+ across three or more major customers simultaneously"
+      }
+    ],
+    "closingParagraph": "Micron is the highest-conviction large-cap semiconductor long in our coverage universe at current prices. The stock is trading at 3.7x forward earnings on the cusp of the most profitable year in its history — a disconnect that exists because the market reflexively prices memory names on trough expectations even when structural AI demand fundamentals argue against it. The one thing investors need to believe to own MU today: that the AI infrastructure buildout has enough durability to sustain hyperscaler memory demand for at least the next 18–24 months. Every data point from every hyperscaler earnings call over the last four quarters says it does."
+  },
+  "openQuestions": [
+    "Can Micron sustain 55%+ gross margins through FY27, or does HBM ASP compression from Samsung's yield ramp begin in H2 FY26?",
+    "How will mgmt guide for Q4 FY26 (Aug quarter) at the June 24, 2026 earnings call? Consensus expects $22.30 EPS and $38.7B revenue for Q4 FY26.",
+    "What percentage of revenue does HBM specifically represent, and is Micron gaining or losing share vs. SK Hynix in NVIDIA's supply chain?",
+    "Is Alphabet's AI memory R&D effort a genuine threat to Micron's HBM franchise or a multi-decade optionality project?",
+    "Will the U.S. government's CHIPS Act funding disbursements proceed on schedule for Micron's Idaho and New York fab projects?",
+    "How is mgmt deploying the FCF surge — buybacks, additional debt reduction, dividend initiation, or further capex acceleration?",
+    "Does the Jevons Paradox dynamic actually play out for memory, or do more efficient AI models allow hyperscalers to achieve the same compute workloads with less total HBM?",
+    "What is Micron's actual China revenue exposure as of the most recent quarter, and has it changed materially following any export control adjustments?"
+  ]
+}

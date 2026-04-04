@@ -1,0 +1,728 @@
+{
+  "meta": {
+    "ticker": "NFLX",
+    "companyName": "Netflix, Inc.",
+    "exchange": "NYSE",
+    "sector": "Communication Services",
+    "industry": "Entertainment",
+    "reportDate": "2026-04-02",
+    "author": "ART Analytics",
+    "rating": "BUY",
+    "targetPrice": "$125.00",
+    "currentPrice": "$98.66",
+    "impliedUpsidePct": "+26.7%",
+    "marketDataAsOf": "Apr 2, 2026, 8:00 PM",
+    "estimatedReadMinutes": 23,
+    "coverageStatus": "published"
+  },
+  "executiveAtAGlance": {
+    "thesisHeadline": "Netflix's flywheel \u2014 scale-driven content amortization, ad-tier optionality, and live sports as a subscriber retention anchor \u2014 should sustain mid-teens revenue growth and margin expansion through 2027, making the current drawdown a mispricing, not a fundamental deterioration.",
+    "snapshotMetrics": [
+      {
+        "label": "Market Cap",
+        "value": "$418.5B"
+      },
+      {
+        "label": "Enterprise Value",
+        "value": "$424.5B"
+      },
+      {
+        "label": "Revenue (TTM)",
+        "value": "$45.2B"
+      },
+      {
+        "label": "Net Income (TTM)",
+        "value": "$11.0B"
+      },
+      {
+        "label": "FCF (TTM)",
+        "value": "$24.8B"
+      },
+      {
+        "label": "P/E (Trailing)",
+        "value": "39.0x"
+      },
+      {
+        "label": "EV/EBITDA",
+        "value": "31.1x"
+      },
+      {
+        "label": "Revenue Growth YoY",
+        "value": "+17.6%"
+      },
+      {
+        "label": "Net Margin",
+        "value": "24.3%"
+      },
+      {
+        "label": "ROIC (est.)",
+        "value": "~28.0%"
+      },
+      {
+        "label": "Consensus Upside",
+        "value": "+15.0%"
+      },
+      {
+        "label": "Next Earnings",
+        "value": "Apr 2026"
+      }
+    ]
+  },
+  "executiveSummary": {
+    "summaryParagraphs": [
+      "Netflix enters 2026 as the undisputed global streaming leader \u2014 $45.2B in FY2025 revenue, 24.5% operating margins, and $9.5B in annual free cash flow \u2014 yet the stock trades 26% below its 52-week high of $134.12, creating a compelling entry point ahead of the April 16 earnings print.",
+      "The stock trades at 25.6x forward P/E \u2014 a discount to its 5-year average \u2014 on a business generating 17.6% revenue growth, 24.5% operating margins, and $9.5B of annual FCF. Our $125 price target blends a 60% weight on a DCF base case (10.0% WACC, 3.0% terminal growth) and 40% weight on 28x FY26E EPS of $3.17, implying 26.7% upside from the April 2, 2026 close."
+    ],
+    "catalysts": [
+      "Q1 2026 earnings on April 16 \u2014 Street consensus at $0.761 EPS on $12.2B revenue; beat-and-raise dynamic could re-rate the multiple toward 30x forward earnings.",
+      "Live sports expansion \u2014 Netflix is actively pursuing expanded NFL streaming rights to four games, building on the 2025 Christmas Day slate.",
+      "Advertising tier monetization \u2014 ad-supported ARPU accretion and incremental ad revenue represent the most underpenetrated near-term margin lever."
+    ],
+    "primaryRisks": [
+      "Regulatory pricing risk \u2014 a Rome court ruled Netflix's unilateral price-hike clauses void and ordered subscriber refunds; EU-wide precedent could constrain pricing power in a key market.",
+      "Multiple compression \u2014 derating pressure and acquisition speculation weighed on the stock in Q4 2025; any macro deterioration amplifies this risk.",
+      "Content cost escalation \u2014 live sports rights are structurally expensive; NFL expansion could pressure margins if ad revenue ramp underperforms."
+    ],
+    "valuationBridge": "Netflix trades at a discount to its 5-year average on a business still delivering strong revenue growth, expanding margins, and robust free cash flow, leaving room for re-rating if ad-tier monetization and live sports optionality are executed well."
+  },
+  "financialPerformanceHealth": {
+    "incomeStatementAnalysis": {
+      "summaryParagraphs": [
+        "Netflix has compounded revenue at a 12.7% CAGR from FY2022 to FY2025, accelerating to +15.8% in FY2024 and +15.8% in FY2025, driven by password-sharing monetization, price increases, and ad-tier subscriber growth. Operating income nearly doubled from $5.6B in FY2022 to $13.3B in FY2025, reflecting significant operating leverage as content costs scale sublinearly relative to revenue."
+      ],
+      "highlights": [
+        "FY2025 revenue of $45.2B grew 15.8% YoY versus $39.0B in FY2024.",
+        "Gross profit expanded from $12.4B in FY2022 to $21.9B in FY2025, with gross margin improving from 39.4% to 48.5%.",
+        "Operating income margin expanded from 17.8% in FY2022 to 29.5% in FY2025.",
+        "Net income grew from $4.5B in FY2022 to $11.0B in FY2025, a 144% cumulative increase."
+      ],
+      "tables": [
+        {
+          "title": "Income Statement ($M)",
+          "columns": [
+            "Metric ($M)",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025",
+            "TTM"
+          ],
+          "rows": [
+            [
+              "Total Revenue",
+              "$31,616",
+              "$33,723",
+              "$39,001",
+              "$45,183",
+              "$45,183"
+            ],
+            [
+              "Gross Profit",
+              "$12,447",
+              "$14,008",
+              "$17,963",
+              "$21,908",
+              "$21,908"
+            ],
+            [
+              "Operating Income",
+              "$5,633",
+              "$6,954",
+              "$10,418",
+              "$13,327",
+              "$13,327"
+            ],
+            [
+              "Net Income",
+              "$4,492",
+              "$5,408",
+              "$8,712",
+              "$10,981",
+              "$10,981"
+            ],
+            [
+              "Cost of Revenue (est.)",
+              "$19,169",
+              "$19,715",
+              "$21,038",
+              "$23,275",
+              "$23,275"
+            ]
+          ]
+        },
+        {
+          "title": "Margin Analysis",
+          "columns": [
+            "Margin / Growth",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025",
+            "TTM"
+          ],
+          "rows": [
+            [
+              "Gross Margin %",
+              "39.4%",
+              "41.5%",
+              "46.1%",
+              "48.5%",
+              "48.5%"
+            ],
+            [
+              "Operating Margin %",
+              "17.8%",
+              "20.6%",
+              "26.7%",
+              "29.5%",
+              "29.5%"
+            ],
+            [
+              "Net Margin %",
+              "14.2%",
+              "16.0%",
+              "22.3%",
+              "24.3%",
+              "24.3%"
+            ],
+            [
+              "YoY Revenue Growth %",
+              "On file",
+              "+6.7%",
+              "+15.7%",
+              "+15.8%",
+              "+17.6%"
+            ]
+          ]
+        }
+      ]
+    },
+    "balanceSheetAnalysis": {
+      "summaryParagraphs": [
+        "Netflix's balance sheet has strengthened materially. Net debt declined from $9.2B at FY2022 year-end to $5.4B at FY2025 as free cash flow generation outpaced debt accumulation. Total equity grew meaningfully from FY2023 to FY2025, reflecting retained earnings compounding."
+      ],
+      "tables": [
+        {
+          "title": "Balance Sheet ($M)",
+          "columns": [
+            "Metric ($M)",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025"
+          ],
+          "rows": [
+            [
+              "Total Assets",
+              "$48,595",
+              "$48,732",
+              "$53,630",
+              "$55,597"
+            ],
+            [
+              "Total Liabilities",
+              "$27,817",
+              "$28,144",
+              "$28,887",
+              "$28,982"
+            ],
+            [
+              "Total Equity",
+              "$20,777",
+              "$20,588",
+              "$24,744",
+              "$26,615"
+            ],
+            [
+              "Total Debt",
+              "$14,353",
+              "$14,543",
+              "$15,583",
+              "$14,463"
+            ],
+            [
+              "Cash & Equivalents",
+              "$5,147",
+              "$7,117",
+              "$7,805",
+              "$9,034"
+            ],
+            [
+              "Net Debt",
+              "$9,206",
+              "$7,426",
+              "$7,778",
+              "$5,429"
+            ],
+            [
+              "Debt / Equity",
+              "0.69x",
+              "0.71x",
+              "0.63x",
+              "0.54x"
+            ]
+          ]
+        }
+      ]
+    },
+    "cashFlowReturns": {
+      "summaryParagraphs": [
+        "Netflix's free cash flow trajectory is one of the more dramatic cash-conversion stories in large-cap media. Operating cash flow surged from $2.0B in FY2022 to $10.1B in FY2025, while capex intensity remained unusually low because content spending flows mainly through the P&L rather than through large physical-infrastructure investment. Returns on capital have also inflected sharply upward, indicating durable value creation."
+      ],
+      "highlights": [
+        "FY2025 free cash flow of $9.5B was up 36.8% YoY from FY2024.",
+        "CapEx remained very low at 1.5% of revenue in FY2025, preserving the capital-light profile.",
+        "TTM FCF of $24.8B includes working-capital timing items, while reported annual FCF of $9.5B is the more comparable ongoing figure.",
+        "Estimated FY2025 ROE of ~41.2%, ROA of ~19.8%, and ROIC of ~28.0% remain well above the company's cost of capital."
+      ],
+      "tables": [
+        {
+          "title": "Cash Flow ($M)",
+          "columns": [
+            "Metric ($M)",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025"
+          ],
+          "rows": [
+            [
+              "Operating Cash Flow",
+              "$2,026",
+              "$7,274",
+              "$7,361",
+              "$10,149"
+            ],
+            [
+              "Capital Expenditures",
+              "($408)",
+              "($349)",
+              "($440)",
+              "($688)"
+            ],
+            [
+              "Free Cash Flow",
+              "$1,619",
+              "$6,926",
+              "$6,922",
+              "$9,461"
+            ],
+            [
+              "FCF Margin %",
+              "5.1%",
+              "20.5%",
+              "17.7%",
+              "20.9%"
+            ],
+            [
+              "CapEx % of Revenue",
+              "1.3%",
+              "1.0%",
+              "1.1%",
+              "1.5%"
+            ]
+          ]
+        },
+        {
+          "title": "Return on Capital",
+          "columns": [
+            "Return Metric (est.)",
+            "FY2023",
+            "FY2024",
+            "FY2025"
+          ],
+          "rows": [
+            [
+              "Return on Equity (ROE)",
+              "~26.3%",
+              "~35.2%",
+              "~41.2%"
+            ],
+            [
+              "Return on Assets (ROA)",
+              "~11.1%",
+              "~16.2%",
+              "~19.8%"
+            ],
+            [
+              "ROIC",
+              "~18.0%",
+              "~24.0%",
+              "~28.0%"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "valuation": {
+    "multiplesAnalysis": {
+      "summaryParagraphs": [
+        "Netflix trades at 25.6x forward P/E and 31.1x EV/EBITDA \u2014 elevated on an absolute basis but defensible given the 17.6% revenue growth trajectory, 24.3% net margins, and superior free cash flow conversion. The current forward multiple is near a 5-year low on an earnings-power basis, suggesting the market may be underweighting the ad-tier and live-sports optionality."
+      ],
+      "tables": [
+        {
+          "title": "Valuation Multiple",
+          "columns": ["Metric", "NFLX Current", "NFLX 5-Yr Avg (est.)", "DIS (est.)", "WBD (est.)", "AMZN (est.)"],
+          "rows": [
+            ["P/E (Trailing)", "39.0x", "55x", "25x", "NM", "40x"],
+            ["Forward P/E", "25.6x", "42x", "20x", "18x", "33x"],
+            ["P/S", "9.4x", "8x", "2x", "0.5x", "3x"],
+            ["P/B", "15.7x", "18x", "2x", "0.5x", "9x"],
+            ["EV/EBITDA", "31.1x", "40x", "12x", "8x", "18x"],
+            ["EV/Revenue", "9.4x", "9x", "2x", "0.5x", "3x"],
+            ["PEG Ratio (est.)", "1.4x", "2.5x", "1.5x", "NM", "1.8x"],
+            ["FCF Yield", "2.3%", "1.0%", "3.5%", "2.0%", "2.5%"]
+          ]
+        }
+      ]
+    },
+    "dcfAnalysis": {
+      "summaryParagraphs": [
+        "The DCF uses a 5-year explicit forecast period followed by terminal value, with assumptions built around sustained revenue growth, operating-margin expansion, and modest capex intensity. The framework reflects the company's demonstrated ability to expand margins while layering ad-tier monetization onto a fixed-cost content base."
+      ],
+      "assumptions": [
+        "Revenue CAGR: 13.0% from FY2026 to FY2030, decelerating from 15.8% toward ~8% by year 5.",
+        "Operating margin expanding from 29.5% to 34% by FY2030.",
+        "CapEx maintained at 1.5\u20132.0% of revenue.",
+        "Tax rate: 20% (est.).",
+        "WACC: 10.0%.",
+        "Terminal growth rate: 3.0%."
+      ],
+      "projectionTable": {
+        "title": "DCF Projections ($B, est.)",
+        "columns": [
+          "Year",
+          "Revenue ($B, est.)",
+          "EBITDA ($B, est.)",
+          "FCF ($B, est.)"
+        ],
+        "rows": [
+          [
+            "FY2026E",
+            "$51.2",
+            "$16.2",
+            "$11.0"
+          ],
+          [
+            "FY2027E",
+            "$57.8",
+            "$19.0",
+            "$12.8"
+          ],
+          [
+            "FY2028E",
+            "$64.7",
+            "$22.0",
+            "$14.8"
+          ],
+          [
+            "FY2029E",
+            "$71.6",
+            "$24.8",
+            "$16.7"
+          ],
+          [
+            "FY2030E",
+            "$77.8",
+            "$26.5",
+            "$18.0"
+          ]
+        ]
+      },
+      "scenarioTable": {
+        "title": "DCF Scenario Analysis",
+        "columns": [
+          "Scenario",
+          "Revenue CAGR",
+          "Terminal Growth",
+          "WACC",
+          "Implied Price",
+          "Upside / Downside"
+        ],
+        "rows": [
+          [
+            "Bull",
+            "16.0%",
+            "3.5%",
+            "9.0%",
+            "$158",
+            "+60.2%"
+          ],
+          [
+            "Base",
+            "13.0%",
+            "3.0%",
+            "10.0%",
+            "$120",
+            "+21.6%"
+          ],
+          [
+            "Bear",
+            "8.0%",
+            "2.0%",
+            "11.5%",
+            "$72",
+            "-27.0%"
+          ]
+        ]
+      }
+    },
+    "valuationConclusion": "At $98.66, Netflix appears modestly undervalued on a blended basis. The bear case requires a sustained deceleration to 8% revenue growth, which looks inconsistent with Netflix's structural position as the only pure-play global streaming leader at scale."
+  },
+  "businessModelMoat": {
+    "segmentProfile": {
+      "summaryParagraphs": [
+        "Netflix operates a single-segment streaming business globally, offering subscribers access to licensed and original content across TV series, films, documentaries, and live events. Revenue is predominantly subscription-based, with an emerging advertising tier and live events representing important incremental monetization and retention levers."
+      ],
+      "segmentTable": {
+        "title": "Revenue Stream",
+        "columns": [
+          "Revenue Stream",
+          "FY2025 Revenue ($B, est.)",
+          "% of Total (est.)",
+          "Growth Driver"
+        ],
+        "rows": [
+          [
+            "Ad-Free Subscription",
+            "~$42.9",
+            "~95%",
+            "Price increases, global sub growth"
+          ],
+          [
+            "Ad-Supported Subscription",
+            "~$2.3",
+            "~5%",
+            "Tier conversion, CPM growth"
+          ],
+          [
+            "Live Events / Sports",
+            "Nascent / bundled",
+            "Immaterial, growing",
+            "NFL expansion, live tent-poles"
+          ]
+        ]
+      }
+    },
+    "economicMoatAssessment": {
+      "summaryParagraphs": [
+        "Netflix commands one of the widest moats in streaming. The combination of scale-driven content purchasing power, a globally recognized brand, and meaningful switching costs via content libraries and user habit creates a durable competitive position unmatched by any pure-play streaming rival."
+      ],
+      "moatTable": {
+        "title": "Economic Moat Assessment",
+        "columns": [
+          "Moat Source",
+          "Strength",
+          "Explanation"
+        ],
+        "rows": [
+          [
+            "Brand & Reputation",
+            "Strong",
+            "Netflix is the default streaming verb globally; brand recall and trust are unmatched in the category."
+          ],
+          [
+            "Network Effects",
+            "Moderate",
+            "Social conversation around Netflix originals drives cultural relevance."
+          ],
+          [
+            "Switching Costs",
+            "Moderate",
+            "Personalized recommendation engine, viewing history, and original content lock-in create meaningful friction."
+          ],
+          [
+            "Cost Advantages / Scale",
+            "Strong",
+            "$17B+ annual content budget amortized over 300M+ subs; per-sub content cost is unmatched by smaller rivals."
+          ],
+          [
+            "Intellectual Property",
+            "Moderate",
+            "Growing owned IP library creates exclusive must-watch content."
+          ],
+          [
+            "Regulatory Barriers",
+            "Weak",
+            "Streaming is a low regulatory barrier industry; pricing rulings highlight downside risk."
+          ]
+        ]
+      },
+      "overallMoatConclusion": "Netflix appears to have a wide moat. Its strongest defenses come from scale-driven content economics, global brand dominance, and a growing proprietary IP library, while the subscriber flywheel remains difficult for pure-play rivals to replicate without absorbing years of losses."
+    }
+  },
+  "growthStrategyOutlook": {
+    "nearTermCatalysts": [
+      "Q1 2026 earnings on April 16 with 15%+ revenue-growth visibility.",
+      "Ad-tier ARPU expansion as advertiser CPM rates mature and ad inventory fills globally.",
+      "Price increases in select markets.",
+      "Potential NFL live-streaming expansion."
+    ],
+    "mediumTermDrivers": [
+      "Advertising revenue scaling to an estimated $5\u20138B annually by FY2028.",
+      "International-market ARPU expansion in lower-priced regions.",
+      "Live sports as a retention anchor for higher-ARPU cohorts.",
+      "Product-team restructuring aimed at accelerating feature velocity and personalization."
+    ],
+    "longTermOpportunities": [
+      "Gaming expansion could add meaningful incremental revenue over time.",
+      "Secular shift from linear TV to streaming globally.",
+      "Emerging-market subscriber growth in India, Southeast Asia, and Africa."
+    ],
+    "tamPositioning": {
+      "summaryParagraphs": [
+        "The global streaming TAM remains structurally underpenetrated. Broadband-connected households globally number roughly 1.2\u20131.5 billion, while Netflix serves an estimated 300M+ subscribers. Advertising and live sports expand the long-run opportunity well beyond core subscriptions."
+      ],
+      "highlights": [
+        "Streaming subscriptions TAM by 2030 is estimated at roughly $150\u2013200B annually.",
+        "Streaming advertising TAM by 2030 is estimated at roughly $50\u201380B annually.",
+        "Live sports streaming rights represent an estimated $50B+ annual market globally.",
+        "Netflix's current share of global streaming revenue is estimated at roughly 20\u201325%, leaving room for further expansion."
+      ]
+    }
+  },
+  "managementGovernance": {
+    "leadership": {
+      "summaryParagraphs": [
+        "Netflix's co-CEO structure pairs Greg Peters on product and technology with Ted Sarandos on content and creative, while CFO Spencer Neumann has overseen the free-cash-flow inflection. The partnership has driven one of the more successful operating turnarounds in streaming through password-sharing monetization and the ad-tier launch."
+      ]
+    },
+    "capitalAllocation": {
+      "summaryParagraphs": [
+        "Management's capital-allocation philosophy has evolved from debt-funded content growth toward a more balanced framework centered on disciplined content investment, buybacks, and deleveraging. The free-cash-flow inflection has given management far more optionality than at any prior point."
+      ],
+      "acquisitionTable": {
+        "title": "Capital Allocation / Acquisition Track Record",
+        "columns": [
+          "Transaction",
+          "Year",
+          "Deal Value (est.)",
+          "Outcome Assessment"
+        ],
+        "rows": [
+          [
+            "No material acquisitions confirmed in locked data",
+            "FY2021\u2013FY2025",
+            "On file",
+            "Organic growth strategy maintained; acquisition speculation in Q4 2025 not confirmed"
+          ]
+        ]
+      }
+    },
+    "alignment": {
+      "summaryParagraphs": [
+        "Insider-ownership data is not available in the locked dataset. Institutional investors have reportedly been accumulating shares even as some executives reduced holdings, while compensation remains heavily equity-linked under Netflix's typical proxy structure."
+      ]
+    }
+  },
+  "riskAnalysis": {
+    "riskTable": {
+      "title": "Risk Analysis",
+      "columns": [
+        "Risk",
+        "Type",
+        "Probability",
+        "Impact",
+        "Mitigation"
+      ],
+      "rows": [
+        [
+          "EU Regulatory Pricing Constraints",
+          "Idiosyncratic",
+          "Medium",
+          "High",
+          "Diversify pricing models; develop local market pricing tiers; legal appeals"
+        ],
+        [
+          "Live Sports Rights Cost Inflation",
+          "Idiosyncratic",
+          "High",
+          "Medium",
+          "Selective bidding; ad revenue offset; bundling with subscription tiers"
+        ],
+        [
+          "Large-Cap Acquisition (Dilutive)",
+          "Idiosyncratic",
+          "Low",
+          "High",
+          "Management has not confirmed targets; capital discipline track record is strong"
+        ],
+        [
+          "EPS Delivery Volatility",
+          "Idiosyncratic",
+          "Medium",
+          "Medium",
+          "Q3 2025 miss followed by Q4 beat; trend is positive but not frictionless"
+        ],
+        [
+          "Consumer Spending Compression",
+          "Macro",
+          "Medium",
+          "Medium",
+          "Ad tier offers a lower price point; historical recession resilience supports thesis"
+        ],
+        [
+          "U.S. Subscriber Market Saturation",
+          "Industry",
+          "High",
+          "Medium",
+          "International growth, ARPU expansion, and ad tier offset domestic saturation"
+        ],
+        [
+          "Regulatory Escalation (EU-Wide)",
+          "Macro",
+          "Medium",
+          "Medium",
+          "Engagement with EU regulators; structural compliance investment; legal reserves"
+        ]
+      ]
+    }
+  },
+  "finalRecommendation": {
+    "rating": "BUY",
+    "priceTarget": "$125.00",
+    "impliedUpsidePct": "+26.7%",
+    "bullBaseBear": {
+      "bull": "$158",
+      "base": "$125",
+      "bear": "$72"
+    },
+    "valuationMethodology": "Our $125 price target blends 60% weight on our DCF base case ($120 implied; 10.0% WACC, 3.0% terminal growth, 13% revenue CAGR) and 40% weight on a peer multiple-based approach applying 28x to our FY2026E EPS estimate of $3.17.",
+    "fiveKeyMetricsToWatch": [
+      "Q1 2026 EPS versus $0.761 consensus.",
+      "Ad-tier revenue disclosure and whether it approaches $1B+ quarterly.",
+      "Operating margin trajectory and whether FY2026 guidance stays above 31%.",
+      "EU regulatory developments tied to pricing flexibility.",
+      "NFL rights expansion updates and disclosed rights-cost economics."
+    ],
+    "ratingChangeTriggers": [
+      {
+        "action": "Upgrade to Strong Buy",
+        "direction": "\u2191",
+        "trigger": "Q1 2026 beat-and-raise with FY2026 revenue guidance above $52.5B and ad-tier revenue disclosure showing $800M+ in the quarter."
+      },
+      {
+        "action": "Downgrade to Hold",
+        "direction": "\u2193",
+        "trigger": "Two consecutive EPS misses, FY2026 operating margin guidance below 28%, or a confirmed large-cap acquisition at a rich premium that threatens capital discipline."
+      },
+      {
+        "action": "Downgrade to Sell",
+        "direction": "\u2193\u2193",
+        "trigger": "EU regulatory restrictions materially impair European ARPU growth while live sports rights costs exceed $3B annually without a commensurate ad revenue offset."
+      }
+    ],
+    "closingParagraph": "Netflix remains the highest-quality global streaming franchise, with a combination of growth, margins, and free cash flow that justifies a premium to peers. The current drawdown appears to offer an attractive entry point if one believes pricing power, ad-tier monetization, and selective live sports expansion remain structurally intact."
+  },
+  "openQuestions": [
+    "How much revenue did the ad-supported tier generate in Q1 2026, and what is the CPM trajectory?",
+    "Did Netflix meet or beat Q1 2026 EPS of $0.761 and revenue of $12.2B on April 16?",
+    "What is the financial and strategic scope of Netflix's NFL rights expansion to four games?",
+    "Will the Italian court ruling on price-hike clauses be appealed, and is there EU-wide regulatory risk?",
+    "What is the outcome of the product team reorganization announced in March 2026?",
+    "Is management pursuing a material acquisition, and if so, what is the target and strategic rationale?",
+    "What is the FY2026 full-year operating margin guidance range, and how does management frame the live sports cost ramp?",
+    "What level of insider selling occurred in Q4 2025 and Q1 2026, and does it reflect executive views on valuation?"
+  ]
+}

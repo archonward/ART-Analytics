@@ -135,6 +135,70 @@ const coverageRegistry = {
        lastUpdated: '2026-03-26',
        status: 'published'
       },
+  MA: {
+         ticker: 'MA',
+         companyName: 'Mastercard Inc',
+         exchange: 'NYSE',
+         sector: 'Financial Services',
+         lastUpdated: '2026-04-04',
+         status: 'published'
+  },
+  NFLX: {
+           ticker: 'NFLX',
+           companyName: 'Netflix, Inc',
+           exchange: 'NYSE',
+           sector: 'Communication Services',
+           lastUpdated: '2026-04-04',
+           status: 'published'
+  },
+  ORCL: {
+     ticker: 'ORCL',
+     companyName: 'Oracle Corporation',
+     exchange: 'NYSE',
+     sector: 'Technology',
+     lastUpdated: '2026-04-04',
+     status: 'published'
+    },
+  MU: {
+       ticker: 'MU',
+       companyName: 'Micron Technology',
+       exchange: 'NYSE',
+       sector: 'Technology',
+       lastUpdated: '2026-04-04',
+       status: 'published'
+      },
+  PLTR: {
+     ticker: 'PLTR',
+     companyName: 'Palantir Technology',
+     exchange: 'NYSE',
+     sector: 'Technology',
+     lastUpdated: '2026-04-04',
+     status: 'published'
+    },
+  GE: {
+       ticker: 'GE',
+       companyName: 'General Electric',
+       exchange: 'NYSE',
+       sector: 'Aerospace',
+       lastUpdated: '2026-04-04',
+       status: 'published'
+      },
+  LRCX: {
+     ticker: 'LRCX',
+     companyName: 'Lam Research',
+     exchange: 'NYSE',
+     sector: 'Semiconductor',
+     lastUpdated: '2026-04-04',
+     status: 'published'
+  },
+  RTX: {
+       ticker: 'RTX',
+       companyName: 'RTX Corporation',
+       exchange: 'NYSE',
+       sector: 'Aerospace and defense',
+       lastUpdated: '2026-04-04',
+       status: 'published'
+    },
   IBM: {
       ticker: 'IBM',
       companyName: 'International Business Machines Corporation',

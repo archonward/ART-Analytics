@@ -1,0 +1,715 @@
+{
+  "meta": {
+    "ticker": "GE",
+    "companyName": "GE Aerospace",
+    "exchange": "NYSE",
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense",
+    "reportDate": "2026-04-02",
+    "author": "ART Analytics",
+    "rating": "BUY",
+    "targetPrice": "$355.00",
+    "currentPrice": "$281.16",
+    "impliedUpsidePct": "+26.3%",
+    "marketDataAsOf": "Apr 2, 2026, 8:00 PM",
+    "estimatedReadMinutes": 22,
+    "coverageStatus": "published"
+  },
+  "executiveAtAGlance": {
+    "thesisHeadline": "Four consecutive double-digit EPS beats, averaging 14% above consensus, demonstrate that Street models are systematically underestimating GE Aerospace's aftermarket earnings power.",
+    "snapshotMetrics": [
+      {
+        "label": "Market Cap",
+        "value": "$296.6B"
+      },
+      {
+        "label": "Enterprise Value",
+        "value": "$304.7B"
+      },
+      {
+        "label": "FCF (TTM)",
+        "value": "$5.2B"
+      },
+      {
+        "label": "EV/EBITDA",
+        "value": "28.5x"
+      },
+      {
+        "label": "Net Margin",
+        "value": "19.0%"
+      },
+      {
+        "label": "Revenue (TTM)",
+        "value": "$45.9B"
+      },
+      {
+        "label": "Net Income (TTM)",
+        "value": "$8.7B"
+      },
+      {
+        "label": "P/E",
+        "value": "35.0x"
+      },
+      {
+        "label": "Revenue Growth YoY",
+        "value": "+17.6%"
+      },
+      {
+        "label": "ROIC",
+        "value": "22%"
+      },
+      {
+        "label": "Consensus Upside",
+        "value": "+26.5%"
+      },
+      {
+        "label": "Next Earnings",
+        "value": "Apr 2026"
+      }
+    ]
+  },
+  "executiveSummary": {
+    "summaryParagraphs": [
+      "GE Aerospace is the dominant global franchisor of commercial and military jet engines, with an installed base of 44,000 commercial and 26,000 military engines generating recurring, high-margin aftermarket revenue that is structurally insulated from OEM production cycles. The April 2, 2026 selloff, with shares closing at $281.16, created an attractive re-entry point ahead of the Q1 2026 earnings print on April 21.",
+      "GE Aerospace's $190B services backlog, four consecutive quarters of double-digit EPS beats, and a structurally under-served engine services market driven by Boeing and Airbus production delays create a durable beat-and-raise cadence through FY27. The stock's pullback to $281 offers a compelling entry ahead of a Q1 2026 earnings catalyst."
+    ],
+    "catalysts": [
+      "Q1 2026 earnings on April 21, 2026: Street consensus at $1.59 EPS on $10.7B revenue, with GE beating EPS by 10% to 18% in each of the past four quarters.",
+      "Aftermarket supercycle: Boeing and Airbus production delays are extending engine service intervals and driving aftermarket spending on in-service fleets, directly benefiting GE's services segment.",
+      "$190B backlog and defense demand: A backlog of approximately $190B as of April 2026 provides multi-year revenue visibility, with defense contracts adding a geopolitical demand overlay."
+    ],
+    "primaryRisks": [
+      "Tariff and supply chain exposure: escalating U.S. trade policy and broad-based tariff actions create near-term cost headwinds and potential retaliatory export restrictions on engine components.",
+      "Shareholder activism and ESG overhang: active campaigns targeting GE's Israel defense contracts introduce headline risk and potential governance friction ahead of proxy season.",
+      "Valuation premium at risk: at 32.7x forward P/E, any guidance miss or macro deterioration could trigger sharp multiple compression."
+    ],
+    "valuationBridge": "Our $355 price target is derived from a blended methodology using a 60% weight to a DCF base case and a 40% weight to a peer NTM EV/EBITDA multiple, leaving GE trading at a 26.3% discount to target."
+  },
+  "financialPerformanceHealth": {
+    "incomeStatementAnalysis": {
+      "summaryParagraphs": [
+        "GE Aerospace has delivered a remarkable financial transformation since 2022, compounding revenue and expanding operating margins from 12.3% to 18.9% over the same period. FY2025 results of $45.9B in revenue, $8.7B in operating income, and $8.7B in net income represent the strongest operating performance in the company's post-conglomerate era."
+      ],
+      "highlights": [
+        "FY2025 revenue grew 18.5% YoY to $45.9B.",
+        "Operating income increased 28.4% to $8.7B.",
+        "Operating margin expanded to 18.9%.",
+        "FY2023 net income was elevated by non-recurring items, so FY2024 to FY2025 figures are a better representation of run-rate profitability."
+      ],
+      "tables": [
+        {
+          "title": "Income Statement ($B)",
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025"
+          ],
+          "rows": [
+            [
+              "Total Revenue",
+              "$29.1",
+              "$35.3",
+              "$38.7",
+              "$45.9"
+            ],
+            [
+              "Gross Profit",
+              "$10.2",
+              "$12.4",
+              "$14.4",
+              "$16.9"
+            ],
+            [
+              "Operating Income",
+              "$3.6",
+              "$4.7",
+              "$6.8",
+              "$8.7"
+            ],
+            [
+              "Net Income",
+              "$0.3",
+              "$9.5",
+              "$6.6",
+              "$8.7"
+            ]
+          ]
+        },
+        {
+          "title": "Margin Analysis",
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025"
+          ],
+          "rows": [
+            [
+              "Gross Margin",
+              "34.8%",
+              "35.1%",
+              "37.2%",
+              "36.8%"
+            ],
+            [
+              "Operating Margin",
+              "12.3%",
+              "13.3%",
+              "17.5%",
+              "18.9%"
+            ],
+            [
+              "Net Margin",
+              "1.2%",
+              "26.8%",
+              "16.9%",
+              "19.0%"
+            ],
+            [
+              "Revenue Growth YoY",
+              "On file",
+              "+21.3%",
+              "+9.5%",
+              "+18.5%"
+            ]
+          ]
+        }
+      ]
+    },
+    "balanceSheetAnalysis": {
+      "summaryParagraphs": [
+        "GE's balance sheet reflects systematic restructuring, with assets reduced and leverage maintained at conservative levels. Net debt stands at $8.1B with net debt to EBITDA of 0.7x, supporting strong capital return flexibility."
+      ],
+      "tables": [
+        {
+          "title": "Balance Sheet ($B)",
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025"
+          ],
+          "rows": [
+            [
+              "Total Assets",
+              "$188.9",
+              "$173.3",
+              "$123.1",
+              "$130.2"
+            ],
+            [
+              "Total Liabilities",
+              "$153.9",
+              "$144.7",
+              "$103.6",
+              "$111.3"
+            ],
+            [
+              "Total Equity",
+              "$33.7",
+              "$27.4",
+              "$19.3",
+              "$18.7"
+            ],
+            [
+              "Total Debt",
+              "$26.1",
+              "$20.5",
+              "$19.3",
+              "$20.5"
+            ],
+            [
+              "Cash & Equivalents",
+              "$15.8",
+              "$15.2",
+              "$13.6",
+              "$12.4"
+            ],
+            [
+              "Net Debt",
+              "$10.3",
+              "$5.3",
+              "$5.7",
+              "$8.1"
+            ],
+            [
+              "Debt-to-Equity",
+              "0.77x",
+              "0.75x",
+              "1.00x",
+              "1.10x"
+            ]
+          ]
+        }
+      ]
+    },
+    "cashFlowReturns": {
+      "summaryParagraphs": [
+        "GE Aerospace's free cash flow profile underwent a step-change improvement in FY2025, with FCF nearly doubling from $3.7B in FY2024 to $7.3B in FY2025. This increase reflects stronger operating income conversion and disciplined working-capital management."
+      ],
+      "highlights": [
+        "FY2025 FCF of $7.3B implies a 15.8% margin.",
+        "CapEx at $1.3B was 2.8% of revenue.",
+        "TTM FCF of $5.2B reflects timing differences versus the full FY2025 figure.",
+        "ROIC improved to 22% in FY2025 and remains well above the company's cost of capital."
+      ],
+      "tables": [
+        {
+          "title": "Cash Flow ($B)",
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025",
+            "TTM"
+          ],
+          "rows": [
+            [
+              "Operating Cash Flow",
+              "$5.9",
+              "$5.2",
+              "$4.7",
+              "$8.5",
+              "N/A"
+            ],
+            [
+              "CapEx",
+              "($0.7)",
+              "($0.9)",
+              "($1.0)",
+              "($1.3)",
+              "N/A"
+            ],
+            [
+              "Free Cash Flow",
+              "$5.3",
+              "$4.3",
+              "$3.7",
+              "$7.3",
+              "$5.2"
+            ],
+            [
+              "FCF Margin",
+              "18.1%",
+              "12.2%",
+              "9.5%",
+              "15.8%",
+              "11.3%"
+            ]
+          ]
+        },
+        {
+          "title": "Return on Capital",
+          "columns": [
+            "Metric",
+            "FY2023",
+            "FY2024",
+            "FY2025"
+          ],
+          "rows": [
+            [
+              "ROE",
+              "41%",
+              "35%",
+              "46%"
+            ],
+            [
+              "ROA",
+              "4.8%",
+              "4.7%",
+              "6.9%"
+            ],
+            [
+              "ROIC",
+              "14%",
+              "18%",
+              "22%"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "valuation": {
+    "multiplesAnalysis": {
+      "summaryParagraphs": [
+        "GE trades at a meaningful premium to diversified aerospace peers, reflecting its superior services mix, stronger FCF conversion, and dominant market position in next-generation engine platforms. That premium is defensible only if the aftermarket services supercycle sustains strong EBITDA growth through FY27."
+      ],
+      "tables": [
+        {
+          "title": "Valuation Multiple",
+          "columns": [
+            "Metric",
+            "GE Current",
+            "GE 5-Yr Avg",
+            "RTX",
+            "Safran",
+            "Honeywell"
+          ],
+          "rows": [
+            [
+              "P/E (Trailing)",
+              "35.0x",
+              "28x",
+              "22x",
+              "28x",
+              "20x"
+            ],
+            [
+              "Forward P/E",
+              "32.7x",
+              "25x",
+              "21x",
+              "25x",
+              "19x"
+            ],
+            [
+              "P/S",
+              "6.5x",
+              "4.5x",
+              "2.2x",
+              "3.1x",
+              "3.0x"
+            ],
+            [
+              "P/B",
+              "15.8x",
+              "10x",
+              "3.5x",
+              "6.0x",
+              "8.0x"
+            ],
+            [
+              "EV/EBITDA",
+              "28.5x",
+              "22x",
+              "14x",
+              "18x",
+              "15x"
+            ],
+            [
+              "EV/Revenue",
+              "6.6x",
+              "5.0x",
+              "2.2x",
+              "3.0x",
+              "3.2x"
+            ],
+            [
+              "PEG Ratio",
+              "2.1x",
+              "2.0x",
+              "1.8x",
+              "2.0x",
+              "1.9x"
+            ],
+            [
+              "FCF Yield",
+              "1.8%",
+              "2.5%",
+              "3.5%",
+              "2.8%",
+              "3.8%"
+            ]
+          ]
+        }
+      ]
+    },
+    "dcfAnalysis": {
+      "summaryParagraphs": [
+        "Our DCF is anchored on GE's services-dominated revenue mix, which structurally compresses revenue cyclicality relative to OEM peers. Key assumptions reflect backlog visibility, expected LEAP engine maturation in the aftermarket, and conservative terminal growth reflective of long-cycle defense and commercial aviation demand."
+      ],
+      "assumptions": [
+        "Revenue growth: 14.8% in FY2026E, stepping down to 10.4% in FY2027E and 7.0% by FY2030E.",
+        "Operating margin expands from 18.9% in FY2025 to 21.5% by FY2030E.",
+        "CapEx remains between 2.8% and 3.2% of revenue.",
+        "WACC: 10.0% base case.",
+        "Terminal growth: 3.0% base case."
+      ],
+      "projectionTable": {
+        "title": "DCF Projections ($B)",
+        "columns": [
+          "Metric",
+          "FY2026E",
+          "FY2027E",
+          "FY2028E",
+          "FY2029E",
+          "FY2030E"
+        ],
+        "rows": [
+          [
+            "Revenue",
+            "$48.3",
+            "$53.2",
+            "$57.7",
+            "$61.7",
+            "$66.1"
+          ],
+          [
+            "EBITDA",
+            "$11.5",
+            "$13.1",
+            "$14.5",
+            "$15.7",
+            "$17.0"
+          ],
+          [
+            "Free Cash Flow",
+            "$8.4",
+            "$9.8",
+            "$11.0",
+            "$12.0",
+            "$13.1"
+          ]
+        ]
+      },
+      "scenarioTable": {
+        "title": "DCF Scenario Analysis",
+        "columns": [
+          "Scenario",
+          "Revenue CAGR",
+          "Terminal Growth",
+          "WACC",
+          "Implied Price",
+          "Upside/Downside"
+        ],
+        "rows": [
+          [
+            "Bull Case",
+            "13.0%",
+            "3.5%",
+            "9.0%",
+            "$425",
+            "+51.2%"
+          ],
+          [
+            "Base Case",
+            "10.0%",
+            "3.0%",
+            "10.0%",
+            "$355",
+            "+26.3%"
+          ],
+          [
+            "Bear Case",
+            "6.0%",
+            "2.0%",
+            "11.0%",
+            "$220",
+            "-21.7%"
+          ]
+        ]
+      }
+    },
+    "valuationConclusion": "GE Aerospace is modestly undervalued at $281.16 relative to our blended $355 price target. The pullback from its 52-week high has created a margin of safety in a name with strong fundamental momentum."
+  },
+  "businessModelMoat": {
+    "segmentProfile": {
+      "summaryParagraphs": [
+        "GE Aerospace operates as a focused aerospace propulsion and services company following the spin-offs of GE HealthCare and GE Vernova. The company's revenue base divides broadly into commercial aerospace and defense and government aerospace, with the commercial aftermarket representing the majority of segment profit."
+      ],
+      "segmentTable": {
+        "title": "Business Segments",
+        "columns": [
+          "Segment",
+          "Revenue",
+          "% of Total",
+          "Growth"
+        ],
+        "rows": [
+          [
+            "Commercial Engines & Services",
+            "$32.0B",
+            "70%",
+            "High growth"
+          ],
+          [
+            "Defense & Government",
+            "$13.9B",
+            "30%",
+            "Stable growth"
+          ]
+        ]
+      }
+    },
+    "economicMoatAssessment": {
+      "summaryParagraphs": [
+        "GE Aerospace has a wide moat driven by certification barriers, switching costs, installed-base scale, and proprietary engineering capabilities."
+      ],
+      "moatTable": {
+        "title": "Economic Moat Assessment",
+        "columns": [
+          "Moat Source",
+          "Strength",
+          "Assessment"
+        ],
+        "rows": [
+          [
+            "Brand & Reputation",
+            "Strong",
+            "Trusted global aerospace leader"
+          ],
+          [
+            "Switching Costs",
+            "Strong",
+            "Re-certification costs and long-term service agreements"
+          ],
+          [
+            "Cost Advantages / Scale",
+            "Strong",
+            "Installed-base MRO scale"
+          ],
+          [
+            "Intellectual Property",
+            "Strong",
+            "Advanced materials and engine technology"
+          ],
+          [
+            "Regulatory Barriers",
+            "Strong",
+            "FAA and EASA certification barriers"
+          ]
+        ]
+      },
+      "overallMoatConclusion": "GE Aerospace appears to have a wide moat. Its position as a co-dominant provider of next-generation narrow-body engines and its 70,000-engine installed base create structural earnings power that can compound for decades."
+    }
+  },
+  "growthStrategyOutlook": {
+    "nearTermCatalysts": [
+      "Q1 2026 earnings beat potential.",
+      "Aftermarket pricing strength.",
+      "Defense spending tailwinds."
+    ],
+    "mediumTermDrivers": [
+      "LEAP engine aftermarket ramp.",
+      "OEM production recovery.",
+      "Backlog conversion."
+    ],
+    "longTermOpportunities": [
+      "Next-generation propulsion programs.",
+      "Sustainable aviation technologies.",
+      "Defense and space expansion."
+    ],
+    "tamPositioning": {
+      "summaryParagraphs": [
+        "GE participates in a large global commercial aerospace MRO market and a substantial defense engine market, with strong growth visibility and dominant share in narrow-body engines."
+      ],
+      "highlights": [
+        "Commercial MRO TAM is above $100B.",
+        "Defense TAM is about $50B.",
+        "GE has strong share in narrow-body engines."
+      ]
+    }
+  },
+  "managementGovernance": {
+    "leadership": {
+      "summaryParagraphs": [
+        "Larry Culp has led GE's transformation into a focused aerospace company with strong capital discipline. His credibility as a capital allocator and operational leader remains a central part of the investment case."
+      ]
+    },
+    "capitalAllocation": {
+      "summaryParagraphs": [
+        "Capital allocation has been disciplined, balancing debt reduction, dividends, buybacks, and organic investment in the LEAP and next-generation engine programs."
+      ],
+      "acquisitionTable": null
+    },
+    "alignment": {
+      "summaryParagraphs": [
+        "Management incentives are aligned with return on invested capital and total shareholder return metrics, while long-term equity compensation supports shareholder alignment."
+      ]
+    }
+  },
+  "riskAnalysis": {
+    "riskTable": {
+      "title": "Risk Analysis",
+      "columns": [
+        "Risk Factor",
+        "Type",
+        "Probability",
+        "Impact",
+        "Mitigation"
+      ],
+      "rows": [
+        [
+          "Tariff escalation",
+          "Macro",
+          "High",
+          "Medium",
+          "Supply chain diversification"
+        ],
+        [
+          "Valuation compression",
+          "Market",
+          "Medium",
+          "High",
+          "Sustained earnings beats"
+        ],
+        [
+          "Supply chain constraints",
+          "Operational",
+          "Medium",
+          "Medium",
+          "Supplier management"
+        ],
+        [
+          "Aviation demand slowdown",
+          "Macro",
+          "Low-Medium",
+          "High",
+          "Backlog buffer"
+        ]
+      ]
+    }
+  },
+  "finalRecommendation": {
+    "rating": "BUY",
+    "priceTarget": "$355.00",
+    "impliedUpsidePct": "+26.3%",
+    "bullBaseBear": {
+      "bull": "$425",
+      "base": "$355",
+      "bear": "$220"
+    },
+    "valuationMethodology": "60% DCF + 40% EV/EBITDA",
+    "fiveKeyMetricsToWatch": [
+      "Q1 EPS versus consensus.",
+      "Operating margin trajectory.",
+      "Services growth rate.",
+      "Backlog evolution.",
+      "FCF conversion."
+    ],
+    "ratingChangeTriggers": [
+      {
+        "action": "Upgrade to Strong Buy",
+        "direction": "\u2191",
+        "trigger": "Q1 2026 EPS beat of 15% or more, operating margin guidance above 21% for FY2026, and backlog above $210B."
+      },
+      {
+        "action": "Downgrade to Hold",
+        "direction": "\u2193",
+        "trigger": "Any quarter with an EPS miss, FY2026 revenue growth guidance below 10%, or tariff cost headwinds above $500M quantified by management."
+      },
+      {
+        "action": "Downgrade to Sell",
+        "direction": "\u2193\u2193",
+        "trigger": "Two consecutive EPS misses, operating margin below 17%, backlog deterioration, or a major LEAP reliability issue triggering a material warranty charge."
+      }
+    ],
+    "closingParagraph": "GE Aerospace is a high-quality industrial compounder with strong aftermarket visibility and earnings momentum. The stock appears temporarily discounted because of macro tariff anxiety and broad risk-off sentiment rather than deterioration in the company's fundamental earnings power."
+  },
+  "openQuestions": [
+    "Will Q1 2026 mark a fifth consecutive EPS beat above consensus of $1.59, and will management raise full-year FY2026 guidance above current consensus?",
+    "How significant is tariff-related cost inflation on GE's supply chain, and has management quantified the impact on FY2026 operating margin guidance?",
+    "Is the reported $190B backlog growing, stable, or declining as of the Q1 2026 update?",
+    "How is the shareholder activism campaign regarding GE's Israel defense contracts progressing, and what is the board's response strategy ahead of the 2026 proxy vote?",
+    "Is the LEAP engine entering its peak aftermarket years on schedule, and are CFM shop-visit volumes tracking above the multi-year plan?",
+    "What is the trajectory of Boeing and Airbus OEM production recovery, and how does it affect GE's engine-delivery revenue mix versus services revenue mix?",
+    "Can GE sustain FCF conversion above 85% of net income as CapEx intensity rises toward the next-generation engine development phase?",
+    "Will GE provide incremental detail on its next-generation propulsion programs and their expected revenue contribution timelines?"
+  ]
+}
