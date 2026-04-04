@@ -9,6 +9,7 @@ import RevenueEarningsChart from '../charts/RevenueEarningsChart';
 import MarginTrendChart from '../charts/MarginTrendChart';
 import ValuationMultiplesChart from '../charts/ValuationMultiplesChart';
 import useMarketData from '../../hooks/useMarketData';
+import { REPORT_SECTION_IDS } from './reportSections';
 
 export default function CoveredReport({ reportData, resultRef, onResetView }) {
   const { meta } = reportData;
@@ -48,12 +49,18 @@ export default function CoveredReport({ reportData, resultRef, onResetView }) {
         </button>
       </div>
 
-      <SectionCard title="Executive At-a-Glance">
+      <SectionCard
+        title="Executive At-a-Glance"
+        id={REPORT_SECTION_IDS.executiveAtAGlance}
+      >
         <p className="thesis-headline">{reportData.executiveAtAGlance.thesisHeadline}</p>
         <MetricGrid items={reportData.executiveAtAGlance.snapshotMetrics} />
       </SectionCard>
 
-      <SectionCard title="Executive Summary">
+      <SectionCard
+        title="Executive Summary"
+        id={REPORT_SECTION_IDS.executiveSummary}
+      >
         <ParagraphBlock paragraphs={reportData.executiveSummary.summaryParagraphs} />
 
         <h4>Top Catalysts</h4>
@@ -66,7 +73,10 @@ export default function CoveredReport({ reportData, resultRef, onResetView }) {
         <p>{reportData.executiveSummary.valuationBridge}</p>
       </SectionCard>
 
-      <SectionCard title="Financial Performance & Health">
+      <SectionCard
+        title="Financial Performance & Health"
+        id={REPORT_SECTION_IDS.financialPerformanceHealth}
+      >
         <h4>Income Statement Analysis</h4>
         <ParagraphBlock
           paragraphs={reportData.financialPerformanceHealth.incomeStatementAnalysis.summaryParagraphs}
@@ -107,7 +117,7 @@ export default function CoveredReport({ reportData, resultRef, onResetView }) {
         <BulletList items={reportData.financialPerformanceHealth.cashFlowReturns.highlights} />
       </SectionCard>
 
-      <SectionCard title="Valuation">
+      <SectionCard title="Valuation" id={REPORT_SECTION_IDS.valuation}>
         <h4>Multiples Analysis</h4>
         <ParagraphBlock paragraphs={reportData.valuation.multiplesAnalysis.summaryParagraphs} />
 
@@ -128,7 +138,10 @@ export default function CoveredReport({ reportData, resultRef, onResetView }) {
         <p>{reportData.valuation.valuationConclusion}</p>
       </SectionCard>
 
-      <SectionCard title="Business Model & Competitive Moat">
+      <SectionCard
+        title="Business Model & Competitive Moat"
+        id={REPORT_SECTION_IDS.businessModelMoat}
+      >
         <h4>Segment Profile</h4>
         <ParagraphBlock paragraphs={reportData.businessModelMoat.segmentProfile.summaryParagraphs} />
         <DataTable table={reportData.businessModelMoat.segmentProfile.segmentTable} />
@@ -145,7 +158,10 @@ export default function CoveredReport({ reportData, resultRef, onResetView }) {
         <p>{reportData.businessModelMoat.economicMoatAssessment.overallMoatConclusion}</p>
       </SectionCard>
 
-      <SectionCard title="Growth Strategy & Future Outlook">
+      <SectionCard
+        title="Growth Strategy & Future Outlook"
+        id={REPORT_SECTION_IDS.growthStrategyOutlook}
+      >
         <h4>Near-Term Catalysts</h4>
         <BulletList items={reportData.growthStrategyOutlook.nearTermCatalysts} />
 
@@ -160,7 +176,10 @@ export default function CoveredReport({ reportData, resultRef, onResetView }) {
         <BulletList items={reportData.growthStrategyOutlook.tamPositioning.highlights} />
       </SectionCard>
 
-      <SectionCard title="Management & Governance">
+      <SectionCard
+        title="Management & Governance"
+        id={REPORT_SECTION_IDS.managementGovernance}
+      >
         <h4>Leadership</h4>
         <ParagraphBlock paragraphs={reportData.managementGovernance.leadership.summaryParagraphs} />
 
@@ -172,11 +191,14 @@ export default function CoveredReport({ reportData, resultRef, onResetView }) {
         <ParagraphBlock paragraphs={reportData.managementGovernance.alignment.summaryParagraphs} />
       </SectionCard>
 
-      <SectionCard title="Risk Analysis">
+      <SectionCard title="Risk Analysis" id={REPORT_SECTION_IDS.riskAnalysis}>
         <DataTable table={reportData.riskAnalysis.riskTable} suppressTitle />
       </SectionCard>
 
-      <SectionCard title="Final Recommendation">
+      <SectionCard
+        title="Final Recommendation"
+        id={REPORT_SECTION_IDS.finalRecommendation}
+      >
         <div className="metric-grid">
           <div className="metric-card">
             <p className="metric-label">Rating</p>
@@ -246,7 +268,10 @@ export default function CoveredReport({ reportData, resultRef, onResetView }) {
         <p>{reportData.finalRecommendation.closingParagraph}</p>
       </SectionCard>
 
-      <SectionCard title="Open Questions & Narrative Checkpoints">
+      <SectionCard
+        title="Open Questions & Narrative Checkpoints"
+        id={REPORT_SECTION_IDS.openQuestions}
+      >
         <BulletList items={reportData.openQuestions} />
       </SectionCard>
     </section>
