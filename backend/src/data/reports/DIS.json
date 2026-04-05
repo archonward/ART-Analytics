@@ -1,0 +1,816 @@
+{
+  "meta": {
+    "ticker": "DIS",
+    "companyName": "The Walt Disney Company",
+    "exchange": "NYSE",
+    "sector": "Communication Services",
+    "industry": "Entertainment",
+    "reportDate": "2026-04-02",
+    "author": "ART Analytics",
+    "rating": "BUY",
+    "targetPrice": "$125",
+    "currentPrice": "$96.61",
+    "impliedUpsidePct": "+29.4%",
+    "marketDataAsOf": "Apr 2, 2026, 8:02 PM",
+    "estimatedReadMinutes": 23,
+    "coverageStatus": "published"
+  },
+  "executiveAtAGlance": {
+    "thesisHeadline": "Disney's multi-year restructuring is translating into durable margin expansion, streaming profitability, and stronger free-cash-flow potential, yet the stock still trades as though the turnaround remains unproven.",
+    "snapshotMetrics": [
+      {
+        "label": "Market Cap",
+        "value": "$171.3B"
+      },
+      {
+        "label": "Enterprise Value",
+        "value": "$217.6B"
+      },
+      {
+        "label": "FCF (TTM)",
+        "value": "$3.2B"
+      },
+      {
+        "label": "EV/EBITDA",
+        "value": "11.3x"
+      },
+      {
+        "label": "Net Margin",
+        "value": "12.8%"
+      },
+      {
+        "label": "Revenue (TTM)",
+        "value": "$95.7B"
+      },
+      {
+        "label": "Net Income (TTM)",
+        "value": "$12.3B"
+      },
+      {
+        "label": "P/E",
+        "value": "14.2x"
+      },
+      {
+        "label": "Revenue Growth YoY",
+        "value": "+5.2%"
+      },
+      {
+        "label": "ROIC",
+        "value": "8.5%"
+      }
+    ]
+  },
+  "executiveSummary": {
+    "summaryParagraphs": [
+      "Disney has moved beyond being merely a post-pandemic recovery story. Streaming has crossed into profitability, Entertainment margins have improved materially, and Parks continues to provide durable cash generation and pricing power. The earnings base is noticeably stronger than it was two to three years ago, and that improvement now appears structural rather than temporary.",
+      "The investment case rests on the market still undervaluing the quality of the turnaround. Disney trades at a discount to its own history and to a range of peers despite better operating trends, improving leverage, and a credible path to further earnings acceleration through streaming, ESPN direct-to-consumer, and Experiences expansion."
+    ],
+    "catalysts": [
+      "Streaming profitability has shifted investor focus from subscriber count to profit per user and margin durability.",
+      "Consensus expects FY2026 EPS acceleration to $6.64, supported by Entertainment margin expansion and continued Parks resilience.",
+      "Recent director insider buying near current levels reinforces the idea that the stock is trading below intrinsic value."
+    ],
+    "primaryRisks": [
+      "Macro consumer softness could affect Parks attendance and per-capita spending, especially in premium experiences.",
+      "Linear TV secular decline continues to pressure ESPN and ABC, making the timing of the ESPN DTC transition important.",
+      "CapEx rose sharply in FY2025 and may continue to suppress near-term free cash flow if project timing remains front-loaded."
+    ],
+    "valuationBridge": "Disney appears to trade at a meaningful discount to the value implied by its improved margins, streaming profitability, and Parks cash-generation profile, leaving room for re-rating if execution remains solid."
+  },
+  "financialPerformanceHealth": {
+    "incomeStatementAnalysis": {
+      "summaryParagraphs": [
+        "Disney's top line has recovered steadily from the post-pandemic period, but the more important story is the margin profile. Operating income rose sharply from FY2023 to FY2025 as streaming losses were eliminated, Entertainment costs were rationalized, and the Experiences business continued to operate at a high level of profitability.",
+        "Net income improved dramatically in FY2025, though part of that increase was boosted by a one-time Hulu-related gain. Even after adjusting for that, the broader earnings trend still points to a real step-up in underlying profitability."
+      ],
+      "highlights": [
+        "FY2025 operating income rose to $13.8B from $9.0B in FY2023.",
+        "TTM revenue grew 5.2% year over year to $95.7B.",
+        "Operating margin expanded from 8.2% in FY2022 to 14.6% in FY2025 and 15.4% on a TTM basis."
+      ],
+      "tables": [
+        {
+          "title": "Income Statement ($B)",
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025",
+            "TTM"
+          ],
+          "rows": [
+            [
+              "Total Revenue",
+              "$82.7",
+              "$88.9",
+              "$91.4",
+              "$94.4",
+              "$95.7"
+            ],
+            [
+              "Gross Profit",
+              "$28.3",
+              "$29.7",
+              "$32.7",
+              "$35.7",
+              "On file"
+            ],
+            [
+              "Operating Income",
+              "$6.8",
+              "$9.0",
+              "$11.9",
+              "$13.8",
+              "On file"
+            ],
+            [
+              "Net Income",
+              "$3.1",
+              "$2.4",
+              "$5.0",
+              "$12.4",
+              "$12.3"
+            ]
+          ]
+        },
+        {
+          "title": "Margin Analysis",
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025",
+            "TTM"
+          ],
+          "rows": [
+            [
+              "Gross Margin",
+              "34.2%",
+              "33.4%",
+              "35.8%",
+              "37.8%",
+              "37.3%"
+            ],
+            [
+              "Operating Margin",
+              "8.2%",
+              "10.1%",
+              "13.0%",
+              "14.6%",
+              "15.4%"
+            ],
+            [
+              "Net Margin",
+              "3.8%",
+              "2.6%",
+              "5.4%",
+              "13.1%",
+              "12.8%"
+            ],
+            [
+              "Revenue Growth YoY",
+              "On file",
+              "+7.5%",
+              "+2.8%",
+              "+3.4%",
+              "+5.2%"
+            ]
+          ]
+        }
+      ]
+    },
+    "balanceSheetAnalysis": {
+      "summaryParagraphs": [
+        "Disney's balance sheet has improved materially over the last several years. Debt has come down, equity has increased, and leverage now looks much more manageable relative to the company's EBITDA and cash-generation profile. That progress is important because it expands strategic flexibility at a time when the company is still investing heavily in parks and content.",
+        "The company is not yet back to a fortress-like balance sheet, but the direction of travel is clearly positive. The improvement in net debt relative to EBITDA is especially meaningful because it reduces financial risk and makes future capital return more plausible."
+      ],
+      "tables": [
+        {
+          "title": "Balance Sheet ($B)",
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025"
+          ],
+          "rows": [
+            [
+              "Total Assets",
+              "$203.6",
+              "$205.6",
+              "$196.2",
+              "$197.5"
+            ],
+            [
+              "Total Liabilities",
+              "$95.3",
+              "$92.6",
+              "$90.7",
+              "$82.9"
+            ],
+            [
+              "Total Equity",
+              "$95.0",
+              "$99.3",
+              "$100.7",
+              "$109.9"
+            ],
+            [
+              "Total Debt",
+              "$51.6",
+              "$49.9",
+              "$48.7",
+              "$44.9"
+            ],
+            [
+              "Cash & Equivalents",
+              "$11.6",
+              "$14.2",
+              "$6.0",
+              "$5.7"
+            ],
+            [
+              "Net Debt",
+              "$40.0",
+              "$35.7",
+              "$42.7",
+              "$39.2"
+            ],
+            [
+              "Debt-to-Equity",
+              "0.54x",
+              "0.50x",
+              "0.48x",
+              "0.41x"
+            ]
+          ]
+        }
+      ]
+    },
+    "cashFlowReturns": {
+      "summaryParagraphs": [
+        "Disney's free-cash-flow trajectory is one of the strongest pieces of evidence that the turnaround is real. FY2025 free cash flow rose to $10.1B, up sharply from FY2022, though the trailing twelve-month figure looks temporarily weak because of a heavy CapEx quarter in early FY2026.",
+        "That temporary distortion matters because it can make the stock look less cash-generative than it really is. The cleaner baseline for valuation is the FY2025 annual cash-flow performance, which suggests Disney is now capable of producing far more cash than the market's depressed TTM figure implies."
+      ],
+      "highlights": [
+        "FY2025 free cash flow increased to $10.1B from $8.6B in FY2024.",
+        "FY2025 CapEx rose to $8.0B, reflecting accelerated investment in Parks and related projects.",
+        "TTM free cash flow of $3.2B appears temporarily depressed by CapEx timing rather than by deteriorating core operations."
+      ],
+      "tables": [
+        {
+          "title": "Cash Flow ($B)",
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025",
+            "TTM"
+          ],
+          "rows": [
+            [
+              "Operating Cash Flow",
+              "$6.0",
+              "$9.9",
+              "$14.0",
+              "$18.1",
+              "$3.2"
+            ],
+            [
+              "Capital Expenditures",
+              "($4.9)",
+              "($5.0)",
+              "($5.4)",
+              "($8.0)",
+              "On file"
+            ],
+            [
+              "Free Cash Flow",
+              "$1.1",
+              "$4.9",
+              "$8.6",
+              "$10.1",
+              "$3.2"
+            ],
+            [
+              "FCF Margin",
+              "1.3%",
+              "5.5%",
+              "9.4%",
+              "10.7%",
+              "3.3%"
+            ],
+            [
+              "FCF Per Share",
+              "$0.60",
+              "$2.70",
+              "$4.85",
+              "$5.72",
+              "$1.80"
+            ]
+          ]
+        },
+        {
+          "title": "Return on Capital",
+          "columns": [
+            "Metric",
+            "FY2023",
+            "FY2024",
+            "FY2025"
+          ],
+          "rows": [
+            [
+              "Return on Equity (ROE)",
+              "2.4%",
+              "4.9%",
+              "11.3%"
+            ],
+            [
+              "Return on Assets (ROA)",
+              "1.2%",
+              "2.5%",
+              "6.3%"
+            ],
+            [
+              "Return on Invested Capital (ROIC)",
+              "4.5%",
+              "6.0%",
+              "8.5%"
+            ],
+            [
+              "Estimated WACC",
+              "9.5%",
+              "9.0%",
+              "9.0%"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "valuation": {
+    "multiplesAnalysis": {
+      "summaryParagraphs": [
+        "Disney screens as undervalued across most major valuation frameworks. Relative to its own history, the stock trades at a clear discount on forward earnings and EV/EBITDA. Relative to peers, Disney also looks inexpensive given its diversified business mix, improving streaming economics, and one-of-a-kind IP and parks assets.",
+        "That discount appears too wide if one believes the turnaround is already underway. The current multiple framework still seems to reflect a market that is pricing Disney more like a structurally challenged legacy media company than a business with improving profitability and multiple distinct growth levers."
+      ],
+      "tables": [
+        {
+          "title": "Valuation Multiples",
+          "columns": [
+            "Metric",
+            "DIS Current",
+            "DIS 5-Yr Avg",
+            "Industry Avg",
+            "CMCSA",
+            "NFLX",
+            "WBD"
+          ],
+          "rows": [
+            [
+              "P/E (Trailing)",
+              "14.2x",
+              "28x",
+              "18x",
+              "11x",
+              "45x",
+              "N/M"
+            ],
+            [
+              "Forward P/E",
+              "13.2x",
+              "24x",
+              "16x",
+              "10x",
+              "36x",
+              "15x"
+            ],
+            [
+              "P/S",
+              "1.8x",
+              "2.5x",
+              "2.0x",
+              "1.3x",
+              "9.0x",
+              "0.5x"
+            ],
+            [
+              "P/B",
+              "1.6x",
+              "2.8x",
+              "2.0x",
+              "1.8x",
+              "15x",
+              "0.5x"
+            ],
+            [
+              "EV/EBITDA",
+              "11.3x",
+              "15x",
+              "12x",
+              "8x",
+              "28x",
+              "6x"
+            ],
+            [
+              "EV/Revenue",
+              "2.3x",
+              "3.0x",
+              "2.2x",
+              "1.5x",
+              "9.5x",
+              "0.6x"
+            ],
+            [
+              "PEG Ratio",
+              "0.9x",
+              "1.5x",
+              "1.2x",
+              "1.0x",
+              "1.8x",
+              "N/M"
+            ],
+            [
+              "FCF Yield",
+              "5.9%",
+              "2.5%",
+              "3.5%",
+              "7.0%",
+              "1.5%",
+              "On file"
+            ]
+          ]
+        }
+      ]
+    },
+    "dcfAnalysis": {
+      "summaryParagraphs": [
+        "The DCF framework assumes mid-single-digit revenue growth, modest EBITDA margin expansion, and elevated near-term CapEx that gradually normalizes. This setup reflects the reality that Disney is still investing heavily in parks and streaming infrastructure, even as profitability improves.",
+        "Under these assumptions, intrinsic value still comes out above the current share price by a meaningful margin. Importantly, that upside does not require a heroic bull case; it mainly requires the company to execute on a turnaround that is already visible in the numbers."
+      ],
+      "assumptions": [
+        "Revenue CAGR FY2026\u2013FY2030: 5.5%",
+        "EBITDA margin expands from 20.5% in FY2026E to 22.5% by FY2030E",
+        "CapEx runs at 8.5% of revenue in FY2026\u2013FY2027 before declining toward 7.0%",
+        "WACC: 9.5%",
+        "Terminal growth rate: 2.5%"
+      ],
+      "projectionTable": {
+        "title": "DCF Projections ($B)",
+        "columns": [
+          "Metric",
+          "FY2026E",
+          "FY2027E",
+          "FY2028E",
+          "FY2029E",
+          "FY2030E"
+        ],
+        "rows": [
+          [
+            "Revenue",
+            "$101.0",
+            "$105.4",
+            "$110.2",
+            "$115.3",
+            "$120.6"
+          ],
+          [
+            "EBITDA",
+            "$20.7",
+            "$22.1",
+            "$23.5",
+            "$25.0",
+            "$27.1"
+          ],
+          [
+            "Free Cash Flow",
+            "$10.5",
+            "$11.5",
+            "$12.5",
+            "$13.6",
+            "$15.0"
+          ]
+        ]
+      },
+      "scenarioTable": {
+        "title": "DCF Scenario Analysis",
+        "columns": [
+          "Scenario",
+          "Revenue CAGR",
+          "Terminal Growth",
+          "WACC",
+          "Implied Price",
+          "Upside/Downside"
+        ],
+        "rows": [
+          [
+            "Bull Case",
+            "7.5%",
+            "3.0%",
+            "8.5%",
+            "$155",
+            "+60.4%"
+          ],
+          [
+            "Base Case",
+            "5.5%",
+            "2.5%",
+            "9.5%",
+            "$118",
+            "+22.1%"
+          ],
+          [
+            "Bear Case",
+            "2.5%",
+            "1.5%",
+            "10.5%",
+            "$72",
+            "-25.5%"
+          ]
+        ]
+      }
+    },
+    "valuationConclusion": "Disney appears materially undervalued. The base-case DCF supports upside from current levels, and a blended valuation approach justifies a $125 target, suggesting the market is still discounting the turnaround too heavily."
+  },
+  "businessModelMoat": {
+    "segmentProfile": {
+      "summaryParagraphs": [
+        "Disney operates through three core economic engines: Entertainment, Sports, and Experiences. Streaming and content still dominate the public narrative, but Experiences remains the most reliable margin and cash-flow contributor, while Sports continues to provide an important but transitioning media asset through ESPN.",
+        "This mix matters because Disney is not a pure-play streamer or a pure-play media company. Its moat and earnings durability are supported by a combination of digital distribution, physical experiences, and globally recognized intellectual property."
+      ],
+      "segmentTable": {
+        "title": "Business Segments",
+        "columns": [
+          "Segment",
+          "FY2025 Revenue",
+          "% of Total",
+          "YoY Growth",
+          "Maturity Stage"
+        ],
+        "rows": [
+          [
+            "Entertainment",
+            "$42.0B",
+            "44%",
+            "+5%",
+            "Growth / streaming inflection"
+          ],
+          [
+            "Sports (ESPN)",
+            "$17.5B",
+            "19%",
+            "+3%",
+            "Mature / transitioning"
+          ],
+          [
+            "Experiences (Parks)",
+            "$34.9B",
+            "37%",
+            "+4%",
+            "Steady growth"
+          ]
+        ]
+      }
+    },
+    "economicMoatAssessment": {
+      "summaryParagraphs": [
+        "Disney has one of the widest moats in global media and entertainment. That moat is built on a combination of intellectual property, physical park infrastructure, family brand trust, and sports rights that no competitor can replicate in one integrated platform.",
+        "The moat is not perfectly uniform across the business. Linear television is weaker than it once was, and streaming has lower switching costs than parks. Still, the portfolio as a whole remains exceptionally difficult to challenge because it combines content, characters, physical destinations, and distribution at enormous scale."
+      ],
+      "moatTable": {
+        "columns": [
+          "Moat Source",
+          "Strength",
+          "Assessment"
+        ],
+        "rows": [
+          [
+            "Brand & Reputation",
+            "Strong",
+            "Disney remains one of the most recognized and trusted family entertainment brands globally"
+          ],
+          [
+            "Network Effects",
+            "Moderate",
+            "Streaming and parks benefit somewhat from shared cultural engagement, though not in a pure platform sense"
+          ],
+          [
+            "Switching Costs",
+            "Moderate",
+            "Streaming churn exists, but bundle users, annual pass holders, and park ecosystems create meaningful stickiness"
+          ],
+          [
+            "Cost Advantages/Scale",
+            "Strong",
+            "Content, parks, and franchise amortization benefit from global scale that few rivals can match"
+          ],
+          [
+            "Intellectual Property",
+            "Strong",
+            "Marvel, Star Wars, Pixar, Disney Animation, ESPN, and broader franchise assets create exceptional long-duration monetization power"
+          ],
+          [
+            "Regulatory Barriers",
+            "Weak / Moderate",
+            "Regulation is not the main moat source, though broadcast and sports-rights structures provide limited protection"
+          ]
+        ]
+      },
+      "overallMoatConclusion": "Disney appears to have a wide moat. Its strongest defenses come from intellectual property, physical park infrastructure, and global brand trust, while its weaker areas lie in streaming switching costs and the structural decline of linear television. Overall, the breadth and durability of the asset base remain unusually difficult to replicate."
+    }
+  },
+  "growthStrategyOutlook": {
+    "nearTermCatalysts": [
+      "Q2 FY2026 earnings could reinforce the recovery thesis if Disney delivers another beat-and-raise quarter.",
+      "Disney+ ARPU and subscriber trends remain important, especially as profitability becomes the central streaming metric.",
+      "Parks attendance, pricing, and summer volume trends will be key indicators of consumer resilience."
+    ],
+    "mediumTermDrivers": [
+      "ESPN direct-to-consumer could create a meaningful new revenue stream and help offset linear affiliate decline.",
+      "Cruise-line expansion and international parks investment support medium-term Experiences growth.",
+      "Bundle economics across Disney+, Hulu, and ESPN+ can improve churn, ARPU, and customer lifetime value."
+    ],
+    "longTermOpportunities": [
+      "Gaming and experiential monetization remain underdeveloped relative to the strength of Disney's franchise portfolio.",
+      "International streaming penetration still offers runway in regions outside the most mature markets.",
+      "Long-run global travel and premium family entertainment demand support parks growth and pricing power."
+    ],
+    "tamPositioning": {
+      "summaryParagraphs": [
+        "Disney competes across several very large addressable markets, including global streaming, theme parks, and sports media. The company already holds leading positions in each of these, but scale does not mean saturation. There is still meaningful opportunity in streaming monetization, Parks expansion, and ESPN's eventual DTC transition.",
+        "The most important point is that Disney's growth path is diversified. It does not rely on a single product cycle or one narrow end market; instead, it has multiple large TAMs that can support different parts of the portfolio over time."
+      ],
+      "highlights": [
+        "Global streaming remains a large and expanding opportunity where Disney still has room to deepen monetization.",
+        "Theme parks represent a premium category where Disney already has exceptional share and pricing power.",
+        "Sports media remains strategically important as ESPN transitions toward direct-to-consumer economics.",
+        "Disney's franchise portfolio can be monetized across film, streaming, parks, consumer products, and gaming."
+      ]
+    }
+  },
+  "managementGovernance": {
+    "leadership": {
+      "summaryParagraphs": [
+        "Bob Iger's return to Disney has materially improved execution confidence. Since resuming the CEO role, he has emphasized cost discipline, streaming economics, and sharper capital allocation, helping restore credibility after a more uneven prior period.",
+        "The main governance issue is succession. Iger's presence has stabilized the company, but investors will increasingly want clarity on who the next long-term leader is and whether the current operational discipline can outlast his tenure."
+      ]
+    },
+    "capitalAllocation": {
+      "summaryParagraphs": [
+        "Capital allocation has improved significantly under the current regime. Disney has prioritized deleveraging, streaming rationalization, and higher-return parks investment over more speculative spending. That discipline is one of the clearest differences between the current turnaround phase and earlier years.",
+        "The main constraint is that CapEx is currently elevated, which reduces near-term free cash flow even as underlying business quality improves. Still, the recent capital-allocation direction appears far more shareholder-conscious than the market is fully recognizing."
+      ],
+      "acquisitionTable": {
+        "title": "Major Transactions / Initiatives",
+        "columns": [
+          "Transaction",
+          "Period",
+          "Deal Value",
+          "Strategic Rationale",
+          "Outcome Assessment"
+        ],
+        "rows": [
+          [
+            "Hulu full consolidation",
+            "FY2024",
+            "$8.6B",
+            "Complete streaming bundle economics and simplify ownership structure",
+            "Positive \u2013 strengthens ARPU and strategic control"
+          ],
+          [
+            "ESPN / sports-rights renewals",
+            "Ongoing",
+            "$3\u20135B per year",
+            "Preserve ESPN's leadership position and future DTC optionality",
+            "Critical \u2013 strategically necessary but cost-intensive"
+          ],
+          [
+            "Streaming content rationalization",
+            "FY2024\u2013FY2025",
+            "Various",
+            "Improve streaming profitability and reduce low-return spending",
+            "Positive \u2013 directly supported margin recovery"
+          ]
+        ]
+      }
+    },
+    "alignment": {
+      "summaryParagraphs": [
+        "Board-level insider buying near current prices is a meaningful positive signal. In a company of Disney's size, insider ownership percentages are less important than whether senior decision-makers are visibly acting on the view that the shares are undervalued.",
+        "Compensation alignment appears reasonable, with equity incentives and strong institutional oversight. The more important governance variable remains succession quality and whether today's operational discipline remains durable after the current leadership phase."
+      ]
+    }
+  },
+  "riskAnalysis": {
+    "riskTable": {
+      "columns": [
+        "Risk Factor",
+        "Type",
+        "Probability",
+        "Impact",
+        "Mitigation"
+      ],
+      "rows": [
+        [
+          "CEO succession uncertainty",
+          "Idiosyncratic",
+          "Medium",
+          "Medium",
+          "Board succession planning and emerging leadership depth reduce but do not eliminate the risk"
+        ],
+        [
+          "Content quality decline",
+          "Idiosyncratic",
+          "Medium",
+          "High",
+          "Diversified franchise IP and tighter release discipline can soften individual misses"
+        ],
+        [
+          "ESPN DTC execution failure",
+          "Idiosyncratic",
+          "Low",
+          "High",
+          "Phased rollout and bundling strategy reduce launch risk"
+        ],
+        [
+          "CapEx overrun in Parks",
+          "Idiosyncratic",
+          "Medium",
+          "Medium",
+          "Multi-year phased investment program provides some flexibility"
+        ],
+        [
+          "Consumer recession",
+          "Macro",
+          "Medium",
+          "High",
+          "Streaming offers lower-cost entertainment alternative, but Parks remains exposed"
+        ],
+        [
+          "Linear TV structural decline",
+          "Industry",
+          "High",
+          "Medium",
+          "DTC transition and affiliate contracts provide a bridge, but not a full solution"
+        ],
+        [
+          "Streaming competition escalation",
+          "Industry",
+          "High",
+          "Medium",
+          "Disney's IP, bundle strategy, and family positioning remain differentiators"
+        ]
+      ]
+    }
+  },
+  "finalRecommendation": {
+    "rating": "BUY",
+    "priceTarget": "$125",
+    "impliedUpsidePct": "+29.4%",
+    "bullBaseBear": {
+      "bull": "$155",
+      "base": "$125",
+      "bear": "$72"
+    },
+    "valuationMethodology": "60% DCF base case + 40% peer NTM EV/EBITDA",
+    "fiveKeyMetricsToWatch": [
+      "Disney+ profitability, ARPU, and subscriber trajectory as streaming shifts fully toward earnings quality",
+      "Parks attendance and per-capita spending trends through the key travel seasons",
+      "ESPN DTC milestones, especially launch timing and subscriber targets",
+      "CapEx guidance and whether Parks investment begins to normalize after the FY2025 step-up",
+      "Entertainment operating margin progression and how much of the current improvement proves durable"
+    ],
+    "ratingChangeTriggers": [
+      {
+        "action": "Upgrade to Strong Buy",
+        "direction": "\u2191",
+        "trigger": "Streaming profitability scales further, Parks remain resilient, and ESPN DTC launches with strong early traction"
+      },
+      {
+        "action": "Downgrade to Hold",
+        "direction": "\u2193",
+        "trigger": "Macro softness begins to pressure Parks materially or streaming profitability stalls"
+      },
+      {
+        "action": "Downgrade to Sell",
+        "direction": "\u2193\u2193",
+        "trigger": "Parks weaken sharply, linear decline accelerates, and ESPN DTC execution falters simultaneously"
+      }
+    ],
+    "closingParagraph": "Overall, Disney offers attractive upside because the turnaround is already visible in the financials, while the valuation still reflects a much more skeptical narrative. The company is not risk-free, but the combination of improved margins, streaming profitability, Parks durability, and undervaluation creates a compelling risk-reward profile."
+  },
+  "openQuestions": [
+    "How quickly can Disney convert streaming profitability into a sustained high-margin streaming model?",
+    "Will ESPN DTC become a major new earnings engine or simply a bridge against linear decline?",
+    "Can Parks maintain pricing power if the consumer environment weakens more materially?",
+    "How much of FY2025's earnings strength was one-time versus structurally repeatable?",
+    "Can Disney keep expanding margins while still funding elevated content and parks investment?",
+    "How significant is the board-level insider buying signal relative to broader valuation support?",
+    "When will the market begin valuing Disney more like a diversified franchise platform and less like a challenged legacy media business?",
+    "How much upside could come from further re-rating if ROIC moves clearly above WACC?"
+  ]
+}

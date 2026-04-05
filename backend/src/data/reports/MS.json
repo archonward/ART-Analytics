@@ -1,0 +1,794 @@
+{
+  "meta": {
+    "ticker": "MS",
+    "companyName": "Morgan Stanley",
+    "exchange": "NYSE",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "reportDate": "2026-04-02",
+    "author": "ART Analytics",
+    "rating": "BUY",
+    "targetPrice": "$195.00",
+    "currentPrice": "$165.81",
+    "impliedUpsidePct": "+17.6%",
+    "marketDataAsOf": "Apr 2, 2026, 8:01 PM",
+    "estimatedReadMinutes": 24,
+    "coverageStatus": "published"
+  },
+  "executiveAtAGlance": {
+    "thesisHeadline": "Morgan Stanley's transformation into a wealth-management-led financial services firm is underappreciated by the market, with recurring fee revenues anchoring earnings durability and creating meaningful upside as investors move past the firm's pre-2020 cyclical identity.",
+    "snapshotMetrics": [
+      {
+        "label": "Market Cap",
+        "value": "$263.3B"
+      },
+      {
+        "label": "Enterprise Value",
+        "value": "$187.1B"
+      },
+      {
+        "label": "FCF (TTM)",
+        "value": "N/A"
+      },
+      {
+        "label": "EV/EBITDA",
+        "value": "N/A"
+      },
+      {
+        "label": "Net Margin",
+        "value": "24.0%"
+      },
+      {
+        "label": "Revenue (TTM)",
+        "value": "$70.3B"
+      },
+      {
+        "label": "Net Income (TTM)",
+        "value": "$16.9B"
+      },
+      {
+        "label": "P/E",
+        "value": "16.2x"
+      },
+      {
+        "label": "Revenue Growth YoY",
+        "value": "+11.0%"
+      },
+      {
+        "label": "ROIC",
+        "value": "14.8%"
+      }
+    ]
+  },
+  "executiveSummary": {
+    "summaryParagraphs": [
+      "Morgan Stanley has executed a multi-year strategic pivot away from episodic capital-markets revenues toward more durable fee-based wealth and investment management income. That mix shift helped drive four consecutive years of accelerating revenue and a 26.0% increase in FY2025 net income to $16.9B.",
+      "The central investment case is that the market still does not fully reflect the firm's improved earnings quality. At 13.4x forward earnings, Morgan Stanley trades below its normalized range and below what appears justified for a franchise whose wealth platform now provides a more predictable earnings base, even though risks remain around capital markets cyclicality, AUM sensitivity, and regulatory capital requirements."
+    ],
+    "catalysts": [
+      "Q1 2026 earnings could exceed consensus as elevated volatility supports trading revenue and extends the firm's streak of quarterly EPS beats.",
+      "Wealth management asset accumulation and private-market positioning could help Morgan Stanley capture a larger share of the $30T+ generational wealth transfer opportunity.",
+      "A 2026 Fed rate-cut cycle could reactivate M&A and debt-capital-markets activity, supporting investment banking revenue recovery."
+    ],
+    "primaryRisks": [
+      "Investment banking and underwriting revenues remain exposed to macro-driven capital markets weakness.",
+      "A 15\u201320% equity market drawdown would pressure fee-eligible AUM and reduce wealth and investment management revenues with a lag.",
+      "Basel III endgame capital changes could constrain buybacks and reduce ROE targets."
+    ],
+    "valuationBridge": "Morgan Stanley appears undervalued because the market still anchors too heavily to the firm's earlier cyclical identity rather than to its higher-quality wealth-led earnings mix, leaving room for a re-rating toward the blended $195 target if execution remains solid."
+  },
+  "financialPerformanceHealth": {
+    "incomeStatementAnalysis": {
+      "summaryParagraphs": [
+        "Morgan Stanley has recovered sharply from the 2022\u20132023 capital-markets slowdown. FY2025 revenue reached $66.0B and net income reached $16.9B, both record levels, while TTM revenue of $70.3B suggests the growth trajectory remained intact entering 2026."
+      ],
+      "highlights": [
+        "FY2025 net income rose 26.0% year over year to $16.9B from $13.4B in FY2024.",
+        "FY2024 revenue increased 13.8% versus FY2023, marking a meaningful re-acceleration after a flat prior period.",
+        "Net margin expanded from 22.0% in FY2022 to 25.6% in FY2025, reflecting operating leverage from the wealth-management mix shift."
+      ],
+      "tables": [
+        {
+          "title": "Income Statement ($B)",
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025",
+            "TTM"
+          ],
+          "rows": [
+            [
+              "Total Revenue",
+              "$50.2B",
+              "$50.7B",
+              "$57.6B",
+              "$66.0B",
+              "$70.3B"
+            ],
+            [
+              "Cost of Revenue",
+              "N/A",
+              "N/A",
+              "N/A",
+              "N/A",
+              "$9.1B"
+            ],
+            [
+              "Gross Profit",
+              "N/A",
+              "N/A",
+              "N/A",
+              "N/A",
+              "$61.2B"
+            ],
+            [
+              "Operating Income",
+              "N/A",
+              "N/A",
+              "N/A",
+              "N/A",
+              "$27.2B"
+            ],
+            [
+              "Net Income",
+              "$11.0B",
+              "$9.1B",
+              "$13.4B",
+              "$16.9B",
+              "$16.9B"
+            ]
+          ]
+        },
+        {
+          "title": "Margin Analysis",
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025",
+            "TTM"
+          ],
+          "rows": [
+            [
+              "Gross Margin",
+              "N/A",
+              "N/A",
+              "N/A",
+              "N/A",
+              "87.1%"
+            ],
+            [
+              "Operating Margin",
+              "N/A",
+              "N/A",
+              "N/A",
+              "N/A",
+              "38.6%"
+            ],
+            [
+              "Net Margin",
+              "22.0%",
+              "17.9%",
+              "23.2%",
+              "25.6%",
+              "24.0%"
+            ],
+            [
+              "Revenue Growth YoY",
+              "N/A",
+              "+0.9%",
+              "+13.8%",
+              "+14.5%",
+              "+11.0%"
+            ]
+          ]
+        }
+      ]
+    },
+    "balanceSheetAnalysis": {
+      "summaryParagraphs": [
+        "Morgan Stanley's balance sheet expanded materially through FY2025, with total assets reaching $1.42T and total equity reaching $111.6B. For a systemically important financial institution, the more relevant interpretation is not raw leverage in isolation but the firm's capital base, liquidity, and ability to operate comfortably within regulatory requirements."
+      ],
+      "tables": [
+        {
+          "title": "Balance Sheet ($B)",
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025"
+          ],
+          "rows": [
+            [
+              "Total Assets",
+              "$1,180.2B",
+              "$1,193.7B",
+              "$1,215.1B",
+              "$1,420.3B"
+            ],
+            [
+              "Total Liabilities",
+              "$1,079.0B",
+              "$1,093.7B",
+              "$1,109.6B",
+              "$1,307.6B"
+            ],
+            [
+              "Total Equity",
+              "$100.1B",
+              "$99.0B",
+              "$104.5B",
+              "$111.6B"
+            ],
+            [
+              "Cash & Equivalents",
+              "$92.7B",
+              "$58.7B",
+              "$75.7B",
+              "$81.3B"
+            ],
+            [
+              "Total Debt",
+              "$246.2B",
+              "$276.4B",
+              "$310.4B",
+              "$370.5B"
+            ],
+            [
+              "Net Cash (Debt)",
+              "($153.5B)",
+              "($217.7B)",
+              "($234.7B)",
+              "($289.2B)"
+            ],
+            [
+              "Debt-to-Equity",
+              "2.46x",
+              "2.79x",
+              "2.97x",
+              "3.32x"
+            ]
+          ]
+        }
+      ]
+    },
+    "cashFlowReturns": {
+      "summaryParagraphs": [
+        "Cash flow metrics for Morgan Stanley need to be interpreted carefully because trading-book inventory changes, collateral movements, and client cash activity can overwhelm the signal that traditional industrial free cash flow metrics would otherwise provide. Even so, CapEx remained relatively stable while returns on capital improved materially into FY2025."
+      ],
+      "highlights": [
+        "FY2025 operating cash flow was negative $17.9B and free cash flow was negative $20.8B, but those figures are not analytically comparable to industrial-company cash flow.",
+        "CapEx intensity declined to 4.4% of FY2025 revenue, suggesting spending discipline in technology and infrastructure.",
+        "Estimated ROE improved to 15.6% in FY2025 and estimated ROIC improved to 14.8%, indicating better capital productivity as the wealth platform scaled."
+      ],
+      "tables": [
+        {
+          "title": "Cash Flow ($B)",
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025"
+          ],
+          "rows": [
+            [
+              "Operating Cash Flow",
+              "($6.4B)",
+              "($33.5B)",
+              "$1.4B",
+              "($17.9B)"
+            ],
+            [
+              "Capital Expenditures",
+              "($3.1B)",
+              "($3.4B)",
+              "($3.5B)",
+              "($2.9B)"
+            ],
+            [
+              "Free Cash Flow",
+              "($9.5B)",
+              "($36.9B)",
+              "($2.1B)",
+              "($20.8B)"
+            ],
+            [
+              "CapEx % of Revenue",
+              "6.1%",
+              "6.7%",
+              "6.0%",
+              "4.4%"
+            ]
+          ]
+        },
+        {
+          "title": "Return on Capital",
+          "columns": [
+            "Metric",
+            "FY2023",
+            "FY2024",
+            "FY2025"
+          ],
+          "rows": [
+            [
+              "Return on Equity (ROE)",
+              "9.2%",
+              "13.1%",
+              "15.6%"
+            ],
+            [
+              "Return on Assets (ROA)",
+              "0.76%",
+              "1.10%",
+              "1.19%"
+            ],
+            [
+              "Return on Invested Capital (ROIC)",
+              "8.5%",
+              "12.3%",
+              "14.8%"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "valuation": {
+    "multiplesAnalysis": {
+      "summaryParagraphs": [
+        "Morgan Stanley screens attractively on forward earnings. At 13.4x FY2026E EPS, the stock sits near the low end of its historical range for large-cap investment banks, even though earnings quality has improved through the wealth-management-led mix shift."
+      ],
+      "tables": [
+        {
+          "title": "Valuation Multiples",
+          "columns": [
+            "Metric",
+            "MS Current",
+            "MS 5-Yr Avg",
+            "Goldman Sachs",
+            "JPMorgan Chase",
+            "BlackRock",
+            "Industry Avg"
+          ],
+          "rows": [
+            [
+              "P/E (TTM)",
+              "16.2x",
+              "15.5x",
+              "14.0x",
+              "14.5x",
+              "23.0x",
+              "14.5x"
+            ],
+            [
+              "Forward P/E",
+              "13.4x",
+              "14.0x",
+              "12.6x",
+              "13.8x",
+              "20.5x",
+              "13.5x"
+            ],
+            [
+              "P/S (TTM)",
+              "2.4x",
+              "2.1x",
+              "2.0x",
+              "2.5x",
+              "7.0x",
+              "2.0x"
+            ],
+            [
+              "P/B",
+              "2.58x",
+              "2.1x",
+              "1.8x",
+              "2.3x",
+              "3.5x",
+              "1.8x"
+            ],
+            [
+              "EV/EBITDA",
+              "N/A",
+              "N/A",
+              "N/A",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "EV/Revenue",
+              "2.66x",
+              "2.2x",
+              "2.0x",
+              "2.7x",
+              "6.5x",
+              "2.0x"
+            ],
+            [
+              "PEG Ratio",
+              "1.1x",
+              "1.3x",
+              "1.0x",
+              "1.2x",
+              "1.8x",
+              "1.2x"
+            ],
+            [
+              "FCF Yield",
+              "N/M",
+              "N/M",
+              "N/M",
+              "N/M",
+              "N/M",
+              "N/M"
+            ]
+          ]
+        }
+      ]
+    },
+    "dcfAnalysis": {
+      "summaryParagraphs": [
+        "A traditional unlevered free-cash-flow DCF is not appropriate for a bank holding company, so the valuation instead uses an equity DCF framework that discounts earnings power at cost of equity and cross-checks terminal value against sustainable returns. On that basis, the base case implies roughly $197 per share and supports a rounded 12-month target of $195."
+      ],
+      "assumptions": [
+        "Revenue CAGR through FY2030: 8.0%",
+        "Net margin trajectory: 24.0% in FY2026E expanding to 25.5% by FY2030E",
+        "Cost of equity: 10.5%",
+        "Terminal growth rate: 2.5%",
+        "Terminal P/E cross-check: 15.5x FY2030E EPS"
+      ],
+      "projectionTable": {
+        "title": "DCF Projections ($B)",
+        "columns": [
+          "Metric",
+          "FY2026E",
+          "FY2027E",
+          "FY2028E",
+          "FY2029E",
+          "FY2030E"
+        ],
+        "rows": [
+          [
+            "Revenue",
+            "$76.6B",
+            "$80.5B",
+            "$86.9B",
+            "$93.9B",
+            "$101.4B"
+          ],
+          [
+            "Net Income",
+            "$18.4B",
+            "$19.7B",
+            "$21.5B",
+            "$23.5B",
+            "$25.9B"
+          ],
+          [
+            "EPS",
+            "$11.38",
+            "$12.34",
+            "$13.50",
+            "$14.80",
+            "$16.30"
+          ],
+          [
+            "Net Margin",
+            "24.0%",
+            "24.5%",
+            "24.8%",
+            "25.1%",
+            "25.5%"
+          ]
+        ]
+      },
+      "scenarioTable": {
+        "title": "DCF Scenario Analysis",
+        "columns": [
+          "Scenario",
+          "Revenue CAGR",
+          "Terminal Growth",
+          "WACC",
+          "Implied Price",
+          "Upside/Downside"
+        ],
+        "rows": [
+          [
+            "Bull Case",
+            "11.0%",
+            "3.0%",
+            "9.5%",
+            "$228",
+            "+37.5%"
+          ],
+          [
+            "Base Case",
+            "8.0%",
+            "2.5%",
+            "10.5%",
+            "$197",
+            "+18.8%"
+          ],
+          [
+            "Bear Case",
+            "4.0%",
+            "1.5%",
+            "11.5%",
+            "$140",
+            "-15.6%"
+          ]
+        ]
+      }
+    },
+    "valuationConclusion": "Morgan Stanley appears undervalued at $165.81. The base-case DCF points to roughly $197 and peer valuation suggests a fair value of about $190\u2013$200, so a re-rating toward the $195 target looks achievable if upcoming results confirm that the beat-and-raise trajectory remains intact."
+  },
+  "businessModelMoat": {
+    "segmentProfile": {
+      "summaryParagraphs": [
+        "Morgan Stanley operates across three primary segments: Institutional Securities, Wealth Management, and Investment Management. The strategic pivot toward Wealth Management is the most important business-model change because it has increased recurring fee revenue and reduced the firm's historical dependence on episodic capital-markets activity."
+      ],
+      "segmentTable": {
+        "title": "Business Segments",
+        "columns": [
+          "Segment",
+          "FY2025 Revenue",
+          "% of Total",
+          "YoY Growth",
+          "Profile"
+        ],
+        "rows": [
+          [
+            "Wealth Management",
+            "$29.7B",
+            "45%",
+            "+12%",
+            "Growth engine; high recurring revenue"
+          ],
+          [
+            "Institutional Securities",
+            "$26.4B",
+            "40%",
+            "+18%",
+            "Cyclical; strong in 2025 on market volumes"
+          ],
+          [
+            "Investment Management",
+            "$9.9B",
+            "15%",
+            "+8%",
+            "Mature; high AUM leverage"
+          ]
+        ]
+      }
+    },
+    "economicMoatAssessment": {
+      "summaryParagraphs": [
+        "Morgan Stanley appears to have a narrow-to-wide moat built mainly on brand, scale, switching costs, and regulatory barriers. The wealth platform is the strongest source of durability because client relationships, advisor networks, and multi-product asset consolidation make the franchise stickier over time."
+      ],
+      "moatTable": {
+        "columns": [
+          "Moat Source",
+          "Strength",
+          "Assessment"
+        ],
+        "rows": [
+          [
+            "Brand & Reputation",
+            "Strong",
+            "Top-3 global investment banking brand trusted by institutional and ultra-high-net-worth clients"
+          ],
+          [
+            "Network Effects",
+            "Moderate",
+            "Larger advisor network and deal flow can improve client outcomes and reinforce franchise relevance"
+          ],
+          [
+            "Switching Costs",
+            "Strong",
+            "Wealth clients consolidate assets over time and advisor relationships create high friction to transfer"
+          ],
+          [
+            "Cost Advantages/Scale",
+            "Moderate",
+            "Technology and infrastructure costs are amortized across a very large revenue base"
+          ],
+          [
+            "Intellectual Property",
+            "Weak",
+            "Proprietary models exist but are not the main competitive differentiator in financial services"
+          ],
+          [
+            "Regulatory Barriers",
+            "Strong",
+            "SIFI status and licensing requirements create meaningful barriers for smaller competitors and new entrants"
+          ]
+        ]
+      },
+      "overallMoatConclusion": "Morgan Stanley appears to have a narrow-to-wide moat. The strongest advantages come from brand, switching costs, and regulatory barriers, while the Wealth Management platform is steadily improving the durability of the franchise. The main competitive pressure remains in investment banking, where rivalry with Goldman Sachs, JPMorgan, and elite boutiques keeps that portion of the moat narrower."
+    }
+  },
+  "growthStrategyOutlook": {
+    "nearTermCatalysts": [
+      "Q1 2026 earnings on April 15, 2026 could extend the firm's streak of quarterly EPS beats and reinforce confidence in the revenue trajectory.",
+      "A 2026 Fed rate-cut cycle could accelerate M&A backlog conversion and lift bond issuance volumes.",
+      "Participation in large private-market IPOs such as SpaceX could generate advisory fees and drive wealth-management inflows."
+    ],
+    "mediumTermDrivers": [
+      "Wealth Management AUM expansion toward a $10T+ client asset base.",
+      "Investment banking recovery as deferred M&A and capital-markets activity converts into revenue.",
+      "International wealth expansion, especially in Asia-Pacific, where ultra-high-net-worth wealth creation remains strong."
+    ],
+    "longTermOpportunities": [
+      "Generational wealth transfer of more than $30T in the United States over the next decade.",
+      "Private-markets democratization through broader retail and mass-affluent access to alternative investments.",
+      "Technology-enabled advisor productivity gains that support revenue scaling without proportional headcount growth."
+    ],
+    "tamPositioning": {
+      "summaryParagraphs": [
+        "Morgan Stanley operates in very large addressable markets across wealth management, investment banking, and asset management. Even after the firm's strategic repositioning, estimated share levels remain low enough to leave meaningful room for expansion, especially in global wealth and mass-affluent segments."
+      ],
+      "highlights": [
+        "Global wealth management represents an estimated $250T+ pool of investable assets, while Morgan Stanley's share is still only a small fraction of that market.",
+        "The global M&A advisory fee pool remains large and cyclical, leaving room for share gains when capital-markets activity normalizes.",
+        "Global institutional asset management exceeds $115T, providing long-run runway for the Investment Management segment."
+      ]
+    }
+  },
+  "managementGovernance": {
+    "leadership": {
+      "summaryParagraphs": [
+        "CEO Ted Pick took over in January 2024 after James Gorman's long strategic transformation of the franchise. Pick's deep institutional knowledge, Sharon Yeshaya's financial leadership, and Andy Saperstein's role in building the wealth platform together support continuity in execution rather than strategic disruption."
+      ]
+    },
+    "capitalAllocation": {
+      "summaryParagraphs": [
+        "Management has allocated capital across organic wealth-platform investment, shareholder returns, and large strategic acquisitions. The E*TRADE and Eaton Vance deals were central to reshaping Morgan Stanley into a broader wealth and asset management platform, and the firm has since focused more on integration and organic execution than on further transformational M&A."
+      ],
+      "acquisitionTable": {
+        "title": "Major Acquisitions",
+        "columns": [
+          "Acquisition",
+          "Year",
+          "Deal Value",
+          "Strategic Rationale",
+          "Outcome Assessment"
+        ],
+        "rows": [
+          [
+            "E*TRADE Financial",
+            "2020",
+            "$13.0B",
+            "Mass-affluent and digital wealth access; 5M+ accounts",
+            "Positive \u2013 accelerated wealth management platform scale"
+          ],
+          [
+            "Eaton Vance",
+            "2021",
+            "$7.0B",
+            "Institutional asset management; ESG and fixed-income capabilities",
+            "Positive \u2013 diversified Investment Management AUM"
+          ]
+        ]
+      }
+    },
+    "alignment": {
+      "summaryParagraphs": [
+        "Insider ownership is modest, which is typical for a firm of this size, but management compensation is heavily equity-based and tied to long-term performance measures such as ROE and shareholder returns. That creates reasonable alignment, even if insider ownership itself is not a major pillar of the thesis."
+      ]
+    }
+  },
+  "riskAnalysis": {
+    "riskTable": {
+      "columns": [
+        "Risk Factor",
+        "Type",
+        "Probability",
+        "Impact",
+        "Mitigation"
+      ],
+      "rows": [
+        [
+          "AUM Market Value Compression",
+          "Idiosyncratic / Macro",
+          "Medium",
+          "High",
+          "Diversified asset mix and client stickiness help soften the revenue hit from lower market values"
+        ],
+        [
+          "Basel III Capital Requirement Increase",
+          "Regulatory",
+          "Medium",
+          "Medium",
+          "Capital ratios above minimums give management some room to absorb moderate changes"
+        ],
+        [
+          "Advisor Attrition / Talent Loss",
+          "Idiosyncratic",
+          "Low-Medium",
+          "Medium",
+          "Deferred compensation and platform differentiation reduce advisor attrition risk"
+        ],
+        [
+          "Investment Banking Cyclical Downturn",
+          "Macro",
+          "Medium",
+          "Medium-High",
+          "Wealth Management revenues provide a partial buffer and compensation is variable"
+        ],
+        [
+          "U.S. Recession / Credit Cycle Turn",
+          "Macro",
+          "Low-Medium",
+          "High",
+          "Diversified revenue streams and strong capital ratios provide resilience"
+        ],
+        [
+          "Geopolitical / Trade Escalation",
+          "Systemic",
+          "Medium",
+          "Medium",
+          "Geographic diversification across 42 countries partially offsets domestic weakness"
+        ],
+        [
+          "Cybersecurity / Operational Risk",
+          "Idiosyncratic",
+          "Low",
+          "High",
+          "Large technology spending and incident-response frameworks reduce operational risk"
+        ]
+      ]
+    }
+  },
+  "finalRecommendation": {
+    "rating": "BUY",
+    "priceTarget": "$195.00",
+    "impliedUpsidePct": "+17.6%",
+    "bullBaseBear": {
+      "bull": "$228",
+      "base": "$195",
+      "bear": "$140"
+    },
+    "valuationMethodology": "55% equity DCF base case + 45% forward P/E of 17.1x applied to FY2026E EPS",
+    "fiveKeyMetricsToWatch": [
+      "Wealth Management Net New Assets: quarterly NNA above $50B would confirm platform momentum, while sustained quarters below $25B would pressure the thesis.",
+      "Q1 2026 EPS vs. $2.99 consensus: a fifth consecutive beat would likely reinforce credibility, while a miss below $2.68 would be a negative inflection signal.",
+      "Investment Banking Fee Revenue: quarterly IB revenue above about $1.5B would indicate healthier deal backlog conversion.",
+      "CET1 Capital Ratio: any final Basel III outcome that materially limits buybacks or dividend growth would directly reduce valuation support.",
+      "Wealth Management Fee Rate: a decline below 60 bps would suggest fee compression is intensifying and could challenge the premium assigned to the wealth platform."
+    ],
+    "ratingChangeTriggers": [
+      {
+        "action": "Upgrade to Strong Buy",
+        "direction": "\u2191",
+        "trigger": "Stock falls below $150 without fundamental deterioration, or Q1 2026 EPS exceeds $3.30 with raised full-year guidance above $12.00"
+      },
+      {
+        "action": "Downgrade to Hold",
+        "direction": "\u2193",
+        "trigger": "Two consecutive quarters of declining Wealth Management NNA, FY2026E EPS consensus falls below $10.00, or Basel III requires 150 bps or more of additional CET1"
+      },
+      {
+        "action": "Downgrade to Sell",
+        "direction": "\u2193\u2193",
+        "trigger": "A sustained 25%+ equity market drawdown compresses AUM fee revenues, a regulatory action materially impairs franchise value, or FY2026E EPS consensus falls below $8.50"
+      }
+    ],
+    "closingParagraph": "Overall, Morgan Stanley is a structurally stronger institution than the firm that once traded at single-digit earnings multiples. The wealth-management transformation has improved the quality and predictability of earnings, and at 13.4x forward earnings with 17.6% upside to target, the risk-reward remains attractive so long as investors believe the shift toward recurring fee-based revenue is durable rather than cyclical."
+  },
+  "openQuestions": [
+    "Will Q1 2026 EPS on April 15 confirm a fifth consecutive beat at or above the $2.99 consensus?",
+    "Has the Fed rate-cut timeline shifted materially, and what would that imply for M&A pipeline conversion and investment banking recovery?",
+    "What is the status of the SpaceX IPO mandate and other large private-market transactions in the pipeline?",
+    "What is the Q1 2026 Wealth Management net new asset figure, and is the client asset growth target still on track?",
+    "How is management characterizing the Basel III endgame capital outlook, and what does it imply for capital return capacity?",
+    "Is investment banking fee revenue in Q1 2026 accelerating sequentially enough to validate the recovery thesis?",
+    "Has advisor headcount and productivity improved year over year in Wealth Management, or is growth still being driven too heavily by hiring?",
+    "What is the disclosed CET1 ratio as of Q1 2026, and how much excess capital does it leave for buybacks?"
+  ]
+}

@@ -1,0 +1,827 @@
+{
+  "meta": {
+    "ticker": "PEP",
+    "companyName": "PepsiCo, Inc.",
+    "exchange": "NYSE",
+    "sector": "Consumer Staples",
+    "industry": "Beverages & Snacks",
+    "reportDate": "2026-04-02",
+    "author": "ART Analytics",
+    "rating": "HOLD",
+    "targetPrice": "$170",
+    "currentPrice": "$157.01",
+    "impliedUpsidePct": "+8.3%",
+    "marketDataAsOf": "Apr 2, 2026, 8:00 PM",
+    "estimatedReadMinutes": 23,
+    "coverageStatus": "published"
+  },
+  "executiveAtAGlance": {
+    "thesisHeadline": "PepsiCo remains a durable global snacks-and-beverages franchise with strong free cash flow and brand scale, but current upside is modest unless volume recovery becomes more visible or the shares pull back further.",
+    "snapshotMetrics": [
+      {
+        "label": "Market Cap",
+        "value": "$214.6B"
+      },
+      {
+        "label": "Enterprise Value",
+        "value": "$258.2B"
+      },
+      {
+        "label": "FCF (TTM)",
+        "value": "$8.2B"
+      },
+      {
+        "label": "EV/EBITDA",
+        "value": "14.2x"
+      },
+      {
+        "label": "Net Margin",
+        "value": "8.8%"
+      },
+      {
+        "label": "Revenue (TTM)",
+        "value": "$93.9B"
+      },
+      {
+        "label": "Net Income (TTM)",
+        "value": "$8.2B"
+      },
+      {
+        "label": "P/E",
+        "value": "26.2x"
+      },
+      {
+        "label": "Revenue Growth YoY",
+        "value": "+5.6%"
+      },
+      {
+        "label": "ROIC",
+        "value": "14.0%"
+      }
+    ]
+  },
+  "executiveSummary": {
+    "summaryParagraphs": [
+      "PepsiCo enters 2026 as a high-quality but unevenly performing consumer staples franchise. Revenue has continued to grow, operating margins are stabilizing, and the company has delivered three consecutive EPS beats through FY2025, yet investors remain focused on volume pressure, debt growth, and slower-than-ideal earnings momentum.",
+      "The core investment debate is straightforward: PepsiCo still possesses wide-moat assets in Frito-Lay, global distribution, and beverage scale, but the stock no longer offers the kind of discounted entry that would justify a more aggressive rating. That leaves the shares attractive for patient income investors, but only modestly compelling on a 12-month risk-adjusted basis."
+    ],
+    "catalysts": [
+      "Q1 2026 earnings on April 16 could re-rate the stock if PepsiCo delivers a beat-and-raise and shows clearer volume recovery.",
+      "Normalization in pricing versus volume mix, especially in Frito-Lay and beverages, could improve sentiment in the second half of 2026.",
+      "Dividend durability and income support continue to attract defensive capital in a volatile market environment."
+    ],
+    "primaryRisks": [
+      "Sustained consumer trade-down could continue pressuring snack and beverage volumes.",
+      "Commodity, FX, and interest-cost pressure could weigh on margins and capital-allocation flexibility.",
+      "Health-oriented consumption shifts, including GLP-1 adoption, may reduce demand for some calorie-dense categories over time."
+    ],
+    "valuationBridge": "PepsiCo looks somewhat cheaper than its own historical forward multiple, but the discount is only modest and reflects real execution questions around volume recovery, debt, and category headwinds."
+  },
+  "financialPerformanceHealth": {
+    "incomeStatementAnalysis": {
+      "summaryParagraphs": [
+        "PepsiCo's revenue base has expanded steadily from FY2022 through FY2025, reflecting broad portfolio resilience and pricing power across snacks and beverages. However, the growth mix has not been ideal. Organic top-line expansion has leaned heavily on pricing, while net income has been more volatile due to restructuring and financing pressure.",
+        "The most important positive point is that operating income continued improving in FY2025 even as net income declined. That suggests the core business did not weaken nearly as much as the bottom line implies and supports the view that FY2025 earnings pressure was partly below-the-line rather than purely operational."
+      ],
+      "highlights": [
+        "FY2025 revenue rose to $93.9B from $91.9B in FY2024.",
+        "Operating income improved to $13.5B in FY2025 from $12.9B in FY2024.",
+        "FY2025 net income fell to $8.2B, but the decline appears more below-the-line than operating in nature."
+      ],
+      "tables": [
+        {
+          "title": "Income Statement ($B)",
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025",
+            "TTM"
+          ],
+          "rows": [
+            [
+              "Total Revenue",
+              "$86.4",
+              "$91.5",
+              "$91.9",
+              "$93.9",
+              "$93.9"
+            ],
+            [
+              "Gross Profit",
+              "$45.8",
+              "$49.6",
+              "$50.1",
+              "$50.9",
+              "$50.9"
+            ],
+            [
+              "Operating Income",
+              "$11.4",
+              "$12.9",
+              "$12.9",
+              "$13.5",
+              "$13.5"
+            ],
+            [
+              "Net Income",
+              "$8.9",
+              "$9.1",
+              "$9.6",
+              "$8.2",
+              "$8.2"
+            ]
+          ]
+        },
+        {
+          "title": "Margin Analysis",
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025",
+            "TTM"
+          ],
+          "rows": [
+            [
+              "Gross Margin",
+              "53.0%",
+              "54.2%",
+              "54.5%",
+              "54.1%",
+              "54.5%"
+            ],
+            [
+              "Operating Margin",
+              "13.1%",
+              "14.1%",
+              "14.1%",
+              "14.4%",
+              "14.1%"
+            ],
+            [
+              "Net Margin",
+              "10.3%",
+              "9.9%",
+              "10.4%",
+              "8.8%",
+              "8.8%"
+            ],
+            [
+              "Revenue Growth YoY",
+              "\u2014",
+              "+5.9%",
+              "+0.4%",
+              "+2.3%",
+              "+5.6%"
+            ]
+          ]
+        }
+      ]
+    },
+    "balanceSheetAnalysis": {
+      "summaryParagraphs": [
+        "PepsiCo's balance sheet is serviceable but not especially conservative for a consumer staples company. Debt has risen over the past several years as management continued supporting acquisitions, dividends, and buybacks, leaving the company more reliant on sustained free-cash-flow generation.",
+        "The resulting leverage is still manageable because PepsiCo's cash flow is highly predictable, but the balance sheet no longer offers much room for complacency. In particular, continued debt growth without a matching free-cash-flow step-up would become a more material constraint on capital allocation."
+      ],
+      "tables": [
+        {
+          "title": "Balance Sheet ($B)",
+          "columns": [
+            "Metric",
+            "FY2023",
+            "FY2024",
+            "FY2025"
+          ],
+          "rows": [
+            [
+              "Total Assets",
+              "$100.5",
+              "$99.5",
+              "$107.4"
+            ],
+            [
+              "Total Liabilities",
+              "$81.9",
+              "$81.3",
+              "$86.9"
+            ],
+            [
+              "Total Equity",
+              "$18.5",
+              "$18.0",
+              "$20.4"
+            ],
+            [
+              "Cash & Equivalents",
+              "$9.7",
+              "$8.5",
+              "$9.2"
+            ],
+            [
+              "Total Debt",
+              "$44.7",
+              "$44.9",
+              "$49.9"
+            ],
+            [
+              "Net Debt",
+              "$35.0",
+              "$36.4",
+              "$40.7"
+            ],
+            [
+              "Debt-to-Equity",
+              "2.4x",
+              "2.5x",
+              "2.4x"
+            ]
+          ]
+        }
+      ]
+    },
+    "cashFlowReturns": {
+      "summaryParagraphs": [
+        "Free cash flow remains the bedrock of the PepsiCo investment case. Despite lower operating cash flow in FY2025 than in FY2023, management reduced capital expenditures, allowing FCF to hold up well and keeping dividend coverage intact.",
+        "Return metrics also remain comfortably above any reasonable cost of capital. That matters because it confirms PepsiCo still creates economic value even in a period where net income momentum and valuation support are less compelling than investors would prefer."
+      ],
+      "highlights": [
+        "TTM free cash flow was $8.2B, the strongest figure in the four-year comparison set.",
+        "CapEx fell to $4.4B in FY2025 from $5.3B in FY2024.",
+        "ROIC remained around 14.0%, which still supports value creation."
+      ],
+      "tables": [
+        {
+          "title": "Cash Flow ($B)",
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025",
+            "TTM"
+          ],
+          "rows": [
+            [
+              "Operating Cash Flow",
+              "$10.8",
+              "$13.4",
+              "$12.5",
+              "$12.1",
+              "$12.1"
+            ],
+            [
+              "Capital Expenditures",
+              "-$5.2",
+              "-$5.5",
+              "-$5.3",
+              "-$4.4",
+              "-$4.4"
+            ],
+            [
+              "Free Cash Flow",
+              "$5.6",
+              "$7.9",
+              "$7.2",
+              "$7.7",
+              "$8.2"
+            ],
+            [
+              "FCF Margin",
+              "6.5%",
+              "8.7%",
+              "7.8%",
+              "8.2%",
+              "8.7%"
+            ],
+            [
+              "FCF per Share",
+              "$4.03",
+              "$5.72",
+              "$5.21",
+              "$5.55",
+              "$5.96"
+            ]
+          ]
+        },
+        {
+          "title": "Return on Capital",
+          "columns": [
+            "Metric",
+            "FY2023",
+            "FY2024",
+            "FY2025"
+          ],
+          "rows": [
+            [
+              "Return on Equity (ROE)",
+              "49.0%",
+              "53.1%",
+              "40.4%"
+            ],
+            [
+              "Return on Assets (ROA)",
+              "9.0%",
+              "9.6%",
+              "7.7%"
+            ],
+            [
+              "Return on Invested Capital (ROIC)",
+              "15.5%",
+              "15.2%",
+              "14.0%"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "valuation": {
+    "multiplesAnalysis": {
+      "summaryParagraphs": [
+        "PepsiCo's current valuation looks somewhat more reasonable than it has for much of the last several years, particularly on a forward P/E basis. The shares trade below their own five-year average multiple, but that discount is not dramatic and partly reflects legitimate concerns around slower volume growth and a less pristine balance sheet.",
+        "Relative to Coca-Cola, Mondelez, and Keurig Dr Pepper, PepsiCo screens as modestly attractive on EV/EBITDA and competitive on free-cash-flow yield. Still, the stock does not screen as obviously mispriced once those peers and the broader staples de-rating are taken into account."
+      ],
+      "tables": [
+        {
+          "title": "Valuation Multiples",
+          "columns": [
+            "Metric",
+            "PEP Current",
+            "PEP 5-Yr Avg",
+            "KO",
+            "MDLZ",
+            "KDP"
+          ],
+          "rows": [
+            [
+              "Trailing P/E",
+              "26.2x",
+              "27x",
+              "25x",
+              "22x",
+              "20x"
+            ],
+            [
+              "Forward P/E",
+              "17.2x",
+              "22x",
+              "21x",
+              "16x",
+              "18x"
+            ],
+            [
+              "EV/Revenue",
+              "2.75x",
+              "3.2x",
+              "6.5x",
+              "2.4x",
+              "3.0x"
+            ],
+            [
+              "EV/EBITDA",
+              "14.2x",
+              "17x",
+              "20x",
+              "13x",
+              "14x"
+            ],
+            [
+              "P/B",
+              "10.5x",
+              "12x",
+              "10x",
+              "3x",
+              "2x"
+            ],
+            [
+              "FCF Yield",
+              "3.8%",
+              "3.2%",
+              "3.2%",
+              "4.5%",
+              "4.0%"
+            ],
+            [
+              "PEG Ratio",
+              "2.0x",
+              "2.5x",
+              "2.8x",
+              "1.8x",
+              "2.0x"
+            ]
+          ]
+        }
+      ]
+    },
+    "dcfAnalysis": {
+      "summaryParagraphs": [
+        "The DCF assumes a moderate recovery path rather than a sharp reacceleration. Revenue growth is modeled in the mid-single digits at first before fading lower, while operating leverage improves gradually as productivity offsets persistent volume and input-cost friction.",
+        "This framework produces a value slightly above the current share price but not by enough to make the stock clearly cheap. That is why the file lands on HOLD rather than BUY despite recognizing that the business itself remains high quality."
+      ],
+      "assumptions": [
+        "Revenue CAGR FY2026\u2013FY2030: 3.5%",
+        "Operating margin expands gradually from 14.1% toward 15.0% by FY2030",
+        "CapEx as % of revenue remains around 4.8%",
+        "WACC: 9.5%",
+        "Terminal growth rate: 2.5%"
+      ],
+      "projectionTable": {
+        "title": "DCF Projections ($B)",
+        "columns": [
+          "Metric",
+          "FY2026E",
+          "FY2027E",
+          "FY2028E",
+          "FY2029E",
+          "FY2030E"
+        ],
+        "rows": [
+          [
+            "Revenue",
+            "$98.5",
+            "$101.9",
+            "$105.5",
+            "$109.2",
+            "$113.0"
+          ],
+          [
+            "EBITDA",
+            "$18.1",
+            "$18.9",
+            "$19.8",
+            "$20.7",
+            "$21.7"
+          ],
+          [
+            "Free Cash Flow",
+            "$8.3",
+            "$8.7",
+            "$9.1",
+            "$9.5",
+            "$10.0"
+          ]
+        ]
+      },
+      "scenarioTable": {
+        "title": "DCF Scenario Analysis",
+        "columns": [
+          "Scenario",
+          "Revenue CAGR",
+          "Terminal Growth",
+          "WACC",
+          "Implied Price",
+          "Upside/Downside"
+        ],
+        "rows": [
+          [
+            "Bull Case",
+            "5.0%",
+            "3.0%",
+            "8.5%",
+            "$196",
+            "+24.8%"
+          ],
+          [
+            "Base Case",
+            "3.5%",
+            "2.5%",
+            "9.5%",
+            "$171",
+            "+8.9%"
+          ],
+          [
+            "Bear Case",
+            "1.5%",
+            "1.5%",
+            "10.5%",
+            "$132",
+            "-15.9%"
+          ]
+        ]
+      }
+    },
+    "valuationConclusion": "PepsiCo appears fairly valued to modestly undervalued. The stock offers some upside from current levels, but not enough to justify a stronger rating without either a lower entry point or clearer evidence that volume recovery is taking hold."
+  },
+  "businessModelMoat": {
+    "segmentProfile": {
+      "summaryParagraphs": [
+        "PepsiCo operates through a diversified global portfolio of snacks and beverages, with Frito-Lay North America and PepsiCo Beverages North America as the two most important earnings engines. The snack business remains the crown jewel, while the beverage business adds scale, channel leverage, and brand relevance despite more visible category headwinds.",
+        "International segments matter because they provide geographic diversification and higher long-run growth optionality, even though they also introduce FX and geopolitical volatility. The resulting portfolio is broader and more balanced than that of a pure-play beverage or snack company."
+      ],
+      "segmentTable": {
+        "title": "Business Segments",
+        "columns": [
+          "Segment",
+          "FY2025 Revenue",
+          "% of Total",
+          "YoY Growth",
+          "Growth Profile"
+        ],
+        "rows": [
+          [
+            "Frito-Lay North America (FLNA)",
+            "$23.5B",
+            "25%",
+            "+2%",
+            "Mature, high margin"
+          ],
+          [
+            "PepsiCo Beverages North America (PBNA)",
+            "$24.0B",
+            "26%",
+            "+1%",
+            "Mature, restructuring"
+          ],
+          [
+            "Latin America",
+            "$12.5B",
+            "13%",
+            "+5%",
+            "Growth"
+          ],
+          [
+            "Europe",
+            "$13.5B",
+            "14%",
+            "+3%",
+            "Moderate growth"
+          ],
+          [
+            "Africa, Middle East & South Asia",
+            "$8.5B",
+            "9%",
+            "+6%",
+            "High growth"
+          ],
+          [
+            "Asia Pacific, Australia/NZ & China",
+            "$7.5B",
+            "8%",
+            "+4%",
+            "Growth"
+          ],
+          [
+            "Quaker Foods North America (QFNA)",
+            "$2.5B",
+            "3%",
+            "-3%",
+            "Declining"
+          ],
+          [
+            "Other / Eliminations",
+            "$1.9B",
+            "2%",
+            "N/M",
+            "\u2014"
+          ]
+        ]
+      }
+    },
+    "economicMoatAssessment": {
+      "summaryParagraphs": [
+        "PepsiCo appears to have a genuine wide moat built on brand strength and distribution scale. Its portfolio of large snack and beverage brands, global retail relationships, and direct-store-delivery capabilities create economic advantages that smaller competitors struggle to match.",
+        "The moat is not as pristine as it once was because private label, functional beverages, and health-oriented consumer shifts have increased competitive pressure in some categories. Still, the company retains enough brand power, retailer leverage, and execution scale to defend its position over a long horizon."
+      ],
+      "moatTable": {
+        "columns": [
+          "Moat Source",
+          "Strength",
+          "Assessment"
+        ],
+        "rows": [
+          [
+            "Brand & Reputation",
+            "Strong",
+            "Portfolio of major global brands including Pepsi, Lay's, Doritos, and Gatorade supports premium shelf placement and consumer recognition"
+          ],
+          [
+            "Network Effects",
+            "Weak",
+            "Classic network effects are limited in CPG, though retail scale reinforces merchandising advantages"
+          ],
+          [
+            "Switching Costs",
+            "Moderate",
+            "Retailer planograms and consumer habit create stickiness, but end-consumer category switching remains easy"
+          ],
+          [
+            "Cost Advantages/Scale",
+            "Strong",
+            "Global procurement, marketing scale, and route density provide meaningful cost and execution advantages"
+          ],
+          [
+            "Intellectual Property",
+            "Weak",
+            "Formulations and trade secrets matter, but IP is not the primary moat source"
+          ],
+          [
+            "Regulatory Barriers",
+            "Weak",
+            "Compliance is necessary but does not create major entry barriers; in some cases regulation is more headwind than moat"
+          ]
+        ]
+      },
+      "overallMoatConclusion": "PepsiCo appears to have a wide moat. Its strongest defenses come from brand power and distribution scale, while its weakest areas are low regulatory protection and limited true switching costs at the consumer level. Even so, the combination of snacks leadership, beverage scale, and global route-to-market capability remains difficult to replicate."
+    }
+  },
+  "growthStrategyOutlook": {
+    "nearTermCatalysts": [
+      "Q1 2026 earnings on April 16 could improve sentiment if PepsiCo delivers a beat-and-raise.",
+      "Any return to positive Frito-Lay volume growth would be disproportionately important for margins and EPS.",
+      "Modest operating-margin improvement through productivity savings remains a key near-term lever."
+    ],
+    "mediumTermDrivers": [
+      "International expansion in AMESA and APAC remains one of the most credible incremental growth sources.",
+      "The portfolio shift toward better-for-you, functional, and reduced-sugar products can help defend demand quality.",
+      "FX normalization could provide a reporting tailwind if the U.S. dollar weakens."
+    ],
+    "longTermOpportunities": [
+      "Emerging-market middle-class growth remains a multi-decade demand opportunity across beverages and snacks.",
+      "Foodservice and convenience-channel recovery can support mix and away-from-home consumption.",
+      "Bolt-on M&A remains an option for entering adjacent high-growth categories."
+    ],
+    "tamPositioning": {
+      "summaryParagraphs": [
+        "PepsiCo operates across a very large combined global snacks and beverage opportunity. While the company already has meaningful scale, its market share remains far from saturated internationally, especially outside North America.",
+        "The more attractive runway lies in global snacks, sports and hydration, and developing-market consumption rather than in mature North American carbonated soft drinks. That mix matters because it shapes where PepsiCo can still grow without depending purely on price increases."
+      ],
+      "highlights": [
+        "Global beverage TAM is roughly $1.9T, while global packaged food and snacks TAM is roughly $1.5T.",
+        "North America snacks remains a leadership market for PepsiCo, but share gains there are naturally harder to achieve.",
+        "Global sports and energy drinks remain an important higher-growth category.",
+        "International snacks and beverages represent the clearest long-run whitespace opportunity."
+      ]
+    }
+  },
+  "managementGovernance": {
+    "leadership": {
+      "summaryParagraphs": [
+        "Ramon Laguarta has served as CEO since 2018 and has led PepsiCo through pandemic disruption, a strong pricing cycle, and the current phase of slower volume normalization. His tenure has emphasized the pep+ framework, portfolio evolution, and investment in supply-chain and digital capabilities.",
+        "CFO Jamie Caulfield adds internal continuity and a focus on capital-structure discipline. Governance appears stable, with a largely independent board and experience across consumer, retail, and financial backgrounds."
+      ]
+    },
+    "capitalAllocation": {
+      "summaryParagraphs": [
+        "PepsiCo's capital allocation has been reliably shareholder-friendly, anchored by a very long dividend growth record, moderate buybacks, and selective strategic acquisitions. The main constraint is that rising debt has become more noticeable, which reduces the room for capital-allocation mistakes.",
+        "Management has generally avoided transformative or reckless dealmaking, but the next phase of discipline likely needs to emphasize deleveraging more clearly if volume growth remains only modest."
+      ],
+      "acquisitionTable": {
+        "title": "Major Acquisitions / Initiatives",
+        "columns": [
+          "Acquisition / Initiative",
+          "Year",
+          "Deal Value",
+          "Strategic Rationale",
+          "Outcome Assessment"
+        ],
+        "rows": [
+          [
+            "Rockstar Energy",
+            "2020",
+            "$3.85B",
+            "Expand into energy drinks",
+            "Mixed \u2013 category is attractive, but competition remains intense"
+          ],
+          [
+            "Pioneer Foods",
+            "2020",
+            "$1.7B",
+            "Expand AMESA platform",
+            "Positive \u2013 strengthened emerging-market scale"
+          ],
+          [
+            "Be & Cheery",
+            "2020",
+            "$705M",
+            "Expand snacks and e-commerce presence in China",
+            "Early stage \u2013 strategically logical but still small"
+          ],
+          [
+            "Siete Foods",
+            "2024",
+            "$1.2B",
+            "Expand better-for-you snacks portfolio",
+            "Too early to assess \u2013 strong fit with category trends"
+          ]
+        ]
+      }
+    },
+    "alignment": {
+      "summaryParagraphs": [
+        "Insider ownership is modest, which is normal for a consumer staples company of PepsiCo's size. Alignment instead comes mainly through compensation tied to organic growth, EPS, and return-on-capital metrics, as well as the market discipline imposed by a large institutional shareholder base.",
+        "That setup is adequate rather than exceptional. It supports prudent long-term decision-making, but management does not appear to carry especially large personal downside exposure through ownership."
+      ]
+    }
+  },
+  "riskAnalysis": {
+    "riskTable": {
+      "columns": [
+        "Risk Factor",
+        "Type",
+        "Probability",
+        "Impact",
+        "Mitigation"
+      ],
+      "rows": [
+        [
+          "North America snack and beverage volume declines",
+          "Business",
+          "Medium",
+          "High",
+          "Innovation pipeline, price-pack architecture, and portfolio premiumization"
+        ],
+        [
+          "Net debt expansion beyond 2.5x EBITDA",
+          "Financial",
+          "Medium",
+          "Medium",
+          "CapEx discipline, moderated buybacks, and selective M&A restraint"
+        ],
+        [
+          "GLP-1-driven snack demand headwind",
+          "Structural",
+          "Low-Medium",
+          "High",
+          "Better-for-you portfolio expansion and product mix evolution"
+        ],
+        [
+          "Product safety or recall event",
+          "Operational",
+          "Low",
+          "Medium",
+          "Quality control investment and supply-chain audits"
+        ],
+        [
+          "Global recession / consumer spending slowdown",
+          "Macro",
+          "Medium",
+          "Medium",
+          "Defensive categories and value-tier SKU flexibility"
+        ],
+        [
+          "Tariff-driven input cost inflation",
+          "Macro",
+          "High",
+          "Medium",
+          "Pricing actions, sourcing flexibility, and hedging programs"
+        ],
+        [
+          "Regulatory pressure on ultra-processed foods or sugar",
+          "Regulatory",
+          "Medium",
+          "Medium",
+          "Portfolio reformulation and geographic diversification"
+        ]
+      ]
+    }
+  },
+  "finalRecommendation": {
+    "rating": "HOLD",
+    "priceTarget": "$170",
+    "impliedUpsidePct": "+8.3%",
+    "bullBaseBear": {
+      "bull": "$196",
+      "base": "$170",
+      "bear": "$132"
+    },
+    "valuationMethodology": "55% DCF base case + 45% peer NTM EV/EBITDA",
+    "fiveKeyMetricsToWatch": [
+      "Q1 2026 EPS and revenue versus consensus, especially whether guidance supports a beat-and-raise scenario.",
+      "Frito-Lay North America volume trajectory, which is the single most important operating signal for quality of growth.",
+      "PepsiCo Beverages North America volume stabilization, especially in more challenged beverage categories.",
+      "Net debt progression and whether free cash flow is increasingly directed toward deleveraging.",
+      "Gross-margin trend in the face of tariff and commodity-cost pressure."
+    ],
+    "ratingChangeTriggers": [
+      {
+        "action": "Upgrade to Buy",
+        "direction": "\u2191",
+        "trigger": "The stock falls below $148 or PepsiCo delivers a convincing beat-and-raise with clear volume recovery."
+      },
+      {
+        "action": "Downgrade to Sell",
+        "direction": "\u2193",
+        "trigger": "North America volumes deteriorate further, margins compress materially, and EPS estimates reset lower."
+      },
+      {
+        "action": "Maintain Hold but Raise Target",
+        "direction": "\u2191",
+        "trigger": "Volume recovery becomes durable while debt and free-cash-flow coverage improve more quickly than expected."
+      }
+    ],
+    "closingParagraph": "Overall, PepsiCo remains a high-quality franchise with resilient brands, strong cash generation, and a defensible global route-to-market advantage. The issue is not business quality but entry price. At current levels, the stock looks reasonable rather than compelling, which supports a HOLD rating until either execution improves or valuation becomes more favorable."
+  },
+  "openQuestions": [
+    "Can PepsiCo reaccelerate volume growth without giving back too much pricing power?",
+    "Will Frito-Lay remain the dominant earnings engine if consumer snack behavior becomes more health-oriented?",
+    "How much of the FY2025 net income weakness was truly temporary versus reflective of a lower-quality earnings profile?",
+    "Can management reduce leverage meaningfully while preserving dividend growth and selective M&A flexibility?",
+    "Will GLP-1 adoption create a real category headwind for salty snacks or remain more narrative than material?",
+    "Can the international portfolio deliver enough growth to offset mature North American beverage pressure?",
+    "How much valuation re-rating is realistic if PepsiCo simply stabilizes rather than clearly accelerates?",
+    "Does PepsiCo still deserve a premium staples multiple if volume remains inconsistent?"
+  ]
+}
