@@ -1,13 +1,18 @@
 import { useEffect, useRef, useState } from 'react';
 import { fetchReportQa } from '../api/reportQa';
 
+const MAX_HISTORY_ITEMS = 6;
+
 export default function useReportQa(ticker) {
   const [question, setQuestion] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
-  const [answerResult, setAnswerResult] = useState(null);
   const [submittedQuestion, setSubmittedQuestion] = useState('');
+  const [historyByTicker, setHistoryByTicker] = useState({});
   const activeRequestRef = useRef(0);
+  const normalizedTicker = String(ticker || '').trim().toUpperCase();
+  const history = historyByTicker[normalizedTicker] || [];
+  const latestEntry = history[0] || null;
 
   useEffect(() => {
     activeRequestRef.current += 1;
@@ -15,11 +20,9 @@ export default function useReportQa(ticker) {
     setSubmittedQuestion('');
     setLoading(false);
     setError('');
-    setAnswerResult(null);
   }, [ticker]);
 
   async function submitQuestion(nextQuestion) {
-    const normalizedTicker = String(ticker || '').trim().toUpperCase();
     const normalizedQuestion = String(nextQuestion ?? question).trim();
 
     if (!normalizedTicker) {
@@ -31,12 +34,15 @@ export default function useReportQa(ticker) {
       return;
     }
 
+    if (loading && normalizedQuestion === submittedQuestion) {
+      return;
+    }
+
     const requestId = activeRequestRef.current + 1;
     activeRequestRef.current = requestId;
 
     setLoading(true);
     setError('');
-    setAnswerResult(null);
     setSubmittedQuestion(normalizedQuestion);
 
     try {
@@ -50,7 +56,26 @@ export default function useReportQa(ticker) {
       }
 
       setQuestion(normalizedQuestion);
-      setAnswerResult(data);
+      setHistoryByTicker((previous) => {
+        const nextEntry = {
+          id: `${normalizedTicker}-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
+          ticker: normalizedTicker,
+          question: data.question || normalizedQuestion,
+          answer: data.answer,
+          grounded: Boolean(data.grounded),
+          citations: data.citations || [],
+          createdAt: Date.now()
+        };
+        const existingHistory = previous[normalizedTicker] || [];
+        const dedupedHistory = existingHistory.filter((entry) => (
+          !(entry.question === nextEntry.question && entry.answer === nextEntry.answer)
+        ));
+
+        return {
+          ...previous,
+          [normalizedTicker]: [nextEntry, ...dedupedHistory].slice(0, MAX_HISTORY_ITEMS)
+        };
+      });
     } catch (requestError) {
       if (activeRequestRef.current !== requestId) {
         return;
@@ -70,7 +95,6 @@ export default function useReportQa(ticker) {
     setSubmittedQuestion('');
     setError('');
     setLoading(false);
-    setAnswerResult(null);
   }
 
   return {
@@ -79,7 +103,8 @@ export default function useReportQa(ticker) {
     submittedQuestion,
     loading,
     error,
-    answerResult,
+    latestEntry,
+    history,
     submitQuestion,
     clearAnswer
   };

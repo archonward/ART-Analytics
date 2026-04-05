@@ -16,11 +16,14 @@ export default function AskReportPanel({ ticker, companyName, onCitationClick })
     submittedQuestion,
     loading,
     error,
-    answerResult,
+    latestEntry,
+    history,
     submitQuestion,
     clearAnswer
   } = useReportQa(ticker);
   const inputId = useId();
+  const hasHistory = history.length > 0;
+  const previousEntries = history.slice(1);
 
   function handleSubmit(event) {
     event.preventDefault();
@@ -39,10 +42,6 @@ export default function AskReportPanel({ ticker, companyName, onCitationClick })
     }
   }
 
-  const hasAnswer = Boolean(answerResult);
-  const citations = getUniqueCitations(answerResult?.citations || []);
-  const showWeakSupport = Boolean(answerResult && !answerResult.grounded);
-
   return (
     <aside className="ask-report-panel">
       <div className="ask-report-header">
@@ -56,7 +55,7 @@ export default function AskReportPanel({ ticker, companyName, onCitationClick })
         </p>
       </div>
 
-      {!hasAnswer && !loading && !error && (
+      {!hasHistory && !loading && !error && (
         <div className="ask-report-empty ask-report-first-use">
           <p className="ask-report-empty-title">Start with a focused question</p>
           <p className="ask-report-empty-copy">
@@ -98,14 +97,14 @@ export default function AskReportPanel({ ticker, companyName, onCitationClick })
             {loading ? 'Asking...' : 'Ask'}
           </button>
 
-          {hasAnswer && (
+          {(hasHistory || question) && (
             <button
               type="button"
               className="secondary-button"
               onClick={clearAnswer}
               disabled={loading}
             >
-              Clear
+              Clear draft
             </button>
           )}
         </div>
@@ -114,7 +113,7 @@ export default function AskReportPanel({ ticker, companyName, onCitationClick })
       {error && <div className="message error ask-report-message">{error}</div>}
 
       {loading && (
-        <div className="ask-report-response ask-report-loading">
+        <div className="ask-report-response ask-report-response-current ask-report-loading">
           <p className="ask-report-question-label">Searching {ticker}&apos;s report</p>
           <p className="ask-report-question">
             {submittedQuestion || 'Finding the best supporting sections...'}
@@ -131,63 +130,32 @@ export default function AskReportPanel({ ticker, companyName, onCitationClick })
         </div>
       )}
 
-      {hasAnswer && !loading && (
-        <div className="ask-report-response">
-          <p className="ask-report-question-label">Question asked</p>
-          <p className="ask-report-question">{answerResult.question}</p>
-
-          <div className="ask-report-answer-wrap">
-            <div className="ask-report-answer-heading-row">
-              <p className="ask-report-question-label">Grounded answer</p>
-              <span
-                className={`ask-report-grounded-badge ${
-                  showWeakSupport
-                    ? 'ask-report-grounded-badge-limited'
-                    : 'ask-report-grounded-badge-supported'
-                }`}
-              >
-                {showWeakSupport ? 'Limited support' : 'Supported by report'}
-              </span>
-            </div>
-            <p className="ask-report-answer">{answerResult.answer}</p>
-            {showWeakSupport && (
-              <div className="ask-report-grounding-note">
-                <p className="ask-report-grounding-note-title">Support is limited</p>
-                <p className="ask-report-grounding-note-copy">
-                  The retrieved sections do not clearly answer this question, so the response is intentionally conservative.
-                </p>
-              </div>
-            )}
+      {latestEntry && !loading && (
+        <div className="ask-report-history">
+          <div className="ask-report-history-section">
+            <p className="ask-report-history-label">Latest answer</p>
+            <HistoryEntry
+              entry={latestEntry}
+              isCurrent
+              onReuseQuestion={setQuestion}
+              onCitationClick={onCitationClick}
+            />
           </div>
 
-          {citations.length > 0 && (
-            <div className="ask-report-citations">
-              <div className="ask-report-citation-header">
-                <p className="ask-report-question-label">Citations</p>
-                <p className="ask-report-citation-meta">
-                  Source sections used in this answer
-                </p>
+          {previousEntries.length > 0 && (
+            <div className="ask-report-history-section">
+              <div className="ask-report-history-heading">
+                <p className="ask-report-history-label">Earlier in this report</p>
+                <p className="ask-report-history-meta">{history.length} questions this session</p>
               </div>
-              <div className="ask-report-citation-list">
-                {citations.map((citation) => (
-                  <button
-                    key={citation.chunkId}
-                    type="button"
-                    className={`ask-report-citation-card ${
-                      onCitationClick ? 'ask-report-citation-card-actionable' : ''
-                    }`}
-                    onClick={() => onCitationClick?.(citation)}
-                    disabled={!onCitationClick}
-                  >
-                    <p className="ask-report-citation-heading">
-                      {citation.sectionTitle}
-                      {citation.subsectionTitle ? ` - ${citation.subsectionTitle}` : ''}
-                    </p>
-                    <p className="ask-report-citation-snippet">{citation.snippet}</p>
-                    {onCitationClick && (
-                      <span className="ask-report-citation-action">Jump to section</span>
-                    )}
-                  </button>
+              <div className="ask-report-history-list">
+                {previousEntries.map((entry) => (
+                  <HistoryEntry
+                    key={entry.id}
+                    entry={entry}
+                    onReuseQuestion={setQuestion}
+                    onCitationClick={onCitationClick}
+                  />
                 ))}
               </div>
             </div>
@@ -195,6 +163,86 @@ export default function AskReportPanel({ ticker, companyName, onCitationClick })
         </div>
       )}
     </aside>
+  );
+}
+
+function HistoryEntry({ entry, isCurrent = false, onReuseQuestion, onCitationClick }) {
+  const citations = getUniqueCitations(entry.citations || []);
+  const showWeakSupport = !entry.grounded;
+
+  return (
+    <article
+      className={`ask-report-response ${
+        isCurrent ? 'ask-report-response-current' : 'ask-report-response-history'
+      }`}
+    >
+      <div className="ask-report-entry-top">
+        <p className="ask-report-question-label">{isCurrent ? 'Question asked' : 'Previous question'}</p>
+        <button
+          type="button"
+          className="ask-report-inline-action"
+          onClick={() => onReuseQuestion(entry.question)}
+        >
+          Reuse question
+        </button>
+      </div>
+      <p className="ask-report-question">{entry.question}</p>
+
+      <div className="ask-report-answer-wrap">
+        <div className="ask-report-answer-heading-row">
+          <p className="ask-report-question-label">Grounded answer</p>
+          <span
+            className={`ask-report-grounded-badge ${
+              showWeakSupport
+                ? 'ask-report-grounded-badge-limited'
+                : 'ask-report-grounded-badge-supported'
+            }`}
+          >
+            {showWeakSupport ? 'Limited support' : 'Supported by report'}
+          </span>
+        </div>
+        <p className="ask-report-answer">{entry.answer}</p>
+        {showWeakSupport && (
+          <div className="ask-report-grounding-note">
+            <p className="ask-report-grounding-note-title">Support is limited</p>
+            <p className="ask-report-grounding-note-copy">
+              The retrieved sections do not clearly answer this question, so the response is intentionally conservative.
+            </p>
+          </div>
+        )}
+      </div>
+
+      {citations.length > 0 && (
+        <div className="ask-report-citations">
+          <div className="ask-report-citation-header">
+            <p className="ask-report-question-label">Citations</p>
+            <p className="ask-report-citation-meta">Source sections used in this answer</p>
+          </div>
+          <div className="ask-report-citation-list">
+            {citations.map((citation) => (
+              <button
+                key={citation.chunkId || `${entry.id}-${citation.sectionTitle}-${citation.subsectionTitle || 'section'}`}
+                type="button"
+                className={`ask-report-citation-card ${
+                  onCitationClick ? 'ask-report-citation-card-actionable' : ''
+                }`}
+                onClick={() => onCitationClick?.(citation)}
+                disabled={!onCitationClick}
+              >
+                <p className="ask-report-citation-heading">
+                  {citation.sectionTitle}
+                  {citation.subsectionTitle ? ` - ${citation.subsectionTitle}` : ''}
+                </p>
+                <p className="ask-report-citation-snippet">{citation.snippet}</p>
+                {onCitationClick && (
+                  <span className="ask-report-citation-action">Jump to section</span>
+                )}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+    </article>
   );
 }
 

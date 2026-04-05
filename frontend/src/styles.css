@@ -543,6 +543,30 @@ article {
   padding-right: 0.25rem;
 }
 
+.coverage-list-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(123, 232, 255, 0.42) rgba(4, 16, 28, 0.5);
+}
+
+.coverage-list-scroll::-webkit-scrollbar {
+  width: 10px;
+}
+
+.coverage-list-scroll::-webkit-scrollbar-track {
+  background: rgba(4, 16, 28, 0.52);
+  border-radius: 999px;
+}
+
+.coverage-list-scroll::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, rgba(123, 232, 255, 0.55), rgba(17, 137, 216, 0.48));
+  border-radius: 999px;
+  border: 2px solid rgba(4, 16, 28, 0.52);
+}
+
+.coverage-list-scroll::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, rgba(151, 241, 255, 0.72), rgba(47, 167, 230, 0.62));
+}
+
 .coverage-list,
 .compact-audit-list {
   display: grid;
@@ -772,6 +796,35 @@ article {
   overflow-y: auto;
 }
 
+.ask-report-panel,
+.ask-report-history-list {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(123, 232, 255, 0.42) rgba(4, 16, 28, 0.5);
+}
+
+.ask-report-panel::-webkit-scrollbar,
+.ask-report-history-list::-webkit-scrollbar {
+  width: 10px;
+}
+
+.ask-report-panel::-webkit-scrollbar-track,
+.ask-report-history-list::-webkit-scrollbar-track {
+  background: rgba(4, 16, 28, 0.52);
+  border-radius: 999px;
+}
+
+.ask-report-panel::-webkit-scrollbar-thumb,
+.ask-report-history-list::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, rgba(123, 232, 255, 0.55), rgba(17, 137, 216, 0.48));
+  border-radius: 999px;
+  border: 2px solid rgba(4, 16, 28, 0.52);
+}
+
+.ask-report-panel::-webkit-scrollbar-thumb:hover,
+.ask-report-history-list::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, rgba(151, 241, 255, 0.72), rgba(47, 167, 230, 0.62));
+}
+
 .ask-report-header h3 {
   margin: 0.3rem 0 0;
   color: #b6f4ff;
@@ -857,6 +910,45 @@ article {
   padding: 0.85rem 1rem;
 }
 
+.ask-report-history {
+  margin-top: 1rem;
+}
+
+.ask-report-history-section + .ask-report-history-section {
+  margin-top: 1rem;
+}
+
+.ask-report-history-heading,
+.ask-report-entry-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.ask-report-history-label {
+  margin: 0 0 0.55rem;
+  font-size: 0.78rem;
+  color: #98ddf8;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+}
+
+.ask-report-history-meta {
+  margin: 0 0 0.55rem;
+  color: #9fdcf5;
+  font-size: 0.8rem;
+}
+
+.ask-report-history-list {
+  display: grid;
+  gap: 0.75rem;
+  max-height: 520px;
+  overflow-y: auto;
+  padding-right: 0.2rem;
+}
+
 .ask-report-first-use {
   border-style: dashed;
 }
@@ -868,6 +960,16 @@ article {
   border-radius: 0.85rem;
   background: rgba(8, 24, 41, 0.82);
   border: 1px solid rgba(130, 229, 255, 0.14);
+}
+
+.ask-report-response-current {
+  border-color: rgba(130, 229, 255, 0.24);
+  background: rgba(8, 24, 41, 0.9);
+}
+
+.ask-report-response-history {
+  background: rgba(6, 22, 38, 0.76);
+  border-color: rgba(130, 229, 255, 0.1);
 }
 
 .ask-report-empty-title {
@@ -930,6 +1032,21 @@ article {
   margin: 0.4rem 0 0;
   font-weight: 700;
   color: #e6fcff;
+}
+
+.ask-report-inline-action {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #8feeff;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.ask-report-inline-action:hover {
+  color: #c5fbff;
 }
 
 .ask-report-answer-wrap {
@@ -1169,12 +1286,16 @@ article {
     align-items: flex-start;
   }
 
+  .ask-report-history-heading,
+  .ask-report-entry-top,
   .ask-report-actions {
     flex-direction: column;
+    align-items: flex-start;
   }
 
   .ask-report-actions button,
-  .ask-report-actions .secondary-button {
+  .ask-report-actions .secondary-button,
+  .ask-report-inline-action {
     width: 100%;
   }
 
