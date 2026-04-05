@@ -1,0 +1,802 @@
+{
+  "meta": {
+    "ticker": "CRM",
+    "companyName": "Salesforce, Inc.",
+    "exchange": "NYSE",
+    "sector": "Technology",
+    "industry": "Software",
+    "reportDate": "2026-04-02",
+    "author": "ART Analytics",
+    "rating": "BUY",
+    "targetPrice": "$265",
+    "currentPrice": "$187.18",
+    "impliedUpsidePct": "+41.6%",
+    "marketDataAsOf": "Apr 2, 2026, 8:00 PM",
+    "estimatedReadMinutes": 24,
+    "coverageStatus": "published"
+  },
+  "executiveAtAGlance": {
+    "thesisHeadline": "Salesforce has transformed into a high-margin, free-cash-flow-rich enterprise software platform, yet the stock still trades as if Agentforce monetization and sustained operating leverage are far less durable than current fundamentals suggest.",
+    "snapshotMetrics": [
+      {
+        "label": "Market Cap",
+        "value": "$175.4B"
+      },
+      {
+        "label": "Enterprise Value",
+        "value": "$180.9B"
+      },
+      {
+        "label": "FCF (TTM)",
+        "value": "$16.4B"
+      },
+      {
+        "label": "EV/EBITDA",
+        "value": "14.4x"
+      },
+      {
+        "label": "Net Margin",
+        "value": "18.0%"
+      },
+      {
+        "label": "Revenue (TTM)",
+        "value": "$41.5B"
+      },
+      {
+        "label": "Net Income (TTM)",
+        "value": "$7.5B"
+      },
+      {
+        "label": "P/E",
+        "value": "24.0x"
+      },
+      {
+        "label": "Revenue Growth YoY",
+        "value": "+12.1%"
+      },
+      {
+        "label": "ROIC",
+        "value": "12.5%"
+      }
+    ]
+  },
+  "executiveSummary": {
+    "summaryParagraphs": [
+      "Salesforce has undergone a structural reset over the past three years, moving from a growth-first software platform to a far more disciplined, margin-focused cash generator. Revenue reached $41.5B in FY26, while operating margins expanded sharply and free cash flow accelerated to levels that now rank among the strongest in large-cap enterprise software.",
+      "The central investment case is that the market is still valuing Salesforce as a maturing SaaS company with uncertain AI optionality rather than as a high-quality platform with durable cash generation, modest leverage, and a potentially meaningful ARPU expansion vector through Agentforce. At current levels, the valuation does not appear to fully reflect either the improved financial model or the embedded buyback support."
+    ],
+    "catalysts": [
+      "Agentforce monetization could become the first major ARPU expansion engine since Slack, especially if adoption broadens across Sales Cloud, Service Cloud, and Platform.",
+      "The $25B accelerated share repurchase launched in March 2026 signals management conviction that the stock is materially undervalued.",
+      "Operating leverage remains strong, with four consecutive EPS beats and continued margin expansion supporting FY27 earnings growth."
+    ],
+    "primaryRisks": [
+      "Macro softness could pressure enterprise IT budgets, especially in financial services and technology verticals where Salesforce has meaningful exposure.",
+      "Microsoft Dynamics and Copilot represent the clearest competitive bundling threat for customers already standardized on Microsoft ecosystems.",
+      "If Agentforce adoption disappoints and revenue growth drifts below 10%, the market could re-rate the stock lower despite strong free cash flow."
+    ],
+    "valuationBridge": "Salesforce trades at a steep discount to its own history and to major software peers despite a structurally stronger margin profile, unusually high FCF yield, and multiple near-term catalysts that could support re-rating."
+  },
+  "financialPerformanceHealth": {
+    "incomeStatementAnalysis": {
+      "summaryParagraphs": [
+        "Salesforce has delivered one of the more significant margin expansion stories in large-cap software. Revenue rose steadily from FY23 through FY26, but the much more important change was the sharp increase in operating profitability as the company reset its cost structure after the Slack integration period and activist pressure.",
+        "The improvement in net income from a depressed FY23 base to $7.5B in FY26 supports the view that the current earnings profile is not cyclical in the conventional sense. Instead, it reflects a structurally more disciplined software company with high gross margins and significantly better cost conversion."
+      ],
+      "highlights": [
+        "FY26 revenue grew to $41.5B from $37.9B in FY25.",
+        "Operating margin expanded from 5.9% in FY23 to 21.5% in FY26.",
+        "Net income rose from $0.2B in FY23 to $7.5B in FY26, validating the post-integration profitability reset."
+      ],
+      "tables": [
+        {
+          "title": "Income Statement ($B)",
+          "columns": [
+            "Metric",
+            "FY23",
+            "FY24",
+            "FY25",
+            "FY26",
+            "TTM"
+          ],
+          "rows": [
+            [
+              "Total Revenue",
+              "$31.4",
+              "$34.9",
+              "$37.9",
+              "$41.5",
+              "$41.5"
+            ],
+            [
+              "Gross Profit",
+              "$23.0",
+              "$26.3",
+              "$29.3",
+              "$32.3",
+              "$32.3"
+            ],
+            [
+              "Operating Income",
+              "$1.9",
+              "$6.0",
+              "$7.7",
+              "$8.9",
+              "$8.9"
+            ],
+            [
+              "Net Income",
+              "$0.2",
+              "$4.1",
+              "$6.2",
+              "$7.5",
+              "$7.5"
+            ]
+          ]
+        },
+        {
+          "title": "Margin Analysis",
+          "columns": [
+            "Metric",
+            "FY23",
+            "FY24",
+            "FY25",
+            "FY26",
+            "TTM"
+          ],
+          "rows": [
+            [
+              "Gross Margin",
+              "73.3%",
+              "75.5%",
+              "77.2%",
+              "77.7%",
+              "77.7%"
+            ],
+            [
+              "Operating Margin",
+              "5.9%",
+              "17.2%",
+              "20.2%",
+              "21.5%",
+              "19.2%"
+            ],
+            [
+              "Net Margin",
+              "0.7%",
+              "11.9%",
+              "16.4%",
+              "18.0%",
+              "18.0%"
+            ],
+            [
+              "Revenue Growth YoY",
+              "\u2014",
+              "+11.2%",
+              "+8.7%",
+              "+9.6%",
+              "+12.1%"
+            ]
+          ]
+        }
+      ]
+    },
+    "balanceSheetAnalysis": {
+      "summaryParagraphs": [
+        "Salesforce's balance sheet still reflects the legacy of major acquisitions such as Slack, Tableau, and MuleSoft, with substantial goodwill and intangible assets. Even so, the balance sheet remains flexible because free cash flow generation is very strong and leverage remains manageable by software standards.",
+        "The increase in debt into FY26 appears tied to the financing backdrop around the $25B ASR rather than to operating stress. The more important question is not balance-sheet safety, but whether management continues to use that balance sheet in a shareholder-friendly way."
+      ],
+      "tables": [
+        {
+          "title": "Balance Sheet ($B)",
+          "columns": [
+            "Metric",
+            "FY24",
+            "FY25",
+            "FY26"
+          ],
+          "rows": [
+            [
+              "Total Assets",
+              "$99.8",
+              "$102.9",
+              "$112.3"
+            ],
+            [
+              "Total Liabilities",
+              "$40.2",
+              "$41.8",
+              "$53.2"
+            ],
+            [
+              "Total Equity",
+              "$59.6",
+              "$61.2",
+              "$59.1"
+            ],
+            [
+              "Cash & Equivalents",
+              "$8.5",
+              "$8.8",
+              "$7.3"
+            ],
+            [
+              "Total Debt",
+              "$12.6",
+              "$11.4",
+              "$17.2"
+            ],
+            [
+              "Net Debt",
+              "$4.1",
+              "$2.5",
+              "$9.8"
+            ],
+            [
+              "Debt-to-Equity",
+              "0.21x",
+              "0.19x",
+              "0.29x"
+            ]
+          ]
+        }
+      ]
+    },
+    "cashFlowReturns": {
+      "summaryParagraphs": [
+        "Free cash flow is arguably Salesforce's most underappreciated financial strength. The company has more than doubled free cash flow from FY23 to FY26 while operating with very low capital intensity, allowing a large share of operating cash flow to convert directly into owner earnings.",
+        "Return metrics have improved in parallel as net income normalized and margins rose. The key inflection is that ROIC now appears above the cost of capital, supporting the view that Salesforce is once again creating economic value rather than merely compounding revenue."
+      ],
+      "highlights": [
+        "FY26 free cash flow reached $14.4B, while TTM FCF rose further to $16.4B.",
+        "CapEx intensity declined from 2.5% of revenue in FY23 to 1.4% in FY26.",
+        "ROIC improved to roughly 12.5%, modestly above an estimated 9.5\u201310.0% WACC."
+      ],
+      "tables": [
+        {
+          "title": "Cash Flow ($B)",
+          "columns": [
+            "Metric",
+            "FY23",
+            "FY24",
+            "FY25",
+            "FY26",
+            "TTM"
+          ],
+          "rows": [
+            [
+              "Operating Cash Flow",
+              "$7.1",
+              "$10.2",
+              "$13.1",
+              "$15.0",
+              "$15.0"
+            ],
+            [
+              "Capital Expenditures",
+              "($0.8)",
+              "($0.7)",
+              "($0.7)",
+              "($0.6)",
+              "($0.6)"
+            ],
+            [
+              "Free Cash Flow",
+              "$6.3",
+              "$9.5",
+              "$12.4",
+              "$14.4",
+              "$16.4"
+            ],
+            [
+              "FCF Margin",
+              "20.1%",
+              "27.3%",
+              "32.8%",
+              "34.7%",
+              "39.5%"
+            ],
+            [
+              "CapEx % of Revenue",
+              "2.5%",
+              "2.1%",
+              "1.7%",
+              "1.4%",
+              "1.4%"
+            ]
+          ]
+        },
+        {
+          "title": "Return on Capital",
+          "columns": [
+            "Metric",
+            "FY24",
+            "FY25",
+            "FY26"
+          ],
+          "rows": [
+            [
+              "Return on Equity (ROE)",
+              "6.9%",
+              "10.1%",
+              "12.5%"
+            ],
+            [
+              "Return on Assets (ROA)",
+              "4.1%",
+              "6.0%",
+              "6.6%"
+            ],
+            [
+              "Return on Invested Capital (ROIC)",
+              "7.5%",
+              "10.5%",
+              "12.5%"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "valuation": {
+    "multiplesAnalysis": {
+      "summaryParagraphs": [
+        "Salesforce trades at one of the lowest forward valuation levels in its modern public-market history despite having a much stronger margin and cash-flow profile than it did during its earlier high-multiple era. Relative to Microsoft, ServiceNow, and Oracle, the stock screens unusually inexpensive on forward P/E, EV/EBITDA, and FCF yield.",
+        "That discount appears excessive if one assumes even modest success in AI monetization and continued margin discipline. The valuation now resembles that of a mature software company facing structural decline, which does not match the company's current financial trajectory."
+      ],
+      "tables": [
+        {
+          "title": "Valuation Multiples",
+          "columns": [
+            "Metric",
+            "CRM Current",
+            "CRM 5-Yr Avg",
+            "MSFT",
+            "NOW",
+            "ORCL"
+          ],
+          "rows": [
+            [
+              "P/E (TTM)",
+              "24.0x",
+              "55x",
+              "31x",
+              "65x",
+              "35x"
+            ],
+            [
+              "Forward P/E",
+              "12.6x",
+              "38x",
+              "24x",
+              "28x",
+              "22x"
+            ],
+            [
+              "P/S (TTM)",
+              "4.4x",
+              "8x",
+              "12x",
+              "14x",
+              "6x"
+            ],
+            [
+              "P/B",
+              "2.9x",
+              "6x",
+              "12x",
+              "25x",
+              "N/M"
+            ],
+            [
+              "EV/EBITDA",
+              "14.4x",
+              "30x",
+              "22x",
+              "40x",
+              "18x"
+            ],
+            [
+              "EV/Revenue",
+              "4.4x",
+              "8x",
+              "11x",
+              "13x",
+              "6x"
+            ],
+            [
+              "PEG Ratio",
+              "0.9x",
+              "2.5x",
+              "1.5x",
+              "1.8x",
+              "1.6x"
+            ],
+            [
+              "FCF Yield",
+              "9.3%",
+              "3.5%",
+              "2.5%",
+              "1.8%",
+              "3.0%"
+            ]
+          ]
+        }
+      ]
+    },
+    "dcfAnalysis": {
+      "summaryParagraphs": [
+        "The DCF framework uses FY26 free cash flow as the base year and assumes continued margin expansion, modest double-digit or high-single-digit revenue growth, and very low capital intensity. In the base case, this produces substantial upside relative to the current share price because the market is currently assigning very limited value to AI monetization and buyback accretion.",
+        "Even the bear case does not imply catastrophic downside unless growth decelerates more sharply and margins stall. That asymmetry is what makes the stock attractive at current levels."
+      ],
+      "assumptions": [
+        "CapEx remains around 1.5% of revenue across scenarios",
+        "WACC: 10.0% base, 9.0% bull, 11.0% bear",
+        "Terminal growth rate: 3.0% base and bull, 2.0% bear",
+        "Operating margin continues expanding toward 25\u201327% by FY30 in the base case",
+        "Revenue CAGR of roughly 9.5% in the base case"
+      ],
+      "projectionTable": {
+        "title": "DCF Projections ($B)",
+        "columns": [
+          "Metric",
+          "FY27E",
+          "FY28E"
+        ],
+        "rows": [
+          [
+            "Revenue",
+            "$46.1",
+            "$50.5"
+          ],
+          [
+            "EBITDA",
+            "$14.5",
+            "$16.4"
+          ],
+          [
+            "Free Cash Flow",
+            "$16.5",
+            "$18.5"
+          ]
+        ]
+      },
+      "scenarioTable": {
+        "title": "DCF Scenario Analysis",
+        "columns": [
+          "Scenario",
+          "Revenue CAGR",
+          "Terminal Growth",
+          "WACC",
+          "Implied Price",
+          "Upside/Downside"
+        ],
+        "rows": [
+          [
+            "Bull Case",
+            "12.0%",
+            "3.0%",
+            "9.0%",
+            "$340",
+            "+81.7%"
+          ],
+          [
+            "Base Case",
+            "9.5%",
+            "3.0%",
+            "10.0%",
+            "$265",
+            "+41.6%"
+          ],
+          [
+            "Bear Case",
+            "6.0%",
+            "2.0%",
+            "11.0%",
+            "$165",
+            "-11.9%"
+          ]
+        ]
+      }
+    },
+    "valuationConclusion": "Salesforce appears materially undervalued. The stock trades at a deep discount to historical and peer multiples despite unusually strong FCF yield, improving returns, and multiple catalysts that could support a re-rating."
+  },
+  "businessModelMoat": {
+    "segmentProfile": {
+      "summaryParagraphs": [
+        "Salesforce generates revenue across multiple cloud families, with Sales Cloud and Service Cloud still anchoring the franchise while Platform & Other has become a key integration and growth engine through Slack, MuleSoft, and Tableau. This diversified multi-cloud structure creates significant cross-sell potential and deepens customer entrenchment over time.",
+        "Agentforce is not yet a separate reporting segment, but it is increasingly being layered across the broader platform and could become an important monetization lever if enterprise adoption ramps as management expects."
+      ],
+      "segmentTable": {
+        "title": "Business Segments",
+        "columns": [
+          "Segment",
+          "FY26 Revenue",
+          "% of Total",
+          "YoY Growth",
+          "Maturity"
+        ],
+        "rows": [
+          [
+            "Sales Cloud",
+            "$7.0B",
+            "17%",
+            "+8%",
+            "Mature"
+          ],
+          [
+            "Service Cloud",
+            "$6.5B",
+            "16%",
+            "+11%",
+            "Growth"
+          ],
+          [
+            "Platform & Other",
+            "$8.5B",
+            "20%",
+            "+15%",
+            "High Growth"
+          ],
+          [
+            "Marketing & Commerce",
+            "$5.5B",
+            "13%",
+            "+7%",
+            "Mature"
+          ],
+          [
+            "Salesforce Industries / Other",
+            "$14.0B",
+            "34%",
+            "+10%",
+            "Mixed"
+          ]
+        ]
+      }
+    },
+    "economicMoatAssessment": {
+      "summaryParagraphs": [
+        "Salesforce has built a wide moat around enterprise workflow, customer-data integration, and software ecosystem lock-in. The moat is not based on a single product feature; it is based on the cumulative friction of replacing deeply embedded CRM, service, integration, analytics, and collaboration tools inside large organizations.",
+        "AppExchange, Trailhead, and the multi-product nature of the installed base create reinforcing ecosystem effects. That does not make Salesforce immune to competition, but it does make large-scale displacement slow, expensive, and organizationally difficult for most customers."
+      ],
+      "moatTable": {
+        "columns": [
+          "Moat Source",
+          "Strength",
+          "Assessment"
+        ],
+        "rows": [
+          [
+            "Brand & Reputation",
+            "Strong",
+            "Salesforce remains the default enterprise CRM reference point in large-account procurement"
+          ],
+          [
+            "Network Effects",
+            "Moderate",
+            "AppExchange ecosystem and workflow density create reinforcing data and integration benefits"
+          ],
+          [
+            "Switching Costs",
+            "Strong",
+            "Multi-cloud deployments, integrations, and process redesign make migration extremely costly"
+          ],
+          [
+            "Cost Advantages/Scale",
+            "Moderate",
+            "Scale supports heavy R&D and go-to-market spend, though cloud infrastructure is increasingly commoditized"
+          ],
+          [
+            "Intellectual Property",
+            "Moderate",
+            "Agentforce, Einstein, Data Cloud, and workflow integration create meaningful but not unassailable differentiation"
+          ],
+          [
+            "Regulatory Barriers",
+            "Weak",
+            "Compliance certifications matter, but regulation is not the primary moat source"
+          ]
+        ]
+      },
+      "overallMoatConclusion": "Salesforce appears to have a wide moat. Its strongest defenses come from switching costs, ecosystem depth, and enterprise brand strength, while its weaker areas relate to the fact that software features can be copied faster than deeply embedded workflows can be replaced."
+    }
+  },
+  "growthStrategyOutlook": {
+    "nearTermCatalysts": [
+      "Q1 FY27 earnings could reinforce the re-rating case if Salesforce delivers another beat and raises the outlook.",
+      "Agentforce paying-customer metrics and average deal sizes will be the single most scrutinized near-term data points.",
+      "Execution of the $25B ASR can materially support EPS accretion and sentiment."
+    ],
+    "mediumTermDrivers": [
+      "Data Cloud monetization could create a new usage-based revenue vector layered on top of traditional subscription models.",
+      "International expansion in EMEA and APAC remains a meaningful growth lever.",
+      "Operating margin expansion toward 25%+ by FY28 is plausible if AI tools reduce service intensity and improve productivity."
+    ],
+    "longTermOpportunities": [
+      "Autonomous enterprise workflows could expand Salesforce's relevance beyond core CRM into broader enterprise automation.",
+      "Industry-specific clouds offer a path to higher switching costs in regulated and workflow-heavy verticals.",
+      "Sustained FCF compounding could support very large shareholder returns over the next five years."
+    ],
+    "tamPositioning": {
+      "summaryParagraphs": [
+        "Salesforce already leads the global CRM market, but its total opportunity is broader than traditional CRM alone. The combination of data integration, analytics, workflow automation, and agentic AI expands the addressable market far beyond the legacy sales-automation category.",
+        "This matters because the company's upside is increasingly tied to wallet-share expansion within existing customers rather than just seat growth or headline market-share gains in traditional CRM."
+      ],
+      "highlights": [
+        "Core CRM TAM remains large, with Salesforce already holding a leading share.",
+        "Middleware and data-integration markets remain strategically important through MuleSoft and Data Cloud.",
+        "Analytics and BI remain complementary but competitive markets through Tableau.",
+        "Agentic enterprise automation may become the largest long-term opportunity if enterprise adoption broadens."
+      ]
+    }
+  },
+  "managementGovernance": {
+    "leadership": {
+      "summaryParagraphs": [
+        "Marc Benioff remains the defining strategic force behind Salesforce. His long tenure creates both continuity and concentration, but the company's recent profitability pivot suggests he has adapted to a much more disciplined operating model than the market historically associated with Salesforce.",
+        "Leadership changes in the finance function do not appear to have disrupted execution. More importantly, the board has become stronger after activist influence and governance refreshment, which reduces some of the earlier concerns around unchecked capital allocation."
+      ]
+    },
+    "capitalAllocation": {
+      "summaryParagraphs": [
+        "Salesforce's capital allocation framework has shifted materially. Earlier years were defined by aggressive, expensive M&A, while the post-activist period has been far more focused on free cash flow, margin expansion, and buybacks. The March 2026 $25B ASR is the clearest signal yet that management views the current stock price as deeply undervalued.",
+        "That shift matters because Salesforce now has the financial profile to support both investment in Agentforce and substantial capital returns without needing heroic revenue growth."
+      ],
+      "acquisitionTable": {
+        "title": "Major Acquisitions",
+        "columns": [
+          "Acquisition",
+          "Year",
+          "Deal Value",
+          "Strategic Rationale",
+          "Outcome Assessment"
+        ],
+        "rows": [
+          [
+            "Slack Technologies",
+            "FY22",
+            "$27.7B",
+            "Add enterprise collaboration layer and messaging workflow to the platform",
+            "Mixed \u2013 integration was slower than expected but strategically important to Agentforce"
+          ],
+          [
+            "Tableau Software",
+            "FY20",
+            "$15.7B",
+            "Expand analytics and BI capabilities across customer data",
+            "Positive \u2013 now integrated into broader data and AI architecture"
+          ],
+          [
+            "MuleSoft",
+            "FY19",
+            "$6.5B",
+            "Strengthen API integration and enterprise system connectivity",
+            "Strong \u2013 critical platform layer and important to Agentforce workflows"
+          ]
+        ]
+      }
+    },
+    "alignment": {
+      "summaryParagraphs": [
+        "Founder-led alignment remains meaningful because Marc Benioff still holds a substantial personal equity stake. Combined with the board-approved ASR and more shareholder-conscious governance structure, this creates a stronger alignment framework than the stock had during its earlier acquisition-heavy period.",
+        "Insider ownership is not the only reason to trust management, but it reinforces a broader picture of improved capital discipline and a growing willingness to act explicitly on valuation."
+      ]
+    }
+  },
+  "riskAnalysis": {
+    "riskTable": {
+      "columns": [
+        "Risk Factor",
+        "Type",
+        "Probability",
+        "Impact",
+        "Mitigation"
+      ],
+      "rows": [
+        [
+          "Agentforce adoption below guidance",
+          "Idiosyncratic",
+          "Medium",
+          "High",
+          "Monitor paying-customer additions and deal sizes to validate monetization trajectory"
+        ],
+        [
+          "Microsoft bundling pressure",
+          "Competitive",
+          "Medium",
+          "Medium",
+          "Salesforce's multi-cloud depth and ecosystem differentiation still matter for complex deployments"
+        ],
+        [
+          "ASR leverage / balance-sheet stress",
+          "Financial",
+          "Low",
+          "Medium",
+          "Strong annual FCF provides ample coverage if growth does not deteriorate sharply"
+        ],
+        [
+          "Key person / CEO succession risk",
+          "Governance",
+          "Low",
+          "High",
+          "Board strengthening and deeper executive bench help, but Benioff remains central"
+        ],
+        [
+          "Slack integration drag",
+          "Execution",
+          "Medium",
+          "Medium",
+          "Strategic value can still improve if Slack becomes foundational to AI workflows"
+        ],
+        [
+          "Enterprise IT budget recession",
+          "Macro",
+          "Medium",
+          "Medium",
+          "Multi-year contracts provide a visibility buffer, even if expansion slows"
+        ],
+        [
+          "AI commoditization",
+          "Industry",
+          "Medium",
+          "High",
+          "Data Cloud and installed customer data may help preserve differentiated AI value"
+        ],
+        [
+          "Geopolitical / trade disruption",
+          "Macro",
+          "Medium",
+          "Low-Medium",
+          "Software is less tariff-exposed, though demand can still weaken via slower global growth"
+        ]
+      ]
+    }
+  },
+  "finalRecommendation": {
+    "rating": "BUY",
+    "priceTarget": "$265",
+    "impliedUpsidePct": "+41.6%",
+    "bullBaseBear": {
+      "bull": "$340",
+      "base": "$265",
+      "bear": "$165"
+    },
+    "valuationMethodology": "60% DCF base case + 40% peer EV/EBITDA",
+    "fiveKeyMetricsToWatch": [
+      "Agentforce paying-customer growth and average deal size across Q1 and Q2 FY27",
+      "Operating margin progression toward the mid-20s as the business scales with lower headcount intensity",
+      "Free cash flow conversion and whether TTM FCF remains at or above the current $16.4B level",
+      "ASR execution cadence and resulting share-count reduction",
+      "Large-enterprise renewal health, especially in financial services and technology verticals"
+    ],
+    "ratingChangeTriggers": [
+      {
+        "action": "Upgrade to Strong Buy",
+        "direction": "\u2191",
+        "trigger": "Agentforce adoption clearly exceeds expectations and revenue reaccelerates while margins continue expanding"
+      },
+      {
+        "action": "Downgrade to Hold",
+        "direction": "\u2193",
+        "trigger": "AI monetization remains vague and revenue growth trends toward or below 8% without offsetting operating leverage"
+      },
+      {
+        "action": "Downgrade to Sell",
+        "direction": "\u2193\u2193",
+        "trigger": "Enterprise budget softness and competitive pressure drive a material growth reset while ASR-related leverage weakens balance-sheet flexibility"
+      }
+    ],
+    "closingParagraph": "Overall, Salesforce offers unusually attractive asymmetry for a large-cap software company. The financial model is stronger than the stock price implies, free cash flow is exceptionally robust, and the market appears to be assigning too little value to both Agentforce optionality and ongoing capital returns. The main question is not whether the company has improved, but how long the market will continue to ignore it."
+  },
+  "openQuestions": [
+    "How quickly can Agentforce become a measurable revenue contributor rather than a strategic narrative?",
+    "Will Platform & Other remain the highest-growth segment as Slack, MuleSoft, and Tableau become more central to AI workflows?",
+    "Can Salesforce sustain double-digit top-line growth while continuing to expand margins?",
+    "How much re-rating can the stock achieve before the market demands visible AI monetization instead of just optionality?",
+    "Will Microsoft bundling meaningfully affect net new business in M365-heavy organizations?",
+    "Can the $25B ASR meaningfully reshape EPS growth and sentiment within the next twelve months?",
+    "Does Salesforce now deserve to trade closer to mature cash-generative software peers than to slower-growth legacy enterprise names?",
+    "How durable is current FCF yield if enterprise software spending weakens in a broader macro slowdown?"
+  ]
+}

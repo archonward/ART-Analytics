@@ -1,0 +1,772 @@
+{
+  "meta": {
+    "ticker": "GS",
+    "companyName": "The Goldman Sachs Group, Inc.",
+    "exchange": "NYSE",
+    "sector": "Financials",
+    "industry": "Investment Banking & Capital Markets",
+    "reportDate": "2026-04-02",
+    "author": "ART Analytics",
+    "rating": "BUY",
+    "targetPrice": "$1020",
+    "currentPrice": "$863.04",
+    "impliedUpsidePct": "+18.2%",
+    "marketDataAsOf": "Apr 2, 2026, 8:00 PM",
+    "estimatedReadMinutes": 23,
+    "coverageStatus": "published"
+  },
+  "executiveAtAGlance": {
+    "thesisHeadline": "Goldman Sachs\u2019 refocus on institutional businesses and scaling of asset & wealth management is driving structurally higher earnings quality, with cyclical investment banking recovery providing upside to current valuation.",
+    "snapshotMetrics": [
+      {
+        "label": "Market Cap",
+        "value": "$256.1B"
+      },
+      {
+        "label": "Enterprise Value",
+        "value": "$32.7B"
+      },
+      {
+        "label": "FCF (TTM)",
+        "value": "N/A"
+      },
+      {
+        "label": "EV/EBITDA",
+        "value": "N/A"
+      },
+      {
+        "label": "Net Margin",
+        "value": "28.9%"
+      },
+      {
+        "label": "Revenue (TTM)",
+        "value": "$59.4B"
+      },
+      {
+        "label": "Net Income (TTM)",
+        "value": "$17.2B"
+      },
+      {
+        "label": "P/E",
+        "value": "16.8x"
+      },
+      {
+        "label": "Revenue Growth YoY",
+        "value": "+15.2%"
+      },
+      {
+        "label": "ROIC",
+        "value": "13.8%"
+      }
+    ]
+  },
+  "executiveSummary": {
+    "summaryParagraphs": [
+      "Goldman Sachs has re-centered its business model around institutional banking and asset & wealth management after exiting consumer banking, resulting in record FY2025 earnings and improved margin profile.",
+      "The investment case is supported by a cyclical recovery in investment banking activity combined with a structural shift toward higher-quality fee-based revenues from asset and wealth management."
+    ],
+    "catalysts": [
+      "Q1 2026 earnings momentum driven by strong FICC and equities trading activity.",
+      "Reactivation of M&A and equity capital markets pipeline as rates stabilize.",
+      "Scaling of Asset & Wealth Management driving recurring fee revenue growth."
+    ],
+    "primaryRisks": [
+      "High volatility in trading revenues tied to macro conditions.",
+      "Regulatory capital requirements may constrain capital return.",
+      "Competition in private credit and alternative asset markets."
+    ],
+    "valuationBridge": "Goldman Sachs trades below intrinsic value due to market underestimation of earnings durability and cyclical recovery potential."
+  },
+  "financialPerformanceHealth": {
+    "incomeStatementAnalysis": {
+      "summaryParagraphs": [
+        "Goldman Sachs delivered its strongest earnings year on record in FY2025. Revenue rose to $58.3B from $53.5B in FY2024, while net income increased to $17.2B from $14.3B. The improvement reflected normalization in trading activity, stronger advisory and underwriting conditions, and a cleaner cost base after the consumer banking exit.",
+        "Trailing twelve-month revenue reached $59.4B entering Q1 2026, suggesting the recovery remains intact. Gross profit and operating income are not disclosed in the same industrial-style format across historical periods, so the report relies on locked TTM margin data for those estimates."
+      ],
+      "highlights": [
+        "FY2025 net income grew 20.3% year over year to $17.2B.",
+        "TTM gross margin was 82.9%, while TTM operating margin was 38.3%.",
+        "Net margin improved from 18.4% in FY2023 to 29.5% in FY2025 as consumer banking drag rolled off."
+      ],
+      "tables": [
+        {
+          "title": "Income Statement ($B)",
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025",
+            "TTM"
+          ],
+          "rows": [
+            [
+              "Total Revenue",
+              "$47.4",
+              "$46.3",
+              "$53.5",
+              "$58.3",
+              "$59.4"
+            ],
+            [
+              "Gross Profit",
+              "On file",
+              "On file",
+              "On file",
+              "On file",
+              "$49.2"
+            ],
+            [
+              "Operating Income",
+              "On file",
+              "On file",
+              "On file",
+              "On file",
+              "$22.8"
+            ],
+            [
+              "Net Income",
+              "$11.3",
+              "$8.5",
+              "$14.3",
+              "$17.2",
+              "$17.2"
+            ]
+          ]
+        },
+        {
+          "title": "Margin Analysis",
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025",
+            "TTM"
+          ],
+          "rows": [
+            [
+              "Gross Margin",
+              "On file",
+              "On file",
+              "On file",
+              "On file",
+              "82.9%"
+            ],
+            [
+              "Operating Margin",
+              "On file",
+              "On file",
+              "On file",
+              "On file",
+              "38.3%"
+            ],
+            [
+              "Net Margin",
+              "23.8%",
+              "18.4%",
+              "26.7%",
+              "29.5%",
+              "28.9%"
+            ],
+            [
+              "Revenue Growth YoY",
+              "On file",
+              "-2.3%",
+              "+15.7%",
+              "+8.9%",
+              "+15.2%"
+            ]
+          ]
+        }
+      ]
+    },
+    "balanceSheetAnalysis": {
+      "summaryParagraphs": [
+        "Goldman Sachs entered 2026 with a balance sheet typical of a global systemically important bank. Total assets reached $1.81T in FY2025, while total equity stood at $125.0B. The firm remains highly leveraged in absolute terms, but that is inherent to the intermediary model and should be assessed through capital adequacy rather than industrial debt metrics.",
+        "Cash and equivalents declined from FY2023 levels as the firm deployed capital into higher-yielding assets and funding activities, but the balance sheet still reflects substantial liquidity and a well-capitalized position."
+      ],
+      "tables": [
+        {
+          "title": "Balance Sheet ($B)",
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025"
+          ],
+          "rows": [
+            [
+              "Total Assets",
+              "$1,441.8",
+              "$1,641.6",
+              "$1,676.0",
+              "$1,809.3"
+            ],
+            [
+              "Total Liabilities",
+              "$1,324.6",
+              "$1,524.7",
+              "$1,554.0",
+              "$1,684.3"
+            ],
+            [
+              "Total Equity",
+              "$117.2",
+              "$116.9",
+              "$122.0",
+              "$125.0"
+            ],
+            [
+              "Cash & Equivalents",
+              "$241.8",
+              "$241.6",
+              "$182.1",
+              "$164.3"
+            ],
+            [
+              "Total Debt",
+              "$324.2",
+              "$333.2",
+              "$342.6",
+              "$386.2"
+            ],
+            [
+              "Net Debt",
+              "$82.4",
+              "$91.6",
+              "$160.5",
+              "$221.9"
+            ],
+            [
+              "Debt-to-Equity",
+              "2.77x",
+              "2.85x",
+              "2.81x",
+              "3.09x"
+            ]
+          ]
+        }
+      ]
+    },
+    "cashFlowReturns": {
+      "summaryParagraphs": [
+        "Reported operating cash flow is not analytically comparable to industrial free cash flow for a bank holding company because trading-book assets, collateral movements, and client receivables can materially distort period-to-period cash generation. Goldman Sachs posted negative operating cash flow in FY2023, FY2024, and FY2025 despite strong accounting earnings.",
+        "The more useful return lens is capital productivity. ROE, ROA, and ROIC all improved sharply from FY2023 trough levels, supporting the view that the post-consumer-banking Goldman Sachs franchise is earning above its cost of equity."
+      ],
+      "highlights": [
+        "Capital expenditures declined from $3.7B in FY2022 to $2.1B in FY2025.",
+        "Reported free cash flow is not meaningful for Goldman Sachs because it is heavily affected by trading-book movements.",
+        "ROE improved from 7.2% in FY2023 to 13.8% in FY2025, while ROIC reached 13.8%."
+      ],
+      "tables": [
+        {
+          "title": "Cash Flow ($B)",
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025"
+          ],
+          "rows": [
+            [
+              "Operating Cash Flow",
+              "$8.7",
+              "-$12.6",
+              "-$13.2",
+              "-$45.2"
+            ],
+            [
+              "Capital Expenditures",
+              "-$3.7",
+              "-$2.3",
+              "-$2.1",
+              "-$2.1"
+            ],
+            [
+              "Reported Free Cash Flow",
+              "$5.0",
+              "-$14.9",
+              "-$15.3",
+              "-$47.2"
+            ],
+            [
+              "CapEx % of Revenue",
+              "7.8%",
+              "5.0%",
+              "3.9%",
+              "3.6%"
+            ]
+          ]
+        },
+        {
+          "title": "Return on Capital",
+          "columns": [
+            "Metric",
+            "FY2023",
+            "FY2024",
+            "FY2025"
+          ],
+          "rows": [
+            [
+              "Return on Equity (ROE)",
+              "7.2%",
+              "11.8%",
+              "13.8%"
+            ],
+            [
+              "Return on Assets (ROA)",
+              "0.52%",
+              "0.85%",
+              "0.95%"
+            ],
+            [
+              "Return on Invested Capital (ROIC)",
+              "7.2%",
+              "11.8%",
+              "13.8%"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "valuation": {
+    "multiplesAnalysis": {
+      "summaryParagraphs": [
+        "Goldman Sachs screens attractively on forward earnings relative to peers given its earnings recovery, improved business mix, and still-moderate valuation multiple. The most relevant public-bank comparisons are JPMorgan, Morgan Stanley, and Bank of America, while EV/EBITDA and FCF yield remain weak analytical tools for bank holding companies.",
+        "At 13.2x forward earnings, Goldman Sachs trades below Morgan Stanley and only modestly above Bank of America, despite a stronger recovery in earnings power and a high-quality franchise in advisory, trading, and alternatives."
+      ],
+      "tables": [
+        {
+          "title": "Valuation Multiples",
+          "columns": [
+            "Metric",
+            "GS Current",
+            "GS 5-Yr Avg",
+            "JPM",
+            "MS",
+            "BAC"
+          ],
+          "rows": [
+            [
+              "Trailing P/E",
+              "16.8x",
+              "12.5x",
+              "14.2x",
+              "18.5x",
+              "13.8x"
+            ],
+            [
+              "Forward P/E",
+              "13.2x",
+              "11.0x",
+              "12.5x",
+              "16.0x",
+              "12.0x"
+            ],
+            [
+              "Price / Book",
+              "2.42x",
+              "1.5x",
+              "2.3x",
+              "2.8x",
+              "1.2x"
+            ],
+            [
+              "EV / Revenue",
+              "0.55x",
+              "On file",
+              "On file",
+              "On file",
+              "On file"
+            ],
+            [
+              "PEG Ratio",
+              "1.0x",
+              "On file",
+              "1.2x",
+              "1.5x",
+              "1.1x"
+            ]
+          ]
+        }
+      ]
+    },
+    "dcfAnalysis": {
+      "summaryParagraphs": [
+        "Because Goldman Sachs is a bank holding company, a standard unlevered DCF is not the right framework. The valuation instead uses an excess-return / equity DCF approach anchored to earnings power, return on equity, and cost of equity. Under the base case, that framework supports a fair value around $1,020.",
+        "The model assumes a moderate revenue recovery in FY2026 followed by slower but still healthy growth as asset & wealth management becomes a larger share of the mix. Margin expansion is modest rather than aggressive, keeping the base case relatively conservative."
+      ],
+      "assumptions": [
+        "Revenue growth: 9.3% in FY2026E, decelerating toward 5.0% by FY2030E",
+        "Net margin expands from 29.5% in FY2026E to 31.5% by FY2030E",
+        "Sustainable ROE approaches 14.5% by FY2027E and continues improving thereafter",
+        "Cost of equity: 10.5%",
+        "Terminal growth rate: 2.5%"
+      ],
+      "projectionTable": {
+        "title": "DCF Projections ($B)",
+        "columns": [
+          "Metric",
+          "FY2026E",
+          "FY2027E",
+          "FY2028E",
+          "FY2029E",
+          "FY2030E"
+        ],
+        "rows": [
+          [
+            "Revenue",
+            "$63.7",
+            "$66.9",
+            "$70.2",
+            "$73.4",
+            "$76.3"
+          ],
+          [
+            "Net Income",
+            "$18.8",
+            "$20.1",
+            "$21.4",
+            "$22.7",
+            "$24.0"
+          ],
+          [
+            "ROE",
+            "14.2%",
+            "14.8%",
+            "15.3%",
+            "15.8%",
+            "16.3%"
+          ],
+          [
+            "Net Margin",
+            "29.5%",
+            "30.0%",
+            "30.5%",
+            "31.0%",
+            "31.5%"
+          ]
+        ]
+      },
+      "scenarioTable": {
+        "title": "DCF Scenario Analysis",
+        "columns": [
+          "Scenario",
+          "Revenue CAGR",
+          "Terminal Growth",
+          "Cost of Equity",
+          "Implied Price",
+          "Upside/Downside"
+        ],
+        "rows": [
+          [
+            "Bull Case",
+            "11.0%",
+            "3.0%",
+            "10.0%",
+            "$1,200",
+            "+39.0%"
+          ],
+          [
+            "Base Case",
+            "8.5%",
+            "2.5%",
+            "10.5%",
+            "$1,020",
+            "+18.2%"
+          ],
+          [
+            "Bear Case",
+            "4.0%",
+            "2.0%",
+            "11.5%",
+            "$700",
+            "-18.9%"
+          ]
+        ]
+      }
+    },
+    "valuationConclusion": "Goldman Sachs appears modestly undervalued with upside supported by earnings recovery and mix improvement."
+  },
+  "businessModelMoat": {
+    "segmentProfile": {
+      "summaryParagraphs": [
+        "Goldman Sachs now operates through a simplified structure centered on Global Banking & Markets and Asset & Wealth Management, with Platform Solutions materially scaled back. That portfolio shift matters because AWM carries more recurring, fee-based economics than the historically more cyclical trading and investment banking businesses.",
+        "Management\u2019s strategic objective is not to replace Global Banking & Markets, but to improve the group-level earnings mix so that the franchise receives a higher through-cycle valuation multiple."
+      ],
+      "segmentTable": {
+        "title": "Business Segments",
+        "columns": [
+          "Segment",
+          "FY2025 Revenue",
+          "% of Total",
+          "YoY Growth",
+          "Profile"
+        ],
+        "rows": [
+          [
+            "Global Banking & Markets",
+            "$38.0B",
+            "65%",
+            "+6%",
+            "Mature / cyclical revenue engine"
+          ],
+          [
+            "Asset & Wealth Management",
+            "$18.5B",
+            "32%",
+            "+16%",
+            "Growth engine; recurring fee mix"
+          ],
+          [
+            "Platform Solutions",
+            "$1.8B",
+            "3%",
+            "N/A",
+            "Winding down / declining"
+          ]
+        ]
+      }
+    },
+    "economicMoatAssessment": {
+      "summaryParagraphs": [
+        "Goldman Sachs has a durable moat built on brand, client relationships, and regulatory barriers. The franchise\u2019s advisory reputation and counterparty trust have been built over more than a century and remain difficult for competitors to replicate at scale.",
+        "The moat is strengthened by the fact that Goldman competes in markets where trust, execution history, and regulatory status matter as much as price. That creates meaningful protection even though some parts of the business remain cyclical."
+      ],
+      "moatTable": {
+        "columns": [
+          "Moat Source",
+          "Strength",
+          "Assessment"
+        ],
+        "rows": [
+          [
+            "Brand & Reputation",
+            "Strong",
+            "Top-tier global franchise in M&A, underwriting, and institutional banking"
+          ],
+          [
+            "Network Effects",
+            "Moderate",
+            "Broader client and counterparty network improves deal flow and financing reach"
+          ],
+          [
+            "Switching Costs",
+            "Strong",
+            "Long-duration banker-client relationships create meaningful switching friction"
+          ],
+          [
+            "Cost Advantages/Scale",
+            "Moderate",
+            "Large technology and trading platforms benefit from scale amortization"
+          ],
+          [
+            "Intellectual Property",
+            "Weak",
+            "Proprietary systems matter, but not as a primary moat source"
+          ],
+          [
+            "Regulatory Barriers",
+            "Strong",
+            "G-SIB status, licensing, and capital requirements create high entry barriers"
+          ]
+        ]
+      },
+      "overallMoatConclusion": "Goldman Sachs appears to have a wide moat. Its strongest defenses come from brand, relationship-based switching costs, and regulatory barriers, while its weaker areas relate to the fact that financial-services intellectual property is generally less durable than in software or industrial technology. Overall, the franchise remains one of the hardest global banking platforms to replicate."
+    }
+  },
+  "growthStrategyOutlook": {
+    "nearTermCatalysts": [
+      "Earnings beats driven by trading and IB recovery.",
+      "Improved deal activity in capital markets."
+    ],
+    "mediumTermDrivers": [
+      "Growth in Asset & Wealth Management AUM.",
+      "Expansion into private credit markets."
+    ],
+    "longTermOpportunities": [
+      "Alternatives AUM expansion.",
+      "Wealth management growth globally."
+    ],
+    "tamPositioning": {
+      "summaryParagraphs": [
+        "Goldman Sachs operates in large global financial markets with significant room for share expansion."
+      ],
+      "highlights": [
+        "M&A advisory TAM remains large globally.",
+        "Alternatives AUM growing rapidly.",
+        "Wealth management opportunity expanding."
+      ]
+    }
+  },
+  "managementGovernance": {
+    "leadership": {
+      "summaryParagraphs": [
+        "CEO David Solomon has refocused the firm on core institutional strengths after exiting consumer banking."
+      ]
+    },
+    "capitalAllocation": {
+      "summaryParagraphs": [
+        "Management\u2019s capital allocation record is mixed but improving. The Marcus consumer banking buildout was a clear misstep, yet the subsequent strategic reset was decisive, and capital has since been redirected toward higher-return institutional and asset-management activities.",
+        "Share buybacks and dividend growth have continued through the transition, suggesting management still sees the stock as an attractive use of capital even while investing in asset & wealth management expansion."
+      ],
+      "acquisitionTable": {
+        "title": "Major Initiatives",
+        "columns": [
+          "Initiative",
+          "Year",
+          "Capital Deployed",
+          "Strategic Rationale",
+          "Outcome Assessment"
+        ],
+        "rows": [
+          [
+            "Marcus Consumer Banking Buildout",
+            "2016\u20132023",
+            "$3\u20134B",
+            "Expand into mass-market consumer banking",
+            "Negative \u2013 strategic failure, later wound down"
+          ],
+          [
+            "AWM Organic Buildout",
+            "2020\u2013present",
+            "Ongoing OpEx",
+            "Scale recurring fee revenues and alternatives platform",
+            "Positive \u2013 supports earnings-mix improvement"
+          ],
+          [
+            "Share Buybacks",
+            "FY2022\u2013FY2025",
+            "$8\u201312B",
+            "Return excess capital and support EPS accretion",
+            "Positive \u2013 reduced share count"
+          ],
+          [
+            "Dividend Growth",
+            "FY2022\u2013FY2025",
+            "Recurring",
+            "Signal confidence in earnings durability",
+            "Positive \u2013 consistent shareholder return"
+          ]
+        ]
+      }
+    },
+    "alignment": {
+      "summaryParagraphs": [
+        "Compensation is aligned with ROE and shareholder returns."
+      ]
+    }
+  },
+  "riskAnalysis": {
+    "riskTable": {
+      "columns": [
+        "Risk Factor",
+        "Type",
+        "Probability",
+        "Impact",
+        "Mitigation"
+      ],
+      "rows": [
+        [
+          "Trading revenue cyclicality",
+          "Idiosyncratic",
+          "Medium",
+          "High",
+          "AWM fee growth and expense flexibility partly offset market swings"
+        ],
+        [
+          "Key talent attrition",
+          "Human Capital",
+          "Low",
+          "Medium",
+          "Deferred equity compensation and franchise prestige support retention"
+        ],
+        [
+          "Litigation / regulatory penalty",
+          "Legal",
+          "Low",
+          "Medium",
+          "Compliance controls and legal reserves reduce tail-risk severity"
+        ],
+        [
+          "Basel III Endgame / capital requirements",
+          "Regulatory",
+          "High",
+          "Medium",
+          "Existing CET1 buffer gives some room before capital return is impaired"
+        ],
+        [
+          "Recession / credit cycle downturn",
+          "Macro",
+          "Medium",
+          "High",
+          "Diversified revenue base and G-SIB balance-sheet strength provide resilience"
+        ],
+        [
+          "Tariff escalation / M&A freeze",
+          "Geopolitical",
+          "Medium",
+          "High",
+          "Trading activity may partly offset weaker advisory and underwriting"
+        ],
+        [
+          "Private credit / non-bank competition",
+          "Industry",
+          "High",
+          "Medium",
+          "GS is expanding its own private-credit capabilities and hedging products"
+        ]
+      ]
+    }
+  },
+  "finalRecommendation": {
+    "rating": "BUY",
+    "priceTarget": "$1020",
+    "impliedUpsidePct": "+18.2%",
+    "bullBaseBear": {
+      "bull": "$1200",
+      "base": "$1020",
+      "bear": "$700"
+    },
+    "valuationMethodology": "60% excess-return / equity DCF base case + 40% forward P/E",
+    "fiveKeyMetricsToWatch": [
+      "Q1 2026 EPS versus $16.07 consensus: a result above $17.00 would reinforce beat-and-raise momentum.",
+      "ROE trajectory relative to 15% target: sustained quarterly ROE above 14% supports multiple expansion.",
+      "AWM AUM and management fees: progress toward $3T AUM and a $20B+ annualized revenue run-rate matters for mix quality.",
+      "Investment banking backlog: commentary on advisory and underwriting pipeline is the leading forward revenue signal.",
+      "CET1 ratio and Basel III updates: higher capital requirements would directly affect buyback capacity."
+    ],
+    "ratingChangeTriggers": [
+      {
+        "action": "Upgrade to Strong Buy",
+        "direction": "\u2191",
+        "trigger": "FY2026 EPS trajectory rises toward $65+, ROE exceeds 16%, and M&A volumes recover sharply."
+      },
+      {
+        "action": "Downgrade to Hold",
+        "direction": "\u2193",
+        "trigger": "Two consecutive quarterly EPS misses, FY2026 EPS falls below $50, or capital requirements rise materially."
+      },
+      {
+        "action": "Downgrade to Sell",
+        "direction": "\u2193\u2193",
+        "trigger": "A recession drives sharp M&A contraction, ROE falls below 10%, and FY2026 EPS resets into the $35\u201340 range."
+      }
+    ],
+    "closingParagraph": "Overall, Goldman Sachs offers favorable risk-adjusted upside as a premier institutional bank with cleaner strategy, improving earnings mix, and meaningful leverage to a cyclical recovery in deal activity. The thesis depends on AWM scaling continuing and on FY2025 earnings quality proving durable rather than temporary."
+  },
+  "openQuestions": [
+    "Will Q1 2026 earnings confirm that Goldman Sachs can keep beating even against a higher consensus bar?",
+    "Can Asset & Wealth Management scale toward $3T in AUM without meaningful fee-margin compression?",
+    "What final form will Basel III Endgame capital rules take, and how much incremental CET1 will Goldman need?",
+    "How durable is the post-Marcus improvement in net margin if trading conditions normalize?",
+    "Can Goldman sustain 15%+ ROE through-cycle, or will that remain a peak-cycle outcome?",
+    "How much of future earnings growth depends on M&A reopening rather than structural fee-based expansion?",
+    "Will private credit become a meaningful long-term fee contributor or mainly a competitive defense?",
+    "Does the market eventually re-rate Goldman more like a diversified fee franchise than a cyclical trading bank?"
+  ]
+}

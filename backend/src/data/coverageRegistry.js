@@ -199,6 +199,78 @@ const coverageRegistry = {
        lastUpdated: '2026-04-04',
        status: 'published'
     },
+  MS: {
+         ticker: 'MS',
+         companyName: 'Morgan Stanley',
+         exchange: 'NYSE',
+         sector: 'Financial Services',
+         lastUpdated: '2026-04-04',
+         status: 'published'
+      },
+  GS: {
+       ticker: 'GS',
+       companyName: 'Goldman Sachs',
+       exchange: 'NYSE',
+       sector: 'Financial Services',
+       lastUpdated: '2026-04-04',
+       status: 'published'
+    },
+  INTC: {
+     ticker: 'INTC',
+     companyName: 'Intel Corporation',
+     exchange: 'NYSE',
+     sector: 'Technology',
+     lastUpdated: '2026-04-04',
+     status: 'published'
+  },
+  MCD: {
+         ticker: 'MCD',
+         companyName: 'MacDonalds',
+         exchange: 'NYSE',
+         sector: 'Consumer Cyclical',
+         lastUpdated: '2026-04-04',
+         status: 'published'
+   },
+  UNH: {
+       ticker: 'UNH',
+       companyName: 'United Health Group',
+       exchange: 'NYSE',
+       sector: 'Healthcare',
+       lastUpdated: '2026-04-04',
+       status: 'published'
+     },
+  PEP: {
+         ticker: 'PEP',
+         companyName: 'Pepsi Co',
+         exchange: 'NYSE',
+         sector: 'Consumer Defensive',
+         lastUpdated: '2026-04-04',
+         status: 'published'
+       },
+  TXN: {
+       ticker: 'TXN',
+       companyName: 'Texas Instruments',
+       exchange: 'NYSE',
+       sector: 'Technology',
+       lastUpdated: '2026-04-05',
+       status: 'published'
+  },
+  CRM: {
+         ticker: 'CRM',
+         companyName: 'Salesforce Inc',
+         exchange: 'NYSE',
+         sector: 'Technology',
+         lastUpdated: '2026-04-05',
+         status: 'published'
+    },
+  DIS: {
+       ticker: 'DIS',
+       companyName: 'The Walt Disney',
+       exchange: 'NYSE',
+       sector: 'Entertainment',
+       lastUpdated: '2026-04-05',
+       status: 'published'
+      },
   IBM: {
       ticker: 'IBM',
       companyName: 'International Business Machines Corporation',

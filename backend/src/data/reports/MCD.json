@@ -1,0 +1,798 @@
+{
+  "meta": {
+    "ticker": "MCD",
+    "companyName": "McDonald's Corporation",
+    "exchange": "NYSE",
+    "sector": "Consumer Discretionary",
+    "industry": "Restaurants",
+    "reportDate": "2026-04-02",
+    "author": "ART Analytics",
+    "rating": "BUY",
+    "targetPrice": "$345",
+    "currentPrice": "$307.14",
+    "impliedUpsidePct": "+12.3%",
+    "marketDataAsOf": "Apr 2, 2026, 8:00 PM",
+    "estimatedReadMinutes": 24,
+    "coverageStatus": "published"
+  },
+  "executiveAtAGlance": {
+    "thesisHeadline": "McDonald's asset-light franchise system delivers unusually resilient margins and free cash flow, while the 2026 value-menu reset offers a practical path to traffic recovery without requiring heroic growth assumptions.",
+    "snapshotMetrics": [
+      {
+        "label": "Market Cap",
+        "value": "$219.2B"
+      },
+      {
+        "label": "Enterprise Value",
+        "value": "$272.2B"
+      },
+      {
+        "label": "FCF (TTM)",
+        "value": "$6.3B"
+      },
+      {
+        "label": "EV/EBITDA",
+        "value": "18.7x"
+      },
+      {
+        "label": "Net Margin",
+        "value": "31.9%"
+      },
+      {
+        "label": "Revenue (TTM)",
+        "value": "$26.9B"
+      },
+      {
+        "label": "Net Income (TTM)",
+        "value": "$8.6B"
+      },
+      {
+        "label": "P/E",
+        "value": "25.7x"
+      },
+      {
+        "label": "Revenue Growth YoY",
+        "value": "+9.7%"
+      },
+      {
+        "label": "ROIC",
+        "value": "38%"
+      }
+    ]
+  },
+  "executiveSummary": {
+    "summaryParagraphs": [
+      "McDonald's is executing a deliberate pivot back toward value at a time when consumer wallet pressure and food inflation are reshaping quick-service demand. The franchise-heavy model gives the company unusually strong protection from commodity volatility, while refreshed value messaging aims to repair the traffic softness that weighed on recent results.",
+      "The central investment case is not aggressive unit-growth optimism. It is that McDonald's remains one of the highest-quality free-cash-flow businesses in global consumer, and the current valuation sits modestly below what that durability, dividend support, and traffic-recovery optionality justify."
+    ],
+    "catalysts": [
+      "The under-$3 menu and $4 breakfast deal could support traffic recovery among value-sensitive consumers in 2026.",
+      "Street consensus implies FY2026 EPS acceleration to $13.24, supported by margin stability and low-single-digit comp growth.",
+      "Brand and cultural marketing initiatives may improve relevance with younger consumers and support visit-frequency recovery."
+    ],
+    "primaryRisks": [
+      "Persistent beef and food-cost inflation could pressure franchisee economics and reduce royalty-quality growth.",
+      "McDonald's still needs to prove its value perception is competitive with fast-casual alternatives.",
+      "In a deep recession, consumers may trade down beyond QSR to grocery and lower-cost channels."
+    ],
+    "valuationBridge": "McDonald's looks modestly undervalued because the market is discounting recent traffic softness more heavily than the resilience of its franchise economics, free cash flow profile, and ability to defend margins through a value-led reset."
+  },
+  "financialPerformanceHealth": {
+    "incomeStatementAnalysis": {
+      "summaryParagraphs": [
+        "Revenue growth reaccelerated in the trailing twelve-month period, supported by continued unit expansion and normalization of the post-refranchising revenue base. More importantly, operating margins have remained structurally high because the business is overwhelmingly franchise-operated rather than company-operated.",
+        "Net income dipped modestly in FY2024 versus FY2023 due largely to higher interest expense on the company's sizable debt stack. That pressure is real, but it has not disrupted the broader picture of strong normalized profitability."
+      ],
+      "highlights": [
+        "TTM revenue grew 9.7% year over year to $26.9B.",
+        "TTM gross margin was 57.4%, while TTM operating margin remained elevated at 45.1%.",
+        "Normalized net margins have remained above 31% since FY2021 outside of the FY2022 tax-related distortion."
+      ],
+      "tables": [
+        {
+          "title": "Income Statement ($B)",
+          "columns": [
+            "Metric",
+            "FY2021",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "TTM"
+          ],
+          "rows": [
+            [
+              "Total Revenue",
+              "$23.2",
+              "$23.2",
+              "$25.5",
+              "$25.9",
+              "$26.9"
+            ],
+            [
+              "Gross Profit",
+              "$12.6",
+              "$13.2",
+              "$14.6",
+              "$14.7",
+              "$15.4"
+            ],
+            [
+              "Operating Income",
+              "$9.9",
+              "$10.3",
+              "$11.7",
+              "$11.9",
+              "$12.1"
+            ],
+            [
+              "Net Income",
+              "$7.5",
+              "$6.2",
+              "$8.5",
+              "$8.2",
+              "$8.6"
+            ]
+          ]
+        },
+        {
+          "title": "Margin Analysis",
+          "columns": [
+            "Metric",
+            "FY2021",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "TTM"
+          ],
+          "rows": [
+            [
+              "Gross Margin",
+              "54.2%",
+              "57.0%",
+              "57.1%",
+              "56.8%",
+              "57.4%"
+            ],
+            [
+              "Operating Margin",
+              "42.5%",
+              "44.6%",
+              "46.1%",
+              "45.7%",
+              "45.1%"
+            ],
+            [
+              "Net Margin",
+              "32.5%",
+              "26.6%",
+              "33.2%",
+              "31.7%",
+              "31.9%"
+            ],
+            [
+              "Revenue Growth YoY",
+              "\u2014",
+              "+0.2%",
+              "+10.0%",
+              "+1.7%",
+              "+9.7%"
+            ]
+          ]
+        }
+      ]
+    },
+    "balanceSheetAnalysis": {
+      "summaryParagraphs": [
+        "McDonald's balance sheet is unusual because aggressive shareholder returns have pushed book equity negative. That does not signal operating distress; rather, it reflects a capital structure designed around durable franchise cash flows, dividends, and repurchases.",
+        "Debt remains significant in absolute terms, but it is supported by predictable royalty and rental streams. The key balance-sheet issue is not solvency in a normal environment, but interest-rate sensitivity when refinancing a large debt base."
+      ],
+      "tables": [
+        {
+          "title": "Balance Sheet ($B)",
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024"
+          ],
+          "rows": [
+            [
+              "Total Assets",
+              "$50.4",
+              "$56.1",
+              "$55.2"
+            ],
+            [
+              "Total Liabilities",
+              "$56.4",
+              "$60.9",
+              "$59.0"
+            ],
+            [
+              "Total Equity",
+              "-$6.0",
+              "-$4.7",
+              "-$3.8"
+            ],
+            [
+              "Cash & Equivalents",
+              "$2.6",
+              "$4.6",
+              "$1.1"
+            ],
+            [
+              "Total Debt",
+              "$48.7",
+              "$53.1",
+              "$51.9"
+            ],
+            [
+              "Net Debt",
+              "$46.1",
+              "$48.5",
+              "$50.9"
+            ],
+            [
+              "Net Debt / EBITDA",
+              "3.2x",
+              "3.3x",
+              "3.5x"
+            ]
+          ]
+        }
+      ]
+    },
+    "cashFlowReturns": {
+      "summaryParagraphs": [
+        "McDonald's remains one of the strongest free-cash-flow generators in global restaurants. Free cash flow averaged roughly $6.5B annually over FY2021\u2013FY2024, and even with elevated modernization capex, the business still produced $6.3B of TTM free cash flow.",
+        "Return metrics are exceptional. ROIC has remained in the mid-30s or better, which helps explain why the company can support premium valuation multiples despite modest top-line growth."
+      ],
+      "highlights": [
+        "TTM free cash flow was $6.3B, equivalent to a 23.4% FCF margin.",
+        "CapEx intensity rose meaningfully through FY2024 as McDonald's invested in modernization and digital infrastructure.",
+        "ROIC in the 34\u201338% range remains among the strongest in large-cap consumer."
+      ],
+      "tables": [
+        {
+          "title": "Cash Flow ($B)",
+          "columns": [
+            "Metric",
+            "FY2021",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "TTM"
+          ],
+          "rows": [
+            [
+              "Operating Cash Flow",
+              "$9.1",
+              "$7.4",
+              "$9.6",
+              "$9.4",
+              "$9.9"
+            ],
+            [
+              "Capital Expenditures",
+              "-$2.0",
+              "-$1.9",
+              "-$2.4",
+              "-$2.8",
+              "-$3.1"
+            ],
+            [
+              "Free Cash Flow",
+              "$7.1",
+              "$5.5",
+              "$7.3",
+              "$6.7",
+              "$6.3"
+            ],
+            [
+              "FCF Margin",
+              "30.6%",
+              "23.7%",
+              "28.5%",
+              "25.7%",
+              "23.4%"
+            ],
+            [
+              "FCF per Share",
+              "$9.93",
+              "$7.67",
+              "$10.08",
+              "$9.37",
+              "$8.84"
+            ]
+          ]
+        },
+        {
+          "title": "Return on Capital",
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024"
+          ],
+          "rows": [
+            [
+              "Return on Equity (ROE)",
+              "N/M",
+              "N/M",
+              "N/M"
+            ],
+            [
+              "Return on Assets (ROA)",
+              "11.9%",
+              "14.8%",
+              "14.7%"
+            ],
+            [
+              "Return on Invested Capital (ROIC)",
+              "34%",
+              "38%",
+              "37%"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "valuation": {
+    "multiplesAnalysis": {
+      "summaryParagraphs": [
+        "McDonald's most relevant public comparables are Restaurant Brands International, Yum! Brands, and Starbucks. On forward earnings, McDonald's trades below its own recent historical average even though its franchise quality and defensive cash-generation profile remain intact.",
+        "The stock is not cheap in absolute terms, but it looks modestly attractive relative to its own history, to its free-cash-flow quality, and to the risk-off premium the market typically gives the business."
+      ],
+      "tables": [
+        {
+          "title": "Valuation Multiples",
+          "columns": [
+            "Metric",
+            "MCD Current",
+            "MCD 5-Yr Avg",
+            "Industry Avg",
+            "QSR",
+            "YUM",
+            "SBUX"
+          ],
+          "rows": [
+            [
+              "Trailing P/E",
+              "25.7x",
+              "25.0x",
+              "23.0x",
+              "20.0x",
+              "22.0x",
+              "28.0x"
+            ],
+            [
+              "Forward P/E",
+              "21.4x",
+              "24.5x",
+              "21.0x",
+              "17.5x",
+              "19.0x",
+              "24.0x"
+            ],
+            [
+              "EV/Revenue",
+              "10.1x",
+              "9.5x",
+              "7.0x",
+              "8.5x",
+              "7.8x",
+              "3.8x"
+            ],
+            [
+              "EV/EBITDA",
+              "18.7x",
+              "19.0x",
+              "17.0x",
+              "16.5x",
+              "16.0x",
+              "17.5x"
+            ],
+            [
+              "PEG Ratio",
+              "2.5x",
+              "2.8x",
+              "2.2x",
+              "2.0x",
+              "2.1x",
+              "2.6x"
+            ],
+            [
+              "FCF Yield",
+              "2.9%",
+              "2.3%",
+              "2.5%",
+              "3.2%",
+              "2.8%",
+              "1.9%"
+            ]
+          ]
+        }
+      ]
+    },
+    "dcfAnalysis": {
+      "summaryParagraphs": [
+        "The DCF assumes McDonald's can continue compounding modestly without needing outsized unit growth. Revenue is anchored to consensus in the first two forecast years, while margins remain strong but face slight pressure from value-oriented promotions and digital reinvestment.",
+        "Under those assumptions, intrinsic value comes out above the current share price but not by a huge margin. This is a quality-compounder valuation case rather than a deep-discount case."
+      ],
+      "assumptions": [
+        "Revenue growth: +6.9% in FY2026E and +5.6% in FY2027E, decelerating thereafter",
+        "Operating margin held around 44.5% through FY2028 before modest normalization",
+        "CapEx remains at 10.5% of revenue in FY2026\u2013FY2027 before easing toward 9.0%",
+        "WACC: 9.5%",
+        "Terminal growth rate: 2.5%"
+      ],
+      "projectionTable": {
+        "title": "DCF Projections ($B)",
+        "columns": [
+          "Metric",
+          "FY2026E",
+          "FY2027E",
+          "FY2028E",
+          "FY2029E",
+          "FY2030E"
+        ],
+        "rows": [
+          [
+            "Revenue",
+            "$28.7",
+            "$30.4",
+            "$31.9",
+            "$33.1",
+            "$34.1"
+          ],
+          [
+            "EBITDA",
+            "$14.8",
+            "$15.7",
+            "$16.3",
+            "$16.9",
+            "$17.4"
+          ],
+          [
+            "Free Cash Flow",
+            "$6.4",
+            "$7.0",
+            "$7.5",
+            "$8.0",
+            "$8.4"
+          ]
+        ]
+      },
+      "scenarioTable": {
+        "title": "DCF Scenario Analysis",
+        "columns": [
+          "Scenario",
+          "Revenue CAGR",
+          "Terminal Growth",
+          "WACC",
+          "Implied Price",
+          "Upside/Downside"
+        ],
+        "rows": [
+          [
+            "Bull Case",
+            "7.5%",
+            "3.0%",
+            "8.5%",
+            "$407",
+            "+32.5%"
+          ],
+          [
+            "Base Case",
+            "5.5%",
+            "2.5%",
+            "9.5%",
+            "$345",
+            "+12.3%"
+          ],
+          [
+            "Bear Case",
+            "2.5%",
+            "1.5%",
+            "10.5%",
+            "$265",
+            "-13.7%"
+          ]
+        ]
+      }
+    },
+    "valuationConclusion": "McDonald's appears modestly undervalued. The discount to fair value is not wide, but it is supported by forward P/E below the recent historical average, a healthy free-cash-flow yield relative to its own norm, and a credible near-term catalyst in traffic recovery."
+  },
+  "businessModelMoat": {
+    "segmentProfile": {
+      "summaryParagraphs": [
+        "McDonald's is not just a restaurant company; it is a brand-and-real-estate royalty platform built on a predominantly franchised model. That structure creates high margins, resilient cash generation, and lower commodity exposure than traditional restaurant operators.",
+        "The most important economic distinction is that franchised revenue streams carry far higher margin profiles than company-operated store sales. As a result, even slow revenue growth can still produce strong shareholder returns."
+      ],
+      "segmentTable": {
+        "title": "Business Segments",
+        "columns": [
+          "Revenue Stream",
+          "FY2024 Revenue",
+          "% of Total",
+          "YoY Growth",
+          "Margin Profile"
+        ],
+        "rows": [
+          [
+            "Franchised Restaurant Revenues",
+            "$15.5B",
+            "60%",
+            "+3%",
+            "Very high"
+          ],
+          [
+            "Company-Operated Restaurant Sales",
+            "$8.9B",
+            "34%",
+            "0%",
+            "Low"
+          ],
+          [
+            "Developmental Licensee & Affiliate Fees",
+            "$1.5B",
+            "6%",
+            "+5%",
+            "High"
+          ]
+        ]
+      }
+    },
+    "economicMoatAssessment": {
+      "summaryParagraphs": [
+        "McDonald's has one of the clearest wide moats in global consumer. The company combines brand ubiquity, real-estate control, supply-chain scale, franchising economics, and location density in a way that very few restaurant systems can approach.",
+        "Importantly, the moat is not based on patents or novel technology. It is based on repeatability, purchasing power, operator alignment, and decades of embedded consumer habit."
+      ],
+      "moatTable": {
+        "columns": [
+          "Moat Source",
+          "Strength",
+          "Assessment"
+        ],
+        "rows": [
+          [
+            "Brand & Reputation",
+            "Strong",
+            "Globally recognized consumer brand with decades of advertising reinforcement"
+          ],
+          [
+            "Network Effects",
+            "Moderate",
+            "Dense restaurant footprint reinforces convenience and visit frequency"
+          ],
+          [
+            "Switching Costs",
+            "Moderate",
+            "Franchisee lease and royalty structure creates operator stickiness"
+          ],
+          [
+            "Cost Advantages/Scale",
+            "Strong",
+            "Purchasing power and marketing scale outperform regional competitors"
+          ],
+          [
+            "Intellectual Property",
+            "Weak",
+            "Recipes and formats matter, but IP is not the main moat source"
+          ],
+          [
+            "Regulatory Barriers",
+            "Weak",
+            "Entry barriers are mostly economic and brand-driven rather than regulatory"
+          ]
+        ]
+      },
+      "overallMoatConclusion": "McDonald's appears to have a wide moat. Its strongest advantages come from brand strength, scale economics, and the landlord-franchise model that aligns operator incentives while protecting corporate margins. No comparable global QSR chain has meaningfully displaced that position over a long cycle."
+    }
+  },
+  "growthStrategyOutlook": {
+    "nearTermCatalysts": [
+      "The under-$3 menu and $4 breakfast deal could improve traffic and rebuild value perception.",
+      "Q1 2026 earnings will provide the first clean read on whether the value relaunch is driving traffic recovery.",
+      "Consumer-facing marketing campaigns aimed at younger cohorts may strengthen relevance and visit frequency."
+    ],
+    "mediumTermDrivers": [
+      "Loyalty-program monetization and targeted digital offers remain underexploited levers.",
+      "International expansion in underpenetrated markets can support steady system growth.",
+      "CosMc's and beverage-led format experimentation may expand McDonald's reach into new dayparts."
+    ],
+    "longTermOpportunities": [
+      "AI-driven personalization in drive-through and app ordering could improve throughput and ticket size.",
+      "Emerging-market QSR adoption remains a long-run system-sales growth driver.",
+      "Menu evolution tied to sustainability and changing consumer preferences could support brand durability."
+    ],
+    "tamPositioning": {
+      "summaryParagraphs": [
+        "McDonald's operates against a very large global quick-service TAM, with current system-wide sales already representing unusually high global share for a single brand. That means future growth will depend less on defending core scale and more on expanding into adjacent dayparts, channels, and geographies.",
+        "The company still has room to deepen share in breakfast, digital delivery, and beverages, which together offer meaningful incremental opportunity without requiring a radically different operating model."
+      ],
+      "highlights": [
+        "Global QSR TAM is roughly $500\u2013600B, with McDonald's already holding substantial share.",
+        "Breakfast remains an important whitespace opportunity relative to McDonald's current position.",
+        "Digital ordering and delivery create an incremental revenue layer at scale.",
+        "Beverage and snacking formats provide optionality beyond core lunch and dinner traffic."
+      ]
+    }
+  },
+  "managementGovernance": {
+    "leadership": {
+      "summaryParagraphs": [
+        "Leadership continuity is an advantage for McDonald's. Chris Kempczinski remains Chairman and CEO, while Ian Borden serves as Global CFO, giving the company an experienced senior team that has already navigated inflation, digital modernization, and the ongoing Accelerating the Arches strategy.",
+        "Management appears appropriately focused on operational execution rather than empire building. That fits the needs of a mature franchise platform where incremental value comes from brand stewardship, system health, disciplined reinvestment, and capital returns."
+      ]
+    },
+    "capitalAllocation": {
+      "summaryParagraphs": [
+        "McDonald's capital allocation is among the strongest in large-cap consumer. The company has consistently reinvested in restaurant modernization, maintained a long dividend-growth history, and used excess free cash flow for share repurchases without pursuing major value-destructive acquisitions.",
+        "The negative-equity balance sheet should be viewed in that context: it is the cumulative result of years of capital return rather than a sign of underlying business weakness."
+      ],
+      "acquisitionTable": {
+        "title": "Capital Allocation Priorities",
+        "columns": [
+          "Priority",
+          "FY2022",
+          "FY2023",
+          "FY2024",
+          "Outcome Assessment"
+        ],
+        "rows": [
+          [
+            "CapEx / Reinvestment",
+            "$1.9B",
+            "$2.4B",
+            "$2.8B",
+            "Positive \u2013 supports modernization and digital infrastructure"
+          ],
+          [
+            "Dividends",
+            "$4.5B",
+            "$4.8B",
+            "$5.0B",
+            "Positive \u2013 consistent shareholder return"
+          ],
+          [
+            "Share Repurchases",
+            "$1.5B",
+            "$2.0B",
+            "$1.5B",
+            "Positive \u2013 moderate buybacks despite leverage"
+          ],
+          [
+            "M&A",
+            "Minimal",
+            "Minimal",
+            "Minimal",
+            "Positive \u2013 disciplined, no major distracting deals"
+          ]
+        ]
+      }
+    },
+    "alignment": {
+      "summaryParagraphs": [
+        "Insider ownership is relatively low, which is normal for a company of this size. Alignment comes more from performance-linked compensation, a long track record of shareholder-friendly capital allocation, and significant scrutiny from high-quality institutional holders than from insider percentage ownership alone.",
+        "That governance setup is credible for a mature defensive compounder. It is not founder-led alignment, but it is still strong enough to support confidence in the capital-allocation framework."
+      ]
+    }
+  },
+  "riskAnalysis": {
+    "riskTable": {
+      "columns": [
+        "Risk Factor",
+        "Type",
+        "Probability",
+        "Impact",
+        "Mitigation"
+      ],
+      "rows": [
+        [
+          "Persistent beef and food cost inflation",
+          "Input Cost",
+          "High",
+          "Medium",
+          "Menu mix adjustments and supply-chain diversification"
+        ],
+        [
+          "Value-menu cannibalization",
+          "Commercial",
+          "Medium",
+          "Medium",
+          "Tiered pricing and combo upsell architecture"
+        ],
+        [
+          "Franchisee profitability deterioration",
+          "Business",
+          "Low",
+          "High",
+          "Operational support and pricing flexibility"
+        ],
+        [
+          "Food safety or brand incident",
+          "Operational",
+          "Low",
+          "High",
+          "Supplier audits, crisis protocols, and system controls"
+        ],
+        [
+          "Recession-driven consumer trade-down beyond QSR",
+          "Macro",
+          "Medium",
+          "Medium",
+          "Value positioning historically provides some resilience"
+        ],
+        [
+          "Labor-cost escalation",
+          "Industry",
+          "High",
+          "Medium",
+          "Franchise model and automation investments soften corporate impact"
+        ],
+        [
+          "Strong U.S. dollar pressure on international royalties",
+          "Macro",
+          "Medium",
+          "Medium",
+          "Global footprint and hedging partially offset FX swings"
+        ],
+        [
+          "Fast-casual share erosion",
+          "Competitive",
+          "Medium",
+          "Low",
+          "Scale, convenience, and value messaging remain structural advantages"
+        ]
+      ]
+    }
+  },
+  "finalRecommendation": {
+    "rating": "BUY",
+    "priceTarget": "$345",
+    "impliedUpsidePct": "+12.3%",
+    "bullBaseBear": {
+      "bull": "$407",
+      "base": "$345",
+      "bear": "$265"
+    },
+    "valuationMethodology": "60% DCF base case + 40% peer NTM EV/EBITDA",
+    "fiveKeyMetricsToWatch": [
+      "Q1 2026 traffic response to the value-menu reset and whether comparable sales inflect positively.",
+      "FY2026 EPS progression toward the roughly $13.24 Street view.",
+      "Franchisee profitability under sustained beef and food-cost inflation.",
+      "Free cash flow durability as modernization CapEx remains elevated.",
+      "Digital loyalty monetization and app-driven order growth."
+    ],
+    "ratingChangeTriggers": [
+      {
+        "action": "Upgrade to Strong Buy",
+        "direction": "\u2191",
+        "trigger": "Traffic recovery clearly exceeds expectations, comps reaccelerate above 3%, and forward P/E remains below historical norms."
+      },
+      {
+        "action": "Downgrade to Hold",
+        "direction": "\u2193",
+        "trigger": "Value-menu promotions drive weak traffic conversion, or franchisee economics deteriorate enough to pressure the royalty model."
+      },
+      {
+        "action": "Downgrade to Sell",
+        "direction": "\u2193\u2193",
+        "trigger": "Comp sales weaken materially, margin pressure becomes structural, and intrinsic value compresses toward the bear-case range."
+      }
+    ],
+    "closingParagraph": "Overall, McDonald's offers attractive risk-adjusted upside for investors seeking durable free cash flow, defensive consumer positioning, and a high-quality franchise model. The case is not about explosive growth. It is about paying a reasonable price for one of the most resilient business models in global consumer."
+  },
+  "openQuestions": [
+    "Will the value-menu relaunch convert consumer interest into measurable traffic recovery by mid-2026?",
+    "Can McDonald's protect franchisee profitability if beef inflation stays elevated longer than expected?",
+    "How much of future same-store sales growth will come from traffic versus pricing?",
+    "Will digital loyalty and personalized offers become a more meaningful earnings lever over the next two years?",
+    "How scalable is CosMc's or a broader beverage-led adjacency strategy?",
+    "Can McDonald's sustain ROIC at current levels while continuing elevated modernization CapEx?",
+    "Will fast-casual chains continue winning younger higher-income consumers, or can McDonald's narrow the value-perception gap?",
+    "How much refinancing sensitivity is embedded in the current debt structure if rates remain higher for longer?"
+  ]
+}

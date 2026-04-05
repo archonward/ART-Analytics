@@ -1,0 +1,773 @@
+{
+  "meta": {
+    "ticker": "TXN",
+    "companyName": "Texas Instruments Incorporated",
+    "exchange": "NYSE",
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "reportDate": "2026-04-02",
+    "author": "ART Analytics",
+    "rating": "HOLD",
+    "targetPrice": "$222",
+    "currentPrice": "$194.87",
+    "impliedUpsidePct": "+13.9%",
+    "marketDataAsOf": "Apr 2, 2026, 8:00 PM",
+    "estimatedReadMinutes": 23,
+    "coverageStatus": "published"
+  },
+  "executiveAtAGlance": {
+    "thesisHeadline": "Texas Instruments is a structurally superior analog franchise with unmatched manufacturing scale and durable industrial and automotive exposure, but the current valuation already assumes a meaningful recovery in free cash flow and margin utilization.",
+    "snapshotMetrics": [
+      {
+        "label": "Market Cap",
+        "value": "$177.4B"
+      },
+      {
+        "label": "Enterprise Value",
+        "value": "$186.8B"
+      },
+      {
+        "label": "FCF (TTM)",
+        "value": "-$0.3B"
+      },
+      {
+        "label": "EV/EBITDA",
+        "value": "23.2x"
+      },
+      {
+        "label": "Net Margin",
+        "value": "28.3%"
+      },
+      {
+        "label": "Revenue (TTM)",
+        "value": "$17.7B"
+      },
+      {
+        "label": "Net Income (TTM)",
+        "value": "$5.0B"
+      },
+      {
+        "label": "P/E",
+        "value": "35.7x"
+      },
+      {
+        "label": "Revenue Growth YoY",
+        "value": "+10.4%"
+      },
+      {
+        "label": "ROIC",
+        "value": "14.2%"
+      }
+    ]
+  },
+  "executiveSummary": {
+    "summaryParagraphs": [
+      "Texas Instruments remains the strongest scaled analog semiconductor franchise in the market, with deep exposure to industrial and automotive end-markets and a long-standing strategy built around owned manufacturing, broad product breadth, and disciplined capital returns. After the 2022 peak and the 2023\u20132024 inventory correction, revenue recovery is underway, but profitability remains meaningfully below prior-cycle highs because new capacity is being absorbed slowly.",
+      "The central investment case is that Texas Instruments should emerge from the current cycle with an even stronger long-term cost position, but the stock already discounts a good portion of that outcome. At current multiples, investors are paying in advance for free-cash-flow normalization, margin recovery, and a smooth integration of the newly disclosed transaction."
+    ],
+    "catalysts": [
+      "Consensus expects FY2026 revenue to rise to roughly $19.6B as industrial restocking and automotive content growth continue.",
+      "CapEx normalization could improve free cash flow materially from FY2025 levels if fab spending continues to step down.",
+      "Institutional accumulation suggests sophisticated investors are viewing current levels as attractive for long-duration analog exposure."
+    ],
+    "primaryRisks": [
+      "Trade-policy escalation could weaken industrial and automotive demand visibility, especially in globally exposed supply chains.",
+      "The current valuation is demanding relative to trailing free cash flow, leaving little room for recovery disappointment.",
+      "Acquisition integration adds an additional execution variable during an already fragile cyclical recovery."
+    ],
+    "valuationBridge": "Texas Instruments deserves a structural premium because of its analog moat and manufacturing model, but the present valuation already assumes a meaningful recovery in free cash flow and margins, limiting the margin of safety."
+  },
+  "financialPerformanceHealth": {
+    "incomeStatementAnalysis": {
+      "summaryParagraphs": [
+        "Revenue rebounded in FY2025 after two years of inventory correction, but the company still remains below its FY2022 cycle peak. The recovery is real, though incomplete, and margin pressure persists because Texas Instruments has built capacity ahead of demand, depressing fab utilization.",
+        "The most important analytical issue is the gap between revenue recovery and profitability recovery. Gross and operating margins remain far below FY2022 levels, which means investors still need to see stronger incremental utilization and operating leverage before the earnings profile fully normalizes."
+      ],
+      "highlights": [
+        "FY2025 revenue rose 13.0% year over year to $17.7B after the FY2024 trough.",
+        "Gross profit of $10.1B in FY2025 remained materially below the FY2022 peak of $13.8B.",
+        "Net income improved to $5.0B in FY2025, but still sits well below the $8.7B generated in FY2022."
+      ],
+      "tables": [
+        {
+          "title": "Income Statement ($M)",
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025",
+            "TTM"
+          ],
+          "rows": [
+            [
+              "Total Revenue",
+              "$20,028",
+              "$17,519",
+              "$15,641",
+              "$17,682",
+              "$17,682"
+            ],
+            [
+              "Gross Profit",
+              "$13,771",
+              "$11,019",
+              "$9,094",
+              "$10,083",
+              "$10,083"
+            ],
+            [
+              "Operating Income",
+              "$10,397",
+              "$7,331",
+              "$5,341",
+              "$6,140",
+              "$6,140"
+            ],
+            [
+              "Net Income",
+              "$8,749",
+              "$6,510",
+              "$4,799",
+              "$5,001",
+              "$5,001"
+            ]
+          ]
+        },
+        {
+          "title": "Margin Analysis",
+          "columns": [
+            "Metric",
+            "FY2023",
+            "FY2024",
+            "FY2025",
+            "TTM"
+          ],
+          "rows": [
+            [
+              "Gross Margin",
+              "62.9%",
+              "58.1%",
+              "57.0%",
+              "57.0%"
+            ],
+            [
+              "Operating Margin",
+              "41.8%",
+              "34.1%",
+              "34.7%",
+              "34.7%"
+            ],
+            [
+              "Net Margin",
+              "37.2%",
+              "30.7%",
+              "28.3%",
+              "28.3%"
+            ],
+            [
+              "Revenue Growth YoY",
+              "-12.5%",
+              "-10.7%",
+              "+13.0%",
+              "+10.4%"
+            ]
+          ]
+        }
+      ]
+    },
+    "balanceSheetAnalysis": {
+      "summaryParagraphs": [
+        "The balance sheet remains healthy enough to support the current investment program, but leverage is noticeably higher than it was several years ago. Debt has risen as Texas Instruments funded domestic capacity expansion, and the company no longer looks like the near-net-cash compounder it once did.",
+        "This is still manageable by semiconductor standards, but the rise in net debt reduces flexibility if the cyclical recovery disappoints or if acquisition-related integration costs prove larger than expected."
+      ],
+      "tables": [
+        {
+          "title": "Balance Sheet ($M)",
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025"
+          ],
+          "rows": [
+            [
+              "Total Assets",
+              "$27,207",
+              "$32,348",
+              "$35,509",
+              "$34,585"
+            ],
+            [
+              "Total Liabilities",
+              "$12,630",
+              "$15,451",
+              "$18,606",
+              "$18,312"
+            ],
+            [
+              "Total Equity",
+              "$14,577",
+              "$16,897",
+              "$16,903",
+              "$16,273"
+            ],
+            [
+              "Cash & Equivalents",
+              "$3,050",
+              "$2,964",
+              "$3,200",
+              "$3,225"
+            ],
+            [
+              "Total Debt",
+              "$8,735",
+              "$11,223",
+              "$13,596",
+              "$14,048"
+            ],
+            [
+              "Net Debt",
+              "$5,685",
+              "$8,259",
+              "$10,396",
+              "$10,823"
+            ],
+            [
+              "Debt-to-Equity",
+              "0.60x",
+              "0.66x",
+              "0.80x",
+              "0.86x"
+            ]
+          ]
+        }
+      ]
+    },
+    "cashFlowReturns": {
+      "summaryParagraphs": [
+        "Free cash flow remains the single most important variable in the Texas Instruments story. The company produced only partial recovery in FY2025 because capex stayed elevated, even though operating cash flow improved materially. The path from current free cash flow back toward historical norms depends on both better fab utilization and lower capital intensity.",
+        "Return metrics have also compressed meaningfully from peak-cycle levels. Management has effectively chosen to sacrifice near-term returns in exchange for long-term manufacturing control and cost advantages, which is strategically coherent but requires patience and trust from shareholders."
+      ],
+      "highlights": [
+        "Operating cash flow improved to $7.15B in FY2025, the strongest result in the four-year comparison period.",
+        "Capital expenditures remained high at $4.55B in FY2025, though below the FY2023 peak.",
+        "ROIC fell sharply from peak-cycle levels and is now around 14%, reflecting the enlarged invested-capital base."
+      ],
+      "tables": [
+        {
+          "title": "Cash Flow ($M)",
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025"
+          ],
+          "rows": [
+            [
+              "Operating Cash Flow",
+              "$8,720",
+              "$6,420",
+              "$6,318",
+              "$7,153"
+            ],
+            [
+              "Capital Expenditures",
+              "($2,797)",
+              "($5,071)",
+              "($4,820)",
+              "($4,550)"
+            ],
+            [
+              "Free Cash Flow",
+              "$5,923",
+              "$1,349",
+              "$1,498",
+              "$2,603"
+            ],
+            [
+              "FCF Margin",
+              "29.6%",
+              "7.7%",
+              "9.6%",
+              "14.7%"
+            ]
+          ]
+        },
+        {
+          "title": "Return on Capital",
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025"
+          ],
+          "rows": [
+            [
+              "Return on Equity (ROE)",
+              "60.0%",
+              "38.5%",
+              "28.4%",
+              "30.7%"
+            ],
+            [
+              "Return on Assets (ROA)",
+              "32.2%",
+              "20.1%",
+              "13.5%",
+              "14.5%"
+            ],
+            [
+              "Return on Invested Capital (ROIC)",
+              "40%+",
+              "22%",
+              "15%",
+              "14%"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "valuation": {
+    "multiplesAnalysis": {
+      "summaryParagraphs": [
+        "Texas Instruments continues to trade at a premium to most semiconductor peers, especially ON Semiconductor and STMicroelectronics, reflecting stronger margins, broader analog breadth, and a more defensible long-term manufacturing position. That premium is partly justified, but it becomes harder to defend when trailing free cash flow is weak and recovery assumptions are already reflected in the price.",
+        "The more relevant comparison is Analog Devices, where the valuation gap is narrower. At current levels, Texas Instruments looks fair rather than obviously undervalued, especially if the free-cash-flow ramp proves slower than consensus expects."
+      ],
+      "tables": [
+        {
+          "title": "Valuation Multiples",
+          "columns": [
+            "Metric",
+            "TXN Current",
+            "TXN 5-Yr Avg",
+            "ADI",
+            "ON Semi",
+            "STMicro"
+          ],
+          "rows": [
+            [
+              "P/E (TTM)",
+              "35.7x",
+              "25x",
+              "38x",
+              "15x",
+              "12x"
+            ],
+            [
+              "Forward P/E",
+              "24.6x",
+              "22x",
+              "21x",
+              "14x",
+              "10x"
+            ],
+            [
+              "P/S",
+              "10.0x",
+              "7x",
+              "9x",
+              "2x",
+              "1x"
+            ],
+            [
+              "P/B",
+              "10.9x",
+              "12x",
+              "3x",
+              "2x",
+              "1x"
+            ],
+            [
+              "EV/EBITDA",
+              "23.2x",
+              "18x",
+              "18x",
+              "8x",
+              "6x"
+            ],
+            [
+              "EV/Revenue",
+              "10.6x",
+              "8x",
+              "9x",
+              "2x",
+              "1x"
+            ],
+            [
+              "PEG Ratio",
+              "1.7x",
+              "1.4x",
+              "1.6x",
+              "0.9x",
+              "0.7x"
+            ],
+            [
+              "FCF Yield",
+              "Negative",
+              "4%",
+              "2%",
+              "6%",
+              "8%"
+            ]
+          ]
+        }
+      ]
+    },
+    "dcfAnalysis": {
+      "summaryParagraphs": [
+        "The base-case DCF assumes the analog cycle continues recovering through FY2026 and FY2027, while capex declines and fab utilization rises. This produces a meaningful step-up in free cash flow but not a full return to the extreme profitability of the 2022 peak.",
+        "That framework supports modest upside from current levels, but not enough to create a compelling buy case. The stock needs either a more obvious free-cash-flow inflection or a lower entry point to become meaningfully attractive on a risk-adjusted basis."
+      ],
+      "assumptions": [
+        "Revenue growth: 11% in FY2026E, 10% in FY2027E, tapering thereafter",
+        "Operating margin recovery toward 40%+ by FY2028E as fab utilization improves",
+        "CapEx as % of revenue declines from 25.7% in FY2025 toward 15% by FY2028E",
+        "WACC: 9.5%",
+        "Terminal growth rate: 3.0%"
+      ],
+      "projectionTable": {
+        "title": "DCF Projections ($B)",
+        "columns": [
+          "Metric",
+          "FY2026E",
+          "FY2027E",
+          "FY2028E",
+          "FY2029E",
+          "FY2030E"
+        ],
+        "rows": [
+          [
+            "Revenue",
+            "$19.6",
+            "$21.6",
+            "$23.2",
+            "$24.6",
+            "$26.1"
+          ],
+          [
+            "EBITDA",
+            "$8.1",
+            "$9.3",
+            "$10.4",
+            "$11.2",
+            "$11.9"
+          ],
+          [
+            "Free Cash Flow",
+            "$3.8",
+            "$5.0",
+            "$6.2",
+            "$6.9",
+            "$7.4"
+          ]
+        ]
+      },
+      "scenarioTable": {
+        "title": "DCF Scenario Analysis",
+        "columns": [
+          "Scenario",
+          "Revenue CAGR",
+          "Terminal Growth",
+          "WACC",
+          "Implied Price",
+          "Upside/Downside"
+        ],
+        "rows": [
+          [
+            "Bull Case",
+            "13%",
+            "3.5%",
+            "8.5%",
+            "$270",
+            "+38.6%"
+          ],
+          [
+            "Base Case",
+            "10%",
+            "3.0%",
+            "9.5%",
+            "$218",
+            "+11.9%"
+          ],
+          [
+            "Bear Case",
+            "5%",
+            "2.0%",
+            "10.5%",
+            "$155",
+            "-20.5%"
+          ]
+        ]
+      }
+    },
+    "valuationConclusion": "Texas Instruments appears fairly valued. The franchise is high quality and the cyclical recovery is real, but the current price already discounts a meaningful rebound in free cash flow and margins, leaving only modest upside in the base case."
+  },
+  "businessModelMoat": {
+    "segmentProfile": {
+      "summaryParagraphs": [
+        "Texas Instruments is overwhelmingly an analog company, with Embedded Processing serving as the secondary business and calculators and other products contributing only a small residual amount. The company's strategic identity is therefore tied almost entirely to analog scale, long-tail product breadth, and deep relationships in industrial and automotive markets.",
+        "This concentration is not a weakness in itself because analog semiconductors generally enjoy long product cycles, lower obsolescence risk, and strong switching costs once designed in. It does, however, mean that the company is especially exposed to industrial and auto-cycle timing."
+      ],
+      "segmentTable": {
+        "title": "Business Segments",
+        "columns": [
+          "Segment",
+          "FY2025 Revenue",
+          "% of Total",
+          "YoY Growth",
+          "Maturity"
+        ],
+        "rows": [
+          [
+            "Analog",
+            "$13.5B",
+            "76%",
+            "+14%",
+            "Growth"
+          ],
+          [
+            "Embedded Processing",
+            "$3.8B",
+            "21%",
+            "+8%",
+            "Mature / competitive"
+          ],
+          [
+            "Other (Calculators, etc.)",
+            "$0.4B",
+            "3%",
+            "Flat",
+            "Declining"
+          ]
+        ]
+      }
+    },
+    "economicMoatAssessment": {
+      "summaryParagraphs": [
+        "Texas Instruments has one of the clearest wide moats in semiconductors. The moat is built on three pillars: internal manufacturing scale, design-in switching costs, and an enormous analog catalog that creates long-tail customer dependence across industrial and automotive applications.",
+        "Unlike many peers, Texas Instruments owns substantial 300mm manufacturing capacity, which provides a structural cost advantage as utilization improves. That makes the moat more operational and economic than purely technological, and it helps explain why the company has historically earned premium returns through the cycle."
+      ],
+      "moatTable": {
+        "columns": [
+          "Moat Source",
+          "Strength",
+          "Assessment"
+        ],
+        "rows": [
+          [
+            "Brand & Reputation",
+            "Strong",
+            "Long-standing tier-one supplier relationships across industrial and automotive OEMs"
+          ],
+          [
+            "Network Effects",
+            "Weak",
+            "Analog semiconductors do not benefit from classic software-style network effects"
+          ],
+          [
+            "Switching Costs",
+            "Strong",
+            "Design-in cycles are long, and qualified components are rarely replaced mid-product life"
+          ],
+          [
+            "Cost Advantages/Scale",
+            "Strong",
+            "Owned 300mm fabs provide meaningful long-term cost-per-chip advantages"
+          ],
+          [
+            "Intellectual Property",
+            "Moderate",
+            "Large analog and process IP portfolio supports differentiation, though much value is embedded in know-how rather than visible patents"
+          ],
+          [
+            "Regulatory Barriers",
+            "Moderate",
+            "Automotive qualification standards and domestic manufacturing policy support create partial entry barriers"
+          ]
+        ]
+      },
+      "overallMoatConclusion": "Texas Instruments appears to have a wide moat. Its strongest defenses come from manufacturing scale, switching costs, and analog product breadth, while its weakest area is the absence of strong network effects. Overall, it remains one of the most defensible analog franchises in the semiconductor industry."
+    }
+  },
+  "growthStrategyOutlook": {
+    "nearTermCatalysts": [
+      "Q1 2026 earnings could support the stock if revenue, gross margin, and capex guidance confirm the recovery trajectory.",
+      "Industrial restocking remains a meaningful short-cycle driver after the long inventory correction.",
+      "Further quarterly capex step-downs would directly improve the free-cash-flow narrative."
+    ],
+    "mediumTermDrivers": [
+      "Automotive electrification continues to increase analog content per vehicle across powertrain, battery, and ADAS systems.",
+      "Factory automation, robotics, and grid infrastructure should support secular analog demand.",
+      "Margin recovery through better fab utilization is likely the most important earnings lever over the next two to three years."
+    ],
+    "longTermOpportunities": [
+      "Texas Instruments' 300mm manufacturing advantage may widen as the installed fab base matures and scales.",
+      "Grid modernization and energy infrastructure create a long-duration analog demand opportunity.",
+      "Domestic supply-chain reshoring should structurally favor internally manufactured analog capacity."
+    ],
+    "tamPositioning": {
+      "summaryParagraphs": [
+        "Texas Instruments operates in a large and expanding analog semiconductor market, with particularly strong positioning in industrial and automotive applications. Its current scale already makes it the leader, but analog remains fragmented enough that cost and execution advantages can still drive share gains over time.",
+        "The company does not need explosive market-share expansion to create value. It only needs steady participation in secular analog content growth while restoring utilization and returns on the capacity it has already built."
+      ],
+      "highlights": [
+        "Industrial analog remains the largest end-market and one of TXN's strongest positions.",
+        "Automotive analog should expand with electrification and rising semiconductor content per vehicle.",
+        "Personal electronics and communications remain smaller but still relevant contributors.",
+        "TXN's analog market share is already large, making incremental gains highly valuable in dollar terms."
+      ]
+    }
+  },
+  "managementGovernance": {
+    "leadership": {
+      "summaryParagraphs": [
+        "Texas Instruments is led by a management team with a strong reputation for operational discipline and long-term consistency. CEO Haviv Ilan inherited a playbook that emphasizes manufacturing ownership, analog breadth, and free cash flow per share, while CFO Rafael Lizardi has been central to communicating that framework to investors.",
+        "This matters because the current cycle is testing the credibility of that model. The company is asking investors to tolerate temporarily weaker free cash flow and lower returns in exchange for stronger long-term economics, so management trust is a major part of the thesis."
+      ]
+    },
+    "capitalAllocation": {
+      "summaryParagraphs": [
+        "Texas Instruments has historically maintained one of the clearest capital-allocation frameworks in semiconductors, explicitly prioritizing long-term free cash flow per share. That framework has supported years of dividend growth and aggressive repurchases, though the current capex cycle has temporarily reduced the amount of cash available for shareholder returns.",
+        "The current debate is not whether management understands capital allocation, but whether the scale of the recent manufacturing investment and the newly disclosed transaction will delay normalization longer than expected."
+      ],
+      "acquisitionTable": {
+        "title": "Major Investments / Transactions",
+        "columns": [
+          "Transaction",
+          "Year",
+          "Deal Value",
+          "Strategic Rationale",
+          "Outcome Assessment"
+        ],
+        "rows": [
+          [
+            "Fab capacity expansion (CHIPS Act-related)",
+            "2022\u20132025",
+            "$15.0B+",
+            "Expand domestic 300mm manufacturing and reinforce long-term cost moat",
+            "Strategic \u2013 long-term positive, near-term FCF dilutive"
+          ],
+          [
+            "Strategic acquisition / business combination",
+            "2026",
+            "Not disclosed",
+            "Reset capex trajectory and potentially substitute acquired capacity for greenfield build",
+            "TBD \u2013 integration and strategic details remain limited"
+          ]
+        ]
+      }
+    },
+    "alignment": {
+      "summaryParagraphs": [
+        "Insider ownership appears modest, which is typical for a large-cap semiconductor company. Alignment instead comes mainly through compensation linked to long-term free-cash-flow-per-share outcomes and through a management culture that has remained unusually consistent across cycles.",
+        "That gives investors a reasonable basis for trust, though the acquisition-related opacity means governance scrutiny should remain elevated until fuller disclosure is available."
+      ]
+    }
+  },
+  "riskAnalysis": {
+    "riskTable": {
+      "columns": [
+        "Risk Factor",
+        "Type",
+        "Probability",
+        "Impact",
+        "Mitigation"
+      ],
+      "rows": [
+        [
+          "Acquisition integration failure",
+          "Idiosyncratic",
+          "Medium",
+          "High",
+          "Operational discipline and portfolio fit may reduce execution risk if disclosure becomes clearer"
+        ],
+        [
+          "Fab utilization underperformance",
+          "Idiosyncratic",
+          "Medium",
+          "High",
+          "Revenue recovery and capex normalization can gradually improve absorption"
+        ],
+        [
+          "China revenue erosion from domestic substitution",
+          "Idiosyncratic",
+          "Medium",
+          "Medium",
+          "End-market diversification and broad customer base reduce concentration risk"
+        ],
+        [
+          "Semiconductor cycle reversal",
+          "Industry",
+          "Low-Medium",
+          "High",
+          "Owned manufacturing and direct-customer model provide some resilience"
+        ],
+        [
+          "Tariff / trade policy escalation",
+          "Macro",
+          "High",
+          "Medium",
+          "Domestic manufacturing footprint and CHIPS-related support offer partial insulation"
+        ],
+        [
+          "Interest rate / refinancing risk",
+          "Macro",
+          "Low",
+          "Medium",
+          "Investment-grade profile and manageable leverage help contain financing pressure"
+        ]
+      ]
+    }
+  },
+  "finalRecommendation": {
+    "rating": "HOLD",
+    "priceTarget": "$222",
+    "impliedUpsidePct": "+13.9%",
+    "bullBaseBear": {
+      "bull": "$270",
+      "base": "$222",
+      "bear": "$155"
+    },
+    "valuationMethodology": "55% DCF base case + 45% peer NTM EV/EBITDA",
+    "fiveKeyMetricsToWatch": [
+      "Quarterly gross margin: sustained progress toward 60%+ would confirm fab utilization recovery.",
+      "Quarterly free cash flow: investors need to see a durable step-up from FY2025 levels rather than isolated strength.",
+      "Capital expenditure guidance: any upward reset would directly affect the FCF timeline.",
+      "Acquisition details and integration progress: clearer disclosure is needed on synergies, costs, and strategic rationale.",
+      "China revenue mix: meaningful erosion would weaken medium-term growth assumptions."
+    ],
+    "ratingChangeTriggers": [
+      {
+        "action": "Upgrade to Buy",
+        "direction": "\u2191",
+        "trigger": "Two consecutive quarters of 60%+ gross margin and a free-cash-flow run-rate above $1.5B quarterly, or a significant stock pullback without change in fundamentals"
+      },
+      {
+        "action": "Downgrade to Hold / Lower Target",
+        "direction": "\u2193",
+        "trigger": "FY2026 gross margins stall below 58% and free-cash-flow recovery slows materially"
+      },
+      {
+        "action": "Downgrade to Sell",
+        "direction": "\u2193\u2193",
+        "trigger": "Revenue estimates fall below $18.5B, acquisition integration costs rise sharply, and the FCF recovery thesis breaks"
+      }
+    ],
+    "closingParagraph": "Overall, Texas Instruments remains the right kind of semiconductor company to own through a cycle because its analog franchise, manufacturing model, and long-term capital-allocation discipline are unusually durable. The problem is valuation. At current levels, investors are paying for a recovery that still needs further confirmation, which supports patience rather than aggressive buying."
+  },
+  "openQuestions": [
+    "How quickly can gross margins move back toward 60% as new fab capacity fills?",
+    "Is FY2025 free cash flow a floor, or could the recovery still face another delay?",
+    "What are the exact strategic and financial terms of the newly disclosed transaction?",
+    "Can TXN maintain its China revenue position against domestic analog substitution?",
+    "How much of the long-term analog TAM growth will come from industrial versus automotive?",
+    "Will capex normalize quickly enough to restore historical FCF-per-share quality by FY2027?",
+    "Can TXN sustain its premium valuation versus ADI if the FCF ramp proves slower than expected?",
+    "Does domestic manufacturing eventually create a larger structural premium than the market currently assigns?"
+  ]
+}
