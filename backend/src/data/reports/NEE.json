@@ -1,0 +1,322 @@
+{
+  "meta": {
+    "ticker": "NEE",
+    "companyName": "NextEra Energy, Inc.",
+    "exchange": "NYSE",
+    "sector": "Utilities",
+    "industry": "Regulated Electric Utilities",
+    "reportDate": "2026-04-07",
+    "author": "ART Analytics",
+    "rating": "BUY",
+    "targetPrice": "$108",
+    "currentPrice": "$93.13",
+    "impliedUpsidePct": "+15.9%",
+    "marketDataAsOf": "Apr 7, 2026, 4:01 PM",
+    "estimatedReadMinutes": 24,
+    "coverageStatus": "published"
+  },
+  "executiveAtAGlance": {
+    "thesisHeadline": "NextEra combines a premier regulated Florida utility franchise with the leading U.S. renewable development platform, creating a rare utility compounder supported by rate base growth, contracted clean-energy expansion, and long-duration electricity demand tailwinds.",
+    "snapshotMetrics": [
+      { "label": "Market Cap", "value": "$194.0B" },
+      { "label": "Enterprise Value", "value": "$300.4B" },
+      { "label": "FCF (TTM)", "value": "$3.2B" },
+      { "label": "EV/EBITDA", "value": "21.2x" },
+      { "label": "Net Margin", "value": "24.9%" },
+      { "label": "Revenue (TTM)", "value": "$27.4B" },
+      { "label": "Net Income (TTM)", "value": "$6.8B" },
+      { "label": "P/E", "value": "28.2x" },
+      { "label": "Revenue Growth YoY", "value": "+20.7%" },
+      { "label": "ROIC", "value": "6.5%" }
+    ]
+  },
+  "executiveSummary": {
+    "summaryParagraphs": [
+      "NextEra Energy operates through two highly attractive businesses: Florida Power & Light, one of the strongest regulated electric utilities in the United States, and NextEra Energy Resources, the largest wind and solar developer in North America. That combination gives investors both the predictability of regulated utility earnings and the faster growth profile of contracted renewable development.",
+      "The core investment case is that NextEra remains one of the best-positioned ways to own the long-run U.S. clean energy build-out and broader electrification trend. Near-term valuation is pressured by rates and leverage, but the company still appears positioned to deliver steady EPS compounding, dividend growth, and incremental upside if power demand and renewable backlog conversion remain strong."
+    ],
+    "catalysts": [
+      "Rising data center and AI-related electricity demand could support both FPL rate base growth and NEER backlog expansion.",
+      "Recent revenue growth and repeated EPS beats reinforce management execution ahead of the next earnings release.",
+      "Additional gas and LNG infrastructure optionality may broaden NEER's revenue mix beyond renewables."
+    ],
+    "primaryRisks": [
+      "Higher-for-longer interest rates could pressure valuation multiples and raise financing costs on a large debt base.",
+      "Changes to clean energy tax credits or tariff-driven input inflation could weaken project economics at NEER.",
+      "Free cash flow remains positive on a reported basis but dividend coverage is still tight during the current capital deployment cycle."
+    ],
+    "valuationBridge": "NextEra appears modestly undervalued relative to its growth profile, with the market discounting rate sensitivity and leverage while underappreciating the durability of its regulated earnings base and renewable backlog monetization."
+  },
+  "financialPerformanceHealth": {
+    "incomeStatementAnalysis": {
+      "summaryParagraphs": [
+        "NextEra's reported revenue has been volatile because commodity and derivative movements can distort the headline figures, but the underlying earnings trajectory remains favorable. FY2025 showed a meaningful rebound in revenue and strong profitability, supported by both the regulated utility base and renewable development activity."
+      ],
+      "highlights": [
+        "FY2025 revenue increased to $27.4B, up 20.7% year over year.",
+        "Gross margin improved to 62.3% in FY2025, the highest level in the four-year comparison period.",
+        "Reported operating and net income remained strong despite historical noise from derivative-related effects."
+      ],
+      "tables": [
+        {
+          "title": "Income Statement ($M)",
+          "columns": ["Metric", "FY2022", "FY2023", "FY2024", "FY2025", "TTM"],
+          "rows": [
+            ["Total Revenue", "$20,956", "$28,114", "$24,753", "$27,412", "$27,412"],
+            ["Gross Profit", "$10,139", "$17,976", "$14,867", "$17,069", "$17,069"],
+            ["Operating Income", "$3,559", "$9,832", "$7,127", "$8,020", "$8,020"],
+            ["Net Income", "$4,147", "$7,310", "$6,946", "$6,835", "$6,835"]
+          ]
+        },
+        {
+          "title": "Margin Analysis",
+          "columns": ["Metric", "FY2022", "FY2023", "FY2024", "FY2025", "TTM"],
+          "rows": [
+            ["Gross Margin", "48.4%", "63.9%", "60.1%", "62.3%", "62.3%"],
+            ["Operating Margin", "17.0%", "35.0%", "28.8%", "29.3%", "24.4%"],
+            ["Net Margin", "19.8%", "26.0%", "28.1%", "24.9%", "24.9%"],
+            ["Revenue Growth YoY", "—", "+34.2%", "-11.9%", "+10.7%", "+20.7%"]
+          ]
+        }
+      ]
+    },
+    "balanceSheetAnalysis": {
+      "summaryParagraphs": [
+        "NextEra's balance sheet is heavily capitalized, which is typical for a utility and infrastructure platform of this scale. Debt has grown meaningfully over the past several years to fund a large investment program, and leverage is manageable but clearly the central balance sheet constraint investors need to monitor."
+      ],
+      "tables": [
+        {
+          "title": "Balance Sheet ($M)",
+          "columns": ["Metric", "FY2022", "FY2023", "FY2024", "FY2025"],
+          "rows": [
+            ["Total Assets", "$158,935", "$177,489", "$190,144", "$212,721"],
+            ["Total Liabilities", "$109,499", "$118,465", "$129,283", "$146,242"],
+            ["Total Equity", "$39,229", "$47,468", "$50,101", "$54,608"],
+            ["Cash & Equivalents", "$1,601", "$2,690", "$1,487", "$2,812"],
+            ["Total Debt", "$64,966", "$73,211", "$82,333", "$95,619"],
+            ["Net Cash (Debt)", "$63,365", "$70,521", "$80,846", "$92,807"],
+            ["Debt-to-Equity", "1.66x", "1.54x", "1.64x", "1.75x"]
+          ]
+        }
+      ]
+    },
+    "cashFlowReturns": {
+      "summaryParagraphs": [
+        "Cash generation has improved as operating cash flow has expanded, but capital expenditures remain very high because NextEra is still in a heavy build-out phase. As a result, free cash flow remains positive but not yet comfortably above dividend needs, which is normal for a growth utility but still worth watching closely."
+      ],
+      "highlights": [
+        "Operating cash flow rose from $8.3B in FY2022 to $12.5B in FY2025.",
+        "FY2025 CapEx remained elevated at $9.3B, reflecting the company's long-term investment cycle.",
+        "Reported FY2025 free cash flow of $3.2B remained below estimated dividend outlays, underscoring the dependence on continued operating cash flow expansion."
+      ],
+      "tables": [
+        {
+          "title": "Cash Flow ($M)",
+          "columns": ["Metric", "FY2022", "FY2023", "FY2024", "FY2025"],
+          "rows": [
+            ["Operating Cash Flow", "$8,262", "$11,301", "$13,260", "$12,485"],
+            ["Capital Expenditures", "($9,742)", "($9,548)", "($8,514)", "($9,274)"],
+            ["Free Cash Flow", "($1,480)", "$1,753", "$4,746", "$3,211"],
+            ["FCF Margin", "-7.1%", "+6.2%", "+19.2%", "+11.7%"]
+          ]
+        }
+      ]
+    }
+  },
+  "valuation": {
+    "multiplesAnalysis": {
+      "summaryParagraphs": [
+        "NextEra continues to trade at a premium to traditional regulated utility peers, but that premium has compressed relative to its own history. Given the company's superior long-term growth profile and unique renewable development platform, the current multiple does not appear excessive against its strategic positioning."
+      ],
+      "tables": [
+        {
+          "title": "Valuation Multiples",
+          "columns": ["Metric", "NEE Current", "NEE 5-Yr Avg", "Duke Energy", "Southern", "Dominion", "Industry Avg"],
+          "rows": [
+            ["P/E (TTM)", "28.2x", "30x", "20x", "20x", "20x", "20x"],
+            ["Forward P/E", "21.3x", "24x", "17x", "18x", "16x", "17x"],
+            ["P/S (TTM)", "7.1x", "6x", "3x", "3x", "3x", "3x"],
+            ["P/B", "3.55x", "3.8x", "2.0x", "2.3x", "1.5x", "2.0x"],
+            ["EV/EBITDA", "21.2x", "20x", "13x", "14x", "12x", "15x"],
+            ["EV/Revenue", "11.0x", "9x", "4x", "4x", "4x", "4x"]
+          ]
+        }
+      ]
+    },
+    "dcfAnalysis": {
+      "summaryParagraphs": [
+        "The base-case DCF assumes strong near-term revenue growth followed by a gradual moderation, supported by FPL rate base expansion and renewable backlog conversion at NEER. A relatively low cost of capital is appropriate for a high-quality regulated utility with a large contracted revenue base, though valuation remains sensitive to interest rates."
+      ],
+      "assumptions": [
+        "Revenue CAGR through FY2030: 8.0%",
+        "WACC: 6.5%",
+        "Terminal growth rate: 3.0%",
+        "Primary growth driver: FPL rate base expansion and NEER backlog monetization",
+        "Margin path: EBITDA margin expansion as more renewable assets reach commercial operation"
+      ],
+      "projectionTable": {
+        "title": "DCF Projections ($B)",
+        "columns": ["Metric", "FY2026E", "FY2027E", "FY2028E", "FY2029E", "FY2030E"],
+        "rows": [
+          ["Revenue", "$31.8", "$34.5", "$36.6", "$38.8", "$41.1"],
+          ["EBITDA", "$16.2", "$17.9", "$19.2", "$20.6", "$21.8"],
+          ["Free Cash Flow", "$3.8", "$5.2", "$6.8", "$8.1", "$9.4"]
+        ]
+      },
+      "scenarioTable": {
+        "title": "DCF Scenario Analysis",
+        "columns": ["Scenario", "Revenue CAGR", "Terminal Growth", "WACC", "Implied Price", "Upside/Downside"],
+        "rows": [
+          ["Bull Case", "10.5%", "3.5%", "6.0%", "$128", "+37.4%"],
+          ["Base Case", "8.0%", "3.0%", "6.5%", "$108", "+15.9%"],
+          ["Bear Case", "4.5%", "2.0%", "7.5%", "$72", "-22.7%"]
+        ]
+      }
+    },
+    "valuationConclusion": "NextEra appears modestly undervalued on a blended DCF and relative-multiples basis. The stock still trades below the premium multiple it historically commanded, even though the company remains one of the strongest long-duration growth franchises in the utility sector."
+  },
+  "businessModelMoat": {
+    "segmentProfile": {
+      "summaryParagraphs": [
+        "NextEra combines a highly defensible regulated utility franchise in Florida with a large-scale clean energy development business that gives it growth characteristics uncommon for the sector. This mix allows the company to balance earnings stability with development upside."
+      ],
+      "segmentTable": {
+        "title": "Business Segments",
+        "columns": ["Segment", "FY2025 Revenue", "FY2025 Revenue Share", "YoY Growth", "Maturity Stage"],
+        "rows": [
+          ["Florida Power & Light", "$15.0B", "55%", "+8%", "Steady Growth"],
+          ["NextEra Energy Resources", "$11.0B", "40%", "+15%", "High Growth"],
+          ["NextEra Energy Transmission / Other", "$1.4B", "5%", "+10%", "Emerging"]
+        ]
+      }
+    },
+    "economicMoatAssessment": {
+      "summaryParagraphs": [
+        "NextEra appears to have one of the strongest competitive positions in the U.S. utility and renewable power landscape. FPL benefits from regulatory exclusivity and favorable territory growth, while NEER benefits from scale, procurement leverage, and execution capabilities that are difficult for peers to replicate."
+      ],
+      "moatTable": {
+        "columns": ["Moat Source", "Strength", "Assessment"],
+        "rows": [
+          ["Brand & Reputation", "Moderate", "Recognized as a leading clean energy and regulated utility operator, which supports project development and institutional confidence."],
+          ["Network Effects", "Weak", "The grid business is not driven primarily by classic network effects beyond regional infrastructure scale."],
+          ["Switching Costs", "Moderate", "Regulated customers cannot easily change providers, while long-term renewable contracts create real customer stickiness."],
+          ["Cost Advantages/Scale", "Strong", "Large installed renewable capacity and procurement scale support lower unit economics than smaller competitors."],
+          ["Intellectual Property", "Weak", "Competitive advantages are operational and regulatory rather than based on proprietary technology."],
+          ["Regulatory Barriers", "Strong", "FPL's franchise structure and utility regulation create high barriers to entry for would-be competitors."]
+        ]
+      },
+      "overallMoatConclusion": "NextEra appears to have a wide moat. Its regulated monopoly characteristics at FPL and scale-driven cost advantages at NEER combine to create a durable competitive position that few utility or power developers can match over the next decade."
+    }
+  },
+  "growthStrategyOutlook": {
+    "nearTermCatalysts": [
+      "Upcoming earnings could reinforce recent execution strength and support a valuation re-rating.",
+      "Additional data center and AI-linked power contracts may expand renewable backlog visibility.",
+      "Any moderation in interest rates would likely improve sentiment toward long-duration utility equities."
+    ],
+    "mediumTermDrivers": [
+      "Consensus forecasts point to continued revenue growth through FY2027 as new projects come online.",
+      "Grid hardening and rate base expansion at FPL should sustain regulated earnings growth.",
+      "Gas, hydrogen, and storage initiatives may broaden the earnings profile of the development platform."
+    ],
+    "longTermOpportunities": [
+      "Rising U.S. electricity demand from AI, electrification, and industrial reshoring could materially expand long-run growth opportunities.",
+      "Green hydrogen and long-duration storage may become meaningful future contributors if commercialization improves.",
+      "NextEra could benefit disproportionately from the multi-decade transformation of U.S. generation capacity toward cleaner power sources."
+    ],
+    "tamPositioning": {
+      "summaryParagraphs": [
+        "NextEra is positioned across several large and expanding end markets, including regulated utility infrastructure, utility-scale renewables, and corporate power purchase agreements. The broad shift toward electrification and decarbonization gives the company an unusually large addressable opportunity relative to traditional utilities."
+      ],
+      "highlights": [
+        "U.S. regulated electric utility infrastructure remains a very large market, with FPL continuing to benefit from Florida population growth.",
+        "Utility-scale renewables represent a major annual capital deployment opportunity, where NextEra is already a leading player.",
+        "Corporate renewable contracting remains a meaningful long-term channel as data center and industrial power demand grows."
+      ]
+    }
+  },
+  "managementGovernance": {
+    "leadership": {
+      "summaryParagraphs": [
+        "Management continuity is a meaningful strength. CEO John Ketchum's background as former CFO supports confidence in capital allocation discipline, financing strategy, and regulatory execution during a period when leverage and project deployment both require careful oversight."
+      ]
+    },
+    "capitalAllocation": {
+      "summaryParagraphs": [
+        "NextEra's capital allocation framework has been disciplined and consistent: invest heavily in regulated rate base and contracted clean-energy projects, maintain dividend growth, and avoid unnecessary large-scale acquisitions. That approach fits the company's long-duration infrastructure growth model, though rising debt has become a more important constraint."
+      ],
+      "acquisitionTable": {
+        "title": "Capital Allocation Priorities",
+        "columns": ["Acquisition", "Year", "Deal Value", "Strategic Rationale", "Outcome Assessment"],
+        "rows": [
+          ["Rate Base Investment (FPL)", "FY2022–FY2025", "$15B", "Expand regulated asset base with predictable allowed returns", "Positive – supports durable earnings compounding"],
+          ["Renewables Development (NEER)", "FY2022–FY2025", "$20B", "Build contracted renewable and related infrastructure capacity", "Positive – growth platform continues to scale"],
+          ["Dividends", "FY2022–FY2025", "$14B", "Return cash while signaling confidence in long-term earnings growth", "Constructive – but coverage remains tight during build-out phase"]
+        ]
+      }
+    },
+    "alignment": {
+      "summaryParagraphs": [
+        "Insider ownership appears modest, which is typical for a mega-cap utility. Alignment instead comes primarily through compensation structures tied to adjusted EPS growth and relative shareholder returns, metrics that closely match the core elements of the investment case."
+      ]
+    }
+  },
+  "riskAnalysis": {
+    "riskTable": {
+      "columns": ["Risk Factor", "Type", "Probability", "Impact", "Mitigation"],
+      "rows": [
+        ["Sustained high interest rates", "Macro", "Medium", "High", "Use fixed-rate financing, preserve access to debt markets, and rely on regulated cash flow stability"],
+        ["IRA tax credit modification", "Policy", "Medium", "High", "Benefit from project grandfathering where applicable and maintain policy engagement"],
+        ["Solar and wind component cost inflation", "Macro", "High", "Medium", "Use procurement scale, long-term contracts, and supplier diversification"],
+        ["Florida hurricane exposure", "Operational", "Medium", "Medium", "Rely on storm recovery mechanisms, reserve planning, and resilient grid investment"],
+        ["NEER execution and supply chain delays", "Execution", "Low-Medium", "Medium", "Maintain contracted backlog discipline and phased project delivery"],
+        ["Regulatory posture deterioration in Florida", "Regulatory", "Low", "High", "Support constructive outcomes through service quality and ongoing regulatory engagement"],
+        ["Dividend coverage pressure", "Financial", "Medium", "Medium", "Grow operating cash flow and pace dividend increases against capital intensity"],
+        ["Balance sheet leverage", "Financial", "Medium", "High", "Monitor debt metrics closely and preserve investment-grade refinancing flexibility"]
+      ]
+    }
+  },
+  "finalRecommendation": {
+    "rating": "BUY",
+    "priceTarget": "$108",
+    "impliedUpsidePct": "+15.9%",
+    "bullBaseBear": {
+      "bull": "$128",
+      "base": "$108",
+      "bear": "$72"
+    },
+    "valuationMethodology": "60% DCF base case + 40% peer forward P/E framework",
+    "fiveKeyMetricsToWatch": [
+      "FPL Rate Base Growth: continued expansion of regulated assets remains the clearest foundation for steady earnings growth.",
+      "NEER Backlog Conversion: the pace at which contracted renewable projects move into operation will shape medium-term earnings visibility.",
+      "Free Cash Flow Coverage: reported FCF needs to improve relative to dividend outlays as the current investment cycle matures.",
+      "Net Debt and Financing Costs: leverage remains manageable, but refinancing conditions and debt metrics are central to the thesis.",
+      "Power Demand from Data Centers and AI: incremental load growth is an important upside driver for both the regulated and contracted sides of the business."
+    ],
+    "ratingChangeTriggers": [
+      {
+        "action": "Upgrade to Strong Buy",
+        "direction": "↑",
+        "trigger": "Interest rates ease meaningfully while backlog conversion and FPL rate base growth continue to support earnings above current consensus"
+      },
+      {
+        "action": "Downgrade to Hold",
+        "direction": "↓",
+        "trigger": "Free cash flow remains weak relative to dividend needs or project execution slows enough to reduce confidence in medium-term growth"
+      },
+      {
+        "action": "Downgrade to Sell",
+        "direction": "↓↓",
+        "trigger": "Policy changes materially impair renewable project economics or leverage becomes meaningfully harder to manage in a sustained high-rate environment"
+      }
+    ],
+    "closingParagraph": "Overall, NextEra remains one of the most compelling long-duration utility holdings because it combines a highly defensible regulated earnings base with unusually strong clean energy growth optionality. The thesis depends on continued backlog execution, manageable financing conditions, and steady conversion of capital spending into future earnings and cash flow."
+  },
+  "openQuestions": [
+    "How quickly can new AI and data center electricity demand translate into measurable rate base or contracted backlog growth?",
+    "Will free cash flow widen enough over the next two years to support both the dividend and the current pace of investment without added strain?",
+    "How durable is NextEra's cost advantage in renewables if equipment tariffs and financing costs stay elevated?",
+    "To what extent could future policy changes alter the return profile of the development pipeline at NEER?",
+    "Can management keep leverage under control while still funding the next leg of regulated and renewable growth?"
+  ]
+}

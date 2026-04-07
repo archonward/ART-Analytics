@@ -271,6 +271,30 @@ const coverageRegistry = {
        lastUpdated: '2026-04-05',
        status: 'published'
       },
+  BABA: {
+         ticker: 'BABA',
+         companyName: 'Alibaba Group',
+         exchange: 'NYSE',
+         sector: 'Technology',
+         lastUpdated: '2026-04-08',
+         status: 'published'
+        },
+  VZ: {
+       ticker: 'VZ',
+       companyName: 'Verizon Communications Inc.',
+       exchange: 'NYSE',
+       sector: 'Communication Services',
+       lastUpdated: '2026-04-08',
+       status: 'published'
+      },
+ NEE: {
+         ticker: 'NEE',
+         companyName: 'NextEra Energy, Inc.',
+         exchange: 'NYSE',
+         sector: 'Utilities',
+         lastUpdated: '2026-04-08',
+         status: 'published'
+        },
   IBM: {
       ticker: 'IBM',
       companyName: 'International Business Machines Corporation',
