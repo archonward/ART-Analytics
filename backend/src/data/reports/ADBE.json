@@ -1,0 +1,818 @@
+{
+  "meta": {
+    "ticker": "ADBE",
+    "companyName": "Adobe Inc.",
+    "exchange": "NYSE",
+    "sector": "Technology",
+    "industry": "Software",
+    "reportDate": "2026-04-10",
+    "author": "ART Analytics",
+    "rating": "BUY",
+    "targetPrice": "$320",
+    "currentPrice": "$225.35",
+    "impliedUpsidePct": "+42.0%",
+    "marketDataAsOf": "Apr 10, 2026, 8:00 PM",
+    "estimatedReadMinutes": 23,
+    "coverageStatus": "published"
+  },
+  "executiveAtAGlance": {
+    "thesisHeadline": "Adobe is a best-in-class creative software franchise trading at distressed-software multiples due to AI fear and CEO transition noise, not fundamental deterioration.",
+    "snapshotMetrics": [
+      {
+        "label": "Market Cap",
+        "value": "$91.9B"
+      },
+      {
+        "label": "Enterprise Value",
+        "value": "$90.9B"
+      },
+      {
+        "label": "Revenue (TTM)",
+        "value": "$24.5B"
+      },
+      {
+        "label": "Net Income (TTM)",
+        "value": "$7.2B"
+      },
+      {
+        "label": "FCF (TTM)",
+        "value": "$9.3B"
+      },
+      {
+        "label": "P/E",
+        "value": "13.1x"
+      },
+      {
+        "label": "EV/EBITDA",
+        "value": "9.5x"
+      },
+      {
+        "label": "Revenue Growth YoY",
+        "value": "+12.0%"
+      },
+      {
+        "label": "Net Margin",
+        "value": "29.5%"
+      },
+      {
+        "label": "ROIC",
+        "value": "38%"
+      },
+      {
+        "label": "Consensus Upside",
+        "value": "+45.9%"
+      },
+      {
+        "label": "Next Earnings",
+        "value": "Jun 2026"
+      }
+    ]
+  },
+  "executiveSummary": {
+    "summaryParagraphs": [
+      "Adobe trades at a 52-week low of $224.13, within pennies of its floor, while generating $9.9B in annual free cash flow and sustaining 38.8% operating margins on $23.8B in FY2025 revenue. The market is pricing in permanent disruption; we see a deeply discounted compounder at an inflection point.",
+      "At 8.5x forward P/E and 9.5x EV/EBITDA on a $9.3B TTM FCF business, ADBE trades at a 47% discount to its 5-year average NTM P/E, a multiple more consistent with a declining franchise than a 12%-growing, 89% gross margin software platform. Our $320 price target is derived from a blended DCF/peer-multiple methodology and represents 42.0% upside from the April 10, 2026 close of $225.35."
+    ],
+    "catalysts": [
+      "FY26E consensus revenue of $26.1B implies 9.7% YoY growth, with EPS of $23.49, a 12.2% increase over FY2025's $20.94, driven by AI-native product monetization across Creative Cloud and Document Cloud.",
+      "The pending Semrush acquisition received preliminary German regulatory approval in March 2026, opening a material digital marketing TAM expansion and potential cross-sell to Adobe's 30M+ Creative Cloud subscriber base.",
+      "Q1 FY2026 delivered a beat-and-raise: EPS of $6.06 vs. $5.87 estimate, with revenue of $6.40B sequentially accelerating from $6.19B in Q4 FY2025."
+    ],
+    "primaryRisks": [
+      "CEO transition risk is live: the March 2026 8-K filing confirmed a leadership change, and any strategic discontinuity during an AI-pivot period is a near-term overhang.",
+      "Generative AI commoditization from Midjourney, Canva, and OpenAI's image tools threatens Creative Cloud's pricing power at the prosumer tier, where churn is most price-elastic.",
+      "Citigroup cut its price target from $278 to $253 in April 2026, flagging regulatory settlement costs and slower enterprise deal cycles as macro headwinds."
+    ],
+    "valuationBridge": "Adobe trades at distressed-software multiples despite double-digit revenue growth, expanding AI monetization, and strong free cash flow, supporting a blended valuation that still points to meaningful upside."
+  },
+  "financialPerformanceHealth": {
+    "incomeStatementAnalysis": {
+      "summaryParagraphs": [
+        "Adobe has compounded revenue at a 10% CAGR over FY2022 to FY2025, while expanding operating margins from 34.6% to 36.6% over the same period. The TTM period ending February 2026 shows continued acceleration: revenue of $24.5B represents 12% YoY growth, while operating margins have pushed to 38.8%, a new high."
+      ],
+      "highlights": [
+        "FY2025 revenue grew 10.5% YoY to $23.8B; FY2024 grew 10.8% YoY to $21.5B.",
+        "Gross profit expanded from $15.4B in FY2022 to $21.2B in FY2025, reflecting operating leverage on the subscription model.",
+        "Net income jumped 28.2% in FY2025 to $7.1B vs. $5.6B in FY2024, partly reflecting the absence of the Figma termination fee that pressured FY2024 results.",
+        "TTM operating income of $9.5B on $24.5B revenue implies 38.8% operating margin, the highest in Adobe's history."
+      ],
+      "tables": [
+        {
+          "title": "Income Statement ($B)",
+          "columns": [
+            "Period",
+            "Revenue",
+            "Gross Profit",
+            "Operating Income",
+            "Net Income"
+          ],
+          "rows": [
+            [
+              "FY2022 (Nov)",
+              "$17.6B",
+              "$15.4B",
+              "$6.1B",
+              "$4.8B"
+            ],
+            [
+              "FY2023 (Nov)",
+              "$19.4B",
+              "$17.1B",
+              "$6.7B",
+              "$5.4B"
+            ],
+            [
+              "FY2024 (Nov)",
+              "$21.5B",
+              "$19.1B",
+              "$7.7B",
+              "$5.6B"
+            ],
+            [
+              "FY2025 (Nov)",
+              "$23.8B",
+              "$21.2B",
+              "$8.7B",
+              "$7.1B"
+            ],
+            [
+              "TTM (Feb 2026)",
+              "$24.5B",
+              "$21.9B",
+              "$9.5B",
+              "$7.2B"
+            ]
+          ]
+        },
+        {
+          "title": "Margin Analysis",
+          "columns": [
+            "Period",
+            "Gross Margin %",
+            "Operating Margin %",
+            "Net Margin %",
+            "YoY Revenue Growth %"
+          ],
+          "rows": [
+            [
+              "FY2022",
+              "87.7%",
+              "34.6%",
+              "27.0%",
+              "\u2014"
+            ],
+            [
+              "FY2023",
+              "87.9%",
+              "34.3%",
+              "28.0%",
+              "+10.2%"
+            ],
+            [
+              "FY2024",
+              "89.1%",
+              "36.0%",
+              "25.9%",
+              "+10.8%"
+            ],
+            [
+              "FY2025",
+              "89.3%",
+              "36.6%",
+              "30.0%",
+              "+10.5%"
+            ],
+            [
+              "TTM (Feb 2026)",
+              "89.4%",
+              "38.8%",
+              "29.5%",
+              "+12.0%"
+            ]
+          ]
+        }
+      ]
+    },
+    "balanceSheetAnalysis": {
+      "summaryParagraphs": [
+        "Adobe's balance sheet is sound but less pristine than prior years, reflecting active capital return through buybacks that reduced equity from $16.5B in FY2023 to $11.6B in FY2025. Total debt rose to $6.6B in FY2025, though net debt remains modest at $1.2B against an EBITDA run rate exceeding $10B."
+      ],
+      "tables": [
+        {
+          "title": "Balance Sheet ($B)",
+          "columns": [
+            "Metric",
+            "FY2023 (Nov)",
+            "FY2024 (Nov)",
+            "FY2025 (Nov)"
+          ],
+          "rows": [
+            [
+              "Total Assets",
+              "$29.8B",
+              "$30.2B",
+              "$29.5B"
+            ],
+            [
+              "Total Liabilities",
+              "$13.3B",
+              "$16.1B",
+              "$17.9B"
+            ],
+            [
+              "Total Equity",
+              "$16.5B",
+              "$14.1B",
+              "$11.6B"
+            ],
+            [
+              "Total Debt",
+              "$4.1B",
+              "$6.1B",
+              "$6.6B"
+            ],
+            [
+              "Cash & Equivalents",
+              "$7.1B",
+              "$7.6B",
+              "$5.4B"
+            ],
+            [
+              "Net Debt / (Cash)",
+              "($3.1B)",
+              "($1.6B)",
+              "$1.2B"
+            ],
+            [
+              "Debt-to-Equity",
+              "0.25x",
+              "0.43x",
+              "0.57x"
+            ]
+          ]
+        }
+      ]
+    },
+    "cashFlowReturns": {
+      "summaryParagraphs": [
+        "Adobe's FCF profile is exceptional by any measure. FY2025 operating cash flow of $10.0B on $23.8B in revenue represents a 41.4% operating cash flow margin, while capex intensity remains below 1% of revenue. Return metrics remain among the strongest in large-cap software."
+      ],
+      "highlights": [
+        "FY2025 FCF of $9.9B grew 25.2% YoY from FY2024's $7.9B.",
+        "CapEx declined from $442M in FY2022 to $179M in FY2025, representing a drop from 2.5% to 0.75% of revenue.",
+        "Q1 FY2026 standalone FCF was $2.92B on $6.40B revenue, a 45.7% FCF margin.",
+        "FCF conversion exceeded 130% of net income in FY2025, showing that cash earnings substantially exceed GAAP earnings."
+      ],
+      "tables": [
+        {
+          "title": "Cash Flow ($B)",
+          "columns": [
+            "Period",
+            "Operating CF",
+            "CapEx",
+            "Free Cash Flow",
+            "FCF Margin %",
+            "FCF/Share"
+          ],
+          "rows": [
+            [
+              "FY2022 (Nov)",
+              "$7.8B",
+              "($0.442B)",
+              "$7.4B",
+              "42.0%",
+              "$15.80"
+            ],
+            [
+              "FY2023 (Nov)",
+              "$7.3B",
+              "($0.360B)",
+              "$6.9B",
+              "35.8%",
+              "$15.00"
+            ],
+            [
+              "FY2024 (Nov)",
+              "$8.1B",
+              "($0.183B)",
+              "$7.9B",
+              "36.6%",
+              "$17.50"
+            ],
+            [
+              "FY2025 (Nov)",
+              "$10.0B",
+              "($0.179B)",
+              "$9.9B",
+              "41.4%",
+              "$22.90"
+            ],
+            [
+              "TTM (Feb 2026)",
+              "$10.5B",
+              "($0.146B)",
+              "$9.3B",
+              "38.1%",
+              "$22.60"
+            ]
+          ]
+        },
+        {
+          "title": "Return on Capital",
+          "columns": [
+            "Metric",
+            "FY2023",
+            "FY2024",
+            "FY2025"
+          ],
+          "rows": [
+            [
+              "ROE",
+              "32.9%",
+              "39.4%",
+              "61.3%"
+            ],
+            [
+              "ROA",
+              "18.2%",
+              "18.4%",
+              "24.2%"
+            ],
+            [
+              "ROIC",
+              "28%",
+              "33%",
+              "38%"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "valuation": {
+    "multiplesAnalysis": {
+      "summaryParagraphs": [
+        "ADBE's current valuation is dislocated from both its own history and its peer group. At 8.5x forward P/E and 9.5x EV/EBITDA, the stock prices in near-zero growth, inconsistent with consensus estimates of 9.7% revenue growth and 12.2% EPS growth in FY2026."
+      ],
+      "tables": [
+        {
+          "title": "Valuation Multiple",
+          "columns": [
+            "Metric",
+            "ADBE (Current)",
+            "ADBE (5-Yr Avg)",
+            "Industry Avg",
+            "CRM",
+            "MSFT",
+            "ADSK"
+          ],
+          "rows": [
+            [
+              "P/E (Trailing)",
+              "13.1x",
+              "42x",
+              "28x",
+              "35x",
+              "32x",
+              "52x"
+            ],
+            [
+              "Forward P/E",
+              "8.5x",
+              "30x",
+              "22x",
+              "22x",
+              "28x",
+              "32x"
+            ],
+            [
+              "P/S (TTM)",
+              "3.8x",
+              "12x",
+              "7x",
+              "6x",
+              "13x",
+              "10x"
+            ],
+            [
+              "P/B",
+              "8.0x",
+              "18x",
+              "12x",
+              "5x",
+              "12x",
+              "22x"
+            ],
+            [
+              "EV/EBITDA",
+              "9.5x",
+              "28x",
+              "18x",
+              "18x",
+              "22x",
+              "30x"
+            ],
+            [
+              "EV/Revenue",
+              "3.7x",
+              "12x",
+              "6x",
+              "6x",
+              "13x",
+              "10x"
+            ],
+            [
+              "PEG Ratio",
+              "0.71x",
+              "1.8x",
+              "1.5x",
+              "1.2x",
+              "1.6x",
+              "1.8x"
+            ],
+            [
+              "FCF Yield",
+              "10.1%",
+              "2.5%",
+              "3.5%",
+              "3.2%",
+              "2.8%",
+              "2.0%"
+            ]
+          ]
+        }
+      ]
+    },
+    "dcfAnalysis": {
+      "summaryParagraphs": [
+        "The DCF assumes revenue growth decelerating from 10% toward 7% by FY2030, operating margins expanding modestly from 38.8% toward 41%, and capex remaining below 1% of revenue. The valuation reflects Adobe's asset-light subscription model and strong cash generation."
+      ],
+      "assumptions": [
+        "WACC: 9.5%.",
+        "Terminal growth rate: 3.0%.",
+        "CapEx: 0.75% of revenue throughout the forecast period.",
+        "Operating margin trajectory: 38.8% in FY2026E to 41.0% in FY2030E.",
+        "Shares outstanding: 412M diluted, declining about 2% per year via buybacks."
+      ],
+      "projectionTable": {
+        "title": "DCF Projections ($B)",
+        "columns": [
+          "Year",
+          "Revenue",
+          "EBITDA",
+          "FCF"
+        ],
+        "rows": [
+          [
+            "FY2026E",
+            "$26.1B",
+            "$10.3B",
+            "$10.5B"
+          ],
+          [
+            "FY2027E",
+            "$28.4B",
+            "$11.5B",
+            "$11.6B"
+          ],
+          [
+            "FY2028E",
+            "$30.6B",
+            "$12.5B",
+            "$12.7B"
+          ],
+          [
+            "FY2029E",
+            "$32.7B",
+            "$13.5B",
+            "$13.7B"
+          ],
+          [
+            "FY2030E",
+            "$34.5B",
+            "$14.2B",
+            "$14.4B"
+          ]
+        ]
+      },
+      "scenarioTable": {
+        "title": "DCF Scenario Analysis",
+        "columns": [
+          "Scenario",
+          "Revenue CAGR",
+          "Terminal Growth",
+          "WACC",
+          "Implied Price",
+          "Upside/Downside"
+        ],
+        "rows": [
+          [
+            "Bull",
+            "12%",
+            "3.5%",
+            "8.5%",
+            "$430",
+            "+90.8%"
+          ],
+          [
+            "Base",
+            "9%",
+            "3.0%",
+            "9.5%",
+            "$310",
+            "+37.6%"
+          ],
+          [
+            "Bear",
+            "5%",
+            "2.0%",
+            "11.0%",
+            "$175",
+            "-22.3%"
+          ]
+        ]
+      }
+    },
+    "valuationConclusion": "ADBE is materially undervalued on every relevant metric. Our blended target of $320 implies 42.0% upside and reflects a business whose operating momentum and cash generation are inconsistent with its current distressed-software multiple."
+  },
+  "businessModelMoat": {
+    "segmentProfile": {
+      "summaryParagraphs": [
+        "Adobe operates across two primary customer-facing segments: Digital Media and Digital Experience. Digital Media is the dominant revenue contributor and the higher-margin, higher-growth segment, while Digital Experience is more enterprise-facing with longer sales cycles."
+      ],
+      "segmentTable": {
+        "title": "Business Segment",
+        "columns": [
+          "Segment",
+          "FY2025 Revenue",
+          "% of Total",
+          "YoY Growth",
+          "Growth Stage"
+        ],
+        "rows": [
+          [
+            "Digital Media (Creative Cloud)",
+            "$15.5B",
+            "65%",
+            "11%",
+            "Growth"
+          ],
+          [
+            "Digital Media (Document Cloud)",
+            "$3.4B",
+            "14%",
+            "15%",
+            "Accelerating"
+          ],
+          [
+            "Digital Experience",
+            "$4.7B",
+            "20%",
+            "10%",
+            "Mature Growth"
+          ],
+          [
+            "Publishing & Advertising",
+            "$0.2B",
+            "1%",
+            "-5%",
+            "Declining"
+          ]
+        ]
+      }
+    },
+    "economicMoatAssessment": {
+      "summaryParagraphs": [
+        "Adobe possesses a wide economic moat anchored by switching costs and ecosystem lock-in within Creative Cloud and Document Cloud. Professionals build workflows, file libraries, and even careers around Adobe's tools, making switching both behaviorally and technically expensive."
+      ],
+      "moatTable": {
+        "title": "Economic Moat Assessment",
+        "columns": [
+          "Moat Source",
+          "Strength",
+          "Rationale"
+        ],
+        "rows": [
+          [
+            "Brand & Reputation",
+            "Strong",
+            "Adobe is synonymous with creative software and trusted at enterprise scale."
+          ],
+          [
+            "Network Effects",
+            "Moderate",
+            "File formats and the broader professional ecosystem create moderate network value."
+          ],
+          [
+            "Switching Costs",
+            "Strong",
+            "Workflow integration, file-format dependency, and career-skill lock-in make switching painful."
+          ],
+          [
+            "Cost Advantages / Scale",
+            "Moderate",
+            "High gross margins and AI R&D amortization across a very large subscriber base."
+          ],
+          [
+            "Intellectual Property / Patents",
+            "Moderate",
+            "Extensive IP portfolio, though open-source AI narrows the pure IP moat."
+          ],
+          [
+            "Regulatory Barriers",
+            "Weak",
+            "No meaningful regulatory protection."
+          ]
+        ]
+      },
+      "overallMoatConclusion": "Adobe appears to have a wide moat. The combination of strong switching costs, brand equity, file-format ecosystem lock-in, and 89% gross margins supports durable competitive advantages even as AI-native tools pressure parts of the prosumer tier."
+    }
+  },
+  "growthStrategyOutlook": {
+    "nearTermCatalysts": [
+      "Q2 FY2026 earnings with consensus at $6.46B revenue and $5.83 EPS.",
+      "Potential Semrush acquisition close following preliminary German regulatory approval.",
+      "Firefly premium-tier upsell as generative credits are embedded across Creative Cloud plans."
+    ],
+    "mediumTermDrivers": [
+      "AI Assistant for Acrobat driving Document Cloud ARPU expansion.",
+      "Experience Cloud platform consolidation as enterprises rationalize martech stacks.",
+      "APAC and SMB Creative Cloud penetration through localized pricing tiers."
+    ],
+    "longTermOpportunities": [
+      "Video AI and generative video monetization.",
+      "Content supply-chain software for large enterprise personalization workflows.",
+      "Creator economy infrastructure through the Express funnel."
+    ],
+    "tamPositioning": {
+      "summaryParagraphs": [
+        "Adobe's addressable opportunity spans creative tools, document management and e-signature, and digital marketing and experience software. Current revenue remains only a fraction of these large end markets."
+      ],
+      "highlights": [
+        "Creative tools TAM is about $63B globally by 2028.",
+        "Document management and e-sign TAM is about $18B.",
+        "Digital marketing and experience TAM exceeds $100B.",
+        "Adobe's implied market share still leaves meaningful runway across all three categories."
+      ]
+    }
+  },
+  "managementGovernance": {
+    "leadership": {
+      "summaryParagraphs": [
+        "Adobe is undergoing a CEO transition confirmed by the March 2026 8-K filing, representing the most significant near-term governance uncertainty. CFO Dan Durn remains a stabilizing presence, while the long-term strategic architecture built under Shantanu Narayen remains institutionally embedded."
+      ]
+    },
+    "capitalAllocation": {
+      "summaryParagraphs": [
+        "Adobe's capital allocation has been strong on buybacks and R&D, though the failed Figma acquisition and related termination fee remain a notable blemish. The Semrush deal appears to be a more modest and digestible post-Figma M&A move."
+      ],
+      "acquisitionTable": {
+        "title": "Major Acquisition",
+        "columns": [
+          "Transaction",
+          "Year",
+          "Deal Value",
+          "Outcome"
+        ],
+        "rows": [
+          [
+            "Figma Acquisition (Attempted)",
+            "2022\u20132023",
+            "$20.0B",
+            "Blocked by regulators; termination fee paid"
+          ],
+          [
+            "Semrush Acquisition (Pending)",
+            "2025\u20132026",
+            "$1.5B",
+            "Preliminary German approval secured; full close pending"
+          ],
+          [
+            "Frame.io",
+            "2021",
+            "$1.3B",
+            "Integrated into Creative Cloud video workflow"
+          ],
+          [
+            "Workfront",
+            "2020",
+            "$1.5B",
+            "Integrated into Experience Cloud"
+          ]
+        ]
+      }
+    },
+    "alignment": {
+      "summaryParagraphs": [
+        "Insider ownership is modest for a mature software company, while institutional ownership above 85% provides governance discipline. Compensation remains equity-linked through multi-year vesting structures and is broadly aligned with long-duration value creation."
+      ]
+    }
+  },
+  "riskAnalysis": {
+    "riskTable": {
+      "title": "Risk Analysis",
+      "columns": [
+        "Risk",
+        "Type",
+        "Probability",
+        "Impact",
+        "Mitigation"
+      ],
+      "rows": [
+        [
+          "AI commoditization of creative tools",
+          "Idiosyncratic",
+          "High",
+          "Medium",
+          "Firefly integration, workflow lock-in, and enterprise focus"
+        ],
+        [
+          "CEO transition / strategy discontinuity",
+          "Idiosyncratic",
+          "Medium",
+          "Medium",
+          "CFO continuity and institutionalized product roadmap"
+        ],
+        [
+          "Regulatory settlement costs",
+          "Idiosyncratic",
+          "Medium",
+          "Low",
+          "$5.4B cash buffer"
+        ],
+        [
+          "Semrush integration risk",
+          "Idiosyncratic",
+          "Low",
+          "Low",
+          "Small relative deal size and bolt-on nature"
+        ],
+        [
+          "Macro recession / enterprise spend freeze",
+          "Systemic",
+          "Medium",
+          "Medium",
+          "Subscription-model visibility and renewal resilience"
+        ],
+        [
+          "Interest-rate driven multiple compression",
+          "Systemic",
+          "Low",
+          "Medium",
+          "Already compressed starting multiple"
+        ],
+        [
+          "Open-source AI disruption of enterprise workflows",
+          "Systemic",
+          "Low",
+          "High",
+          "Enterprise security, compliance, and support requirements favor commercial vendors"
+        ]
+      ]
+    }
+  },
+  "finalRecommendation": {
+    "rating": "BUY",
+    "priceTarget": "$320",
+    "impliedUpsidePct": "+42.0%",
+    "bullBaseBear": {
+      "bull": "$430",
+      "base": "$320",
+      "bear": "$175"
+    },
+    "valuationMethodology": "Our $320 price target blends 60% weight on the DCF base case and 40% weight on a peer NTM P/E multiple applied to consensus FY2026E EPS.",
+    "fiveKeyMetricsToWatch": [
+      "Creative Cloud net new ARR.",
+      "Document Cloud ARPU growth.",
+      "CEO succession announcement and profile of the successor.",
+      "Experience Cloud bookings and remaining performance obligations growth.",
+      "Semrush regulatory close and integration guidance."
+    ],
+    "ratingChangeTriggers": [
+      {
+        "action": "Upgrade to Strong Buy",
+        "direction": "\u2191",
+        "trigger": "CEO successor announced with a strong Adobe-aligned track record and Q2 FY2026 revenue beat above $6.52B with raised FY2026 guidance above $26.5B."
+      },
+      {
+        "action": "Downgrade to Hold",
+        "direction": "\u2193",
+        "trigger": "Creative Cloud net new ARR falls below $350M for two consecutive quarters, or operating margin compresses below 37% on AI infrastructure cost increases."
+      },
+      {
+        "action": "Downgrade to Sell",
+        "direction": "\u2193\u2193",
+        "trigger": "FY2026 revenue guidance cut below $25.0B, or FCF margin contracts below 35%, or the CEO transition produces a major strategic pivot that damages Creative Cloud pricing architecture."
+      }
+    ],
+    "closingParagraph": "Adobe appears to be a rare large-cap software mispricing: a category-defining franchise with elite margins, strong free cash flow, and durable ecosystem lock-in trading at distressed-software multiples. The key question is whether AI competition meaningfully erodes the core professional and enterprise franchise; the current evidence suggests it does not."
+  },
+  "openQuestions": [
+    "Who will be Adobe's next CEO, and what is their strategic orientation toward AI product pricing and M&A?",
+    "Is Firefly driving measurable ARPU uplift in Creative Cloud, or is it primarily a retention tool?",
+    "What is the financial magnitude of the regulatory settlement referenced in recent coverage?",
+    "Will the Semrush acquisition close in FY2026, and what revenue synergy guidance will management provide?",
+    "Is Document Cloud ARR growing faster than 15% in Q2 FY2026, and is Acrobat AI Assistant driving net new seats or mostly ARPU?",
+    "How quickly will Experience Cloud bookings and RPO growth reflect macro-driven enterprise budget pressure, if at all?"
+  ]
+}

@@ -295,6 +295,14 @@ const coverageRegistry = {
          lastUpdated: '2026-04-08',
          status: 'published'
         },
+ ADBE: {
+      ticker: 'ADBE',
+      companyName: 'Adobe Inc.',
+      exchange: 'NYSE',
+      sector: 'Technology',
+      lastUpdated: '2026-04-08',
+      status: 'published'
+     },
   IBM: {
       ticker: 'IBM',
       companyName: 'International Business Machines Corporation',
