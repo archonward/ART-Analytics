@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { API_BASE } from '../config/api';
+import { API_BASE, API_HEADERS } from '../config/api';
 
 const POLL_INTERVAL_MS = 15000;
 
@@ -25,7 +25,10 @@ export default function useMarketOverview(enabled = true) {
           setOverviewError('');
         }
 
-        const response = await fetch(`${API_BASE}/api/market-overview`);
+        const response = await fetch(
+          `${API_BASE}/api/market-overview`,
+          { headers: API_HEADERS }
+        );
         const data = await response.json();
 
         if (!response.ok) {

@@ -2,6 +2,7 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import express from 'express';
 import { listCoveredTickers } from './data/coverageRegistry.js';
+import { requireApiKey } from './middleware/auth.js';
 import {
   clearMarketDataCache,
   getLiveMarketDataBatchByTickers,
@@ -79,14 +80,14 @@ app.get('/api/coverage', (_, res) => {
   });
 });
 
-app.get('/api/report-template', (_, res) => {
+app.get('/api/report-template', requireApiKey, (_, res) => {
   res.json({
     status: 'ok',
     template: reportTemplate
   });
 });
 
-app.get('/api/report-audit', async (_, res) => {
+app.get('/api/report-audit', requireApiKey, async (_, res) => {
   try {
     const auditResult = await auditPublishedReports();
 
@@ -102,7 +103,7 @@ app.get('/api/report-audit', async (_, res) => {
   }
 });
 
-app.get('/api/market-data', async (req, res) => {
+app.get('/api/market-data', requireApiKey, async (req, res) => {
   try {
     const tickerRaw = String(req.query.ticker || '').toUpperCase().trim();
 
@@ -140,7 +141,7 @@ app.get('/api/market-data', async (req, res) => {
   }
 });
 
-app.get('/api/market-data/batch', async (req, res) => {
+app.get('/api/market-data/batch', requireApiKey, async (req, res) => {
   try {
     const tickersRaw = String(req.query.tickers || '')
       .split(',')
@@ -174,7 +175,7 @@ app.get('/api/market-data/batch', async (req, res) => {
   }
 });
 
-app.get('/api/stock-summary', async (req, res) => {
+app.get('/api/stock-summary', requireApiKey, async (req, res) => {
   try {
     const tickerRaw = String(req.query.ticker || '').toUpperCase().trim();
 
@@ -226,7 +227,7 @@ app.get('/api/stock-summary', async (req, res) => {
   }
 });
 
-app.get('/api/report-qa/debug', async (req, res) => {
+app.get('/api/report-qa/debug', requireApiKey, async (req, res) => {
   try {
     const tickerRaw = String(req.query.ticker || '').toUpperCase().trim();
     const query = String(req.query.q || '').trim();
@@ -306,7 +307,7 @@ app.get('/api/report-qa/debug', async (req, res) => {
   }
 });
 
-app.post('/api/report-qa', async (req, res) => {
+app.post('/api/report-qa', requireApiKey, async (req, res) => {
   try {
     const tickerRaw = String(req.body?.ticker || '').toUpperCase().trim();
     const question = String(req.body?.question || '').trim();
@@ -380,7 +381,7 @@ app.post('/api/report-qa', async (req, res) => {
   }
 });
 
-app.get('/api/market-overview', async (_, res) => {
+app.get('/api/market-overview', requireApiKey, async (_, res) => {
   try {
     const overviewResult = await getMarketOverview();
 

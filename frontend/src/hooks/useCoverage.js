@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { API_BASE } from '../config/api';
+import { API_BASE, API_HEADERS } from '../config/api';
 
 export default function useCoverage() {
   const [coveredTickers, setCoveredTickers] = useState([]);
@@ -12,7 +12,9 @@ export default function useCoverage() {
         setCoverageLoading(true);
         setCoverageError('');
 
-        const response = await fetch(`${API_BASE}/api/coverage`);
+        const response = await fetch(`${API_BASE}/api/coverage`,
+          { headers: API_HEADERS }
+        );
         const data = await response.json();
 
         if (!response.ok) {
