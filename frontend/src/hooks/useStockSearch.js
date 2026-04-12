@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { API_BASE } from '../config/api';
+import { API_BASE, API_HEADERS } from '../config/api';
 
 export default function useStockSearch() {
   const [ticker, setTicker] = useState('');
@@ -18,7 +18,8 @@ export default function useStockSearch() {
 
     try {
       const response = await fetch(
-        `${API_BASE}/api/stock-summary?ticker=${encodeURIComponent(normalizedTicker)}`
+        `${API_BASE}/api/stock-summary?ticker=${encodeURIComponent(normalizedTicker)}`,
+        { headers: API_HEADERS }
       );
       const data = await response.json();
 

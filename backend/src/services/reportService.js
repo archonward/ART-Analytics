@@ -1,12 +1,7 @@
-import fs from 'node:fs/promises';
-import path from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { GetObjectCommand } from '@aws-sdk/client-s3';
 import { getCoverageByTicker } from '../data/coverageRegistry.js';
+import { s3Client, S3_BUCKET } from '../utils/s3Client.js';
 import { validateReportSchema } from '../utils/reportValidator.js';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-const reportsDirectory = path.resolve(__dirname, '../data/reports');
 
 export async function getPublishedReportByTicker(ticker) {
   const coverage = getCoverageByTicker(ticker);
@@ -18,11 +13,24 @@ export async function getPublishedReportByTicker(ticker) {
     };
   }
 
-  const reportFilePath = path.join(reportsDirectory, `${ticker}.json`);
-
   try {
-    const fileContent = await fs.readFile(reportFilePath, 'utf-8');
-    const report = JSON.parse(fileContent);
+    const command = new GetObjectCommand({
+      Bucket: S3_BUCKET,
+      Key: `reports/${ticker}.json`
+    });
+
+    const response = await s3Client.send(command);
+    const bodyString = await response.Body.transformToString();
+
+    let report;
+    try {
+      report = JSON.parse(bodyString);
+    } catch {
+      return {
+        found: false,
+        reason: 'invalid_json'
+      };
+    }
 
     const validation = validateReportSchema(report);
 
@@ -39,18 +47,13 @@ export async function getPublishedReportByTicker(ticker) {
       coverage,
       report
     };
+
   } catch (error) {
-    if (error.code === 'ENOENT') {
+    // S3 throws NoSuchKey when the file doesn't exist
+    if (error.name === 'NoSuchKey') {
       return {
         found: false,
         reason: 'missing_report_content'
-      };
-    }
-
-    if (error instanceof SyntaxError) {
-      return {
-        found: false,
-        reason: 'invalid_json'
       };
     }
 

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { API_BASE } from '../config/api';
+import { API_BASE, API_HEADERS } from '../config/api';
 
 const POLL_INTERVAL_MS = 15000;
 
@@ -28,7 +28,8 @@ export default function useBatchMarketData(tickers, enabled = true) {
         }
 
         const response = await fetch(
-          `${API_BASE}/api/market-data/batch?tickers=${encodeURIComponent(cleanedTickers.join(','))}`
+          `${API_BASE}/api/market-data/batch?tickers=${encodeURIComponent(cleanedTickers.join(','))}`,
+          { headers: API_HEADERS }
         );
 
         const data = await response.json();

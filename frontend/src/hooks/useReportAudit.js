@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { API_BASE } from '../config/api';
+import { API_BASE, API_HEADERS } from '../config/api';
 
 export default function useReportAudit(enabled = true) {
   const [auditData, setAuditData] = useState(null);
@@ -18,7 +18,10 @@ export default function useReportAudit(enabled = true) {
         setAuditLoading(true);
         setAuditError('');
 
-        const response = await fetch(`${API_BASE}/api/report-audit`);
+        const response = await fetch(
+          `${API_BASE}/api/report-audit`,
+          { headers: API_HEADERS }
+        );
         const data = await response.json();
 
         if (!response.ok) {
