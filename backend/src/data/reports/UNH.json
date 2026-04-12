@@ -9,9 +9,9 @@
     "author": "ART Analytics",
     "rating": "BUY",
     "targetPrice": "$360",
-    "currentPrice": "$277.26",
-    "impliedUpsidePct": "+29.8%",
-    "marketDataAsOf": "Apr 2, 2026, 8:00 PM",
+    "currentPrice": "$304.33",
+    "impliedUpsidePct": "+18.3%",
+    "marketDataAsOf": "Apr 10, 2026, 4:00 PM",
     "estimatedReadMinutes": 24,
     "coverageStatus": "published"
   },
@@ -20,7 +20,7 @@
     "snapshotMetrics": [
       {
         "label": "Market Cap",
-        "value": "$251.7B"
+        "value": "$276.2B"
       },
       {
         "label": "Enterprise Value",
@@ -48,7 +48,7 @@
       },
       {
         "label": "P/E",
-        "value": "21.0x"
+        "value": "23.0x"
       },
       {
         "label": "Revenue Growth YoY",
@@ -66,7 +66,7 @@
       "The investment thesis centers on margin normalization rather than structural reinvention. If medical cost ratios revert toward historical levels, earnings power can recover significantly, creating substantial upside from current depressed valuation multiples."
     ],
     "catalysts": [
-      "Medical Cost Ratio normalization toward 83\u201384% levels could restore billions in operating income.",
+      "Medical Cost Ratio normalization toward 83–84% levels could restore billions in operating income.",
       "Optum margin recovery driven by operational discipline and AI-enabled care management.",
       "Q1 2026 earnings may provide the first confirmation of margin stabilization."
     ],
@@ -538,14 +538,14 @@
         ],
         "rows": [
           [
-            "UnitedHealthcare \u2014 Commercial",
+            "UnitedHealthcare — Commercial",
             "$110B",
             "25%",
             "+6%",
             "Mature"
           ],
           [
-            "UnitedHealthcare \u2014 Government (MA/Medicaid)",
+            "UnitedHealthcare — Government (MA/Medicaid)",
             "$145B",
             "32%",
             "+15%",
@@ -672,28 +672,28 @@
             "2022",
             "$13.0B",
             "Healthcare data and claims-processing scale",
-            "Mixed \u2013 major cyber incident in 2024, but long-term data assets remain valuable"
+            "Mixed – major cyber incident in 2024, but long-term data assets remain valuable"
           ],
           [
             "LHC Group",
             "2023",
             "$5.4B",
             "Home-based care expansion under OptumHealth",
-            "Positive \u2013 extends value-based-care footprint into the home setting"
+            "Positive – extends value-based-care footprint into the home setting"
           ],
           [
             "Refresh Mental Health",
-            "2023\u20132024",
+            "2023–2024",
             "On file",
             "Behavioral-health integration",
-            "Early stage \u2013 strategic fit appears clear"
+            "Early stage – strategic fit appears clear"
           ],
           [
             "2026 wage-discipline initiative",
             "2026",
             "N/A",
             "Protect margin restoration through restrained SG&A growth",
-            "Positive \u2013 signals prioritization of operational discipline"
+            "Positive – signals prioritization of operational discipline"
           ]
         ]
       }
@@ -770,7 +770,7 @@
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$360",
-    "impliedUpsidePct": "+29.8%",
+    "impliedUpsidePct": "+18.3%",
     "bullBaseBear": {
       "bull": "$440",
       "base": "$360",
@@ -787,12 +787,12 @@
     "ratingChangeTriggers": [
       {
         "action": "Upgrade",
-        "direction": "\u2191",
+        "direction": "↑",
         "trigger": "Faster margin recovery"
       },
       {
         "action": "Downgrade",
-        "direction": "\u2193",
+        "direction": "↓",
         "trigger": "Persistent margin pressure"
       }
     ],

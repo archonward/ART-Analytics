@@ -9,9 +9,9 @@
     "author": "ART Analytics",
     "rating": "BUY",
     "targetPrice": "$136.00",
-    "currentPrice": "$123.95",
-    "impliedUpsidePct": "+9.7%",
-    "marketDataAsOf": "Mar 24, 2026, 3:47 PM",
+    "currentPrice": "$126.77",
+    "impliedUpsidePct": "+7.3%",
+    "marketDataAsOf": "Apr 10, 2026, 4:00 PM",
     "estimatedReadMinutes": 15,
     "coverageStatus": "published"
   },
@@ -20,7 +20,7 @@
     "snapshotMetrics": [
       {
         "label": "Market Cap",
-        "value": "$988.2B"
+        "value": "$1.01T"
       },
       {
         "label": "Enterprise Value",
@@ -40,7 +40,7 @@
       },
       {
         "label": "P/E",
-        "value": "45.4x"
+        "value": "46.4x"
       },
       {
         "label": "EV/EBITDA",
@@ -245,7 +245,7 @@
         "Operating cash flow reached $41.6B in FY26, up 14.1% from FY25.",
         "Capex intensity rose to 3.7% of revenue as automation accelerated.",
         "FCF margin improved to 2.1% in FY26 from 1.9% in FY25.",
-        "Capital allocation efficiency is improving as automation investments begin generating returns, with estimated ROIC of 12.8% above the company\u2019s estimated 8\u20139% WACC."
+        "Capital allocation efficiency is improving as automation investments begin generating returns, with estimated ROIC of 12.8% above the company’s estimated 8–9% WACC."
       ],
       "tables": [
         {
@@ -656,7 +656,7 @@
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$136.00",
-    "impliedUpsidePct": "+9.7%",
+    "impliedUpsidePct": "+7.3%",
     "bullBaseBear": {
       "bull": "$158",
       "base": "$136",

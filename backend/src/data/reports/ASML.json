@@ -9,9 +9,9 @@
     "author": "ART Analytics",
     "rating": "BUY",
     "targetPrice": "$1,485",
-    "currentPrice": "$1,352.96",
-    "impliedUpsidePct": "+9.8%",
-    "marketDataAsOf": "Mar 26, 2026, 4:08 PM",
+    "currentPrice": "$1,478.28",
+    "impliedUpsidePct": "+0.5%",
+    "marketDataAsOf": "Apr 10, 2026, 4:00 PM",
     "estimatedReadMinutes": 12,
     "coverageStatus": "published"
   },
@@ -20,7 +20,7 @@
     "snapshotMetrics": [
       {
         "label": "Market Cap",
-        "value": "$531.3B"
+        "value": "$580.5B"
       },
       {
         "label": "Enterprise Value",
@@ -40,7 +40,7 @@
       },
       {
         "label": "P/E",
-        "value": "47.1x"
+        "value": "51.3x"
       },
       {
         "label": "Consensus Upside",
@@ -216,7 +216,7 @@
     },
     "cashFlowReturns": {
       "summaryParagraphs": [
-        "ASML remains a strong cash compounder despite lumpy delivery timing. Free cash flow margins above 30% in normal years indicate a business with both high pricing power and efficient reinvestment demands. Returns on capital remain extraordinary and well above any reasonable estimate of cost of capital, underscoring just how unusual ASML\u2019s economic position is."
+        "ASML remains a strong cash compounder despite lumpy delivery timing. Free cash flow margins above 30% in normal years indicate a business with both high pricing power and efficient reinvestment demands. Returns on capital remain extraordinary and well above any reasonable estimate of cost of capital, underscoring just how unusual ASML’s economic position is."
       ],
       "highlights": [
         "Free cash flow reached $11.0B in 2025 with a 33.7% margin.",
@@ -293,7 +293,7 @@
   "valuation": {
     "multiplesAnalysis": {
       "summaryParagraphs": [
-        "ASML trades at a premium to semiconductor-equipment peers, but that premium reflects monopoly economics and a unique strategic role. More important, current multiples remain below the company\u2019s own historical averages despite a strengthening structural narrative."
+        "ASML trades at a premium to semiconductor-equipment peers, but that premium reflects monopoly economics and a unique strategic role. More important, current multiples remain below the company’s own historical averages despite a strengthening structural narrative."
       ],
       "tables": [
         {
@@ -543,7 +543,7 @@
       "Service revenue scales with the installed base."
     ],
     "longTermOpportunities": [
-      "Hyper-NA or adjacent process technologies could extend ASML\u2019s relevance.",
+      "Hyper-NA or adjacent process technologies could extend ASML’s relevance.",
       "Deeper customer dependence could emerge as process complexity rises."
     ],
     "tamPositioning": {
@@ -676,7 +676,7 @@
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$1,485",
-    "impliedUpsidePct": "+9.8%",
+    "impliedUpsidePct": "+0.5%",
     "bullBaseBear": {
       "bull": "$1,680",
       "base": "$1,485",

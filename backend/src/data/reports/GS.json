@@ -9,18 +9,18 @@
     "author": "ART Analytics",
     "rating": "BUY",
     "targetPrice": "$1020",
-    "currentPrice": "$863.04",
-    "impliedUpsidePct": "+18.2%",
-    "marketDataAsOf": "Apr 2, 2026, 8:00 PM",
+    "currentPrice": "$907.80",
+    "impliedUpsidePct": "+12.4%",
+    "marketDataAsOf": "Apr 10, 2026, 4:00 PM",
     "estimatedReadMinutes": 23,
     "coverageStatus": "published"
   },
   "executiveAtAGlance": {
-    "thesisHeadline": "Goldman Sachs\u2019 refocus on institutional businesses and scaling of asset & wealth management is driving structurally higher earnings quality, with cyclical investment banking recovery providing upside to current valuation.",
+    "thesisHeadline": "Goldman Sachs’ refocus on institutional businesses and scaling of asset & wealth management is driving structurally higher earnings quality, with cyclical investment banking recovery providing upside to current valuation.",
     "snapshotMetrics": [
       {
         "label": "Market Cap",
-        "value": "$256.1B"
+        "value": "$269.4B"
       },
       {
         "label": "Enterprise Value",
@@ -48,7 +48,7 @@
       },
       {
         "label": "P/E",
-        "value": "16.8x"
+        "value": "17.7x"
       },
       {
         "label": "Revenue Growth YoY",
@@ -496,7 +496,7 @@
     "segmentProfile": {
       "summaryParagraphs": [
         "Goldman Sachs now operates through a simplified structure centered on Global Banking & Markets and Asset & Wealth Management, with Platform Solutions materially scaled back. That portfolio shift matters because AWM carries more recurring, fee-based economics than the historically more cyclical trading and investment banking businesses.",
-        "Management\u2019s strategic objective is not to replace Global Banking & Markets, but to improve the group-level earnings mix so that the franchise receives a higher through-cycle valuation multiple."
+        "Management’s strategic objective is not to replace Global Banking & Markets, but to improve the group-level earnings mix so that the franchise receives a higher through-cycle valuation multiple."
       ],
       "segmentTable": {
         "title": "Business Segments",
@@ -534,7 +534,7 @@
     },
     "economicMoatAssessment": {
       "summaryParagraphs": [
-        "Goldman Sachs has a durable moat built on brand, client relationships, and regulatory barriers. The franchise\u2019s advisory reputation and counterparty trust have been built over more than a century and remain difficult for competitors to replicate at scale.",
+        "Goldman Sachs has a durable moat built on brand, client relationships, and regulatory barriers. The franchise’s advisory reputation and counterparty trust have been built over more than a century and remain difficult for competitors to replicate at scale.",
         "The moat is strengthened by the fact that Goldman competes in markets where trust, execution history, and regulatory status matter as much as price. That creates meaningful protection even though some parts of the business remain cyclical."
       ],
       "moatTable": {
@@ -611,7 +611,7 @@
     },
     "capitalAllocation": {
       "summaryParagraphs": [
-        "Management\u2019s capital allocation record is mixed but improving. The Marcus consumer banking buildout was a clear misstep, yet the subsequent strategic reset was decisive, and capital has since been redirected toward higher-return institutional and asset-management activities.",
+        "Management’s capital allocation record is mixed but improving. The Marcus consumer banking buildout was a clear misstep, yet the subsequent strategic reset was decisive, and capital has since been redirected toward higher-return institutional and asset-management activities.",
         "Share buybacks and dividend growth have continued through the transition, suggesting management still sees the stock as an attractive use of capital even while investing in asset & wealth management expansion."
       ],
       "acquisitionTable": {
@@ -626,31 +626,31 @@
         "rows": [
           [
             "Marcus Consumer Banking Buildout",
-            "2016\u20132023",
-            "$3\u20134B",
+            "2016–2023",
+            "$3–4B",
             "Expand into mass-market consumer banking",
-            "Negative \u2013 strategic failure, later wound down"
+            "Negative – strategic failure, later wound down"
           ],
           [
             "AWM Organic Buildout",
-            "2020\u2013present",
+            "2020–present",
             "Ongoing OpEx",
             "Scale recurring fee revenues and alternatives platform",
-            "Positive \u2013 supports earnings-mix improvement"
+            "Positive – supports earnings-mix improvement"
           ],
           [
             "Share Buybacks",
-            "FY2022\u2013FY2025",
-            "$8\u201312B",
+            "FY2022–FY2025",
+            "$8–12B",
             "Return excess capital and support EPS accretion",
-            "Positive \u2013 reduced share count"
+            "Positive – reduced share count"
           ],
           [
             "Dividend Growth",
-            "FY2022\u2013FY2025",
+            "FY2022–FY2025",
             "Recurring",
             "Signal confidence in earnings durability",
-            "Positive \u2013 consistent shareholder return"
+            "Positive – consistent shareholder return"
           ]
         ]
       }
@@ -726,7 +726,7 @@
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$1020",
-    "impliedUpsidePct": "+18.2%",
+    "impliedUpsidePct": "+12.4%",
     "bullBaseBear": {
       "bull": "$1200",
       "base": "$1020",
@@ -743,18 +743,18 @@
     "ratingChangeTriggers": [
       {
         "action": "Upgrade to Strong Buy",
-        "direction": "\u2191",
+        "direction": "↑",
         "trigger": "FY2026 EPS trajectory rises toward $65+, ROE exceeds 16%, and M&A volumes recover sharply."
       },
       {
         "action": "Downgrade to Hold",
-        "direction": "\u2193",
+        "direction": "↓",
         "trigger": "Two consecutive quarterly EPS misses, FY2026 EPS falls below $50, or capital requirements rise materially."
       },
       {
         "action": "Downgrade to Sell",
-        "direction": "\u2193\u2193",
-        "trigger": "A recession drives sharp M&A contraction, ROE falls below 10%, and FY2026 EPS resets into the $35\u201340 range."
+        "direction": "↓↓",
+        "trigger": "A recession drives sharp M&A contraction, ROE falls below 10%, and FY2026 EPS resets into the $35–40 range."
       }
     ],
     "closingParagraph": "Overall, Goldman Sachs offers favorable risk-adjusted upside as a premier institutional bank with cleaner strategy, improving earnings mix, and meaningful leverage to a cyclical recovery in deal activity. The thesis depends on AWM scaling continuing and on FY2025 earnings quality proving durable rather than temporary."

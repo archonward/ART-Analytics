@@ -9,21 +9,39 @@
     "author": "ART Analytics",
     "rating": "BUY",
     "targetPrice": "$255",
-    "currentPrice": "$228",
-    "impliedUpsidePct": "+11.8%",
-    "marketDataAsOf": "Mar 25, 2026, 4:00 PM",
+    "currentPrice": "$230.76",
+    "impliedUpsidePct": "+10.5%",
+    "marketDataAsOf": "Apr 10, 2026, 4:00 PM",
     "estimatedReadMinutes": 8,
     "coverageStatus": "published"
   },
   "executiveAtAGlance": {
     "thesisHeadline": "IBM is a mature enterprise technology platform whose upside depends on software execution, hybrid cloud resilience, and AI-related monetisation.",
     "snapshotMetrics": [
-      { "label": "Market Cap", "value": "$208B" },
-      { "label": "Enterprise Value", "value": "$230B" },
-      { "label": "Revenue (TTM)", "value": "$63B" },
-      { "label": "FCF (TTM)", "value": "$11B" },
-      { "label": "P/E", "value": "26.4x" },
-      { "label": "Next Earnings", "value": "Apr 2026" }
+      {
+        "label": "Market Cap",
+        "value": "$216.5B"
+      },
+      {
+        "label": "Enterprise Value",
+        "value": "$230B"
+      },
+      {
+        "label": "Revenue (TTM)",
+        "value": "$63B"
+      },
+      {
+        "label": "FCF (TTM)",
+        "value": "$11B"
+      },
+      {
+        "label": "P/E",
+        "value": "20.7x"
+      },
+      {
+        "label": "Next Earnings",
+        "value": "Apr 2026"
+      }
     ]
   },
   "executiveSummary": {
@@ -56,12 +74,42 @@
       "tables": [
         {
           "title": "Illustrative Financial Overview",
-          "columns": ["Metric", "FY2023", "FY2024", "FY2025", "FY2026E"],
+          "columns": [
+            "Metric",
+            "FY2023",
+            "FY2024",
+            "FY2025",
+            "FY2026E"
+          ],
           "rows": [
-            ["Revenue", "$61B", "$62B", "$63B", "$65B"],
-            ["Gross Margin", "55%", "56%", "57%", "57.5%"],
-            ["Operating Income", "$9.8B", "$10.4B", "$10.9B", "$11.5B"],
-            ["Free Cash Flow", "$10.2B", "$10.6B", "$11.0B", "$11.4B"]
+            [
+              "Revenue",
+              "$61B",
+              "$62B",
+              "$63B",
+              "$65B"
+            ],
+            [
+              "Gross Margin",
+              "55%",
+              "56%",
+              "57%",
+              "57.5%"
+            ],
+            [
+              "Operating Income",
+              "$9.8B",
+              "$10.4B",
+              "$10.9B",
+              "$11.5B"
+            ],
+            [
+              "Free Cash Flow",
+              "$10.2B",
+              "$10.6B",
+              "$11.0B",
+              "$11.4B"
+            ]
           ]
         }
       ]
@@ -94,11 +142,35 @@
       "tables": [
         {
           "title": "Scenario Framework",
-          "columns": ["Scenario", "Revenue CAGR", "WACC", "Terminal Growth", "Implied Price"],
+          "columns": [
+            "Scenario",
+            "Revenue CAGR",
+            "WACC",
+            "Terminal Growth",
+            "Implied Price"
+          ],
           "rows": [
-            ["Bull", "6%", "8.5%", "2.5%", "$275"],
-            ["Base", "4%", "9.0%", "2.0%", "$255"],
-            ["Bear", "2%", "10.0%", "1.5%", "$210"]
+            [
+              "Bull",
+              "6%",
+              "8.5%",
+              "2.5%",
+              "$275"
+            ],
+            [
+              "Base",
+              "4%",
+              "9.0%",
+              "2.0%",
+              "$255"
+            ],
+            [
+              "Bear",
+              "2%",
+              "10.0%",
+              "1.5%",
+              "$210"
+            ]
           ]
         }
       ]
@@ -124,11 +196,23 @@
       ],
       "segmentTable": {
         "title": "Illustrative Segment View",
-        "columns": ["Segment", "Role in Thesis"],
+        "columns": [
+          "Segment",
+          "Role in Thesis"
+        ],
         "rows": [
-          ["Software", "Supports recurring revenue and margin quality"],
-          ["Consulting", "Anchors enterprise relationships"],
-          ["Infrastructure", "Provides scale but may face slower growth"]
+          [
+            "Software",
+            "Supports recurring revenue and margin quality"
+          ],
+          [
+            "Consulting",
+            "Anchors enterprise relationships"
+          ],
+          [
+            "Infrastructure",
+            "Provides scale but may face slower growth"
+          ]
         ]
       }
     },
@@ -138,12 +222,32 @@
       ],
       "moatTable": {
         "title": "Moat Assessment",
-        "columns": ["Moat Source", "Strength", "Assessment"],
+        "columns": [
+          "Moat Source",
+          "Strength",
+          "Assessment"
+        ],
         "rows": [
-          ["Switching Costs", "Moderate", "Enterprise processes and integration create friction"],
-          ["Brand & Reputation", "Moderate", "Trusted name in enterprise technology"],
-          ["Scale", "Moderate", "Large installed base and service footprint"],
-          ["Network Effects", "Weak", "Limited platform-style lock-in"]
+          [
+            "Switching Costs",
+            "Moderate",
+            "Enterprise processes and integration create friction"
+          ],
+          [
+            "Brand & Reputation",
+            "Moderate",
+            "Trusted name in enterprise technology"
+          ],
+          [
+            "Scale",
+            "Moderate",
+            "Large installed base and service footprint"
+          ],
+          [
+            "Network Effects",
+            "Weak",
+            "Limited platform-style lock-in"
+          ]
         ]
       },
       "overallMoatConclusion": "IBM appears to have a moderate enterprise moat rooted in relationships and operational embedding rather than high-growth ecosystem dominance."
@@ -196,18 +300,42 @@
   "riskAnalysis": {
     "riskTable": {
       "title": "Risk Analysis",
-      "columns": ["Risk Factor", "Type", "Probability", "Impact", "Mitigation"],
+      "columns": [
+        "Risk Factor",
+        "Type",
+        "Probability",
+        "Impact",
+        "Mitigation"
+      ],
       "rows": [
-        ["Legacy business drag", "Business", "Medium", "Medium", "Accelerate software mix improvement"],
-        ["Enterprise spending slowdown", "Macro", "Medium", "High", "Recurring revenue resilience"],
-        ["Execution miss in strategic areas", "Execution", "Medium", "High", "Stronger operating discipline"]
+        [
+          "Legacy business drag",
+          "Business",
+          "Medium",
+          "Medium",
+          "Accelerate software mix improvement"
+        ],
+        [
+          "Enterprise spending slowdown",
+          "Macro",
+          "Medium",
+          "High",
+          "Recurring revenue resilience"
+        ],
+        [
+          "Execution miss in strategic areas",
+          "Execution",
+          "Medium",
+          "High",
+          "Stronger operating discipline"
+        ]
       ]
     }
   },
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$255",
-    "impliedUpsidePct": "+11.8%",
+    "impliedUpsidePct": "+10.5%",
     "bullBaseBear": {
       "bull": "$275",
       "base": "$255",

@@ -9,9 +9,9 @@
     "author": "ART Analytics",
     "rating": "BUY",
     "targetPrice": "$265",
-    "currentPrice": "$240.41",
-    "impliedUpsidePct": "+13.1%",
-    "marketDataAsOf": "Mar 26, 2026, 4:08 PM",
+    "currentPrice": "$238.46",
+    "impliedUpsidePct": "+11.1%",
+    "marketDataAsOf": "Apr 10, 2026, 4:00 PM",
     "estimatedReadMinutes": 12,
     "coverageStatus": "published"
   },
@@ -20,7 +20,7 @@
     "snapshotMetrics": [
       {
         "label": "Market Cap",
-        "value": "$564.5B"
+        "value": "$574.7B"
       },
       {
         "label": "Enterprise Value",
@@ -40,7 +40,7 @@
       },
       {
         "label": "P/E",
-        "value": "21.2x"
+        "value": "21.6x"
       },
       {
         "label": "Consensus Upside",
@@ -55,7 +55,7 @@
   "executiveSummary": {
     "summaryParagraphs": [
       "Johnson & Johnson offers a defensive large-cap healthcare profile with credible medium-term growth. FY25 revenue grew 9.1% year over year, operating margins improved, and the company continues to fund a deep late-stage pipeline while preserving strong shareholder returns.",
-      "The central debate is whether new launches and MedTech recovery can offset the earnings drag from biosimilar competition to Stelara and Imbruvica over 2027\u20132028. JNJ trades at a modest premium to broad healthcare peers, but that premium is partially justified by high cash conversion, balance sheet strength, and dividend dependability. Our base valuation supports a $265 target price, with upside if pipeline approvals exceed expectations and downside if biosimilar erosion arrives faster than modeled."
+      "The central debate is whether new launches and MedTech recovery can offset the earnings drag from biosimilar competition to Stelara and Imbruvica over 2027–2028. JNJ trades at a modest premium to broad healthcare peers, but that premium is partially justified by high cash conversion, balance sheet strength, and dividend dependability. Our base valuation supports a $265 target price, with upside if pipeline approvals exceed expectations and downside if biosimilar erosion arrives faster than modeled."
     ],
     "catalysts": [
       "Oncology pipeline momentum, including advanced bladder cancer data with an 89% response rate that could accelerate commercial adoption.",
@@ -67,7 +67,7 @@
       "Regulatory and litigation overhang related to talc claims and legacy consumer-product issues.",
       "R&D execution risk, given annual research spending of $15.2B that requires sustained late-stage pipeline success."
     ],
-    "valuationBridge": "JNJ\u2019s modest premium to peers appears justified by its cash conversion, balance sheet strength, and dividend dependability, while the base valuation still supports $265 per share if new launches and MedTech recovery partially offset biosimilar erosion."
+    "valuationBridge": "JNJ’s modest premium to peers appears justified by its cash conversion, balance sheet strength, and dividend dependability, while the base valuation still supports $265 per share if new launches and MedTech recovery partially offset biosimilar erosion."
   },
   "financialPerformanceHealth": {
     "incomeStatementAnalysis": {
@@ -291,7 +291,7 @@
   "valuation": {
     "multiplesAnalysis": {
       "summaryParagraphs": [
-        "JNJ trades at a moderate premium to diversified healthcare peers, reflecting business quality, diversification, and cash-generation durability. That said, the premium is not excessive relative to the company\u2019s defensive profile."
+        "JNJ trades at a moderate premium to diversified healthcare peers, reflecting business quality, diversification, and cash-generation durability. That said, the premium is not excessive relative to the company’s defensive profile."
       ],
       "tables": [
         {
@@ -407,7 +407,7 @@
   "businessModelMoat": {
     "segmentProfile": {
       "summaryParagraphs": [
-        "JNJ\u2019s business mix provides resilience: innovative medicines drive the majority of profits, while MedTech adds diversification and recovery optionality as procedure volumes normalize."
+        "JNJ’s business mix provides resilience: innovative medicines drive the majority of profits, while MedTech adds diversification and recovery optionality as procedure volumes normalize."
       ],
       "segmentTable": {
         "title": "Business Segment",
@@ -628,7 +628,7 @@
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$265",
-    "impliedUpsidePct": "+13.1%",
+    "impliedUpsidePct": "+11.1%",
     "bullBaseBear": {
       "bull": "$298",
       "base": "$265",

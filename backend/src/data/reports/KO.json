@@ -9,21 +9,39 @@
     "author": "ART Analytics",
     "rating": "BUY",
     "targetPrice": "$78",
-    "currentPrice": "$71",
-    "impliedUpsidePct": "+9.9%",
-    "marketDataAsOf": "Mar 25, 2026, 4:00 PM",
+    "currentPrice": "$77.47",
+    "impliedUpsidePct": "+0.7%",
+    "marketDataAsOf": "Apr 10, 2026, 4:00 PM",
     "estimatedReadMinutes": 8,
     "coverageStatus": "published"
   },
   "executiveAtAGlance": {
     "thesisHeadline": "Coca-Cola remains a durable defensive franchise whose appeal depends on brand strength, pricing power, and cash-generation consistency.",
     "snapshotMetrics": [
-      { "label": "Market Cap", "value": "$306B" },
-      { "label": "Enterprise Value", "value": "$331B" },
-      { "label": "Revenue (TTM)", "value": "$47B" },
-      { "label": "FCF (TTM)", "value": "$10B" },
-      { "label": "P/E", "value": "24.8x" },
-      { "label": "Next Earnings", "value": "May 2026" }
+      {
+        "label": "Market Cap",
+        "value": "$333.4B"
+      },
+      {
+        "label": "Enterprise Value",
+        "value": "$331B"
+      },
+      {
+        "label": "Revenue (TTM)",
+        "value": "$47B"
+      },
+      {
+        "label": "FCF (TTM)",
+        "value": "$10B"
+      },
+      {
+        "label": "P/E",
+        "value": "25.5x"
+      },
+      {
+        "label": "Next Earnings",
+        "value": "May 2026"
+      }
     ]
   },
   "executiveSummary": {
@@ -55,12 +73,42 @@
       "tables": [
         {
           "title": "Illustrative Financial Overview",
-          "columns": ["Metric", "FY2023", "FY2024", "FY2025", "FY2026E"],
+          "columns": [
+            "Metric",
+            "FY2023",
+            "FY2024",
+            "FY2025",
+            "FY2026E"
+          ],
           "rows": [
-            ["Revenue", "$44B", "$45B", "$47B", "$48B"],
-            ["Gross Margin", "60%", "60.5%", "61%", "61%"],
-            ["Operating Income", "$12.1B", "$12.8B", "$13.4B", "$13.8B"],
-            ["Free Cash Flow", "$9.1B", "$9.5B", "$10.0B", "$10.3B"]
+            [
+              "Revenue",
+              "$44B",
+              "$45B",
+              "$47B",
+              "$48B"
+            ],
+            [
+              "Gross Margin",
+              "60%",
+              "60.5%",
+              "61%",
+              "61%"
+            ],
+            [
+              "Operating Income",
+              "$12.1B",
+              "$12.8B",
+              "$13.4B",
+              "$13.8B"
+            ],
+            [
+              "Free Cash Flow",
+              "$9.1B",
+              "$9.5B",
+              "$10.0B",
+              "$10.3B"
+            ]
           ]
         }
       ]
@@ -90,11 +138,35 @@
       "tables": [
         {
           "title": "Scenario Framework",
-          "columns": ["Scenario", "Revenue CAGR", "WACC", "Terminal Growth", "Implied Price"],
+          "columns": [
+            "Scenario",
+            "Revenue CAGR",
+            "WACC",
+            "Terminal Growth",
+            "Implied Price"
+          ],
           "rows": [
-            ["Bull", "6%", "7.5%", "2.5%", "$82"],
-            ["Base", "4%", "8.0%", "2.0%", "$78"],
-            ["Bear", "2%", "9.0%", "1.5%", "$66"]
+            [
+              "Bull",
+              "6%",
+              "7.5%",
+              "2.5%",
+              "$82"
+            ],
+            [
+              "Base",
+              "4%",
+              "8.0%",
+              "2.0%",
+              "$78"
+            ],
+            [
+              "Bear",
+              "2%",
+              "9.0%",
+              "1.5%",
+              "$66"
+            ]
           ]
         }
       ]
@@ -120,11 +192,23 @@
       ],
       "segmentTable": {
         "title": "Illustrative Business Profile",
-        "columns": ["Area", "Role in Thesis"],
+        "columns": [
+          "Area",
+          "Role in Thesis"
+        ],
         "rows": [
-          ["Brand Portfolio", "Supports pricing power and consumer loyalty"],
-          ["Distribution", "Creates scale and global execution advantage"],
-          ["Global Footprint", "Improves diversification across markets"]
+          [
+            "Brand Portfolio",
+            "Supports pricing power and consumer loyalty"
+          ],
+          [
+            "Distribution",
+            "Creates scale and global execution advantage"
+          ],
+          [
+            "Global Footprint",
+            "Improves diversification across markets"
+          ]
         ]
       }
     },
@@ -134,12 +218,32 @@
       ],
       "moatTable": {
         "title": "Moat Assessment",
-        "columns": ["Moat Source", "Strength", "Assessment"],
+        "columns": [
+          "Moat Source",
+          "Strength",
+          "Assessment"
+        ],
         "rows": [
-          ["Brand & Reputation", "Strong", "Global recognition and durable consumer relevance"],
-          ["Distribution Scale", "Strong", "Deep global system reach"],
-          ["Switching Costs", "Weak", "Consumers can substitute among beverages"],
-          ["Network Effects", "Weak", "Moat is not platform based"]
+          [
+            "Brand & Reputation",
+            "Strong",
+            "Global recognition and durable consumer relevance"
+          ],
+          [
+            "Distribution Scale",
+            "Strong",
+            "Deep global system reach"
+          ],
+          [
+            "Switching Costs",
+            "Weak",
+            "Consumers can substitute among beverages"
+          ],
+          [
+            "Network Effects",
+            "Weak",
+            "Moat is not platform based"
+          ]
         ]
       },
       "overallMoatConclusion": "KO appears to have a strong consumer-brand moat driven by scale, brand power, and distribution durability."
@@ -192,18 +296,42 @@
   "riskAnalysis": {
     "riskTable": {
       "title": "Risk Analysis",
-      "columns": ["Risk Factor", "Type", "Probability", "Impact", "Mitigation"],
+      "columns": [
+        "Risk Factor",
+        "Type",
+        "Probability",
+        "Impact",
+        "Mitigation"
+      ],
       "rows": [
-        ["Input cost inflation", "Cost", "Medium", "Medium", "Pricing and mix management"],
-        ["Consumer volume weakness", "Demand", "Medium", "Medium", "Geographic diversification"],
-        ["Currency volatility", "Macro", "High", "Medium", "Global diversification and hedging"]
+        [
+          "Input cost inflation",
+          "Cost",
+          "Medium",
+          "Medium",
+          "Pricing and mix management"
+        ],
+        [
+          "Consumer volume weakness",
+          "Demand",
+          "Medium",
+          "Medium",
+          "Geographic diversification"
+        ],
+        [
+          "Currency volatility",
+          "Macro",
+          "High",
+          "Medium",
+          "Global diversification and hedging"
+        ]
       ]
     }
   },
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$78",
-    "impliedUpsidePct": "+9.9%",
+    "impliedUpsidePct": "+0.7%",
     "bullBaseBear": {
       "bull": "$82",
       "base": "$78",

@@ -9,9 +9,9 @@
     "author": "ART Analytics",
     "rating": "BUY",
     "targetPrice": "$400",
-    "currentPrice": "$304.26",
-    "impliedUpsidePct": "+31.5%",
-    "marketDataAsOf": "Mar 24, 2026, 4:10 PM",
+    "currentPrice": "$304.36",
+    "impliedUpsidePct": "+31.4%",
+    "marketDataAsOf": "Apr 10, 2026, 4:00 PM",
     "estimatedReadMinutes": 12,
     "coverageStatus": "published"
   },
@@ -20,7 +20,7 @@
     "snapshotMetrics": [
       {
         "label": "Market Cap",
-        "value": "$586.6B"
+        "value": "$586.8B"
       },
       {
         "label": "Enterprise Value",
@@ -40,7 +40,7 @@
       },
       {
         "label": "P/E",
-        "value": "28.5x"
+        "value": "28.6x"
       },
       {
         "label": "EV/EBITDA",
@@ -66,7 +66,7 @@
   },
   "executiveSummary": {
     "summaryParagraphs": [
-      "Visa operates the world\u2019s largest payments network, processing 275 billion transactions annually across more than 200 countries. The business continues to compound earnings through structural cash-to-card conversion, cross-border normalization, and expansion in higher-margin value-added services.",
+      "Visa operates the world’s largest payments network, processing 275 billion transactions annually across more than 200 countries. The business continues to compound earnings through structural cash-to-card conversion, cross-border normalization, and expansion in higher-margin value-added services.",
       "The report argues that Visa trades below what its quality warrants: around 21x NTM P/E despite double-digit growth visibility, very high returns on capital, and a fortress balance sheet. The proposed fair value blends a base-case DCF with peer-multiple support to reach a $400 target."
     ],
     "catalysts": [
@@ -338,7 +338,7 @@
   "valuation": {
     "multiplesAnalysis": {
       "summaryParagraphs": [
-        "Trading multiples remain below Visa\u2019s own historical averages. That discount is notable because revenue growth has re-accelerated and margins remain best-in-class versus payment peers."
+        "Trading multiples remain below Visa’s own historical averages. That discount is notable because revenue growth has re-accelerated and margins remain best-in-class versus payment peers."
       ],
       "tables": [
         {
@@ -505,7 +505,7 @@
         ]
       }
     },
-    "valuationConclusion": "The report\u2019s fair value is $400 per share. That target is derived from a blended 70% DCF and 30% multiple-based approach, combining a $385 DCF base case with a 23x NTM P/E on FY2026E EPS of $12.85. The setup implies an attractive margin of safety for a business with durable network effects and high free cash flow generation."
+    "valuationConclusion": "The report’s fair value is $400 per share. That target is derived from a blended 70% DCF and 30% multiple-based approach, combining a $385 DCF base case with a 23x NTM P/E on FY2026E EPS of $12.85. The setup implies an attractive margin of safety for a business with durable network effects and high free cash flow generation."
   },
   "businessModelMoat": {
     "segmentProfile": {
@@ -555,7 +555,7 @@
     },
     "economicMoatAssessment": {
       "summaryParagraphs": [
-        "Visa\u2019s moat rests on overlapping network effects, switching costs, scale, and trusted brand infrastructure. Those advantages should remain durable even as front-end payment experiences evolve."
+        "Visa’s moat rests on overlapping network effects, switching costs, scale, and trusted brand infrastructure. Those advantages should remain durable even as front-end payment experiences evolve."
       ],
       "moatTable": {
         "columns": [
@@ -629,7 +629,7 @@
   "managementGovernance": {
     "leadership": {
       "summaryParagraphs": [
-        "CEO Ryan McInerney and CFO Vasant Prabhu anchor a stable leadership team. Management\u2019s strategic focus centers on digital enablement, value-added services, and B2B flows, while board composition appears appropriately weighted toward financial and technology expertise. Management depth is supported by internal promotion and succession planning, compensation is tied to TSR and long-term strategic metrics, and board refreshment remains active, with roughly 40% of directors appointed in the past five years."
+        "CEO Ryan McInerney and CFO Vasant Prabhu anchor a stable leadership team. Management’s strategic focus centers on digital enablement, value-added services, and B2B flows, while board composition appears appropriately weighted toward financial and technology expertise. Management depth is supported by internal promotion and succession planning, compensation is tied to TSR and long-term strategic metrics, and board refreshment remains active, with roughly 40% of directors appointed in the past five years."
       ]
     },
     "capitalAllocation": {
@@ -760,7 +760,7 @@
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$400",
-    "impliedUpsidePct": "+31.5%",
+    "impliedUpsidePct": "+31.4%",
     "bullBaseBear": {
       "bull": "$485",
       "base": "$400",

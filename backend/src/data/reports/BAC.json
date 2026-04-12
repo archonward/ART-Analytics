@@ -9,9 +9,9 @@
     "author": "ART Analytics",
     "rating": "BUY",
     "targetPrice": "$59.00",
-    "currentPrice": "$48.52",
-    "impliedUpsidePct": "+21.6%",
-    "marketDataAsOf": "Mar 26, 2026, 4:09 PM",
+    "currentPrice": "$52.54",
+    "impliedUpsidePct": "+12.3%",
+    "marketDataAsOf": "Apr 10, 2026, 4:00 PM",
     "estimatedReadMinutes": 12,
     "coverageStatus": "published"
   },
@@ -20,7 +20,7 @@
     "snapshotMetrics": [
       {
         "label": "Market Cap",
-        "value": "$354.4B"
+        "value": "$377.1B"
       },
       {
         "label": "Enterprise Value",
@@ -40,7 +40,7 @@
       },
       {
         "label": "P/E",
-        "value": "12.7x"
+        "value": "13.8x"
       },
       {
         "label": "Consensus Upside",
@@ -345,7 +345,7 @@
     },
     "dcfAnalysis": {
       "summaryParagraphs": [
-        "Our base model assumes that revenue growth moderates from today\u2019s elevated pace but remains healthy enough to support gradual earnings expansion, while net margins drift toward a more normalized level as the rate environment settles. The valuation still supports upside from current prices even under relatively sober assumptions."
+        "Our base model assumes that revenue growth moderates from today’s elevated pace but remains healthy enough to support gradual earnings expansion, while net margins drift toward a more normalized level as the rate environment settles. The valuation still supports upside from current prices even under relatively sober assumptions."
       ],
       "assumptions": [
         "Revenue growth moderates from current elevated pace but remains healthy enough to support gradual earnings expansion.",
@@ -662,7 +662,7 @@
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$59.00",
-    "impliedUpsidePct": "+21.6%",
+    "impliedUpsidePct": "+12.3%",
     "bullBaseBear": {
       "bull": "$68.00",
       "base": "$59.00",

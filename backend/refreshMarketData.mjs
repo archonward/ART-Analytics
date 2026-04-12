@@ -1,7 +1,24 @@
 /**
- * ART Analytics — Market Data Refresh Script
+ * ART Analytics — Market Data Refresh + Sync Script
  *
- * What this script updates (safe, live market data only):
+ * COMMANDS:
+ *
+ *   refresh (default)
+ *     Fetches live market data and updates reports in S3.
+ *     node refreshMarketData.mjs                     ← all tickers
+ *     node refreshMarketData.mjs AMD NVDA            ← specific tickers
+ *
+ *   sync
+ *     Downloads all reports from S3 to your local reports folder.
+ *     node refreshMarketData.mjs sync                ← sync all
+ *     node refreshMarketData.mjs sync AMD NVDA       ← sync specific tickers
+ *
+ *   refresh+sync
+ *     Refreshes market data in S3, then syncs all updated files locally.
+ *     node refreshMarketData.mjs refresh+sync        ← all tickers
+ *     node refreshMarketData.mjs refresh+sync AMD    ← specific tickers
+ *
+ * What refresh updates (safe, live market data only):
  *   - meta.currentPrice
  *   - meta.impliedUpsidePct
  *   - meta.marketDataAsOf
@@ -11,13 +28,6 @@
  * Everything else (qualitative writing, financial tables,
  * valuation, thesis, risks etc.) is left completely untouched.
  *
- * Usage:
- *   node refreshMarketData.mjs              ← updates all tickers
- *   node refreshMarketData.mjs AMD NVDA     ← updates specific tickers only
- *
- * Requirements:
- *   npm install @aws-sdk/client-s3 yahoo-finance2 dotenv
- *
  * Environment variables required (same as your backend .env):
  *   AWS_REGION, AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, S3_BUCKET_NAME
  */
@@ -26,6 +36,9 @@ import { GetObjectCommand, PutObjectCommand, ListObjectsV2Command } from '@aws-s
 import { S3Client } from '@aws-sdk/client-s3';
 import YahooFinance from 'yahoo-finance2';
 import dotenv from 'dotenv';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 
 dotenv.config();
 
@@ -34,6 +47,9 @@ dotenv.config();
 const s3 = new S3Client({ region: process.env.AWS_REGION });
 const BUCKET = process.env.S3_BUCKET_NAME;
 const yahoo = new YahooFinance();
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const LOCAL_REPORTS_DIR = path.resolve(__dirname, 'src/data/reports');
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -165,10 +181,10 @@ function applyUpdates(report, liveData) {
   return updated;
 }
 
-// ── Main ──────────────────────────────────────────────────────────────────────
+// ── Sync logic ────────────────────────────────────────────────────────────────
 
-async function refreshTicker(ticker) {
-  process.stdout.write(`  ${ticker.padEnd(6)} → fetching... `);
+async function syncTickerLocally(ticker) {
+  process.stdout.write(`  ${ticker.padEnd(6)} → downloading... `);
 
   let report;
   try {
@@ -178,71 +194,21 @@ async function refreshTicker(ticker) {
     return false;
   }
 
-  let liveData;
   try {
-    liveData = await fetchLiveData(ticker);
+    await fs.mkdir(LOCAL_REPORTS_DIR, { recursive: true });
+    const filePath = path.join(LOCAL_REPORTS_DIR, `${ticker}.json`);
+    await fs.writeFile(filePath, JSON.stringify(report, null, 2), 'utf-8');
+    console.log(`✅ saved to src/data/reports/${ticker}.json`);
+    return true;
   } catch (err) {
-    console.log(`❌ ${err.message}`);
+    console.log(`❌ local write failed: ${err.message}`);
     return false;
   }
-
-  const updated = applyUpdates(report, liveData);
-
-  try {
-    await pushReportToS3(ticker, updated);
-  } catch (err) {
-    console.log(`❌ S3 write failed: ${err.message}`);
-    return false;
-  }
-
-  // Print what changed
-  const changes = [];
-  if (updated.meta.currentPrice !== report.meta.currentPrice)
-    changes.push(`price ${report.meta.currentPrice} → ${updated.meta.currentPrice}`);
-  if (updated.meta.impliedUpsidePct !== report.meta.impliedUpsidePct)
-    changes.push(`upside ${report.meta.impliedUpsidePct} → ${updated.meta.impliedUpsidePct}`);
-
-  const oldPE = report.executiveAtAGlance?.snapshotMetrics?.find(m => m.label === 'P/E')?.value;
-  const newPE = updated.executiveAtAGlance?.snapshotMetrics?.find(m => m.label === 'P/E')?.value;
-  if (oldPE !== newPE) changes.push(`P/E ${oldPE} → ${newPE}`);
-
-  const oldMC = report.executiveAtAGlance?.snapshotMetrics?.find(m => m.label === 'Market Cap')?.value;
-  const newMC = updated.executiveAtAGlance?.snapshotMetrics?.find(m => m.label === 'Market Cap')?.value;
-  if (oldMC !== newMC) changes.push(`mktcap ${oldMC} → ${newMC}`);
-
-  if (changes.length === 0) {
-    console.log('✅ no changes');
-  } else {
-    console.log(`✅ updated — ${changes.join(' | ')}`);
-  }
-
-  return true;
 }
 
-async function main() {
-  console.log('\n🔄 ART Analytics — Market Data Refresh\n');
+// ── Main ──────────────────────────────────────────────────────────────────────
 
-  if (!BUCKET) {
-    console.error('❌ S3_BUCKET_NAME is not set in your .env file.');
-    process.exit(1);
-  }
-
-  // If specific tickers passed as args, use those. Otherwise pull full list from S3.
-  let tickers = process.argv.slice(2).map(t => t.toUpperCase().trim()).filter(Boolean);
-
-  if (tickers.length === 0) {
-    process.stdout.write('Fetching ticker list from S3... ');
-    tickers = await listTickersInS3();
-    console.log(`found ${tickers.length} reports.\n`);
-  } else {
-    console.log(`Updating ${tickers.length} specified ticker(s).\n`);
-  }
-
-  if (tickers.length === 0) {
-    console.log('No reports found in S3 under reports/. Nothing to update.');
-    return;
-  }
-
+async function runRefresh(tickers) {
   let successCount = 0;
   let failCount = 0;
 
@@ -250,12 +216,83 @@ async function main() {
     const ok = await refreshTicker(ticker);
     if (ok) successCount++;
     else failCount++;
-
-    // Small delay to avoid hammering Yahoo Finance
     await new Promise(resolve => setTimeout(resolve, 300));
   }
 
-  console.log(`\n✅ Done — ${successCount} updated, ${failCount} failed.\n`);
+  console.log(`\n✅ Refresh done — ${successCount} updated, ${failCount} failed.\n`);
+}
+
+async function runSync(tickers) {
+  console.log(`\n📥 Syncing ${tickers.length} report(s) from S3 to local...\n`);
+
+  let successCount = 0;
+  let failCount = 0;
+
+  for (const ticker of tickers) {
+    const ok = await syncTickerLocally(ticker);
+    if (ok) successCount++;
+    else failCount++;
+  }
+
+  console.log(`\n✅ Sync done — ${successCount} saved, ${failCount} failed.\n`);
+}
+
+async function resolveTickers(specified) {
+  if (specified.length > 0) return specified;
+  process.stdout.write('Fetching ticker list from S3... ');
+  const tickers = await listTickersInS3();
+  console.log(`found ${tickers.length} reports.\n`);
+  return tickers;
+}
+
+async function main() {
+  if (!BUCKET) {
+    console.error('❌ S3_BUCKET_NAME is not set in your .env file.');
+    process.exit(1);
+  }
+
+  const args = process.argv.slice(2);
+
+  // Parse command and tickers from args
+  const COMMANDS = ['sync', 'refresh+sync'];
+  const command = COMMANDS.includes(args[0]?.toLowerCase()) ? args[0].toLowerCase() : 'refresh';
+  const specifiedTickers = (command !== 'refresh' ? args.slice(1) : args)
+    .map(t => t.toUpperCase().trim())
+    .filter(Boolean);
+
+  if (command === 'sync') {
+    // ── Sync only ────────────────────────────────────────────────────────────
+    console.log('\n📥 ART Analytics — S3 → Local Sync\n');
+    const tickers = await resolveTickers(specifiedTickers);
+    if (tickers.length === 0) {
+      console.log('No reports found in S3. Nothing to sync.');
+      return;
+    }
+    await runSync(tickers);
+
+  } else if (command === 'refresh+sync') {
+    // ── Refresh then sync ────────────────────────────────────────────────────
+    console.log('\n🔄 ART Analytics — Refresh + Sync\n');
+    const tickers = await resolveTickers(specifiedTickers);
+    if (tickers.length === 0) {
+      console.log('No reports found in S3. Nothing to do.');
+      return;
+    }
+    console.log('Step 1 of 2 — Refreshing market data in S3...\n');
+    await runRefresh(tickers);
+    console.log('Step 2 of 2 — Syncing updated files to local...');
+    await runSync(tickers);
+
+  } else {
+    // ── Refresh only (default) ───────────────────────────────────────────────
+    console.log('\n🔄 ART Analytics — Market Data Refresh\n');
+    const tickers = await resolveTickers(specifiedTickers);
+    if (tickers.length === 0) {
+      console.log('No reports found in S3. Nothing to update.');
+      return;
+    }
+    await runRefresh(tickers);
+  }
 }
 
 main().catch(err => {

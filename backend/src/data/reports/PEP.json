@@ -9,9 +9,9 @@
     "author": "ART Analytics",
     "rating": "HOLD",
     "targetPrice": "$170",
-    "currentPrice": "$157.01",
-    "impliedUpsidePct": "+8.3%",
-    "marketDataAsOf": "Apr 2, 2026, 8:00 PM",
+    "currentPrice": "$157.06",
+    "impliedUpsidePct": "+8.2%",
+    "marketDataAsOf": "Apr 10, 2026, 4:00 PM",
     "estimatedReadMinutes": 23,
     "coverageStatus": "published"
   },
@@ -20,7 +20,7 @@
     "snapshotMetrics": [
       {
         "label": "Market Cap",
-        "value": "$214.6B"
+        "value": "$214.7B"
       },
       {
         "label": "Enterprise Value",
@@ -171,7 +171,7 @@
             ],
             [
               "Revenue Growth YoY",
-              "\u2014",
+              "—",
               "+5.9%",
               "+0.4%",
               "+2.3%",
@@ -422,7 +422,7 @@
         "This framework produces a value slightly above the current share price but not by enough to make the stock clearly cheap. That is why the file lands on HOLD rather than BUY despite recognizing that the business itself remains high quality."
       ],
       "assumptions": [
-        "Revenue CAGR FY2026\u2013FY2030: 3.5%",
+        "Revenue CAGR FY2026–FY2030: 3.5%",
         "Operating margin expands gradually from 14.1% toward 15.0% by FY2030",
         "CapEx as % of revenue remains around 4.8%",
         "WACC: 9.5%",
@@ -575,7 +575,7 @@
             "$1.9B",
             "2%",
             "N/M",
-            "\u2014"
+            "—"
           ]
         ]
       }
@@ -683,28 +683,28 @@
             "2020",
             "$3.85B",
             "Expand into energy drinks",
-            "Mixed \u2013 category is attractive, but competition remains intense"
+            "Mixed – category is attractive, but competition remains intense"
           ],
           [
             "Pioneer Foods",
             "2020",
             "$1.7B",
             "Expand AMESA platform",
-            "Positive \u2013 strengthened emerging-market scale"
+            "Positive – strengthened emerging-market scale"
           ],
           [
             "Be & Cheery",
             "2020",
             "$705M",
             "Expand snacks and e-commerce presence in China",
-            "Early stage \u2013 strategically logical but still small"
+            "Early stage – strategically logical but still small"
           ],
           [
             "Siete Foods",
             "2024",
             "$1.2B",
             "Expand better-for-you snacks portfolio",
-            "Too early to assess \u2013 strong fit with category trends"
+            "Too early to assess – strong fit with category trends"
           ]
         ]
       }
@@ -781,7 +781,7 @@
   "finalRecommendation": {
     "rating": "HOLD",
     "priceTarget": "$170",
-    "impliedUpsidePct": "+8.3%",
+    "impliedUpsidePct": "+8.2%",
     "bullBaseBear": {
       "bull": "$196",
       "base": "$170",
@@ -798,17 +798,17 @@
     "ratingChangeTriggers": [
       {
         "action": "Upgrade to Buy",
-        "direction": "\u2191",
+        "direction": "↑",
         "trigger": "The stock falls below $148 or PepsiCo delivers a convincing beat-and-raise with clear volume recovery."
       },
       {
         "action": "Downgrade to Sell",
-        "direction": "\u2193",
+        "direction": "↓",
         "trigger": "North America volumes deteriorate further, margins compress materially, and EPS estimates reset lower."
       },
       {
         "action": "Maintain Hold but Raise Target",
-        "direction": "\u2191",
+        "direction": "↑",
         "trigger": "Volume recovery becomes durable while debt and free-cash-flow coverage improve more quickly than expected."
       }
     ],

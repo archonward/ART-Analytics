@@ -9,9 +9,9 @@
     "author": "ART Analytics",
     "rating": "BUY",
     "targetPrice": "$480",
-    "currentPrice": "$384.70",
-    "impliedUpsidePct": "+24.8%",
-    "marketDataAsOf": "Mar 24, 2026, 3:14 PM",
+    "currentPrice": "$348.95",
+    "impliedUpsidePct": "+37.6%",
+    "marketDataAsOf": "Apr 10, 2026, 4:00 PM",
     "estimatedReadMinutes": 12,
     "coverageStatus": "published"
   },
@@ -20,7 +20,7 @@
     "snapshotMetrics": [
       {
         "label": "Market Cap",
-        "value": "$1.44T"
+        "value": "$1.31T"
       },
       {
         "label": "Enterprise Value",
@@ -40,7 +40,7 @@
       },
       {
         "label": "P/E",
-        "value": "359.5x"
+        "value": "323.1x"
       },
       {
         "label": "EV/EBITDA",
@@ -71,7 +71,7 @@
       "Gross margin remains well below historical peak levels, leaving little room for further pricing pressure.",
       "The investment narrative depends on execution against ambitious autonomy timelines that have historically slipped."
     ],
-    "valuationBridge": "Tesla appears attractive only if investors believe today\u2019s depressed profitability is temporary and that future autonomy, software, and energy monetization justify a premium multiple; without that recovery, the valuation remains difficult to defend on traditional auto metrics."
+    "valuationBridge": "Tesla appears attractive only if investors believe today’s depressed profitability is temporary and that future autonomy, software, and energy monetization justify a premium multiple; without that recovery, the valuation remains difficult to defend on traditional auto metrics."
   },
   "financialPerformanceHealth": {
     "incomeStatementAnalysis": {
@@ -166,7 +166,7 @@
               "25.6%",
               "17.0%",
               "15.4%",
-              "\u2014"
+              "—"
             ]
           ]
         }
@@ -224,7 +224,7 @@
         "Operating cash flow remained strong at $14.7B in 2025.",
         "Capital expenditure fell to $8.5B, down from $11.3B in 2024.",
         "Free cash flow improved to $6.2B, equivalent to a 6.6% margin and roughly $1.66 per share.",
-        "Capital efficiency deteriorated meaningfully in 2025, with ROE at 4.8%, ROA at 2.8%, and estimated ROIC at 4.6%, below a reasonable estimate of Tesla\u2019s cost of capital."
+        "Capital efficiency deteriorated meaningfully in 2025, with ROE at 4.8%, ROA at 2.8%, and estimated ROIC at 4.6%, below a reasonable estimate of Tesla’s cost of capital."
       ],
       "tables": [
         {
@@ -377,7 +377,7 @@
     },
     "dcfAnalysis": {
       "summaryParagraphs": [
-        "The base-case DCF assumes Tesla can transition from 2025\u2019s weak operating backdrop into a period of double-digit revenue growth and substantial margin recovery. That forecast is demanding, but it reflects the optionality embedded in autonomy and energy."
+        "The base-case DCF assumes Tesla can transition from 2025’s weak operating backdrop into a period of double-digit revenue growth and substantial margin recovery. That forecast is demanding, but it reflects the optionality embedded in autonomy and energy."
       ],
       "assumptions": [
         "Revenue CAGR of 12% from 2026 to 2030, supported by autonomous driving adoption and energy expansion.",
@@ -459,12 +459,12 @@
         ]
       }
     },
-    "valuationConclusion": "Tesla\u2019s current price can be defended only if investors accept that autonomy, software, and energy materially increase future earnings power. Under that framework, the $480 base case remains plausible, though downside is meaningful if execution slips again."
+    "valuationConclusion": "Tesla’s current price can be defended only if investors accept that autonomy, software, and energy materially increase future earnings power. Under that framework, the $480 base case remains plausible, though downside is meaningful if execution slips again."
   },
   "businessModelMoat": {
     "segmentProfile": {
       "summaryParagraphs": [
-        "Tesla\u2019s revenue base is still dominated by automotive, but the long-term thesis increasingly depends on whether software, charging, and energy become larger and more profitable contributors."
+        "Tesla’s revenue base is still dominated by automotive, but the long-term thesis increasingly depends on whether software, charging, and energy become larger and more profitable contributors."
       ],
       "segmentTable": {
         "title": "Business Segment",
@@ -509,7 +509,7 @@
     },
     "economicMoatAssessment": {
       "summaryParagraphs": [
-        "Tesla\u2019s moat rests on integration rather than a single protected asset. Manufacturing scale, software integration, proprietary data, and charging infrastructure together create a differentiated ecosystem."
+        "Tesla’s moat rests on integration rather than a single protected asset. Manufacturing scale, software integration, proprietary data, and charging infrastructure together create a differentiated ecosystem."
       ],
       "moatTable": {
         "columns": [
@@ -571,7 +571,7 @@
     ],
     "tamPositioning": {
       "summaryParagraphs": [
-        "Tesla\u2019s future growth profile depends on whether it can layer new businesses on top of the existing vehicle base rather than relying solely on unit expansion."
+        "Tesla’s future growth profile depends on whether it can layer new businesses on top of the existing vehicle base rather than relying solely on unit expansion."
       ],
       "highlights": [
         "Electric Vehicles: Current TAM $400B, 2030E TAM $1.2T, ~20% share / $240B opportunity.",
@@ -584,7 +584,7 @@
   "managementGovernance": {
     "leadership": {
       "summaryParagraphs": [
-        "Tesla\u2019s management quality is closely tied to Elon Musk\u2019s vision and capital allocation decisions. That has historically created enormous value, but it also concentrates execution risk in a single leader. Elon Musk has led Tesla since 2008 and remains the company\u2019s defining strategic figure, while senior leadership includes operators with manufacturing, finance, and engineering backgrounds."
+        "Tesla’s management quality is closely tied to Elon Musk’s vision and capital allocation decisions. That has historically created enormous value, but it also concentrates execution risk in a single leader. Elon Musk has led Tesla since 2008 and remains the company’s defining strategic figure, while senior leadership includes operators with manufacturing, finance, and engineering backgrounds."
       ]
     },
     "capitalAllocation": {
@@ -644,7 +644,7 @@
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$480",
-    "impliedUpsidePct": "+24.8%",
+    "impliedUpsidePct": "+37.6%",
     "bullBaseBear": {
       "bull": "$620",
       "base": "$480",
@@ -661,16 +661,16 @@
     "ratingChangeTriggers": [
       {
         "action": "Upgrade",
-        "direction": "\u2191",
+        "direction": "↑",
         "trigger": "Unsupervised FSD achieves broad regulatory approval, Cybercab and Optimus ramp faster than modeled, and robotaxi unit economics prove out at scale across new markets."
       },
       {
         "action": "Downgrade",
-        "direction": "\u2193",
+        "direction": "↓",
         "trigger": "Autonomy rollout stalls on regulatory hurdles, EV deliveries remain in structural decline, or $20B+ capex spend fails to catalyze near-term free cash flow recovery."
       }
     ],
-    "closingParagraph": "Tesla remains appropriate for investors who can tolerate volatility and who believe the company\u2019s software and autonomy ambitions will translate into materially higher earnings power than current results suggest."
+    "closingParagraph": "Tesla remains appropriate for investors who can tolerate volatility and who believe the company’s software and autonomy ambitions will translate into materially higher earnings power than current results suggest."
   },
   "openQuestions": [
     "Can Tesla secure meaningful robotaxi regulatory approval by 2027?",
@@ -678,7 +678,7 @@
     "How quickly can automotive gross margin return toward the historical 20%+ level?",
     "What is the true timeline and capacity impact of Texas chip manufacturing efforts?",
     "Can the energy storage business sustain 50%+ growth without new supply bottlenecks?",
-    "How durable is Tesla\u2019s first-mover advantage against Zoox, Waymo, and Chinese EV platforms?",
+    "How durable is Tesla’s first-mover advantage against Zoox, Waymo, and Chinese EV platforms?",
     "What credible succession planning exists around Elon Musk?",
     "Will Q1 2026 earnings establish a clear margin recovery trajectory?"
   ]

@@ -7,12 +7,11 @@
     "industry": "Banks - Diversified",
     "reportDate": "2026-03-24",
     "author": "ART Analytics",
-    "author": "ART Analytics",
     "rating": "BUY",
     "targetPrice": "$340",
-    "currentPrice": "$294.61",
-    "impliedUpsidePct": "+15.4%",
-    "marketDataAsOf": "Mar 24, 2026, 3:47 PM",
+    "currentPrice": "$309.87",
+    "impliedUpsidePct": "+9.7%",
+    "marketDataAsOf": "Apr 10, 2026, 4:00 PM",
     "estimatedReadMinutes": 12,
     "coverageStatus": "published"
   },
@@ -21,7 +20,7 @@
     "snapshotMetrics": [
       {
         "label": "Market Cap",
-        "value": "$794.6B"
+        "value": "$835.7B"
       },
       {
         "label": "Enterprise Value",
@@ -41,7 +40,7 @@
       },
       {
         "label": "P/E",
-        "value": "14.7x"
+        "value": "15.5x"
       },
       {
         "label": "EV/EBITDA",
@@ -536,7 +535,7 @@
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$340",
-    "impliedUpsidePct": "+15.4%",
+    "impliedUpsidePct": "+9.7%",
     "bullBaseBear": {
       "bull": "$380",
       "base": "$340",
@@ -553,17 +552,17 @@
     "ratingChangeTriggers": [
       {
         "action": "Upgrade to Strong Buy",
-        "direction": "\u2191",
+        "direction": "↑",
         "trigger": "NIM expansion above 2.7% with IB fees above $3.5B quarterly."
       },
       {
         "action": "Downgrade to Hold",
-        "direction": "\u2193",
+        "direction": "↓",
         "trigger": "Credit losses above 75 bps or sustained ROE below 13%."
       },
       {
         "action": "Downgrade to Sell",
-        "direction": "\u2193\u2193",
+        "direction": "↓↓",
         "trigger": "NIM compression below 2.0% or a major credit event."
       }
     ],

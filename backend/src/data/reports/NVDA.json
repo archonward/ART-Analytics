@@ -9,9 +9,9 @@
     "author": "ART Analytics",
     "rating": "BUY",
     "targetPrice": "$260",
-    "currentPrice": "$172.70",
-    "impliedUpsidePct": "+50.5%",
-    "marketDataAsOf": "Mar 20, 2026, 8:00 PM",
+    "currentPrice": "$188.63",
+    "impliedUpsidePct": "+37.8%",
+    "marketDataAsOf": "Apr 10, 2026, 4:00 PM",
     "estimatedReadMinutes": 15,
     "coverageStatus": "published"
   },
@@ -20,7 +20,7 @@
     "snapshotMetrics": [
       {
         "label": "Market Cap",
-        "value": "$4.20T"
+        "value": "$4.58T"
       },
       {
         "label": "Enterprise Value",
@@ -48,7 +48,7 @@
       },
       {
         "label": "P/E",
-        "value": "35.2x"
+        "value": "38.5x"
       },
       {
         "label": "Revenue Growth YoY",
@@ -509,7 +509,7 @@
           ]
         ]
       },
-      "overallMoatConclusion": "NVIDIA appears to have a wide economic moat anchored in hardware leadership, CUDA-driven switching costs, and ecosystem network effects. The report estimates a 5\u20137 year period of sustainable differentiation, although the durability of that advantage still needs to be monitored against hyperscaler custom silicon and specialized AI-chip competitors."
+      "overallMoatConclusion": "NVIDIA appears to have a wide economic moat anchored in hardware leadership, CUDA-driven switching costs, and ecosystem network effects. The report estimates a 5–7 year period of sustainable differentiation, although the durability of that advantage still needs to be monitored against hyperscaler custom silicon and specialized AI-chip competitors."
     }
   },
   "growthStrategyOutlook": {
@@ -640,7 +640,7 @@
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$260",
-    "impliedUpsidePct": "+50.5%",
+    "impliedUpsidePct": "+37.8%",
     "bullBaseBear": {
       "bull": "$340",
       "base": "$260",
@@ -657,12 +657,12 @@
     "ratingChangeTriggers": [
       {
         "action": "Upgrade",
-        "direction": "\u2191",
+        "direction": "↑",
         "trigger": "AI adoption outperforms expectations, software attach rises, and the moat widens further."
       },
       {
         "action": "Downgrade",
-        "direction": "\u2193",
+        "direction": "↓",
         "trigger": "Custom silicon gains traction faster and regulation or demand normalization compresses multiples."
       }
     ],

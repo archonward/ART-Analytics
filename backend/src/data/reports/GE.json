@@ -9,9 +9,9 @@
     "author": "ART Analytics",
     "rating": "BUY",
     "targetPrice": "$355.00",
-    "currentPrice": "$281.16",
-    "impliedUpsidePct": "+26.3%",
-    "marketDataAsOf": "Apr 2, 2026, 8:00 PM",
+    "currentPrice": "$308.35",
+    "impliedUpsidePct": "+15.1%",
+    "marketDataAsOf": "Apr 10, 2026, 4:00 PM",
     "estimatedReadMinutes": 22,
     "coverageStatus": "published"
   },
@@ -20,7 +20,7 @@
     "snapshotMetrics": [
       {
         "label": "Market Cap",
-        "value": "$296.6B"
+        "value": "$325.3B"
       },
       {
         "label": "Enterprise Value",
@@ -48,7 +48,7 @@
       },
       {
         "label": "P/E",
-        "value": "35.0x"
+        "value": "38.3x"
       },
       {
         "label": "Revenue Growth YoY",
@@ -669,7 +669,7 @@
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$355.00",
-    "impliedUpsidePct": "+26.3%",
+    "impliedUpsidePct": "+15.1%",
     "bullBaseBear": {
       "bull": "$425",
       "base": "$355",
@@ -686,17 +686,17 @@
     "ratingChangeTriggers": [
       {
         "action": "Upgrade to Strong Buy",
-        "direction": "\u2191",
+        "direction": "↑",
         "trigger": "Q1 2026 EPS beat of 15% or more, operating margin guidance above 21% for FY2026, and backlog above $210B."
       },
       {
         "action": "Downgrade to Hold",
-        "direction": "\u2193",
+        "direction": "↓",
         "trigger": "Any quarter with an EPS miss, FY2026 revenue growth guidance below 10%, or tariff cost headwinds above $500M quantified by management."
       },
       {
         "action": "Downgrade to Sell",
-        "direction": "\u2193\u2193",
+        "direction": "↓↓",
         "trigger": "Two consecutive EPS misses, operating margin below 17%, backlog deterioration, or a major LEAP reliability issue triggering a material warranty charge."
       }
     ],

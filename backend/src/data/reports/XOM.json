@@ -9,9 +9,9 @@
     "author": "ART Analytics",
     "rating": "BUY",
     "targetPrice": "$185",
-    "currentPrice": "$167.46",
-    "impliedUpsidePct": "+10.5%",
-    "marketDataAsOf": "Mar 24, 2026, 4:10 PM",
+    "currentPrice": "$152.51",
+    "impliedUpsidePct": "+21.3%",
+    "marketDataAsOf": "Apr 10, 2026, 4:02 PM",
     "estimatedReadMinutes": 12,
     "coverageStatus": "published"
   },
@@ -20,7 +20,7 @@
     "snapshotMetrics": [
       {
         "label": "Market Cap",
-        "value": "$697.8B"
+        "value": "$633.9B"
       },
       {
         "label": "Enterprise Value",
@@ -36,7 +36,7 @@
       },
       {
         "label": "P/E",
-        "value": "25.0x"
+        "value": "22.8x"
       },
       {
         "label": "Next Earnings",
@@ -63,11 +63,11 @@
   "executiveSummary": {
     "summaryParagraphs": [
       "Exxon Mobil trades near a 52-week high, supported by disciplined capital allocation, upstream operational execution, and resilient free cash flow generation. Despite softer commodity conditions, the company produced $28.8B in net income during 2025 and continued to deliver strong cash returns to shareholders.",
-      "The report\u2019s base case target of $185 is anchored on a blended framework using a 60% DCF weighting and 40% peer-multiple weighting. Overall, the investment case rests on XOM\u2019s ability to pair defensive cash generation with visible production growth, while its premium to peers is justified by resource quality, balance-sheet strength, and execution discipline."
+      "The report’s base case target of $185 is anchored on a blended framework using a 60% DCF weighting and 40% peer-multiple weighting. Overall, the investment case rests on XOM’s ability to pair defensive cash generation with visible production growth, while its premium to peers is justified by resource quality, balance-sheet strength, and execution discipline."
     ],
     "catalysts": [
       "Permian Basin expansion and offshore development capability should support volume growth and improve operating leverage.",
-      "Margin recovery remains plausible if commodity pricing stabilizes and operating margins move back toward management\u2019s medium-term targets.",
+      "Margin recovery remains plausible if commodity pricing stabilizes and operating margins move back toward management’s medium-term targets.",
       "Strong free cash flow supports continued buybacks, with share count reduction estimated at roughly 3% annually."
     ],
     "primaryRisks": [
@@ -278,7 +278,7 @@
   "valuation": {
     "multiplesAnalysis": {
       "summaryParagraphs": [
-        "XOM trades at a moderate premium to integrated peers. That premium appears defensible, given the company\u2019s low-cost resource base, large-scale integrated operations, and superior capital allocation record."
+        "XOM trades at a moderate premium to integrated peers. That premium appears defensible, given the company’s low-cost resource base, large-scale integrated operations, and superior capital allocation record."
       ],
       "tables": [
         {
@@ -639,13 +639,13 @@
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$185",
-    "impliedUpsidePct": "+10.5%",
+    "impliedUpsidePct": "+21.3%",
     "bullBaseBear": {
       "bull": "$215",
       "base": "$185",
       "bear": "$155"
     },
-    "valuationMethodology": "The report\u2019s base case target is anchored on a blended framework using 60% DCF weighting and 40% peer-multiple weighting.",
+    "valuationMethodology": "The report’s base case target is anchored on a blended framework using 60% DCF weighting and 40% peer-multiple weighting.",
     "fiveKeyMetricsToWatch": [
       "Permian production growth versus the 900K boe/d and 1.3M boe/d milestones.",
       "Free cash flow per share, especially if it falls below the level needed to comfortably support buybacks and dividends.",
@@ -656,12 +656,12 @@
     "ratingChangeTriggers": [
       {
         "action": "Upgrade",
-        "direction": "\u2191",
+        "direction": "↑",
         "trigger": "Brent crude sustains above consensus, Guyana and Permian upstream volumes ramp ahead of schedule, and low-carbon investments in carbon capture and hydrogen begin to generate visible returns that re-rate the long-term earnings profile."
       },
       {
         "action": "Downgrade",
-        "direction": "\u2193",
+        "direction": "↓",
         "trigger": "Brent crude deteriorates toward $60–65/barrel, refining and chemical margins remain structurally compressed, or the premium valuation relative to integrated peers proves unsustainable as near-term earnings momentum slows."
       }
     ],

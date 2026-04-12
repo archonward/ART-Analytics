@@ -9,18 +9,18 @@
     "author": "ART Analytics",
     "rating": "BUY",
     "targetPrice": "$125.00",
-    "currentPrice": "$98.66",
-    "impliedUpsidePct": "+26.7%",
-    "marketDataAsOf": "Apr 2, 2026, 8:00 PM",
+    "currentPrice": "$103.01",
+    "impliedUpsidePct": "+21.3%",
+    "marketDataAsOf": "Apr 10, 2026, 4:00 PM",
     "estimatedReadMinutes": 23,
     "coverageStatus": "published"
   },
   "executiveAtAGlance": {
-    "thesisHeadline": "Netflix's flywheel \u2014 scale-driven content amortization, ad-tier optionality, and live sports as a subscriber retention anchor \u2014 should sustain mid-teens revenue growth and margin expansion through 2027, making the current drawdown a mispricing, not a fundamental deterioration.",
+    "thesisHeadline": "Netflix's flywheel — scale-driven content amortization, ad-tier optionality, and live sports as a subscriber retention anchor — should sustain mid-teens revenue growth and margin expansion through 2027, making the current drawdown a mispricing, not a fundamental deterioration.",
     "snapshotMetrics": [
       {
         "label": "Market Cap",
-        "value": "$418.5B"
+        "value": "$437.0B"
       },
       {
         "label": "Enterprise Value",
@@ -70,18 +70,18 @@
   },
   "executiveSummary": {
     "summaryParagraphs": [
-      "Netflix enters 2026 as the undisputed global streaming leader \u2014 $45.2B in FY2025 revenue, 24.5% operating margins, and $9.5B in annual free cash flow \u2014 yet the stock trades 26% below its 52-week high of $134.12, creating a compelling entry point ahead of the April 16 earnings print.",
-      "The stock trades at 25.6x forward P/E \u2014 a discount to its 5-year average \u2014 on a business generating 17.6% revenue growth, 24.5% operating margins, and $9.5B of annual FCF. Our $125 price target blends a 60% weight on a DCF base case (10.0% WACC, 3.0% terminal growth) and 40% weight on 28x FY26E EPS of $3.17, implying 26.7% upside from the April 2, 2026 close."
+      "Netflix enters 2026 as the undisputed global streaming leader — $45.2B in FY2025 revenue, 24.5% operating margins, and $9.5B in annual free cash flow — yet the stock trades 26% below its 52-week high of $134.12, creating a compelling entry point ahead of the April 16 earnings print.",
+      "The stock trades at 25.6x forward P/E — a discount to its 5-year average — on a business generating 17.6% revenue growth, 24.5% operating margins, and $9.5B of annual FCF. Our $125 price target blends a 60% weight on a DCF base case (10.0% WACC, 3.0% terminal growth) and 40% weight on 28x FY26E EPS of $3.17, implying 26.7% upside from the April 2, 2026 close."
     ],
     "catalysts": [
-      "Q1 2026 earnings on April 16 \u2014 Street consensus at $0.761 EPS on $12.2B revenue; beat-and-raise dynamic could re-rate the multiple toward 30x forward earnings.",
-      "Live sports expansion \u2014 Netflix is actively pursuing expanded NFL streaming rights to four games, building on the 2025 Christmas Day slate.",
-      "Advertising tier monetization \u2014 ad-supported ARPU accretion and incremental ad revenue represent the most underpenetrated near-term margin lever."
+      "Q1 2026 earnings on April 16 — Street consensus at $0.761 EPS on $12.2B revenue; beat-and-raise dynamic could re-rate the multiple toward 30x forward earnings.",
+      "Live sports expansion — Netflix is actively pursuing expanded NFL streaming rights to four games, building on the 2025 Christmas Day slate.",
+      "Advertising tier monetization — ad-supported ARPU accretion and incremental ad revenue represent the most underpenetrated near-term margin lever."
     ],
     "primaryRisks": [
-      "Regulatory pricing risk \u2014 a Rome court ruled Netflix's unilateral price-hike clauses void and ordered subscriber refunds; EU-wide precedent could constrain pricing power in a key market.",
-      "Multiple compression \u2014 derating pressure and acquisition speculation weighed on the stock in Q4 2025; any macro deterioration amplifies this risk.",
-      "Content cost escalation \u2014 live sports rights are structurally expensive; NFL expansion could pressure margins if ad revenue ramp underperforms."
+      "Regulatory pricing risk — a Rome court ruled Netflix's unilateral price-hike clauses void and ordered subscriber refunds; EU-wide precedent could constrain pricing power in a key market.",
+      "Multiple compression — derating pressure and acquisition speculation weighed on the stock in Q4 2025; any macro deterioration amplifies this risk.",
+      "Content cost escalation — live sports rights are structurally expensive; NFL expansion could pressure margins if ad revenue ramp underperforms."
     ],
     "valuationBridge": "Netflix trades at a discount to its 5-year average on a business still delivering strong revenue growth, expanding margins, and robust free cash flow, leaving room for re-rating if ad-tier monetization and live sports optionality are executed well."
   },
@@ -358,21 +358,84 @@
   "valuation": {
     "multiplesAnalysis": {
       "summaryParagraphs": [
-        "Netflix trades at 25.6x forward P/E and 31.1x EV/EBITDA \u2014 elevated on an absolute basis but defensible given the 17.6% revenue growth trajectory, 24.3% net margins, and superior free cash flow conversion. The current forward multiple is near a 5-year low on an earnings-power basis, suggesting the market may be underweighting the ad-tier and live-sports optionality."
+        "Netflix trades at 25.6x forward P/E and 31.1x EV/EBITDA — elevated on an absolute basis but defensible given the 17.6% revenue growth trajectory, 24.3% net margins, and superior free cash flow conversion. The current forward multiple is near a 5-year low on an earnings-power basis, suggesting the market may be underweighting the ad-tier and live-sports optionality."
       ],
       "tables": [
         {
           "title": "Valuation Multiple",
-          "columns": ["Metric", "NFLX Current", "NFLX 5-Yr Avg (est.)", "DIS (est.)", "WBD (est.)", "AMZN (est.)"],
+          "columns": [
+            "Metric",
+            "NFLX Current",
+            "NFLX 5-Yr Avg (est.)",
+            "DIS (est.)",
+            "WBD (est.)",
+            "AMZN (est.)"
+          ],
           "rows": [
-            ["P/E (Trailing)", "39.0x", "55x", "25x", "NM", "40x"],
-            ["Forward P/E", "25.6x", "42x", "20x", "18x", "33x"],
-            ["P/S", "9.4x", "8x", "2x", "0.5x", "3x"],
-            ["P/B", "15.7x", "18x", "2x", "0.5x", "9x"],
-            ["EV/EBITDA", "31.1x", "40x", "12x", "8x", "18x"],
-            ["EV/Revenue", "9.4x", "9x", "2x", "0.5x", "3x"],
-            ["PEG Ratio (est.)", "1.4x", "2.5x", "1.5x", "NM", "1.8x"],
-            ["FCF Yield", "2.3%", "1.0%", "3.5%", "2.0%", "2.5%"]
+            [
+              "P/E (Trailing)",
+              "39.0x",
+              "55x",
+              "25x",
+              "NM",
+              "40x"
+            ],
+            [
+              "Forward P/E",
+              "25.6x",
+              "42x",
+              "20x",
+              "18x",
+              "33x"
+            ],
+            [
+              "P/S",
+              "9.4x",
+              "8x",
+              "2x",
+              "0.5x",
+              "3x"
+            ],
+            [
+              "P/B",
+              "15.7x",
+              "18x",
+              "2x",
+              "0.5x",
+              "9x"
+            ],
+            [
+              "EV/EBITDA",
+              "31.1x",
+              "40x",
+              "12x",
+              "8x",
+              "18x"
+            ],
+            [
+              "EV/Revenue",
+              "9.4x",
+              "9x",
+              "2x",
+              "0.5x",
+              "3x"
+            ],
+            [
+              "PEG Ratio (est.)",
+              "1.4x",
+              "2.5x",
+              "1.5x",
+              "NM",
+              "1.8x"
+            ],
+            [
+              "FCF Yield",
+              "2.3%",
+              "1.0%",
+              "3.5%",
+              "2.0%",
+              "2.5%"
+            ]
           ]
         }
       ]
@@ -384,7 +447,7 @@
       "assumptions": [
         "Revenue CAGR: 13.0% from FY2026 to FY2030, decelerating from 15.8% toward ~8% by year 5.",
         "Operating margin expanding from 29.5% to 34% by FY2030.",
-        "CapEx maintained at 1.5\u20132.0% of revenue.",
+        "CapEx maintained at 1.5–2.0% of revenue.",
         "Tax rate: 20% (est.).",
         "WACC: 10.0%.",
         "Terminal growth rate: 3.0%."
@@ -560,7 +623,7 @@
       "Potential NFL live-streaming expansion."
     ],
     "mediumTermDrivers": [
-      "Advertising revenue scaling to an estimated $5\u20138B annually by FY2028.",
+      "Advertising revenue scaling to an estimated $5–8B annually by FY2028.",
       "International-market ARPU expansion in lower-priced regions.",
       "Live sports as a retention anchor for higher-ARPU cohorts.",
       "Product-team restructuring aimed at accelerating feature velocity and personalization."
@@ -572,13 +635,13 @@
     ],
     "tamPositioning": {
       "summaryParagraphs": [
-        "The global streaming TAM remains structurally underpenetrated. Broadband-connected households globally number roughly 1.2\u20131.5 billion, while Netflix serves an estimated 300M+ subscribers. Advertising and live sports expand the long-run opportunity well beyond core subscriptions."
+        "The global streaming TAM remains structurally underpenetrated. Broadband-connected households globally number roughly 1.2–1.5 billion, while Netflix serves an estimated 300M+ subscribers. Advertising and live sports expand the long-run opportunity well beyond core subscriptions."
       ],
       "highlights": [
-        "Streaming subscriptions TAM by 2030 is estimated at roughly $150\u2013200B annually.",
-        "Streaming advertising TAM by 2030 is estimated at roughly $50\u201380B annually.",
+        "Streaming subscriptions TAM by 2030 is estimated at roughly $150–200B annually.",
+        "Streaming advertising TAM by 2030 is estimated at roughly $50–80B annually.",
         "Live sports streaming rights represent an estimated $50B+ annual market globally.",
-        "Netflix's current share of global streaming revenue is estimated at roughly 20\u201325%, leaving room for further expansion."
+        "Netflix's current share of global streaming revenue is estimated at roughly 20–25%, leaving room for further expansion."
       ]
     }
   },
@@ -603,7 +666,7 @@
         "rows": [
           [
             "No material acquisitions confirmed in locked data",
-            "FY2021\u2013FY2025",
+            "FY2021–FY2025",
             "On file",
             "Organic growth strategy maintained; acquisition speculation in Q4 2025 not confirmed"
           ]
@@ -682,7 +745,7 @@
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$125.00",
-    "impliedUpsidePct": "+26.7%",
+    "impliedUpsidePct": "+21.3%",
     "bullBaseBear": {
       "bull": "$158",
       "base": "$125",
@@ -699,17 +762,17 @@
     "ratingChangeTriggers": [
       {
         "action": "Upgrade to Strong Buy",
-        "direction": "\u2191",
+        "direction": "↑",
         "trigger": "Q1 2026 beat-and-raise with FY2026 revenue guidance above $52.5B and ad-tier revenue disclosure showing $800M+ in the quarter."
       },
       {
         "action": "Downgrade to Hold",
-        "direction": "\u2193",
+        "direction": "↓",
         "trigger": "Two consecutive EPS misses, FY2026 operating margin guidance below 28%, or a confirmed large-cap acquisition at a rich premium that threatens capital discipline."
       },
       {
         "action": "Downgrade to Sell",
-        "direction": "\u2193\u2193",
+        "direction": "↓↓",
         "trigger": "EU regulatory restrictions materially impair European ARPU growth while live sports rights costs exceed $3B annually without a commensurate ad revenue offset."
       }
     ],

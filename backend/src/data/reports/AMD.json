@@ -9,25 +9,55 @@
     "author": "ART Analytics",
     "rating": "BUY",
     "targetPrice": "$290",
-    "currentPrice": "$196.58",
-    "impliedUpsidePct": "+47.5%",
-    "marketDataAsOf": "Mar 16, 2026, 8:00 PM",
+    "currentPrice": "$245.04",
+    "impliedUpsidePct": "+18.3%",
+    "marketDataAsOf": "Apr 10, 2026, 4:00 PM",
     "estimatedReadMinutes": 13,
     "coverageStatus": "published"
   },
   "executiveAtAGlance": {
     "thesisHeadline": "AMD's AI acceleration platform is gaining enterprise traction beyond hyperscaler accounts, with margin expansion and market share gains creating 40%+ upside at current valuations despite cyclical PC headwinds.",
     "snapshotMetrics": [
-      { "label": "Market Cap", "value": "$320.5B" },
-      { "label": "Enterprise Value", "value": "$314.0B" },
-      { "label": "FCF (TTM)", "value": "$4.6B" },
-      { "label": "EV/EBITDA", "value": "46.5x" },
-      { "label": "Net Margin", "value": "12.5%" },
-      { "label": "Revenue (TTM)", "value": "$34.6B" },
-      { "label": "Net Income (TTM)", "value": "$4.3B" },
-      { "label": "P/E", "value": "75.3x" },
-      { "label": "Revenue Growth YoY", "value": "+34.1%" },
-      { "label": "ROIC", "value": "15.2%" }
+      {
+        "label": "Market Cap",
+        "value": "$399.5B"
+      },
+      {
+        "label": "Enterprise Value",
+        "value": "$314.0B"
+      },
+      {
+        "label": "FCF (TTM)",
+        "value": "$4.6B"
+      },
+      {
+        "label": "EV/EBITDA",
+        "value": "46.5x"
+      },
+      {
+        "label": "Net Margin",
+        "value": "12.5%"
+      },
+      {
+        "label": "Revenue (TTM)",
+        "value": "$34.6B"
+      },
+      {
+        "label": "Net Income (TTM)",
+        "value": "$4.3B"
+      },
+      {
+        "label": "P/E",
+        "value": "93.5x"
+      },
+      {
+        "label": "Revenue Growth YoY",
+        "value": "+34.1%"
+      },
+      {
+        "label": "ROIC",
+        "value": "15.2%"
+      }
     ]
   },
   "executiveSummary": {
@@ -60,22 +90,87 @@
       "tables": [
         {
           "title": "Income Statement ($M)",
-          "columns": ["Metric", "FY2021", "FY2022", "FY2023", "FY2024", "FY2025"],
+          "columns": [
+            "Metric",
+            "FY2021",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025"
+          ],
           "rows": [
-            ["Total Revenue", "$21,809", "$23,601", "$22,680", "$25,785", "$34,639"],
-            ["Gross Profit", "$10,120", "$10,603", "$10,460", "$12,725", "$17,152"],
-            ["Operating Income", "$1,010", "$1,264", "$401", "$2,086", "$3,694"],
-            ["Net Income", "$979", "$1,320", "$854", "$1,641", "$4,335"]
+            [
+              "Total Revenue",
+              "$21,809",
+              "$23,601",
+              "$22,680",
+              "$25,785",
+              "$34,639"
+            ],
+            [
+              "Gross Profit",
+              "$10,120",
+              "$10,603",
+              "$10,460",
+              "$12,725",
+              "$17,152"
+            ],
+            [
+              "Operating Income",
+              "$1,010",
+              "$1,264",
+              "$401",
+              "$2,086",
+              "$3,694"
+            ],
+            [
+              "Net Income",
+              "$979",
+              "$1,320",
+              "$854",
+              "$1,641",
+              "$4,335"
+            ]
           ]
         },
         {
           "title": "Margin Analysis",
-          "columns": ["Metric", "FY2022", "FY2023", "FY2024", "FY2025"],
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025"
+          ],
           "rows": [
-            ["Gross Margin", "44.9%", "46.1%", "49.4%", "52.5%"],
-            ["Operating Margin", "5.4%", "1.8%", "8.1%", "17.1%"],
-            ["Net Margin", "5.6%", "3.8%", "6.4%", "12.5%"],
-            ["Revenue Growth YoY", "6.1%", "-3.9%", "+13.7%", "+34.1%"]
+            [
+              "Gross Margin",
+              "44.9%",
+              "46.1%",
+              "49.4%",
+              "52.5%"
+            ],
+            [
+              "Operating Margin",
+              "5.4%",
+              "1.8%",
+              "8.1%",
+              "17.1%"
+            ],
+            [
+              "Net Margin",
+              "5.6%",
+              "3.8%",
+              "6.4%",
+              "12.5%"
+            ],
+            [
+              "Revenue Growth YoY",
+              "6.1%",
+              "-3.9%",
+              "+13.7%",
+              "+34.1%"
+            ]
           ]
         }
       ]
@@ -87,15 +182,55 @@
       "tables": [
         {
           "title": "Balance Sheet ($M)",
-          "columns": ["Metric", "FY2023", "FY2024", "FY2025"],
+          "columns": [
+            "Metric",
+            "FY2023",
+            "FY2024",
+            "FY2025"
+          ],
           "rows": [
-            ["Total Assets", "$67,885", "$69,226", "$76,926"],
-            ["Total Liabilities", "$11,993", "$11,658", "$13,927"],
-            ["Total Equity", "$55,892", "$57,568", "$62,999"],
-            ["Cash & Equivalents", "$3,933", "$3,787", "$5,539"],
-            ["Total Debt", "$3,003", "$2,212", "$3,847"],
-            ["Net Cash (Debt)", "$930", "$1,575", "$1,692"],
-            ["Debt-to-Equity", "5.4%", "3.8%", "6.1%"]
+            [
+              "Total Assets",
+              "$67,885",
+              "$69,226",
+              "$76,926"
+            ],
+            [
+              "Total Liabilities",
+              "$11,993",
+              "$11,658",
+              "$13,927"
+            ],
+            [
+              "Total Equity",
+              "$55,892",
+              "$57,568",
+              "$62,999"
+            ],
+            [
+              "Cash & Equivalents",
+              "$3,933",
+              "$3,787",
+              "$5,539"
+            ],
+            [
+              "Total Debt",
+              "$3,003",
+              "$2,212",
+              "$3,847"
+            ],
+            [
+              "Net Cash (Debt)",
+              "$930",
+              "$1,575",
+              "$1,692"
+            ],
+            [
+              "Debt-to-Equity",
+              "5.4%",
+              "3.8%",
+              "6.1%"
+            ]
           ]
         }
       ]
@@ -112,12 +247,42 @@
       "tables": [
         {
           "title": "Cash Flow ($M)",
-          "columns": ["Metric", "FY2022", "FY2023", "FY2024", "FY2025"],
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025"
+          ],
           "rows": [
-            ["Operating Cash Flow", "$3,565", "$1,667", "$3,041", "$7,709"],
-            ["Capital Expenditures", "($450)", "($546)", "($636)", "($974)"],
-            ["Free Cash Flow", "$3,115", "$1,121", "$2,405", "$6,735"],
-            ["FCF Margin", "13.2%", "4.9%", "9.3%", "19.4%"]
+            [
+              "Operating Cash Flow",
+              "$3,565",
+              "$1,667",
+              "$3,041",
+              "$7,709"
+            ],
+            [
+              "Capital Expenditures",
+              "($450)",
+              "($546)",
+              "($636)",
+              "($974)"
+            ],
+            [
+              "Free Cash Flow",
+              "$3,115",
+              "$1,121",
+              "$2,405",
+              "$6,735"
+            ],
+            [
+              "FCF Margin",
+              "13.2%",
+              "4.9%",
+              "9.3%",
+              "19.4%"
+            ]
           ]
         }
       ]
@@ -131,14 +296,70 @@
       "tables": [
         {
           "title": "Valuation Multiples",
-          "columns": ["Metric", "AMD Current", "AMD 5-Yr Avg", "NVIDIA", "Intel", "Broadcom", "Sector Avg"],
+          "columns": [
+            "Metric",
+            "AMD Current",
+            "AMD 5-Yr Avg",
+            "NVIDIA",
+            "Intel",
+            "Broadcom",
+            "Sector Avg"
+          ],
           "rows": [
-            ["P/E (TTM)", "75.3x", "45.2x", "65.4x", "18.9x", "23.1x", "28.7x"],
-            ["Forward P/E", "18.3x", "24.5x", "35.2x", "15.6x", "19.8x", "21.4x"],
-            ["P/S (TTM)", "9.2x", "6.8x", "22.1x", "2.4x", "8.9x", "7.1x"],
-            ["P/B", "5.1x", "4.2x", "15.8x", "1.3x", "4.6x", "3.8x"],
-            ["EV/EBITDA", "46.5x", "32.1x", "58.2x", "12.4x", "16.7x", "19.2x"],
-            ["EV/Revenue", "9.1x", "6.5x", "21.8x", "2.3x", "8.7x", "6.9x"]
+            [
+              "P/E (TTM)",
+              "75.3x",
+              "45.2x",
+              "65.4x",
+              "18.9x",
+              "23.1x",
+              "28.7x"
+            ],
+            [
+              "Forward P/E",
+              "18.3x",
+              "24.5x",
+              "35.2x",
+              "15.6x",
+              "19.8x",
+              "21.4x"
+            ],
+            [
+              "P/S (TTM)",
+              "9.2x",
+              "6.8x",
+              "22.1x",
+              "2.4x",
+              "8.9x",
+              "7.1x"
+            ],
+            [
+              "P/B",
+              "5.1x",
+              "4.2x",
+              "15.8x",
+              "1.3x",
+              "4.6x",
+              "3.8x"
+            ],
+            [
+              "EV/EBITDA",
+              "46.5x",
+              "32.1x",
+              "58.2x",
+              "12.4x",
+              "16.7x",
+              "19.2x"
+            ],
+            [
+              "EV/Revenue",
+              "9.1x",
+              "6.5x",
+              "21.8x",
+              "2.3x",
+              "8.7x",
+              "6.9x"
+            ]
           ]
         }
       ]
@@ -156,20 +377,76 @@
       ],
       "projectionTable": {
         "title": "DCF Projections ($B)",
-        "columns": ["Metric", "FY2026E", "FY2027E", "FY2028E", "FY2029E", "FY2030E"],
+        "columns": [
+          "Metric",
+          "FY2026E",
+          "FY2027E",
+          "FY2028E",
+          "FY2029E",
+          "FY2030E"
+        ],
         "rows": [
-          ["Revenue", "$42.5", "$50.2", "$58.8", "$68.1", "$78.2"],
-          ["EBITDA", "$9.8", "$12.6", "$15.9", "$19.7", "$23.8"],
-          ["Free Cash Flow", "$7.2", "$9.4", "$12.1", "$15.2", "$18.7"]
+          [
+            "Revenue",
+            "$42.5",
+            "$50.2",
+            "$58.8",
+            "$68.1",
+            "$78.2"
+          ],
+          [
+            "EBITDA",
+            "$9.8",
+            "$12.6",
+            "$15.9",
+            "$19.7",
+            "$23.8"
+          ],
+          [
+            "Free Cash Flow",
+            "$7.2",
+            "$9.4",
+            "$12.1",
+            "$15.2",
+            "$18.7"
+          ]
         ]
       },
       "scenarioTable": {
         "title": "DCF Scenario Analysis",
-        "columns": ["Scenario", "Revenue CAGR", "Terminal Growth", "WACC", "Implied Price", "Upside/Downside"],
+        "columns": [
+          "Scenario",
+          "Revenue CAGR",
+          "Terminal Growth",
+          "WACC",
+          "Implied Price",
+          "Upside/Downside"
+        ],
         "rows": [
-          ["Bull Case", "22%", "3.0%", "9.8%", "$365", "+85.6%"],
-          ["Base Case", "18%", "2.5%", "10.2%", "$285", "+45.0%"],
-          ["Bear Case", "12%", "2.0%", "11.0%", "$220", "+11.9%"]
+          [
+            "Bull Case",
+            "22%",
+            "3.0%",
+            "9.8%",
+            "$365",
+            "+85.6%"
+          ],
+          [
+            "Base Case",
+            "18%",
+            "2.5%",
+            "10.2%",
+            "$285",
+            "+45.0%"
+          ],
+          [
+            "Bear Case",
+            "12%",
+            "2.0%",
+            "11.0%",
+            "$220",
+            "+11.9%"
+          ]
         ]
       }
     },
@@ -182,12 +459,42 @@
       ],
       "segmentTable": {
         "title": "Business Segments",
-        "columns": ["Segment", "FY2024 Revenue", "FY2025 Revenue", "% of Total", "YoY Growth"],
+        "columns": [
+          "Segment",
+          "FY2024 Revenue",
+          "FY2025 Revenue",
+          "% of Total",
+          "YoY Growth"
+        ],
         "rows": [
-          ["Data Center", "$4.2B", "$6.0B", "17%", "+42.8%"],
-          ["Client (PC/Laptop)", "$10.5B", "$11.8B", "34%", "+12.4%"],
-          ["Gaming", "$3.8B", "$4.6B", "13%", "+21.1%"],
-          ["Embedded", "$7.3B", "$12.2B", "35%", "+67.1%"]
+          [
+            "Data Center",
+            "$4.2B",
+            "$6.0B",
+            "17%",
+            "+42.8%"
+          ],
+          [
+            "Client (PC/Laptop)",
+            "$10.5B",
+            "$11.8B",
+            "34%",
+            "+12.4%"
+          ],
+          [
+            "Gaming",
+            "$3.8B",
+            "$4.6B",
+            "13%",
+            "+21.1%"
+          ],
+          [
+            "Embedded",
+            "$7.3B",
+            "$12.2B",
+            "35%",
+            "+67.1%"
+          ]
         ]
       }
     },
@@ -196,14 +503,42 @@
         "AMD's moat is narrower than NVIDIA's, but it is still meaningful. The company benefits from x86 cross-licensing with Intel, deep chip design expertise, and increasing economies of scale in advanced-node manufacturing and chiplet architecture. The main limitation is weaker software lock-in relative to NVIDIA's CUDA ecosystem."
       ],
       "moatTable": {
-        "columns": ["Moat Source", "Strength", "Assessment"],
+        "columns": [
+          "Moat Source",
+          "Strength",
+          "Assessment"
+        ],
         "rows": [
-          ["Brand & Reputation", "Moderate", "Growing recognition in AI acceleration versus Intel legacy"],
-          ["Network Effects", "Weak", "Limited ecosystem lock-in versus software-centric competitors"],
-          ["Switching Costs", "Moderate", "Enterprise validation cycles create 12-18 month replacement friction"],
-          ["Cost Advantages/Scale", "Strong", "Advanced node access and chiplet architecture efficiency"],
-          ["Intellectual Property", "Strong", "x86 duopoly with Intel plus GPU and AI accelerator IP portfolio"],
-          ["Regulatory Barriers", "Strong", "x86 cross-licensing creates meaningful entry barriers"]
+          [
+            "Brand & Reputation",
+            "Moderate",
+            "Growing recognition in AI acceleration versus Intel legacy"
+          ],
+          [
+            "Network Effects",
+            "Weak",
+            "Limited ecosystem lock-in versus software-centric competitors"
+          ],
+          [
+            "Switching Costs",
+            "Moderate",
+            "Enterprise validation cycles create 12-18 month replacement friction"
+          ],
+          [
+            "Cost Advantages/Scale",
+            "Strong",
+            "Advanced node access and chiplet architecture efficiency"
+          ],
+          [
+            "Intellectual Property",
+            "Strong",
+            "x86 duopoly with Intel plus GPU and AI accelerator IP portfolio"
+          ],
+          [
+            "Regulatory Barriers",
+            "Strong",
+            "x86 cross-licensing creates meaningful entry barriers"
+          ]
         ]
       },
       "overallMoatConclusion": "AMD appears to have a narrow but meaningful moat. Its strongest advantages come from intellectual property, x86 cross-licensing, and scale benefits in advanced-node and chiplet design, while its main weakness remains a less entrenched software ecosystem than NVIDIA's. Overall, AMD has defensible competitive positioning, but sustaining that edge depends on continued execution in AI and enterprise infrastructure."
@@ -248,10 +583,28 @@
       ],
       "acquisitionTable": {
         "title": "Major Acquisitions",
-        "columns": ["Acquisition", "Year", "Deal Value", "Strategic Rationale", "Outcome Assessment"],
+        "columns": [
+          "Acquisition",
+          "Year",
+          "Deal Value",
+          "Strategic Rationale",
+          "Outcome Assessment"
+        ],
         "rows": [
-          ["Xilinx", "2022", "$35.0B", "FPGA/adaptive computing expansion", "Positive – enhanced data center portfolio"],
-          ["Pensando", "2022", "$1.9B", "Data processing unit (DPU) capabilities", "TBD – integration ongoing"]
+          [
+            "Xilinx",
+            "2022",
+            "$35.0B",
+            "FPGA/adaptive computing expansion",
+            "Positive – enhanced data center portfolio"
+          ],
+          [
+            "Pensando",
+            "2022",
+            "$1.9B",
+            "Data processing unit (DPU) capabilities",
+            "TBD – integration ongoing"
+          ]
         ]
       }
     },
@@ -263,23 +616,77 @@
   },
   "riskAnalysis": {
     "riskTable": {
-      "columns": ["Risk Factor", "Type", "Probability", "Impact", "Mitigation"],
+      "columns": [
+        "Risk Factor",
+        "Type",
+        "Probability",
+        "Impact",
+        "Mitigation"
+      ],
       "rows": [
-        ["NVIDIA competitive response in enterprise AI", "Competitive", "High", "High", "Software ecosystem development; pricing flexibility"],
-        ["3nm manufacturing node transition delays", "Execution", "Medium", "High", "TSMC partnership diversification; design flexibility"],
-        ["Customer concentration in hyperscaler accounts", "Business", "Medium", "Medium", "Enterprise market expansion; geographic diversification"],
-        ["Integration execution risk from Xilinx acquisition", "M&A", "Low", "Medium", "Dedicated integration management; cultural alignment"],
-        ["Key talent retention in competitive labor market", "Human Capital", "Medium", "Medium", "Competitive compensation; equity incentives"],
-        ["AI infrastructure spending slowdown", "Macro", "Medium", "High", "Diversified end markets; flexible cost structure"],
-        ["US-China trade restrictions", "Geopolitical", "High", "Medium", "Geographic diversification; compliance programs"],
-        ["Global semiconductor cycle downturn", "Industry", "Low", "High", "Market-share gains; balance-sheet strength"]
+        [
+          "NVIDIA competitive response in enterprise AI",
+          "Competitive",
+          "High",
+          "High",
+          "Software ecosystem development; pricing flexibility"
+        ],
+        [
+          "3nm manufacturing node transition delays",
+          "Execution",
+          "Medium",
+          "High",
+          "TSMC partnership diversification; design flexibility"
+        ],
+        [
+          "Customer concentration in hyperscaler accounts",
+          "Business",
+          "Medium",
+          "Medium",
+          "Enterprise market expansion; geographic diversification"
+        ],
+        [
+          "Integration execution risk from Xilinx acquisition",
+          "M&A",
+          "Low",
+          "Medium",
+          "Dedicated integration management; cultural alignment"
+        ],
+        [
+          "Key talent retention in competitive labor market",
+          "Human Capital",
+          "Medium",
+          "Medium",
+          "Competitive compensation; equity incentives"
+        ],
+        [
+          "AI infrastructure spending slowdown",
+          "Macro",
+          "Medium",
+          "High",
+          "Diversified end markets; flexible cost structure"
+        ],
+        [
+          "US-China trade restrictions",
+          "Geopolitical",
+          "High",
+          "Medium",
+          "Geographic diversification; compliance programs"
+        ],
+        [
+          "Global semiconductor cycle downturn",
+          "Industry",
+          "Low",
+          "High",
+          "Market-share gains; balance-sheet strength"
+        ]
       ]
     }
   },
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$290",
-    "impliedUpsidePct": "+47.5%",
+    "impliedUpsidePct": "+18.3%",
     "bullBaseBear": {
       "bull": "$365",
       "base": "$285",

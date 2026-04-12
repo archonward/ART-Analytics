@@ -9,25 +9,55 @@
     "author": "ART Analytics",
     "rating": "BUY",
     "targetPrice": "$525",
-    "currentPrice": "$366.24",
-    "impliedUpsidePct": "+43.3%",
-    "marketDataAsOf": "Apr 2, 2026, 8:00 PM",
+    "currentPrice": "$420.59",
+    "impliedUpsidePct": "+24.8%",
+    "marketDataAsOf": "Apr 10, 2026, 4:00 PM",
     "estimatedReadMinutes": 25,
     "coverageStatus": "published"
   },
   "executiveAtAGlance": {
     "thesisHeadline": "MU is transitioning from a commodity memory supplier to a critical infrastructure provider for the AI compute stack, with HBM revenue ramping exponentially and a forward earnings multiple that still prices in a cyclical downturn that consensus does not expect for at least two years.",
     "snapshotMetrics": [
-      { "label": "Market Cap", "value": "$413.0B" },
-      { "label": "Enterprise Value", "value": "$409.2B" },
-      { "label": "FCF (TTM)", "value": "$2.9B" },
-      { "label": "EV/EBITDA", "value": "11.1x" },
-      { "label": "Net Margin", "value": "41.5%" },
-      { "label": "Revenue (TTM)", "value": "$58.1B" },
-      { "label": "Net Income (TTM)", "value": "$24.1B (est.)" },
-      { "label": "P/E", "value": "17.3x" },
-      { "label": "Revenue Growth YoY", "value": "+196.3%" },
-      { "label": "ROIC", "value": "~18.5% (est.)" }
+      {
+        "label": "Market Cap",
+        "value": "$474.3B"
+      },
+      {
+        "label": "Enterprise Value",
+        "value": "$409.2B"
+      },
+      {
+        "label": "FCF (TTM)",
+        "value": "$2.9B"
+      },
+      {
+        "label": "EV/EBITDA",
+        "value": "11.1x"
+      },
+      {
+        "label": "Net Margin",
+        "value": "41.5%"
+      },
+      {
+        "label": "Revenue (TTM)",
+        "value": "$58.1B"
+      },
+      {
+        "label": "Net Income (TTM)",
+        "value": "$24.1B (est.)"
+      },
+      {
+        "label": "P/E",
+        "value": "19.8x"
+      },
+      {
+        "label": "Revenue Growth YoY",
+        "value": "+196.3%"
+      },
+      {
+        "label": "ROIC",
+        "value": "~18.5% (est.)"
+      }
     ]
   },
   "executiveSummary": {
@@ -60,24 +90,96 @@
       "tables": [
         {
           "title": "Income Statement ($B)",
-          "columns": ["Fiscal Year", "Revenue", "Gross Profit", "Operating Income", "Net Income"],
+          "columns": [
+            "Fiscal Year",
+            "Revenue",
+            "Gross Profit",
+            "Operating Income",
+            "Net Income"
+          ],
           "rows": [
-            ["FY2022 (Aug)", "$30.8B", "$13.9B", "$9.7B", "$8.7B"],
-            ["FY2023 (Aug)", "$15.5B", "-$1.4B", "-$5.4B", "-$5.8B"],
-            ["FY2024 (Aug)", "$25.1B", "$5.6B", "$1.3B", "$0.8B"],
-            ["FY2025 (Aug)", "$37.4B", "$14.9B", "$9.8B", "$8.5B"],
-            ["TTM (Feb 2026)", "$58.1B", "$33.9B (est.)", "$39.6B (est.)", "$24.1B (est.)"]
+            [
+              "FY2022 (Aug)",
+              "$30.8B",
+              "$13.9B",
+              "$9.7B",
+              "$8.7B"
+            ],
+            [
+              "FY2023 (Aug)",
+              "$15.5B",
+              "-$1.4B",
+              "-$5.4B",
+              "-$5.8B"
+            ],
+            [
+              "FY2024 (Aug)",
+              "$25.1B",
+              "$5.6B",
+              "$1.3B",
+              "$0.8B"
+            ],
+            [
+              "FY2025 (Aug)",
+              "$37.4B",
+              "$14.9B",
+              "$9.8B",
+              "$8.5B"
+            ],
+            [
+              "TTM (Feb 2026)",
+              "$58.1B",
+              "$33.9B (est.)",
+              "$39.6B (est.)",
+              "$24.1B (est.)"
+            ]
           ]
         },
         {
           "title": "Margin Analysis",
-          "columns": ["Fiscal Year", "Gross Margin %", "Operating Margin %", "Net Margin %", "YoY Revenue Growth"],
+          "columns": [
+            "Fiscal Year",
+            "Gross Margin %",
+            "Operating Margin %",
+            "Net Margin %",
+            "YoY Revenue Growth"
+          ],
           "rows": [
-            ["FY2022", "45.2%", "31.6%", "28.2%", "On file"],
-            ["FY2023", "-9.1%", "-34.8%", "-37.5%", "-49.5%"],
-            ["FY2024", "22.4%", "5.2%", "3.1%", "+61.6%"],
-            ["FY2025", "39.8%", "26.3%", "22.8%", "+48.8%"],
-            ["TTM (Feb 2026)", "58.4%", "67.6%", "41.5%", "+196.3%"]
+            [
+              "FY2022",
+              "45.2%",
+              "31.6%",
+              "28.2%",
+              "On file"
+            ],
+            [
+              "FY2023",
+              "-9.1%",
+              "-34.8%",
+              "-37.5%",
+              "-49.5%"
+            ],
+            [
+              "FY2024",
+              "22.4%",
+              "5.2%",
+              "3.1%",
+              "+61.6%"
+            ],
+            [
+              "FY2025",
+              "39.8%",
+              "26.3%",
+              "22.8%",
+              "+48.8%"
+            ],
+            [
+              "TTM (Feb 2026)",
+              "58.4%",
+              "67.6%",
+              "41.5%",
+              "+196.3%"
+            ]
           ]
         }
       ]
@@ -90,15 +192,63 @@
       "tables": [
         {
           "title": "Balance Sheet ($B)",
-          "columns": ["Balance Sheet Item", "FY2022", "FY2023", "FY2024", "FY2025"],
+          "columns": [
+            "Balance Sheet Item",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025"
+          ],
           "rows": [
-            ["Total Assets", "$66.3B", "$64.3B", "$69.4B", "$82.8B"],
-            ["Total Liabilities", "$16.4B", "$20.1B", "$24.3B", "$28.6B"],
-            ["Total Equity", "$49.9B", "$44.1B", "$45.1B", "$54.2B"],
-            ["Total Debt", "$7.5B", "$13.9B", "$14.0B", "$15.3B"],
-            ["Cash & Equivalents", "$8.3B", "$8.6B", "$7.0B", "$9.6B"],
-            ["Net Debt", "-$0.7B", "$5.4B", "$7.0B", "$5.6B"],
-            ["Debt / Equity", "0.15x", "0.32x", "0.31x", "0.28x"]
+            [
+              "Total Assets",
+              "$66.3B",
+              "$64.3B",
+              "$69.4B",
+              "$82.8B"
+            ],
+            [
+              "Total Liabilities",
+              "$16.4B",
+              "$20.1B",
+              "$24.3B",
+              "$28.6B"
+            ],
+            [
+              "Total Equity",
+              "$49.9B",
+              "$44.1B",
+              "$45.1B",
+              "$54.2B"
+            ],
+            [
+              "Total Debt",
+              "$7.5B",
+              "$13.9B",
+              "$14.0B",
+              "$15.3B"
+            ],
+            [
+              "Cash & Equivalents",
+              "$8.3B",
+              "$8.6B",
+              "$7.0B",
+              "$9.6B"
+            ],
+            [
+              "Net Debt",
+              "-$0.7B",
+              "$5.4B",
+              "$7.0B",
+              "$5.6B"
+            ],
+            [
+              "Debt / Equity",
+              "0.15x",
+              "0.32x",
+              "0.31x",
+              "0.28x"
+            ]
           ]
         }
       ]
@@ -116,13 +266,49 @@
       "tables": [
         {
           "title": "Cash Flow ($B)",
-          "columns": ["Period", "Operating Cash Flow", "Capital Expenditures", "Free Cash Flow", "FCF Margin %"],
+          "columns": [
+            "Period",
+            "Operating Cash Flow",
+            "Capital Expenditures",
+            "Free Cash Flow",
+            "FCF Margin %"
+          ],
           "rows": [
-            ["FY2022", "$15.2B", "-$12.1B", "$3.1B", "10.1%"],
-            ["FY2023", "$1.6B", "-$7.7B", "-$6.1B", "-39.4%"],
-            ["FY2024", "$8.5B", "-$8.4B", "$0.1B", "0.5%"],
-            ["FY2025", "$17.5B", "-$15.9B", "$1.7B", "4.5%"],
-            ["TTM (Feb 2026)", "~$28.6B (est.)", "~- $19.4B (est.)", "$2.9B", "5.0%"]
+            [
+              "FY2022",
+              "$15.2B",
+              "-$12.1B",
+              "$3.1B",
+              "10.1%"
+            ],
+            [
+              "FY2023",
+              "$1.6B",
+              "-$7.7B",
+              "-$6.1B",
+              "-39.4%"
+            ],
+            [
+              "FY2024",
+              "$8.5B",
+              "-$8.4B",
+              "$0.1B",
+              "0.5%"
+            ],
+            [
+              "FY2025",
+              "$17.5B",
+              "-$15.9B",
+              "$1.7B",
+              "4.5%"
+            ],
+            [
+              "TTM (Feb 2026)",
+              "~$28.6B (est.)",
+              "~- $19.4B (est.)",
+              "$2.9B",
+              "5.0%"
+            ]
           ]
         }
       ]
@@ -137,16 +323,88 @@
       "tables": [
         {
           "title": "Valuation Multiples",
-          "columns": ["Metric", "MU Current", "MU 5-Yr Avg", "Industry Avg", "Samsung", "SK Hynix", "Western Digital"],
+          "columns": [
+            "Metric",
+            "MU Current",
+            "MU 5-Yr Avg",
+            "Industry Avg",
+            "Samsung",
+            "SK Hynix",
+            "Western Digital"
+          ],
           "rows": [
-            ["P/E (Trailing)", "17.3x", "22x", "20x", "18x", "12x", "14x"],
-            ["Forward P/E", "3.7x", "18x", "15x", "8x", "5x", "10x"],
-            ["P/S", "7.1x", "3.5x", "4x", "2x", "3x", "2x"],
-            ["P/B", "5.7x", "3.0x", "3.5x", "1.2x", "2.5x", "3.0x"],
-            ["EV/EBITDA", "11.1x", "12x", "10x", "6x", "5x", "8x"],
-            ["EV/Revenue", "7.0x", "3.5x", "4x", "1.5x", "2x", "1.5x"],
-            ["PEG Ratio", "0.05x", "0.74", "1.0x", "0.5x", "0.3x", "0.5x"],
-            ["FCF Yield", "5.3%", "3.0%", "3.5%", "4%", "5%", "3%"]
+            [
+              "P/E (Trailing)",
+              "17.3x",
+              "22x",
+              "20x",
+              "18x",
+              "12x",
+              "14x"
+            ],
+            [
+              "Forward P/E",
+              "3.7x",
+              "18x",
+              "15x",
+              "8x",
+              "5x",
+              "10x"
+            ],
+            [
+              "P/S",
+              "7.1x",
+              "3.5x",
+              "4x",
+              "2x",
+              "3x",
+              "2x"
+            ],
+            [
+              "P/B",
+              "5.7x",
+              "3.0x",
+              "3.5x",
+              "1.2x",
+              "2.5x",
+              "3.0x"
+            ],
+            [
+              "EV/EBITDA",
+              "11.1x",
+              "12x",
+              "10x",
+              "6x",
+              "5x",
+              "8x"
+            ],
+            [
+              "EV/Revenue",
+              "7.0x",
+              "3.5x",
+              "4x",
+              "1.5x",
+              "2x",
+              "1.5x"
+            ],
+            [
+              "PEG Ratio",
+              "0.05x",
+              "0.74",
+              "1.0x",
+              "0.5x",
+              "0.3x",
+              "0.5x"
+            ],
+            [
+              "FCF Yield",
+              "5.3%",
+              "3.0%",
+              "3.5%",
+              "4%",
+              "5%",
+              "3%"
+            ]
           ]
         }
       ]
@@ -164,22 +422,80 @@
       ],
       "projectionTable": {
         "title": "DCF Projections ($B)",
-        "columns": ["Year", "Revenue (est.)", "EBITDA (est.)", "FCF (est.)"],
+        "columns": [
+          "Year",
+          "Revenue (est.)",
+          "EBITDA (est.)",
+          "FCF (est.)"
+        ],
         "rows": [
-          ["FY2026E", "$108.7B", "$65.2B", "$38.0B"],
-          ["FY2027E", "$130.5B", "$71.8B", "$45.0B"],
-          ["FY2028E", "$148.2B", "$72.6B", "$47.5B"],
-          ["FY2029E", "$163.0B", "$71.7B", "$46.8B"],
-          ["FY2030E", "$175.0B", "$70.0B", "$45.5B"]
+          [
+            "FY2026E",
+            "$108.7B",
+            "$65.2B",
+            "$38.0B"
+          ],
+          [
+            "FY2027E",
+            "$130.5B",
+            "$71.8B",
+            "$45.0B"
+          ],
+          [
+            "FY2028E",
+            "$148.2B",
+            "$72.6B",
+            "$47.5B"
+          ],
+          [
+            "FY2029E",
+            "$163.0B",
+            "$71.7B",
+            "$46.8B"
+          ],
+          [
+            "FY2030E",
+            "$175.0B",
+            "$70.0B",
+            "$45.5B"
+          ]
         ]
       },
       "scenarioTable": {
         "title": "DCF Scenario Analysis",
-        "columns": ["Scenario", "Revenue CAGR", "Terminal Growth", "WACC", "Implied Price", "Upside / Downside"],
+        "columns": [
+          "Scenario",
+          "Revenue CAGR",
+          "Terminal Growth",
+          "WACC",
+          "Implied Price",
+          "Upside / Downside"
+        ],
         "rows": [
-          ["Bull", "30%", "3.5%", "9.0%", "$750", "+104.8%"],
-          ["Base", "22%", "3.5%", "10.0%", "$525", "+43.3%"],
-          ["Bear", "8%", "2.0%", "11.5%", "$249", "-32.0%"]
+          [
+            "Bull",
+            "30%",
+            "3.5%",
+            "9.0%",
+            "$750",
+            "+104.8%"
+          ],
+          [
+            "Base",
+            "22%",
+            "3.5%",
+            "10.0%",
+            "$525",
+            "+43.3%"
+          ],
+          [
+            "Bear",
+            "8%",
+            "2.0%",
+            "11.5%",
+            "$249",
+            "-32.0%"
+          ]
         ]
       }
     },
@@ -193,11 +509,35 @@
       ],
       "segmentTable": {
         "title": "Business Segments",
-        "columns": ["Segment", "Est. Revenue (FY25)", "Est. % of Total", "Est. YoY Growth", "Margin Profile"],
+        "columns": [
+          "Segment",
+          "Est. Revenue (FY25)",
+          "Est. % of Total",
+          "Est. YoY Growth",
+          "Margin Profile"
+        ],
         "rows": [
-          ["DRAM (incl. HBM)", "~$28.0B (est.)", "~75%", "~+65% (est.)", "High / Expanding"],
-          ["NAND Flash", "~$8.6B (est.)", "~23%", "~+20% (est.)", "Moderate / Recovering"],
-          ["NOR / Other", "~$0.8B (est.)", "~2%", "~+5% (est.)", "Stable / Low"]
+          [
+            "DRAM (incl. HBM)",
+            "~$28.0B (est.)",
+            "~75%",
+            "~+65% (est.)",
+            "High / Expanding"
+          ],
+          [
+            "NAND Flash",
+            "~$8.6B (est.)",
+            "~23%",
+            "~+20% (est.)",
+            "Moderate / Recovering"
+          ],
+          [
+            "NOR / Other",
+            "~$0.8B (est.)",
+            "~2%",
+            "~+5% (est.)",
+            "Stable / Low"
+          ]
         ]
       }
     },
@@ -206,14 +546,42 @@
         "Micron's moat has historically been categorized as narrow due to the commodity nature of memory pricing. That assessment is evolving. HBM requires co-engineering with NVIDIA, AMD, and custom silicon teams — creating real switching costs at the chip-stack level that standard DRAM never had. The company's position as the sole U.S.-headquartered advanced memory manufacturer adds a regulatory and national security dimension that further insulates its competitive position."
       ],
       "moatTable": {
-        "columns": ["Moat Source", "Strength", "Assessment"],
+        "columns": [
+          "Moat Source",
+          "Strength",
+          "Assessment"
+        ],
         "rows": [
-          ["Brand & Reputation", "Moderate", "Strong in enterprise/data center; limited differentiation in consumer DRAM"],
-          ["Network Effects", "Weak", "Memory is not a network-effects business; limited applicability"],
-          ["Switching Costs", "Moderate–Strong", "HBM co-design integration creates meaningful switching friction with AI chip partners"],
-          ["Cost Advantages / Scale", "Strong", "Global oligopoly of three; leading-edge node access restricts new entrants for 5+ years"],
-          ["Intellectual Property", "Strong", "50,000+ patents (est.); 1-beta and HBM3E process IP is years ahead of potential new entrants"],
-          ["Regulatory Barriers", "Moderate–Strong", "CHIPS Act subsidies, U.S. export controls on Chinese competitors create structural domestic advantage"]
+          [
+            "Brand & Reputation",
+            "Moderate",
+            "Strong in enterprise/data center; limited differentiation in consumer DRAM"
+          ],
+          [
+            "Network Effects",
+            "Weak",
+            "Memory is not a network-effects business; limited applicability"
+          ],
+          [
+            "Switching Costs",
+            "Moderate–Strong",
+            "HBM co-design integration creates meaningful switching friction with AI chip partners"
+          ],
+          [
+            "Cost Advantages / Scale",
+            "Strong",
+            "Global oligopoly of three; leading-edge node access restricts new entrants for 5+ years"
+          ],
+          [
+            "Intellectual Property",
+            "Strong",
+            "50,000+ patents (est.); 1-beta and HBM3E process IP is years ahead of potential new entrants"
+          ],
+          [
+            "Regulatory Barriers",
+            "Moderate–Strong",
+            "CHIPS Act subsidies, U.S. export controls on Chinese competitors create structural domestic advantage"
+          ]
         ]
       },
       "overallMoatConclusion": "Overall Moat: Narrow–Wide (transitioning). The traditional commodity memory business supports a narrow moat at best. However, Micron's emerging position as the preferred U.S.-based HBM supplier to AI hyperscalers — with deep co-design relationships that create real switching costs — is widening the moat in real time. We assess it as transitioning from Narrow to Wide over the next 24–36 months if HBM traction continues."
@@ -266,9 +634,19 @@
       ],
       "acquisitionTable": {
         "title": "Major Acquisitions",
-        "columns": ["Year", "Major Acquisition", "Deal Value", "Outcome Assessment"],
+        "columns": [
+          "Year",
+          "Major Acquisition",
+          "Deal Value",
+          "Outcome Assessment"
+        ],
         "rows": [
-          ["FY2021–FY2026", "No material M&A completed", "On file", "Organic investment strategy maintained"]
+          [
+            "FY2021–FY2026",
+            "No material M&A completed",
+            "On file",
+            "Organic investment strategy maintained"
+          ]
         ]
       }
     },
@@ -284,20 +662,56 @@
   },
   "riskAnalysis": {
     "riskTable": {
-      "columns": ["Risk", "Type", "Probability", "Impact", "Mitigation"],
+      "columns": [
+        "Risk",
+        "Type",
+        "Probability",
+        "Impact",
+        "Mitigation"
+      ],
       "rows": [
-        ["Memory cycle downturn (inventory correction)", "Idiosyncratic", "Medium", "High", "Mgmt capex flexibility; lower cost base from technology transitions"],
-        ["HBM competition intensification (Samsung yield ramp)", "Idiosyncratic", "Medium", "High", "Co-design relationships with NVIDIA/AMD create switching costs; HBM4 roadmap"],
-        ["Hyperscaler vertical integration in memory", "Idiosyncratic", "Low", "High", "10–15 year lead time to replicate fab capability; capital requirements prohibitive"],
-        ["Technology node execution risk (1-gamma DRAM, HBM4)", "Idiosyncratic", "Medium", "Medium", "$15–19B annual capex provides resources; EUV lithography partnerships with ASML"],
-        ["Customer concentration (NVIDIA, hyperscalers)", "Idiosyncratic", "Low–Medium", "Medium", "Diversification across mobile, PC, auto; long-term supply agreements"]
+        [
+          "Memory cycle downturn (inventory correction)",
+          "Idiosyncratic",
+          "Medium",
+          "High",
+          "Mgmt capex flexibility; lower cost base from technology transitions"
+        ],
+        [
+          "HBM competition intensification (Samsung yield ramp)",
+          "Idiosyncratic",
+          "Medium",
+          "High",
+          "Co-design relationships with NVIDIA/AMD create switching costs; HBM4 roadmap"
+        ],
+        [
+          "Hyperscaler vertical integration in memory",
+          "Idiosyncratic",
+          "Low",
+          "High",
+          "10–15 year lead time to replicate fab capability; capital requirements prohibitive"
+        ],
+        [
+          "Technology node execution risk (1-gamma DRAM, HBM4)",
+          "Idiosyncratic",
+          "Medium",
+          "Medium",
+          "$15–19B annual capex provides resources; EUV lithography partnerships with ASML"
+        ],
+        [
+          "Customer concentration (NVIDIA, hyperscalers)",
+          "Idiosyncratic",
+          "Low–Medium",
+          "Medium",
+          "Diversification across mobile, PC, auto; long-term supply agreements"
+        ]
       ]
     }
   },
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$525",
-    "impliedUpsidePct": "+43.3%",
+    "impliedUpsidePct": "+24.8%",
     "bullBaseBear": {
       "bull": "$750",
       "base": "$525",

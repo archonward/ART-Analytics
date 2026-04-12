@@ -9,25 +9,55 @@
     "author": "ART Analytics",
     "rating": "BUY",
     "targetPrice": "$108",
-    "currentPrice": "$93.13",
-    "impliedUpsidePct": "+15.9%",
-    "marketDataAsOf": "Apr 7, 2026, 4:01 PM",
+    "currentPrice": "$94.08",
+    "impliedUpsidePct": "+14.8%",
+    "marketDataAsOf": "Apr 10, 2026, 4:00 PM",
     "estimatedReadMinutes": 24,
     "coverageStatus": "published"
   },
   "executiveAtAGlance": {
     "thesisHeadline": "NextEra combines a premier regulated Florida utility franchise with the leading U.S. renewable development platform, creating a rare utility compounder supported by rate base growth, contracted clean-energy expansion, and long-duration electricity demand tailwinds.",
     "snapshotMetrics": [
-      { "label": "Market Cap", "value": "$194.0B" },
-      { "label": "Enterprise Value", "value": "$300.4B" },
-      { "label": "FCF (TTM)", "value": "$3.2B" },
-      { "label": "EV/EBITDA", "value": "21.2x" },
-      { "label": "Net Margin", "value": "24.9%" },
-      { "label": "Revenue (TTM)", "value": "$27.4B" },
-      { "label": "Net Income (TTM)", "value": "$6.8B" },
-      { "label": "P/E", "value": "28.2x" },
-      { "label": "Revenue Growth YoY", "value": "+20.7%" },
-      { "label": "ROIC", "value": "6.5%" }
+      {
+        "label": "Market Cap",
+        "value": "$196.2B"
+      },
+      {
+        "label": "Enterprise Value",
+        "value": "$300.4B"
+      },
+      {
+        "label": "FCF (TTM)",
+        "value": "$3.2B"
+      },
+      {
+        "label": "EV/EBITDA",
+        "value": "21.2x"
+      },
+      {
+        "label": "Net Margin",
+        "value": "24.9%"
+      },
+      {
+        "label": "Revenue (TTM)",
+        "value": "$27.4B"
+      },
+      {
+        "label": "Net Income (TTM)",
+        "value": "$6.8B"
+      },
+      {
+        "label": "P/E",
+        "value": "28.5x"
+      },
+      {
+        "label": "Revenue Growth YoY",
+        "value": "+20.7%"
+      },
+      {
+        "label": "ROIC",
+        "value": "6.5%"
+      }
     ]
   },
   "executiveSummary": {
@@ -60,22 +90,92 @@
       "tables": [
         {
           "title": "Income Statement ($M)",
-          "columns": ["Metric", "FY2022", "FY2023", "FY2024", "FY2025", "TTM"],
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025",
+            "TTM"
+          ],
           "rows": [
-            ["Total Revenue", "$20,956", "$28,114", "$24,753", "$27,412", "$27,412"],
-            ["Gross Profit", "$10,139", "$17,976", "$14,867", "$17,069", "$17,069"],
-            ["Operating Income", "$3,559", "$9,832", "$7,127", "$8,020", "$8,020"],
-            ["Net Income", "$4,147", "$7,310", "$6,946", "$6,835", "$6,835"]
+            [
+              "Total Revenue",
+              "$20,956",
+              "$28,114",
+              "$24,753",
+              "$27,412",
+              "$27,412"
+            ],
+            [
+              "Gross Profit",
+              "$10,139",
+              "$17,976",
+              "$14,867",
+              "$17,069",
+              "$17,069"
+            ],
+            [
+              "Operating Income",
+              "$3,559",
+              "$9,832",
+              "$7,127",
+              "$8,020",
+              "$8,020"
+            ],
+            [
+              "Net Income",
+              "$4,147",
+              "$7,310",
+              "$6,946",
+              "$6,835",
+              "$6,835"
+            ]
           ]
         },
         {
           "title": "Margin Analysis",
-          "columns": ["Metric", "FY2022", "FY2023", "FY2024", "FY2025", "TTM"],
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025",
+            "TTM"
+          ],
           "rows": [
-            ["Gross Margin", "48.4%", "63.9%", "60.1%", "62.3%", "62.3%"],
-            ["Operating Margin", "17.0%", "35.0%", "28.8%", "29.3%", "24.4%"],
-            ["Net Margin", "19.8%", "26.0%", "28.1%", "24.9%", "24.9%"],
-            ["Revenue Growth YoY", "—", "+34.2%", "-11.9%", "+10.7%", "+20.7%"]
+            [
+              "Gross Margin",
+              "48.4%",
+              "63.9%",
+              "60.1%",
+              "62.3%",
+              "62.3%"
+            ],
+            [
+              "Operating Margin",
+              "17.0%",
+              "35.0%",
+              "28.8%",
+              "29.3%",
+              "24.4%"
+            ],
+            [
+              "Net Margin",
+              "19.8%",
+              "26.0%",
+              "28.1%",
+              "24.9%",
+              "24.9%"
+            ],
+            [
+              "Revenue Growth YoY",
+              "—",
+              "+34.2%",
+              "-11.9%",
+              "+10.7%",
+              "+20.7%"
+            ]
           ]
         }
       ]
@@ -87,15 +187,63 @@
       "tables": [
         {
           "title": "Balance Sheet ($M)",
-          "columns": ["Metric", "FY2022", "FY2023", "FY2024", "FY2025"],
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025"
+          ],
           "rows": [
-            ["Total Assets", "$158,935", "$177,489", "$190,144", "$212,721"],
-            ["Total Liabilities", "$109,499", "$118,465", "$129,283", "$146,242"],
-            ["Total Equity", "$39,229", "$47,468", "$50,101", "$54,608"],
-            ["Cash & Equivalents", "$1,601", "$2,690", "$1,487", "$2,812"],
-            ["Total Debt", "$64,966", "$73,211", "$82,333", "$95,619"],
-            ["Net Cash (Debt)", "$63,365", "$70,521", "$80,846", "$92,807"],
-            ["Debt-to-Equity", "1.66x", "1.54x", "1.64x", "1.75x"]
+            [
+              "Total Assets",
+              "$158,935",
+              "$177,489",
+              "$190,144",
+              "$212,721"
+            ],
+            [
+              "Total Liabilities",
+              "$109,499",
+              "$118,465",
+              "$129,283",
+              "$146,242"
+            ],
+            [
+              "Total Equity",
+              "$39,229",
+              "$47,468",
+              "$50,101",
+              "$54,608"
+            ],
+            [
+              "Cash & Equivalents",
+              "$1,601",
+              "$2,690",
+              "$1,487",
+              "$2,812"
+            ],
+            [
+              "Total Debt",
+              "$64,966",
+              "$73,211",
+              "$82,333",
+              "$95,619"
+            ],
+            [
+              "Net Cash (Debt)",
+              "$63,365",
+              "$70,521",
+              "$80,846",
+              "$92,807"
+            ],
+            [
+              "Debt-to-Equity",
+              "1.66x",
+              "1.54x",
+              "1.64x",
+              "1.75x"
+            ]
           ]
         }
       ]
@@ -112,12 +260,42 @@
       "tables": [
         {
           "title": "Cash Flow ($M)",
-          "columns": ["Metric", "FY2022", "FY2023", "FY2024", "FY2025"],
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025"
+          ],
           "rows": [
-            ["Operating Cash Flow", "$8,262", "$11,301", "$13,260", "$12,485"],
-            ["Capital Expenditures", "($9,742)", "($9,548)", "($8,514)", "($9,274)"],
-            ["Free Cash Flow", "($1,480)", "$1,753", "$4,746", "$3,211"],
-            ["FCF Margin", "-7.1%", "+6.2%", "+19.2%", "+11.7%"]
+            [
+              "Operating Cash Flow",
+              "$8,262",
+              "$11,301",
+              "$13,260",
+              "$12,485"
+            ],
+            [
+              "Capital Expenditures",
+              "($9,742)",
+              "($9,548)",
+              "($8,514)",
+              "($9,274)"
+            ],
+            [
+              "Free Cash Flow",
+              "($1,480)",
+              "$1,753",
+              "$4,746",
+              "$3,211"
+            ],
+            [
+              "FCF Margin",
+              "-7.1%",
+              "+6.2%",
+              "+19.2%",
+              "+11.7%"
+            ]
           ]
         }
       ]
@@ -131,14 +309,70 @@
       "tables": [
         {
           "title": "Valuation Multiples",
-          "columns": ["Metric", "NEE Current", "NEE 5-Yr Avg", "Duke Energy", "Southern", "Dominion", "Industry Avg"],
+          "columns": [
+            "Metric",
+            "NEE Current",
+            "NEE 5-Yr Avg",
+            "Duke Energy",
+            "Southern",
+            "Dominion",
+            "Industry Avg"
+          ],
           "rows": [
-            ["P/E (TTM)", "28.2x", "30x", "20x", "20x", "20x", "20x"],
-            ["Forward P/E", "21.3x", "24x", "17x", "18x", "16x", "17x"],
-            ["P/S (TTM)", "7.1x", "6x", "3x", "3x", "3x", "3x"],
-            ["P/B", "3.55x", "3.8x", "2.0x", "2.3x", "1.5x", "2.0x"],
-            ["EV/EBITDA", "21.2x", "20x", "13x", "14x", "12x", "15x"],
-            ["EV/Revenue", "11.0x", "9x", "4x", "4x", "4x", "4x"]
+            [
+              "P/E (TTM)",
+              "28.2x",
+              "30x",
+              "20x",
+              "20x",
+              "20x",
+              "20x"
+            ],
+            [
+              "Forward P/E",
+              "21.3x",
+              "24x",
+              "17x",
+              "18x",
+              "16x",
+              "17x"
+            ],
+            [
+              "P/S (TTM)",
+              "7.1x",
+              "6x",
+              "3x",
+              "3x",
+              "3x",
+              "3x"
+            ],
+            [
+              "P/B",
+              "3.55x",
+              "3.8x",
+              "2.0x",
+              "2.3x",
+              "1.5x",
+              "2.0x"
+            ],
+            [
+              "EV/EBITDA",
+              "21.2x",
+              "20x",
+              "13x",
+              "14x",
+              "12x",
+              "15x"
+            ],
+            [
+              "EV/Revenue",
+              "11.0x",
+              "9x",
+              "4x",
+              "4x",
+              "4x",
+              "4x"
+            ]
           ]
         }
       ]
@@ -156,20 +390,76 @@
       ],
       "projectionTable": {
         "title": "DCF Projections ($B)",
-        "columns": ["Metric", "FY2026E", "FY2027E", "FY2028E", "FY2029E", "FY2030E"],
+        "columns": [
+          "Metric",
+          "FY2026E",
+          "FY2027E",
+          "FY2028E",
+          "FY2029E",
+          "FY2030E"
+        ],
         "rows": [
-          ["Revenue", "$31.8", "$34.5", "$36.6", "$38.8", "$41.1"],
-          ["EBITDA", "$16.2", "$17.9", "$19.2", "$20.6", "$21.8"],
-          ["Free Cash Flow", "$3.8", "$5.2", "$6.8", "$8.1", "$9.4"]
+          [
+            "Revenue",
+            "$31.8",
+            "$34.5",
+            "$36.6",
+            "$38.8",
+            "$41.1"
+          ],
+          [
+            "EBITDA",
+            "$16.2",
+            "$17.9",
+            "$19.2",
+            "$20.6",
+            "$21.8"
+          ],
+          [
+            "Free Cash Flow",
+            "$3.8",
+            "$5.2",
+            "$6.8",
+            "$8.1",
+            "$9.4"
+          ]
         ]
       },
       "scenarioTable": {
         "title": "DCF Scenario Analysis",
-        "columns": ["Scenario", "Revenue CAGR", "Terminal Growth", "WACC", "Implied Price", "Upside/Downside"],
+        "columns": [
+          "Scenario",
+          "Revenue CAGR",
+          "Terminal Growth",
+          "WACC",
+          "Implied Price",
+          "Upside/Downside"
+        ],
         "rows": [
-          ["Bull Case", "10.5%", "3.5%", "6.0%", "$128", "+37.4%"],
-          ["Base Case", "8.0%", "3.0%", "6.5%", "$108", "+15.9%"],
-          ["Bear Case", "4.5%", "2.0%", "7.5%", "$72", "-22.7%"]
+          [
+            "Bull Case",
+            "10.5%",
+            "3.5%",
+            "6.0%",
+            "$128",
+            "+37.4%"
+          ],
+          [
+            "Base Case",
+            "8.0%",
+            "3.0%",
+            "6.5%",
+            "$108",
+            "+15.9%"
+          ],
+          [
+            "Bear Case",
+            "4.5%",
+            "2.0%",
+            "7.5%",
+            "$72",
+            "-22.7%"
+          ]
         ]
       }
     },
@@ -182,11 +472,35 @@
       ],
       "segmentTable": {
         "title": "Business Segments",
-        "columns": ["Segment", "FY2025 Revenue", "FY2025 Revenue Share", "YoY Growth", "Maturity Stage"],
+        "columns": [
+          "Segment",
+          "FY2025 Revenue",
+          "FY2025 Revenue Share",
+          "YoY Growth",
+          "Maturity Stage"
+        ],
         "rows": [
-          ["Florida Power & Light", "$15.0B", "55%", "+8%", "Steady Growth"],
-          ["NextEra Energy Resources", "$11.0B", "40%", "+15%", "High Growth"],
-          ["NextEra Energy Transmission / Other", "$1.4B", "5%", "+10%", "Emerging"]
+          [
+            "Florida Power & Light",
+            "$15.0B",
+            "55%",
+            "+8%",
+            "Steady Growth"
+          ],
+          [
+            "NextEra Energy Resources",
+            "$11.0B",
+            "40%",
+            "+15%",
+            "High Growth"
+          ],
+          [
+            "NextEra Energy Transmission / Other",
+            "$1.4B",
+            "5%",
+            "+10%",
+            "Emerging"
+          ]
         ]
       }
     },
@@ -195,14 +509,42 @@
         "NextEra appears to have one of the strongest competitive positions in the U.S. utility and renewable power landscape. FPL benefits from regulatory exclusivity and favorable territory growth, while NEER benefits from scale, procurement leverage, and execution capabilities that are difficult for peers to replicate."
       ],
       "moatTable": {
-        "columns": ["Moat Source", "Strength", "Assessment"],
+        "columns": [
+          "Moat Source",
+          "Strength",
+          "Assessment"
+        ],
         "rows": [
-          ["Brand & Reputation", "Moderate", "Recognized as a leading clean energy and regulated utility operator, which supports project development and institutional confidence."],
-          ["Network Effects", "Weak", "The grid business is not driven primarily by classic network effects beyond regional infrastructure scale."],
-          ["Switching Costs", "Moderate", "Regulated customers cannot easily change providers, while long-term renewable contracts create real customer stickiness."],
-          ["Cost Advantages/Scale", "Strong", "Large installed renewable capacity and procurement scale support lower unit economics than smaller competitors."],
-          ["Intellectual Property", "Weak", "Competitive advantages are operational and regulatory rather than based on proprietary technology."],
-          ["Regulatory Barriers", "Strong", "FPL's franchise structure and utility regulation create high barriers to entry for would-be competitors."]
+          [
+            "Brand & Reputation",
+            "Moderate",
+            "Recognized as a leading clean energy and regulated utility operator, which supports project development and institutional confidence."
+          ],
+          [
+            "Network Effects",
+            "Weak",
+            "The grid business is not driven primarily by classic network effects beyond regional infrastructure scale."
+          ],
+          [
+            "Switching Costs",
+            "Moderate",
+            "Regulated customers cannot easily change providers, while long-term renewable contracts create real customer stickiness."
+          ],
+          [
+            "Cost Advantages/Scale",
+            "Strong",
+            "Large installed renewable capacity and procurement scale support lower unit economics than smaller competitors."
+          ],
+          [
+            "Intellectual Property",
+            "Weak",
+            "Competitive advantages are operational and regulatory rather than based on proprietary technology."
+          ],
+          [
+            "Regulatory Barriers",
+            "Strong",
+            "FPL's franchise structure and utility regulation create high barriers to entry for would-be competitors."
+          ]
         ]
       },
       "overallMoatConclusion": "NextEra appears to have a wide moat. Its regulated monopoly characteristics at FPL and scale-driven cost advantages at NEER combine to create a durable competitive position that few utility or power developers can match over the next decade."
@@ -247,11 +589,35 @@
       ],
       "acquisitionTable": {
         "title": "Capital Allocation Priorities",
-        "columns": ["Acquisition", "Year", "Deal Value", "Strategic Rationale", "Outcome Assessment"],
+        "columns": [
+          "Acquisition",
+          "Year",
+          "Deal Value",
+          "Strategic Rationale",
+          "Outcome Assessment"
+        ],
         "rows": [
-          ["Rate Base Investment (FPL)", "FY2022–FY2025", "$15B", "Expand regulated asset base with predictable allowed returns", "Positive – supports durable earnings compounding"],
-          ["Renewables Development (NEER)", "FY2022–FY2025", "$20B", "Build contracted renewable and related infrastructure capacity", "Positive – growth platform continues to scale"],
-          ["Dividends", "FY2022–FY2025", "$14B", "Return cash while signaling confidence in long-term earnings growth", "Constructive – but coverage remains tight during build-out phase"]
+          [
+            "Rate Base Investment (FPL)",
+            "FY2022–FY2025",
+            "$15B",
+            "Expand regulated asset base with predictable allowed returns",
+            "Positive – supports durable earnings compounding"
+          ],
+          [
+            "Renewables Development (NEER)",
+            "FY2022–FY2025",
+            "$20B",
+            "Build contracted renewable and related infrastructure capacity",
+            "Positive – growth platform continues to scale"
+          ],
+          [
+            "Dividends",
+            "FY2022–FY2025",
+            "$14B",
+            "Return cash while signaling confidence in long-term earnings growth",
+            "Constructive – but coverage remains tight during build-out phase"
+          ]
         ]
       }
     },
@@ -263,23 +629,77 @@
   },
   "riskAnalysis": {
     "riskTable": {
-      "columns": ["Risk Factor", "Type", "Probability", "Impact", "Mitigation"],
+      "columns": [
+        "Risk Factor",
+        "Type",
+        "Probability",
+        "Impact",
+        "Mitigation"
+      ],
       "rows": [
-        ["Sustained high interest rates", "Macro", "Medium", "High", "Use fixed-rate financing, preserve access to debt markets, and rely on regulated cash flow stability"],
-        ["IRA tax credit modification", "Policy", "Medium", "High", "Benefit from project grandfathering where applicable and maintain policy engagement"],
-        ["Solar and wind component cost inflation", "Macro", "High", "Medium", "Use procurement scale, long-term contracts, and supplier diversification"],
-        ["Florida hurricane exposure", "Operational", "Medium", "Medium", "Rely on storm recovery mechanisms, reserve planning, and resilient grid investment"],
-        ["NEER execution and supply chain delays", "Execution", "Low-Medium", "Medium", "Maintain contracted backlog discipline and phased project delivery"],
-        ["Regulatory posture deterioration in Florida", "Regulatory", "Low", "High", "Support constructive outcomes through service quality and ongoing regulatory engagement"],
-        ["Dividend coverage pressure", "Financial", "Medium", "Medium", "Grow operating cash flow and pace dividend increases against capital intensity"],
-        ["Balance sheet leverage", "Financial", "Medium", "High", "Monitor debt metrics closely and preserve investment-grade refinancing flexibility"]
+        [
+          "Sustained high interest rates",
+          "Macro",
+          "Medium",
+          "High",
+          "Use fixed-rate financing, preserve access to debt markets, and rely on regulated cash flow stability"
+        ],
+        [
+          "IRA tax credit modification",
+          "Policy",
+          "Medium",
+          "High",
+          "Benefit from project grandfathering where applicable and maintain policy engagement"
+        ],
+        [
+          "Solar and wind component cost inflation",
+          "Macro",
+          "High",
+          "Medium",
+          "Use procurement scale, long-term contracts, and supplier diversification"
+        ],
+        [
+          "Florida hurricane exposure",
+          "Operational",
+          "Medium",
+          "Medium",
+          "Rely on storm recovery mechanisms, reserve planning, and resilient grid investment"
+        ],
+        [
+          "NEER execution and supply chain delays",
+          "Execution",
+          "Low-Medium",
+          "Medium",
+          "Maintain contracted backlog discipline and phased project delivery"
+        ],
+        [
+          "Regulatory posture deterioration in Florida",
+          "Regulatory",
+          "Low",
+          "High",
+          "Support constructive outcomes through service quality and ongoing regulatory engagement"
+        ],
+        [
+          "Dividend coverage pressure",
+          "Financial",
+          "Medium",
+          "Medium",
+          "Grow operating cash flow and pace dividend increases against capital intensity"
+        ],
+        [
+          "Balance sheet leverage",
+          "Financial",
+          "Medium",
+          "High",
+          "Monitor debt metrics closely and preserve investment-grade refinancing flexibility"
+        ]
       ]
     }
   },
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$108",
-    "impliedUpsidePct": "+15.9%",
+    "impliedUpsidePct": "+14.8%",
     "bullBaseBear": {
       "bull": "$128",
       "base": "$108",

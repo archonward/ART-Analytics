@@ -9,9 +9,9 @@
     "author": "ART Analytics",
     "rating": "HOLD",
     "targetPrice": "$47",
-    "currentPrice": "$50.38",
-    "impliedUpsidePct": "-6.7%",
-    "marketDataAsOf": "Apr 2, 2026, 8:00 PM",
+    "currentPrice": "$62.38",
+    "impliedUpsidePct": "-24.7%",
+    "marketDataAsOf": "Apr 10, 2026, 4:00 PM",
     "estimatedReadMinutes": 23,
     "coverageStatus": "published"
   },
@@ -20,7 +20,7 @@
     "snapshotMetrics": [
       {
         "label": "Market Cap",
-        "value": "$253.0B"
+        "value": "$313.2B"
       },
       {
         "label": "Enterprise Value",
@@ -397,7 +397,7 @@
             [
               "FCF Yield",
               "-1.8%",
-              "3\u20134%",
+              "3–4%",
               "1%",
               "5%",
               "4%"
@@ -602,7 +602,7 @@
       "Q1 2026 earnings could support the stock if revenue, gross margin, or EPS exceed subdued expectations.",
       "Panther Lake qualification and volume-ramp milestones are the most important near-term technical proof points.",
       "The Fab 34 JV repurchase and any associated foundry customer commentary could reshape how investors view strategic manufacturing control.",
-      "Gross margin moving sustainably above the 37\u201338% range would reinforce the cost-absorption recovery thesis."
+      "Gross margin moving sustainably above the 37–38% range would reinforce the cost-absorption recovery thesis."
     ],
     "mediumTermDrivers": [
       "18A production success could restore process credibility versus TSMC and improve Intel's client and data-center positioning.",
@@ -655,28 +655,28 @@
             "2022",
             "$17.0B",
             "Unlock value while retaining strategic exposure",
-            "Positive \u2013 monetized value and kept strategic stake"
+            "Positive – monetized value and kept strategic stake"
           ],
           [
             "Dividend suspension",
             "2023",
             "$2.0B annual cash savings",
             "Preserve liquidity during restructuring",
-            "Positive \u2013 painful but necessary"
+            "Positive – painful but necessary"
           ],
           [
             "Fab JV with Apollo (IFS)",
             "2024",
             "$11.0B",
             "Off-balance-sheet support for manufacturing capacity",
-            "Neutral to positive \u2013 eased capital burden"
+            "Neutral to positive – eased capital burden"
           ],
           [
             "Fab 34 JV repurchase (Ireland)",
             "2026",
             "$14.2B",
             "Consolidate strategic manufacturing control",
-            "TBD \u2013 strategically coherent but adds leverage scrutiny"
+            "TBD – strategically coherent but adds leverage scrutiny"
           ]
         ]
       }
@@ -760,7 +760,7 @@
   "finalRecommendation": {
     "rating": "HOLD",
     "priceTarget": "$47",
-    "impliedUpsidePct": "-6.7%",
+    "impliedUpsidePct": "-24.7%",
     "bullBaseBear": {
       "bull": "$68",
       "base": "$47",
@@ -777,17 +777,17 @@
     "ratingChangeTriggers": [
       {
         "action": "Upgrade to Strong Buy",
-        "direction": "\u2191",
-        "trigger": "The stock falls into the $38\u2013$42 range and 18A reaches confirmed production qualification with a major OEM or Intel announces a major external foundry win."
+        "direction": "↑",
+        "trigger": "The stock falls into the $38–$42 range and 18A reaches confirmed production qualification with a major OEM or Intel announces a major external foundry win."
       },
       {
         "action": "Downgrade to Sell",
-        "direction": "\u2193",
+        "direction": "↓",
         "trigger": "18A is delayed beyond Q4 2026, gross margin falls below 32% for two consecutive quarters, or data center CPU share deteriorates materially further."
       },
       {
         "action": "Maintain Hold but Reduce Target",
-        "direction": "\u2193",
+        "direction": "↓",
         "trigger": "The Fab 34 transaction pushes net debt materially higher without corresponding foundry guidance, or FY2026 revenue guidance comes in below expectations."
       }
     ],
@@ -800,7 +800,7 @@
     "Can Intel stabilize data center CPU share before AI infrastructure spending shifts even further toward GPU-centric architectures?",
     "Will Panther Lake and the AI PC cycle prove strong enough to create a real client-computing reacceleration?",
     "How much financial flexibility will remain after the Fab 34 repurchase closes?",
-    "Can Intel earn ROIC above its cost of capital by FY2027\u2013FY2028, or will the turnaround remain strategically impressive but economically weak?",
+    "Can Intel earn ROIC above its cost of capital by FY2027–FY2028, or will the turnaround remain strategically impressive but economically weak?",
     "Does the market eventually reward Intel more as a strategic domestic manufacturer or continue valuing it mainly on conventional semiconductor profitability metrics?"
   ]
 }

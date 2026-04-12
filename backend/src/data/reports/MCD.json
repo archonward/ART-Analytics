@@ -9,9 +9,9 @@
     "author": "ART Analytics",
     "rating": "BUY",
     "targetPrice": "$345",
-    "currentPrice": "$307.14",
-    "impliedUpsidePct": "+12.3%",
-    "marketDataAsOf": "Apr 2, 2026, 8:00 PM",
+    "currentPrice": "$305.68",
+    "impliedUpsidePct": "+12.9%",
+    "marketDataAsOf": "Apr 10, 2026, 4:00 PM",
     "estimatedReadMinutes": 24,
     "coverageStatus": "published"
   },
@@ -20,7 +20,7 @@
     "snapshotMetrics": [
       {
         "label": "Market Cap",
-        "value": "$219.2B"
+        "value": "$217.3B"
       },
       {
         "label": "Enterprise Value",
@@ -48,7 +48,7 @@
       },
       {
         "label": "P/E",
-        "value": "25.7x"
+        "value": "25.6x"
       },
       {
         "label": "Revenue Growth YoY",
@@ -171,7 +171,7 @@
             ],
             [
               "Revenue Growth YoY",
-              "\u2014",
+              "—",
               "+0.2%",
               "+10.0%",
               "+1.7%",
@@ -244,13 +244,13 @@
     },
     "cashFlowReturns": {
       "summaryParagraphs": [
-        "McDonald's remains one of the strongest free-cash-flow generators in global restaurants. Free cash flow averaged roughly $6.5B annually over FY2021\u2013FY2024, and even with elevated modernization capex, the business still produced $6.3B of TTM free cash flow.",
+        "McDonald's remains one of the strongest free-cash-flow generators in global restaurants. Free cash flow averaged roughly $6.5B annually over FY2021–FY2024, and even with elevated modernization capex, the business still produced $6.3B of TTM free cash flow.",
         "Return metrics are exceptional. ROIC has remained in the mid-30s or better, which helps explain why the company can support premium valuation multiples despite modest top-line growth."
       ],
       "highlights": [
         "TTM free cash flow was $6.3B, equivalent to a 23.4% FCF margin.",
         "CapEx intensity rose meaningfully through FY2024 as McDonald's invested in modernization and digital infrastructure.",
-        "ROIC in the 34\u201338% range remains among the strongest in large-cap consumer."
+        "ROIC in the 34–38% range remains among the strongest in large-cap consumer."
       ],
       "tables": [
         {
@@ -423,7 +423,7 @@
       "assumptions": [
         "Revenue growth: +6.9% in FY2026E and +5.6% in FY2027E, decelerating thereafter",
         "Operating margin held around 44.5% through FY2028 before modest normalization",
-        "CapEx remains at 10.5% of revenue in FY2026\u2013FY2027 before easing toward 9.0%",
+        "CapEx remains at 10.5% of revenue in FY2026–FY2027 before easing toward 9.0%",
         "WACC: 9.5%",
         "Terminal growth rate: 2.5%"
       ],
@@ -613,7 +613,7 @@
         "The company still has room to deepen share in breakfast, digital delivery, and beverages, which together offer meaningful incremental opportunity without requiring a radically different operating model."
       ],
       "highlights": [
-        "Global QSR TAM is roughly $500\u2013600B, with McDonald's already holding substantial share.",
+        "Global QSR TAM is roughly $500–600B, with McDonald's already holding substantial share.",
         "Breakfast remains an important whitespace opportunity relative to McDonald's current position.",
         "Digital ordering and delivery create an incremental revenue layer at scale.",
         "Beverage and snacking formats provide optionality beyond core lunch and dinner traffic."
@@ -647,28 +647,28 @@
             "$1.9B",
             "$2.4B",
             "$2.8B",
-            "Positive \u2013 supports modernization and digital infrastructure"
+            "Positive – supports modernization and digital infrastructure"
           ],
           [
             "Dividends",
             "$4.5B",
             "$4.8B",
             "$5.0B",
-            "Positive \u2013 consistent shareholder return"
+            "Positive – consistent shareholder return"
           ],
           [
             "Share Repurchases",
             "$1.5B",
             "$2.0B",
             "$1.5B",
-            "Positive \u2013 moderate buybacks despite leverage"
+            "Positive – moderate buybacks despite leverage"
           ],
           [
             "M&A",
             "Minimal",
             "Minimal",
             "Minimal",
-            "Positive \u2013 disciplined, no major distracting deals"
+            "Positive – disciplined, no major distracting deals"
           ]
         ]
       }
@@ -752,7 +752,7 @@
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$345",
-    "impliedUpsidePct": "+12.3%",
+    "impliedUpsidePct": "+12.9%",
     "bullBaseBear": {
       "bull": "$407",
       "base": "$345",
@@ -769,17 +769,17 @@
     "ratingChangeTriggers": [
       {
         "action": "Upgrade to Strong Buy",
-        "direction": "\u2191",
+        "direction": "↑",
         "trigger": "Traffic recovery clearly exceeds expectations, comps reaccelerate above 3%, and forward P/E remains below historical norms."
       },
       {
         "action": "Downgrade to Hold",
-        "direction": "\u2193",
+        "direction": "↓",
         "trigger": "Value-menu promotions drive weak traffic conversion, or franchisee economics deteriorate enough to pressure the royalty model."
       },
       {
         "action": "Downgrade to Sell",
-        "direction": "\u2193\u2193",
+        "direction": "↓↓",
         "trigger": "Comp sales weaken materially, margin pressure becomes structural, and intrinsic value compresses toward the bear-case range."
       }
     ],

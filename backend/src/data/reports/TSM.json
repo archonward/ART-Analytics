@@ -9,9 +9,9 @@
     "author": "ART Analytics",
     "rating": "BUY",
     "targetPrice": "$431",
-    "currentPrice": "$338.12",
-    "impliedUpsidePct": "+27.5%",
-    "marketDataAsOf": "24 Mar 2026, 2:40 PM",
+    "currentPrice": "$370.60",
+    "impliedUpsidePct": "+16.3%",
+    "marketDataAsOf": "Apr 10, 2026, 4:00 PM",
     "estimatedReadMinutes": 13,
     "coverageStatus": "published"
   },
@@ -20,7 +20,7 @@
     "snapshotMetrics": [
       {
         "label": "Market Cap",
-        "value": "$1.75T"
+        "value": "$1.92T"
       },
       {
         "label": "Enterprise Value",
@@ -40,7 +40,7 @@
       },
       {
         "label": "P/E",
-        "value": "32.5x"
+        "value": "35.5x"
       },
       {
         "label": "Next Earnings",
@@ -364,7 +364,7 @@
         "The DCF assumes a 12% revenue CAGR through FY2030, supported by AI infrastructure demand and the 2nm node ramp. The model also assumes gradual margin expansion as advanced nodes scale and Arizona operations commence."
       ],
       "assumptions": [
-        "Revenue growth: 12% CAGR FY26\u2013FY30, moderating to 8% in the outer years.",
+        "Revenue growth: 12% CAGR FY26–FY30, moderating to 8% in the outer years.",
         "Margin trajectory: Operating margins expand to 52% by FY2027 and then stabilize.",
         "Capex intensity: Capex/revenue declines from 33% to 28% as node investments mature.",
         "WACC: 10.2%.",
@@ -528,12 +528,12 @@
           [
             "Scale Economies",
             "Strong",
-            "$128B+ capex vs. $20\u201330B for closest foundry competitors."
+            "$128B+ capex vs. $20–30B for closest foundry competitors."
           ],
           [
             "Switching Costs",
             "Moderate",
-            "2\u20133 year qualification cycles and co-developed IP dependencies."
+            "2–3 year qualification cycles and co-developed IP dependencies."
           ],
           [
             "Network Effects",
@@ -543,7 +543,7 @@
           [
             "Brand/Reputation",
             "Strong",
-            "Premium brand with 10\u201315% pricing power."
+            "Premium brand with 10–15% pricing power."
           ],
           [
             "Regulatory Barriers",
@@ -599,21 +599,21 @@
         "rows": [
           [
             "Arizona Fab 21",
-            "2022\u20132026",
+            "2022–2026",
             "$40.0",
             "Geographic diversification",
             "On track for 2026 production"
           ],
           [
             "2nm Node Development",
-            "2021\u20132025",
+            "2021–2025",
             "$25.0",
             "Technology leadership",
             "Successful customer qualification"
           ],
           [
             "Advanced Packaging",
-            "2020\u20132024",
+            "2020–2024",
             "$12.0",
             "AI chip integration",
             "Market leadership achieved"
@@ -623,7 +623,7 @@
     },
     "alignment": {
       "summaryParagraphs": [
-        "Governance appears disciplined, with approximately 0.8% insider ownership, 60\u201370% performance-based executive compensation, and a board where 8 of 12 directors are independent. Management has prioritized technology leadership investments while continuing shareholder returns."
+        "Governance appears disciplined, with approximately 0.8% insider ownership, 60–70% performance-based executive compensation, and a board where 8 of 12 directors are independent. Management has prioritized technology leadership investments while continuing shareholder returns."
       ]
     }
   },
@@ -685,7 +685,7 @@
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$431",
-    "impliedUpsidePct": "+27.5%",
+    "impliedUpsidePct": "+16.3%",
     "bullBaseBear": {
       "bull": "$518",
       "base": "$431",
@@ -702,17 +702,17 @@
     "ratingChangeTriggers": [
       {
         "action": "Upgrade to Strong Buy",
-        "direction": "\u2191",
+        "direction": "↑",
         "trigger": "Advanced-node revenue mix exceeds 75% with sustained 55%+ gross margins."
       },
       {
         "action": "Downgrade to Hold",
-        "direction": "\u2193",
+        "direction": "↓",
         "trigger": "Revenue growth falls below 8% for two consecutive quarters or margins compress below 50%."
       },
       {
         "action": "Downgrade to Sell",
-        "direction": "\u2193\u2193",
+        "direction": "↓↓",
         "trigger": "Major geopolitical disruption affects Taiwan operations or a key customer representing >15% of revenue is lost."
       }
     ],
@@ -721,7 +721,7 @@
   "openQuestions": [
     "Can TSMC maintain 70%+ advanced-node market share as Samsung and Intel increase foundry investments?",
     "Will Arizona fab operations achieve yield parity with Taiwan facilities by late 2026?",
-    "How sustainable is current AI infrastructure spending beyond the 2025\u20132026 buildout cycle?",
+    "How sustainable is current AI infrastructure spending beyond the 2025–2026 buildout cycle?",
     "Can the company maintain 50%+ operating margins as 2nm reaches volume production?",
     "What is management's appetite for further geographic expansion beyond Arizona and Japan partnerships?",
     "How will export-control regulations evolve and affect China revenue exposure?",

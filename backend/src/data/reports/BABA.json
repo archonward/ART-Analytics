@@ -9,25 +9,55 @@
     "author": "ART Analytics",
     "rating": "BUY",
     "targetPrice": "$175.00",
-    "currentPrice": "$118.49",
-    "impliedUpsidePct": "+47.7%",
-    "marketDataAsOf": "Apr 7, 2026, 3:44 PM",
+    "currentPrice": "$127.33",
+    "impliedUpsidePct": "+37.4%",
+    "marketDataAsOf": "Apr 10, 2026, 4:03 PM",
     "estimatedReadMinutes": 24,
     "coverageStatus": "published"
   },
   "executiveAtAGlance": {
     "thesisHeadline": "Alibaba is a structurally dominant Chinese technology franchise trading at trough-like valuations, while a deliberate AI infrastructure investment cycle is masking the earnings power of its cloud, commerce, and ecosystem assets.",
     "snapshotMetrics": [
-      { "label": "Market Cap", "value": "$282.9B" },
-      { "label": "Enterprise Value", "value": "¥2,280.9B" },
-      { "label": "FCF (TTM)", "value": "-¥26.1B" },
-      { "label": "EV/EBITDA", "value": "16.5x" },
-      { "label": "Net Margin", "value": "8.9%" },
-      { "label": "Revenue (TTM)", "value": "¥1,016.7B" },
-      { "label": "Net Income (TTM)", "value": "¥90.6B" },
-      { "label": "P/E", "value": "21.1x" },
-      { "label": "Revenue Growth YoY", "value": "+1.7%" },
-      { "label": "ROIC", "value": "9.5%" }
+      {
+        "label": "Market Cap",
+        "value": "$304.5B"
+      },
+      {
+        "label": "Enterprise Value",
+        "value": "¥2,280.9B"
+      },
+      {
+        "label": "FCF (TTM)",
+        "value": "-¥26.1B"
+      },
+      {
+        "label": "EV/EBITDA",
+        "value": "16.5x"
+      },
+      {
+        "label": "Net Margin",
+        "value": "8.9%"
+      },
+      {
+        "label": "Revenue (TTM)",
+        "value": "¥1,016.7B"
+      },
+      {
+        "label": "Net Income (TTM)",
+        "value": "¥90.6B"
+      },
+      {
+        "label": "P/E",
+        "value": "22.5x"
+      },
+      {
+        "label": "Revenue Growth YoY",
+        "value": "+1.7%"
+      },
+      {
+        "label": "ROIC",
+        "value": "9.5%"
+      }
     ]
   },
   "executiveSummary": {
@@ -60,22 +90,92 @@
       "tables": [
         {
           "title": "Income Statement (¥B)",
-          "columns": ["Metric", "FY2022", "FY2023", "FY2024", "FY2025", "TTM"],
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025",
+            "TTM"
+          ],
           "rows": [
-            ["Total Revenue", "¥853.1", "¥868.7", "¥941.2", "¥996.3", "¥1,016.7"],
-            ["Gross Profit", "¥313.6", "¥319.0", "¥354.8", "¥398.1", "¥414.3"],
-            ["Operating Income", "¥94.8", "¥103.1", "¥123.9", "¥147.1", "¥80.5"],
-            ["Net Income", "¥62.2", "¥72.8", "¥80.0", "¥130.1", "¥90.6"]
+            [
+              "Total Revenue",
+              "¥853.1",
+              "¥868.7",
+              "¥941.2",
+              "¥996.3",
+              "¥1,016.7"
+            ],
+            [
+              "Gross Profit",
+              "¥313.6",
+              "¥319.0",
+              "¥354.8",
+              "¥398.1",
+              "¥414.3"
+            ],
+            [
+              "Operating Income",
+              "¥94.8",
+              "¥103.1",
+              "¥123.9",
+              "¥147.1",
+              "¥80.5"
+            ],
+            [
+              "Net Income",
+              "¥62.2",
+              "¥72.8",
+              "¥80.0",
+              "¥130.1",
+              "¥90.6"
+            ]
           ]
         },
         {
           "title": "Margin Analysis",
-          "columns": ["Metric", "FY2022", "FY2023", "FY2024", "FY2025", "TTM"],
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025",
+            "TTM"
+          ],
           "rows": [
-            ["Gross Margin", "36.8%", "36.7%", "37.7%", "40.0%", "40.8%"],
-            ["Operating Margin", "11.1%", "11.9%", "13.2%", "14.8%", "7.1%"],
-            ["Net Margin", "7.3%", "8.4%", "8.5%", "13.1%", "8.9%"],
-            ["Revenue Growth YoY", "—", "+1.8%", "+8.3%", "+5.9%", "+1.7%"]
+            [
+              "Gross Margin",
+              "36.8%",
+              "36.7%",
+              "37.7%",
+              "40.0%",
+              "40.8%"
+            ],
+            [
+              "Operating Margin",
+              "11.1%",
+              "11.9%",
+              "13.2%",
+              "14.8%",
+              "7.1%"
+            ],
+            [
+              "Net Margin",
+              "7.3%",
+              "8.4%",
+              "8.5%",
+              "13.1%",
+              "8.9%"
+            ],
+            [
+              "Revenue Growth YoY",
+              "—",
+              "+1.8%",
+              "+8.3%",
+              "+5.9%",
+              "+1.7%"
+            ]
           ]
         }
       ]
@@ -87,15 +187,55 @@
       "tables": [
         {
           "title": "Balance Sheet (¥B)",
-          "columns": ["Metric", "FY2023", "FY2024", "FY2025"],
+          "columns": [
+            "Metric",
+            "FY2023",
+            "FY2024",
+            "FY2025"
+          ],
           "rows": [
-            ["Total Assets", "¥1,753.0", "¥1,764.8", "¥1,804.2"],
-            ["Total Liabilities", "¥630.1", "¥652.2", "¥714.1"],
-            ["Total Equity", "¥989.7", "¥986.5", "¥1,009.9"],
-            ["Cash & Equivalents", "¥193.1", "¥248.1", "¥145.5"],
-            ["Total Debt", "¥195.6", "¥205.6", "¥248.1"],
-            ["Net Cash (Debt)", "¥2.5", "¥42.5", "¥102.6"],
-            ["Debt-to-Equity", "0.20x", "0.21x", "0.25x"]
+            [
+              "Total Assets",
+              "¥1,753.0",
+              "¥1,764.8",
+              "¥1,804.2"
+            ],
+            [
+              "Total Liabilities",
+              "¥630.1",
+              "¥652.2",
+              "¥714.1"
+            ],
+            [
+              "Total Equity",
+              "¥989.7",
+              "¥986.5",
+              "¥1,009.9"
+            ],
+            [
+              "Cash & Equivalents",
+              "¥193.1",
+              "¥248.1",
+              "¥145.5"
+            ],
+            [
+              "Total Debt",
+              "¥195.6",
+              "¥205.6",
+              "¥248.1"
+            ],
+            [
+              "Net Cash (Debt)",
+              "¥2.5",
+              "¥42.5",
+              "¥102.6"
+            ],
+            [
+              "Debt-to-Equity",
+              "0.20x",
+              "0.21x",
+              "0.25x"
+            ]
           ]
         }
       ]
@@ -112,12 +252,42 @@
       "tables": [
         {
           "title": "Cash Flow (¥B)",
-          "columns": ["Metric", "FY2022", "FY2023", "FY2024", "FY2025"],
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025"
+          ],
           "rows": [
-            ["Operating Cash Flow", "¥142.8", "¥199.8", "¥182.6", "¥163.5"],
-            ["Capital Expenditures", "(¥53.3)", "(¥34.4)", "(¥32.9)", "(¥86.0)"],
-            ["Free Cash Flow", "¥89.4", "¥165.4", "¥149.7", "¥77.5"],
-            ["FCF Margin", "10.5%", "19.0%", "15.9%", "7.8%"]
+            [
+              "Operating Cash Flow",
+              "¥142.8",
+              "¥199.8",
+              "¥182.6",
+              "¥163.5"
+            ],
+            [
+              "Capital Expenditures",
+              "(¥53.3)",
+              "(¥34.4)",
+              "(¥32.9)",
+              "(¥86.0)"
+            ],
+            [
+              "Free Cash Flow",
+              "¥89.4",
+              "¥165.4",
+              "¥149.7",
+              "¥77.5"
+            ],
+            [
+              "FCF Margin",
+              "10.5%",
+              "19.0%",
+              "15.9%",
+              "7.8%"
+            ]
           ]
         }
       ]
@@ -131,14 +301,70 @@
       "tables": [
         {
           "title": "Valuation Multiples",
-          "columns": ["Metric", "BABA Current", "BABA 5-Yr Avg", "Amazon", "JD.com", "Tencent", "Sector Avg"],
+          "columns": [
+            "Metric",
+            "BABA Current",
+            "BABA 5-Yr Avg",
+            "Amazon",
+            "JD.com",
+            "Tencent",
+            "Sector Avg"
+          ],
           "rows": [
-            ["P/E (TTM)", "21.1x", "22.0x", "45.0x", "20.0x", "24.0x", "26.4x"],
-            ["Forward P/E", "15.3x", "18.0x", "35.0x", "18.0x", "19.0x", "21.8x"],
-            ["P/S (TTM)", "0.28x", "1.5x", "3.2x", "0.25x", "5.0x", "2.24x"],
-            ["P/B", "1.82x", "2.5x", "9.0x", "1.3x", "4.5x", "3.66x"],
-            ["EV/EBITDA", "16.5x", "14.0x", "22.0x", "12.0x", "18.0x", "17.1x"],
-            ["EV/Revenue", "2.24x", "3.0x", "3.5x", "0.4x", "5.5x", "2.91x"]
+            [
+              "P/E (TTM)",
+              "21.1x",
+              "22.0x",
+              "45.0x",
+              "20.0x",
+              "24.0x",
+              "26.4x"
+            ],
+            [
+              "Forward P/E",
+              "15.3x",
+              "18.0x",
+              "35.0x",
+              "18.0x",
+              "19.0x",
+              "21.8x"
+            ],
+            [
+              "P/S (TTM)",
+              "0.28x",
+              "1.5x",
+              "3.2x",
+              "0.25x",
+              "5.0x",
+              "2.24x"
+            ],
+            [
+              "P/B",
+              "1.82x",
+              "2.5x",
+              "9.0x",
+              "1.3x",
+              "4.5x",
+              "3.66x"
+            ],
+            [
+              "EV/EBITDA",
+              "16.5x",
+              "14.0x",
+              "22.0x",
+              "12.0x",
+              "18.0x",
+              "17.1x"
+            ],
+            [
+              "EV/Revenue",
+              "2.24x",
+              "3.0x",
+              "3.5x",
+              "0.4x",
+              "5.5x",
+              "2.91x"
+            ]
           ]
         }
       ]
@@ -156,20 +382,76 @@
       ],
       "projectionTable": {
         "title": "DCF Projections (¥B)",
-        "columns": ["Metric", "FY2026E", "FY2027E", "FY2028E", "FY2029E", "FY2030E"],
+        "columns": [
+          "Metric",
+          "FY2026E",
+          "FY2027E",
+          "FY2028E",
+          "FY2029E",
+          "FY2030E"
+        ],
         "rows": [
-          ["Revenue", "¥1,080", "¥1,175", "¥1,315", "¥1,460", "¥1,600"],
-          ["EBITDA", "¥162", "¥200", "¥250", "¥306", "¥352"],
-          ["Free Cash Flow", "¥65", "¥130", "¥185", "¥240", "¥290"]
+          [
+            "Revenue",
+            "¥1,080",
+            "¥1,175",
+            "¥1,315",
+            "¥1,460",
+            "¥1,600"
+          ],
+          [
+            "EBITDA",
+            "¥162",
+            "¥200",
+            "¥250",
+            "¥306",
+            "¥352"
+          ],
+          [
+            "Free Cash Flow",
+            "¥65",
+            "¥130",
+            "¥185",
+            "¥240",
+            "¥290"
+          ]
         ]
       },
       "scenarioTable": {
         "title": "DCF Scenario Analysis",
-        "columns": ["Scenario", "Revenue CAGR", "Terminal Growth", "WACC", "Implied Price", "Upside/Downside"],
+        "columns": [
+          "Scenario",
+          "Revenue CAGR",
+          "Terminal Growth",
+          "WACC",
+          "Implied Price",
+          "Upside/Downside"
+        ],
         "rows": [
-          ["Bull Case", "14%", "4.0%", "9.5%", "$240", "+102.6%"],
-          ["Base Case", "10%", "3.0%", "10.5%", "$175", "+47.7%"],
-          ["Bear Case", "5%", "2.0%", "12.0%", "$95", "-19.8%"]
+          [
+            "Bull Case",
+            "14%",
+            "4.0%",
+            "9.5%",
+            "$240",
+            "+102.6%"
+          ],
+          [
+            "Base Case",
+            "10%",
+            "3.0%",
+            "10.5%",
+            "$175",
+            "+47.7%"
+          ],
+          [
+            "Bear Case",
+            "5%",
+            "2.0%",
+            "12.0%",
+            "$95",
+            "-19.8%"
+          ]
         ]
       }
     },
@@ -182,13 +464,49 @@
       ],
       "segmentTable": {
         "title": "Business Segments",
-        "columns": ["Segment", "FY2025 Revenue Mix", "FY2025 Revenue Share", "YoY Growth", "Maturity Stage"],
+        "columns": [
+          "Segment",
+          "FY2025 Revenue Mix",
+          "FY2025 Revenue Share",
+          "YoY Growth",
+          "Maturity Stage"
+        ],
         "rows": [
-          ["Taobao & Tmall Group", "Domestic commerce", "44%", "+4%", "Mature"],
-          ["Cloud Intelligence Group", "Cloud and AI services", "12%", "+15%", "Growth"],
-          ["International Digital Commerce", "Cross-border marketplaces", "11%", "+22%", "High Growth"],
-          ["Cainiao Logistics", "Logistics infrastructure", "9%", "+10%", "Growth"],
-          ["Local Services & Other", "Local services and digital media", "24%", "+8%", "Mixed"]
+          [
+            "Taobao & Tmall Group",
+            "Domestic commerce",
+            "44%",
+            "+4%",
+            "Mature"
+          ],
+          [
+            "Cloud Intelligence Group",
+            "Cloud and AI services",
+            "12%",
+            "+15%",
+            "Growth"
+          ],
+          [
+            "International Digital Commerce",
+            "Cross-border marketplaces",
+            "11%",
+            "+22%",
+            "High Growth"
+          ],
+          [
+            "Cainiao Logistics",
+            "Logistics infrastructure",
+            "9%",
+            "+10%",
+            "Growth"
+          ],
+          [
+            "Local Services & Other",
+            "Local services and digital media",
+            "24%",
+            "+8%",
+            "Mixed"
+          ]
         ]
       }
     },
@@ -197,14 +515,42 @@
         "Alibaba's moat remains significant and is still rooted in scale, ecosystem density, merchant reach, logistics integration, and domestic cloud leadership. The main limitations are regulatory uncertainty and rising competition in e-commerce from PDD and JD.com, which prevent the moat from being fully unchallenged."
       ],
       "moatTable": {
-        "columns": ["Moat Source", "Strength", "Assessment"],
+        "columns": [
+          "Moat Source",
+          "Strength",
+          "Assessment"
+        ],
         "rows": [
-          ["Brand & Reputation", "Strong", "Taobao and Tmall remain core destination platforms in Chinese e-commerce, while Alibaba Cloud retains leading domestic enterprise recognition."],
-          ["Network Effects", "Strong", "A large two-sided marketplace of consumers and merchants reinforces platform density and relevance."],
-          ["Switching Costs", "Moderate", "Merchant tools, advertising products, and logistics integration create friction, though consumer switching remains easier."],
-          ["Cost Advantages/Scale", "Strong", "Alibaba's scale in cloud and logistics infrastructure creates meaningful fixed-cost leverage versus smaller competitors."],
-          ["Intellectual Property", "Moderate", "The Qwen model family and related AI capabilities add strategic value, but software lock-in is not yet a dominant moat layer."],
-          ["Regulatory Barriers", "Weak", "Regulation constrains as much as it protects, and past enforcement actions remain a real overhang."]
+          [
+            "Brand & Reputation",
+            "Strong",
+            "Taobao and Tmall remain core destination platforms in Chinese e-commerce, while Alibaba Cloud retains leading domestic enterprise recognition."
+          ],
+          [
+            "Network Effects",
+            "Strong",
+            "A large two-sided marketplace of consumers and merchants reinforces platform density and relevance."
+          ],
+          [
+            "Switching Costs",
+            "Moderate",
+            "Merchant tools, advertising products, and logistics integration create friction, though consumer switching remains easier."
+          ],
+          [
+            "Cost Advantages/Scale",
+            "Strong",
+            "Alibaba's scale in cloud and logistics infrastructure creates meaningful fixed-cost leverage versus smaller competitors."
+          ],
+          [
+            "Intellectual Property",
+            "Moderate",
+            "The Qwen model family and related AI capabilities add strategic value, but software lock-in is not yet a dominant moat layer."
+          ],
+          [
+            "Regulatory Barriers",
+            "Weak",
+            "Regulation constrains as much as it protects, and past enforcement actions remain a real overhang."
+          ]
         ]
       },
       "overallMoatConclusion": "Alibaba appears to have a narrow-to-wide moat depending on segment. Its domestic commerce moat remains broad, its cloud moat is narrower but strengthening, and the overall franchise remains defensible because of scale and ecosystem integration. That said, competitive pressure and regulatory overhang limit how wide the aggregate moat can be considered."
@@ -249,11 +595,35 @@
       ],
       "acquisitionTable": {
         "title": "Capital Allocation Actions",
-        "columns": ["Action", "Period", "Deal Value", "Strategic Rationale", "Outcome Assessment"],
+        "columns": [
+          "Action",
+          "Period",
+          "Deal Value",
+          "Strategic Rationale",
+          "Outcome Assessment"
+        ],
         "rows": [
-          ["Share Repurchases", "FY2023–FY2025", "¥100B+", "Reduce dilution and return capital to shareholders", "Positive – EPS supportive and shareholder-friendly"],
-          ["AI Infrastructure CapEx", "FY2025", "¥86.0B", "Accelerate cloud and AI infrastructure deployment", "Pending – returns depend on monetization from FY2027 onward"],
-          ["Cainiao IPO Pursuit", "FY2024", "On file", "Portfolio optimization and strategic flexibility", "Mixed – withdrawn, but reflects willingness to adapt"]
+          [
+            "Share Repurchases",
+            "FY2023–FY2025",
+            "¥100B+",
+            "Reduce dilution and return capital to shareholders",
+            "Positive – EPS supportive and shareholder-friendly"
+          ],
+          [
+            "AI Infrastructure CapEx",
+            "FY2025",
+            "¥86.0B",
+            "Accelerate cloud and AI infrastructure deployment",
+            "Pending – returns depend on monetization from FY2027 onward"
+          ],
+          [
+            "Cainiao IPO Pursuit",
+            "FY2024",
+            "On file",
+            "Portfolio optimization and strategic flexibility",
+            "Mixed – withdrawn, but reflects willingness to adapt"
+          ]
         ]
       }
     },
@@ -265,23 +635,77 @@
   },
   "riskAnalysis": {
     "riskTable": {
-      "columns": ["Risk Factor", "Type", "Probability", "Impact", "Mitigation"],
+      "columns": [
+        "Risk Factor",
+        "Type",
+        "Probability",
+        "Impact",
+        "Mitigation"
+      ],
       "rows": [
-        ["AI capex ROI miss", "Execution", "Medium", "High", "Track cloud revenue growth, AI monetization KPIs, and staged deployment of infrastructure spend"],
-        ["EPS miss continuation", "Business", "Medium", "Medium", "Near-term earnings delivery and improved guidance could rebuild confidence"],
-        ["Domestic GMV share loss", "Competitive", "High", "Medium", "Use merchant subsidies, personalization, and user experience improvements to defend share"],
-        ["Regulatory re-escalation", "Regulatory", "Low", "High", "Maintain compliance discipline and adapt platform practices to policy direction"],
-        ["ADR or delisting risk", "Geopolitical", "Low", "Very High", "Hong Kong listing provides a structural backstop for ownership and liquidity"],
-        ["US-China tariff escalation", "Macro", "High", "Medium", "International diversification and domestic cloud exposure reduce direct concentration"],
-        ["Chinese consumer weakness", "Macro", "Medium", "Medium", "Expand value formats and rely on policy support and ecosystem flexibility"],
-        ["Global cloud competition", "Industry", "High", "Low-Medium", "Leverage domestic data sovereignty advantages and local enterprise relationships"]
+        [
+          "AI capex ROI miss",
+          "Execution",
+          "Medium",
+          "High",
+          "Track cloud revenue growth, AI monetization KPIs, and staged deployment of infrastructure spend"
+        ],
+        [
+          "EPS miss continuation",
+          "Business",
+          "Medium",
+          "Medium",
+          "Near-term earnings delivery and improved guidance could rebuild confidence"
+        ],
+        [
+          "Domestic GMV share loss",
+          "Competitive",
+          "High",
+          "Medium",
+          "Use merchant subsidies, personalization, and user experience improvements to defend share"
+        ],
+        [
+          "Regulatory re-escalation",
+          "Regulatory",
+          "Low",
+          "High",
+          "Maintain compliance discipline and adapt platform practices to policy direction"
+        ],
+        [
+          "ADR or delisting risk",
+          "Geopolitical",
+          "Low",
+          "Very High",
+          "Hong Kong listing provides a structural backstop for ownership and liquidity"
+        ],
+        [
+          "US-China tariff escalation",
+          "Macro",
+          "High",
+          "Medium",
+          "International diversification and domestic cloud exposure reduce direct concentration"
+        ],
+        [
+          "Chinese consumer weakness",
+          "Macro",
+          "Medium",
+          "Medium",
+          "Expand value formats and rely on policy support and ecosystem flexibility"
+        ],
+        [
+          "Global cloud competition",
+          "Industry",
+          "High",
+          "Low-Medium",
+          "Leverage domestic data sovereignty advantages and local enterprise relationships"
+        ]
       ]
     }
   },
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$175.00",
-    "impliedUpsidePct": "+47.7%",
+    "impliedUpsidePct": "+37.4%",
     "bullBaseBear": {
       "bull": "$240",
       "base": "$175",

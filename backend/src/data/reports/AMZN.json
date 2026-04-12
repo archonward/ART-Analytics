@@ -9,9 +9,9 @@
     "author": "ART Analytics",
     "rating": "BUY",
     "targetPrice": "$280",
-    "currentPrice": "$207.74",
-    "impliedUpsidePct": "+34.8%",
-    "marketDataAsOf": "Mar 24, 2026, 2:29 PM",
+    "currentPrice": "$238.38",
+    "impliedUpsidePct": "+17.5%",
+    "marketDataAsOf": "Apr 10, 2026, 4:00 PM",
     "estimatedReadMinutes": 13,
     "coverageStatus": "published"
   },
@@ -20,7 +20,7 @@
     "snapshotMetrics": [
       {
         "label": "Market Cap",
-        "value": "$2.23T"
+        "value": "$2.56T"
       },
       {
         "label": "Enterprise Value",
@@ -40,7 +40,7 @@
       },
       {
         "label": "P/E",
-        "value": "29.0x"
+        "value": "33.2x"
       },
       {
         "label": "Consensus Upside",
@@ -581,8 +581,8 @@
         "Amazon is positioned across multiple large end markets, with opportunities spanning global e-commerce, cloud infrastructure, digital advertising, and logistics services. The breadth of this exposure gives Amazon multiple long-term vectors for growth beyond its traditional retail identity."
       ],
       "highlights": [
-        "Global E-commerce TAM is estimated at $6.2T, with Amazon currently holding 13.2% share and an addressable share of 25\u201330%.",
-        "Cloud Infrastructure TAM is estimated at $280B, with AWS holding 32.1% share and an addressable share of 35\u201340%.",
+        "Global E-commerce TAM is estimated at $6.2T, with Amazon currently holding 13.2% share and an addressable share of 25–30%.",
+        "Cloud Infrastructure TAM is estimated at $280B, with AWS holding 32.1% share and an addressable share of 35–40%.",
         "Digital Advertising and Logistics Services add further optionality, with TAMs of $740B and $420B respectively."
       ]
     }
@@ -709,7 +709,7 @@
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$280",
-    "impliedUpsidePct": "+34.8%",
+    "impliedUpsidePct": "+17.5%",
     "bullBaseBear": {
       "bull": "$325",
       "base": "$280",
@@ -726,17 +726,17 @@
     "ratingChangeTriggers": [
       {
         "action": "Upgrade to Strong Buy",
-        "direction": "\u2191",
+        "direction": "↑",
         "trigger": "AWS growth reaccelerating above 25% for two consecutive quarters"
       },
       {
         "action": "Downgrade to Hold",
-        "direction": "\u2193",
+        "direction": "↓",
         "trigger": "Operating margins declining below 10% or AWS growth below 12%"
       },
       {
         "action": "Downgrade to Sell",
-        "direction": "\u2193\u2193",
+        "direction": "↓↓",
         "trigger": "FCF turning negative for two consecutive quarters due to investment inefficiency"
       }
     ],
@@ -747,7 +747,7 @@
     "How quickly can international segments achieve operating leverage similar to North America?",
     "Will advertising revenue sustain 20%+ growth as the platform matures and competition increases?",
     "What timeline and financial model will Amazon deploy for Zoox commercialization?",
-    "How will Project Kuiper deployment costs affect free-cash-flow generation over the next 3\u20134 years?",
+    "How will Project Kuiper deployment costs affect free-cash-flow generation over the next 3–4 years?",
     "Can Amazon maintain labor-cost discipline amid unionization efforts and wage inflation?",
     "Will regulatory scrutiny produce business-model restrictions or forced divestitures?",
     "How effective will AI agent services be in expanding AWS customer relationships and pricing power?"

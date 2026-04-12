@@ -9,9 +9,9 @@
     "author": "ART Analytics",
     "rating": "BUY",
     "targetPrice": "$1,125",
-    "currentPrice": "$983.86",
-    "impliedUpsidePct": "+14.3%",
-    "marketDataAsOf": "March 28, 2026",
+    "currentPrice": "$998.47",
+    "impliedUpsidePct": "+12.7%",
+    "marketDataAsOf": "Apr 10, 2026, 4:00 PM",
     "estimatedReadMinutes": 11,
     "coverageStatus": "published"
   },
@@ -20,7 +20,7 @@
     "snapshotMetrics": [
       {
         "label": "Market Cap",
-        "value": "$447.4B"
+        "value": "$443.2B"
       },
       {
         "label": "Enterprise Value",
@@ -40,7 +40,7 @@
       },
       {
         "label": "P/E",
-        "value": "52.4x"
+        "value": "51.8x"
       },
       {
         "label": "EV/EBITDA",
@@ -553,7 +553,7 @@
     "nearTermCatalysts": [
       "Membership fee increase potential after the last increase in 2017.",
       "Same-store sales momentum from traffic growth and basket size expansion.",
-      "International expansion with 15\u201320 new warehouses annually focused on Asia-Pacific markets."
+      "International expansion with 15–20 new warehouses annually focused on Asia-Pacific markets."
     ],
     "mediumTermDrivers": [
       "E-commerce acceleration with 15%+ digital sales growth.",
@@ -678,7 +678,7 @@
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$1,125",
-    "impliedUpsidePct": "+14.3%",
+    "impliedUpsidePct": "+12.7%",
     "bullBaseBear": {
       "bull": "$1,285",
       "base": "$1,125",

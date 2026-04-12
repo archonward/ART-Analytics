@@ -9,25 +9,55 @@
     "author": "ART Analytics",
     "rating": "BUY",
     "targetPrice": "$225",
-    "currentPrice": "$198.97",
-    "impliedUpsidePct": "+13.1%",
-    "marketDataAsOf": "Apr 2, 2026, 8:02 PM",
+    "currentPrice": "$188.55",
+    "impliedUpsidePct": "+19.3%",
+    "marketDataAsOf": "Apr 10, 2026, 4:02 PM",
     "estimatedReadMinutes": 24,
     "coverageStatus": "published"
   },
   "executiveAtAGlance": {
     "thesisHeadline": "CVX is a best-in-class capital returner with $16.6B in FY2025 FCF, a Permian growth engine, and emerging natural gas optionality tied to AI power demand — all available at a 7.3% discount to its 52-week high with a BUY-rated consensus behind it.",
     "snapshotMetrics": [
-      { "label": "Market Cap", "value": "$397.8B" },
-      { "label": "Enterprise Value", "value": "$443.2B" },
-      { "label": "FCF (TTM)", "value": "$13.2B" },
-      { "label": "EV/EBITDA", "value": "11.8x" },
-      { "label": "Net Margin", "value": "6.7%" },
-      { "label": "Revenue (TTM)", "value": "$184.7B" },
-      { "label": "Net Income (TTM)", "value": "$12.3B" },
-      { "label": "P/E", "value": "30.0x" },
-      { "label": "Revenue Growth YoY", "value": "-8.2%" },
-      { "label": "Forward P/E", "value": "19.8x" }
+      {
+        "label": "Market Cap",
+        "value": "$375.6B"
+      },
+      {
+        "label": "Enterprise Value",
+        "value": "$443.2B"
+      },
+      {
+        "label": "FCF (TTM)",
+        "value": "$13.2B"
+      },
+      {
+        "label": "EV/EBITDA",
+        "value": "11.8x"
+      },
+      {
+        "label": "Net Margin",
+        "value": "6.7%"
+      },
+      {
+        "label": "Revenue (TTM)",
+        "value": "$184.7B"
+      },
+      {
+        "label": "Net Income (TTM)",
+        "value": "$12.3B"
+      },
+      {
+        "label": "P/E",
+        "value": "28.4x"
+      },
+      {
+        "label": "Revenue Growth YoY",
+        "value": "-8.2%"
+      },
+      {
+        "label": "Forward P/E",
+        "value": "19.8x"
+      }
     ]
   },
   "executiveSummary": {
@@ -61,22 +91,92 @@
       "tables": [
         {
           "title": "Income Statement ($B)",
-          "columns": ["Metric", "FY2022", "FY2023", "FY2024", "FY2025", "TTM"],
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025",
+            "TTM"
+          ],
           "rows": [
-            ["Total Revenue", "$235.7", "$196.9", "$193.4", "$184.4", "$184.7"],
-            ["Gross Profit", "$74.0", "$60.4", "$56.9", "$56.1", "$56.1"],
-            ["Operating Income", "$40.0", "$26.2", "$18.9", "$16.7", "$16.7"],
-            ["Net Income", "$35.5", "$21.4", "$17.7", "$12.3", "$12.3"]
+            [
+              "Total Revenue",
+              "$235.7",
+              "$196.9",
+              "$193.4",
+              "$184.4",
+              "$184.7"
+            ],
+            [
+              "Gross Profit",
+              "$74.0",
+              "$60.4",
+              "$56.9",
+              "$56.1",
+              "$56.1"
+            ],
+            [
+              "Operating Income",
+              "$40.0",
+              "$26.2",
+              "$18.9",
+              "$16.7",
+              "$16.7"
+            ],
+            [
+              "Net Income",
+              "$35.5",
+              "$21.4",
+              "$17.7",
+              "$12.3",
+              "$12.3"
+            ]
           ]
         },
         {
           "title": "Margin Analysis",
-          "columns": ["Metric", "FY2022", "FY2023", "FY2024", "FY2025", "TTM"],
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025",
+            "TTM"
+          ],
           "rows": [
-            ["Gross Margin", "31.4%", "30.7%", "29.4%", "30.4%", "41.9%"],
-            ["Operating Margin", "17.0%", "13.3%", "9.8%", "9.0%", "9.5%"],
-            ["Net Margin", "15.0%", "10.9%", "9.1%", "6.7%", "6.7%"],
-            ["Revenue Growth YoY", "—", "-16.5%", "-1.8%", "-4.6%", "-8.2%"]
+            [
+              "Gross Margin",
+              "31.4%",
+              "30.7%",
+              "29.4%",
+              "30.4%",
+              "41.9%"
+            ],
+            [
+              "Operating Margin",
+              "17.0%",
+              "13.3%",
+              "9.8%",
+              "9.0%",
+              "9.5%"
+            ],
+            [
+              "Net Margin",
+              "15.0%",
+              "10.9%",
+              "9.1%",
+              "6.7%",
+              "6.7%"
+            ],
+            [
+              "Revenue Growth YoY",
+              "—",
+              "-16.5%",
+              "-1.8%",
+              "-4.6%",
+              "-8.2%"
+            ]
           ]
         }
       ]
@@ -89,15 +189,55 @@
       "tables": [
         {
           "title": "Balance Sheet ($B)",
-          "columns": ["Metric", "FY2023", "FY2024", "FY2025"],
+          "columns": [
+            "Metric",
+            "FY2023",
+            "FY2024",
+            "FY2025"
+          ],
           "rows": [
-            ["Total Assets", "$261.6", "$256.9", "$324.0"],
-            ["Total Liabilities", "$99.7", "$103.8", "$131.8"],
-            ["Total Equity", "$161.0", "$152.3", "$186.5"],
-            ["Total Debt", "$20.8", "$24.5", "$40.8"],
-            ["Cash & Equivalents", "$8.2", "$6.8", "$6.3"],
-            ["Net Debt", "$12.7", "$17.7", "$34.5"],
-            ["Debt-to-Equity", "0.13x", "0.16x", "0.22x"]
+            [
+              "Total Assets",
+              "$261.6",
+              "$256.9",
+              "$324.0"
+            ],
+            [
+              "Total Liabilities",
+              "$99.7",
+              "$103.8",
+              "$131.8"
+            ],
+            [
+              "Total Equity",
+              "$161.0",
+              "$152.3",
+              "$186.5"
+            ],
+            [
+              "Total Debt",
+              "$20.8",
+              "$24.5",
+              "$40.8"
+            ],
+            [
+              "Cash & Equivalents",
+              "$8.2",
+              "$6.8",
+              "$6.3"
+            ],
+            [
+              "Net Debt",
+              "$12.7",
+              "$17.7",
+              "$34.5"
+            ],
+            [
+              "Debt-to-Equity",
+              "0.13x",
+              "0.16x",
+              "0.22x"
+            ]
           ]
         }
       ]
@@ -116,13 +256,55 @@
       "tables": [
         {
           "title": "Cash Flow ($B)",
-          "columns": ["Metric", "FY2022", "FY2023", "FY2024", "FY2025", "TTM"],
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025",
+            "TTM"
+          ],
           "rows": [
-            ["Operating Cash Flow", "$49.6", "$35.6", "$31.5", "$33.9", "$33.9"],
-            ["Capital Expenditures", "($12.0)", "($15.8)", "($16.4)", "($17.3)", "($17.3)"],
-            ["Free Cash Flow", "$37.6", "$19.8", "$15.0", "$16.6", "$13.2"],
-            ["FCF Margin", "16.0%", "10.0%", "7.8%", "9.0%", "7.1%"],
-            ["CapEx as % of Revenue", "5.1%", "8.0%", "8.5%", "9.4%", "9.4%"]
+            [
+              "Operating Cash Flow",
+              "$49.6",
+              "$35.6",
+              "$31.5",
+              "$33.9",
+              "$33.9"
+            ],
+            [
+              "Capital Expenditures",
+              "($12.0)",
+              "($15.8)",
+              "($16.4)",
+              "($17.3)",
+              "($17.3)"
+            ],
+            [
+              "Free Cash Flow",
+              "$37.6",
+              "$19.8",
+              "$15.0",
+              "$16.6",
+              "$13.2"
+            ],
+            [
+              "FCF Margin",
+              "16.0%",
+              "10.0%",
+              "7.8%",
+              "9.0%",
+              "7.1%"
+            ],
+            [
+              "CapEx as % of Revenue",
+              "5.1%",
+              "8.0%",
+              "8.5%",
+              "9.4%",
+              "9.4%"
+            ]
           ]
         }
       ]
@@ -140,15 +322,71 @@
       "tables": [
         {
           "title": "Valuation Multiples",
-          "columns": ["Metric", "CVX Current", "CVX 5-Yr Avg", "XOM", "BP", "SHEL"],
+          "columns": [
+            "Metric",
+            "CVX Current",
+            "CVX 5-Yr Avg",
+            "XOM",
+            "BP",
+            "SHEL"
+          ],
           "rows": [
-            ["Trailing P/E", "30.0x", "16x", "17x", "12x", "11x"],
-            ["Forward P/E", "19.8x", "13x", "15x", "8x", "8x"],
-            ["P/S (TTM)", "2.2x", "1.4x", "1.5x", "0.3x", "0.5x"],
-            ["P/B", "2.1x", "1.8x", "2.2x", "0.9x", "1.1x"],
-            ["EV/EBITDA", "11.8x", "8x", "12x", "5x", "5x"],
-            ["EV/Revenue", "2.4x", "1.8x", "1.7x", "0.3x", "0.5x"],
-            ["FCF Yield", "4.2%", "6%", "4.5%", "8%", "9%"]
+            [
+              "Trailing P/E",
+              "30.0x",
+              "16x",
+              "17x",
+              "12x",
+              "11x"
+            ],
+            [
+              "Forward P/E",
+              "19.8x",
+              "13x",
+              "15x",
+              "8x",
+              "8x"
+            ],
+            [
+              "P/S (TTM)",
+              "2.2x",
+              "1.4x",
+              "1.5x",
+              "0.3x",
+              "0.5x"
+            ],
+            [
+              "P/B",
+              "2.1x",
+              "1.8x",
+              "2.2x",
+              "0.9x",
+              "1.1x"
+            ],
+            [
+              "EV/EBITDA",
+              "11.8x",
+              "8x",
+              "12x",
+              "5x",
+              "5x"
+            ],
+            [
+              "EV/Revenue",
+              "2.4x",
+              "1.8x",
+              "1.7x",
+              "0.3x",
+              "0.5x"
+            ],
+            [
+              "FCF Yield",
+              "4.2%",
+              "6%",
+              "4.5%",
+              "8%",
+              "9%"
+            ]
           ]
         }
       ]
@@ -165,21 +403,84 @@
       ],
       "projectionTable": {
         "title": "DCF Projections",
-        "columns": ["Projection", "FY2026E", "FY2027E", "FY2028E", "FY2029E", "FY2030E"],
+        "columns": [
+          "Projection",
+          "FY2026E",
+          "FY2027E",
+          "FY2028E",
+          "FY2029E",
+          "FY2030E"
+        ],
         "rows": [
-          ["Revenue ($B)", "$210.2", "$198.5", "$205.5", "$211.0", "$217.0"],
-          ["EBITDA ($B)", "$38.5", "$37.2", "$40.1", "$42.8", "$45.1"],
-          ["FCF ($B)", "$17.5", "$16.8", "$19.2", "$21.0", "$22.5"],
-          ["FCF Margin %", "8.3%", "8.5%", "9.3%", "10.0%", "10.4%"]
+          [
+            "Revenue ($B)",
+            "$210.2",
+            "$198.5",
+            "$205.5",
+            "$211.0",
+            "$217.0"
+          ],
+          [
+            "EBITDA ($B)",
+            "$38.5",
+            "$37.2",
+            "$40.1",
+            "$42.8",
+            "$45.1"
+          ],
+          [
+            "FCF ($B)",
+            "$17.5",
+            "$16.8",
+            "$19.2",
+            "$21.0",
+            "$22.5"
+          ],
+          [
+            "FCF Margin %",
+            "8.3%",
+            "8.5%",
+            "9.3%",
+            "10.0%",
+            "10.4%"
+          ]
         ]
       },
       "scenarioTable": {
         "title": "DCF Scenario Analysis",
-        "columns": ["Scenario", "Revenue CAGR", "Terminal Growth", "WACC", "Implied Price", "Upside/Downside"],
+        "columns": [
+          "Scenario",
+          "Revenue CAGR",
+          "Terminal Growth",
+          "WACC",
+          "Implied Price",
+          "Upside/Downside"
+        ],
         "rows": [
-          ["Bull", "+5.0%", "3.0%", "8.0%", "$265", "+33.2%"],
-          ["Base", "+2.5%", "2.5%", "8.5%", "$218", "+9.6%"],
-          ["Bear", "-2.0%", "1.5%", "9.5%", "$155", "-22.1%"]
+          [
+            "Bull",
+            "+5.0%",
+            "3.0%",
+            "8.0%",
+            "$265",
+            "+33.2%"
+          ],
+          [
+            "Base",
+            "+2.5%",
+            "2.5%",
+            "8.5%",
+            "$218",
+            "+9.6%"
+          ],
+          [
+            "Bear",
+            "-2.0%",
+            "1.5%",
+            "9.5%",
+            "$155",
+            "-22.1%"
+          ]
         ]
       }
     },
@@ -193,11 +494,31 @@
       ],
       "segmentTable": {
         "title": "Business Segments",
-        "columns": ["Segment", "Est. Revenue Contribution", "Est. % of Total", "Growth Outlook"],
+        "columns": [
+          "Segment",
+          "Est. Revenue Contribution",
+          "Est. % of Total",
+          "Growth Outlook"
+        ],
         "rows": [
-          ["Upstream (E&P)", "~$105B (est.)", "~57%", "Moderate growth; Permian + Guyana optionality"],
-          ["Downstream (Refining/Chemicals)", "~$78B (est.)", "~42%", "Mature; crack spread dependent"],
-          ["Corporate & Other", "~$1B (est.)", "~1%", "Minimal; overhead allocation"]
+          [
+            "Upstream (E&P)",
+            "~$105B (est.)",
+            "~57%",
+            "Moderate growth; Permian + Guyana optionality"
+          ],
+          [
+            "Downstream (Refining/Chemicals)",
+            "~$78B (est.)",
+            "~42%",
+            "Mature; crack spread dependent"
+          ],
+          [
+            "Corporate & Other",
+            "~$1B (est.)",
+            "~1%",
+            "Minimal; overhead allocation"
+          ]
         ]
       }
     },
@@ -209,14 +530,42 @@
         "Robotics and operational technology investment is incrementally widening the cost gap vs. smaller operators."
       ],
       "moatTable": {
-        "columns": ["Moat Source", "Strength", "Rationale"],
+        "columns": [
+          "Moat Source",
+          "Strength",
+          "Rationale"
+        ],
         "rows": [
-          ["Brand & Reputation", "Moderate", "Strong brand among institutional investors and host governments; less relevant to commodity pricing"],
-          ["Network Effects", "None", "Oil and gas is not a network business at the commodity level"],
-          ["Switching Costs", "Weak", "Limited — crude and refined products are largely fungible"],
-          ["Cost Advantages / Scale", "Strong", "Permian Basin breakevens <$45/bbl; world-scale LNG operations with contracted offtake"],
-          ["Intellectual Property / Patents", "Weak", "Subsurface technology is proprietary but not patentable in the traditional sense"],
-          ["Regulatory Barriers", "Moderate", "Offshore and international licensing regimes restrict new entrant competition in key basins"]
+          [
+            "Brand & Reputation",
+            "Moderate",
+            "Strong brand among institutional investors and host governments; less relevant to commodity pricing"
+          ],
+          [
+            "Network Effects",
+            "None",
+            "Oil and gas is not a network business at the commodity level"
+          ],
+          [
+            "Switching Costs",
+            "Weak",
+            "Limited — crude and refined products are largely fungible"
+          ],
+          [
+            "Cost Advantages / Scale",
+            "Strong",
+            "Permian Basin breakevens <$45/bbl; world-scale LNG operations with contracted offtake"
+          ],
+          [
+            "Intellectual Property / Patents",
+            "Weak",
+            "Subsurface technology is proprietary but not patentable in the traditional sense"
+          ],
+          [
+            "Regulatory Barriers",
+            "Moderate",
+            "Offshore and international licensing regimes restrict new entrant competition in key basins"
+          ]
         ]
       },
       "overallMoatConclusion": "Overall Moat: Narrow. CVX's cost leadership in the Permian and scale in LNG are genuine competitive advantages, but the commodity nature of its products caps pricing power and limits the moat to a narrow characterization. The robotics strategy is a nascent potential moat widener but has not yet created defensible differentiation at scale."
@@ -272,10 +621,28 @@
       ],
       "acquisitionTable": {
         "title": "Major Acquisitions",
-        "columns": ["Acquisition", "Year", "Deal Value", "Strategic Rationale", "Outcome Assessment"],
+        "columns": [
+          "Acquisition",
+          "Year",
+          "Deal Value",
+          "Strategic Rationale",
+          "Outcome Assessment"
+        ],
         "rows": [
-          ["Hess Corporation", "2024", "~$53B (est.)", "Guyana Stabroek Block; Bakken assets; Gulf of Mexico", "Pending — Guyana arbitration creates uncertainty; strategic asset quality is high"],
-          ["PDC Energy", "2023", "~$7.6B (est.)", "DJ Basin and Permian bolt-on; immediate production accretion", "Positive — integrated smoothly; added ~260K BOE/day (est.)"]
+          [
+            "Hess Corporation",
+            "2024",
+            "~$53B (est.)",
+            "Guyana Stabroek Block; Bakken assets; Gulf of Mexico",
+            "Pending — Guyana arbitration creates uncertainty; strategic asset quality is high"
+          ],
+          [
+            "PDC Energy",
+            "2023",
+            "~$7.6B (est.)",
+            "DJ Basin and Permian bolt-on; immediate production accretion",
+            "Positive — integrated smoothly; added ~260K BOE/day (est.)"
+          ]
         ]
       }
     },
@@ -292,22 +659,70 @@
   },
   "riskAnalysis": {
     "riskTable": {
-      "columns": ["Risk", "Type", "Probability", "Impact", "Mitigation"],
+      "columns": [
+        "Risk",
+        "Type",
+        "Probability",
+        "Impact",
+        "Mitigation"
+      ],
       "rows": [
-        ["Hess arbitration — loss of Guyana rights", "Idiosyncratic", "Medium", "High", "Bakken and GoM assets retain value; Hess deal not solely Guyana-dependent"],
-        ["TCO project cost overruns / delays", "Idiosyncratic", "Medium", "Medium", "Project is >90% complete (est.); remaining cost exposure is bounded"],
-        ["California relocation disruption", "Idiosyncratic", "Low", "Low", "Texas HQ infrastructure already established; talent retention programs in place"],
-        ["Crude oil price decline (<$60/bbl)", "Macro", "Medium", "High", "Permian breakevens <$45/bbl; balance sheet can absorb 12–18 months at $60/bbl"],
-        ["Accelerated energy demand destruction (EV/efficiency)", "Industry", "Low (near-term)", "High (long-term)", "Long-run planning assumes demand plateau by 2035–2040; portfolio diversifies into gas/LNG"],
-        ["Geopolitical disruption in Kazakhstan / MENA", "Macro", "Low-Medium", "Medium", "Political risk insurance; portfolio diversification across geographies"],
-        ["Carbon / ESG regulatory tightening", "Industry", "Medium", "Medium", "Lower-carbon investments in hydrogen/CCUS; methane reduction programs"]
+        [
+          "Hess arbitration — loss of Guyana rights",
+          "Idiosyncratic",
+          "Medium",
+          "High",
+          "Bakken and GoM assets retain value; Hess deal not solely Guyana-dependent"
+        ],
+        [
+          "TCO project cost overruns / delays",
+          "Idiosyncratic",
+          "Medium",
+          "Medium",
+          "Project is >90% complete (est.); remaining cost exposure is bounded"
+        ],
+        [
+          "California relocation disruption",
+          "Idiosyncratic",
+          "Low",
+          "Low",
+          "Texas HQ infrastructure already established; talent retention programs in place"
+        ],
+        [
+          "Crude oil price decline (<$60/bbl)",
+          "Macro",
+          "Medium",
+          "High",
+          "Permian breakevens <$45/bbl; balance sheet can absorb 12–18 months at $60/bbl"
+        ],
+        [
+          "Accelerated energy demand destruction (EV/efficiency)",
+          "Industry",
+          "Low (near-term)",
+          "High (long-term)",
+          "Long-run planning assumes demand plateau by 2035–2040; portfolio diversifies into gas/LNG"
+        ],
+        [
+          "Geopolitical disruption in Kazakhstan / MENA",
+          "Macro",
+          "Low-Medium",
+          "Medium",
+          "Political risk insurance; portfolio diversification across geographies"
+        ],
+        [
+          "Carbon / ESG regulatory tightening",
+          "Industry",
+          "Medium",
+          "Medium",
+          "Lower-carbon investments in hydrogen/CCUS; methane reduction programs"
+        ]
       ]
     }
   },
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$225",
-    "impliedUpsidePct": "+13.1%",
+    "impliedUpsidePct": "+19.3%",
     "bullBaseBear": {
       "bull": "$265",
       "base": "$225",

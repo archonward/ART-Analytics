@@ -9,25 +9,55 @@
     "author": "ART Analytics",
     "rating": "BUY",
     "targetPrice": "$185.00",
-    "currentPrice": "$148.46",
-    "impliedUpsidePct": "+24.6%",
-    "marketDataAsOf": "Apr 2, 2026, 8:00 PM",
+    "currentPrice": "$128.06",
+    "impliedUpsidePct": "+44.5%",
+    "marketDataAsOf": "Apr 10, 2026, 4:00 PM",
     "estimatedReadMinutes": 22,
     "coverageStatus": "published"
   },
   "executiveAtAGlance": {
     "thesisHeadline": "Palantir has crossed the inflection point where scale, operating leverage, and platform stickiness converge — FY2025 operating income surged to $1.41B from $310M in FY2024, a 356% step-up in a single year. The 30% drawdown from peak provides the most attractive risk/reward entry in over 12 months.",
     "snapshotMetrics": [
-      { "label": "Market Cap", "value": "$355.1B" },
-      { "label": "Enterprise Value", "value": "$348.2B" },
-      { "label": "FCF (TTM)", "value": "$1.3B" },
-      { "label": "EV/EBITDA", "value": "241.8x" },
-      { "label": "Net Margin", "value": "36.3%" },
-      { "label": "Revenue (TTM)", "value": "$4.5B" },
-      { "label": "Net Income (TTM)", "value": "$1.6B" },
-      { "label": "P/E", "value": "239.5x" },
-      { "label": "Revenue Growth YoY", "value": "+70.0%" },
-      { "label": "ROIC", "value": "~22.0%" }
+      {
+        "label": "Market Cap",
+        "value": "$306.3B"
+      },
+      {
+        "label": "Enterprise Value",
+        "value": "$348.2B"
+      },
+      {
+        "label": "FCF (TTM)",
+        "value": "$1.3B"
+      },
+      {
+        "label": "EV/EBITDA",
+        "value": "241.8x"
+      },
+      {
+        "label": "Net Margin",
+        "value": "36.3%"
+      },
+      {
+        "label": "Revenue (TTM)",
+        "value": "$4.5B"
+      },
+      {
+        "label": "Net Income (TTM)",
+        "value": "$1.6B"
+      },
+      {
+        "label": "P/E",
+        "value": "203.3x"
+      },
+      {
+        "label": "Revenue Growth YoY",
+        "value": "+70.0%"
+      },
+      {
+        "label": "ROIC",
+        "value": "~22.0%"
+      }
     ]
   },
   "executiveSummary": {
@@ -60,23 +90,95 @@
       "tables": [
         {
           "title": "Income Statement ($M)",
-          "columns": ["Metric", "FY2022", "FY2023", "FY2024", "FY2025", "TTM"],
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025",
+            "TTM"
+          ],
           "rows": [
-            ["Total Revenue", "$1,905.9", "$2,225.0", "$2,865.5", "$4,475.4", "$4,475.4"],
-            ["Cost of Revenue", "$408.5", "$431.1", "$566.0", "$789.2", "$789.2"],
-            ["Gross Profit", "$1,497.3", "$1,793.9", "$2,299.5", "$3,686.3", "$3,686.3"],
-            ["Operating Income", "($161.2)", "$120.0", "$310.4", "$1,414.0", "$1,414.0"],
-            ["Net Income", "($373.7)", "$209.8", "$462.2", "$1,625.0", "$1,625.0"]
+            [
+              "Total Revenue",
+              "$1,905.9",
+              "$2,225.0",
+              "$2,865.5",
+              "$4,475.4",
+              "$4,475.4"
+            ],
+            [
+              "Cost of Revenue",
+              "$408.5",
+              "$431.1",
+              "$566.0",
+              "$789.2",
+              "$789.2"
+            ],
+            [
+              "Gross Profit",
+              "$1,497.3",
+              "$1,793.9",
+              "$2,299.5",
+              "$3,686.3",
+              "$3,686.3"
+            ],
+            [
+              "Operating Income",
+              "($161.2)",
+              "$120.0",
+              "$310.4",
+              "$1,414.0",
+              "$1,414.0"
+            ],
+            [
+              "Net Income",
+              "($373.7)",
+              "$209.8",
+              "$462.2",
+              "$1,625.0",
+              "$1,625.0"
+            ]
           ]
         },
         {
           "title": "Margin Analysis",
-          "columns": ["Metric", "FY2023", "FY2024", "FY2025", "TTM"],
+          "columns": [
+            "Metric",
+            "FY2023",
+            "FY2024",
+            "FY2025",
+            "TTM"
+          ],
           "rows": [
-            ["Gross Margin", "80.6%", "80.3%", "82.4%", "82.4%"],
-            ["Operating Margin", "5.4%", "10.8%", "31.6%", "31.6%"],
-            ["Net Margin", "9.4%", "16.1%", "36.3%", "36.3%"],
-            ["Revenue Growth YoY", "+16.8%", "+28.8%", "+56.2%", "+70.0%"]
+            [
+              "Gross Margin",
+              "80.6%",
+              "80.3%",
+              "82.4%",
+              "82.4%"
+            ],
+            [
+              "Operating Margin",
+              "5.4%",
+              "10.8%",
+              "31.6%",
+              "31.6%"
+            ],
+            [
+              "Net Margin",
+              "9.4%",
+              "16.1%",
+              "36.3%",
+              "36.3%"
+            ],
+            [
+              "Revenue Growth YoY",
+              "+16.8%",
+              "+28.8%",
+              "+56.2%",
+              "+70.0%"
+            ]
           ]
         }
       ]
@@ -88,15 +190,63 @@
       "tables": [
         {
           "title": "Balance Sheet ($M)",
-          "columns": ["Metric", "FY2022", "FY2023", "FY2024", "FY2025"],
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025"
+          ],
           "rows": [
-            ["Total Assets", "$3,461.2", "$4,522.4", "$6,340.9", "$8,900.4"],
-            ["Total Liabilities", "$818.8", "$961.5", "$1,246.5", "$1,412.4"],
-            ["Total Equity", "$2,565.3", "$3,475.6", "$5,003.3", "$7,387.3"],
-            ["Cash & Equivalents", "$2,598.5", "$831.0", "$2,098.5", "$1,423.8"],
-            ["Total Debt", "$249.4", "$229.4", "$239.2", "$229.3"],
-            ["Net Cash (Debt)", "$2,349.1", "$601.6", "$1,859.3", "$1,194.5"],
-            ["Debt-to-Equity", "0.10x", "0.07x", "0.05x", "0.03x"]
+            [
+              "Total Assets",
+              "$3,461.2",
+              "$4,522.4",
+              "$6,340.9",
+              "$8,900.4"
+            ],
+            [
+              "Total Liabilities",
+              "$818.8",
+              "$961.5",
+              "$1,246.5",
+              "$1,412.4"
+            ],
+            [
+              "Total Equity",
+              "$2,565.3",
+              "$3,475.6",
+              "$5,003.3",
+              "$7,387.3"
+            ],
+            [
+              "Cash & Equivalents",
+              "$2,598.5",
+              "$831.0",
+              "$2,098.5",
+              "$1,423.8"
+            ],
+            [
+              "Total Debt",
+              "$249.4",
+              "$229.4",
+              "$239.2",
+              "$229.3"
+            ],
+            [
+              "Net Cash (Debt)",
+              "$2,349.1",
+              "$601.6",
+              "$1,859.3",
+              "$1,194.5"
+            ],
+            [
+              "Debt-to-Equity",
+              "0.10x",
+              "0.07x",
+              "0.05x",
+              "0.03x"
+            ]
           ]
         }
       ]
@@ -113,12 +263,47 @@
       "tables": [
         {
           "title": "Cash Flow ($M)",
-          "columns": ["Metric", "FY2022", "FY2023", "FY2024", "FY2025", "TTM"],
+          "columns": [
+            "Metric",
+            "FY2022",
+            "FY2023",
+            "FY2024",
+            "FY2025",
+            "TTM"
+          ],
           "rows": [
-            ["Operating Cash Flow", "$223.7", "$712.2", "$1,153.9", "$2,134.5", "$2,134.5"],
-            ["Capital Expenditures", "($40.0)", "($15.1)", "($12.6)", "($33.9)", "($33.9)"],
-            ["Free Cash Flow", "$183.7", "$697.1", "$1,141.2", "$2,100.6", "$1,260.9"],
-            ["FCF Margin", "9.6%", "31.3%", "39.8%", "46.9%", "28.2%"]
+            [
+              "Operating Cash Flow",
+              "$223.7",
+              "$712.2",
+              "$1,153.9",
+              "$2,134.5",
+              "$2,134.5"
+            ],
+            [
+              "Capital Expenditures",
+              "($40.0)",
+              "($15.1)",
+              "($12.6)",
+              "($33.9)",
+              "($33.9)"
+            ],
+            [
+              "Free Cash Flow",
+              "$183.7",
+              "$697.1",
+              "$1,141.2",
+              "$2,100.6",
+              "$1,260.9"
+            ],
+            [
+              "FCF Margin",
+              "9.6%",
+              "31.3%",
+              "39.8%",
+              "46.9%",
+              "28.2%"
+            ]
           ]
         }
       ]
@@ -132,15 +317,63 @@
       "tables": [
         {
           "title": "Valuation Multiples",
-          "columns": ["Metric", "PLTR Current", "PLTR 3-Yr Avg", "C3.ai", "Snowflake"],
+          "columns": [
+            "Metric",
+            "PLTR Current",
+            "PLTR 3-Yr Avg",
+            "C3.ai",
+            "Snowflake"
+          ],
           "rows": [
-            ["P/E (TTM)", "239.5x", "180x", "NM", "350x"],
-            ["Forward P/E", "79.8x", "120x", "NM", "85x"],
-            ["P/S (NTM)", "48.9x", "60x", "8x", "18x"],
-            ["P/B", "48.1x", "45x", "5x", "12x"],
-            ["EV/EBITDA", "241.8x", "300x", "NM", "180x"],
-            ["EV/Revenue", "77.8x", "85x", "7x", "16x"],
-            ["FCF Yield", "0.4%", "0.3%", "NM", "0.6%"]
+            [
+              "P/E (TTM)",
+              "239.5x",
+              "180x",
+              "NM",
+              "350x"
+            ],
+            [
+              "Forward P/E",
+              "79.8x",
+              "120x",
+              "NM",
+              "85x"
+            ],
+            [
+              "P/S (NTM)",
+              "48.9x",
+              "60x",
+              "8x",
+              "18x"
+            ],
+            [
+              "P/B",
+              "48.1x",
+              "45x",
+              "5x",
+              "12x"
+            ],
+            [
+              "EV/EBITDA",
+              "241.8x",
+              "300x",
+              "NM",
+              "180x"
+            ],
+            [
+              "EV/Revenue",
+              "77.8x",
+              "85x",
+              "7x",
+              "16x"
+            ],
+            [
+              "FCF Yield",
+              "0.4%",
+              "0.3%",
+              "NM",
+              "0.6%"
+            ]
           ]
         }
       ]
@@ -158,20 +391,76 @@
       ],
       "projectionTable": {
         "title": "DCF Projections ($B)",
-        "columns": ["Metric", "FY2026E", "FY2027E", "FY2028E", "FY2029E", "FY2030E"],
+        "columns": [
+          "Metric",
+          "FY2026E",
+          "FY2027E",
+          "FY2028E",
+          "FY2029E",
+          "FY2030E"
+        ],
         "rows": [
-          ["Revenue", "$7.26", "$10.39", "$13.71", "$17.14", "$20.57"],
-          ["FCF Margin", "47.5%", "48.5%", "49.0%", "49.5%", "50.0%"],
-          ["Free Cash Flow", "$3.45", "$5.04", "$6.72", "$8.48", "$10.29"]
+          [
+            "Revenue",
+            "$7.26",
+            "$10.39",
+            "$13.71",
+            "$17.14",
+            "$20.57"
+          ],
+          [
+            "FCF Margin",
+            "47.5%",
+            "48.5%",
+            "49.0%",
+            "49.5%",
+            "50.0%"
+          ],
+          [
+            "Free Cash Flow",
+            "$3.45",
+            "$5.04",
+            "$6.72",
+            "$8.48",
+            "$10.29"
+          ]
         ]
       },
       "scenarioTable": {
         "title": "DCF Scenario Analysis",
-        "columns": ["Scenario", "Revenue CAGR", "Terminal Growth", "WACC", "Implied Price", "Upside/Downside"],
+        "columns": [
+          "Scenario",
+          "Revenue CAGR",
+          "Terminal Growth",
+          "WACC",
+          "Implied Price",
+          "Upside/Downside"
+        ],
         "rows": [
-          ["Bull Case", "40%+", "4.0%", "9.5%", "$260", "+75.1%"],
-          ["Base Case", "36%", "3.0%", "10.5%", "$185", "+24.6%"],
-          ["Bear Case", "22%", "2.0%", "11.5%", "$70", "-52.8%"]
+          [
+            "Bull Case",
+            "40%+",
+            "4.0%",
+            "9.5%",
+            "$260",
+            "+75.1%"
+          ],
+          [
+            "Base Case",
+            "36%",
+            "3.0%",
+            "10.5%",
+            "$185",
+            "+24.6%"
+          ],
+          [
+            "Bear Case",
+            "22%",
+            "2.0%",
+            "11.5%",
+            "$70",
+            "-52.8%"
+          ]
         ]
       }
     },
@@ -184,12 +473,37 @@
       ],
       "segmentTable": {
         "title": "Business Segments",
-        "columns": ["Segment", "FY2025 Revenue", "% of Total", "YoY Growth"],
+        "columns": [
+          "Segment",
+          "FY2025 Revenue",
+          "% of Total",
+          "YoY Growth"
+        ],
         "rows": [
-          ["U.S. Government", "~$1,550M", "~34.6%", "~45%"],
-          ["U.S. Commercial", "~$1,250M", "~27.9%", "~65%"],
-          ["International Government", "~$900M", "~20.1%", "~30%"],
-          ["International Commercial", "~$775M", "~17.3%", "~35%"]
+          [
+            "U.S. Government",
+            "~$1,550M",
+            "~34.6%",
+            "~45%"
+          ],
+          [
+            "U.S. Commercial",
+            "~$1,250M",
+            "~27.9%",
+            "~65%"
+          ],
+          [
+            "International Government",
+            "~$900M",
+            "~20.1%",
+            "~30%"
+          ],
+          [
+            "International Commercial",
+            "~$775M",
+            "~17.3%",
+            "~35%"
+          ]
         ]
       }
     },
@@ -198,14 +512,42 @@
         "Palantir's moat is genuinely differentiated from typical enterprise software vendors. The combination of mission-critical deployment, government security clearances, and deep customer workflow integration creates structural retention that is difficult to replicate. The CEO's recent public commentary on the company's positioning underscores management's conviction in the platform's uniqueness."
       ],
       "moatTable": {
-        "columns": ["Moat Source", "Strength", "Assessment"],
+        "columns": [
+          "Moat Source",
+          "Strength",
+          "Assessment"
+        ],
         "rows": [
-          ["Switching Costs", "Strong", "Gotham and Foundry are deeply embedded in mission-critical workflows; ripping out PLTR means re-engineering operational processes"],
-          ["Brand & Reputation", "Strong", "Category-defining brand in defense/intelligence; increasingly recognized in enterprise; CEO's public positioning reinforces premium perception"],
-          ["Intellectual Property", "Moderate", "Proprietary ontology-based data model and AIP architecture create meaningful technical differentiation, though IP moats in software are impermanent"],
-          ["Regulatory Barriers", "Moderate", "FedRAMP authorization, DoD security clearances, and ITAR compliance create high barriers to entry in government; less relevant commercially"],
-          ["Network Effects", "Weak", "Ontology-based platform creates some data network effects within an enterprise, but cross-customer network effects are limited"],
-          ["Cost Advantages/Scale", "Weak–Moderate", "82.4% gross margins suggest pricing power and scale, but cost advantages versus hyperscalers building competing platforms remain to be proven"]
+          [
+            "Switching Costs",
+            "Strong",
+            "Gotham and Foundry are deeply embedded in mission-critical workflows; ripping out PLTR means re-engineering operational processes"
+          ],
+          [
+            "Brand & Reputation",
+            "Strong",
+            "Category-defining brand in defense/intelligence; increasingly recognized in enterprise; CEO's public positioning reinforces premium perception"
+          ],
+          [
+            "Intellectual Property",
+            "Moderate",
+            "Proprietary ontology-based data model and AIP architecture create meaningful technical differentiation, though IP moats in software are impermanent"
+          ],
+          [
+            "Regulatory Barriers",
+            "Moderate",
+            "FedRAMP authorization, DoD security clearances, and ITAR compliance create high barriers to entry in government; less relevant commercially"
+          ],
+          [
+            "Network Effects",
+            "Weak",
+            "Ontology-based platform creates some data network effects within an enterprise, but cross-customer network effects are limited"
+          ],
+          [
+            "Cost Advantages/Scale",
+            "Weak–Moderate",
+            "82.4% gross margins suggest pricing power and scale, but cost advantages versus hyperscalers building competing platforms remain to be proven"
+          ]
         ]
       },
       "overallMoatConclusion": "Overall Moat Rating: Narrow-to-Wide. The switching cost and government barriers moat is genuinely wide within the installed base. The commercial moat is still being established — AIP adoption is broadening it, but the competitive threat from AWS, Microsoft, and Google building enterprise data-AI platforms warrants continued vigilance."
@@ -251,12 +593,42 @@
       ],
       "acquisitionTable": {
         "title": "Capital Allocation Snapshot",
-        "columns": ["Category", "FY2023", "FY2024", "FY2025", "Commentary"],
+        "columns": [
+          "Category",
+          "FY2023",
+          "FY2024",
+          "FY2025",
+          "Commentary"
+        ],
         "rows": [
-          ["CapEx", "$15.1M", "$12.6M", "$33.9M", "Asset-light model with minimal capital intensity"],
-          ["Major Acquisitions", "None", "None", "None", "Organic product development over inorganic growth"],
-          ["Dividends", "None", "None", "None", "Excess FCF retained to fund growth and maintain balance sheet optionality"],
-          ["FCF Reinvestment Rate", "~98%", "~99%", "~99%", "Capital has been reinvested organically into R&D and go-to-market"]
+          [
+            "CapEx",
+            "$15.1M",
+            "$12.6M",
+            "$33.9M",
+            "Asset-light model with minimal capital intensity"
+          ],
+          [
+            "Major Acquisitions",
+            "None",
+            "None",
+            "None",
+            "Organic product development over inorganic growth"
+          ],
+          [
+            "Dividends",
+            "None",
+            "None",
+            "None",
+            "Excess FCF retained to fund growth and maintain balance sheet optionality"
+          ],
+          [
+            "FCF Reinvestment Rate",
+            "~98%",
+            "~99%",
+            "~99%",
+            "Capital has been reinvested organically into R&D and go-to-market"
+          ]
         ]
       }
     },
@@ -268,22 +640,70 @@
   },
   "riskAnalysis": {
     "riskTable": {
-      "columns": ["Risk Factor", "Type", "Probability", "Impact", "Mitigation"],
+      "columns": [
+        "Risk Factor",
+        "Type",
+        "Probability",
+        "Impact",
+        "Mitigation"
+      ],
       "rows": [
-        ["Valuation / Multiple Compression", "Idiosyncratic", "High", "High", "Sustained beat-and-raise quarters reduce compression risk; position sizing discipline"],
-        ["Government Spending Cuts", "Idiosyncratic", "Medium", "High", "Platform entrenchment makes PLTR a \"must-have\" — discretionary DoD software is cut first, mission-critical last"],
-        ["SBC Dilution", "Idiosyncratic", "Medium", "Medium", "SBC declining as % of revenue; monitoring trend quarterly"],
-        ["Customer Concentration", "Idiosyncratic", "Low–Medium", "High", "Commercial diversification across 100+ customers reduces single-contract risk over time"],
-        ["Hyperscaler Platform Competition", "Industry", "Medium", "High", "Ontology differentiation and mission-critical embedding create 3-5 year switching cost buffer"],
-        ["Interest Rate Re-Acceleration", "Macro", "Low–Medium", "High", "Real FCF generation provides partial offset to duration risk; no refinancing need"],
-        ["Geopolitical Contract Disruption", "Macro", "Low", "Medium", "U.S. domestic focus and Allied nation partnerships diversify single-country government exposure"]
+        [
+          "Valuation / Multiple Compression",
+          "Idiosyncratic",
+          "High",
+          "High",
+          "Sustained beat-and-raise quarters reduce compression risk; position sizing discipline"
+        ],
+        [
+          "Government Spending Cuts",
+          "Idiosyncratic",
+          "Medium",
+          "High",
+          "Platform entrenchment makes PLTR a \"must-have\" — discretionary DoD software is cut first, mission-critical last"
+        ],
+        [
+          "SBC Dilution",
+          "Idiosyncratic",
+          "Medium",
+          "Medium",
+          "SBC declining as % of revenue; monitoring trend quarterly"
+        ],
+        [
+          "Customer Concentration",
+          "Idiosyncratic",
+          "Low–Medium",
+          "High",
+          "Commercial diversification across 100+ customers reduces single-contract risk over time"
+        ],
+        [
+          "Hyperscaler Platform Competition",
+          "Industry",
+          "Medium",
+          "High",
+          "Ontology differentiation and mission-critical embedding create 3-5 year switching cost buffer"
+        ],
+        [
+          "Interest Rate Re-Acceleration",
+          "Macro",
+          "Low–Medium",
+          "High",
+          "Real FCF generation provides partial offset to duration risk; no refinancing need"
+        ],
+        [
+          "Geopolitical Contract Disruption",
+          "Macro",
+          "Low",
+          "Medium",
+          "U.S. domestic focus and Allied nation partnerships diversify single-country government exposure"
+        ]
       ]
     }
   },
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$185.00",
-    "impliedUpsidePct": "+24.6%",
+    "impliedUpsidePct": "+44.5%",
     "bullBaseBear": {
       "bull": "$260",
       "base": "$185",

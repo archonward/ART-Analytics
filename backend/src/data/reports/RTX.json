@@ -9,9 +9,9 @@
     "author": "ART Analytics",
     "rating": "BUY",
     "targetPrice": "$225",
-    "currentPrice": "$196.21",
-    "impliedUpsidePct": "+14.7%",
-    "marketDataAsOf": "Apr 2, 2026, 8:00 PM",
+    "currentPrice": "$201.56",
+    "impliedUpsidePct": "+11.6%",
+    "marketDataAsOf": "Apr 10, 2026, 4:00 PM",
     "estimatedReadMinutes": 24,
     "coverageStatus": "published"
   },
@@ -20,7 +20,7 @@
     "snapshotMetrics": [
       {
         "label": "Market Cap",
-        "value": "$264.1B"
+        "value": "$271.3B"
       },
       {
         "label": "Enterprise Value",
@@ -48,7 +48,7 @@
       },
       {
         "label": "P/E",
-        "value": "39.6x"
+        "value": "40.6x"
       },
       {
         "label": "Revenue Growth YoY",
@@ -179,7 +179,7 @@
             ],
             [
               "YoY Revenue Growth",
-              "\u2014",
+              "—",
               "+2.8%",
               "+17.1%",
               "+9.7%",
@@ -560,21 +560,21 @@
             "$27.5",
             "31%",
             "14%",
-            "Yes \u2014 GTF ramp and aftermarket"
+            "Yes — GTF ramp and aftermarket"
           ],
           [
             "Collins Aerospace",
             "$27.0",
             "30%",
             "9%",
-            "Steady \u2014 commercial recovery"
+            "Steady — commercial recovery"
           ],
           [
             "Raytheon",
             "$34.0",
             "38%",
             "13%",
-            "Yes \u2014 defense spending surge"
+            "Yes — defense spending surge"
           ]
         ]
       }
@@ -677,19 +677,19 @@
             "Divestiture: Raytheon Intelligence & Space assets to L3Harris",
             "2023",
             "$4.7B",
-            "Positive \u2014 streamlined portfolio"
+            "Positive — streamlined portfolio"
           ],
           [
             "Divestiture: Raytheon Missiles & Defense legacy assets",
             "2023",
             "Various",
-            "Positive \u2014 sharpened portfolio focus"
+            "Positive — sharpened portfolio focus"
           ],
           [
             "F135 Engine Enhancement Program investment",
-            "2022\u2013ongoing",
+            "2022–ongoing",
             "Multi-year internal program",
-            "Positive \u2014 secures long-duration propulsion franchise"
+            "Positive — secures long-duration propulsion franchise"
           ]
         ]
       }
@@ -766,7 +766,7 @@
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$225",
-    "impliedUpsidePct": "+14.7%",
+    "impliedUpsidePct": "+11.6%",
     "bullBaseBear": {
       "bull": "$258",
       "base": "$225",
@@ -783,17 +783,17 @@
     "ratingChangeTriggers": [
       {
         "action": "Upgrade to Strong Buy",
-        "direction": "\u2191",
+        "direction": "↑",
         "trigger": "Stock pulls back below $180 on macro noise without fundamental deterioration, or FY26E EPS guidance rises above $7.20 on the Q1 2026 earnings call."
       },
       {
         "action": "Downgrade to Hold",
-        "direction": "\u2193",
+        "direction": "↓",
         "trigger": "Two consecutive quarters of operating margin below 10.5%, GTF inspection total cost estimate above $8B, or Raytheon book-to-bill below 1.0x for two quarters."
       },
       {
         "action": "Downgrade to Sell",
-        "direction": "\u2193\u2193",
+        "direction": "↓↓",
         "trigger": "FCF drops below $5.0B in FY2026, or U.S. defense spending falls sharply while allied demand reverses, or the stock rises above $245 with limited remaining upside."
       }
     ],

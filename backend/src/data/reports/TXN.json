@@ -9,9 +9,9 @@
     "author": "ART Analytics",
     "rating": "HOLD",
     "targetPrice": "$222",
-    "currentPrice": "$194.87",
-    "impliedUpsidePct": "+13.9%",
-    "marketDataAsOf": "Apr 2, 2026, 8:00 PM",
+    "currentPrice": "$214.73",
+    "impliedUpsidePct": "+3.4%",
+    "marketDataAsOf": "Apr 10, 2026, 4:00 PM",
     "estimatedReadMinutes": 23,
     "coverageStatus": "published"
   },
@@ -20,7 +20,7 @@
     "snapshotMetrics": [
       {
         "label": "Market Cap",
-        "value": "$177.4B"
+        "value": "$195.5B"
       },
       {
         "label": "Enterprise Value",
@@ -48,7 +48,7 @@
       },
       {
         "label": "P/E",
-        "value": "35.7x"
+        "value": "39.4x"
       },
       {
         "label": "Revenue Growth YoY",
@@ -62,7 +62,7 @@
   },
   "executiveSummary": {
     "summaryParagraphs": [
-      "Texas Instruments remains the strongest scaled analog semiconductor franchise in the market, with deep exposure to industrial and automotive end-markets and a long-standing strategy built around owned manufacturing, broad product breadth, and disciplined capital returns. After the 2022 peak and the 2023\u20132024 inventory correction, revenue recovery is underway, but profitability remains meaningfully below prior-cycle highs because new capacity is being absorbed slowly.",
+      "Texas Instruments remains the strongest scaled analog semiconductor franchise in the market, with deep exposure to industrial and automotive end-markets and a long-standing strategy built around owned manufacturing, broad product breadth, and disciplined capital returns. After the 2022 peak and the 2023–2024 inventory correction, revenue recovery is underway, but profitability remains meaningfully below prior-cycle highs because new capacity is being absorbed slowly.",
       "The central investment case is that Texas Instruments should emerge from the current cycle with an even stronger long-term cost position, but the stock already discounts a good portion of that outcome. At current multiples, investors are paying in advance for free-cash-flow normalization, margin recovery, and a smooth integration of the newly disclosed transaction."
     ],
     "catalysts": [
@@ -647,17 +647,17 @@
         "rows": [
           [
             "Fab capacity expansion (CHIPS Act-related)",
-            "2022\u20132025",
+            "2022–2025",
             "$15.0B+",
             "Expand domestic 300mm manufacturing and reinforce long-term cost moat",
-            "Strategic \u2013 long-term positive, near-term FCF dilutive"
+            "Strategic – long-term positive, near-term FCF dilutive"
           ],
           [
             "Strategic acquisition / business combination",
             "2026",
             "Not disclosed",
             "Reset capex trajectory and potentially substitute acquired capacity for greenfield build",
-            "TBD \u2013 integration and strategic details remain limited"
+            "TBD – integration and strategic details remain limited"
           ]
         ]
       }
@@ -727,7 +727,7 @@
   "finalRecommendation": {
     "rating": "HOLD",
     "priceTarget": "$222",
-    "impliedUpsidePct": "+13.9%",
+    "impliedUpsidePct": "+3.4%",
     "bullBaseBear": {
       "bull": "$270",
       "base": "$222",
@@ -744,17 +744,17 @@
     "ratingChangeTriggers": [
       {
         "action": "Upgrade to Buy",
-        "direction": "\u2191",
+        "direction": "↑",
         "trigger": "Two consecutive quarters of 60%+ gross margin and a free-cash-flow run-rate above $1.5B quarterly, or a significant stock pullback without change in fundamentals"
       },
       {
         "action": "Downgrade to Hold / Lower Target",
-        "direction": "\u2193",
+        "direction": "↓",
         "trigger": "FY2026 gross margins stall below 58% and free-cash-flow recovery slows materially"
       },
       {
         "action": "Downgrade to Sell",
-        "direction": "\u2193\u2193",
+        "direction": "↓↓",
         "trigger": "Revenue estimates fall below $18.5B, acquisition integration costs rise sharply, and the FCF recovery thesis breaks"
       }
     ],

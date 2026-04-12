@@ -9,9 +9,9 @@
     "author": "ART Analytics",
     "rating": "BUY",
     "targetPrice": "$125",
-    "currentPrice": "$96.61",
-    "impliedUpsidePct": "+29.4%",
-    "marketDataAsOf": "Apr 2, 2026, 8:02 PM",
+    "currentPrice": "$99.17",
+    "impliedUpsidePct": "+26.0%",
+    "marketDataAsOf": "Apr 10, 2026, 4:02 PM",
     "estimatedReadMinutes": 23,
     "coverageStatus": "published"
   },
@@ -20,7 +20,7 @@
     "snapshotMetrics": [
       {
         "label": "Market Cap",
-        "value": "$171.3B"
+        "value": "$175.9B"
       },
       {
         "label": "Enterprise Value",
@@ -48,7 +48,7 @@
       },
       {
         "label": "P/E",
-        "value": "14.2x"
+        "value": "14.6x"
       },
       {
         "label": "Revenue Growth YoY",
@@ -453,9 +453,9 @@
         "Under these assumptions, intrinsic value still comes out above the current share price by a meaningful margin. Importantly, that upside does not require a heroic bull case; it mainly requires the company to execute on a turnaround that is already visible in the numbers."
       ],
       "assumptions": [
-        "Revenue CAGR FY2026\u2013FY2030: 5.5%",
+        "Revenue CAGR FY2026–FY2030: 5.5%",
         "EBITDA margin expands from 20.5% in FY2026E to 22.5% by FY2030E",
-        "CapEx runs at 8.5% of revenue in FY2026\u2013FY2027 before declining toward 7.0%",
+        "CapEx runs at 8.5% of revenue in FY2026–FY2027 before declining toward 7.0%",
         "WACC: 9.5%",
         "Terminal growth rate: 2.5%"
       ],
@@ -679,21 +679,21 @@
             "FY2024",
             "$8.6B",
             "Complete streaming bundle economics and simplify ownership structure",
-            "Positive \u2013 strengthens ARPU and strategic control"
+            "Positive – strengthens ARPU and strategic control"
           ],
           [
             "ESPN / sports-rights renewals",
             "Ongoing",
-            "$3\u20135B per year",
+            "$3–5B per year",
             "Preserve ESPN's leadership position and future DTC optionality",
-            "Critical \u2013 strategically necessary but cost-intensive"
+            "Critical – strategically necessary but cost-intensive"
           ],
           [
             "Streaming content rationalization",
-            "FY2024\u2013FY2025",
+            "FY2024–FY2025",
             "Various",
             "Improve streaming profitability and reduce low-return spending",
-            "Positive \u2013 directly supported margin recovery"
+            "Positive – directly supported margin recovery"
           ]
         ]
       }
@@ -770,7 +770,7 @@
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$125",
-    "impliedUpsidePct": "+29.4%",
+    "impliedUpsidePct": "+26.0%",
     "bullBaseBear": {
       "bull": "$155",
       "base": "$125",
@@ -787,17 +787,17 @@
     "ratingChangeTriggers": [
       {
         "action": "Upgrade to Strong Buy",
-        "direction": "\u2191",
+        "direction": "↑",
         "trigger": "Streaming profitability scales further, Parks remain resilient, and ESPN DTC launches with strong early traction"
       },
       {
         "action": "Downgrade to Hold",
-        "direction": "\u2193",
+        "direction": "↓",
         "trigger": "Macro softness begins to pressure Parks materially or streaming profitability stalls"
       },
       {
         "action": "Downgrade to Sell",
-        "direction": "\u2193\u2193",
+        "direction": "↓↓",
         "trigger": "Parks weaken sharply, linear decline accelerates, and ESPN DTC execution falters simultaneously"
       }
     ],

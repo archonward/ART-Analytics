@@ -9,9 +9,9 @@
     "author": "ART Analytics",
     "rating": "BUY",
     "targetPrice": "$275",
-    "currentPrice": "$218.44",
-    "impliedUpsidePct": "+25.9%",
-    "marketDataAsOf": "Apr 2, 2026, 8:00 PM",
+    "currentPrice": "$263.66",
+    "impliedUpsidePct": "+4.3%",
+    "marketDataAsOf": "Apr 10, 2026, 4:00 PM",
     "estimatedReadMinutes": 24,
     "coverageStatus": "published"
   },
@@ -20,7 +20,7 @@
     "snapshotMetrics": [
       {
         "label": "Market Cap",
-        "value": "$274.4B"
+        "value": "$331.2B"
       },
       {
         "label": "Enterprise Value",
@@ -48,7 +48,7 @@
       },
       {
         "label": "P/E",
-        "value": "44.9x"
+        "value": "54.0x"
       },
       {
         "label": "Revenue Growth YoY",
@@ -725,7 +725,7 @@
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$275",
-    "impliedUpsidePct": "+25.9%",
+    "impliedUpsidePct": "+4.3%",
     "bullBaseBear": {
       "bull": "$340",
       "base": "$275",
@@ -742,17 +742,17 @@
     "ratingChangeTriggers": [
       {
         "action": "Upgrade to Strong Buy",
-        "direction": "\u2191",
+        "direction": "↑",
         "trigger": "FY26E consensus revenue revised above $24B and gross margin guidance above 51%, while the stock remains below $235."
       },
       {
         "action": "Downgrade to Hold",
-        "direction": "\u2193",
+        "direction": "↓",
         "trigger": "China revenue rises above 35% of total with new export-license uncertainty, or memory customer capex cuts exceed 20% in aggregate, or gross margin guidance falls below 47% for two consecutive quarters."
       },
       {
         "action": "Downgrade to Sell",
-        "direction": "\u2193\u2193",
+        "direction": "↓↓",
         "trigger": "Blanket China entity-list action removes more than $4B in annualized revenue, or WFE industry spending falls below $85B for CY2027E, or operating margin falls below 26% without a credible recovery path within six quarters."
       }
     ],

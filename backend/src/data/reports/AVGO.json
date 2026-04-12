@@ -9,9 +9,9 @@
     "author": "ART Aanlytics",
     "rating": "BUY",
     "targetPrice": "$465",
-    "currentPrice": "$318.83",
-    "impliedUpsidePct": "+45.9%",
-    "marketDataAsOf": "Mar 24, 2026, 3:14 PM",
+    "currentPrice": "$371.55",
+    "impliedUpsidePct": "+25.2%",
+    "marketDataAsOf": "Apr 10, 2026, 4:00 PM",
     "estimatedReadMinutes": 13,
     "coverageStatus": "published"
   },
@@ -20,7 +20,7 @@
     "snapshotMetrics": [
       {
         "label": "Market Cap",
-        "value": "$1.51T"
+        "value": "$1.76T"
       },
       {
         "label": "Enterprise Value",
@@ -40,7 +40,7 @@
       },
       {
         "label": "P/E",
-        "value": "62.2x"
+        "value": "72.4x"
       },
       {
         "label": "EV/EBITDA",
@@ -82,7 +82,7 @@
         "TTM revenue growth of 16.4% remains strong after a large acquisition step-up.",
         "Gross margin improved to 76.7% TTM, helped by software mix and favorable product mix.",
         "Net margin of 36.6% highlights the scalability of the model despite elevated integration complexity.",
-        "Earnings Quality: Broadcom\u2019s combination of high gross margins, low capex intensity, and recurring software contribution creates a quality profile that is stronger than many pure-play chip peers."
+        "Earnings Quality: Broadcom’s combination of high gross margins, low capex intensity, and recurring software contribution creates a quality profile that is stronger than many pure-play chip peers."
       ],
       "tables": [
         {
@@ -183,7 +183,7 @@
     },
     "balanceSheetAnalysis": {
       "summaryParagraphs": [
-        "The balance sheet reflects the VMware integration, with assets rising materially and leverage peaking before beginning to improve. Even so, the company\u2019s cash generation leaves the capital structure manageable."
+        "The balance sheet reflects the VMware integration, with assets rising materially and leverage peaking before beginning to improve. Even so, the company’s cash generation leaves the capital structure manageable."
       ],
       "tables": [
         {
@@ -241,7 +241,7 @@
         "Operating cash flow rose 38% year over year in FY25.",
         "Capex stayed below $700M, preserving the asset-light nature of the business.",
         "TTM free cash flow of $25.5B underpins debt reduction, dividends, and optional buybacks.",
-        "Cash Generation Machine: Broadcom\u2019s free cash flow profile is unusually strong for a technology company with this level of growth exposure. That remains a major support for the investment case."
+        "Cash Generation Machine: Broadcom’s free cash flow profile is unusually strong for a technology company with this level of growth exposure. That remains a major support for the investment case."
       ],
       "tables": [
         {
@@ -297,7 +297,7 @@
   "valuation": {
     "multiplesAnalysis": {
       "summaryParagraphs": [
-        "Broadcom appears inexpensive relative to its growth, profitability, and AI positioning. The most striking disconnect is between the company\u2019s strong forward earnings growth and its modest forward earnings multiple."
+        "Broadcom appears inexpensive relative to its growth, profitability, and AI positioning. The most striking disconnect is between the company’s strong forward earnings growth and its modest forward earnings multiple."
       ],
       "tables": [
         {
@@ -445,7 +445,7 @@
   "businessModelMoat": {
     "segmentProfile": {
       "summaryParagraphs": [
-        "Broadcom\u2019s model rests on two engines: Semiconductor Solutions and Infrastructure Software. The first captures AI, networking, and connectivity demand; the second adds high-margin recurring revenue and higher customer stickiness."
+        "Broadcom’s model rests on two engines: Semiconductor Solutions and Infrastructure Software. The first captures AI, networking, and connectivity demand; the second adds high-margin recurring revenue and higher customer stickiness."
       ],
       "segmentTable": {
         "title": "Business Segment",
@@ -545,7 +545,7 @@
     ],
     "tamPositioning": {
       "summaryParagraphs": [
-        "Management\u2019s opportunity set spans AI infrastructure, data-center networking, and enterprise software. Current revenue still represents only a modest share of the combined addressable market."
+        "Management’s opportunity set spans AI infrastructure, data-center networking, and enterprise software. Current revenue still represents only a modest share of the combined addressable market."
       ],
       "highlights": [
         "AI infrastructure TAM estimated at $150B through 2028.",
@@ -562,7 +562,7 @@
     },
     "capitalAllocation": {
       "summaryParagraphs": [
-        "Broadcom\u2019s acquisition history matters because the current valuation depends partly on investors trusting management\u2019s ability to integrate software assets without destroying returns."
+        "Broadcom’s acquisition history matters because the current valuation depends partly on investors trusting management’s ability to integrate software assets without destroying returns."
       ],
       "acquisitionTable": {
         "title": "Major Acquisition",
@@ -651,7 +651,7 @@
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$465",
-    "impliedUpsidePct": "+45.9%",
+    "impliedUpsidePct": "+25.2%",
     "bullBaseBear": {
       "bull": "$595",
       "base": "$485",
@@ -668,12 +668,12 @@
     "ratingChangeTriggers": [
       {
         "action": "Upgrade",
-        "direction": "\u2191",
+        "direction": "↑",
         "trigger": "AI spending accelerates and software synergies exceed expectations."
       },
       {
         "action": "Downgrade",
-        "direction": "\u2193",
+        "direction": "↓",
         "trigger": "Broadcom sustains weaker-than-expected AI growth or software integration disappoints enough to undermine the base-case margin and cash-flow profile."
       }
     ],
@@ -684,6 +684,6 @@
     "Will hyperscalers increasingly internalize AI silicon design and reduce Broadcom dependence?",
     "How much can supply constraints delay recognition of the committed AI backlog?",
     "Can enterprise software cross-selling sustain double-digit annual growth after integration?",
-    "How quickly can debt move from current levels toward the company\u2019s sub-$50B objective?"
+    "How quickly can debt move from current levels toward the company’s sub-$50B objective?"
   ]
 }

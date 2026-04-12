@@ -9,9 +9,9 @@
     "author": "ART Analytics",
     "rating": "BUY",
     "targetPrice": "$750",
-    "currentPrice": "$595.80",
-    "impliedUpsidePct": "+25.9%",
-    "marketDataAsOf": "Mar 24, 2026, 3:14 PM",
+    "currentPrice": "$629.86",
+    "impliedUpsidePct": "+19.1%",
+    "marketDataAsOf": "Apr 10, 2026, 4:00 PM",
     "estimatedReadMinutes": 13,
     "coverageStatus": "published"
   },
@@ -20,7 +20,7 @@
     "snapshotMetrics": [
       {
         "label": "Market Cap",
-        "value": "$1.51T"
+        "value": "$1.59T"
       },
       {
         "label": "Enterprise Value",
@@ -40,7 +40,7 @@
       },
       {
         "label": "P/E",
-        "value": "25.4x"
+        "value": "26.8x"
       },
       {
         "label": "EV/EBITDA",
@@ -55,7 +55,7 @@
   "executiveSummary": {
     "summaryParagraphs": [
       "Meta's AI infrastructure acceleration and advertising recovery position the company for a multi-year growth cycle. The business has emerged from its most aggressive metaverse-investment phase with a leaner operating structure, while AI-driven ad targeting, creative tools, and recommendation systems are already lifting advertiser demand and user engagement.",
-      "Meta trades at 25.4x earnings despite 24% revenue growth, 41% operating margins, and a still-underappreciated AI monetization path. The report\u2019s base-case valuation points to $750 per share, supported by double-digit revenue growth and some margin expansion as the current investment cycle matures."
+      "Meta trades at 25.4x earnings despite 24% revenue growth, 41% operating margins, and a still-underappreciated AI monetization path. The report’s base-case valuation points to $750 per share, supported by double-digit revenue growth and some margin expansion as the current investment cycle matures."
     ],
     "catalysts": [
       "$27B AI infrastructure investment signals management conviction around monetizing AI across advertising and consumer products.",
@@ -76,7 +76,7 @@
       ],
       "highlights": [
         "Revenue accelerated to 22.1% growth in FY2025, sustained by stronger advertiser demand and engagement improvements.",
-        "Operating margins improved versus 2023 and remained robust even during the company\u2019s heaviest investment cycle.",
+        "Operating margins improved versus 2023 and remained robust even during the company’s heaviest investment cycle.",
         "Net income of $60.5B still implies a 30.1% net margin, underscoring strong profit conversion.",
         "Margin Resilience: Even with record AI infrastructure spending, Meta preserved operating margins above 41%, which suggests pricing power, scale efficiency, and unusually high operating leverage for a platform business."
       ],
@@ -165,7 +165,7 @@
     },
     "balanceSheetAnalysis": {
       "summaryParagraphs": [
-        "The balance sheet reflects Meta\u2019s transition to an AI-first infrastructure footprint while still retaining fortress-like characteristics. Asset growth is being driven mainly by property and equipment investment."
+        "The balance sheet reflects Meta’s transition to an AI-first infrastructure footprint while still retaining fortress-like characteristics. Asset growth is being driven mainly by property and equipment investment."
       ],
       "tables": [
         {
@@ -217,13 +217,13 @@
     },
     "cashFlowReturns": {
       "summaryParagraphs": [
-        "Operating cash flow remained powerful in FY2025, but free cash flow compressed because capex stepped up sharply. The key distinction for investors is whether today\u2019s capex is temporary infrastructure seeding or a structurally higher spend base."
+        "Operating cash flow remained powerful in FY2025, but free cash flow compressed because capex stepped up sharply. The key distinction for investors is whether today’s capex is temporary infrastructure seeding or a structurally higher spend base."
       ],
       "highlights": [
         "Operating cash flow increased to $115.8B, up 26.8% year over year.",
         "Capex reached $69.7B, equivalent to 34.7% of revenue.",
         "Free cash flow fell to $46.1B, still substantial in absolute terms but well below the prior-year margin profile.",
-        "Return metrics remain strong even during this investment-heavy period, with ROE of 27.8% and ROIC of 22.3% still comfortably above a reasonable estimate of the firm\u2019s cost of capital."
+        "Return metrics remain strong even during this investment-heavy period, with ROE of 27.8% and ROIC of 22.3% still comfortably above a reasonable estimate of the firm’s cost of capital."
       ],
       "tables": [
         {
@@ -272,7 +272,7 @@
   "valuation": {
     "multiplesAnalysis": {
       "summaryParagraphs": [
-        "Meta trades at reasonable levels relative to large-cap growth peers. The multiple is no longer distressed, but it also does not appear extreme given the company\u2019s profitability and growth profile."
+        "Meta trades at reasonable levels relative to large-cap growth peers. The multiple is no longer distressed, but it also does not appear extreme given the company’s profitability and growth profile."
       ],
       "tables": [
         {
@@ -464,7 +464,7 @@
     },
     "economicMoatAssessment": {
       "summaryParagraphs": [
-        "Meta\u2019s moat rests on scale, data, distribution, and network effects. The strongest part of the thesis is not merely user count, but the feedback loop between user engagement, advertiser demand, and model training quality."
+        "Meta’s moat rests on scale, data, distribution, and network effects. The strongest part of the thesis is not merely user count, but the feedback loop between user engagement, advertiser demand, and model training quality."
       ],
       "moatTable": {
         "columns": [
@@ -517,7 +517,7 @@
     "mediumTermDrivers": [
       "Threads monetization could become a meaningful incremental ad surface if engagement continues scaling.",
       "WhatsApp Business API remains an under-monetized asset, especially in emerging markets.",
-      "AR glasses and related devices could open the next hardware layer around 2027\u20132028."
+      "AR glasses and related devices could open the next hardware layer around 2027–2028."
     ],
     "longTermOpportunities": [
       "A metaverse platform could become a future commerce and entertainment ecosystem, though timing remains uncertain.",
@@ -526,20 +526,20 @@
     ],
     "tamPositioning": {
       "summaryParagraphs": [
-        "The combined opportunity across digital advertising, commerce, hardware, and enterprise software suggests that Meta\u2019s long-term revenue ceiling is materially higher than its current revenue base, but execution quality matters more than market size alone."
+        "The combined opportunity across digital advertising, commerce, hardware, and enterprise software suggests that Meta’s long-term revenue ceiling is materially higher than its current revenue base, but execution quality matters more than market size alone."
       ],
       "highlights": [
-        "Digital Advertising: 2026 TAM $758B, 2030 TAM $1,240B, Meta market share 22%, revenue opportunity $167\u2013273B.",
-        "Social Commerce: 2026 TAM $1,850B, 2030 TAM $2,900B, Meta market share 5%, revenue opportunity $93\u2013145B.",
-        "VR/AR Hardware: 2026 TAM $31B, 2030 TAM $87B, Meta market share 75%, revenue opportunity $23\u201365B.",
-        "Enterprise Software: 2026 TAM $45B, 2030 TAM $78B, Meta market share 1%, revenue opportunity $0.5\u20130.8B."
+        "Digital Advertising: 2026 TAM $758B, 2030 TAM $1,240B, Meta market share 22%, revenue opportunity $167–273B.",
+        "Social Commerce: 2026 TAM $1,850B, 2030 TAM $2,900B, Meta market share 5%, revenue opportunity $93–145B.",
+        "VR/AR Hardware: 2026 TAM $31B, 2030 TAM $87B, Meta market share 75%, revenue opportunity $23–65B.",
+        "Enterprise Software: 2026 TAM $45B, 2030 TAM $78B, Meta market share 1%, revenue opportunity $0.5–0.8B."
       ]
     }
   },
   "managementGovernance": {
     "leadership": {
       "summaryParagraphs": [
-        "Meta\u2019s leadership combines founder control with high operational intensity. This structure allows decisive long-range bets, but it also concentrates strategic risk around Mark Zuckerberg\u2019s judgment. Mark Zuckerberg has led the company through mobile, video, and now AI platform transitions, Susan Li provides finance leadership with a sharper cost and capital-allocation lens, and Andrew Bosworth remains central to the company\u2019s hardware and infrastructure agenda."
+        "Meta’s leadership combines founder control with high operational intensity. This structure allows decisive long-range bets, but it also concentrates strategic risk around Mark Zuckerberg’s judgment. Mark Zuckerberg has led the company through mobile, video, and now AI platform transitions, Susan Li provides finance leadership with a sharper cost and capital-allocation lens, and Andrew Bosworth remains central to the company’s hardware and infrastructure agenda."
       ]
     },
     "capitalAllocation": {
@@ -639,7 +639,7 @@
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$750",
-    "impliedUpsidePct": "+25.9%",
+    "impliedUpsidePct": "+19.1%",
     "bullBaseBear": {
       "bull": "$920",
       "base": "$750",
@@ -656,17 +656,17 @@
     "ratingChangeTriggers": [
       {
         "action": "Upgrade to Strong Buy",
-        "direction": "\u2191",
+        "direction": "↑",
         "trigger": "Q2 2026 revenue growth above 30% with clear AI monetization evidence."
       },
       {
         "action": "Downgrade to Hold",
-        "direction": "\u2193",
+        "direction": "↓",
         "trigger": "Revenue growth below 15% for two consecutive quarters."
       },
       {
         "action": "Downgrade to Sell",
-        "direction": "\u2193\u2193",
+        "direction": "↓↓",
         "trigger": "A major regulatory settlement above $50B or sustained user decline above 5%."
       }
     ],
@@ -679,7 +679,7 @@
     "When will Threads monetization start, and what scale could it realistically add to annual revenue?",
     "Can current gross margins remain durable as AI compute costs continue scaling?",
     "Will internal AI-agent testing evolve into a credible enterprise product roadmap?",
-    "How could China-related sanctions alter Meta\u2019s broader VR and AR strategy?",
+    "How could China-related sanctions alter Meta’s broader VR and AR strategy?",
     "At what point will management provide cleaner AI revenue attribution to support investor confidence?"
   ]
 }

@@ -9,9 +9,9 @@
     "author": "ART Analytics",
     "rating": "BUY",
     "targetPrice": "$265",
-    "currentPrice": "$187.18",
-    "impliedUpsidePct": "+41.6%",
-    "marketDataAsOf": "Apr 2, 2026, 8:00 PM",
+    "currentPrice": "$164.96",
+    "impliedUpsidePct": "+60.6%",
+    "marketDataAsOf": "Apr 10, 2026, 4:00 PM",
     "estimatedReadMinutes": 24,
     "coverageStatus": "published"
   },
@@ -20,7 +20,7 @@
     "snapshotMetrics": [
       {
         "label": "Market Cap",
-        "value": "$175.4B"
+        "value": "$154.6B"
       },
       {
         "label": "Enterprise Value",
@@ -48,7 +48,7 @@
       },
       {
         "label": "P/E",
-        "value": "24.0x"
+        "value": "21.1x"
       },
       {
         "label": "Revenue Growth YoY",
@@ -171,7 +171,7 @@
             ],
             [
               "Revenue Growth YoY",
-              "\u2014",
+              "—",
               "+11.2%",
               "+8.7%",
               "+9.6%",
@@ -250,7 +250,7 @@
       "highlights": [
         "FY26 free cash flow reached $14.4B, while TTM FCF rose further to $16.4B.",
         "CapEx intensity declined from 2.5% of revenue in FY23 to 1.4% in FY26.",
-        "ROIC improved to roughly 12.5%, modestly above an estimated 9.5\u201310.0% WACC."
+        "ROIC improved to roughly 12.5%, modestly above an estimated 9.5–10.0% WACC."
       ],
       "tables": [
         {
@@ -433,7 +433,7 @@
         "CapEx remains around 1.5% of revenue across scenarios",
         "WACC: 10.0% base, 9.0% bull, 11.0% bear",
         "Terminal growth rate: 3.0% base and bull, 2.0% bear",
-        "Operating margin continues expanding toward 25\u201327% by FY30 in the base case",
+        "Operating margin continues expanding toward 25–27% by FY30 in the base case",
         "Revenue CAGR of roughly 9.5% in the base case"
       ],
       "projectionTable": {
@@ -658,21 +658,21 @@
             "FY22",
             "$27.7B",
             "Add enterprise collaboration layer and messaging workflow to the platform",
-            "Mixed \u2013 integration was slower than expected but strategically important to Agentforce"
+            "Mixed – integration was slower than expected but strategically important to Agentforce"
           ],
           [
             "Tableau Software",
             "FY20",
             "$15.7B",
             "Expand analytics and BI capabilities across customer data",
-            "Positive \u2013 now integrated into broader data and AI architecture"
+            "Positive – now integrated into broader data and AI architecture"
           ],
           [
             "MuleSoft",
             "FY19",
             "$6.5B",
             "Strengthen API integration and enterprise system connectivity",
-            "Strong \u2013 critical platform layer and important to Agentforce workflows"
+            "Strong – critical platform layer and important to Agentforce workflows"
           ]
         ]
       }
@@ -756,7 +756,7 @@
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$265",
-    "impliedUpsidePct": "+41.6%",
+    "impliedUpsidePct": "+60.6%",
     "bullBaseBear": {
       "bull": "$340",
       "base": "$265",
@@ -773,17 +773,17 @@
     "ratingChangeTriggers": [
       {
         "action": "Upgrade to Strong Buy",
-        "direction": "\u2191",
+        "direction": "↑",
         "trigger": "Agentforce adoption clearly exceeds expectations and revenue reaccelerates while margins continue expanding"
       },
       {
         "action": "Downgrade to Hold",
-        "direction": "\u2193",
+        "direction": "↓",
         "trigger": "AI monetization remains vague and revenue growth trends toward or below 8% without offsetting operating leverage"
       },
       {
         "action": "Downgrade to Sell",
-        "direction": "\u2193\u2193",
+        "direction": "↓↓",
         "trigger": "Enterprise budget softness and competitive pressure drive a material growth reset while ASR-related leverage weakens balance-sheet flexibility"
       }
     ],

@@ -9,9 +9,9 @@
     "author": "ART Analytics",
     "rating": "BUY",
     "targetPrice": "$195.00",
-    "currentPrice": "$165.81",
-    "impliedUpsidePct": "+17.6%",
-    "marketDataAsOf": "Apr 2, 2026, 8:01 PM",
+    "currentPrice": "$177.64",
+    "impliedUpsidePct": "+9.8%",
+    "marketDataAsOf": "Apr 10, 2026, 4:00 PM",
     "estimatedReadMinutes": 24,
     "coverageStatus": "published"
   },
@@ -20,7 +20,7 @@
     "snapshotMetrics": [
       {
         "label": "Market Cap",
-        "value": "$263.3B"
+        "value": "$282.1B"
       },
       {
         "label": "Enterprise Value",
@@ -48,7 +48,7 @@
       },
       {
         "label": "P/E",
-        "value": "16.2x"
+        "value": "17.4x"
       },
       {
         "label": "Revenue Growth YoY",
@@ -72,7 +72,7 @@
     ],
     "primaryRisks": [
       "Investment banking and underwriting revenues remain exposed to macro-driven capital markets weakness.",
-      "A 15\u201320% equity market drawdown would pressure fee-eligible AUM and reduce wealth and investment management revenues with a lag.",
+      "A 15–20% equity market drawdown would pressure fee-eligible AUM and reduce wealth and investment management revenues with a lag.",
       "Basel III endgame capital changes could constrain buybacks and reduce ROE targets."
     ],
     "valuationBridge": "Morgan Stanley appears undervalued because the market still anchors too heavily to the firm's earlier cyclical identity rather than to its higher-quality wealth-led earnings mix, leaving room for a re-rating toward the blended $195 target if execution remains solid."
@@ -80,7 +80,7 @@
   "financialPerformanceHealth": {
     "incomeStatementAnalysis": {
       "summaryParagraphs": [
-        "Morgan Stanley has recovered sharply from the 2022\u20132023 capital-markets slowdown. FY2025 revenue reached $66.0B and net income reached $16.9B, both record levels, while TTM revenue of $70.3B suggests the growth trajectory remained intact entering 2026."
+        "Morgan Stanley has recovered sharply from the 2022–2023 capital-markets slowdown. FY2025 revenue reached $66.0B and net income reached $16.9B, both record levels, while TTM revenue of $70.3B suggests the growth trajectory remained intact entering 2026."
       ],
       "highlights": [
         "FY2025 net income rose 26.0% year over year to $16.9B from $13.4B in FY2024.",
@@ -526,7 +526,7 @@
         ]
       }
     },
-    "valuationConclusion": "Morgan Stanley appears undervalued at $165.81. The base-case DCF points to roughly $197 and peer valuation suggests a fair value of about $190\u2013$200, so a re-rating toward the $195 target looks achievable if upcoming results confirm that the beat-and-raise trajectory remains intact."
+    "valuationConclusion": "Morgan Stanley appears undervalued at $165.81. The base-case DCF points to roughly $197 and peer valuation suggests a fair value of about $190–$200, so a re-rating toward the $195 target looks achievable if upcoming results confirm that the beat-and-raise trajectory remains intact."
   },
   "businessModelMoat": {
     "segmentProfile": {
@@ -665,14 +665,14 @@
             "2020",
             "$13.0B",
             "Mass-affluent and digital wealth access; 5M+ accounts",
-            "Positive \u2013 accelerated wealth management platform scale"
+            "Positive – accelerated wealth management platform scale"
           ],
           [
             "Eaton Vance",
             "2021",
             "$7.0B",
             "Institutional asset management; ESG and fixed-income capabilities",
-            "Positive \u2013 diversified Investment Management AUM"
+            "Positive – diversified Investment Management AUM"
           ]
         ]
       }
@@ -748,7 +748,7 @@
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$195.00",
-    "impliedUpsidePct": "+17.6%",
+    "impliedUpsidePct": "+9.8%",
     "bullBaseBear": {
       "bull": "$228",
       "base": "$195",
@@ -765,17 +765,17 @@
     "ratingChangeTriggers": [
       {
         "action": "Upgrade to Strong Buy",
-        "direction": "\u2191",
+        "direction": "↑",
         "trigger": "Stock falls below $150 without fundamental deterioration, or Q1 2026 EPS exceeds $3.30 with raised full-year guidance above $12.00"
       },
       {
         "action": "Downgrade to Hold",
-        "direction": "\u2193",
+        "direction": "↓",
         "trigger": "Two consecutive quarters of declining Wealth Management NNA, FY2026E EPS consensus falls below $10.00, or Basel III requires 150 bps or more of additional CET1"
       },
       {
         "action": "Downgrade to Sell",
-        "direction": "\u2193\u2193",
+        "direction": "↓↓",
         "trigger": "A sustained 25%+ equity market drawdown compresses AUM fee revenues, a regulatory action materially impairs franchise value, or FY2026E EPS consensus falls below $8.50"
       }
     ],
