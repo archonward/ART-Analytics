@@ -1,6 +1,6 @@
 function formatPrice(value, currency = 'USD') {
   if (typeof value !== 'number') {
-    return '—';
+    return '-';
   }
 
   try {
@@ -16,7 +16,7 @@ function formatPrice(value, currency = 'USD') {
 
 function formatPercent(value) {
   if (typeof value !== 'number') {
-    return '—';
+    return '-';
   }
 
   const sign = value > 0 ? '+' : '';
@@ -84,7 +84,7 @@ export default function CompactTickerBadge({
   if (marketError || marketUnavailable || !marketData) {
     return (
       <span className="compact-ticker-badge compact-ticker-badge-neutral">
-        —
+        -
       </span>
     );
   }
