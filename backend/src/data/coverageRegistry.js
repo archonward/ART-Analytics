@@ -95,6 +95,14 @@ const coverageRegistry = {
        lastUpdated: '2026-03-26',
        status: 'published'
   },
+  CVX: {
+     ticker: 'CVX',
+     companyName: 'Chevron Corporation',
+     exchange: 'NYSE',
+     sector: 'Energy',
+     lastUpdated: '2026-03-26',
+     status: 'published'
+    },
   V: {
          ticker: 'V',
          companyName: 'Visa Inc',
