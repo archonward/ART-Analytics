@@ -311,6 +311,14 @@ const coverageRegistry = {
       lastUpdated: '2026-04-08',
       status: 'published'
      },
+  VEEV: {
+        ticker: 'VEEV',
+        companyName: 'Veeva Systems.',
+        exchange: 'NYSE',
+        sector: 'Technology',
+        lastUpdated: '2026-04-08',
+        status: 'published'
+       },
   IBM: {
       ticker: 'IBM',
       companyName: 'International Business Machines Corporation',
