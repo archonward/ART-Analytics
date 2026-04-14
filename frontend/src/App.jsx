@@ -59,6 +59,7 @@ export default function App() {
 
   const resultRef = useRef(null);
   const [isAskPanelOpen, setIsAskPanelOpen] = useState(true);
+  const [isHeaderHidden, setIsHeaderHidden] = useState(false);
   const activeReport = result?.status === 'covered' ? result : null;
 
   useEffect(() => {
@@ -74,6 +75,24 @@ export default function App() {
     if (activeReport) {
       setIsAskPanelOpen(true);
     }
+  }, [activeReport]);
+
+  useEffect(() => {
+    if (!activeReport) {
+      setIsHeaderHidden(false);
+      return undefined;
+    }
+
+    function handleScroll() {
+      setIsHeaderHidden(window.scrollY > 140);
+    }
+
+    handleScroll();
+    window.addEventListener('scroll', handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
   }, [activeReport]);
 
   async function handleSubmit(event) {
@@ -130,7 +149,9 @@ export default function App() {
 
   return (
     <div className="app-shell">
-      <header className="app-header">
+      <header
+        className={`app-header ${activeReport && isHeaderHidden ? 'app-header-report-hidden' : ''}`}
+      >
         <div className="app-header-bar">
           <div className="brand-block">
             <p className="brand-kicker">ART Analytics</p>

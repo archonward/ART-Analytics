@@ -15,6 +15,13 @@
   background: linear-gradient(180deg, rgba(30, 36, 42, 0.98), rgba(19, 23, 27, 0.98));
   box-shadow: var(--shadow-panel);
   backdrop-filter: blur(12px);
+  transition: transform 180ms ease, opacity 180ms ease, box-shadow 180ms ease;
+}
+
+.app-header-report-hidden {
+  transform: translateY(calc(-100% - 16px));
+  opacity: 0;
+  pointer-events: none;
 }
 
 .app-header-bar,
@@ -198,6 +205,10 @@
   top: 166px;
   display: grid;
   gap: var(--space-3);
+}
+
+.app-header-report-hidden + .workspace .ask-report-rail {
+  top: 24px;
 }
 
 .ask-report-rail-toggle {
