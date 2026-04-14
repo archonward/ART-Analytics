@@ -1,0 +1,783 @@
+{
+  "meta": {
+    "ticker": "VEEV",
+    "companyName": "Veeva Systems Inc.",
+    "exchange": "NYSE",
+    "sector": "Technology",
+    "industry": "Software",
+    "reportDate": "2026-04-10",
+    "author": "ART Analytics",
+    "rating": "BUY",
+    "targetPrice": "$225.00",
+    "currentPrice": "$151.43",
+    "impliedUpsidePct": "+48.6%",
+    "marketDataAsOf": "Apr 10, 2026, 8:00 PM",
+    "estimatedReadMinutes": 22,
+    "coverageStatus": "published"
+  },
+  "executiveAtAGlance": {
+    "thesisHeadline": "Veeva's dominant life sciences vertical SaaS platform, four-quarter EPS beat streak, and $1.3B net cash position are priced at a near-trough multiple following a sentiment-driven de-rating.",
+    "snapshotMetrics": [
+      {
+        "label": "Market Cap",
+        "value": "$24.9B"
+      },
+      {
+        "label": "Enterprise Value",
+        "value": "$18.3B"
+      },
+      {
+        "label": "Revenue (TTM)",
+        "value": "$3.20B"
+      },
+      {
+        "label": "Net Income (TTM)",
+        "value": "$908.9M"
+      },
+      {
+        "label": "FCF (TTM)",
+        "value": "$1.05B"
+      },
+      {
+        "label": "P/E",
+        "value": "27.8x"
+      },
+      {
+        "label": "EV/EBITDA",
+        "value": "18.5x"
+      },
+      {
+        "label": "Revenue Growth YoY",
+        "value": "+16.0%"
+      },
+      {
+        "label": "Net Margin",
+        "value": "28.4%"
+      },
+      {
+        "label": "ROIC",
+        "value": "13.5%"
+      },
+      {
+        "label": "Consensus Upside",
+        "value": "+76.3%"
+      },
+      {
+        "label": "Next Earnings",
+        "value": "May 2026"
+      }
+    ]
+  },
+  "executiveSummary": {
+    "summaryParagraphs": [
+      "Veeva Systems is the dominant cloud software platform for life sciences, with embedded switching costs, a recurring revenue model, and a balance sheet carrying net cash of $1.3B. The stock has been cut in half from its 52-week high of $310.50, presenting a compelling entry point for investors with a 2\u20133 year horizon.",
+      "At 15.3x forward P/E and 5.7x EV/Revenue on consensus FY27E revenue of $3.6B, VEEV trades at a material discount to its 5-year average multiples despite improving profitability. Our $225 price target is derived from a blended 50/50 DCF/comps methodology, implying +48.6% upside from current levels."
+    ],
+    "catalysts": [
+      "CRM to Vault CRM migration: ongoing conversion of the legacy Salesforce-based CRM base onto Vault CRM drives incremental ARPU expansion and deepens platform lock-in.",
+      "Beat-and-raise cadence: VEEV has beaten EPS consensus for four consecutive quarters, validating structural earnings power above Street estimates.",
+      "Margin expansion runway: operating margin expanded from 18.2% in FY24 to 28.7% in FY26, with consensus projecting continued improvement as Vault platform mix rises."
+    ],
+    "primaryRisks": [
+      "Citigroup downgrade: Citi cut VEEV to Neutral from Buy on April 10, 2026, slashing its PT to $176 from $291, citing growth and valuation concerns.",
+      "Biopharma R&D budget pressure: macro headwinds and ongoing FDA and NIH funding uncertainty could slow clinical trial software spend among smaller biotech customers.",
+      "AI narrative risk: investor debate around whether AI tooling disrupts Veeva's data and workflow moat before management can monetize it is weighing on sentiment."
+    ],
+    "valuationBridge": "At 15.3x forward P/E and 5.7x EV/Revenue, Veeva trades at a material discount to its own history despite improving profitability, supporting a blended valuation that still points to substantial upside."
+  },
+  "financialPerformanceHealth": {
+    "incomeStatementAnalysis": {
+      "summaryParagraphs": [
+        "Revenue compounded at approximately 14% over three years, with FY26 marking an acceleration to 16.3% YoY growth as Vault platform migrations gained traction. Gross margin expanded from 71.3% in FY23 to 75.5% in FY26, driven by subscription mix shift and operating leverage on shared platform infrastructure."
+      ],
+      "highlights": [
+        "FY26 revenue was $3.195B vs. $2.747B in FY25, up 16.3% YoY.",
+        "FY26 operating income was $916.4M, an operating margin of 28.7%, up from 25.2% in FY25.",
+        "FY26 net income was $908.9M, for a 28.4% net margin vs. 26.0% in FY25.",
+        "Q4 FY26 quarterly revenue of $836.0M represented sequential growth of 3.1% from Q3."
+      ],
+      "tables": [
+        {
+          "title": "Income Statement ($M)",
+          "columns": [
+            "Fiscal Year (Jan 31)",
+            "Revenue",
+            "Gross Profit",
+            "Operating Income",
+            "Net Income"
+          ],
+          "rows": [
+            [
+              "FY23",
+              "$2,155.1M",
+              "$1,545.7M",
+              "$459.1M",
+              "$487.7M"
+            ],
+            [
+              "FY24",
+              "$2,363.7M",
+              "$1,686.4M",
+              "$429.3M",
+              "$525.7M"
+            ],
+            [
+              "FY25",
+              "$2,746.6M",
+              "$2,047.0M",
+              "$691.4M",
+              "$714.1M"
+            ],
+            [
+              "FY26",
+              "$3,195.3M",
+              "$2,413.3M",
+              "$916.4M",
+              "$908.9M"
+            ],
+            [
+              "TTM",
+              "$3,195.3M",
+              "$2,413.3M",
+              "$916.4M",
+              "$908.9M"
+            ]
+          ]
+        },
+        {
+          "title": "Margin Analysis",
+          "columns": [
+            "Fiscal Year",
+            "Gross Margin %",
+            "Operating Margin %",
+            "Net Margin %",
+            "YoY Revenue Growth %"
+          ],
+          "rows": [
+            [
+              "FY23",
+              "71.7%",
+              "21.3%",
+              "22.6%",
+              "N/A"
+            ],
+            [
+              "FY24",
+              "71.3%",
+              "18.2%",
+              "22.2%",
+              "+9.7%"
+            ],
+            [
+              "FY25",
+              "74.5%",
+              "25.2%",
+              "26.0%",
+              "+16.2%"
+            ],
+            [
+              "FY26",
+              "75.5%",
+              "28.7%",
+              "28.4%",
+              "+16.3%"
+            ],
+            [
+              "TTM",
+              "75.5%",
+              "28.7%",
+              "28.4%",
+              "+16.0%"
+            ]
+          ]
+        }
+      ]
+    },
+    "balanceSheetAnalysis": {
+      "summaryParagraphs": [
+        "Veeva's balance sheet is a fortress. Net cash stood at $1.325B as of January 31, 2026, up from $1.043B a year prior. Total equity has compounded from $3.7B to $7.2B over three years, driven entirely by retained earnings."
+      ],
+      "tables": [
+        {
+          "title": "Balance Sheet ($M)",
+          "columns": [
+            "Period (Jan 31)",
+            "Total Assets",
+            "Total Liabilities",
+            "Total Equity",
+            "Total Debt",
+            "Cash",
+            "Net Debt / (Cash)"
+          ],
+          "rows": [
+            [
+              "FY23",
+              "$4,804.3M",
+              "$1,088.0M",
+              "$3,716.3M",
+              "$61.0M",
+              "$886.5M",
+              "($825.5M)"
+            ],
+            [
+              "FY24",
+              "$5,910.9M",
+              "$1,266.1M",
+              "$4,644.8M",
+              "$55.8M",
+              "$703.5M",
+              "($647.7M)"
+            ],
+            [
+              "FY25",
+              "$7,339.8M",
+              "$1,507.4M",
+              "$5,832.4M",
+              "$75.8M",
+              "$1,118.8M",
+              "($1,043.0M)"
+            ],
+            [
+              "FY26",
+              "$8,979.3M",
+              "$1,764.6M",
+              "$7,214.8M",
+              "$95.9M",
+              "$1,421.2M",
+              "($1,325.3M)"
+            ]
+          ]
+        }
+      ]
+    },
+    "cashFlowReturns": {
+      "summaryParagraphs": [
+        "FCF generation has compounded at approximately 22% annually over the past three fiscal years, reaching $1.415B in FY26. FCF margin of 44.3% in FY26 ranks among the highest in enterprise software. Return metrics have improved materially as the FY24 investment cycle concluded."
+      ],
+      "highlights": [
+        "FY26 operating cash flow was $1.415B vs. $1.090B in FY25, up 29.8% YoY.",
+        "FY26 FCF margin was 44.3% of revenue, up from 39.7% in FY25.",
+        "TTM FCF from locked data was $1.048B, reflecting timing differences versus annual figures.",
+        "FY26 ROIC improved to 13.5%, clearly above the company's cost of capital."
+      ],
+      "tables": [
+        {
+          "title": "Cash Flow ($M)",
+          "columns": [
+            "Fiscal Year",
+            "Operating Cash Flow",
+            "Free Cash Flow",
+            "FCF Margin %",
+            "FCF/Share"
+          ],
+          "rows": [
+            [
+              "FY23",
+              "$780.5M",
+              "$780.5M",
+              "36.2%",
+              "$4.75"
+            ],
+            [
+              "FY24",
+              "$911.3M",
+              "$911.3M",
+              "38.6%",
+              "$5.55"
+            ],
+            [
+              "FY25",
+              "$1,090.1M",
+              "$1,090.1M",
+              "39.7%",
+              "$6.65"
+            ],
+            [
+              "FY26",
+              "$1,415.2M",
+              "$1,415.2M",
+              "44.3%",
+              "$8.60"
+            ],
+            [
+              "TTM (locked)",
+              "$1,048.1M",
+              "$1,048.1M",
+              "32.8%",
+              "$6.38"
+            ]
+          ]
+        },
+        {
+          "title": "Return on Capital",
+          "columns": [
+            "Fiscal Year",
+            "ROE",
+            "ROA",
+            "ROIC"
+          ],
+          "rows": [
+            [
+              "FY24",
+              "11.3%",
+              "8.9%",
+              "8.5%"
+            ],
+            [
+              "FY25",
+              "12.2%",
+              "9.7%",
+              "11.0%"
+            ],
+            [
+              "FY26",
+              "14.5%",
+              "10.1%",
+              "13.5%"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "valuation": {
+    "multiplesAnalysis": {
+      "summaryParagraphs": [
+        "VEEV trades at a significant discount to its own historical averages across nearly every metric. At 15.3x forward P/E, the stock is pricing in minimal growth optionality, a stark contrast to the 30x to 40x forward multiples the company commanded in 2021\u20132023."
+      ],
+      "tables": [
+        {
+          "title": "Valuation Multiple",
+          "columns": [
+            "Metric",
+            "VEEV (Current)",
+            "VEEV (5-Yr Avg)",
+            "Salesforce (CRM)",
+            "IQVIA (IQV)",
+            "Oracle Health (ORCL)"
+          ],
+          "rows": [
+            [
+              "Trailing P/E",
+              "27.8x",
+              "55x",
+              "40x",
+              "25x",
+              "22x"
+            ],
+            [
+              "Forward P/E",
+              "15.3x",
+              "35x",
+              "24x",
+              "19x",
+              "18x"
+            ],
+            [
+              "EV/Revenue",
+              "5.7x",
+              "12x",
+              "6x",
+              "2x",
+              "5x"
+            ],
+            [
+              "EV/EBITDA",
+              "18.5x",
+              "45x",
+              "20x",
+              "12x",
+              "15x"
+            ],
+            [
+              "P/B",
+              "3.4x",
+              "12x",
+              "4x",
+              "3x",
+              "N/M"
+            ],
+            [
+              "FCF Yield",
+              "4.2%",
+              "1.5%",
+              "3.5%",
+              "4.0%",
+              "4.5%"
+            ],
+            [
+              "PEG Ratio",
+              "1.0x",
+              "2.5x",
+              "1.5x",
+              "1.2x",
+              "1.3x"
+            ]
+          ]
+        }
+      ]
+    },
+    "dcfAnalysis": {
+      "summaryParagraphs": [
+        "The DCF uses a 5-year explicit forecast period anchored to FY26 actuals as the base year. Assumptions reflect a conservative deceleration in growth from 16% toward 11\u201312% as the company scales, with operating margins stabilizing at 30\u201333% as Vault platform mix normalizes."
+      ],
+      "assumptions": [
+        "Revenue CAGR FY27\u2013FY31: 13.0%.",
+        "FY31E operating margin: 32.0%.",
+        "CapEx as % of revenue: 1.5%.",
+        "WACC: 9.5%.",
+        "Terminal growth rate: 3.5%.",
+        "Net cash added back: $1.325B.",
+        "Diluted shares: 164.5M."
+      ],
+      "projectionTable": {
+        "title": "DCF Projections ($M)",
+        "columns": [
+          "Year",
+          "Revenue",
+          "EBITDA",
+          "FCF"
+        ],
+        "rows": [
+          [
+            "FY27E",
+            "$3,600M",
+            "$1,170M",
+            "$1,150M"
+          ],
+          [
+            "FY28E",
+            "$4,068M",
+            "$1,360M",
+            "$1,330M"
+          ],
+          [
+            "FY29E",
+            "$4,597M",
+            "$1,570M",
+            "$1,535M"
+          ],
+          [
+            "FY30E",
+            "$5,195M",
+            "$1,780M",
+            "$1,740M"
+          ],
+          [
+            "FY31E",
+            "$5,870M",
+            "$1,979M",
+            "$1,935M"
+          ]
+        ]
+      },
+      "scenarioTable": {
+        "title": "DCF Scenario Analysis",
+        "columns": [
+          "Scenario",
+          "Revenue CAGR",
+          "Terminal Growth",
+          "WACC",
+          "Implied Price",
+          "Upside / Downside"
+        ],
+        "rows": [
+          [
+            "Bull",
+            "16.0%",
+            "4.0%",
+            "8.5%",
+            "$290",
+            "+91.5%"
+          ],
+          [
+            "Base",
+            "13.0%",
+            "3.5%",
+            "9.5%",
+            "$220",
+            "+45.3%"
+          ],
+          [
+            "Bear",
+            "9.0%",
+            "2.5%",
+            "11.0%",
+            "$145",
+            "-4.3%"
+          ]
+        ]
+      }
+    },
+    "valuationConclusion": "VEEV is undervalued on both a multiples and intrinsic value basis. At $151.43, the stock is pricing in bear-case assumptions for a company that just delivered 16.3% revenue growth and 28.7% operating margins with four straight EPS beats."
+  },
+  "businessModelMoat": {
+    "segmentProfile": {
+      "summaryParagraphs": [
+        "Veeva operates across two broad platform verticals: Commercial Cloud and Research & Development Cloud. Both are subscription-based with strong revenue visibility, while the Vault platform underpins both verticals and is the primary architectural differentiator."
+      ],
+      "segmentTable": {
+        "title": "Business Segment",
+        "columns": [
+          "Segment",
+          "Revenue (FY26)",
+          "% of Total",
+          "YoY Growth",
+          "Maturity"
+        ],
+        "rows": [
+          [
+            "Commercial Cloud (Subscription)",
+            "$1,300M",
+            "41%",
+            "10\u201312%",
+            "Mature / Transitioning"
+          ],
+          [
+            "R&D Cloud (Subscription)",
+            "$1,250M",
+            "39%",
+            "20\u201322%",
+            "Growth"
+          ],
+          [
+            "Professional Services",
+            "$645M",
+            "20%",
+            "10%",
+            "Steady"
+          ]
+        ]
+      }
+    },
+    "economicMoatAssessment": {
+      "summaryParagraphs": [
+        "Veeva possesses a wide economic moat anchored primarily by switching costs and life-sciences-specific regulatory requirements. No horizontal SaaS vendor has successfully replicated its domain depth in pharma compliance workflows."
+      ],
+      "moatTable": {
+        "title": "Economic Moat Assessment",
+        "columns": [
+          "Moat Source",
+          "Strength",
+          "Explanation"
+        ],
+        "rows": [
+          [
+            "Switching Costs",
+            "Strong",
+            "GxP-validated systems require extensive requalification; migration risk deters switching."
+          ],
+          [
+            "Brand & Reputation",
+            "Strong",
+            "Preferred vendor across top 20 global pharma; reference customers drive sales cycles."
+          ],
+          [
+            "Network Effects",
+            "Moderate",
+            "Veeva Network HCP data grows in value with scale; Vault ecosystem creates cross-module stickiness."
+          ],
+          [
+            "Intellectual Property",
+            "Moderate",
+            "Domain-specific data models and compliance templates are hard to replicate quickly."
+          ],
+          [
+            "Cost Advantages / Scale",
+            "Moderate",
+            "Shared Vault infrastructure creates cost leverage unavailable to smaller point-solution vendors."
+          ],
+          [
+            "Regulatory Barriers",
+            "Moderate",
+            "FDA and EMA compliance requirements raise the bar for new entrants building validated systems."
+          ]
+        ]
+      },
+      "overallMoatConclusion": "Veeva appears to have a wide moat. High switching costs in regulated GxP environments, a sticky data network, and years of life-sciences-specific product development create barriers that horizontal CRM or document-management vendors cannot easily overcome."
+    }
+  },
+  "growthStrategyOutlook": {
+    "nearTermCatalysts": [
+      "Vault CRM migrations should accelerate through FY27, driving ARPU uplift and reducing Salesforce-related economics leakage.",
+      "Q1 FY27 revenue consensus of $857.7M implies +13.0% YoY growth, with upside potential given the beat cadence.",
+      "The RegASK partnership expands RIM Intelligence capabilities and may accelerate R&D Cloud wins."
+    ],
+    "mediumTermDrivers": [
+      "Full Vault CRM installed-base conversion.",
+      "International expansion in Asia-Pacific and emerging markets.",
+      "Cross-sell of Quality and Safety modules to existing Vault Clinical customers.",
+      "Vault EDC and Veeva Site Connect expansion."
+    ],
+    "longTermOpportunities": [
+      "Adjacent vertical expansion into animal health, chemicals, and consumer products.",
+      "Becoming the operating system for regulated industries beyond pharma.",
+      "Monetization of the Veeva Network and Veeva Compass datasets."
+    ],
+    "tamPositioning": {
+      "summaryParagraphs": [
+        "Veeva's TAM across life sciences is substantial and underpenetrated. Management's existing product suite serves a large software opportunity across commercial workflows, R&D, and adjacent regulated industries."
+      ],
+      "highlights": [
+        "Commercial Cloud TAM is about $4B\u2013$5B globally.",
+        "R&D Cloud TAM is about $5B\u2013$6B across clinical, regulatory, quality, and safety workflows.",
+        "Adjacent verticals add another $3B\u2013$4B of incremental TAM.",
+        "Veeva's current penetration still leaves meaningful runway across both core and adjacent markets."
+      ]
+    }
+  },
+  "managementGovernance": {
+    "leadership": {
+      "summaryParagraphs": [
+        "Founder and CEO Peter Gassner has led Veeva since inception in 2007 and remains a central strategic asset. His founder-operator status, deep domain expertise, and large equity stake create strong long-term alignment."
+      ]
+    },
+    "capitalAllocation": {
+      "summaryParagraphs": [
+        "Management has been disciplined and conservative in capital allocation. The company has avoided large, dilutive M&A, self-funded product development organically, and preserved a strong net-cash balance sheet."
+      ],
+      "acquisitionTable": {
+        "title": "Capital Allocation Track Record",
+        "columns": [
+          "Activity",
+          "Scale",
+          "Assessment"
+        ],
+        "rows": [
+          [
+            "Organic R&D (Vault platform build)",
+            "18\u201320% of revenue annually",
+            "High-quality; underpins competitive moat"
+          ],
+          [
+            "M&A (bolt-on data/technology)",
+            "Small, infrequent",
+            "Prudent; avoids integration risk"
+          ],
+          [
+            "Share Repurchases",
+            "Modest relative to $1.0B+ annual FCF",
+            "Underutilized at current valuation"
+          ],
+          [
+            "Dividends",
+            "None",
+            "Appropriate for reinvestment-stage company"
+          ]
+        ]
+      }
+    },
+    "alignment": {
+      "summaryParagraphs": [
+        "Insider ownership is substantial and dominated by Gassner's stake, creating strong economic alignment. The dual-class structure preserves long-cycle strategic control, while executive compensation includes meaningful long-term equity components."
+      ]
+    }
+  },
+  "riskAnalysis": {
+    "riskTable": {
+      "title": "Risk Analysis",
+      "columns": [
+        "Risk",
+        "Type",
+        "Probability",
+        "Impact",
+        "Mitigation"
+      ],
+      "rows": [
+        [
+          "Vault CRM Migration Execution Slip",
+          "Idiosyncratic",
+          "Medium",
+          "High",
+          "Phased rollout, migration tooling, and management track record"
+        ],
+        [
+          "Pharma Customer M&A / Consolidation",
+          "Idiosyncratic",
+          "Medium",
+          "Medium",
+          "Long-term contracts and high switching costs post-validation"
+        ],
+        [
+          "AI Point-Solution Disruption",
+          "Idiosyncratic",
+          "Low\u2013Medium",
+          "Medium",
+          "Vault platform breadth and ability to embed AI into workflows"
+        ],
+        [
+          "Sentiment-Driven Multiple Compression",
+          "Idiosyncratic",
+          "High",
+          "Medium",
+          "Fundamental value floor and beat cadence"
+        ],
+        [
+          "Biopharma R&D Budget Pressure",
+          "Systemic",
+          "Medium",
+          "Medium",
+          "Large pharma base is less discretionary; long contracts"
+        ],
+        [
+          "Macro Enterprise IT Spending Freeze",
+          "Systemic",
+          "Low\u2013Medium",
+          "Medium",
+          "Mission-critical compliance software is last to be cut"
+        ],
+        [
+          "FDA / Regulatory Policy Disruption",
+          "Systemic",
+          "Low",
+          "High",
+          "Diversified geographic regulatory exposure"
+        ]
+      ]
+    }
+  },
+  "finalRecommendation": {
+    "rating": "BUY",
+    "priceTarget": "$225.00",
+    "impliedUpsidePct": "+48.6%",
+    "bullBaseBear": {
+      "bull": "$290",
+      "base": "$225",
+      "bear": "$145"
+    },
+    "valuationMethodology": "Price target of $225 derived from a blended 50% DCF base case and 50% peer NTM P/E comps methodology.",
+    "fiveKeyMetricsToWatch": [
+      "Vault CRM adoption rate.",
+      "Subscription revenue growth rate.",
+      "R&D Cloud net new ARR.",
+      "Operating margin.",
+      "Remaining performance obligation growth."
+    ],
+    "ratingChangeTriggers": [
+      {
+        "action": "Upgrade to Strong Buy",
+        "direction": "\u2191",
+        "trigger": "Stock declines below $145, or management raises FY27 guidance above $3.75B revenue with Vault CRM migration tracking ahead of schedule, or a significant buyback program is announced."
+      },
+      {
+        "action": "Downgrade to Hold",
+        "direction": "\u2193",
+        "trigger": "Stock appreciates above $215, or R&D Cloud growth decelerates below 15% for two consecutive quarters, or Vault CRM migration falls more than one full quarter behind schedule."
+      },
+      {
+        "action": "Downgrade to Sell",
+        "direction": "\u2193\u2193",
+        "trigger": "FY27 revenue guidance below $3.50B, or subscription revenue growth falls below 10% for two consecutive quarters, or evidence of competitive share loss to IQVIA or Salesforce in new enterprise RFPs."
+      }
+    ],
+    "closingParagraph": "Veeva's 52-week decline has created a fundamentally disconnected setup: a company with 16% revenue growth, 75% gross margins, $1.3B net cash, and four consecutive EPS beats is trading at a near-trough forward multiple. The current valuation appears to price in risks that are unlikely to materialize at the magnitude implied."
+  },
+  "openQuestions": [
+    "What percentage of the legacy Salesforce-based CRM base has migrated to Vault CRM as of Q1 FY27, and what is management's revised completion timeline?",
+    "How is Veeva's R&D Cloud pipeline tracking in the context of biopharma budget tightening?",
+    "What is Q1 FY27 RPO growth, and does it signal an acceleration or deceleration versus FY26 revenue growth?",
+    "Has management provided any update on a formal share repurchase authorization given the current valuation?",
+    "How quickly can Vault CRM economics improve as Salesforce-related licensing costs roll off?",
+    "Are smaller biotech customers meaningfully deferring Vault implementations, or is the slowdown concern concentrated in investor sentiment?"
+  ]
+}
