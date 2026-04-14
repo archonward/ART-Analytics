@@ -319,6 +319,14 @@ const coverageRegistry = {
         lastUpdated: '2026-04-08',
         status: 'published'
        },
+  SNDK: {
+      ticker: 'SNDK',
+      companyName: 'Sandisk Corporation',
+      exchange: 'NYSE',
+      sector: 'Memory',
+      lastUpdated: '2026-04-08',
+      status: 'published'
+  },
   IBM: {
       ticker: 'IBM',
       companyName: 'International Business Machines Corporation',
