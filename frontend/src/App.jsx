@@ -59,6 +59,7 @@ export default function App() {
 
   const resultRef = useRef(null);
   const [isAskPanelOpen, setIsAskPanelOpen] = useState(true);
+  const activeReport = result?.status === 'covered' ? result : null;
 
   useEffect(() => {
     if (result && resultRef.current) {
@@ -85,7 +86,6 @@ export default function App() {
     await searchTicker(nextTicker);
   }
 
-  const activeReport = result?.status === 'covered' ? result : null;
   const hasDashboardResult = loading || (result && result.status !== 'covered');
 
   const coverageFreshness = useMemo(() => {
