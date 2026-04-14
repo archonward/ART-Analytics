@@ -1,6 +1,6 @@
 node_modules
 .env
-.json
+backend/src/data/reports/*.json
 backend/.env
 backend/private-pdfs/*.pdf
 frontend/dist
