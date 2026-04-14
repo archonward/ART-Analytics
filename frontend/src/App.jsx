@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import CoverageSection from './components/dashboard/CoverageSection';
 import AuditSection from './components/dashboard/AuditSection';
 import ResultPanel from './components/report/ResultPanel';
@@ -9,6 +9,29 @@ import useReportAudit from './hooks/useReportAudit';
 import useStockSearch from './hooks/useStockSearch';
 import MarketOverviewSection from './components/dashboard/MarketOverviewSection';
 import { getReportSectionId } from './components/report/reportSections';
+
+function parseDateValue(value) {
+  if (!value) {
+    return null;
+  }
+
+  const parsed = new Date(value);
+  return Number.isNaN(parsed.getTime()) ? null : parsed;
+}
+
+function formatStatusDate(value) {
+  const parsed = parseDateValue(value);
+
+  if (!parsed) {
+    return 'Pending';
+  }
+
+  return new Intl.DateTimeFormat('en-US', {
+    month: 'short',
+    day: 'numeric',
+    year: 'numeric'
+  }).format(parsed);
+}
 
 export default function App() {
   const {
@@ -35,6 +58,7 @@ export default function App() {
   } = useReportAudit(SHOW_AUDIT_SECTION);
 
   const resultRef = useRef(null);
+  const [isAskPanelOpen, setIsAskPanelOpen] = useState(true);
 
   useEffect(() => {
     if (result && resultRef.current) {
@@ -44,6 +68,12 @@ export default function App() {
       });
     }
   }, [result]);
+
+  useEffect(() => {
+    if (activeReport) {
+      setIsAskPanelOpen(true);
+    }
+  }, [activeReport]);
 
   async function handleSubmit(event) {
     event.preventDefault();
@@ -56,6 +86,29 @@ export default function App() {
   }
 
   const activeReport = result?.status === 'covered' ? result : null;
+  const hasDashboardResult = loading || (result && result.status !== 'covered');
+
+  const coverageFreshness = useMemo(() => {
+    const latestDate = coveredTickers.reduce((latest, item) => {
+      const parsed = parseDateValue(item.lastUpdated);
+
+      if (!parsed) {
+        return latest;
+      }
+
+      if (!latest || parsed > latest) {
+        return parsed;
+      }
+
+      return latest;
+    }, null);
+
+    return latestDate ? formatStatusDate(latestDate) : 'Pending';
+  }, [coveredTickers]);
+
+  const freshnessLabel = activeReport?.meta?.reportDate
+    ? `Report dated ${formatStatusDate(activeReport.meta.reportDate)}`
+    : `Coverage refreshed ${coverageFreshness}`;
 
   function handleCitationClick(citation) {
     const targetId = getReportSectionId(citation.sectionKey);
@@ -77,69 +130,129 @@ export default function App() {
 
   return (
     <div className="app-shell">
-      <div className="aurora" aria-hidden="true" />
-      <div className={`app-layout ${activeReport ? 'app-layout-with-rail' : 'app-layout-main-only'}`}>
-        <main className="panel">
-          <p className="eyebrow">ART Analytics</p>
-          <h1>Curated NYSE Research Summaries</h1>
-          <p className="subtitle">
-            Search a stock we cover and read a clear summary of our published internal research.
-          </p>
+      <header className="app-header">
+        <div className="app-header-bar">
+          <div className="brand-block">
+            <p className="brand-kicker">ART Analytics</p>
+            <div>
+              <h1 className="brand-title">Institutional Research Workspace</h1>
+              <p className="brand-subtitle">
+                Curated coverage, market context, and report-level interrogation in one restrained workspace.
+              </p>
+            </div>
+          </div>
 
-          <form onSubmit={handleSubmit} className="search-row">
-            <input
-              value={ticker}
-              onChange={(e) => setTicker(e.target.value.toUpperCase())}
-              placeholder="Enter ticker (e.g., NVDA)"
-              maxLength={5}
-              required
-            />
+          <div className="app-status" aria-label="Data freshness">
+            <span className="status-dot" aria-hidden="true" />
+            <div>
+              <p className="status-label">Data freshness</p>
+              <p className="status-value">{freshnessLabel}</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="app-toolbar">
+          <div className="toolbar-copy">
+            <p className="toolbar-label">Coverage Search</p>
+            <p className="toolbar-note">
+              Search a covered ticker or open a report from the universe below.
+            </p>
+          </div>
+
+          <form onSubmit={handleSubmit} className="toolbar-search">
+            <label className="toolbar-search-field" htmlFor="ticker-search">
+              <span className="toolbar-search-label">Ticker</span>
+              <input
+                id="ticker-search"
+                value={ticker}
+                onChange={(e) => setTicker(e.target.value.toUpperCase())}
+                placeholder="Enter ticker, for example NVDA"
+                maxLength={5}
+                required
+              />
+            </label>
             <button type="submit" disabled={loading}>
-              {loading ? 'Loading...' : 'Search'}
+              {loading ? 'Loading...' : 'Open report'}
             </button>
           </form>
+        </div>
 
-          {error && <div className="message error">{error}</div>}
+        {error && <div className="message error header-message">{error}</div>}
+      </header>
 
-          <CoverageSection
-            coveredTickers={coveredTickers}
-            coverageLoading={coverageLoading}
-            coverageError={coverageError}
-            selectedTicker={selectedTicker}
-            onTickerClick={handleCoveredTickerClick}
-          />
+      <div className={`workspace ${activeReport ? 'workspace-report' : 'workspace-dashboard'}`}>
+        {!activeReport && (
+          <main className="dashboard-layout">
+            {hasDashboardResult && (
+              <ResultPanel
+                result={result}
+                loading={loading}
+                selectedTicker={selectedTicker}
+                resultRef={resultRef}
+                onResetView={resetView}
+              />
+            )}
 
-          {!result && (
-            <MarketOverviewSection />
-          )}
-
-          {SHOW_AUDIT_SECTION && (
-            <AuditSection
-              auditData={auditData}
-              auditLoading={auditLoading}
-              auditError={auditError}
-            />
-          )}
-
-          <ResultPanel
-            result={result}
-            loading={loading}
-            selectedTicker={selectedTicker}
-            resultRef={resultRef}
-            onResetView={resetView}
-          />
-        </main>
-
-        {activeReport && (
-          <aside className="ask-report-rail" aria-label="Ask the Report workspace">
-            <div className="ask-report-rail-inner">
-              <AskReportPanel
-                ticker={activeReport.meta.ticker}
-                companyName={activeReport.meta.companyName}
-                onCitationClick={handleCitationClick}
+            <div className="dashboard-main">
+              <MarketOverviewSection />
+              <CoverageSection
+                coveredTickers={coveredTickers}
+                coverageLoading={coverageLoading}
+                coverageError={coverageError}
+                selectedTicker={selectedTicker}
+                onTickerClick={handleCoveredTickerClick}
               />
             </div>
-          </aside>
+
+            {SHOW_AUDIT_SECTION && (
+              <aside className="dashboard-secondary">
+                <AuditSection
+                  auditData={auditData}
+                  auditLoading={auditLoading}
+                  auditError={auditError}
+                />
+              </aside>
+            )}
+          </main>
+        )}
+
+        {activeReport && (
+          <div className="report-layout">
+            <main className="report-main">
+              <ResultPanel
+                result={result}
+                loading={loading}
+                selectedTicker={selectedTicker}
+                resultRef={resultRef}
+                onResetView={resetView}
+              />
+            </main>
+
+            <aside
+              className={`ask-report-rail ${isAskPanelOpen ? 'ask-report-rail-open' : ''}`}
+              aria-label="Ask the Report workspace"
+            >
+              <button
+                type="button"
+                className="ask-report-rail-toggle"
+                onClick={() => setIsAskPanelOpen((previous) => !previous)}
+                aria-expanded={isAskPanelOpen}
+              >
+                <span>Ask the report</span>
+                <span className="ask-report-rail-toggle-meta">
+                  {isAskPanelOpen ? 'Hide panel' : 'Show panel'}
+                </span>
+              </button>
+
+              <div className="ask-report-rail-inner">
+                <AskReportPanel
+                  ticker={activeReport.meta.ticker}
+                  companyName={activeReport.meta.companyName}
+                  onCitationClick={handleCitationClick}
+                />
+              </div>
+            </aside>
+          </div>
         )}
       </div>
     </div>

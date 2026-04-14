@@ -4,7 +4,7 @@ function getAuditStatusLabel(status) {
   }
 
   if (status === 'invalid_schema') {
-    return 'Schema Issue';
+    return 'Schema issue';
   }
 
   if (status === 'invalid_json') {
@@ -12,7 +12,7 @@ function getAuditStatusLabel(status) {
   }
 
   if (status === 'missing_file') {
-    return 'Missing File';
+    return 'Missing file';
   }
 
   return 'Error';
@@ -20,11 +20,14 @@ function getAuditStatusLabel(status) {
 
 export default function AuditSection({ auditData, auditLoading, auditError }) {
   return (
-    <section className="audit-card">
-      <div className="audit-header">
-        <div>
+    <section className="dashboard-module audit-module">
+      <div className="module-header audit-header">
+        <div className="module-title-block">
           <p className="section-label">Internal Diagnostics</p>
-          <h2>Coverage Health</h2>
+          <h2>Coverage health</h2>
+          <p className="module-helper">
+            Secondary validation signals for report availability and schema quality.
+          </p>
         </div>
       </div>
 
@@ -35,7 +38,7 @@ export default function AuditSection({ auditData, auditLoading, auditError }) {
         <>
           <div className="audit-summary-grid compact-audit-summary-grid">
             <div className="audit-summary-item">
-              <p className="audit-summary-label">Total Covered</p>
+              <p className="audit-summary-label">Total covered</p>
               <p className="audit-summary-value">{auditData.summary.total}</p>
             </div>
             <div className="audit-summary-item">
@@ -43,7 +46,7 @@ export default function AuditSection({ auditData, auditLoading, auditError }) {
               <p className="audit-summary-value">{auditData.summary.ok}</p>
             </div>
             <div className="audit-summary-item">
-              <p className="audit-summary-label">Schema Issues</p>
+              <p className="audit-summary-label">Schema issues</p>
               <p className="audit-summary-value">{auditData.summary.invalid_schema}</p>
             </div>
             <div className="audit-summary-item">

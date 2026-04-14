@@ -4,7 +4,7 @@ export default function BulletList({ items }) {
   }
 
   return (
-    <ul>
+    <ul className="report-bullet-list">
       {items.map((item) => (
         <li key={item}>{item}</li>
       ))}

@@ -2,7 +2,7 @@ import useMarketOverview from '../../hooks/useMarketOverview';
 
 function formatPrice(value, currency = 'USD') {
   if (typeof value !== 'number') {
-    return '—';
+    return '-';
   }
 
   try {
@@ -18,7 +18,7 @@ function formatPrice(value, currency = 'USD') {
 
 function formatNumberChange(value) {
   if (typeof value !== 'number') {
-    return '—';
+    return '-';
   }
 
   const sign = value > 0 ? '+' : '';
@@ -27,7 +27,7 @@ function formatNumberChange(value) {
 
 function formatPercent(value) {
   if (typeof value !== 'number') {
-    return '—';
+    return '-';
   }
 
   const sign = value > 0 ? '+' : '';
@@ -78,11 +78,14 @@ export default function MarketOverviewSection() {
   } = useMarketOverview(true);
 
   return (
-    <section className="market-overview-card">
-      <div className="market-overview-header">
-        <div>
+    <section className="dashboard-module market-overview-module">
+      <div className="module-header market-overview-header">
+        <div className="module-title-block">
           <p className="section-label">Macro Snapshot</p>
-          <h2>Market Overview</h2>
+          <h2>Market overview</h2>
+          <p className="module-helper">
+            Core benchmarks and proxies for the current trading session.
+          </p>
         </div>
       </div>
 
@@ -95,15 +98,15 @@ export default function MarketOverviewSection() {
       )}
 
       {!overviewLoading && !overviewError && overviewItems.length > 0 && (
-        <div className="market-overview-table-wrap">
+        <div className="table-scroll market-overview-table-wrap">
           <table className="market-overview-table">
             <thead>
               <tr>
-                <th>Symbol</th>
-                <th>Name</th>
-                <th>Last Price</th>
-                <th>Daily Chg.</th>
-                <th>Daily %</th>
+                <th scope="col">Symbol</th>
+                <th scope="col">Name</th>
+                <th scope="col">Last price</th>
+                <th scope="col">Daily change</th>
+                <th scope="col">Daily percent</th>
               </tr>
             </thead>
             <tbody>
@@ -130,12 +133,12 @@ export default function MarketOverviewSection() {
                   <tr key={item.symbol}>
                     <td className="market-overview-symbol">{item.displaySymbol}</td>
                     <td className="market-overview-name">{item.name}</td>
-                    <td>{marketData ? formatPrice(displayPrice, marketData.currency || 'USD') : '—'}</td>
+                    <td>{marketData ? formatPrice(displayPrice, marketData.currency || 'USD') : '-'}</td>
                     <td className={rowClassName}>
-                      {marketData ? formatNumberChange(displayChange) : '—'}
+                      {marketData ? formatNumberChange(displayChange) : '-'}
                     </td>
                     <td className={rowClassName}>
-                      {marketData ? formatPercent(displayChangePercent) : '—'}
+                      {marketData ? formatPercent(displayChangePercent) : '-'}
                     </td>
                   </tr>
                 );

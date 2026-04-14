@@ -1,0 +1,83 @@
+html {
+  color-scheme: dark;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-sans);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.02), transparent 120px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.015) 1px, transparent 1px),
+    linear-gradient(rgba(255, 255, 255, 0.015) 1px, transparent 1px),
+    var(--bg-canvas);
+  background-size: auto, 36px 36px, 36px 36px, auto;
+  color: var(--text-primary);
+}
+
+a {
+  color: inherit;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+button {
+  border: 1px solid var(--border-default);
+  background: var(--surface-2);
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: background-color 140ms ease, border-color 140ms ease, color 140ms ease, transform 140ms ease;
+}
+
+button:hover {
+  border-color: var(--border-strong);
+  background: #303844;
+}
+
+button:disabled {
+  opacity: 0.55;
+  cursor: wait;
+}
+
+input,
+textarea {
+  border: 1px solid var(--border-default);
+  background: rgba(10, 13, 16, 0.82);
+  color: var(--text-primary);
+  transition: border-color 140ms ease, box-shadow 140ms ease, background-color 140ms ease;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--text-muted);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent-strong);
+  outline-offset: 2px;
+}
+
+p,
+ul,
+ol {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}

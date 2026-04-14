@@ -4,10 +4,10 @@ export default function ParagraphBlock({ paragraphs }) {
   }
 
   return (
-    <>
+    <div className="paragraph-block">
       {paragraphs.map((paragraph) => (
         <p key={paragraph}>{paragraph}</p>
       ))}
-    </>
+    </div>
   );
 }

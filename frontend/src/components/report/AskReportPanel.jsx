@@ -45,6 +45,7 @@ export default function AskReportPanel({ ticker, companyName, onCitationClick })
   return (
     <aside className="ask-report-panel">
       <div className="ask-report-header">
+        <p className="section-label">Report QA</p>
         <h3>Ask the Report</h3>
         <p className="ask-report-helper">
           Ask questions grounded in this company&apos;s research report.
@@ -231,7 +232,7 @@ function HistoryEntry({ entry, isCurrent = false, onReuseQuestion, onCitationCli
               >
                 <p className="ask-report-citation-heading">
                   {citation.sectionTitle}
-                  {citation.subsectionTitle ? ` - ${citation.subsectionTitle}` : ''}
+                  {citation.subsectionTitle ? ` / ${citation.subsectionTitle}` : ''}
                 </p>
                 <p className="ask-report-citation-snippet">{citation.snippet}</p>
                 {onCitationClick && (

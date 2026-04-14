@@ -1,0 +1,260 @@
+.dashboard-module,
+.result-state,
+.report-hero,
+.ask-report-panel {
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-soft);
+}
+
+.dashboard-module {
+  background: linear-gradient(180deg, var(--surface-1), rgba(20, 24, 29, 0.98));
+}
+
+.module-header,
+.dashboard-module,
+.result-state,
+.ask-report-panel {
+  padding: var(--space-5);
+}
+
+.module-header {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-4);
+  align-items: flex-start;
+}
+
+.module-title-block {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.module-title-block h2 {
+  font-size: 1.3rem;
+}
+
+.coverage-count {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.market-overview-module {
+  background: linear-gradient(180deg, rgba(31, 38, 45, 0.98), rgba(22, 27, 32, 0.98));
+}
+
+.coverage-module {
+  overflow: hidden;
+}
+
+.audit-module {
+  background: linear-gradient(180deg, rgba(21, 25, 30, 0.96), rgba(17, 20, 24, 0.96));
+}
+
+.table-scroll {
+  overflow-x: auto;
+}
+
+.coverage-table,
+.market-overview-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 760px;
+}
+
+.coverage-table th,
+.coverage-table td,
+.market-overview-table th,
+.market-overview-table td {
+  padding: 0.9rem 1rem;
+  border-top: 1px solid var(--border-subtle);
+  text-align: left;
+  vertical-align: middle;
+}
+
+.coverage-table th,
+.market-overview-table th {
+  color: var(--text-muted);
+  font-size: 0.74rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.coverage-row {
+  transition: background-color 140ms ease;
+}
+
+.coverage-row:hover {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.coverage-row-active {
+  background: var(--surface-accent);
+  box-shadow: inset 3px 0 0 var(--accent);
+}
+
+.coverage-row-button {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+}
+
+.coverage-row-button:hover {
+  background: transparent;
+  color: var(--accent-strong);
+}
+
+.coverage-list-ticker {
+  font-size: 0.98rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.coverage-list-company {
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.coverage-list-meta,
+.coverage-list-updated,
+.market-overview-name {
+  color: var(--text-secondary);
+}
+
+.market-overview-symbol {
+  font-weight: 700;
+}
+
+.market-overview-positive {
+  color: var(--positive);
+  font-weight: 600;
+}
+
+.market-overview-negative {
+  color: var(--negative);
+  font-weight: 600;
+}
+
+.audit-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+}
+
+.audit-summary-item,
+.audit-list-item {
+  padding: var(--space-4);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  background: rgba(8, 10, 13, 0.24);
+}
+
+.audit-summary-label,
+.audit-history-label,
+.ask-report-history-label,
+.ask-report-question-label {
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.72rem;
+}
+
+.audit-summary-value {
+  margin-top: var(--space-2);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.audit-list-scroll {
+  max-height: 720px;
+  overflow-y: auto;
+}
+
+.compact-audit-list {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.audit-list-main {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-3);
+}
+
+.audit-report-ticker {
+  font-weight: 700;
+}
+
+.audit-report-company {
+  margin-top: 0.3rem;
+  color: var(--text-secondary);
+}
+
+.audit-badge {
+  align-self: flex-start;
+  padding: 0.3rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid var(--border-default);
+  font-size: 0.76rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.audit-badge-ok {
+  color: var(--positive);
+  border-color: rgba(124, 207, 156, 0.35);
+  background: var(--positive-surface);
+}
+
+.audit-badge-invalid_schema,
+.audit-badge-invalid_json,
+.audit-badge-missing_file,
+.audit-badge-error {
+  color: var(--negative);
+  border-color: rgba(222, 143, 143, 0.3);
+  background: rgba(82, 38, 38, 0.28);
+}
+
+.audit-issues-list {
+  margin-top: var(--space-3);
+  padding-left: 1.1rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.result-state {
+  background: linear-gradient(180deg, rgba(28, 34, 40, 0.98), rgba(22, 26, 31, 0.98));
+}
+
+.result-state-warning {
+  background: linear-gradient(180deg, rgba(58, 48, 30, 0.42), rgba(28, 24, 18, 0.96));
+  border-color: rgba(199, 168, 107, 0.36);
+}
+
+.result-state-header {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.result-header-row {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-4);
+  align-items: flex-start;
+}
+
+@media (max-width: 820px) {
+  .module-header,
+  .result-header-row,
+  .audit-list-main {
+    flex-direction: column;
+  }
+
+  .coverage-table,
+  .market-overview-table {
+    min-width: 680px;
+  }
+}

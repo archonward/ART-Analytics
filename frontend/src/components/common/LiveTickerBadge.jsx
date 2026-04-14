@@ -1,6 +1,6 @@
 function formatPrice(value, currency = 'USD') {
   if (typeof value !== 'number') {
-    return '—';
+    return '-';
   }
 
   try {
@@ -16,7 +16,7 @@ function formatPrice(value, currency = 'USD') {
 
 function formatPercent(value) {
   if (typeof value !== 'number') {
-    return '—';
+    return '-';
   }
 
   const sign = value > 0 ? '+' : '';
@@ -53,7 +53,7 @@ function getMarketStateLabel(marketState) {
   }
 
   if (marketState === 'POST') {
-    return 'After Hours';
+    return 'After hours';
   }
 
   if (marketState === 'REGULAR') {

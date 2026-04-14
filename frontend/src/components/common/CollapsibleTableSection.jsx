@@ -22,7 +22,7 @@ export default function CollapsibleTableSection({
       >
         <span>{title}</span>
         <span className={`collapsible-table-chevron ${isOpen ? 'collapsible-table-chevron-open' : ''}`}>
-          ▾
+          v
         </span>
       </button>
 

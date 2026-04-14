@@ -11,6 +11,25 @@ import ValuationMultiplesChart from '../charts/ValuationMultiplesChart';
 import useMarketData from '../../hooks/useMarketData';
 import { REPORT_SECTION_IDS } from './reportSections';
 
+function RecommendationSnapshot({ finalRecommendation }) {
+  return (
+    <div className="metric-grid report-conclusion-grid">
+      <div className="metric-card">
+        <p className="metric-label">Rating</p>
+        <p className="metric-value">{finalRecommendation.rating}</p>
+      </div>
+      <div className="metric-card">
+        <p className="metric-label">Price target</p>
+        <p className="metric-value">{finalRecommendation.priceTarget}</p>
+      </div>
+      <div className="metric-card">
+        <p className="metric-label">Implied upside</p>
+        <p className="metric-value">{finalRecommendation.impliedUpsidePct}</p>
+      </div>
+    </div>
+  );
+}
+
 export default function CoveredReport({ reportData, resultRef, onResetView }) {
   const { meta } = reportData;
 
@@ -22,9 +41,10 @@ export default function CoveredReport({ reportData, resultRef, onResetView }) {
   } = useMarketData(meta.ticker, true);
 
   return (
-    <section className="result-card" ref={resultRef}>
-      <div className="result-header-row">
-        <div>
+    <article className="report-shell" ref={resultRef}>
+      <header className="report-hero">
+        <div className="report-hero-main">
+          <p className="section-label">Research summary</p>
           <div className="report-title-row">
             <h2>
               {meta.companyName} ({meta.ticker})
@@ -38,242 +58,256 @@ export default function CoveredReport({ reportData, resultRef, onResetView }) {
             />
           </div>
 
-          <p className="exchange">Exchange: {meta.exchange}</p>
-          {meta.sector && <p className="meta-line">Sector: {meta.sector}</p>}
-          {meta.industry && <p className="meta-line">Industry: {meta.industry}</p>}
-          {meta.reportDate && <p className="meta-line">Report Date: {meta.reportDate}</p>}
+          <div className="report-meta-grid">
+            <div className="report-meta-item">
+              <span className="report-meta-label">Exchange</span>
+              <span className="report-meta-value">{meta.exchange || '-'}</span>
+            </div>
+            {meta.sector && (
+              <div className="report-meta-item">
+                <span className="report-meta-label">Sector</span>
+                <span className="report-meta-value">{meta.sector}</span>
+              </div>
+            )}
+            {meta.industry && (
+              <div className="report-meta-item">
+                <span className="report-meta-label">Industry</span>
+                <span className="report-meta-value">{meta.industry}</span>
+              </div>
+            )}
+            {meta.reportDate && (
+              <div className="report-meta-item">
+                <span className="report-meta-label">Report date</span>
+                <span className="report-meta-value">{meta.reportDate}</span>
+              </div>
+            )}
+          </div>
         </div>
 
-        <button type="button" className="secondary-button" onClick={onResetView}>
-          Back to Coverage
-        </button>
-      </div>
+        <div className="report-hero-actions">
+          <button type="button" className="secondary-button" onClick={onResetView}>
+            Back to coverage
+          </button>
+        </div>
+      </header>
 
-      <SectionCard
-        title="Executive At-a-Glance"
-        id={REPORT_SECTION_IDS.executiveAtAGlance}
-      >
-        <p className="thesis-headline">{reportData.executiveAtAGlance.thesisHeadline}</p>
-        <MetricGrid items={reportData.executiveAtAGlance.snapshotMetrics} />
-      </SectionCard>
+      <div className="report-document">
+        <SectionCard
+          title="Executive At-a-Glance"
+          id={REPORT_SECTION_IDS.executiveAtAGlance}
+        >
+          <p className="thesis-headline">{reportData.executiveAtAGlance.thesisHeadline}</p>
+          <MetricGrid items={reportData.executiveAtAGlance.snapshotMetrics} />
+        </SectionCard>
 
-      <SectionCard
-        title="Executive Summary"
-        id={REPORT_SECTION_IDS.executiveSummary}
-      >
-        <ParagraphBlock paragraphs={reportData.executiveSummary.summaryParagraphs} />
+        <SectionCard
+          title="Executive Summary"
+          id={REPORT_SECTION_IDS.executiveSummary}
+        >
+          <ParagraphBlock paragraphs={reportData.executiveSummary.summaryParagraphs} />
 
-        <h4>Top Catalysts</h4>
-        <BulletList items={reportData.executiveSummary.catalysts} />
+          <h4>Top catalysts</h4>
+          <BulletList items={reportData.executiveSummary.catalysts} />
 
-        <h4>Primary Risks</h4>
-        <BulletList items={reportData.executiveSummary.primaryRisks} />
+          <h4>Primary risks</h4>
+          <BulletList items={reportData.executiveSummary.primaryRisks} />
 
-        <h4>Valuation Bridge</h4>
-        <p>{reportData.executiveSummary.valuationBridge}</p>
-      </SectionCard>
+          <h4>Valuation bridge</h4>
+          <p>{reportData.executiveSummary.valuationBridge}</p>
+        </SectionCard>
 
-      <SectionCard
-        title="Financial Performance & Health"
-        id={REPORT_SECTION_IDS.financialPerformanceHealth}
-      >
-        <h4>Income Statement Analysis</h4>
-        <ParagraphBlock
-          paragraphs={reportData.financialPerformanceHealth.incomeStatementAnalysis.summaryParagraphs}
-        />
-        <BulletList items={reportData.financialPerformanceHealth.incomeStatementAnalysis.highlights} />
+        <SectionCard
+          title="Financial Performance & Health"
+          id={REPORT_SECTION_IDS.financialPerformanceHealth}
+        >
+          <h4>Income statement analysis</h4>
+          <ParagraphBlock
+            paragraphs={reportData.financialPerformanceHealth.incomeStatementAnalysis.summaryParagraphs}
+          />
+          <BulletList items={reportData.financialPerformanceHealth.incomeStatementAnalysis.highlights} />
 
-        <RevenueEarningsChart
-          table={reportData.financialPerformanceHealth.incomeStatementAnalysis.tables[0]}
-        />
-
-        <MarginTrendChart
-          table={reportData.financialPerformanceHealth.incomeStatementAnalysis.tables[1]}
-        />
-
-        {reportData.financialPerformanceHealth.incomeStatementAnalysis.tables[0] && (
-          <CollapsibleTableSection
-            title="Income Statement"
+          <RevenueEarningsChart
             table={reportData.financialPerformanceHealth.incomeStatementAnalysis.tables[0]}
           />
-        )}
 
-        {reportData.financialPerformanceHealth.incomeStatementAnalysis.tables[1] && (
-          <CollapsibleTableSection
-            title="Margin Analysis"
+          <MarginTrendChart
             table={reportData.financialPerformanceHealth.incomeStatementAnalysis.tables[1]}
           />
-        )}
 
-        <h4>Balance Sheet Analysis</h4>
-        <ParagraphBlock
-          paragraphs={reportData.financialPerformanceHealth.balanceSheetAnalysis.summaryParagraphs}
-        />
+          {reportData.financialPerformanceHealth.incomeStatementAnalysis.tables[0] && (
+            <CollapsibleTableSection
+              title="Income statement"
+              table={reportData.financialPerformanceHealth.incomeStatementAnalysis.tables[0]}
+            />
+          )}
 
-        <h4>Cash Flow & Returns</h4>
-        <ParagraphBlock
-          paragraphs={reportData.financialPerformanceHealth.cashFlowReturns.summaryParagraphs}
-        />
-        <BulletList items={reportData.financialPerformanceHealth.cashFlowReturns.highlights} />
-      </SectionCard>
+          {reportData.financialPerformanceHealth.incomeStatementAnalysis.tables[1] && (
+            <CollapsibleTableSection
+              title="Margin analysis"
+              table={reportData.financialPerformanceHealth.incomeStatementAnalysis.tables[1]}
+            />
+          )}
 
-      <SectionCard title="Valuation" id={REPORT_SECTION_IDS.valuation}>
-        <h4>Multiples Analysis</h4>
-        <ParagraphBlock paragraphs={reportData.valuation.multiplesAnalysis.summaryParagraphs} />
-
-        <ValuationMultiplesChart table={reportData.valuation.multiplesAnalysis.tables[0]} />
-
-        {reportData.valuation.multiplesAnalysis.tables[0] && (
-          <CollapsibleTableSection
-            title="Valuation Multiple"
-            table={reportData.valuation.multiplesAnalysis.tables[0]}
+          <h4>Balance sheet analysis</h4>
+          <ParagraphBlock
+            paragraphs={reportData.financialPerformanceHealth.balanceSheetAnalysis.summaryParagraphs}
           />
-        )}
 
-        <h4>DCF Analysis</h4>
-        <ParagraphBlock paragraphs={reportData.valuation.dcfAnalysis.summaryParagraphs} />
-        <BulletList items={reportData.valuation.dcfAnalysis.assumptions} />
+          <h4>Cash flow and returns</h4>
+          <ParagraphBlock
+            paragraphs={reportData.financialPerformanceHealth.cashFlowReturns.summaryParagraphs}
+          />
+          <BulletList items={reportData.financialPerformanceHealth.cashFlowReturns.highlights} />
+        </SectionCard>
 
-        <h4>Valuation Conclusion</h4>
-        <p>{reportData.valuation.valuationConclusion}</p>
-      </SectionCard>
+        <SectionCard title="Valuation" id={REPORT_SECTION_IDS.valuation}>
+          <h4>Multiples analysis</h4>
+          <ParagraphBlock paragraphs={reportData.valuation.multiplesAnalysis.summaryParagraphs} />
 
-      <SectionCard
-        title="Business Model & Competitive Moat"
-        id={REPORT_SECTION_IDS.businessModelMoat}
-      >
-        <h4>Segment Profile</h4>
-        <ParagraphBlock paragraphs={reportData.businessModelMoat.segmentProfile.summaryParagraphs} />
-        <DataTable table={reportData.businessModelMoat.segmentProfile.segmentTable} />
+          <ValuationMultiplesChart table={reportData.valuation.multiplesAnalysis.tables[0]} />
 
-        <h4>Economic Moat Assessment</h4>
-        <ParagraphBlock
-          paragraphs={reportData.businessModelMoat.economicMoatAssessment.summaryParagraphs}
-        />
-        <CollapsibleTableSection
-          title="Economic Moat Assessment"
-          table={reportData.businessModelMoat.economicMoatAssessment.moatTable}
-          suppressTitle
-        />
-        <p>{reportData.businessModelMoat.economicMoatAssessment.overallMoatConclusion}</p>
-      </SectionCard>
+          {reportData.valuation.multiplesAnalysis.tables[0] && (
+            <CollapsibleTableSection
+              title="Valuation multiples"
+              table={reportData.valuation.multiplesAnalysis.tables[0]}
+            />
+          )}
 
-      <SectionCard
-        title="Growth Strategy & Future Outlook"
-        id={REPORT_SECTION_IDS.growthStrategyOutlook}
-      >
-        <h4>Near-Term Catalysts</h4>
-        <BulletList items={reportData.growthStrategyOutlook.nearTermCatalysts} />
+          <h4>DCF analysis</h4>
+          <ParagraphBlock paragraphs={reportData.valuation.dcfAnalysis.summaryParagraphs} />
+          <BulletList items={reportData.valuation.dcfAnalysis.assumptions} />
 
-        <h4>Medium-Term Drivers</h4>
-        <BulletList items={reportData.growthStrategyOutlook.mediumTermDrivers} />
+          <h4>Valuation conclusion</h4>
+          <p>{reportData.valuation.valuationConclusion}</p>
+        </SectionCard>
 
-        <h4>Long-Term Opportunities</h4>
-        <BulletList items={reportData.growthStrategyOutlook.longTermOpportunities} />
+        <SectionCard
+          title="Business Model & Competitive Moat"
+          id={REPORT_SECTION_IDS.businessModelMoat}
+        >
+          <h4>Segment profile</h4>
+          <ParagraphBlock paragraphs={reportData.businessModelMoat.segmentProfile.summaryParagraphs} />
+          <DataTable table={reportData.businessModelMoat.segmentProfile.segmentTable} />
 
-        <h4>TAM & Positioning</h4>
-        <ParagraphBlock paragraphs={reportData.growthStrategyOutlook.tamPositioning.summaryParagraphs} />
-        <BulletList items={reportData.growthStrategyOutlook.tamPositioning.highlights} />
-      </SectionCard>
+          <h4>Economic moat assessment</h4>
+          <ParagraphBlock
+            paragraphs={reportData.businessModelMoat.economicMoatAssessment.summaryParagraphs}
+          />
+          <CollapsibleTableSection
+            title="Economic moat assessment"
+            table={reportData.businessModelMoat.economicMoatAssessment.moatTable}
+            suppressTitle
+          />
+          <p>{reportData.businessModelMoat.economicMoatAssessment.overallMoatConclusion}</p>
+        </SectionCard>
 
-      <SectionCard
-        title="Management & Governance"
-        id={REPORT_SECTION_IDS.managementGovernance}
-      >
-        <h4>Leadership</h4>
-        <ParagraphBlock paragraphs={reportData.managementGovernance.leadership.summaryParagraphs} />
+        <SectionCard
+          title="Growth Strategy & Future Outlook"
+          id={REPORT_SECTION_IDS.growthStrategyOutlook}
+        >
+          <h4>Near-term catalysts</h4>
+          <BulletList items={reportData.growthStrategyOutlook.nearTermCatalysts} />
 
-        <h4>Capital Allocation</h4>
-        <ParagraphBlock paragraphs={reportData.managementGovernance.capitalAllocation.summaryParagraphs} />
-        <DataTable table={reportData.managementGovernance.capitalAllocation.acquisitionTable} />
+          <h4>Medium-term drivers</h4>
+          <BulletList items={reportData.growthStrategyOutlook.mediumTermDrivers} />
 
-        <h4>Alignment</h4>
-        <ParagraphBlock paragraphs={reportData.managementGovernance.alignment.summaryParagraphs} />
-      </SectionCard>
+          <h4>Long-term opportunities</h4>
+          <BulletList items={reportData.growthStrategyOutlook.longTermOpportunities} />
 
-      <SectionCard title="Risk Analysis" id={REPORT_SECTION_IDS.riskAnalysis}>
-        <DataTable table={reportData.riskAnalysis.riskTable} suppressTitle />
-      </SectionCard>
+          <h4>TAM and positioning</h4>
+          <ParagraphBlock paragraphs={reportData.growthStrategyOutlook.tamPositioning.summaryParagraphs} />
+          <BulletList items={reportData.growthStrategyOutlook.tamPositioning.highlights} />
+        </SectionCard>
 
-      <SectionCard
-        title="Final Recommendation"
-        id={REPORT_SECTION_IDS.finalRecommendation}
-      >
-        <div className="metric-grid">
-          <div className="metric-card">
-            <p className="metric-label">Rating</p>
-            <p className="metric-value">{reportData.finalRecommendation.rating}</p>
-          </div>
-          <div className="metric-card">
-            <p className="metric-label">Price Target</p>
-            <p className="metric-value">{reportData.finalRecommendation.priceTarget}</p>
-          </div>
-          <div className="metric-card">
-            <p className="metric-label">Implied Upside</p>
-            <p className="metric-value">{reportData.finalRecommendation.impliedUpsidePct}</p>
-          </div>
-        </div>
+        <SectionCard
+          title="Management & Governance"
+          id={REPORT_SECTION_IDS.managementGovernance}
+        >
+          <h4>Leadership</h4>
+          <ParagraphBlock paragraphs={reportData.managementGovernance.leadership.summaryParagraphs} />
 
-        <h4>Bull / Base / Bear</h4>
-        <ul>
-          <li>Bull: {reportData.finalRecommendation.bullBaseBear.bull}</li>
-          <li>Base: {reportData.finalRecommendation.bullBaseBear.base}</li>
-          <li>Bear: {reportData.finalRecommendation.bullBaseBear.bear}</li>
-        </ul>
+          <h4>Capital allocation</h4>
+          <ParagraphBlock paragraphs={reportData.managementGovernance.capitalAllocation.summaryParagraphs} />
+          <DataTable table={reportData.managementGovernance.capitalAllocation.acquisitionTable} />
 
-        <h4>Valuation Methodology</h4>
-        <p>{reportData.finalRecommendation.valuationMethodology}</p>
+          <h4>Alignment</h4>
+          <ParagraphBlock paragraphs={reportData.managementGovernance.alignment.summaryParagraphs} />
+        </SectionCard>
 
-        <h4>Five Key Metrics to Watch</h4>
-        <BulletList items={reportData.finalRecommendation.fiveKeyMetricsToWatch} />
+        <SectionCard title="Risk Analysis" id={REPORT_SECTION_IDS.riskAnalysis}>
+          <DataTable table={reportData.riskAnalysis.riskTable} suppressTitle />
+        </SectionCard>
 
-        <h4>What Would Change the Rating</h4>
-        <div className="table-wrap">
-          <table className="report-table">
-            <thead>
-              <tr>
-                <th>Action</th>
-                <th>Direction</th>
-                <th>Specific Trigger</th>
-              </tr>
-            </thead>
-            <tbody>
-              {reportData.finalRecommendation.ratingChangeTriggers.map((item, index) => {
-                const isUpgrade = item.direction === '↑';
-                const isDowngrade = item.direction === '↓' || item.direction === '↓↓';
-                return (
-                  <tr key={`${item.action}-${index}`}>
-                    <td>{item.action}</td>
-                    <td className="rating-direction-cell">
-                      <span
-                        className={`rating-direction-arrow ${
-                          isUpgrade
-                            ? 'rating-direction-arrow-up'
-                            : isDowngrade
-                              ? 'rating-direction-arrow-down'
-                              : ''
-                        }`}
-                      >
-                        {item.direction}
-                      </span>
-                    </td>
-                    <td>{item.trigger}</td>
+        <SectionCard
+          title="Final Recommendation"
+          id={REPORT_SECTION_IDS.finalRecommendation}
+        >
+          <RecommendationSnapshot finalRecommendation={reportData.finalRecommendation} />
+
+          <h4>Bull / base / bear</h4>
+          <ul className="report-bullet-list">
+            <li>Bull: {reportData.finalRecommendation.bullBaseBear.bull}</li>
+            <li>Base: {reportData.finalRecommendation.bullBaseBear.base}</li>
+            <li>Bear: {reportData.finalRecommendation.bullBaseBear.bear}</li>
+          </ul>
+
+          <h4>Valuation methodology</h4>
+          <p>{reportData.finalRecommendation.valuationMethodology}</p>
+
+          <h4>Five key metrics to watch</h4>
+          <BulletList items={reportData.finalRecommendation.fiveKeyMetricsToWatch} />
+
+          <h4>What would change the rating</h4>
+          <div className="table-wrap">
+            <div className="table-scroll">
+              <table className="report-table">
+                <thead>
+                  <tr>
+                    <th scope="col">Action</th>
+                    <th scope="col">Direction</th>
+                    <th scope="col">Specific trigger</th>
                   </tr>
-                );
-              })}
-            </tbody>
-          </table>
-        </div>
+                </thead>
+                <tbody>
+                  {reportData.finalRecommendation.ratingChangeTriggers.map((item, index) => {
+                    const isUpgrade = item.direction?.includes('\u2191');
+                    const isDowngrade = item.direction?.includes('\u2193');
 
-        <p>{reportData.finalRecommendation.closingParagraph}</p>
-      </SectionCard>
+                    return (
+                      <tr key={`${item.action}-${index}`}>
+                        <td>{item.action}</td>
+                        <td className="rating-direction-cell">
+                          <span
+                            className={`rating-direction-arrow ${
+                              isUpgrade
+                                ? 'rating-direction-arrow-up'
+                                : isDowngrade
+                                  ? 'rating-direction-arrow-down'
+                                  : ''
+                            }`}
+                          >
+                            {item.direction}
+                          </span>
+                        </td>
+                        <td>{item.trigger}</td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </div>
+          </div>
 
-      <SectionCard
-        title="Open Questions & Narrative Checkpoints"
-        id={REPORT_SECTION_IDS.openQuestions}
-      >
-        <BulletList items={reportData.openQuestions} />
-      </SectionCard>
-    </section>
+          <p>{reportData.finalRecommendation.closingParagraph}</p>
+        </SectionCard>
+
+        <SectionCard
+          title="Open Questions & Narrative Checkpoints"
+          id={REPORT_SECTION_IDS.openQuestions}
+        >
+          <BulletList items={reportData.openQuestions} />
+        </SectionCard>
+      </div>
+    </article>
   );
 }

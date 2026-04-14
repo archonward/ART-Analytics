@@ -8,24 +8,26 @@ export default function DataTable({ table, suppressTitle = false }) {
   return (
     <div className="table-wrap">
       {shouldShowTitle && <h4 className="table-title">{table.title}</h4>}
-      <table className="report-table">
-        <thead>
-          <tr>
-            {table.columns.map((column) => (
-              <th key={column}>{column}</th>
-            ))}
-          </tr>
-        </thead>
-        <tbody>
-          {table.rows.map((row, rowIndex) => (
-            <tr key={`${table.title || 'table'}-${rowIndex}`}>
-              {row.map((cell, cellIndex) => (
-                <td key={`${rowIndex}-${cellIndex}`}>{cell}</td>
+      <div className="table-scroll">
+        <table className="report-table">
+          <thead>
+            <tr>
+              {table.columns.map((column) => (
+                <th key={column} scope="col">{column}</th>
               ))}
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {table.rows.map((row, rowIndex) => (
+              <tr key={`${table.title || 'table'}-${rowIndex}`}>
+                {row.map((cell, cellIndex) => (
+                  <td key={`${rowIndex}-${cellIndex}`}>{cell}</td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 }
