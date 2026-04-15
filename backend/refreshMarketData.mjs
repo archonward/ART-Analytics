@@ -181,6 +181,60 @@ function applyUpdates(report, liveData) {
   return updated;
 }
 
+// ── Refresh logic ─────────────────────────────────────────────────────────────
+
+async function refreshTicker(ticker) {
+  process.stdout.write(`  ${ticker.padEnd(6)} → fetching... `);
+
+  let report;
+  try {
+    report = await fetchReportFromS3(ticker);
+  } catch (err) {
+    console.log(`❌ S3 read failed: ${err.message}`);
+    return false;
+  }
+
+  let liveData;
+  try {
+    liveData = await fetchLiveData(ticker);
+  } catch (err) {
+    console.log(`❌ ${err.message}`);
+    return false;
+  }
+
+  const updated = applyUpdates(report, liveData);
+
+  try {
+    await pushReportToS3(ticker, updated);
+  } catch (err) {
+    console.log(`❌ S3 write failed: ${err.message}`);
+    return false;
+  }
+
+  // Print what changed
+  const changes = [];
+  if (updated.meta.currentPrice !== report.meta.currentPrice)
+    changes.push(`price ${report.meta.currentPrice} → ${updated.meta.currentPrice}`);
+  if (updated.meta.impliedUpsidePct !== report.meta.impliedUpsidePct)
+    changes.push(`upside ${report.meta.impliedUpsidePct} → ${updated.meta.impliedUpsidePct}`);
+
+  const oldPE = report.executiveAtAGlance?.snapshotMetrics?.find(m => m.label === 'P/E')?.value;
+  const newPE = updated.executiveAtAGlance?.snapshotMetrics?.find(m => m.label === 'P/E')?.value;
+  if (oldPE !== newPE) changes.push(`P/E ${oldPE} → ${newPE}`);
+
+  const oldMC = report.executiveAtAGlance?.snapshotMetrics?.find(m => m.label === 'Market Cap')?.value;
+  const newMC = updated.executiveAtAGlance?.snapshotMetrics?.find(m => m.label === 'Market Cap')?.value;
+  if (oldMC !== newMC) changes.push(`mktcap ${oldMC} → ${newMC}`);
+
+  if (changes.length === 0) {
+    console.log('✅ no changes');
+  } else {
+    console.log(`✅ updated — ${changes.join(' | ')}`);
+  }
+
+  return true;
+}
+
 // ── Sync logic ────────────────────────────────────────────────────────────────
 
 async function syncTickerLocally(ticker) {
