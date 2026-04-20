@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useCallback, useState } from 'react';
 import { API_BASE, API_HEADERS } from '../config/api';
 
 export default function useStockSearch() {
@@ -8,7 +8,7 @@ export default function useStockSearch() {
   const [result, setResult] = useState(null);
   const [selectedTicker, setSelectedTicker] = useState('');
 
-  async function searchTicker(targetTicker) {
+  const searchTicker = useCallback(async (targetTicker) => {
     const normalizedTicker = targetTicker.trim().toUpperCase();
 
     setLoading(true);
@@ -33,14 +33,14 @@ export default function useStockSearch() {
     } finally {
       setLoading(false);
     }
-  }
+  }, []);
 
-  function resetView() {
+  const resetView = useCallback(() => {
     setTicker('');
     setError('');
     setResult(null);
     setSelectedTicker('');
-  }
+  }, []);
 
   return {
     ticker,
