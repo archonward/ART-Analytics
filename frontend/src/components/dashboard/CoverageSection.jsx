@@ -8,6 +8,9 @@ export default function CoverageSection({
   selectedTicker,
   onTickerClick
 }) {
+  const sortedCoveredTickers = [...coveredTickers].sort((a, b) =>
+    (a.companyName || '').localeCompare(b.companyName || '')
+  );
   const tickerSymbols = coveredTickers.map((item) => item.ticker);
 
   const {
@@ -48,7 +51,7 @@ export default function CoverageSection({
               </tr>
             </thead>
             <tbody>
-              {coveredTickers.map((item) => {
+              {sortedCoveredTickers.map((item) => {
                 const isSelected = selectedTicker === item.ticker;
                 const batchItem = marketDataMap[item.ticker];
 
