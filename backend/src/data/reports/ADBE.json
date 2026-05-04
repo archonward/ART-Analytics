@@ -9,9 +9,9 @@
     "author": "ART Analytics",
     "rating": "BUY",
     "targetPrice": "$320",
-    "currentPrice": "$225.35",
-    "impliedUpsidePct": "+42.0%",
-    "marketDataAsOf": "Apr 10, 2026, 8:00 PM",
+    "currentPrice": "$250.71",
+    "impliedUpsidePct": "+27.6%",
+    "marketDataAsOf": "May 1, 2026, 4:00 PM",
     "estimatedReadMinutes": 23,
     "coverageStatus": "published"
   },
@@ -20,7 +20,7 @@
     "snapshotMetrics": [
       {
         "label": "Market Cap",
-        "value": "$91.9B"
+        "value": "$101.3B"
       },
       {
         "label": "Enterprise Value",
@@ -40,7 +40,7 @@
       },
       {
         "label": "P/E",
-        "value": "13.1x"
+        "value": "14.6x"
       },
       {
         "label": "EV/EBITDA",
@@ -159,7 +159,7 @@
               "87.7%",
               "34.6%",
               "27.0%",
-              "\u2014"
+              "—"
             ],
             [
               "FY2023",
@@ -677,13 +677,13 @@
         "rows": [
           [
             "Figma Acquisition (Attempted)",
-            "2022\u20132023",
+            "2022–2023",
             "$20.0B",
             "Blocked by regulators; termination fee paid"
           ],
           [
             "Semrush Acquisition (Pending)",
-            "2025\u20132026",
+            "2025–2026",
             "$1.5B",
             "Preliminary German approval secured; full close pending"
           ],
@@ -774,7 +774,7 @@
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$320",
-    "impliedUpsidePct": "+42.0%",
+    "impliedUpsidePct": "+27.6%",
     "bullBaseBear": {
       "bull": "$430",
       "base": "$320",
@@ -791,17 +791,17 @@
     "ratingChangeTriggers": [
       {
         "action": "Upgrade to Strong Buy",
-        "direction": "\u2191",
+        "direction": "↑",
         "trigger": "CEO successor announced with a strong Adobe-aligned track record and Q2 FY2026 revenue beat above $6.52B with raised FY2026 guidance above $26.5B."
       },
       {
         "action": "Downgrade to Hold",
-        "direction": "\u2193",
+        "direction": "↓",
         "trigger": "Creative Cloud net new ARR falls below $350M for two consecutive quarters, or operating margin compresses below 37% on AI infrastructure cost increases."
       },
       {
         "action": "Downgrade to Sell",
-        "direction": "\u2193\u2193",
+        "direction": "↓↓",
         "trigger": "FY2026 revenue guidance cut below $25.0B, or FCF margin contracts below 35%, or the CEO transition produces a major strategic pivot that damages Creative Cloud pricing architecture."
       }
     ],

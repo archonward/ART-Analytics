@@ -9,9 +9,9 @@
     "author": "ART Analytics",
     "rating": "BUY",
     "targetPrice": "$480",
-    "currentPrice": "$348.95",
-    "impliedUpsidePct": "+37.6%",
-    "marketDataAsOf": "Apr 10, 2026, 4:00 PM",
+    "currentPrice": "$390.82",
+    "impliedUpsidePct": "+22.8%",
+    "marketDataAsOf": "May 1, 2026, 4:00 PM",
     "estimatedReadMinutes": 12,
     "coverageStatus": "published"
   },
@@ -20,7 +20,7 @@
     "snapshotMetrics": [
       {
         "label": "Market Cap",
-        "value": "$1.31T"
+        "value": "$1.47T"
       },
       {
         "label": "Enterprise Value",
@@ -40,7 +40,7 @@
       },
       {
         "label": "P/E",
-        "value": "323.1x"
+        "value": "358.6x"
       },
       {
         "label": "EV/EBITDA",
@@ -644,7 +644,7 @@
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$480",
-    "impliedUpsidePct": "+37.6%",
+    "impliedUpsidePct": "+22.8%",
     "bullBaseBear": {
       "bull": "$620",
       "base": "$480",

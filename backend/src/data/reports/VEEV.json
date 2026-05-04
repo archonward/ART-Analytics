@@ -9,9 +9,9 @@
     "author": "ART Analytics",
     "rating": "BUY",
     "targetPrice": "$225.00",
-    "currentPrice": "$151.43",
-    "impliedUpsidePct": "+48.6%",
-    "marketDataAsOf": "Apr 10, 2026, 8:00 PM",
+    "currentPrice": "$171.60",
+    "impliedUpsidePct": "+31.1%",
+    "marketDataAsOf": "May 1, 2026, 4:00 PM",
     "estimatedReadMinutes": 22,
     "coverageStatus": "published"
   },
@@ -20,7 +20,7 @@
     "snapshotMetrics": [
       {
         "label": "Market Cap",
-        "value": "$24.9B"
+        "value": "$28.2B"
       },
       {
         "label": "Enterprise Value",
@@ -40,7 +40,7 @@
       },
       {
         "label": "P/E",
-        "value": "27.8x"
+        "value": "31.5x"
       },
       {
         "label": "EV/EBITDA",
@@ -70,7 +70,7 @@
   },
   "executiveSummary": {
     "summaryParagraphs": [
-      "Veeva Systems is the dominant cloud software platform for life sciences, with embedded switching costs, a recurring revenue model, and a balance sheet carrying net cash of $1.3B. The stock has been cut in half from its 52-week high of $310.50, presenting a compelling entry point for investors with a 2\u20133 year horizon.",
+      "Veeva Systems is the dominant cloud software platform for life sciences, with embedded switching costs, a recurring revenue model, and a balance sheet carrying net cash of $1.3B. The stock has been cut in half from its 52-week high of $310.50, presenting a compelling entry point for investors with a 2–3 year horizon.",
       "At 15.3x forward P/E and 5.7x EV/Revenue on consensus FY27E revenue of $3.6B, VEEV trades at a material discount to its 5-year average multiples despite improving profitability. Our $225 price target is derived from a blended 50/50 DCF/comps methodology, implying +48.6% upside from current levels."
     ],
     "catalysts": [
@@ -343,7 +343,7 @@
   "valuation": {
     "multiplesAnalysis": {
       "summaryParagraphs": [
-        "VEEV trades at a significant discount to its own historical averages across nearly every metric. At 15.3x forward P/E, the stock is pricing in minimal growth optionality, a stark contrast to the 30x to 40x forward multiples the company commanded in 2021\u20132023."
+        "VEEV trades at a significant discount to its own historical averages across nearly every metric. At 15.3x forward P/E, the stock is pricing in minimal growth optionality, a stark contrast to the 30x to 40x forward multiples the company commanded in 2021–2023."
       ],
       "tables": [
         {
@@ -419,10 +419,10 @@
     },
     "dcfAnalysis": {
       "summaryParagraphs": [
-        "The DCF uses a 5-year explicit forecast period anchored to FY26 actuals as the base year. Assumptions reflect a conservative deceleration in growth from 16% toward 11\u201312% as the company scales, with operating margins stabilizing at 30\u201333% as Vault platform mix normalizes."
+        "The DCF uses a 5-year explicit forecast period anchored to FY26 actuals as the base year. Assumptions reflect a conservative deceleration in growth from 16% toward 11–12% as the company scales, with operating margins stabilizing at 30–33% as Vault platform mix normalizes."
       ],
       "assumptions": [
-        "Revenue CAGR FY27\u2013FY31: 13.0%.",
+        "Revenue CAGR FY27–FY31: 13.0%.",
         "FY31E operating margin: 32.0%.",
         "CapEx as % of revenue: 1.5%.",
         "WACC: 9.5%.",
@@ -530,14 +530,14 @@
             "Commercial Cloud (Subscription)",
             "$1,300M",
             "41%",
-            "10\u201312%",
+            "10–12%",
             "Mature / Transitioning"
           ],
           [
             "R&D Cloud (Subscription)",
             "$1,250M",
             "39%",
-            "20\u201322%",
+            "20–22%",
             "Growth"
           ],
           [
@@ -619,9 +619,9 @@
         "Veeva's TAM across life sciences is substantial and underpenetrated. Management's existing product suite serves a large software opportunity across commercial workflows, R&D, and adjacent regulated industries."
       ],
       "highlights": [
-        "Commercial Cloud TAM is about $4B\u2013$5B globally.",
-        "R&D Cloud TAM is about $5B\u2013$6B across clinical, regulatory, quality, and safety workflows.",
-        "Adjacent verticals add another $3B\u2013$4B of incremental TAM.",
+        "Commercial Cloud TAM is about $4B–$5B globally.",
+        "R&D Cloud TAM is about $5B–$6B across clinical, regulatory, quality, and safety workflows.",
+        "Adjacent verticals add another $3B–$4B of incremental TAM.",
         "Veeva's current penetration still leaves meaningful runway across both core and adjacent markets."
       ]
     }
@@ -646,7 +646,7 @@
         "rows": [
           [
             "Organic R&D (Vault platform build)",
-            "18\u201320% of revenue annually",
+            "18–20% of revenue annually",
             "High-quality; underpins competitive moat"
           ],
           [
@@ -701,7 +701,7 @@
         [
           "AI Point-Solution Disruption",
           "Idiosyncratic",
-          "Low\u2013Medium",
+          "Low–Medium",
           "Medium",
           "Vault platform breadth and ability to embed AI into workflows"
         ],
@@ -722,7 +722,7 @@
         [
           "Macro Enterprise IT Spending Freeze",
           "Systemic",
-          "Low\u2013Medium",
+          "Low–Medium",
           "Medium",
           "Mission-critical compliance software is last to be cut"
         ],
@@ -739,7 +739,7 @@
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$225.00",
-    "impliedUpsidePct": "+48.6%",
+    "impliedUpsidePct": "+31.1%",
     "bullBaseBear": {
       "bull": "$290",
       "base": "$225",
@@ -756,17 +756,17 @@
     "ratingChangeTriggers": [
       {
         "action": "Upgrade to Strong Buy",
-        "direction": "\u2191",
+        "direction": "↑",
         "trigger": "Stock declines below $145, or management raises FY27 guidance above $3.75B revenue with Vault CRM migration tracking ahead of schedule, or a significant buyback program is announced."
       },
       {
         "action": "Downgrade to Hold",
-        "direction": "\u2193",
+        "direction": "↓",
         "trigger": "Stock appreciates above $215, or R&D Cloud growth decelerates below 15% for two consecutive quarters, or Vault CRM migration falls more than one full quarter behind schedule."
       },
       {
         "action": "Downgrade to Sell",
-        "direction": "\u2193\u2193",
+        "direction": "↓↓",
         "trigger": "FY27 revenue guidance below $3.50B, or subscription revenue growth falls below 10% for two consecutive quarters, or evidence of competitive share loss to IQVIA or Salesforce in new enterprise RFPs."
       }
     ],
