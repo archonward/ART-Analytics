@@ -5,6 +5,7 @@ import MarketOverviewSection from '../components/dashboard/MarketOverviewSection
 import { SHOW_AUDIT_SECTION } from '../config/features';
 import useCoverage from '../hooks/useCoverage';
 import useReportAudit from '../hooks/useReportAudit';
+import ReportDepthSection from '../components/dashboard/ReportDepthSection';
 
 export default function DashboardPage() {
   const navigate = useNavigate();
@@ -35,6 +36,7 @@ export default function DashboardPage() {
           selectedTicker=""
           onTickerClick={handleCoveredTickerClick}
         />
+        <ReportDepthSection />
       </div>
 
       {SHOW_AUDIT_SECTION && (
