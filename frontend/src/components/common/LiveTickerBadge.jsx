@@ -57,14 +57,14 @@ function getMarketStateLabel(marketState) {
   }
 
   if (marketState === 'REGULAR') {
-    return 'Live';
+    return 'Daily';
   }
 
   if (marketState === 'CLOSED') {
     return 'Closed';
   }
 
-  return 'Market';
+  return 'Daily';
 }
 
 export default function LiveTickerBadge({
@@ -76,7 +76,7 @@ export default function LiveTickerBadge({
   if (marketLoading) {
     return (
       <div className="live-ticker-badge live-ticker-badge-neutral">
-        <span className="live-ticker-label">Live</span>
+        <span className="live-ticker-label">Daily</span>
         <span className="live-ticker-value">Loading...</span>
       </div>
     );
@@ -85,7 +85,7 @@ export default function LiveTickerBadge({
   if (marketError || marketUnavailable || !marketData) {
     return (
       <div className="live-ticker-badge live-ticker-badge-neutral">
-        <span className="live-ticker-label">Live</span>
+        <span className="live-ticker-label">Daily</span>
         <span className="live-ticker-value">Unavailable</span>
       </div>
     );

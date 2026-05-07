@@ -1,7 +1,14 @@
 import { useEffect, useState } from 'react';
 import { API_BASE, API_HEADERS } from '../config/api';
 
-const POLL_INTERVAL_MS = 15000;
+function getMillisecondsUntilNextDay() {
+  const now = new Date();
+  const nextDay = new Date(now);
+  nextDay.setDate(now.getDate() + 1);
+  nextDay.setHours(0, 0, 1, 0);
+
+  return nextDay.getTime() - now.getTime();
+}
 
 export default function useMarketData(ticker, enabled = true) {
   const [marketData, setMarketData] = useState(null);
@@ -65,13 +72,24 @@ export default function useMarketData(ticker, enabled = true) {
       }
     }
 
-    loadMarketData();
+    let timeoutId;
 
-    const intervalId = setInterval(loadMarketData, POLL_INTERVAL_MS);
+    function scheduleDailyRefresh() {
+      timeoutId = setTimeout(async () => {
+        await loadMarketData();
+
+        if (!isCancelled) {
+          scheduleDailyRefresh();
+        }
+      }, getMillisecondsUntilNextDay());
+    }
+
+    loadMarketData();
+    scheduleDailyRefresh();
 
     return () => {
       isCancelled = true;
-      clearInterval(intervalId);
+      clearTimeout(timeoutId);
     };
   }, [ticker, enabled]);
 

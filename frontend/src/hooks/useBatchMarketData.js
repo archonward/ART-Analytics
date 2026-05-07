@@ -1,7 +1,14 @@
 import { useEffect, useState } from 'react';
 import { API_BASE, API_HEADERS } from '../config/api';
 
-const POLL_INTERVAL_MS = 15000;
+function getMillisecondsUntilNextDay() {
+  const now = new Date();
+  const nextDay = new Date(now);
+  nextDay.setDate(now.getDate() + 1);
+  nextDay.setHours(0, 0, 1, 0);
+
+  return nextDay.getTime() - now.getTime();
+}
 
 export default function useBatchMarketData(tickers, enabled = true) {
   const [marketDataMap, setMarketDataMap] = useState({});
@@ -59,13 +66,24 @@ export default function useBatchMarketData(tickers, enabled = true) {
       }
     }
 
-    loadBatchMarketData();
+    let timeoutId;
 
-    const intervalId = setInterval(loadBatchMarketData, POLL_INTERVAL_MS);
+    function scheduleDailyRefresh() {
+      timeoutId = setTimeout(async () => {
+        await loadBatchMarketData();
+
+        if (!isCancelled) {
+          scheduleDailyRefresh();
+        }
+      }, getMillisecondsUntilNextDay());
+    }
+
+    loadBatchMarketData();
+    scheduleDailyRefresh();
 
     return () => {
       isCancelled = true;
-      clearInterval(intervalId);
+      clearTimeout(timeoutId);
     };
   }, [enabled, JSON.stringify([...new Set((tickers || []).filter(Boolean))])]);
 

@@ -2,9 +2,17 @@
 import { marketOverviewRegistry } from '../data/marketOverviewRegistry.js';
 
 const FINNHUB_BASE_URL = 'https://finnhub.io/api/v1';
-const MARKET_DATA_CACHE_TTL_MS = 30_000;
+const MARKET_DATA_CACHE_TTL_MS = 24 * 60 * 60 * 1000;
 const marketDataCache = new Map();
 const inFlightMarketDataRequests = new Map();
+
+function getCacheDateKey(date = new Date()) {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, '0');
+  const day = String(date.getDate()).padStart(2, '0');
+
+  return `${year}-${month}-${day}`;
+}
 
 function formatTimestamp(value) {
   if (!value) {
@@ -157,7 +165,7 @@ function getCacheEntry(ticker) {
     return null;
   }
 
-  const isExpired = Date.now() - entry.cachedAt > MARKET_DATA_CACHE_TTL_MS;
+  const isExpired = entry.cacheDateKey !== getCacheDateKey();
 
   if (isExpired) {
     marketDataCache.delete(ticker);
@@ -170,7 +178,8 @@ function getCacheEntry(ticker) {
 function setCacheEntry(ticker, payload) {
   marketDataCache.set(ticker, {
     ...payload,
-    cachedAt: Date.now()
+    cachedAt: Date.now(),
+    cacheDateKey: getCacheDateKey()
   });
 }
 

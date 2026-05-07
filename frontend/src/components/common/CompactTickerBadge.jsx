@@ -57,14 +57,14 @@ function getCompactLabel(marketState) {
   }
 
   if (marketState === 'REGULAR') {
-    return 'Live';
+    return 'Daily';
   }
 
   if (marketState === 'CLOSED') {
     return 'Closed';
   }
 
-  return 'Market';
+  return 'Daily';
 }
 
 export default function CompactTickerBadge({
