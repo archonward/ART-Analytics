@@ -1,8 +1,7 @@
-import YahooFinance from 'yahoo-finance2';
+// Required environment variables: FINNHUB_API_KEY
 import { marketOverviewRegistry } from '../data/marketOverviewRegistry.js';
 
-const yahooFinance = new YahooFinance();
-
+const FINNHUB_BASE_URL = 'https://finnhub.io/api/v1';
 const MARKET_DATA_CACHE_TTL_MS = 30_000;
 const marketDataCache = new Map();
 const inFlightMarketDataRequests = new Map();
@@ -12,13 +11,100 @@ function formatTimestamp(value) {
     return null;
   }
 
-  const timestamp = new Date(value);
+  const timestampValue = typeof value === 'number' && value < 1_000_000_000_000
+    ? value * 1000
+    : value;
+  const timestamp = new Date(timestampValue);
 
   if (Number.isNaN(timestamp.getTime())) {
     return null;
   }
 
   return timestamp.toISOString();
+}
+
+function buildFinnhubUrl(path, params = {}) {
+  const token = process.env.FINNHUB_API_KEY;
+
+  if (!token) {
+    throw new Error('FINNHUB_API_KEY is not set');
+  }
+
+  const url = new URL(`${FINNHUB_BASE_URL}${path}`);
+
+  for (const [key, value] of Object.entries(params)) {
+    if (value !== undefined && value !== null) {
+      url.searchParams.set(key, value);
+    }
+  }
+
+  url.searchParams.set('token', token);
+
+  return url;
+}
+
+async function fetchFinnhubJson(path, params) {
+  const response = await fetch(buildFinnhubUrl(path, params));
+
+  if (!response.ok) {
+    throw new Error(`Finnhub request failed with status ${response.status}`);
+  }
+
+  const payload = await response.json();
+
+  if (payload?.error) {
+    throw new Error(payload.error);
+  }
+
+  return payload;
+}
+
+function isFiniteNumber(value) {
+  return typeof value === 'number' && Number.isFinite(value);
+}
+
+function buildQuoteFromFinnhub(ticker, quote, metrics, profile) {
+  const metric = metrics?.metric || {};
+  const marketCapitalization = profile?.marketCapitalization;
+
+  return {
+    symbol: ticker,
+    shortName: null,
+    currency: null,
+    fullExchangeName: profile?.exchange || null,
+    exchange: profile?.exchange || null,
+    marketState: null,
+
+    regularMarketPrice: isFiniteNumber(quote?.c) && quote.c > 0 ? quote.c : null,
+    regularMarketChange: isFiniteNumber(quote?.d) ? quote.d : null,
+    regularMarketChangePercent: isFiniteNumber(quote?.dp) ? quote.dp : null,
+    regularMarketVolume: null,
+    regularMarketPreviousClose: isFiniteNumber(quote?.pc) ? quote.pc : null,
+
+    preMarketPrice: null,
+    preMarketChange: null,
+    preMarketChangePercent: null,
+
+    postMarketPrice: null,
+    postMarketChange: null,
+    postMarketChangePercent: null,
+
+    fiftyTwoWeekLow: isFiniteNumber(metric['52WeekLow']) ? metric['52WeekLow'] : null,
+    fiftyTwoWeekHigh: isFiniteNumber(metric['52WeekHigh']) ? metric['52WeekHigh'] : null,
+    marketCap: isFiniteNumber(marketCapitalization) ? marketCapitalization * 1_000_000 : null,
+
+    regularMarketTime: isFiniteNumber(quote?.t) ? quote.t : null
+  };
+}
+
+async function fetchFinnhubTicker(ticker) {
+  const [quote, metrics, profile] = await Promise.all([
+    fetchFinnhubJson('/quote', { symbol: ticker }),
+    fetchFinnhubJson('/stock/metric', { symbol: ticker, metric: 'all' }),
+    fetchFinnhubJson('/stock/profile2', { symbol: ticker })
+  ]);
+
+  return buildQuoteFromFinnhub(ticker, quote, metrics, profile);
 }
 
 function buildNormalizedMarketData(quote, fallbackTicker) {
@@ -90,7 +176,7 @@ function setCacheEntry(ticker, payload) {
 
 async function fetchAndCacheTicker(ticker) {
   try {
-    const quote = await yahooFinance.quote(ticker);
+    const quote = await fetchFinnhubTicker(ticker);
     const marketData = buildNormalizedMarketData(quote, ticker);
 
     if (!marketData) {
