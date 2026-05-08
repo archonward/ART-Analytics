@@ -29,11 +29,12 @@
  * valuation, thesis, risks etc.) is left completely untouched.
  *
  * Environment variables required (same as your backend .env):
- *   AWS_REGION, AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, S3_BUCKET_NAME, FINNHUB_API_KEY
+ *   AWS_REGION, AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, S3_BUCKET_NAME
  */
 
 import { GetObjectCommand, PutObjectCommand, ListObjectsV2Command } from '@aws-sdk/client-s3';
 import { S3Client } from '@aws-sdk/client-s3';
+import YahooFinance from 'yahoo-finance2';
 import dotenv from 'dotenv';
 import fs from 'node:fs/promises';
 import path from 'node:path';
@@ -45,7 +46,7 @@ dotenv.config();
 
 const s3 = new S3Client({ region: process.env.AWS_REGION });
 const BUCKET = process.env.S3_BUCKET_NAME;
-const FINNHUB_BASE_URL = 'https://finnhub.io/api/v1';
+const yahoo = new YahooFinance();
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const LOCAL_REPORTS_DIR = path.resolve(__dirname, 'src/data/reports');
@@ -94,40 +95,6 @@ function formatMarketDataAsOf(date) {
   });
 }
 
-function buildFinnhubUrl(endpoint, params = {}) {
-  const token = process.env.FINNHUB_API_KEY;
-  if (!token) {
-    throw new Error('FINNHUB_API_KEY is not set in your .env file.');
-  }
-
-  const url = new URL(`${FINNHUB_BASE_URL}${endpoint}`);
-  for (const [key, value] of Object.entries(params)) {
-    if (value !== undefined && value !== null) {
-      url.searchParams.set(key, value);
-    }
-  }
-  url.searchParams.set('token', token);
-  return url;
-}
-
-async function fetchFinnhubJson(endpoint, params) {
-  const response = await fetch(buildFinnhubUrl(endpoint, params));
-  if (!response.ok) {
-    throw new Error(`Finnhub request failed with status ${response.status}`);
-  }
-
-  const payload = await response.json();
-  if (payload?.error) {
-    throw new Error(payload.error);
-  }
-
-  return payload;
-}
-
-function isFiniteNumber(value) {
-  return typeof value === 'number' && isFinite(value);
-}
-
 // ── S3 helpers ────────────────────────────────────────────────────────────────
 
 async function fetchReportFromS3(ticker) {
@@ -165,24 +132,15 @@ async function listTickersInS3() {
 
 async function fetchLiveData(ticker) {
   try {
-    const [quote, metrics, profile] = await Promise.all([
-      fetchFinnhubJson('/quote', { symbol: ticker }),
-      fetchFinnhubJson('/stock/metric', { symbol: ticker, metric: 'all' }),
-      fetchFinnhubJson('/stock/profile2', { symbol: ticker })
-    ]);
-
-    const metric = metrics?.metric || {};
-    const marketCapitalization = profile?.marketCapitalization;
-    const trailingPE = metric.peNormalizedAnnual ?? metric.peTTM ?? null;
-
+    const quote = await yahoo.quote(ticker);
     return {
-      currentPrice: isFiniteNumber(quote.c) && quote.c > 0 ? quote.c : null,
-      marketCap: isFiniteNumber(marketCapitalization) ? marketCapitalization * 1_000_000 : null,
-      trailingPE: isFiniteNumber(trailingPE) ? trailingPE : null,
-      marketTime: isFiniteNumber(quote.t) ? new Date(quote.t * 1000) : null
+      currentPrice: quote.regularMarketPrice ?? null,
+      marketCap: quote.marketCap ?? null,
+      trailingPE: quote.trailingPE ?? null,
+      marketTime: quote.regularMarketTime ?? null
     };
   } catch (err) {
-    throw new Error(`Finnhub fetch failed for ${ticker}: ${err.message}`);
+    throw new Error(`Yahoo Finance fetch failed for ${ticker}: ${err.message}`);
   }
 }
 
