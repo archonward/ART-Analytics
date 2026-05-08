@@ -1,14 +1,7 @@
 import { useEffect, useState } from 'react';
 import { API_BASE, API_HEADERS } from '../config/api';
 
-function getMillisecondsUntilNextDay() {
-  const now = new Date();
-  const nextDay = new Date(now);
-  nextDay.setDate(now.getDate() + 1);
-  nextDay.setHours(0, 0, 1, 0);
-
-  return nextDay.getTime() - now.getTime();
-}
+const POLL_INTERVAL_MS = 3_600_000;
 
 export default function useMarketOverview(enabled = true) {
   const [overviewItems, setOverviewItems] = useState([]);
@@ -66,7 +59,7 @@ export default function useMarketOverview(enabled = true) {
         if (!isCancelled) {
           scheduleDailyRefresh();
         }
-      }, getMillisecondsUntilNextDay());
+      }, POLL_INTERVAL_MS);
     }
 
     loadMarketOverview();

@@ -4,8 +4,42 @@ import { marketOverviewRegistry } from '../data/marketOverviewRegistry.js';
 const yahooFinance = new YahooFinance();
 
 const MARKET_DATA_CACHE_TTL_MS = 30_000;
+const MARKET_OPEN_CACHE_TTL_MS = 3_600_000;
+const MARKET_CLOSED_CACHE_TTL_MS = 7_200_000;
 const marketDataCache = new Map();
 const inFlightMarketDataRequests = new Map();
+
+function isMarketOpen() {
+  const easternTimeParts = new Intl.DateTimeFormat('en-US', {
+    timeZone: 'America/New_York',
+    weekday: 'short',
+    hour: '2-digit',
+    minute: '2-digit',
+    hourCycle: 'h23'
+  }).formatToParts(new Date());
+
+  const timePartMap = Object.fromEntries(
+    easternTimeParts.map((part) => [part.type, part.value])
+  );
+
+  const weekday = timePartMap.weekday;
+  const hour = Number(timePartMap.hour);
+  const minute = Number(timePartMap.minute);
+  const minutesAfterMidnight = hour * 60 + minute;
+  const marketOpenMinutes = 9 * 60 + 30;
+  const marketCloseMinutes = 16 * 60;
+  const isWeekday = !['Sat', 'Sun'].includes(weekday);
+
+  return (
+    isWeekday &&
+    minutesAfterMidnight >= marketOpenMinutes &&
+    minutesAfterMidnight <= marketCloseMinutes
+  );
+}
+
+function getActiveTTL() {
+  return isMarketOpen() ? MARKET_OPEN_CACHE_TTL_MS : MARKET_CLOSED_CACHE_TTL_MS;
+}
 
 function formatTimestamp(value) {
   if (!value) {
@@ -64,17 +98,24 @@ function buildNormalizedMarketData(quote, fallbackTicker) {
   };
 }
 
-function getCacheEntry(ticker) {
+function getCacheEntry(ticker, allowStale = false) {
   const entry = marketDataCache.get(ticker);
 
   if (!entry) {
     return null;
   }
 
-  const isExpired = Date.now() - entry.cachedAt > MARKET_DATA_CACHE_TTL_MS;
+  const isExpired = Date.now() - entry.cachedAt > getActiveTTL();
 
   if (isExpired) {
-    marketDataCache.delete(ticker);
+    if (allowStale && entry.found === true && entry.marketData) {
+      return entry;
+    }
+
+    if (entry.found !== true) {
+      marketDataCache.delete(ticker);
+    }
+
     return null;
   }
 
@@ -111,6 +152,12 @@ async function fetchAndCacheTicker(ticker) {
     setCacheEntry(ticker, successResult);
     return successResult;
   } catch (error) {
+    const staleCacheEntry = getCacheEntry(ticker, true);
+
+    if (staleCacheEntry) {
+      return staleCacheEntry;
+    }
+
     const unavailableResult = {
       found: false,
       reason: 'market_data_unavailable',
@@ -225,7 +272,7 @@ export function clearMarketDataCache() {
 export function getMarketDataCacheStats() {
   return {
     size: marketDataCache.size,
-    ttlMs: MARKET_DATA_CACHE_TTL_MS,
+    ttlMs: getActiveTTL(),
     inFlight: inFlightMarketDataRequests.size
   };
 }
