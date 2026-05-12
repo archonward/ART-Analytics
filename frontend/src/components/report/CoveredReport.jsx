@@ -1,14 +1,13 @@
 import BulletList from '../common/BulletList';
 import CollapsibleTableSection from '../common/CollapsibleTableSection';
 import DataTable from '../common/DataTable';
-import LiveTickerBadge from '../common/LiveTickerBadge';
 import MetricGrid from '../common/MetricGrid';
 import ParagraphBlock from '../common/ParagraphBlock';
+import PreviousCloseBadge from '../common/PreviousCloseBadge';
 import SectionCard from '../common/SectionCard';
 import RevenueEarningsChart from '../charts/RevenueEarningsChart';
 import MarginTrendChart from '../charts/MarginTrendChart';
 import ValuationMultiplesChart from '../charts/ValuationMultiplesChart';
-import useMarketData from '../../hooks/useMarketData';
 import { REPORT_SECTION_IDS } from './reportSections';
 
 function RecommendationSnapshot({ finalRecommendation }) {
@@ -33,13 +32,6 @@ function RecommendationSnapshot({ finalRecommendation }) {
 export default function CoveredReport({ reportData, resultRef, onResetView }) {
   const { meta } = reportData;
 
-  const {
-    marketData,
-    marketLoading,
-    marketError,
-    marketUnavailable
-  } = useMarketData(meta.ticker, true);
-
   return (
     <article className="report-shell" ref={resultRef}>
       <header className="report-hero">
@@ -50,11 +42,10 @@ export default function CoveredReport({ reportData, resultRef, onResetView }) {
               {meta.companyName} ({meta.ticker})
             </h2>
 
-            <LiveTickerBadge
-              marketData={marketData}
-              marketLoading={marketLoading}
-              marketError={marketError}
-              marketUnavailable={marketUnavailable}
+            <PreviousCloseBadge
+              price={meta.currentPrice}
+              currency={meta.currency}
+              asOf={meta.marketDataAsOf}
             />
           </div>
 

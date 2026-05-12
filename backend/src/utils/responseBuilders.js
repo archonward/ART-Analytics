@@ -19,32 +19,3 @@ export function buildCoveredResponse(report) {
     ...report
   };
 }
-
-export function buildMarketDataResponse(marketData) {
-  return {
-    status: 'ok',
-    ...marketData
-  };
-}
-
-export function buildMarketDataUnavailableResponse({ ticker, message }) {
-  return {
-    status: 'unavailable',
-    ticker,
-    message
-  };
-}
-
-export function buildBatchMarketDataResponse(results) {
-  return {
-    status: 'ok',
-    results
-  };
-}
-
-export function buildMarketOverviewResponse(items) {
-  return {
-    status: 'ok',
-    items
-  };
-}

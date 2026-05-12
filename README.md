@@ -171,7 +171,7 @@ http://localhost:4000
 
 * Database integration (MongoDB / PostgreSQL)
 * Authentication and user-specific portfolios
-* Real-time market data integration
+* Stored previous-close price snapshots for covered reports
 * Advanced analytics dashboard (charts, performance tracking)
 * AI-assisted research summarization
 

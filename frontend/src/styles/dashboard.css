@@ -39,10 +39,6 @@
   font-size: 0.95rem;
 }
 
-.market-overview-module {
-  background: linear-gradient(180deg, rgba(31, 38, 45, 0.98), rgba(22, 27, 32, 0.98));
-}
-
 .coverage-module {
   overflow: hidden;
 }
@@ -55,25 +51,21 @@
   overflow-x: auto;
 }
 
-.coverage-table,
-.market-overview-table {
+.coverage-table {
   width: 100%;
   border-collapse: collapse;
   min-width: 760px;
 }
 
 .coverage-table th,
-.coverage-table td,
-.market-overview-table th,
-.market-overview-table td {
+.coverage-table td {
   padding: 0.9rem 1rem;
   border-top: 1px solid var(--border-subtle);
   text-align: left;
   vertical-align: middle;
 }
 
-.coverage-table th,
-.market-overview-table th {
+.coverage-table th {
   color: var(--text-muted);
   font-size: 0.74rem;
   letter-spacing: 0.12em;
@@ -118,23 +110,8 @@
 }
 
 .coverage-list-meta,
-.coverage-list-updated,
-.market-overview-name {
+.coverage-list-updated {
   color: var(--text-secondary);
-}
-
-.market-overview-symbol {
-  font-weight: 700;
-}
-
-.market-overview-positive {
-  color: var(--positive);
-  font-weight: 600;
-}
-
-.market-overview-negative {
-  color: var(--negative);
-  font-weight: 600;
 }
 
 .audit-summary-grid {
@@ -253,8 +230,7 @@
     flex-direction: column;
   }
 
-  .coverage-table,
-  .market-overview-table {
+  .coverage-table {
     min-width: 680px;
   }
 }

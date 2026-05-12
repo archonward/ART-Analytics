@@ -3,25 +3,14 @@ import dotenv from 'dotenv';
 import express from 'express';
 import { listCoveredTickers } from './data/coverageRegistry.js';
 import { requireApiKey } from './middleware/auth.js';
-import {
-  clearMarketDataCache,
-  getLiveMarketDataBatchByTickers,
-  getLiveMarketDataByTicker,
-  getMarketDataCacheStats,
-  getMarketOverview
-} from './services/marketDataService.js';
 import { answerReportQuestion } from './services/qaService.js';
 import { retrieveRelevantReportChunks } from './services/retrievalService.js';
 import { auditPublishedReports } from './services/reportAuditService.js';
 import { getPublishedReportByTicker } from './services/reportService.js';
 import { validateTickerFormat } from './services/tickerService.js';
 import {
-  buildBatchMarketDataResponse,
   buildCoveredResponse,
   buildErrorResponse,
-  buildMarketDataResponse,
-  buildMarketDataUnavailableResponse,
-  buildMarketOverviewResponse,
   buildNotResearchedResponse
 } from './utils/responseBuilders.js';
 import reportTemplate from './data/reportTemplate.json' with { type: 'json' };
@@ -50,27 +39,11 @@ app.use(cors({
 app.use(express.json({ limit: '2mb' }));
 
 app.get('/', (req, res) => {
-  res.send('ART Analytics Backend is Live!');
+  res.send('ART Analytics Backend is running.');
 });
 
 app.get('/api/health', (_, res) => {
   res.json({ ok: true });
-});
-
-app.get('/api/market-data/cache', (_, res) => {
-  res.json({
-    status: 'ok',
-    cache: getMarketDataCacheStats()
-  });
-});
-
-app.delete('/api/market-data/cache', (_, res) => {
-  clearMarketDataCache();
-
-  res.json({
-    status: 'ok',
-    message: 'Market data cache cleared.'
-  });
 });
 
 app.get('/api/coverage', (_, res) => {
@@ -99,78 +72,6 @@ app.get('/api/report-audit', requireApiKey, async (_, res) => {
     console.error(error);
     res.status(500).json(
       buildErrorResponse('Failed to audit published reports.')
-    );
-  }
-});
-
-app.get('/api/market-data', requireApiKey, async (req, res) => {
-  try {
-    const tickerRaw = String(req.query.ticker || '').toUpperCase().trim();
-
-    const formatCheck = validateTickerFormat(tickerRaw);
-    if (!formatCheck.valid) {
-      return res.status(400).json(buildErrorResponse(formatCheck.reason));
-    }
-
-    const marketResult = await getLiveMarketDataByTicker(tickerRaw);
-
-    if (!marketResult.found && marketResult.reason === 'no_market_data') {
-      return res.status(200).json(
-        buildMarketDataUnavailableResponse({
-          ticker: tickerRaw,
-          message: `Live market data is currently unavailable for ${tickerRaw}.`
-        })
-      );
-    }
-
-    if (!marketResult.found && marketResult.reason === 'market_data_unavailable') {
-      return res.status(200).json(
-        buildMarketDataUnavailableResponse({
-          ticker: tickerRaw,
-          message: `Could not load live market data for ${tickerRaw} right now.`
-        })
-      );
-    }
-
-    return res.json(buildMarketDataResponse(marketResult.marketData));
-  } catch (error) {
-    console.error(error);
-    return res.status(500).json(
-      buildErrorResponse('Failed to load live market data.')
-    );
-  }
-});
-
-app.get('/api/market-data/batch', requireApiKey, async (req, res) => {
-  try {
-    const tickersRaw = String(req.query.tickers || '')
-      .split(',')
-      .map((ticker) => ticker.toUpperCase().trim())
-      .filter(Boolean);
-
-    if (tickersRaw.length === 0) {
-      return res.status(400).json(
-        buildErrorResponse('Please provide at least one ticker.')
-      );
-    }
-
-    const invalidTicker = tickersRaw.find((ticker) => !validateTickerFormat(ticker).valid);
-
-    if (invalidTicker) {
-      return res.status(400).json(
-        buildErrorResponse(
-          `Invalid ticker in batch request: ${invalidTicker}. Use 1-5 uppercase letters only.`
-        )
-      );
-    }
-
-    const batchResult = await getLiveMarketDataBatchByTickers(tickersRaw);
-
-    return res.json(buildBatchMarketDataResponse(batchResult.results));
-  } catch (error) {
-    console.error(error);
-    return res.status(500).json(
-      buildErrorResponse('Failed to load batch live market data.')
     );
   }
 });
@@ -377,21 +278,6 @@ app.post('/api/report-qa', requireApiKey, async (req, res) => {
     console.error(error);
     return res.status(500).json(
       buildErrorResponse('Failed to answer the report question.')
-    );
-  }
-});
-
-app.get('/api/market-overview', requireApiKey, async (_, res) => {
-  try {
-    const overviewResult = await getMarketOverview();
-
-    return res.json(
-      buildMarketOverviewResponse(overviewResult.items)
-    );
-  } catch (error) {
-    console.error(error);
-    return res.status(500).json(
-      buildErrorResponse('Failed to load market overview.')
     );
   }
 });

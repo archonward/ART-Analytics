@@ -1,7 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import AuditSection from '../components/dashboard/AuditSection';
 import CoverageSection from '../components/dashboard/CoverageSection';
-import MarketOverviewSection from '../components/dashboard/MarketOverviewSection';
 import { SHOW_AUDIT_SECTION } from '../config/features';
 import useCoverage from '../hooks/useCoverage';
 import useReportAudit from '../hooks/useReportAudit';
@@ -28,7 +27,6 @@ export default function DashboardPage() {
   return (
     <main className="dashboard-layout">
       <div className="dashboard-main">
-        <MarketOverviewSection />
         <CoverageSection
           coveredTickers={coveredTickers}
           coverageLoading={coverageLoading}
