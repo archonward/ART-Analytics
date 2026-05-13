@@ -9,9 +9,9 @@
     "author": "ART Aanlytics",
     "rating": "BUY",
     "targetPrice": "$465",
-    "currentPrice": "$421.28",
-    "impliedUpsidePct": "+10.4%",
-    "marketDataAsOf": "May 1, 2026, 4:00 PM",
+    "currentPrice": "$428.43",
+    "impliedUpsidePct": "+8.5%",
+    "marketDataAsOf": "May 11, 2026, 4:00 PM",
     "estimatedReadMinutes": 13,
     "coverageStatus": "published"
   },
@@ -20,11 +20,11 @@
     "snapshotMetrics": [
       {
         "label": "Market Cap",
-        "value": "$1.99T"
+        "value": "$2.03T"
       },
       {
         "label": "Enterprise Value",
-        "value": "$162B"
+        "value": "$2.06T"
       },
       {
         "label": "Revenue (TTM)",
@@ -36,30 +36,30 @@
       },
       {
         "label": "FCF (TTM)",
-        "value": "$25.5B"
+        "value": "$29.3B"
       },
       {
         "label": "P/E",
-        "value": "82.0x"
+        "value": "83.5x"
       },
       {
         "label": "EV/EBITDA",
-        "value": "4.4x"
+        "value": "56.5x"
       },
       {
         "label": "Revenue Growth YoY",
-        "value": "+16.4%"
+        "value": "+25.2%"
       },
       {
         "label": "ROIC",
-        "value": "45.2%"
+        "value": "21.3%"
       }
     ]
   },
   "executiveSummary": {
     "summaryParagraphs": [
       "Broadcom emerges as one of the clearest public-market ways to underwrite AI infrastructure. The company is not only a semiconductor beneficiary through custom accelerators and networking silicon, but also a software platform operator through VMware.",
-      "This combination supports both cyclical upside and recurring cash flow. Our valuation framework supports a $465 target price, based on a blended DCF and peer-multiple approach, with the main debate centered on whether Broadcom deserves a higher multiple as investors increasingly view it as both an AI infrastructure company and a durable software compounder."
+      "This combination supports both cyclical upside and recurring cash flow. Our valuation framework supports a $465 target price, based on a blended DCF and peer-multiple approach, with the main debate centered on whether Broadcom deserves a higher multiple as investors increasingly view it as both an AI infrastructure company and a durable software compounder. At the updated $428.43 close, the target implies 8.5% upside rather than the earlier double-digit upside shown in the stale version."
     ],
     "catalysts": [
       "AI accelerator momentum remains strong, with a custom silicon pipeline above $12B and visibility through FY27.",
@@ -71,7 +71,7 @@
       "Customer concentration remains meaningful because hyperscalers represent a large share of high-margin revenue.",
       "VMware integration must continue smoothly to justify the software margin story embedded in the valuation."
     ],
-    "valuationBridge": "The report argues that Broadcom still screens more like a cyclical chip stock than a hybrid AI-and-software platform, which is why the blended framework still supports material upside from current levels."
+    "valuationBridge": "Broadcom still offers upside to the $465 target, but the updated price reduces the margin of safety. The thesis now depends more heavily on AI revenue durability, VMware execution, and the market's willingness to underwrite Broadcom as a hybrid AI-and-software platform rather than a cyclical chip stock."
   },
   "financialPerformanceHealth": {
     "incomeStatementAnalysis": {
@@ -297,7 +297,7 @@
   "valuation": {
     "multiplesAnalysis": {
       "summaryParagraphs": [
-        "Broadcom appears inexpensive relative to its growth, profitability, and AI positioning. The most striking disconnect is between the company’s strong forward earnings growth and its modest forward earnings multiple."
+        "Broadcom no longer screens as inexpensive on trailing valuation metrics after the recent move higher. At the updated share price, the stock trades at elevated trailing P/E, P/S, and EV/EBITDA multiples, so the valuation case rests more on forward AI growth, VMware cash-flow contribution, and sustained free-cash-flow conversion than on near-term multiple discount."
       ],
       "tables": [
         {
@@ -313,7 +313,7 @@
           "rows": [
             [
               "P/E (TTM)",
-              "62.2x",
+              "83.5x",
               "24.5x",
               "66.8x",
               "45.2x",
@@ -321,7 +321,7 @@
             ],
             [
               "Forward P/E",
-              "17.9x",
+              "33.2x",
               "22.8x",
               "35.1x",
               "22.7x",
@@ -329,7 +329,7 @@
             ],
             [
               "P/S (TTM)",
-              "22.1x",
+              "29.7x",
               "12.8x",
               "22.9x",
               "8.1x",
@@ -337,7 +337,7 @@
             ],
             [
               "EV/EBITDA",
-              "4.4x",
+              "56.5x",
               "14.2x",
               "35.2x",
               "22.1x",
@@ -345,7 +345,7 @@
             ],
             [
               "FCF Yield",
-              "16.9%",
+              "1.4%",
               "8.2%",
               "2.1%",
               "4.8%",
@@ -440,7 +440,7 @@
         ]
       }
     },
-    "valuationConclusion": "A blended framework supports material upside from current levels. The key reason is that Broadcom still screens more like a cyclical chip stock than a hybrid AI-and-software platform."
+    "valuationConclusion": "A blended framework still supports upside to the $465 target, but the updated share price narrows the margin of safety. Broadcom remains a high-quality AI infrastructure and software compounder, yet the stock now requires continued execution to justify its elevated trailing multiples."
   },
   "businessModelMoat": {
     "segmentProfile": {
@@ -651,7 +651,7 @@
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$465",
-    "impliedUpsidePct": "+10.4%",
+    "impliedUpsidePct": "+8.5%",
     "bullBaseBear": {
       "bull": "$595",
       "base": "$485",
@@ -677,7 +677,7 @@
         "trigger": "Broadcom sustains weaker-than-expected AI growth or software integration disappoints enough to undermine the base-case margin and cash-flow profile."
       }
     ],
-    "closingParagraph": "Broadcom offers a compelling blend of AI exposure, software durability, and cash flow strength. At current levels, the shares appear to discount far less growth than the underlying business may be capable of delivering if AI infrastructure demand and VMware execution continue on track."
+    "closingParagraph": "Broadcom offers a compelling blend of AI exposure, software durability, and cash flow strength. At the updated price, the shares still offer upside to the target, but the investment case is less valuation-driven and more dependent on continued AI infrastructure demand, VMware execution, and high free-cash-flow conversion."
   },
   "openQuestions": [
     "Can VMware software margins reach projected 80%+ levels without harming customer satisfaction?",

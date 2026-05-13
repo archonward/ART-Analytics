@@ -9,9 +9,9 @@
     "author": "ART Analytics",
     "rating": "BUY",
     "targetPrice": "$175.00",
-    "currentPrice": "$131.50",
-    "impliedUpsidePct": "+33.1%",
-    "marketDataAsOf": "May 1, 2026, 4:01 PM",
+    "currentPrice": "$137.30",
+    "impliedUpsidePct": "+27.5%",
+    "marketDataAsOf": "May 11, 2026, 4:00 PM",
     "estimatedReadMinutes": 24,
     "coverageStatus": "published"
   },
@@ -20,19 +20,19 @@
     "snapshotMetrics": [
       {
         "label": "Market Cap",
-        "value": "$324.5B"
+        "value": "$313.5B"
       },
       {
         "label": "Enterprise Value",
-        "value": "¥2,280.9B"
+        "value": "$306.1B"
       },
       {
         "label": "FCF (TTM)",
-        "value": "-¥26.1B"
+        "value": "$1.23B"
       },
       {
         "label": "EV/EBITDA",
-        "value": "16.5x"
+        "value": "15.4x"
       },
       {
         "label": "Net Margin",
@@ -40,30 +40,30 @@
       },
       {
         "label": "Revenue (TTM)",
-        "value": "¥1,016.7B"
+        "value": "$145.4B"
       },
       {
         "label": "Net Income (TTM)",
-        "value": "¥90.6B"
+        "value": "$13.3B"
       },
       {
         "label": "P/E",
-        "value": "23.2x"
+        "value": "24.9x"
       },
       {
         "label": "Revenue Growth YoY",
-        "value": "+1.7%"
+        "value": "+3.6%"
       },
       {
         "label": "ROIC",
-        "value": "9.5%"
+        "value": "6.7%"
       }
     ]
   },
   "executiveSummary": {
     "summaryParagraphs": [
-      "Alibaba trades at a steep discount to its 52-week high and at only 15.3x forward earnings, a valuation that does not appear to reflect its dominant domestic commerce franchise, leading Chinese cloud position, and growing AI optionality. The key near-term issue is not franchise deterioration, but an intentional AI infrastructure spending cycle that is suppressing earnings and free cash flow.",
-      "The core investment case is that Alibaba remains a structurally dominant Chinese technology platform whose earnings are temporarily depressed by front-loaded AI capex and geopolitical risk premia. If management executes on its cloud and AI monetization roadmap and capex intensity normalizes by FY2027, the company could see a meaningful recovery in margins, cash generation, and valuation."
+      "Alibaba trades below its 52-week high and at 21.5x forward earnings, a valuation that still leaves upside to the report's target price but is less trough-like than the prior version implied. The key near-term issue remains an intentional AI infrastructure spending cycle that is suppressing free cash flow and keeping investors focused on whether cloud and AI monetization can offset elevated capex.",
+      "The core investment case is that Alibaba remains a structurally dominant Chinese technology platform whose earnings and cash flow are temporarily pressured by front-loaded AI capex and geopolitical risk premia. If management executes on its cloud and AI monetization roadmap and capex intensity normalizes by FY2027, the company could see a recovery in margins, cash generation, and valuation support."
     ],
     "catalysts": [
       "AI monetization inflection as management targets more than $100B in combined cloud and AI external revenue over five years.",
@@ -75,12 +75,12 @@
       "US-China geopolitical escalation and ADR risk may keep a structural discount on the shares.",
       "Domestic competition from PDD and JD.com may pressure Taobao and Tmall market share in key categories."
     ],
-    "valuationBridge": "Alibaba appears undervalued relative to both its own earnings power and global peers, with the market heavily discounting near-term AI capex pressure while giving limited credit to cloud and AI monetization upside."
+    "valuationBridge": "Alibaba still appears attractively valued relative to the report's base-case target, but the updated valuation picture is less extreme than before because the stock now trades at roughly 24.9x trailing earnings and 21.5x forward earnings."
   },
   "financialPerformanceHealth": {
     "incomeStatementAnalysis": {
       "summaryParagraphs": [
-        "Alibaba grew revenue from ¥853.1B in FY2022 to ¥996.3B in FY2025, but the quality of that growth shifted meaningfully in the latest period as higher-margin cloud and AI mix improved gross margin while AI infrastructure costs began to pressure operating leverage. The reported TTM operating profile is weaker than the FY2025 full-year profile and likely understates normalized earnings power."
+        "Alibaba grew revenue from ¥853.1B in FY2022 to ¥996.3B in FY2025, while current TTM revenue is about $145.4B. The latest TTM operating profile remains weaker than the FY2025 full-year profile, reflecting investment intensity and operating leverage pressure during the AI infrastructure buildout."
       ],
       "highlights": [
         "FY2025 revenue rose 5.9% year over year to ¥996.3B from ¥941.2B.",
@@ -158,7 +158,7 @@
               "11.9%",
               "13.2%",
               "14.8%",
-              "7.1%"
+              "9.2%"
             ],
             [
               "Net Margin",
@@ -174,7 +174,7 @@
               "+1.8%",
               "+8.3%",
               "+5.9%",
-              "+1.7%"
+              "+3.6%"
             ]
           ]
         }
@@ -242,12 +242,12 @@
     },
     "cashFlowReturns": {
       "summaryParagraphs": [
-        "The central cash flow issue is not operational weakness but capex timing. FY2025 operating cash flow remained robust at ¥163.5B, but AI infrastructure capex surged to ¥86.0B and compressed free cash flow to ¥77.5B. The reported TTM free cash flow of negative ¥26.1B appears distorted by a single quarter anomaly rather than a lasting deterioration in cash generation."
+        "The central cash flow issue is not operational weakness but capex timing. FY2025 operating cash flow remained robust, but AI infrastructure capex surged and compressed free cash flow. Current TTM free cash flow is about $1.23B, implying only a 0.85% FCF margin, so a recovery in cash conversion remains one of the most important items to monitor."
       ],
       "highlights": [
         "CapEx nearly tripled to ¥86.0B in FY2025 from ¥32.9B in FY2024 as Alibaba accelerated AI and cloud infrastructure buildout.",
         "Annual free cash flow remained positive at ¥77.5B in FY2025 despite the capex surge.",
-        "ROIC improved to 9.5% in FY2025, but the spread versus the assumed cost of capital remains narrow and depends on successful AI monetization."
+        "ROIC is currently about 6.7%, leaving only a narrow spread versus estimated cost of capital and making successful AI monetization important."
       ],
       "tables": [
         {
@@ -296,7 +296,7 @@
   "valuation": {
     "multiplesAnalysis": {
       "summaryParagraphs": [
-        "Alibaba screens as inexpensive both relative to peers and relative to its own historical valuation. The stock trades at 15.3x forward earnings and only 1.82x book value, levels that appear to discount geopolitical risk, recent EPS misses, and AI capex pressure more heavily than the durability of its core franchise."
+        "Alibaba still screens attractively versus many global internet peers, but the discount is less extreme after updating the market price and current valuation ratios. The stock trades at roughly 24.9x trailing earnings, 21.5x forward earnings, 2.16x sales, and 15.4x EV/EBITDA, reflecting a mix of geopolitical risk, AI capex pressure, and uncertainty over the pace of cash-flow recovery."
       ],
       "tables": [
         {
@@ -313,7 +313,7 @@
           "rows": [
             [
               "P/E (TTM)",
-              "21.1x",
+              "24.9x",
               "22.0x",
               "45.0x",
               "20.0x",
@@ -322,7 +322,7 @@
             ],
             [
               "Forward P/E",
-              "15.3x",
+              "21.5x",
               "18.0x",
               "35.0x",
               "18.0x",
@@ -331,7 +331,7 @@
             ],
             [
               "P/S (TTM)",
-              "0.28x",
+              "2.16x",
               "1.5x",
               "3.2x",
               "0.25x",
@@ -340,7 +340,7 @@
             ],
             [
               "P/B",
-              "1.82x",
+              "2.14x",
               "2.5x",
               "9.0x",
               "1.3x",
@@ -349,7 +349,7 @@
             ],
             [
               "EV/EBITDA",
-              "16.5x",
+              "15.4x",
               "14.0x",
               "22.0x",
               "12.0x",
@@ -358,7 +358,7 @@
             ],
             [
               "EV/Revenue",
-              "2.24x",
+              "2.11x",
               "3.0x",
               "3.5x",
               "0.4x",
@@ -434,7 +434,7 @@
             "4.0%",
             "9.5%",
             "$240",
-            "+102.6%"
+            "+74.8%"
           ],
           [
             "Base Case",
@@ -442,7 +442,7 @@
             "3.0%",
             "10.5%",
             "$175",
-            "+47.7%"
+            "+27.5%"
           ],
           [
             "Bear Case",
@@ -450,12 +450,12 @@
             "2.0%",
             "12.0%",
             "$95",
-            "-19.8%"
+            "-30.8%"
           ]
         ]
       }
     },
-    "valuationConclusion": "Alibaba appears materially undervalued on both a DCF and relative-multiples basis. The current share price seems to reflect near-term AI capex pressure and geopolitical risk without fully crediting the earnings recovery that could follow if cloud monetization improves and capex normalizes."
+    "valuationConclusion": "Alibaba still offers upside to the report's $175 base-case value, but the valuation case should now be framed as attractive rather than deeply distressed. The current share price reflects AI capex pressure, geopolitical risk, and weak free-cash-flow conversion, while the upside case depends on cloud monetization improving and capex normalizing."
   },
   "businessModelMoat": {
     "segmentProfile": {
@@ -705,7 +705,7 @@
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$175.00",
-    "impliedUpsidePct": "+33.1%",
+    "impliedUpsidePct": "+27.5%",
     "bullBaseBear": {
       "bull": "$240",
       "base": "$175",
@@ -736,7 +736,7 @@
         "trigger": "AI monetization materially disappoints while core commerce share loss accelerates and geopolitical or ADR risk meaningfully worsens"
       }
     ],
-    "closingParagraph": "Overall, Alibaba offers an attractive risk-reward profile because the market appears to be discounting near-term AI capex pain more heavily than the long-term earnings potential of its cloud, commerce, and ecosystem assets. The thesis depends on cloud and AI monetization becoming visible, capex intensity easing over time, and core commerce remaining resilient enough to fund the transition."
+    "closingParagraph": "Overall, Alibaba offers an attractive risk-reward profile because the market continues to discount AI capex pressure and geopolitical uncertainty, while the report's base case still points to upside if cloud and AI monetization become visible, capex intensity eases, and core commerce remains resilient enough to fund the transition."
   },
   "openQuestions": [
     "Will the May 14, 2026 earnings release break the four-quarter EPS miss streak and give investors a clearer AI capex trajectory for FY2027?",

@@ -9,9 +9,9 @@
     "author": "ART Analytics",
     "rating": "BUY",
     "targetPrice": "$1,485",
-    "currentPrice": "$1,427.02",
-    "impliedUpsidePct": "+4.1%",
-    "marketDataAsOf": "May 1, 2026, 4:00 PM",
+    "currentPrice": "$1,516.60",
+    "impliedUpsidePct": "-2.1%",
+    "marketDataAsOf": "May 7, 2026, 4:00 PM",
     "estimatedReadMinutes": 12,
     "coverageStatus": "published"
   },
@@ -20,42 +20,42 @@
     "snapshotMetrics": [
       {
         "label": "Market Cap",
-        "value": "$550.0B"
+        "value": "$590.2B"
       },
       {
         "label": "Enterprise Value",
-        "value": "$528.6B"
+        "value": "$583.5B"
       },
       {
         "label": "Revenue (TTM)",
-        "value": "$32.7B"
+        "value": "$38.8B"
       },
       {
         "label": "Net Income (TTM)",
-        "value": "$9.6B"
+        "value": "$11.5B"
       },
       {
         "label": "FCF (TTM)",
-        "value": "$10.9B"
+        "value": "$10.6B"
       },
       {
         "label": "P/E",
-        "value": "47.2x"
+        "value": "51.2x"
       },
       {
         "label": "Consensus Upside",
-        "value": "+8.4%"
+        "value": "+9.9%"
       },
       {
         "label": "Next Earnings",
-        "value": "Apr 2026"
+        "value": "Jul 2026"
       }
     ]
   },
   "executiveSummary": {
     "summaryParagraphs": [
       "ASML maintains its monopolistic position in extreme ultraviolet lithography equipment that is essential for advanced semiconductor manufacturing. The company sits at the center of AI-driven leading-edge chip demand, and the next major leg of value creation is increasingly tied to High-NA EUV adoption beginning in 2026.",
-      "The core debate is not whether ASML has a moat, but whether geopolitics or memory-capex cyclicality can delay realization of the next upgrade cycle. ASML trades at 31.0x forward earnings, a discount to its own historical premium despite strengthening strategic importance. Our base case supports a $1,485 target price, reflecting modest multiple expansion as the market grows more comfortable underwriting High-NA EUV and normalized order momentum."
+      "The core debate is not whether ASML has a moat, but whether geopolitics or memory-capex cyclicality can delay realization of the next upgrade cycle. ASML now trades at about 38.7x forward earnings after a sharp rerating, leaving the stock closer to fair value than when this report was first written. Our base case keeps a $1,485 target price, which now implies slight downside from the latest available close rather than meaningful upside."
     ],
     "catalysts": [
       "High-NA EUV adoption is accelerating, supported by a reported $7.9B SK hynix order that provides roughly 18 months of visibility.",
@@ -67,7 +67,7 @@
       "A cyclical downturn in memory capital expenditure could delay High-NA EUV deployments and push out the revenue curve.",
       "Customer concentration remains material, with the top five foundries representing more than 80% of revenue."
     ],
-    "valuationBridge": "ASML trades below its own historical premium despite strengthening strategic importance, and the base case still supports $1,485 per share as the market grows more comfortable underwriting High-NA EUV adoption and normalized order momentum."
+    "valuationBridge": "ASML remains a scarce, strategically important semiconductor-equipment franchise, but the latest share-price move means the $1,485 base-case target now suggests the stock is broadly fairly valued to slightly overvalued on a near-term basis."
   },
   "financialPerformanceHealth": {
     "incomeStatementAnalysis": {
@@ -293,7 +293,7 @@
   "valuation": {
     "multiplesAnalysis": {
       "summaryParagraphs": [
-        "ASML trades at a premium to semiconductor-equipment peers, but that premium reflects monopoly economics and a unique strategic role. More important, current multiples remain below the company’s own historical averages despite a strengthening structural narrative."
+        "ASML still trades at a premium to semiconductor-equipment peers, and that premium remains fundamentally supported by monopoly-like EUV economics and strategic scarcity. However, the current valuation is no longer clearly discounted: the stock now trades around 51.2x trailing earnings, 38.7x forward earnings, 15.2x sales, and 39.9x EV/EBITDA."
       ],
       "tables": [
         {
@@ -309,7 +309,7 @@
           "rows": [
             [
               "P/E",
-              "47.1x",
+              "51.2x",
               "65.4x",
               "28.3x",
               "22.1x",
@@ -317,7 +317,7 @@
             ],
             [
               "Forward P/E",
-              "31.0x",
+              "38.7x",
               "42.8x",
               "21.5x",
               "18.9x",
@@ -325,7 +325,7 @@
             ],
             [
               "P/S",
-              "16.3x",
+              "15.2x",
               "18.1x",
               "4.2x",
               "4.1x",
@@ -333,7 +333,7 @@
             ],
             [
               "EV/EBITDA",
-              "43.1x",
+              "39.9x",
               "51.2x",
               "19.4x",
               "16.8x",
@@ -341,7 +341,7 @@
             ],
             [
               "EV/Revenue",
-              "16.2x",
+              "15.0x",
               "17.9x",
               "4.1x",
               "4.0x",
@@ -349,7 +349,7 @@
             ],
             [
               "FCF Yield",
-              "2.0%",
+              "1.8%",
               "1.8%",
               "5.2%",
               "6.8%",
@@ -445,7 +445,7 @@
         ]
       }
     },
-    "valuationConclusion": "ASML appears modestly undervalued. The stock offers a sensible entry point into a scarce, monopolistic franchise just ahead of a potentially important product-cycle transition."
+    "valuationConclusion": "ASML remains a high-quality, scarce semiconductor-equipment franchise, but the updated valuation picture is more balanced. At the latest available close, the $1,485 target price implies slight downside, so the stock looks closer to fair value than materially undervalued unless High-NA adoption and AI-related wafer-fab spending exceed the base case."
   },
   "businessModelMoat": {
     "segmentProfile": {
@@ -676,7 +676,7 @@
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$1,485",
-    "impliedUpsidePct": "+4.1%",
+    "impliedUpsidePct": "-2.1%",
     "bullBaseBear": {
       "bull": "$1,680",
       "base": "$1,485",
@@ -702,7 +702,7 @@
         "trigger": "China export restrictions deepen and UV revenue declines exceed management guidance, High-NA EUV ramp remains margin-dilutive through 2027 without offsetting volume, or AI capex spending peaks earlier than expected and semiconductor equipment demand deteriorates into a prolonged down-cycle."
       }
     ],
-    "closingParagraph": "ASML looks investable now for long-term investors seeking exposure to the scarce infrastructure behind advanced semiconductors. A downgrade would be warranted if revenue growth falls below 5% for two consecutive quarters, operating margins compress below 28%, or export restrictions spread materially beyond current assumptions."
+    "closingParagraph": "ASML remains investable as a long-term exposure to the scarce infrastructure behind advanced semiconductors, but the latest available market price leaves less near-term margin of safety versus the $1,485 base-case target. A downgrade would be warranted if revenue growth falls below 5% for two consecutive quarters, operating margins compress below 28%, or export restrictions spread materially beyond current assumptions."
   },
   "openQuestions": [
     "Will the SK hynix High-NA order trigger follow-on orders from Samsung and Micron within six months?",

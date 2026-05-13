@@ -16,6 +16,21 @@
   gap: var(--space-4);
 }
 
+.report-hero-actions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  align-items: flex-end;
+}
+
+.report-download-error {
+  max-width: 16rem;
+  color: #f0d1d1;
+  font-size: 0.88rem;
+  line-height: 1.45;
+  text-align: right;
+}
+
 .report-title-row {
   display: flex;
   gap: var(--space-4);
@@ -276,6 +291,15 @@
   .report-hero {
     flex-direction: column;
     padding: var(--space-5);
+  }
+
+  .report-hero-actions {
+    align-items: stretch;
+  }
+
+  .report-download-error {
+    max-width: none;
+    text-align: left;
   }
 
   .report-document {

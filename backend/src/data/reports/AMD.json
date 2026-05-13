@@ -9,50 +9,50 @@
     "author": "ART Analytics",
     "rating": "BUY",
     "targetPrice": "$290",
-    "currentPrice": "$360.54",
-    "impliedUpsidePct": "-19.6%",
-    "marketDataAsOf": "May 1, 2026, 4:00 PM",
+    "currentPrice": "$458.79",
+    "impliedUpsidePct": "-36.8%",
+    "marketDataAsOf": "May 11, 2026, 4:00 PM",
     "estimatedReadMinutes": 13,
     "coverageStatus": "published"
   },
   "executiveAtAGlance": {
-    "thesisHeadline": "AMD's AI acceleration platform is gaining enterprise traction beyond hyperscaler accounts, with margin expansion and market share gains creating 40%+ upside at current valuations despite cyclical PC headwinds.",
+    "thesisHeadline": "AMD's AI acceleration platform is gaining enterprise traction beyond hyperscaler accounts, but the sharp May 2026 share-price rally has moved the stock above this report's $290 target price.",
     "snapshotMetrics": [
       {
         "label": "Market Cap",
-        "value": "$587.8B"
+        "value": "$745.9B"
       },
       {
         "label": "Enterprise Value",
-        "value": "$314.0B"
+        "value": "$737.7B"
       },
       {
         "label": "FCF (TTM)",
-        "value": "$4.6B"
+        "value": "$8.6B"
       },
       {
         "label": "EV/EBITDA",
-        "value": "46.5x"
+        "value": "110.1x"
       },
       {
         "label": "Net Margin",
-        "value": "12.5%"
+        "value": "13.4%"
       },
       {
         "label": "Revenue (TTM)",
-        "value": "$34.6B"
+        "value": "$37.5B"
       },
       {
         "label": "Net Income (TTM)",
-        "value": "$4.3B"
+        "value": "$5.0B"
       },
       {
         "label": "P/E",
-        "value": "138.7x"
+        "value": "148.9x"
       },
       {
         "label": "Revenue Growth YoY",
-        "value": "+34.1%"
+        "value": "+35.0%"
       },
       {
         "label": "ROIC",
@@ -63,7 +63,7 @@
   "executiveSummary": {
     "summaryParagraphs": [
       "AMD has emerged as the clearest AI acceleration alternative to NVIDIA, with data center revenue up 34.1% year over year as MI300-series adoption broadens. Enterprise partnerships such as Celestica's “Helios” platform and expanded manufacturing ties with Flex support the view that AMD is moving beyond a purely hyperscaler-driven AI story.",
-      "The central investment case is that AMD still trades below the valuation level implied by its improving mix, stronger margins, and expanding role in enterprise AI infrastructure. The shares remain exposed to cyclical PC weakness and a forceful NVIDIA response, but current valuation still leaves room for material upside if execution remains solid."
+      "The central investment case remains tied to AMD's improving mix, stronger margins, and expanding role in enterprise AI infrastructure. However, the stock's move to $458.79 means the existing $290 target price now implies material downside rather than upside, so the valuation case is no longer supported by the original entry price."
     ],
     "catalysts": [
       "MI455X ramp could drive data center revenue toward $9.8B in Q1 2026E, up sharply from $6.0B in FY2025.",
@@ -75,7 +75,7 @@
       "Cyclical PC demand may pressure client processor volumes through the first half of 2026.",
       "Execution risk remains around the transition to 3nm for future RDNA and CDNA architectures."
     ],
-    "valuationBridge": "AMD appears to trade below the value implied by its stronger mix, improving margins, and expanding role in enterprise AI infrastructure, leaving room for material upside if execution remains solid."
+    "valuationBridge": "AMD's fundamentals have improved, but the May 2026 share-price rally has pushed the stock well above this report's $290 target price, making the current valuation dependent on continued rapid AI-driven growth and further margin expansion."
   },
   "financialPerformanceHealth": {
     "incomeStatementAnalysis": {
@@ -291,7 +291,7 @@
   "valuation": {
     "multiplesAnalysis": {
       "summaryParagraphs": [
-        "AMD still screens attractively on a forward basis. The stock trades at 18.3x forward P/E versus its own five-year average of 24.5x, and still at a sizeable discount to NVIDIA, despite clear evidence of faster AI-related mix improvement."
+        "AMD no longer screens attractively on the original forward-valuation framing. At $458.79, the stock trades at a substantially higher market capitalization and much richer sales, earnings, and EV/EBITDA multiples than the older report figures implied."
       ],
       "tables": [
         {
@@ -308,7 +308,7 @@
           "rows": [
             [
               "P/E (TTM)",
-              "75.3x",
+              "148.9x",
               "45.2x",
               "65.4x",
               "18.9x",
@@ -317,7 +317,7 @@
             ],
             [
               "Forward P/E",
-              "18.3x",
+              "52.8x",
               "24.5x",
               "35.2x",
               "15.6x",
@@ -326,7 +326,7 @@
             ],
             [
               "P/S (TTM)",
-              "9.2x",
+              "19.9x",
               "6.8x",
               "22.1x",
               "2.4x",
@@ -335,7 +335,7 @@
             ],
             [
               "P/B",
-              "5.1x",
+              "11.6x",
               "4.2x",
               "15.8x",
               "1.3x",
@@ -344,7 +344,7 @@
             ],
             [
               "EV/EBITDA",
-              "46.5x",
+              "110.1x",
               "32.1x",
               "58.2x",
               "12.4x",
@@ -353,7 +353,7 @@
             ],
             [
               "EV/Revenue",
-              "9.1x",
+              "19.7x",
               "6.5x",
               "21.8x",
               "2.3x",
@@ -429,7 +429,7 @@
             "3.0%",
             "9.8%",
             "$365",
-            "+85.6%"
+            "-20.4%"
           ],
           [
             "Base Case",
@@ -437,7 +437,7 @@
             "2.5%",
             "10.2%",
             "$285",
-            "+45.0%"
+            "-37.9%"
           ],
           [
             "Bear Case",
@@ -445,12 +445,12 @@
             "2.0%",
             "11.0%",
             "$220",
-            "+11.9%"
+            "-52.0%"
           ]
         ]
       }
     },
-    "valuationConclusion": "AMD appears undervalued on both absolute and relative measures. The market still seems cautious about the durability of AMD's AI gains, but if the company can defend pricing and maintain margin progress, there is room for both earnings growth and multiple re-rating."
+    "valuationConclusion": "AMD's business momentum remains strong, but the stock no longer appears undervalued against this report's existing valuation framework. At $458.79, the $290 target price implies 36.8% downside, meaning further upside would require either a higher earnings base, a higher long-term AI growth assumption, or a revised target-price methodology."
   },
   "businessModelMoat": {
     "segmentProfile": {
@@ -686,7 +686,7 @@
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$290",
-    "impliedUpsidePct": "-19.6%",
+    "impliedUpsidePct": "-36.8%",
     "bullBaseBear": {
       "bull": "$365",
       "base": "$285",
@@ -717,7 +717,7 @@
         "trigger": "NVIDIA pricing pressure forces MI300 ASP cuts above 30% or AMD loses x86 CPU share"
       }
     ],
-    "closingParagraph": "Overall, AMD offers compelling risk-adjusted upside as the most credible large-scale alternative to NVIDIA in enterprise AI infrastructure. The thesis does, however, depend on AMD preserving pricing power, executing product transitions smoothly, and broadening adoption beyond a relatively concentrated hyperscaler customer base."
+    "closingParagraph": "Overall, AMD remains one of the most credible large-scale alternatives to NVIDIA in enterprise AI infrastructure. However, the stock's latest closing price is already well above the existing $290 target price, so the original valuation upside has been overtaken by the market rally and would need to be reassessed before maintaining a fresh BUY case."
   },
   "openQuestions": [
     "Can Helios platform partnerships convert pilot programs into meaningful Fortune 500 deployments?",

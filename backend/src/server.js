@@ -4,6 +4,7 @@ import express from 'express';
 import { listCoveredTickers } from './data/coverageRegistry.js';
 import { requireApiKey } from './middleware/auth.js';
 import { answerReportQuestion } from './services/qaService.js';
+import { getLatestEarningsFileByTicker } from './services/earningsFileService.js';
 import { retrieveRelevantReportChunks } from './services/retrievalService.js';
 import { auditPublishedReports } from './services/reportAuditService.js';
 import { getPublishedReportByTicker } from './services/reportService.js';
@@ -119,11 +120,47 @@ app.get('/api/stock-summary', requireApiKey, async (req, res) => {
       );
     }
 
-    return res.json(buildCoveredResponse(reportResult.report));
+    const earningsFile = await getLatestEarningsFileByTicker(tickerRaw);
+    const earningsDownload = earningsFile
+      ? {
+          label: 'Latest earnings report',
+          fileName: earningsFile.fileName,
+          reportDate: earningsFile.reportDate,
+          url: `/api/earnings/${encodeURIComponent(tickerRaw)}/latest`
+        }
+      : null;
+
+    return res.json(buildCoveredResponse(reportResult.report, { earningsDownload }));
   } catch (error) {
     console.error(error);
     return res.status(500).json(
       buildErrorResponse('Failed to load the stock report.')
+    );
+  }
+});
+
+app.get('/api/earnings/:ticker/latest', requireApiKey, async (req, res) => {
+  try {
+    const tickerRaw = String(req.params.ticker || '').toUpperCase().trim();
+
+    const formatCheck = validateTickerFormat(tickerRaw);
+    if (!formatCheck.valid) {
+      return res.status(400).json(buildErrorResponse(formatCheck.reason));
+    }
+
+    const earningsFile = await getLatestEarningsFileByTicker(tickerRaw);
+
+    if (!earningsFile) {
+      return res.status(404).json(
+        buildErrorResponse(`No earnings PDF is available for ${tickerRaw}.`)
+      );
+    }
+
+    res.download(earningsFile.absolutePath, earningsFile.fileName);
+  } catch (error) {
+    console.error(error);
+    return res.status(500).json(
+      buildErrorResponse('Failed to download the earnings report.')
     );
   }
 });

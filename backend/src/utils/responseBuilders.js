@@ -13,9 +13,10 @@ export function buildNotResearchedResponse({ ticker }) {
   };
 }
 
-export function buildCoveredResponse(report) {
+export function buildCoveredResponse(report, options = {}) {
   return {
     status: 'covered',
-    ...report
+    ...report,
+    ...(options.earningsDownload ? { earningsDownload: options.earningsDownload } : {})
   };
 }

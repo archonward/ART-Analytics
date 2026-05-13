@@ -9,9 +9,9 @@
     "author": "ART Analytics",
     "rating": "BUY",
     "targetPrice": "$280",
-    "currentPrice": "$268.42",
-    "impliedUpsidePct": "+4.3%",
-    "marketDataAsOf": "May 1, 2026, 4:00 PM",
+    "currentPrice": "$268.99",
+    "impliedUpsidePct": "+4.1%",
+    "marketDataAsOf": "May 11, 2026, 4:00 PM",
     "estimatedReadMinutes": 13,
     "coverageStatus": "published"
   },
@@ -24,27 +24,27 @@
       },
       {
         "label": "Enterprise Value",
-        "value": "$2.31T"
+        "value": "$2.99T"
       },
       {
         "label": "Revenue (TTM)",
-        "value": "$716.9B"
+        "value": "$742.8B"
       },
       {
         "label": "Net Income (TTM)",
-        "value": "$77.7B"
+        "value": "$90.8B"
       },
       {
         "label": "FCF (TTM)",
-        "value": "$23.8B"
+        "value": "$1.2B"
       },
       {
         "label": "P/E",
-        "value": "32.1x"
+        "value": "32.2x"
       },
       {
         "label": "Consensus Upside",
-        "value": "+35.0%"
+        "value": "+13.8%"
       },
       {
         "label": "Next Earnings",
@@ -67,7 +67,7 @@
       "Same-day delivery competition could weigh on logistics margins.",
       "Regional infrastructure and geopolitical disruptions could affect AWS resilience."
     ],
-    "valuationBridge": "The report argues that current valuation still underprices Amazon's AI monetization potential and eventual free-cash-flow recovery if margin expansion proves durable."
+    "valuationBridge": "The report argues that Amazon's valuation still leaves modest upside to the $280 target, while broader consensus expectations remain more constructive if AI monetization and free-cash-flow recovery improve."
   },
   "financialPerformanceHealth": {
     "incomeStatementAnalysis": {
@@ -296,7 +296,7 @@
   "valuation": {
     "multiplesAnalysis": {
       "summaryParagraphs": [
-        "Amazon appears inexpensive relative to its own historical averages if current margin expansion proves durable. The market still seems to underprice AI monetization and cash-flow recovery, particularly if CapEx normalizes over time."
+        "Amazon still trades below its own historical averages on several key valuation metrics, including P/E and EV/EBITDA. However, after the stock's move to $268.99, the report's $280 target now implies only modest near-term upside, so the valuation case depends more heavily on sustained AWS growth, AI monetization, and eventual free-cash-flow recovery."
       ],
       "tables": [
         {
@@ -313,7 +313,7 @@
           "rows": [
             [
               "P/E",
-              "29.0x",
+              "32.2x",
               "45.2x",
               "24.1x",
               "34.2x",
@@ -322,7 +322,7 @@
             ],
             [
               "Forward P/E",
-              "22.2x",
+              "32.2x",
               "32.0x",
               "19.8x",
               "28.9x",
@@ -331,7 +331,7 @@
             ],
             [
               "P/S",
-              "3.1x",
+              "3.9x",
               "3.8x",
               "2.4x",
               "12.8x",
@@ -340,7 +340,7 @@
             ],
             [
               "EV/EBITDA",
-              "15.9x",
+              "19.2x",
               "28.4x",
               "14.2x",
               "19.8x",
@@ -349,7 +349,7 @@
             ],
             [
               "EV/Revenue",
-              "3.2x",
+              "4.0x",
               "4.1x",
               "2.6x",
               "13.1x",
@@ -358,7 +358,7 @@
             ],
             [
               "FCF Yield",
-              "1.1%",
+              "0.04%",
               "2.8%",
               "3.2%",
               "2.9%",
@@ -438,7 +438,7 @@
             "3.5%",
             "9.3%",
             "$325",
-            "+56.4%"
+            "+20.8%"
           ],
           [
             "Base",
@@ -446,7 +446,7 @@
             "3.0%",
             "9.8%",
             "$275",
-            "+32.4%"
+            "+2.2%"
           ],
           [
             "Bear",
@@ -454,12 +454,12 @@
             "2.5%",
             "10.3%",
             "$195",
-            "-6.1%"
+            "-27.5%"
           ]
         ]
       }
     },
-    "valuationConclusion": "A blended DCF and peer-multiples approach supports a 12-month target of $280."
+    "valuationConclusion": "A blended DCF and peer-multiples approach supports a 12-month target of $280, which implies modest upside of about 4.1% from the latest close. The valuation case therefore rests less on near-term multiple expansion and more on Amazon sustaining AWS growth, advertising momentum, and eventual free-cash-flow recovery as AI-related CapEx normalizes."
   },
   "businessModelMoat": {
     "segmentProfile": {
@@ -709,7 +709,7 @@
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$280",
-    "impliedUpsidePct": "+4.3%",
+    "impliedUpsidePct": "+4.1%",
     "bullBaseBear": {
       "bull": "$325",
       "base": "$280",
@@ -740,7 +740,7 @@
         "trigger": "FCF turning negative for two consecutive quarters due to investment inefficiency"
       }
     ],
-    "closingParagraph": "Amazon presents a compelling risk-adjusted setup if investors believe operating leverage and higher-margin revenue streams will continue to scale."
+    "closingParagraph": "Amazon remains a high-quality compounder, but the latest price leaves only modest upside to the current $280 target. The BUY rating is therefore most dependent on continued operating leverage, durable AWS AI demand, advertising growth, and evidence that elevated CapEx can translate into stronger free-cash-flow recovery over time."
   },
   "openQuestions": [
     "Can AWS maintain 30%+ operating margins while competing aggressively on AI infrastructure pricing?",

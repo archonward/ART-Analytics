@@ -9,9 +9,9 @@
     "author": "ART Analytics",
     "rating": "BUY",
     "targetPrice": "$320",
-    "currentPrice": "$250.71",
-    "impliedUpsidePct": "+27.6%",
-    "marketDataAsOf": "May 1, 2026, 4:00 PM",
+    "currentPrice": "$246.15",
+    "impliedUpsidePct": "+30.0%",
+    "marketDataAsOf": "May 11, 2026, 4:00 PM",
     "estimatedReadMinutes": 23,
     "coverageStatus": "published"
   },
@@ -20,11 +20,11 @@
     "snapshotMetrics": [
       {
         "label": "Market Cap",
-        "value": "$101.3B"
+        "value": "$99.5B"
       },
       {
         "label": "Enterprise Value",
-        "value": "$90.9B"
+        "value": "$98.0B"
       },
       {
         "label": "Revenue (TTM)",
@@ -40,15 +40,15 @@
       },
       {
         "label": "P/E",
-        "value": "14.6x"
+        "value": "14.3x"
       },
       {
         "label": "EV/EBITDA",
-        "value": "9.5x"
+        "value": "10.1x"
       },
       {
         "label": "Revenue Growth YoY",
-        "value": "+12.0%"
+        "value": "+11.0%"
       },
       {
         "label": "Net Margin",
@@ -60,7 +60,7 @@
       },
       {
         "label": "Consensus Upside",
-        "value": "+45.9%"
+        "value": "+33.7%"
       },
       {
         "label": "Next Earnings",
@@ -71,7 +71,7 @@
   "executiveSummary": {
     "summaryParagraphs": [
       "Adobe trades at a 52-week low of $224.13, within pennies of its floor, while generating $9.9B in annual free cash flow and sustaining 38.8% operating margins on $23.8B in FY2025 revenue. The market is pricing in permanent disruption; we see a deeply discounted compounder at an inflection point.",
-      "At 8.5x forward P/E and 9.5x EV/EBITDA on a $9.3B TTM FCF business, ADBE trades at a 47% discount to its 5-year average NTM P/E, a multiple more consistent with a declining franchise than a 12%-growing, 89% gross margin software platform. Our $320 price target is derived from a blended DCF/peer-multiple methodology and represents 42.0% upside from the April 10, 2026 close of $225.35."
+      "At 10.5x forward P/E and 10.1x EV/EBITDA on a $9.3B TTM FCF business, ADBE still trades at a steep discount to its 5-year average NTM P/E, a multiple more consistent with a structurally impaired franchise than a business still growing revenue at roughly 11% YoY with near-90% gross margins. Our $320 price target is derived from a blended DCF/peer-multiple methodology and represents 30.0% upside from the May 11, 2026 close of $246.15."
     ],
     "catalysts": [
       "FY26E consensus revenue of $26.1B implies 9.7% YoY growth, with EPS of $23.49, a 12.2% increase over FY2025's $20.94, driven by AI-native product monetization across Creative Cloud and Document Cloud.",
@@ -83,12 +83,12 @@
       "Generative AI commoditization from Midjourney, Canva, and OpenAI's image tools threatens Creative Cloud's pricing power at the prosumer tier, where churn is most price-elastic.",
       "Citigroup cut its price target from $278 to $253 in April 2026, flagging regulatory settlement costs and slower enterprise deal cycles as macro headwinds."
     ],
-    "valuationBridge": "Adobe trades at distressed-software multiples despite double-digit revenue growth, expanding AI monetization, and strong free cash flow, supporting a blended valuation that still points to meaningful upside."
+    "valuationBridge": "Adobe trades at compressed software multiples despite double-digit revenue growth, expanding AI monetization, and strong free cash flow, supporting a blended valuation that still points to meaningful upside."
   },
   "financialPerformanceHealth": {
     "incomeStatementAnalysis": {
       "summaryParagraphs": [
-        "Adobe has compounded revenue at a 10% CAGR over FY2022 to FY2025, while expanding operating margins from 34.6% to 36.6% over the same period. The TTM period ending February 2026 shows continued acceleration: revenue of $24.5B represents 12% YoY growth, while operating margins have pushed to 38.8%, a new high."
+        "Adobe has compounded revenue at a 10% CAGR over FY2022 to FY2025, while expanding operating margins from 34.6% to 36.6% over the same period. The TTM period ending February 2026 shows continued acceleration: revenue of $24.5B represents 11.0% YoY growth, while operating margins have pushed to 38.8%, a new high."
       ],
       "highlights": [
         "FY2025 revenue grew 10.5% YoY to $23.8B; FY2024 grew 10.8% YoY to $21.5B.",
@@ -187,7 +187,7 @@
               "89.4%",
               "38.8%",
               "29.5%",
-              "+12.0%"
+              "+11.0%"
             ]
           ]
         }
@@ -352,7 +352,7 @@
   "valuation": {
     "multiplesAnalysis": {
       "summaryParagraphs": [
-        "ADBE's current valuation is dislocated from both its own history and its peer group. At 8.5x forward P/E and 9.5x EV/EBITDA, the stock prices in near-zero growth, inconsistent with consensus estimates of 9.7% revenue growth and 12.2% EPS growth in FY2026."
+        "ADBE's current valuation remains dislocated from both its own history and its peer group. At 10.5x forward P/E and 10.1x EV/EBITDA, the stock prices in muted growth, inconsistent with consensus estimates of 9.7% revenue growth and 12.2% EPS growth in FY2026."
       ],
       "tables": [
         {
@@ -369,7 +369,7 @@
           "rows": [
             [
               "P/E (Trailing)",
-              "13.1x",
+              "14.3x",
               "42x",
               "28x",
               "35x",
@@ -378,7 +378,7 @@
             ],
             [
               "Forward P/E",
-              "8.5x",
+              "10.5x",
               "30x",
               "22x",
               "22x",
@@ -387,7 +387,7 @@
             ],
             [
               "P/S (TTM)",
-              "3.8x",
+              "4.1x",
               "12x",
               "7x",
               "6x",
@@ -396,7 +396,7 @@
             ],
             [
               "P/B",
-              "8.0x",
+              "8.6x",
               "18x",
               "12x",
               "5x",
@@ -405,7 +405,7 @@
             ],
             [
               "EV/EBITDA",
-              "9.5x",
+              "10.1x",
               "28x",
               "18x",
               "18x",
@@ -414,7 +414,7 @@
             ],
             [
               "EV/Revenue",
-              "3.7x",
+              "4.0x",
               "12x",
               "6x",
               "6x",
@@ -423,7 +423,7 @@
             ],
             [
               "PEG Ratio",
-              "0.71x",
+              "0.86x",
               "1.8x",
               "1.5x",
               "1.2x",
@@ -432,7 +432,7 @@
             ],
             [
               "FCF Yield",
-              "10.1%",
+              "9.3%",
               "2.5%",
               "3.5%",
               "3.2%",
@@ -512,7 +512,7 @@
             "3.5%",
             "8.5%",
             "$430",
-            "+90.8%"
+            "+74.7%"
           ],
           [
             "Base",
@@ -520,7 +520,7 @@
             "3.0%",
             "9.5%",
             "$310",
-            "+37.6%"
+            "+25.9%"
           ],
           [
             "Bear",
@@ -528,12 +528,12 @@
             "2.0%",
             "11.0%",
             "$175",
-            "-22.3%"
+            "-28.9%"
           ]
         ]
       }
     },
-    "valuationConclusion": "ADBE is materially undervalued on every relevant metric. Our blended target of $320 implies 42.0% upside and reflects a business whose operating momentum and cash generation are inconsistent with its current distressed-software multiple."
+    "valuationConclusion": "ADBE remains materially undervalued on several relevant metrics. Our blended target of $320 implies 30.0% upside from the May 11, 2026 close and reflects a business whose operating momentum and cash generation remain stronger than its compressed software multiple suggests."
   },
   "businessModelMoat": {
     "segmentProfile": {
@@ -774,7 +774,7 @@
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$320",
-    "impliedUpsidePct": "+27.6%",
+    "impliedUpsidePct": "+30.0%",
     "bullBaseBear": {
       "bull": "$430",
       "base": "$320",

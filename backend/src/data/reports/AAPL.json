@@ -9,9 +9,9 @@
     "author": "ART Analytics",
     "rating": "BUY",
     "targetPrice": "$295",
-    "currentPrice": "$280.25",
-    "impliedUpsidePct": "+5.3%",
-    "marketDataAsOf": "May 1, 2026, 4:00 PM",
+    "currentPrice": "$292.68",
+    "impliedUpsidePct": "+0.8%",
+    "marketDataAsOf": "May 11, 2026, 4:00 PM",
     "estimatedReadMinutes": 14,
     "coverageStatus": "published"
   },
@@ -20,39 +20,39 @@
     "snapshotMetrics": [
       {
         "label": "Market Cap",
-        "value": "$4.11T"
+        "value": "$4.29T"
       },
       {
         "label": "Enterprise Value",
-        "value": "$3.66T"
+        "value": "$4.25T"
       },
       {
         "label": "FCF (TTM)",
-        "value": "$106.3B"
+        "value": "$129.2B"
       },
       {
         "label": "EV/EBITDA",
-        "value": "24.0x"
+        "value": "26.6x"
       },
       {
         "label": "Net Margin",
-        "value": "27.0%"
+        "value": "27.2%"
       },
       {
         "label": "Revenue (TTM)",
-        "value": "$435.6B"
+        "value": "$451.4B"
       },
       {
         "label": "Net Income (TTM)",
-        "value": "$117.8B"
+        "value": "$122.6B"
       },
       {
         "label": "P/E",
-        "value": "33.9x"
+        "value": "35.5x"
       },
       {
         "label": "Revenue Growth YoY",
-        "value": "+15.7%"
+        "value": "+12.8%"
       },
       {
         "label": "ROIC",
@@ -62,7 +62,7 @@
   },
   "executiveSummary": {
     "summaryParagraphs": [
-      "Apple's revenue acceleration and China market resilience support a constructive view despite the stock's premium valuation. The company delivered 15.7% revenue growth on a trailing-twelve-month basis, while gross margin expanded above 47%, reflecting both iPhone franchise strength and ongoing Services mix improvement.",
+      "Apple's latest market and financial data still support a constructive view, though the stock now trades much closer to the report's price target. The company generated $451.4B of TTM revenue, up 12.8% year over year, while gross margin reached 47.9%, reflecting both iPhone franchise strength and ongoing Services mix improvement.",
       "Apple combines a powerful ecosystem moat, premium brand positioning, and unusually strong cash generation. The business remains mature, but its Services layer, geographic expansion in China and India, and future product cycles still support a premium multiple if execution remains steady."
     ],
     "catalysts": [
@@ -75,7 +75,7 @@
       "The stock trades above its historical valuation average, so any growth slowdown could pressure the multiple.",
       "Smartphone market saturation and lengthening replacement cycles may reduce the pace of iPhone-led growth."
     ],
-    "valuationBridge": "The report assigns a $295 target price using a blended 60% DCF and 40% peer EV/EBITDA approach, implying a base-case fair value range of roughly $285 to $310."
+    "valuationBridge": "The report assigns a $295 target price using a blended 60% DCF and 40% peer EV/EBITDA approach, implying only modest upside from the latest close but still reflecting Apple's ecosystem quality and cash-flow durability."
   },
   "financialPerformanceHealth": {
     "incomeStatementAnalysis": {
@@ -298,7 +298,7 @@
   "valuation": {
     "multiplesAnalysis": {
       "summaryParagraphs": [
-        "Apple trades at a premium to both its own historical averages and many large-cap technology peers. However, that premium is partly supported by stronger cash flow quality, higher margins, and better return on capital than most hardware-oriented peers."
+        "Apple continues to trade at a premium to both its own historical averages and many large-cap technology peers. At roughly 35.5x trailing P/E, 32.2x forward P/E, and 26.6x EV/EBITDA, the stock already discounts a substantial amount of ecosystem strength, Services growth, and capital-return quality."
       ],
       "tables": [
         {
@@ -314,7 +314,7 @@
           "rows": [
             [
               "P/E",
-              "31.4x",
+              "35.5x",
               "24.1x",
               "22.8x",
               "28.5x",
@@ -322,7 +322,7 @@
             ],
             [
               "Forward P/E",
-              "26.6x",
+              "32.2x",
               "21.8x",
               "19.4x",
               "25.1x",
@@ -330,7 +330,7 @@
             ],
             [
               "P/S",
-              "8.4x",
+              "9.5x",
               "6.2x",
               "4.1x",
               "12.8x",
@@ -338,7 +338,7 @@
             ],
             [
               "P/B",
-              "41.3x",
+              "40.3x",
               "32.1x",
               "12.4x",
               "9.8x",
@@ -346,7 +346,7 @@
             ],
             [
               "EV/EBITDA",
-              "24.0x",
+              "26.6x",
               "18.9x",
               "16.2x",
               "22.4x",
@@ -354,7 +354,7 @@
             ],
             [
               "FCF Yield",
-              "2.9%",
+              "3.0%",
               "3.8%",
               "4.2%",
               "2.1%",
@@ -439,7 +439,7 @@
             "3.0%",
             "9.0%",
             "$340",
-            "+37%"
+            "+16.2%"
           ],
           [
             "Base",
@@ -447,7 +447,7 @@
             "2.5%",
             "9.5%",
             "$300",
-            "+21%"
+            "+2.5%"
           ],
           [
             "Bear",
@@ -455,12 +455,12 @@
             "2.0%",
             "10.0%",
             "$225",
-            "-9%"
+            "-23.1%"
           ]
         ]
       }
     },
-    "valuationConclusion": "Apple appears reasonably valued rather than deeply discounted. The report's stance is that the premium is justified so long as Services, China execution, and product-cycle support continue to offset smartphone-market maturity."
+    "valuationConclusion": "Apple appears fairly valued to modestly undervalued rather than deeply discounted. The report's stance is that the premium remains defensible so long as Services growth, product-cycle execution, and capital returns continue to offset smartphone-market maturity, but the latest close leaves limited upside to the $295 target."
   },
   "businessModelMoat": {
     "segmentProfile": {
@@ -716,7 +716,7 @@
   "finalRecommendation": {
     "rating": "BUY",
     "priceTarget": "$295",
-    "impliedUpsidePct": "+5.3%",
+    "impliedUpsidePct": "+0.8%",
     "bullBaseBear": {
       "bull": "$340",
       "base": "$295",
@@ -742,7 +742,7 @@
         "trigger": "China restrictions intensify, smartphone saturation worsens, or Services economics weaken enough to compress both growth and valuation."
       }
     ],
-    "closingParagraph": "The central argument is that Apple's ecosystem moat, Services growth, and capital efficiency are strong enough to justify a premium multiple despite macro and geopolitical risk."
+    "closingParagraph": "The central argument is that Apple's ecosystem moat, Services growth, and capital efficiency remain strong enough to justify a premium multiple despite macro and geopolitical risk. However, after the stock's move closer to the $295 target price, the expected return profile is now more modest than earlier in the report period."
   },
   "openQuestions": [
     "Can Apple maintain China market share above 15% despite regulatory pressure and Huawei resurgence?",

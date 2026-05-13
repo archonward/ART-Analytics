@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import BulletList from '../common/BulletList';
 import CollapsibleTableSection from '../common/CollapsibleTableSection';
 import DataTable from '../common/DataTable';
@@ -5,6 +6,7 @@ import MetricGrid from '../common/MetricGrid';
 import ParagraphBlock from '../common/ParagraphBlock';
 import PreviousCloseBadge from '../common/PreviousCloseBadge';
 import SectionCard from '../common/SectionCard';
+import { API_BASE, API_HEADERS } from '../../config/api';
 import RevenueEarningsChart from '../charts/RevenueEarningsChart';
 import MarginTrendChart from '../charts/MarginTrendChart';
 import ValuationMultiplesChart from '../charts/ValuationMultiplesChart';
@@ -31,6 +33,52 @@ function RecommendationSnapshot({ finalRecommendation }) {
 
 export default function CoveredReport({ reportData, resultRef, onResetView }) {
   const { meta } = reportData;
+  const [downloadStatus, setDownloadStatus] = useState('');
+  const [isDownloading, setIsDownloading] = useState(false);
+  const earningsDownload = reportData.earningsDownload;
+
+  async function handleEarningsDownload() {
+    if (!earningsDownload?.url) {
+      return;
+    }
+
+    setIsDownloading(true);
+    setDownloadStatus('');
+
+    try {
+      const response = await fetch(`${API_BASE}${earningsDownload.url}`, {
+        headers: API_HEADERS
+      });
+
+      if (!response.ok) {
+        let errorMessage = 'Could not download the earnings report.';
+
+        try {
+          const errorData = await response.json();
+          errorMessage = errorData.error || errorData.message || errorMessage;
+        } catch {
+          // Keep the default message when the response is not JSON.
+        }
+
+        throw new Error(errorMessage);
+      }
+
+      const blob = await response.blob();
+      const objectUrl = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+
+      link.href = objectUrl;
+      link.download = earningsDownload.fileName || `${meta.ticker}-earnings.pdf`;
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      URL.revokeObjectURL(objectUrl);
+    } catch (error) {
+      setDownloadStatus(error.message);
+    } finally {
+      setIsDownloading(false);
+    }
+  }
 
   return (
     <article className="report-shell" ref={resultRef}>
@@ -76,9 +124,24 @@ export default function CoveredReport({ reportData, resultRef, onResetView }) {
         </div>
 
         <div className="report-hero-actions">
+          {earningsDownload && (
+            <button
+              type="button"
+              className="secondary-button"
+              onClick={handleEarningsDownload}
+              disabled={isDownloading}
+            >
+              {isDownloading ? 'Downloading...' : 'Download earnings'}
+            </button>
+          )}
           <button type="button" className="secondary-button" onClick={onResetView}>
             Back to coverage
           </button>
+          {downloadStatus && (
+            <p className="report-download-error" role="status">
+              {downloadStatus}
+            </p>
+          )}
         </div>
       </header>
 
