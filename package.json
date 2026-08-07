@@ -8,7 +8,8 @@
   ],
   "scripts": {
     "dev": "concurrently \"npm run dev --workspace backend\" \"npm run dev --workspace frontend\"",
-    "build": "npm run build --workspace backend && npm run build --workspace frontend"
+    "build": "npm run build --workspace backend && npm run build --workspace frontend",
+    "publish-reports": "npm run publish-reports --workspace backend --"
   },
   "devDependencies": {
     "concurrently": "^9.2.1"
