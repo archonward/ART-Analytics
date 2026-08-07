@@ -15,6 +15,7 @@
     "@aws-sdk/lib-dynamodb": "^3.0.0",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "yahoo-finance2": "^4.0.0"
   }
 }
