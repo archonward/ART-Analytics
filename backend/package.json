@@ -7,7 +7,10 @@
     "dev": "node --watch src/server.js",
     "start": "node src/server.js",
     "build": "node -e \"console.log('backend build check: ok')\"",
-    "test": "node --test"
+    "test": "node --test",
+    "refresh-market-data": "node refreshMarketData.mjs",
+    "sync-market-data": "node refreshMarketData.mjs sync",
+    "publish-reports": "node refreshMarketData.mjs publish"
   },
   "dependencies": {
     "@aws-sdk/client-dynamodb": "^3.0.0",
