@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import ArticleFeed from '../components/news/ArticleFeed';
-import mockNewsArticles from '../data/mockNewsArticles';
+import useNews from '../hooks/useNews';
 
 const coverageCategories = ['Earnings', 'Analyst Ratings', 'Upgrades', 'Dividends'];
 const sectorCategories = ['Technology', 'Healthcare', 'Financials', 'Energy', 'Consumer', 'Biotech'];
@@ -36,10 +36,16 @@ function CategoryGroup({ title, filterKey, categories, activeFilter, onSelect })
 
 export default function NewsAnalysisPage() {
   const [activeFilter, setActiveFilter] = useState(null);
+  const { articles, newsLoading, newsError } = useNews();
   const filteredArticles = activeFilter
-    ? mockNewsArticles.filter((article) => article[activeFilter.key] === activeFilter.value)
-    : mockNewsArticles;
+    ? articles.filter((article) => article[activeFilter.key] === activeFilter.value)
+    : articles;
   const feedTitle = activeFilter?.value || 'Latest';
+  const feedStatus = newsLoading
+    ? 'Loading articles'
+    : newsError
+      ? 'News unavailable'
+      : `${filteredArticles.length} ${filteredArticles.length === 1 ? 'article' : 'articles'}`;
 
   return (
     <main className="news-page">
@@ -60,7 +66,7 @@ export default function NewsAnalysisPage() {
         <div className="news-category-grid">
           <CategoryGroup
             title="By Coverage"
-            filterKey="category"
+            filterKey="coverageCategory"
             categories={coverageCategories}
             activeFilter={activeFilter}
             onSelect={setActiveFilter}
@@ -93,15 +99,28 @@ export default function NewsAnalysisPage() {
             <p className="section-label">News feed preview</p>
             <h2 id="news-latest-title">{feedTitle}</h2>
           </div>
-          <p className="news-latest-note">
-            {filteredArticles.length} mock {filteredArticles.length === 1 ? 'article' : 'articles'}
-          </p>
+          <p className="news-latest-note">{feedStatus}</p>
         </header>
 
-        {filteredArticles.length > 0 ? (
+        {newsLoading ? (
+          <div className="news-feed-state" aria-live="polite">
+            <h3>Loading news articles</h3>
+            <p>Retrieving the latest available articles from ART Analytics.</p>
+          </div>
+        ) : newsError ? (
+          <div className="news-feed-state news-feed-state-error" role="alert">
+            <h3>News is temporarily unavailable</h3>
+            <p>{newsError}</p>
+          </div>
+        ) : articles.length === 0 ? (
+          <div className="news-feed-state">
+            <h3>No news articles are available</h3>
+            <p>ART Analytics has not published any articles yet.</p>
+          </div>
+        ) : filteredArticles.length > 0 ? (
           <ArticleFeed articles={filteredArticles} />
         ) : (
-          <div className="news-feed-empty">
+          <div className="news-feed-state">
             <h3>No articles in this view</h3>
             <p>Choose another category or return to All News &amp; Analysis.</p>
           </div>

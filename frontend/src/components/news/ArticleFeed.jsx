@@ -26,7 +26,7 @@ function ArticleFeedItem({ article }) {
       </div>
 
       <div className="news-feed-classification" aria-label="Article classification">
-        <span className="news-feed-category">{article.category}</span>
+        <span className="news-feed-category">{article.coverageCategory}</span>
         <span className="news-feed-sector">{article.sector}</span>
         {article.tickers.length > 0 && (
           <ul className="news-feed-tickers" aria-label="Related tickers">

@@ -120,20 +120,24 @@
   color: var(--text-primary);
 }
 
-.news-feed-empty {
+.news-feed-state {
   display: grid;
   gap: var(--space-3);
   padding: var(--space-8) var(--space-7);
   text-align: center;
 }
 
-.news-feed-empty h3 {
+.news-feed-state h3 {
   font-size: 1.15rem;
 }
 
-.news-feed-empty p {
+.news-feed-state p {
   color: var(--text-secondary);
   line-height: 1.6;
+}
+
+.news-feed-state-error h3 {
+  color: #f0d1d1;
 }
 
 @media (max-width: 980px) {
