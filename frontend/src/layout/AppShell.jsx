@@ -1,7 +1,11 @@
 import { useEffect, useState } from 'react';
-import { Link, Outlet, useLocation, useMatch, useNavigate } from 'react-router-dom';
+import { Link, NavLink, Outlet, useLocation, useMatch, useNavigate } from 'react-router-dom';
 
-function getWorkspaceStatus(isReportRoute, routeTicker) {
+function getWorkspaceStatus(isNewsRoute, isReportRoute, routeTicker) {
+  if (isNewsRoute) {
+    return 'News & Analysis';
+  }
+
   if (isReportRoute && routeTicker) {
     return `Report workspace / ${routeTicker}`;
   }
@@ -17,6 +21,7 @@ export default function AppShell() {
   const navigate = useNavigate();
   const location = useLocation();
   const reportMatch = useMatch('/report/:ticker');
+  const isNewsRoute = Boolean(useMatch('/news'));
   const routeTicker = reportMatch?.params?.ticker?.toUpperCase() || '';
   const isReportRoute = Boolean(reportMatch);
   const [searchValue, setSearchValue] = useState(routeTicker);
@@ -73,11 +78,31 @@ export default function AppShell() {
             </div>
           </div>
 
-          <div className="app-status" aria-label="Workspace status">
-            <span className="status-dot" aria-hidden="true" />
-            <div>
-              <p className="status-label">Workspace</p>
-              <p className="status-value">{getWorkspaceStatus(isReportRoute, routeTicker)}</p>
+          <div className="header-actions">
+            <nav className="app-navigation" aria-label="Primary navigation">
+              <NavLink
+                to="/"
+                end
+                className={({ isActive }) => `app-navigation-link${isActive ? ' active' : ''}`}
+              >
+                Coverage
+              </NavLink>
+              <NavLink
+                to="/news"
+                className={({ isActive }) => `app-navigation-link${isActive ? ' active' : ''}`}
+              >
+                News &amp; Analysis
+              </NavLink>
+            </nav>
+
+            <div className="app-status" aria-label="Workspace status">
+              <span className="status-dot" aria-hidden="true" />
+              <div>
+                <p className="status-label">Workspace</p>
+                <p className="status-value">
+                  {getWorkspaceStatus(isNewsRoute, isReportRoute, routeTicker)}
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -109,7 +134,11 @@ export default function AppShell() {
         </div>
       </header>
 
-      <div className={`workspace ${isReportRoute ? 'workspace-report' : 'workspace-dashboard'}`}>
+      <div
+        className={`workspace ${
+          isReportRoute ? 'workspace-report' : isNewsRoute ? 'workspace-news' : 'workspace-dashboard'
+        }`}
+      >
         <Outlet />
       </div>
     </div>
