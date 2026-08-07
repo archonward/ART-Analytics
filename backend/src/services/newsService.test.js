@@ -1,5 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import placeholderNewsProvider from '../providers/news/placeholderNewsProvider.js';
 import { listNewsArticles } from './newsService.js';
 import { validateNewsArticle, validateNewsArticles } from '../utils/newsValidator.js';
 import { buildNewsResponse } from '../utils/responseBuilders.js';
@@ -29,6 +30,40 @@ test('listNewsArticles returns a fresh ticker array for each request', async () 
 
   const secondResult = await listNewsArticles();
   assert.equal(secondResult[0].tickers.includes('TEST'), false);
+});
+
+test('placeholder provider keeps raw records separate from normalized articles', async () => {
+  const [rawArticle] = await placeholderNewsProvider.loadRawArticles();
+  const normalizedArticle = placeholderNewsProvider.normalizeArticle(rawArticle);
+
+  assert.equal(rawArticle.title, normalizedArticle.headline);
+  assert.equal(Object.hasOwn(rawArticle, 'headline'), false);
+  assert.equal(validateNewsArticle(normalizedArticle).valid, true);
+});
+
+test('listNewsArticles accepts a provider implementing the news provider boundary', async () => {
+  const provider = {
+    async loadRawArticles() {
+      return [{ externalId: 'future-provider-article' }];
+    },
+    normalizeArticle(rawArticle) {
+      return {
+        id: rawArticle.externalId,
+        headline: 'Future provider article',
+        summary: 'A provider adapter maps raw fields to the stable contract.',
+        source: 'Test Provider',
+        publishedAt: '2026-08-08T12:00:00.000Z',
+        url: 'https://example.com/future-provider-article',
+        coverageCategory: 'Earnings',
+        sector: 'Technology',
+        tickers: ['TEST']
+      };
+    }
+  };
+
+  const articles = await listNewsArticles(provider);
+  assert.equal(articles[0].id, 'future-provider-article');
+  assert.equal(validateNewsArticles(articles).valid, true);
 });
 
 test('validateNewsArticle rejects malformed contract fields', () => {
