@@ -3,6 +3,7 @@ import dotenv from 'dotenv';
 import express from 'express';
 import { listCoveredTickers } from './data/coverageRegistry.js';
 import { requireApiKey } from './middleware/auth.js';
+import newsRouter from './routes/newsRoutes.js';
 import { answerReportQuestion } from './services/qaService.js';
 import { getLatestEarningsFileByTicker } from './services/earningsFileService.js';
 import { retrieveRelevantReportChunks } from './services/retrievalService.js';
@@ -53,6 +54,8 @@ app.get('/api/coverage', (_, res) => {
     coveredTickers: listCoveredTickers()
   });
 });
+
+app.use('/api/news', newsRouter);
 
 app.get('/api/report-template', requireApiKey, (_, res) => {
   res.json({
