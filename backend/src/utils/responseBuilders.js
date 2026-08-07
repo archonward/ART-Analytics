@@ -20,3 +20,10 @@ export function buildCoveredResponse(report, options = {}) {
     ...(options.earningsDownload ? { earningsDownload: options.earningsDownload } : {})
   };
 }
+
+export function buildNewsResponse(articles) {
+  return {
+    status: 'ok',
+    articles
+  };
+}
