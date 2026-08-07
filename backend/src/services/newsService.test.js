@@ -6,7 +6,7 @@ import { validateNewsArticle, validateNewsArticles } from '../utils/newsValidato
 import { buildNewsResponse } from '../utils/responseBuilders.js';
 
 test('listNewsArticles returns articles matching the normalized contract', async () => {
-  const articles = await listNewsArticles();
+  const articles = await listNewsArticles(placeholderNewsProvider);
   const validation = validateNewsArticles(articles);
 
   assert.ok(articles.length > 0);
@@ -25,10 +25,10 @@ test('listNewsArticles returns articles matching the normalized contract', async
 });
 
 test('listNewsArticles returns a fresh ticker array for each request', async () => {
-  const firstResult = await listNewsArticles();
+  const firstResult = await listNewsArticles(placeholderNewsProvider);
   firstResult[0].tickers.push('TEST');
 
-  const secondResult = await listNewsArticles();
+  const secondResult = await listNewsArticles(placeholderNewsProvider);
   assert.equal(secondResult[0].tickers.includes('TEST'), false);
 });
 
@@ -86,7 +86,7 @@ test('validateNewsArticle rejects malformed contract fields', () => {
 });
 
 test('buildNewsResponse wraps articles in the public success envelope', async () => {
-  const articles = await listNewsArticles();
+  const articles = await listNewsArticles(placeholderNewsProvider);
 
   assert.deepEqual(buildNewsResponse(articles), {
     status: 'ok',
