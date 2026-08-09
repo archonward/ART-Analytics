@@ -1,7 +1,6 @@
 import { classifyCoverageCategory, classifySector } from '../../services/newsClassifier.js';
 
 const marketauxNewsUrl = 'https://api.marketaux.com/v1/news/all';
-const defaultArticleLimit = 10;
 
 function nonEmptyString(value) {
   return typeof value === 'string' && value.trim().length > 0;
@@ -36,7 +35,7 @@ export function normalizeMarketauxArticle(article) {
 export function createMarketauxNewsProvider({
   apiToken,
   fetchImpl = globalThis.fetch,
-  articleLimit = defaultArticleLimit
+  articleLimit
 } = {}) {
   return {
     async loadRawArticles() {
@@ -52,7 +51,14 @@ export function createMarketauxNewsProvider({
       url.searchParams.set('entity_types', 'equity');
       url.searchParams.set('must_have_entities', 'true');
       url.searchParams.set('filter_entities', 'true');
-      url.searchParams.set('limit', String(articleLimit));
+      url.searchParams.set('group_similar', 'true');
+
+      // Marketaux defaults to the maximum article count allowed by the token's
+      // plan when limit is omitted. Tests and callers may still request a
+      // smaller explicit limit when needed.
+      if (articleLimit !== undefined) {
+        url.searchParams.set('limit', String(articleLimit));
+      }
 
       const response = await fetchImpl(url, {
         headers: {

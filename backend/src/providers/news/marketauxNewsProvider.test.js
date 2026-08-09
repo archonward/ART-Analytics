@@ -69,12 +69,13 @@ test('extractMarketauxTickers returns unique equity symbols only', () => {
   assert.deepEqual(tickers, ['AAPL', 'MSFT']);
 });
 
-test('Marketaux provider requests current English-language equity news', async () => {
+test('Marketaux provider requests the plan maximum of varied English-language equity news', async () => {
   let requestedUrl;
+  let requestCount = 0;
   const provider = createMarketauxNewsProvider({
     apiToken: 'test-token',
-    articleLimit: 5,
     async fetchImpl(url) {
+      requestCount += 1;
       requestedUrl = url;
       return {
         ok: true,
@@ -95,6 +96,34 @@ test('Marketaux provider requests current English-language equity news', async (
   assert.equal(requestedUrl.searchParams.get('language'), 'en');
   assert.equal(requestedUrl.searchParams.get('entity_types'), 'equity');
   assert.equal(requestedUrl.searchParams.get('must_have_entities'), 'true');
+  assert.equal(requestedUrl.searchParams.get('filter_entities'), 'true');
+  assert.equal(requestedUrl.searchParams.get('group_similar'), 'true');
+  assert.equal(requestedUrl.searchParams.has('limit'), false);
+  assert.equal(requestedUrl.searchParams.has('symbols'), false);
+  assert.equal(requestedUrl.searchParams.has('industries'), false);
+  assert.equal(requestedUrl.searchParams.has('countries'), false);
+  assert.equal(requestCount, 1);
+});
+
+test('Marketaux provider permits an explicit smaller article limit', async () => {
+  let requestedUrl;
+  const provider = createMarketauxNewsProvider({
+    apiToken: 'test-token',
+    articleLimit: 5,
+    async fetchImpl(url) {
+      requestedUrl = url;
+      return {
+        ok: true,
+        status: 200,
+        async json() {
+          return { data: [] };
+        }
+      };
+    }
+  });
+
+  await provider.loadRawArticles();
+
   assert.equal(requestedUrl.searchParams.get('limit'), '5');
 });
 
