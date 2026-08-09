@@ -33,7 +33,7 @@ test('normalizeMarketauxArticle maps a raw response to the ART Analytics contrac
     publishedAt: '2026-08-08T12:30:00.000000Z',
     url: 'https://example.com/marketaux-article-1',
     coverageCategory: 'General',
-    sector: 'Unclassified',
+    sector: 'Technology',
     tickers: ['NVDA', 'AVGO']
   });
   assert.equal(validateNewsArticle(article).valid, true);
@@ -50,6 +50,8 @@ test('normalizeMarketauxArticle handles missing optional provider fields', () =>
 
   assert.equal(article.summary, 'Summary unavailable.');
   assert.equal(article.source, 'Marketaux');
+  assert.equal(article.coverageCategory, 'General');
+  assert.equal(article.sector, 'Technology');
   assert.deepEqual(article.tickers, []);
   assert.equal(validateNewsArticle(article).valid, true);
 });

@@ -1,3 +1,5 @@
+import { classifyCoverageCategory, classifySector } from '../../services/newsClassifier.js';
+
 const marketauxNewsUrl = 'https://api.marketaux.com/v1/news/all';
 const defaultArticleLimit = 10;
 
@@ -25,8 +27,8 @@ export function normalizeMarketauxArticle(article) {
     source: article.source || 'Marketaux',
     publishedAt: article.published_at,
     url: article.url,
-    coverageCategory: 'General',
-    sector: 'Unclassified',
+    coverageCategory: classifyCoverageCategory(article),
+    sector: classifySector(article),
     tickers: extractMarketauxTickers(article.entities)
   };
 }
