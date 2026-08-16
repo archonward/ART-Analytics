@@ -1,9 +1,11 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import placeholderNewsProvider from '../providers/news/placeholderNewsProvider.js';
+import { createInMemoryNewsArticleRepository } from '../repositories/inMemoryNewsArticleRepository.js';
 import {
   createNewsService,
   DEFAULT_NEWS_CACHE_TTL_MS,
+  DEFAULT_NEWS_FEED_LIMIT,
   listNewsArticles
 } from './newsService.js';
 import { validateNewsArticle, validateNewsArticles } from '../utils/newsValidator.js';
@@ -44,6 +46,69 @@ function createCountingProvider() {
     failRequests: () => {
       shouldFail = true;
     }
+  };
+}
+
+function createArticle(id, publishedAt, overrides = {}) {
+  return {
+    id,
+    headline: `Headline for ${id}`,
+    summary: `Summary for ${id}`,
+    source: 'Test Provider',
+    publishedAt,
+    url: `https://example.com/${id}`,
+    coverageCategory: 'General',
+    sector: 'Unclassified',
+    tickers: [],
+    ...overrides
+  };
+}
+
+function createStaticProvider(articles, { waitFor } = {}) {
+  let callCount = 0;
+
+  return {
+    provider: {
+      async loadRawArticles() {
+        callCount += 1;
+
+        if (waitFor) {
+          await waitFor;
+        }
+
+        return articles.map((article) => ({
+          ...article,
+          tickers: [...article.tickers]
+        }));
+      },
+      normalizeArticle(article) {
+        return {
+          ...article,
+          tickers: [...article.tickers]
+        };
+      }
+    },
+    getCallCount: () => callCount
+  };
+}
+
+function trackRepository(repository) {
+  let saveCount = 0;
+  let listCount = 0;
+
+  return {
+    repository: {
+      async saveArticles(articles) {
+        saveCount += 1;
+        return repository.saveArticles(articles);
+      },
+      async listLatestArticles(limit) {
+        listCount += 1;
+        return repository.listLatestArticles(limit);
+      }
+    },
+    getSaveCount: () => saveCount,
+    getListCount: () => listCount
   };
 }
 
@@ -141,6 +206,117 @@ test('news cache serves stale articles when a refresh fails', async () => {
   assert.deepEqual(staleResult, firstResult);
   assert.deepEqual(repeatedResult, firstResult);
   assert.equal(countingProvider.getCallCount(), 2);
+});
+
+test('news service preserves provider-only behavior when no repository is supplied', async () => {
+  const providerBatch = [
+    createArticle('provider-first', '2026-08-12T08:00:00.000Z'),
+    createArticle('provider-second', '2026-08-13T08:00:00.000Z')
+  ];
+  const staticProvider = createStaticProvider(providerBatch);
+  const service = createNewsService({ provider: staticProvider.provider });
+
+  const articles = await service.listNewsArticles();
+
+  assert.deepEqual(articles, providerBatch);
+  assert.equal(staticProvider.getCallCount(), 1);
+});
+
+test('news service saves retrieved articles and includes the rolling archive newest-first', async () => {
+  const repository = createInMemoryNewsArticleRepository();
+  const archivedArticle = createArticle('archived', '2026-08-12T08:00:00.000Z');
+  const currentArticle = createArticle('current', '2026-08-13T08:00:00.000Z');
+  await repository.saveArticles([archivedArticle]);
+  const staticProvider = createStaticProvider([currentArticle]);
+  const service = createNewsService({
+    provider: staticProvider.provider,
+    repository
+  });
+
+  const articles = await service.listNewsArticles();
+  const persistedArticles = await repository.listLatestArticles(DEFAULT_NEWS_FEED_LIMIT);
+
+  assert.deepEqual(articles.map((article) => article.id), ['current', 'archived']);
+  assert.deepEqual(persistedArticles.map((article) => article.id), ['current', 'archived']);
+});
+
+test('news service deduplicates the rolling archive and respects its feed limit', async () => {
+  const repository = createInMemoryNewsArticleRepository();
+  await repository.saveArticles([
+    createArticle('duplicate', '2026-08-12T08:00:00.000Z', {
+      headline: 'Previously persisted duplicate'
+    }),
+    createArticle('archived', '2026-08-11T08:00:00.000Z')
+  ]);
+  const staticProvider = createStaticProvider([
+    createArticle('newest', '2026-08-14T08:00:00.000Z'),
+    createArticle('duplicate', '2026-08-13T08:00:00.000Z', {
+      headline: 'Current provider duplicate'
+    })
+  ]);
+  const service = createNewsService({
+    provider: staticProvider.provider,
+    repository,
+    rollingFeedLimit: 2
+  });
+
+  const articles = await service.listNewsArticles();
+
+  assert.deepEqual(articles.map((article) => article.id), ['newest', 'duplicate']);
+  assert.equal(articles[1].headline, 'Current provider duplicate');
+  assert.equal(articles.filter((article) => article.id === 'duplicate').length, 1);
+});
+
+test('news cache avoids repeated provider and repository work within its lifetime', async () => {
+  const backingRepository = createInMemoryNewsArticleRepository();
+  const trackedRepository = trackRepository(backingRepository);
+  const staticProvider = createStaticProvider([
+    createArticle('cached-feed', '2026-08-13T08:00:00.000Z')
+  ]);
+  const service = createNewsService({
+    provider: staticProvider.provider,
+    repository: trackedRepository.repository
+  });
+
+  const firstResult = await service.listNewsArticles();
+  const secondResult = await service.listNewsArticles();
+
+  assert.deepEqual(secondResult, firstResult);
+  assert.equal(staticProvider.getCallCount(), 1);
+  assert.equal(trackedRepository.getSaveCount(), 1);
+  assert.equal(trackedRepository.getListCount(), 1);
+});
+
+test('concurrent cache misses share one provider and repository refresh', async () => {
+  let releaseProvider;
+  const providerGate = new Promise((resolve) => {
+    releaseProvider = resolve;
+  });
+  const backingRepository = createInMemoryNewsArticleRepository();
+  const trackedRepository = trackRepository(backingRepository);
+  const staticProvider = createStaticProvider([
+    createArticle('single-flight', '2026-08-13T08:00:00.000Z')
+  ], { waitFor: providerGate });
+  const service = createNewsService({
+    provider: staticProvider.provider,
+    repository: trackedRepository.repository
+  });
+
+  const requests = [
+    service.listNewsArticles(),
+    service.listNewsArticles(),
+    service.listNewsArticles()
+  ];
+  await Promise.resolve();
+
+  assert.equal(staticProvider.getCallCount(), 1);
+  releaseProvider();
+  const results = await Promise.all(requests);
+
+  assert.deepEqual(results[1], results[0]);
+  assert.deepEqual(results[2], results[0]);
+  assert.equal(trackedRepository.getSaveCount(), 1);
+  assert.equal(trackedRepository.getListCount(), 1);
 });
 
 test('placeholder provider keeps raw records separate from normalized articles', async () => {
